@@ -1,0 +1,928 @@
+<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>BL Add. 12,172</title>
+        <principal>Wright, William</principal>
+        <respStmt>
+          <resp></resp>
+          <persName>David Michelson</persName>
+        </respStmt>
+        <respStmt>
+          <resp></resp>
+          <persName>Daniel Greeson</persName>
+        </respStmt>
+        <respStmt>
+          <resp></resp>
+          <persName>Tucker Hannah</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <date calendar="Gregorian">2012-11-13</date>
+        <pubPlace/>
+        <distributor>E-Corpus</distributor>
+        <idno>[E-Corpus ID Number]</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="MSSSyriaques" xml:lang="en">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Christian Middle East Section</collection>
+            <idno>BL MS Add. 12,172</idno></msIdentifier>
+          <msPart n="1" xml:id="Part1">
+            <altIdentifier type="internal">
+              <collection>Wright</collection>
+              <idno>DLXXX</idno>
+              <idno>BL Add 12,172 ff. 1-11</idno>
+            </altIdentifier>
+            <msContents>
+              <summary></summary>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="part1a1">
+                <locus from="1b" to="4">foll. 1b-4</locus>
+                <author ref="">Isaiah of Scete</author>
+                <rubric><title key="" ref="http://lccn.loc.gov/">ܡܐܡܪܐ ܡܘܬܪܢܐ ܕܢܦܫܐ</title></rubric>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part1r1">DLXXX</ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part1r2">465</ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem n="2" xml:id="part1a2">
+                <locus from="4a" to="5">foll. 4a-5</locus>
+                <author ref="">Isaiah of Scete</author>
+                <rubric><title key="" ref="http://lccn.loc.gov/">ܬܪ̈ܥܣܪ ܡܬܟܪ̈ܟܢܐ ܟܕ ܝܬܒܝܢ ܘܐܡ̣ܪܘ ܗܠܝܢ</title></rubric>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part1r1">DLXXX</ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part1r2">465</ref>
+                  </bibl>
+                </listBibl>
+                </msItem>
+                <msItem n="3" xml:id="part1a3">
+                  <locus from="5b" to="7">foll. 5b-7</locus>
+                  <author ref="">Isaiah of Scete</author>
+                  <rubric><title key="" ref="http://lccn.loc.gov/">ܕܐܝܟܢܐ ܘ̇ܠܐ ܠܗܘܢ ܠܐܚ̈ܐ ܕܢܚܘܢ ܥܡ ܚܕܕܐ</title></rubric>
+                  <listBibl>
+                    <bibl>
+                      <ref target="#part1r1">DLXXX</ref>
+                    </bibl>
+                    <bibl>
+                      <ref target="#part1r2">465</ref>
+                    </bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="4" xml:id="part1a4">
+                  <locus from="7b" to="8">foll. 7b-8</locus>
+                  <author ref="">Isaiah of Scete</author>
+                  <rubric><title key="" ref="http://lccn.loc.gov/">ܡܛܠ ܡܟܝܟܘܬܐ</title></rubric>
+                  <listBibl>
+                    <bibl>
+                      <ref target="#part1r1">DLXXX</ref>
+                    </bibl>
+                    <bibl>
+                      <ref target="#part1r2">465</ref>
+                    </bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="5" xml:id="part1a5">
+                  <locus from="8a" to="9">foll. 8a-9</locus>
+                  <author ref="">Isaiah of Scete</author>
+                  <rubric><title key="" ref="http://lccn.loc.gov/">ܦܘܩ̈ܕܢܐ ܠܗ̇ܢܘܢ ܕܡܬܪܚܩܝܢ ܡܢ ܥܠܡܐ</title></rubric>
+                  <listBibl>
+                    <bibl>
+                      <ref target="#part1r1">DLXXX</ref>
+                    </bibl>
+                    <bibl>
+                      <ref target="#part1r2">465</ref>
+                    </bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="6" xml:id="part1a6">
+                  <locus from="9a" to="11">foll. 9a-11</locus>
+                  <author ref="">Isaiah of Scete</author>
+                  <rubric><title key="" ref="http://lccn.loc.gov/">ܡܛܠ ܐܝܠܝܢ ܕܫ̣ܡܥ ܘܚ̣ܙܐ ܨܝܕ ܣ̈ܒܐ</title></rubric>
+                  <listBibl>
+                    <bibl>
+                      <ref target="#part1r1">DLXXX</ref>
+                    </bibl>
+                    <bibl>
+                      <ref target="#part1r2">465</ref>
+                    </bibl>
+                  </listBibl>
+                </msItem>
+              <p>See <ref target="">Add. 14,575</ref>, items 1—6.</p>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>vellum</material></support>
+                  <extent> 11 leaves
+                    <dimensions type="leaf" unit="in">
+                      <height>9 1/2 in.</height>
+                      <width>6 3/8 in.</width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p></p>
+                    <seg n="1" type="gathering">
+                      <locus from="" to=""></locus>
+                      <formula/>
+                    </seg>
+                  </collation>
+                  <condition>
+                    <p>The last folio is much torn and the first slightly so. The <ref target="#part1a6">sixth item</ref> of the manuscript is imperfect.</p>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2" writtenLines="28 30">
+                    <locus from="1" to="11"/>
+                    <p>Each page is divided into two columns, of from 28 to 30 lines.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                <handNote scope="major" script="unknown" medium="unknown">
+                  <p>This manuscript is written in a good, regular hand of about the <origDate notBefore="0900" notAfter="1000">10th century</origDate>.</p>
+                </handNote>
+              </handDesc>
+              <additions>
+                <p>on the margin of <locus from="2a" target="#part1a1">fol. 2 a</locus> are the words <quote xml:lang="syr">ܘܬܘܒ ܕܡܪܝ ܐܝܣܚܩ</quote></p>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0900" notAfter="1000">10th century</origDate>
+              </origin>
+              <provenance>
+                <list>
+                  <item><p>The note on <locus from="1a">fol. 1a</locus> states that the manuscript belonged to one 
+                  <listPerson><person role="owner" xml:id="Zach_b._John"><persName>Zachariah, the son of John,</persName></person></listPerson> 
+                  who bequeathed it after his death to the monks <q>"of this convent"</q> (<placeName type="supplied" ref="">S. Mary Deipara</placeName>?), 
+                  to be sold and its price divided among them, that he might be remembered in their prayers</p>
+                  <title xml:lang="syr">ܐܬܚܦܛ ܘܐܝ̣ܨܦ ܘܩܢܐ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܬܐ (sic) ܟܬܒܐ ܕܐܒܐ ܐܫܥܝܐ. ܙܟܪܝܐ ܒܪ ܝܘܚܢܢ. ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ. ܘܡܢ ܒܘܪܟܬܐ ܕܡ̣ܛܬ ܠܗ ܡܢ ܐܒܗܘ̈ܗܝ. ܐܝܟ ܕܠܦܘܪܩܢܐ ܕܢܦܫܗ̣ ܘܕܘܟܪܢܐ ܕܥ̈ܢܝܕܘܗܝ. ܐܠܐ ܡܛܠ ܡܪܢ ܕܢܩ̣ܪܐ ܒܗ̣ ܢܨ̇ܠܐ ܥܠܘܗܝ̣ ܕܢܚ̇ܣܐ ܠܗ ܐܠܗܐ ܘܠܐܒܗܘ̈ܗܝ. ܘܡܢ ܒܬܪ ܥܘܢܕܢܗ ܦܩܕܗ ܠܗܠܝܢ ܠܐܒܗ̈ܬܐ ܩܕܝ̈ܫܐ ܕܐܝܬ ܒܕܝܪܐ ܗܕܐ. ܕܢܙܕܒ̇ܢ ܘܢܬ݀ܦܠܓ ܛܝܡ̈ܘܗܝ ܥܠܝܗܘܢ. ܕܢܬܕܟܪܘܢܝܗܝ ܒܨ̈ܠܘܬܗܘܢ. ܘܟܠ ܕܠܚ̇ܐ ܏ܘܫ..</title></item>
+                <item>
+                  <p>It was at one time bound with another codex containing the works of <listPerson><person role="owner" xml:id="Isaac_Ant"><persName>Isaac of Antioch</persName></person></listPerson>, for on the margin of <locus from="2a" target="#part1a1">fol. 2 a</locus> are the words <quote xml:lang="syr">ܘܬܘܒ ܕܡܪܝ ܐܝܣܚܩ</quote></p>
+                </item>
+                </list>
+                </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<list>
+                    <item><ref xml:id="part1r1">Numeral citation is based on William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                    <item><ref xml:id="part1r2">Pagination refers to William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                  </list>abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690-91.</bibl>
+              </listBibl>
+            </additional>
+          </msPart>  
+          <msPart n="2" xml:id="Part2">
+            <altIdentifier type="internal">
+              <collection>Wright</collection>
+              <idno></idno>
+            </altIdentifier>
+            <msContents>
+              <summary></summary>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="part2a1">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part2r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part2r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem n="2" xml:id="part2a2">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part2r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part2r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="">
+                <supportDesc material="">
+                  <support><material></material></support>
+                  <extent>
+                    <dimensions type="leaf" unit="in">
+                      <height></height>
+                      <width></width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p></p>
+                    <seg n="1" type="gathering">
+                      <locus from="" to=""></locus>
+                      <formula/>
+                    </seg>
+                  </collation>
+                  <condition>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="" writtenLines="">
+                    <locus from="" to=""/>
+                    <p/>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                <handNote scope="major" script="Nestorian" medium="unknown">
+                </handNote>
+              </handDesc>
+              <additions>
+                <p/>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="" notAfter=""></origDate>
+              </origin>
+              <provenance>
+                <p/>
+              </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<list>
+                    <item><ref xml:id="part2r1">Numeral citation is based on William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                    <item><ref xml:id="part2r2">Pagination refers to William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                  </list>abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690-91.</bibl>
+              </listBibl>
+            </additional>
+          </msPart>  
+          <msPart n="3" xml:id="Part3">
+            <altIdentifier type="internal">
+              <collection>Wright</collection>
+              <idno></idno>
+            </altIdentifier>
+            <msContents>
+              <summary></summary>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="part3a1">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part3r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part3r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem n="2" xml:id="part3a2">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part3r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part3r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="">
+                <supportDesc material="">
+                  <support><material></material></support>
+                  <extent>
+                    <dimensions type="leaf" unit="in">
+                      <height></height>
+                      <width></width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p></p>
+                    <seg n="1" type="gathering">
+                      <locus from="" to=""></locus>
+                      <formula/>
+                    </seg>
+                  </collation>
+                  <condition>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="" writtenLines="">
+                    <locus from="" to=""/>
+                    <p/>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                <handNote scope="major" script="Nestorian" medium="unknown">
+                </handNote>
+              </handDesc>
+              <additions>
+                <p/>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="" notAfter=""></origDate>
+              </origin>
+              <provenance>
+                <p/>
+              </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<list>
+                    <item><ref xml:id="part3r1">Numeral citation is based on William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                    <item><ref xml:id="part3r2">Pagination refers to William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                  </list>abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690-91.</bibl>
+              </listBibl>
+            </additional>
+          </msPart>  
+          <msPart n="4" xml:id="Part4">
+            <altIdentifier type="internal">
+              <collection>Wright</collection>
+              <idno></idno>
+            </altIdentifier>
+            <msContents>
+              <summary></summary>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="part4a1">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part4r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part4r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem n="2" xml:id="part4a2">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part4r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part4r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="">
+                <supportDesc material="">
+                  <support><material></material></support>
+                  <extent>
+                    <dimensions type="leaf" unit="in">
+                      <height></height>
+                      <width></width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p></p>
+                    <seg n="1" type="gathering">
+                      <locus from="" to=""></locus>
+                      <formula/>
+                    </seg>
+                  </collation>
+                  <condition>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="" writtenLines="">
+                    <locus from="" to=""/>
+                    <p/>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                <handNote scope="major" script="Nestorian" medium="unknown">
+                </handNote>
+              </handDesc>
+              <additions>
+                <p/>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="" notAfter=""></origDate>
+              </origin>
+              <provenance>
+                <p/>
+              </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<list>
+                    <item><ref xml:id="part4r1">Numeral citation is based on William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                    <item><ref xml:id="part4r2">Pagination refers to William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                  </list>abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690-91.</bibl>
+              </listBibl>
+            </additional>
+          </msPart>  
+          <msPart n="5" xml:id="Part5">
+            <altIdentifier type="internal">
+              <collection>Wright</collection>
+              <idno></idno>
+            </altIdentifier>
+            <msContents>
+              <summary></summary>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="part5a1">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part5r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part5r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem n="2" xml:id="part5a2">
+                <locus from="" to=""></locus>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/"></title>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part5r1"></ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part5r2"></ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="">
+                <supportDesc material="">
+                  <support><material></material></support>
+                  <extent>
+                    <dimensions type="leaf" unit="in">
+                      <height></height>
+                      <width></width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p></p>
+                    <seg n="1" type="gathering">
+                      <locus from="" to=""></locus>
+                      <formula/>
+                    </seg>
+                  </collation>
+                  <condition>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="" writtenLines="">
+                    <locus from="" to=""/>
+                    <p/>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                <handNote scope="major" script="Nestorian" medium="unknown">
+                </handNote>
+              </handDesc>
+              <additions>
+                <p/>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="" notAfter=""></origDate>
+              </origin>
+              <provenance>
+                <p/>
+              </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<list>
+                    <item><ref xml:id="part5r1">Numeral citation is based on William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                    <item><ref xml:id="part5r2">Pagination refers to William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                  </list>abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690-91.</bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="6" xml:id="Part6">
+            <altIdentifier type="internal">
+              <collection>Wright</collection>
+              <idno>VII</idno>
+              <idno>BL Add 12,172 ff. 136-196</idno>
+            </altIdentifier>
+            <msContents>
+              <summary>Biblical Manuscripts: Old Testament</summary>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="part6a1">
+                <locus from="136b" to="188">fol. 136b-188</locus>
+                <author/>
+                <title key="n80017837" ref="http://lccn.loc.gov/n80017837">The book of Genesis, according to the Peshitta version</title>
+                <note><quote>The text, from the beginning to ch. xxxii. 28 <locus from="164b">(fol. 164 b)</locus> is divided into 22 sections<!-- This should probably be marked somehow -->, marked on the margin</quote></note>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part6r1">VII</ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part6r2">7</ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem n="2" xml:id="part6a2">
+                <locus from="188b" to="192">fol. 188b-192</locus>
+                <author/>
+                <title xml:lang="en">The story of Eleazar, Shamuni and her seven sons, extracted from the second book of the Maccabees, 6:18-7:42</title>
+                <incipit xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܡܢ ܟܬܒܐ ܕܡ̈ܩܒܝܐ܇ ܥܠ ܐܠܝܥܙܪ ܪܝܫܐ ܕܣ̇ܦܪ̈ܐ. ܘܫܡܘܢܐ ܘܫܒܥܐ ܒܢ̈ܝܗ̇ . . ܐܠܝܥܙܪ ܪܝܫܐ ܕܣ̇ܦܪ̈ܐ: ܓܒܪܐ ܣܒܐ܇ ܕܚܙܘܐ ܕܐܦܘ̈ܗܝ ܪܓܝܓ ܗܘܐ̇ ܘܫܦܝܪ ܣ̇ܓܝ܆ ܡܬ̣ܐܠܨ ܗܘܐ̇ ܕܢܐܟܘܠ ܒܣܪܐ ܕܐܚܙܝܪܐ. ܘ܏ܫ.</incipit>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part6r1">VII</ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part6r2">7</ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+              <msItem n="3" xml:id="part6a3">
+                <locus from="192b">fol. 192 b</locus>
+                <author key=""/>
+                <title xml:lang="en">The first epistle of Baruch</title>
+                <title xml:lang="syr">ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܒܪܘܟ ܣ̇ܦܪܐ ܕܫܕܪ ܡܢ ܐܘܪܫܠܝܡ ܠܒܒܠ</title>
+                <colophon><ref target="#part6m1">See below.</ref></colophon>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part6r1">VII</ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part6r2">7</ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>vellum</material></support>
+                  <extent>61
+                    <dimensions type="leaf" unit="in">
+                      <height>9 1/2 in.</height>
+                      <width>6 3/8 in.</width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p>The quires, 6 in number, are signed with letters</p>
+                    <seg n="1" type="gathering">
+                      <locus from="136" to="196">ff. 136-196</locus>
+                      <formula/><!-- No clear formula is given for how many leaves are in each quire -->
+                    </seg>
+                  </collation>
+                  <condition>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="1" writtenLines="22 33">
+                    <locus from="136" to="196"/>
+                    <p>There are from 22 to 33 lines on each page</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                <handNote scope="major" script="Nestorian" medium="unknown">
+                  <ref target="#part6a1"/>
+                  <locus from="136" to="164"/>
+                </handNote>
+                <handNote scope="major" script="unknown" medium="unknown"> 
+                  <ref target="#part6a1"/>
+                  <ref target="#part6a2"/>
+                  <ref target="#part6a3"/>
+                  <locus from="165" to="196"/>
+                </handNote>
+              </handDesc>
+              <additions>
+                <list>
+                  <item xml:id="part6m1">
+                    <p>On <locus from="195b" to="195b">fol. 195 b</locus> there is twice written the name of one 
+                      <listPerson>
+                        <person xml:id="Jonah_unknown" corresp=""><!-- Perhaps his Syriac name is more descriptive and so would be better to use for the xml:id? -->
+                          <persName xml:lang="eng" type="supplied">Jonah</persName>,
+                          <persName xml:lang="syr" type="supplied">ܐܢܐ ܝܘܢܢ ܐܟܣܢܝܐ ܘܚܛܝܐ</persName>
+                        </person>
+                      </listPerson>
+                    </p>
+                  </item>
+                </list>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <list>
+                  <item>
+                    <origDate notBefore="0800" notAfter="1000">9th-10th century</origDate>
+                    <locus from="136" to="164"/>
+                    <ref target="#part6a1"/>
+                  </item>
+                  <item>
+                    <origDate notBefore="0900" notAfter="1100">10th-11th century</origDate>
+                    <locus from="164" to="196"/>
+                    <ref target="#part6a1"/>
+                    <ref target="#part6a2"/>
+                    <ref target="#part6a3"/>
+                  </item>
+                </list>
+              </origin>
+              <provenance>
+                <p>
+                  A note on <locus from="195a" to="195a">fol. 195a</locus> states that this <ref target="#part6a1">book of Genesis</ref> belonged to one 
+                  <listPerson><person role="owner" xml:id="Denha" corresp=""><persName xml:lang="eng">Denha</persName></person></listPerson>, 
+                  the disciple of <listPerson><person xml:id="Laz_Arzun" corresp=""><persName xml:lang="eng">Lazarus of Arzan</persName> 
+                    <persName xml:lang="eng">Arzun</persName></person></listPerson>, who dwelt in the desert of <placeName xml:lang="eng">Scete</placeName></p>
+                <title xml:lang="syr">ܐܝܨܦ ܘܩܢܐ ܟܬܒܐ ܗܢܐ ܕܐܝܬܘܗܝ ܣܦܪܐ ܩܕܡܝܐ ܕܒܪܝܬܐ. ܕܢܚܐ ܐܟܣܢܝܐ ܘܚܛܝܐ ܕܡܫܬܡܗ ܬܠܡܝܕܗ ܕܠܥܙܪ ܐܪܙܢܝܐ ܗܘ ܕܒܡܕܒܪܐ ܕܐܣܩ̈ܛܐ ܥܡܪ ܗܘܐ ܐܝܟ ܕܠܦܘܪܩܢܐ ܕܚܝܘܗܝ ܘܕܟܠ ܕܩܪܐ ܒܗ ܏ܘܫ.</title>
+              </provenance>
+              <provenance>
+                <p>A different hand has added</p>
+                <title xml:lang="syr">ܘܟܠ ܕܡܦܩ ܠܗ ܡܢ ܕܝܪܐ ܗܕܐ. ܘܡܫܢܐ ܠܗ. ܐܘ ܟܐܡ ܥܠ܏ܘ ܐܘ ܠܚܐ ܥܘܗܕܢܐ ܗܢܐ ܡܚܪܡܐ ܢܗܘ ܘ܏ܫ.</title>
+              </provenance>
+              <provenance>
+                <p>Another note on <locus from="136a" to="136a">fol. 136a</locus> distinctly says that it belonged to the <placeName xml:lang="eng" type="supplied">convent of S. Mary Deipara</placeName></p>
+              </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<list>
+                    <item><ref xml:id="part6r1">Numeral citation is based on William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                    <item><ref xml:id="part6r2">Pagination refers to William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                  </list>abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690-91.</bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="7" xml:id="Part7">
+            <altIdentifier type="internal">
+              <collection>Wright</collection>
+              <idno>XVIII</idno>
+              <idno>BL Add 12,172 ff. 197-234</idno>
+            </altIdentifier>
+            <msContents>
+              <summary></summary>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="part7a1">
+                <locus from="197" to="234"/>
+                <author/>
+                <title key="" ref="http://lccn.loc.gov/">The book of Joshua, according to the Peshitta version</title>
+                <rubric><title xml:lang="syr">ܟܬܒܐ ܕܝܫܘܥ ܒܪܢܘܢ</title></rubric>
+                <listBibl>
+                  <bibl>
+                    <ref target="#part7r1">XVIII</ref>
+                  </bibl>
+                  <bibl>
+                    <ref target="#part7r2">12-13</ref>
+                  </bibl>
+                </listBibl>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="">
+                <supportDesc material="perg">
+                  <support><material>vellum</material></support>
+                  <extent> 38 leaves
+                    <dimensions type="leaf" unit="in">
+                      <height>8 3/8 in.</height>
+                      <width>5 7/8 in.</width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p>The quires seem to have been signed with both letters and arithmetical figures (see <locus from="204">fol. 204</locus>)</p>
+                    <seg n="1" type="gathering">
+                      <locus from="" to=""></locus>
+                      <formula/>
+                    </seg>
+                  </collation>
+                  <condition>
+                    <p>Several quires are either wanting or defective</p>
+                    <p>This manuscript is very imperfect, the following portions of the text being now missing: ch. iii. 6—15, iv. 6—x. 25, x. 33—42, xiii. 12—23, xiii. 32—xiv. 8, xv. 19—xvi. 3, xxi. 44—xxii. 16, and xxiv. 9 to the end.</p>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="" writtenLines="19 22">
+                    <locus from="" to=""/>
+                    <p>Each page has from 19 to 22 lines</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                <handNote scope="major" script="Estrangelo" medium="unknown">
+                  <p>This manuscript is beautifully written, in a large, regular Estrangela of the <origDate notBefore="500" notAfter="700">6th or 7th century</origDate>.</p>
+                </handNote>
+                <handNote scope="minor" script="unknown">
+                  <p>A few vowel points have been added by a later hand</p>
+                </handNote>
+                <handNote scope="minor" script="unknown">
+                  <p>Some lessons have been noted by later hands on the margins.</p>
+                </handNote>
+              </handDesc>
+              <additions>
+                <p>A few vowel points have been added by a later hand</p>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="500" notAfter="700">6th or 7th century</origDate>
+              </origin>
+              <provenance>
+                <p>A note on <locus from="197a">fol. 197a</locus> informs us that this volume belonged to <placeName xml:lang="eng">the convent of S. Mary Deipara</placeName>: <title xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪ̈ܝܐ ܕܒܡܕܒܪܐ ܕܡܨܪܝܢ. ܘ܏ܫ</title>.</p>
+              </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<list>
+                    <item><ref xml:id="part7r1">Numeral citation is based on William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                    <item><ref xml:id="part7r2">Pagination refers to William Wright, Catalogue of Syriac
+                      Manuscripts in the British Museum Acquired since the
+                      Year 1838, Part I (London, 1870)</ref></item>
+                  </list>abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690-91.</bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2012-11-13">
+        <persName></persName>
+      </change>
+    </revisionDesc>
+</teiHeader>
+  <facsimile>
+    <!-- facsimile information about the manuscript -->
+    <graphic/>
+    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
+      elements to give coordinates for any special areas of interest -->
+  </facsimile>
+  <text>
+    <body>
+      <!-- If you had a transcription of the manuscript you would put it here -->
+      <p/>
+    </body>
+  </text>
+  </TEI>
+ 
