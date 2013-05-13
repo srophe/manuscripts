@@ -1,0 +1,790 @@
+<pre>/* original from Matthew Driscoll
+   edited by Sebastian Rahtz March 2009
+   for ENRICH project
+   edited by David Michelson, Isabela Morales, Elizabeth Walston, June 2011
+*/
+/*Why are the content labels not text that can be copied from the rendered version of the page?*/
+msDesc {
+    display: block;
+    font-family: "Junicode";
+    margin-left: 25pt;
+    margin-right: 15pt;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+    font-size: 12pt;
+    line-height: 14pt;
+    text-align: left
+}
+fileDesc&gt;titleStmt {
+    display: none
+}
+fileDesc&gt;publicationStmt {
+    display: none
+}
+msDesc&gt;msIdentifier&gt;idno {
+    text-align: center
+}
+msDesc&gt;msIdentifier&gt;idno {
+    display: block;
+    font-size: 26pt;
+    line-height: 28pt;
+    color: #ad1010;
+    margin-top: 20pt
+}
+msDesc&gt;msIdentifier {
+    display: block;
+    font-size: 14pt;
+    line-height: 14pt;
+}
+msIdentifier&gt;altIdentifier {
+    display: block;
+    margin-bottom: 20pt
+}
+msIdentifier&gt;altIdentifier:before {
+    content: "Previous Shelfmark: "
+}
+msIdentifier country {
+    display: block
+}
+msIdentifier settlement {
+    display: block
+}
+msIdentifier repository {
+    display: block
+}
+msName[type="nickname"]:before {
+    content: "(\201C"
+}
+msName[type="nickname"]:after {
+    content: "\201D)"
+}
+head, msContents, summary, history, additional, seal {
+    padding-top: 3pt;
+    padding-bottom: 2pt;
+    display: block
+}
+physDesc, supportDesc, objectDesc, layoutDesc, decoDesc, sealDesc, material, dimensions[type="leaf"], dimensions[type="written"] {
+    display: inline;
+    margin-bottom: 4pt;
+}
+physDesc:before {
+    content: "Physical description:";
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 120%;
+}
+physDesc&gt;objectDesc&gt;supportDesc&gt;extent&gt;dimensions[type="leaf"]:before {
+    content: "Gross Dimensions:";
+    display: inline;
+    font-weight: bold
+}
+physDesc&gt;objectDesc&gt;supportDesc&gt;extent&gt;dimensions[type="written"]:before {
+    content: "Written Dimensions:";
+    display: inline;
+    font-weight: bold
+}
+history:before {
+    content: "History:";
+    display: block;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 120%
+}
+head {
+    font-size: 16pt;
+    line-height: 19pt
+}
+title {
+    display: inline;
+}
+head title {
+    font-style: italic
+}
+head&gt;title:after {
+    content: ". "
+}
+head&gt;origPlace:after {
+    content: ", "
+}
+head&gt;origDate:after {
+    content: "."
+}
+head&gt;textLang:after {
+    content: "."
+}
+head note {
+    display: block;
+    padding-top: 10pt;
+    font-size: 13pt
+}
+/*Can we put a single general label before the msItem section, e.g. " Contents?" */
+msItem[n]:before {
+    font-weight: 600;
+    content: attr(n) ". "
+}
+msContents:before {
+    content: "Contents: ";
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 180%
+}
+summary&gt;title:before {
+    content: "MS Title: ";
+    display: inline;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 120%
+}
+summary&gt;note:before {
+    content: "General Notes: ";
+    display: block;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 120%
+}
+msContents&gt;textLang:before {
+    content: "MS Language(s): ";
+    display: inline;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 120%;
+    margin-bottom:10pt
+}
+msItem {
+    display: block;
+    margin-left: 10pt;
+    margin-top: 10pt;
+    padding-bottom:10pt
+}
+/*is there a way to make Related MS a list and to label the list only once, ie. not each item?*/
+msItem&gt;filiation:before {
+    content: "Related MSS:";
+    display: block;
+}     
+msItem&gt;msItem {
+    display: block;
+    margin-left: 15pt
+}
+msItem[n]&gt;locus:before {
+    content: "("
+}
+msItem[n]&gt;locus:after {
+    content: ")"
+}
+msItem&gt;title {
+    font-weight: 600;
+    font-size: 120%;
+    letter-spacing: 1px
+}
+msItem&gt;title:after {
+    content: ". "
+}
+rubric {
+    display: block
+}
+rubric:before {
+    content: "Rubric: \201C"
+}
+rubric:after {
+    content: "\201D "
+}
+incipit {
+    display: block
+}
+incipit:before {
+    content: "Incipit: \201C"
+}
+incipit:after {
+    content: "\201D "
+}
+explicit {
+    display: block
+}
+explicit:before {
+    content: "Desinit: \201C"
+}
+explicit:after {
+    content: "\201D "
+}
+finalRubric {
+    display: block
+}
+finalRubric:before {
+    content: "Explicit: \201C"
+}
+finalRubric:after {
+    content: "\201D "
+}
+incipit[defective="yes"]:before {
+    content: "Begins: \201C"
+}
+explicit[defective="yes"]:before {
+    content: "Ends: \201C"
+}
+rubric[type="final"]:before {
+    content: "Final rubric: \201C"
+}
+rubric[type="final"]:after {
+    content: "\201D "
+}
+colophon {
+    display: block
+}
+msItem&gt;textLang {
+    display: block
+}
+msItem&gt;textLang:before {
+    content: "Language of text: "
+}
+msItem&gt;textLang:after {
+    content: "."
+}
+history origin {
+    display: block
+}
+history origin:before {
+    content: "Origin:";
+    font-weight: bold
+}
+history provenance:before {
+    content: "Provenance: ";
+    font-weight: bold
+}
+history provenance {
+    display: block
+}
+history acquisition:before {
+    content: "Acquisition: ";
+    font-weight: bold
+}
+history acquisition {
+    display: block
+}
+msItem&gt;listBibl {
+    display: block;
+    list-style-type: none;
+    margin-left: 20pt
+}
+msItem&gt;listBibl&gt;bibl {
+    display: list-item;
+    margin-left: 30pt
+}
+msItem&gt;listBibl:before {
+    content: "Bibliography:";
+    display: block;
+    font-weight: 600
+}
+msItem&gt;bibl {
+    display: block;
+    margin-left: 20pt
+}
+msItem&gt;bibl:before {
+    content: "Bibliography: ";
+    font-weight: 600
+}
+msItem&gt;listBibl&gt;bibl:after {
+    content: "."
+}
+author:after {
+    content: ", "
+}
+author:before {
+    content: "Author: "
+}
+bibl&gt;editor:after {
+    content: ", ";
+    text-align: left
+}
+bibl title[level="m"] {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 100%
+}
+bibl title[level="j"] {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 100%
+}
+bibl title[level="s"] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%
+}
+bibl title[level="a"] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%
+}
+bibl title[level="a"]:before {
+    content: " \201C"
+}
+bibl title[level="a"]:after {
+    content: "\201D, "
+}
+bibl title[level="s"]:before {
+    content: ", "
+}
+msItem bibl title {
+    font-style: italic
+}
+biblScope[type="pages"]:before {
+    content: ", pp. "
+}
+imprint:before {
+    content: "("
+}
+imprint:after {
+    content: ")"
+}
+pubPlace:after {
+    content: ","
+}
+bibl&gt;note:before {
+    content: " ("
+}
+bibl&gt;note:after {
+    content: ")"
+}
+
+q:before {
+    content: "\201C"
+}
+q:after {
+    content: "\201D"
+}
+q q:before {
+    content: "�"
+}
+q q:after {
+    content: "�"
+}
+q[type="block"] {
+    display: block;
+    margin-left: 15pt;
+    font-size: 12pt;
+    line-height: 14pt
+}
+q[type="block"]:before {
+    content: ""
+}
+q[type="block"]:after {
+    content: ""
+}
+form {
+    display: block
+}
+form:before {
+    content: "Form: ";
+    font-weight: bold
+}
+support {
+    display: block
+}
+support:before {
+    content: "Support: ";
+    font-weight: bold
+}
+extent {
+    display: block
+}
+extent:before {
+    content: "No. of Leaves: ";
+    font-weight: bold;
+    display: inline
+}
+collation {
+    display: block
+}
+collation:before {
+    content: "Collation: ";
+    font-weight: bold;
+    display: inline
+}
+layout {
+    display: inline
+}
+layout:before {
+    content: "Layout: ";
+    display: block;
+    font-weight: bold
+}
+/*How can we pull the information in the XML that is marked as scope=, script=, and medium= and make it display a content label?*/
+physDesc&gt;handDesc&gt;:before {
+    content: "Hand Description: ";
+    display: block;
+    font-weight: bold
+}
+physDesc&gt;handDesc&gt;handNote[scope]:before {
+     display: block;
+     content: "Hand Description:  Script: "  attr(script)  "; Ink: " attr(medium)  ""
+}
+physDesc&gt;handDesc&gt;handNote&gt;persName[type="supplied"]:before {
+    content: "Scribe: ";
+    display: block;
+    font-weight: bold
+}
+msWriting {
+    display: block
+}
+msWriting:before {
+    content: "Script: ";
+    font-weight: bold
+}
+musicNotation {
+    display: block
+}
+musicNotation:before {
+    content: "Musical notation: ";
+    font-weight: bold
+}
+decoDesc:before {
+    content: "Decoration: ";
+    font-weight: bold;
+    display: block
+}
+
+bindingDesc {
+    display: block
+}
+bindingDesc:before {
+    content: "Binding: ";
+    font-weight: bold
+}
+decoNote:before {
+    content: "Binding Decoration: ";
+    font-weight:bold
+}
+foliation {
+    display: block
+}
+foliation[n="original"]:before {
+    content: "Foliation: Original";
+    font-weight: bold;
+    display: block
+}
+foliation[n="modern"]:before {
+    content: "Foliation: Modern";
+    font-weight: bold;
+    display: block
+}
+additions {
+    display: block
+}
+additions:before {
+    content: "Additions: ";
+    font-weight: bold
+}
+/*How can we make these "souscriptions" display as a list, similar to listBibl? */
+label {
+    font-weight: bold
+}
+label:after{
+    content:":";
+    font-weight: bold
+}
+signatures {
+    display:list-item;
+     margin-left: 30pt
+ }
+signatures:before {
+    content: "Signatures: ";
+    font-weight: bold
+}
+catchwords {
+    display:list-item;
+     margin-left: 30pt
+ }
+catchwords:before {
+    content: "Catchwords: ";
+    font-weight: bold
+}
+condition {
+    display: block
+}
+condition:before {
+    content: "Condition: ";
+    font-weight: bold
+}
+dimensions[type="leaf"] {
+    display: block
+}
+dimensions[type="leaf"]:before {
+    content: "Size of leaves: ";
+    font-weight: bold;
+    display: block
+}
+dimensions height:after {
+    content: " x "
+}
+dimensions:after {
+    content: " mm."
+}
+dimensions depth:before {
+    content: " x "
+}
+recordHist {
+    display: block
+}
+recordHist:before {
+    content: "Record History: ";
+    font-weight: bold
+}
+availability {
+    display: block
+}
+availability:before {
+    content: "Availability: ";
+    font-weight: bold
+}
+custodialHist {
+    display: block
+}
+custodialHist:before {
+    content: "Custodial history: ";
+    font-weight: bold
+}
+custEvent {
+    display: list-item;
+    list-style-type: none;
+    margin-left: 30pt
+}
+surrogates {
+    display: block
+}
+surrogates:before {
+    content: "Surrogates: ";
+    font-weight: bold
+}
+surrogates&gt;p&gt;listBibl {
+    display: block;
+}
+surrogates&gt;p&gt;listBibl&gt;bibl {
+    display: list-item;
+    margin-left: 30pt
+}
+title[type="gmd"]:before {
+    content: "Format: "
+}
+title[type="gmd"]:after {
+    content: ". "
+}
+surrogates idno:before {
+    content: "ID no.: "
+}
+surrogates idno:after {
+    content: ". "
+}
+surrogates bibl date:before {
+    content: "Date created: "
+}
+accMat {
+    display: block
+}
+accMat:before {
+    content: "Accompanying material: ";
+    font-weight: bold
+}
+additional:before {
+    content: "Additional:";
+    display: block;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 120%
+}
+additional&gt;listBibl {
+    display: block;
+    list-style-type: none;
+    margin-top: 10pt
+}
+additional&gt;listBibl:before {
+    content: "Bibliography:";
+    display: block;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 120%
+}
+additional&gt;listBibl&gt;bibl {
+    text-align: left;
+    display: list-item;
+    margin-left: 30pt
+}
+list {
+    display: block;
+}
+list item {
+    display: list-item;
+    margin-left: 30pt
+}
+q item {
+    list-style-type: none
+}
+item locus:after {
+    content: ": "
+}
+pb:before {
+    font-weight: 600;
+    content: "|" attr(n) "|"
+}
+lb[n] {
+    display: list-item;
+    list-style-type: none;
+    margin-left: 30pt;
+}
+lb[type="hyphenated"]:before {
+    content: "-|"
+}
+lb[n]:after {
+    content: attr(n);
+}
+supplied[reason="damage"]:before {
+    content: "&lt;"
+}
+supplied[reason="damage"]:after {
+    content: "&gt;"
+}
+supplied[reason="illegible"]:before {
+    content: "["
+}
+supplied[reason="illegible"]:after {
+    content: "]"
+}
+supplied[reason="omitted"]:before {
+    content: "\27E8"
+}
+supplied[reason="omitted"]:after {
+    content: "\27E9"
+}
+gap {
+    display:list-item;
+     margin-left: 30pt
+ }
+gap:before {
+    content: "Gap: ";
+    font-weight: bold
+}
+expan {
+    font-style: italic
+}
+foreign {
+    font-style: italic
+}
+ref {
+    font-style: italic
+}
+hi[rend="sup"] {
+    font-size: .83em;
+    vertical-align: super
+}
+hi[rend="underline"] {
+    text-decoration: underline
+}
+hi[rend="bold"] {
+    font-weight: bold
+}
+hi[rend="italic"] {
+    font-style: italic
+}
+del[rend="overstrike"] {
+    text-decoration: line-through
+}
+note&gt;title {
+    font-style: italic
+}
+p {
+    display: block
+}
+p&gt;p {
+    display: block;
+    margin-left: 15pt;
+    margin-right: 15pt;
+    margin-top: 2pt;
+    margin-bottom: 2pt;
+    font-style: normal;
+    font-size: 12pt;
+    line-height: 13pt
+}
+lg {
+    display: block;
+    margin-bottom: 10pt
+}
+l {
+    display: block
+}
+msPart {
+    display: block;
+    margin-top: 15pt;
+    margin-bottom: 15pt
+}
+msPart idno {
+    display: block;
+    font-size: 16pt
+}
+hi[rend="scap"] {
+    font-size: 65%
+}
+hi[rend="lig"] {
+    letter-spacing: -4px
+}
+publisher {
+    display: inline;
+}
+choice &gt; abbr {
+    display: none;
+}
+choice &gt; orig {
+    display: none;
+}
+choice &gt; expan {
+    font-style: normal
+}
+expan &gt; ex:before {
+    content: "(";
+}
+expan &gt; ex:after {
+    content: ")";
+}
+
+placeName, persName, name, genName, geogName, roleName {
+        display: inline;
+}
+msContents&gt;msItem&gt;colophon:before {
+    content: "Colophon:";
+    display: block;
+    font-weight: bold
+}
+msContents&gt;msItem&gt;colophon&gt;note[type="translation"]:before {
+    content: "Translation: ";
+    display: block;
+    font-weight: bold
+}
+msContents&gt;msItem&gt;colophon&gt;note[type="translation"] {
+    display: block
+}
+msContents&gt;msItem&gt;colophon&gt;note[type="note"]:before {
+    content: "Note: ";
+    display: inline;
+    font-weight: bold
+}
+msContents&gt;msItem&gt;colophon&gt;note[type="note"] {
+    display: block
+}
+msContents&gt;msItem&gt;colophon&gt;docAuthor:before {
+    content: "Scribe:";
+    display: block;
+    font-weight: bold
+}
+msContents&gt;msItem&gt;colophon&gt;docAuthor {
+    display: block
+}
+formula {
+    display: inline;
+}
+formula:before {
+    content: "Quire Formula:";
+    font-weight: bold
+}
+revisionDesc:before {
+    content: "Record Revisions:";
+    display: inline;
+    font-weight: bold
+}</pre>

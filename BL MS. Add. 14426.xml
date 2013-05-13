@@ -1,0 +1,247 @@
+﻿<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Catalogue of the Syriac Manuscripts in the British Library</title>
+                <funder>National Endowment for the Humanities</funder>
+                <principal>David Michelson</principal>
+                <respStmt>
+                    <resp></resp>
+                    <!--Decide on resp-->
+                    <persName>David Michelson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp></resp>
+                    <persName>Daniel Greeson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp></resp>
+                    <persName>Tucker Hannah</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian"/>
+                <!-- Date of our publication/will be machine generated-->
+                <publisher>Syriaca.org</publisher>
+                <pubPlace>
+                    <address>
+                <addrLine/>
+                <addrLine><!--we need to work this out further--></addrLine>
+               <street/>
+                <settlement/>
+                <postCode/>
+                <addrLine><!--<ref target=""/>--></addrLine>
+                <addrLine><email/></addrLine>
+                </address>
+                </pubPlace>
+                <idno>Syriaca.org</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
+                    <!--work out why we have an xml id here, also do we need to specify english here?-->
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <collection>Christian Middle East Section</collection>
+                        <idno>BL MS Add. 14,426</idno></msIdentifier>
+              <msContents>
+                        <summary>Biblical Manuscripts: Old Testament</summary>
+                        <textLang mainLang="syr">Syriac</textLang>
+                        <msItem n="1" xml:id="a1" class="#translation">
+                            <!-- waiting to find out on this -->
+                            <locus from="1a" to="105b">ff. 1a-105b</locus>
+                            <author key=""/>
+                            <title ref="http://syriaca.org/work/1">The book of Genesis, according to the Peshitta version.</title>
+                            <rubric xml:lang="syr">
+                                <title>ܒܪܝܬܐ ܣ̣ܦܪܐ ܩܕܡܝܐ ܕܐܘܪܝܬܐ</title>
+                                <locus from="2b">2b</locus>
+                            </rubric>
+                            <note><p>The lessons are marked in the text in the usual way; others have been added subsequently at the top of the page.
+                                The following portions of the text are wanting: ch. i. 7—18, ch. iii. 13—22, ch. v. 24—vi. 15, ch. xxii. 11—xxv. 17, and ch. xlvii. 13 to the end.</p></note>
+                            <listBibl>
+                                <bibl>
+                                    <ref target="#r1">V</ref>
+                                </bibl>
+                                <bibl>
+                                    <ref target="#r2">6</ref>
+                                </bibl>
+                                <!-- Revisit two ref targets -->
+                                <!-- Where do will citedRange go? -->
+                                <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->                     
+                            </listBibl>
+                        </msItem>
+                            <msItem n="2" xml:id="a2" class="#liturgica">
+                                <locus from="1" to="2a">ff. 1-2a</locus>
+                                <author key=""/>
+                                <title ref="">Index to additional lessons mentioned above.</title>
+                                <!-- URI?  -->
+                                <rubric xml:lang="syr">
+                                    <title></title>
+                                    <note><p>܏ܩ ܕܚܡܫܐ ܒܫܒܐ ܕܐܢܝܚܬܐ ܏ܟـ ܝܓ ܏ܦ ܙ</p>
+                                        <p>܏ܩ ܕܫܒܬܐ ܕܫܒܬܐ ܕܐܢܝܚܬܐ ܏ܟـ ܒ ܏ܦ ܒ</p>
+                                        <p>܏ܩ ܕܚܕܒܫܒܐ ܚܕܬܐ ܪܝܫ ܟܬܒܐ</p>
+                                        <p>܏ܩ ܕܚܕܒܫܒܐ :ܓ: ܡܢ ܩܝܡܬܐ ܏ܟـ ܐ ܏ܦ . .</p>
+                                        <!--Note that the punctuation here does display in the right order from right to left but only in Author view not text view-->
+                                        <p>܏ܩ ܕܚܕ ܒܫܒܐ : ܕ :܏ܟـ ܐ ܏ܦ ܚ</p>
+                                        and so on. Here ܟـ stands for ܟܘܪܣܐ , % (quire), and ܦ for ܦܬܚܐ (opening).</note>
+                                        <!-- Arabic needs to be added (noted on Word doc), we need a way to flag this in a tag? -->
+                                        <locus from="1" to="2a">ff. 1-2a</locus>
+                                </rubric>
+                                <listBibl>
+                                    <bibl>
+                                        <ref target="#r1">V</ref>
+                                    </bibl>
+                                    <bibl>
+                                        <ref target="#r2">6</ref>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>                                
+                 </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support n="1">
+                                    <material>Vellum</material>
+                                    <locus from="1" to="10">Fol. 1-105</locus>
+                                </support>
+                                   <extent> ff. 105 <dimensions type="leaf" unit="in">
+                                        <height>8 3/8</height>
+                                        <width>5 1/5</width>
+                                    </dimensions>
+                                    <dimensions type="written" unit="in">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <foliation xml:id="ancient">
+                                    <locus from="1" to="105">ff. 1-105</locus>
+                                    <p>The quires have been twice signed with letters (see foll. 16, 46, and 56), but at neither time correctly.</p>
+                                    <!-- Save time and don' mark up the folia  -->
+                                </foliation>
+                                <collation>
+                                    <p>Originally the book was made up of 13 quires</p>
+                                    <seg n="1" type="gathering">
+                                        <locus/>
+                               <!-- Let' not enter a locus except in the cases where we have multiple gatherings or manuscripst that are composite or broken? -->
+                                        <formula/>
+                                    </seg>
+                                </collation>
+                                <condition>
+                                    <p> Originally the book was made up of 13 quires of which the sixth and the last are now wanting, and several others are imperfect, leaves being missing after
+                                        Foll. 2, Foll. 7, Foll. 11, Foll. 45, and Foll. 105.</p>>
+                                 </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="20 25">
+                                    <p>Each page contains from 20 to 25 lines.</p>
+                                    <locus from="1" to="105">ff. 1-105</locus>     <!-- Do we need locus here? Probably not -->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                         <handDesc hands="2">
+                             <!-- How do we need to deal with handDesc hands? Do only the scribes count or do all hands that contributed count? -->
+                             <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="unknown">
+                                 <locus from="1" to="105">ff. 1-105</locus>
+                                 <p>The character is a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></p>
+                             </handNote>
+                             <handNote xml:id="handnote2" scope="minor" script="Estrangelo" medium="unknown">
+                                 <locus from="1" to="105">ff. 1-105</locus>
+                                 <p>They have been twice signed with letters (see foll.<locus from="16" to="16">16</locus>, 
+                                     <locus from="46" to="46">46</locus>, and <locus from="56" to="56">56</locus>), but at neither time correctly.</p>
+                             </handNote>
+                             <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
+                                 <locus from="1" to="105">ff. 1-105</locus>
+                                 <p>Vowels have sometimes been added by a later hand (ܰ, ܶ, ܺ, ܳ, , , ). </p>
+                                 <!-- Not in the Word Doc, Needs to be added, we need to come up with a standard way in the XML to represent this, I think we flag this as having vocalization data and someone adds it later.-->
+                                 <!-- Vocalization goes here -->
+                             </handNote>
+                         </handDesc>
+                        <additions>
+                            <list>
+                                <item>
+                                    <p><label>Marginal note</label> on <locus from="2b" to="2b">f. 2b</locus> mentions that with this volume was once bound up a work, (or more probably a series of extracts,) entitled <choice><seg><title>ܒܘ̈ܚܢܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ</title>, <title>"Disquisitions of the holy Teachers"</title></seg></choice></p></item>
+                            </list>
+                            <!-- Label this work? Find this element ,something that can contain title not list  -->
+                            <!-- Additions does allow "title" to exist? -->
+                            <catchwords/>
+                        </additions>
+                        <bindingDesc>
+                            <p>
+                                <date calendar="gregorian" from="" to=""/>
+                                <material/>
+                            </p>
+                            <decoNote type="illustration"> </decoNote>
+                            <condition/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <summary/>
+                        <origin>
+                            <date calendar="Gregorian"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Manuscript description based on<list>
+                                        <item><ref xml:id="r1"> William Wright, Catalogue of Syriac
+                                                Manuscripts in the British Museum Acquired since the
+                                                Year 1838, Part I (London, 1870)</ref></item>
+                                        <item><ref xml:id="r2">William Wright, Catalogue of Syriac
+                                                Manuscripts in the British Museum Acquired since the
+                                                Year 1838, Part I (London, 1870)</ref></item>
+                                    </list>abbreviated by the Syriaca.org project team.</source>
+                                <!-- fix this with bibl, etc -->
+                            </recordHist>
+                            <availability status="restricted">
+                                <p/>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2010-05-06">
+                <persName/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- facsimile information about the manuscript -->
+        <graphic/>
+        <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
+            elements to give coordinates for any special areas of interest -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- If you had a transcription of the manuscript you would put it here -->
+            <p/>
+        </body>
+    </text>
+</TEI>
