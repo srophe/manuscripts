@@ -1,0 +1,802 @@
+Syriaca Manual
+Contents
+1. 1. Introduction
+2. 2. Linking within the TEI document
+3. 3. Title Statement
+4. 4. Publication Statement
+5. 5. Manuscript Description
+1. 5.1 Manuscript Identifier
+2. 5.2 Manuscript Heading
+3. 5.3 Manuscript Contents and Descriptive Clusters
+1. 5.3.1 Intellectual Content
+1. 5.3.1.1 Structure and elements
+2. 5.3.1.2 Author and Editor
+3. 5.3.1.3 Title
+4. 5.3.1.4 Rubrics, Incipits, Explicits, and Other Quotations from the Text
+5. 5.3.1.5 Filiation, Bibliography, Text Classification and Related Resources
+6. 5.3.1.6 Languages
+7. 5.3.1.7 Table of contents
+8. 5.3.1.8 Note
+1. 5.3.2 Physical Description
+1. 5.3.2.1 Object Description
+1. 5.3.2.1.1. Support description
+1. 5.3.2.1.1.1. Support
+2. 5.3.2.1.1.2. Extent
+3. 5.3.2.1.1.3. Collation
+4. 5.3.2.1.1.4. Foliation
+5. 5.3.2.1.1.5. Condition
+1. 5.3.2.1.2. Layout Description
+1. 5.3.2.2 Writing, Decoration and Other Notations
+1. 5.3.2.2.1. Writing
+2. 5.3.2.2.2. Decoration
+3. 5.3.2.2.3. Additions and Marginalia
+1. 5.3.2.3 Bindings, Seals and Additional Material
+1. 5.3.2.3.1 Binding Descriptions
+2. 5.3.2.3.2 Seals
+3. 5.3.2.3.3 Accompanying Material
+1. 5.3.3 History
+2. 5.3.4 Administrative Information
+3. 5.3.http://www.fihrist.org.uk/manual/#5345 Manuscript Parts
+1. 5.4 Local Taxonomies and Subject Headings
+1. 5.4.1 Taxonomies
+2. 5.4.2 Subject Headings
+1. 5.5 Revision
+1. 6. Digital Facsimiles
+2. 7. Text
+
+1. Introduction
+These guidelines are for the creation of TEI records for Syriac Manuscripts according to the Fihrist Schema. Records created following this manual can be contributed to the Fihrist Catalogue. For the moment, these guidelines cover only the description rather than the transcription of manuscripts. It is envisaged that guidelines for transcription will be produced in the future.
+The Fihrist Schema is based on the Enrich Schema for the description of Western Manuscripts. More information about TEI itself can be found on the TEI website, including links to a documentation wiki. Most sections in this document correspond to a relevant section in the Enrich documentation, where fuller explanations may be found.
+2. Linking within the TEI document
+Manuscript description using TEI sometimes involves linking together different parts of the xml document. We will tackle this issue first, before going on to look at description, as it has implications for the whole structure of the document. However, this section may make more sense as you read further through the manual.
+Large parts of the TEI manuscript description (the identifier, the physical description, the manuscript history, the encoding description and the profile description) relate to the manuscript as a whole. Information about works contained within the manuscript is recorded in one or more <msItem> elements. This works well if a manuscript contains only one item, or if the broader aspects of the description (scribe, date, subject etc.) relate equally well to all of the works contained within the manuscript.
+Difficulties can arise where a manuscript contains multiple works (i.e. multiple <msItem> elements) with differing physical aspects, histories, subject matter etc. TEI gets around this difficulty by allowing you to assign a unique xml:id value to each <msItem>, and allowing you to use the <ref> element to reference that value in other parts of the document.
+So, if a manuscript contains two works of differing date:
+--Give each msItem a different value in xml:id--
+
+
+<msContents>
+<msItem n="1" xml:id="a1">
+-- Intellectual content of the first work --
+</msItem>
+<msItem n="2" xml:id="a2">
+-- Intellectual content of the second work--
+</msItem>
+</msContents>
+
+
+--and then reference these values (preceded by #) in the target attribute of the ref element when recording dates, to distinguish which date relates to which msItem--
+
+
+<history>
+<origin>
+<ref target="#a1"><date calendar="Gregorian" when="1680">1680</date></ref>
+<ref target="#a2"><date calendar="Gregorian" when="1695">1680</date></ref>
+</origin>
+</history>
+This principle can be applied when recording information about a specific <msItem> anywhere in the document outside that <msItem> element. Any data not surrounded by a <ref> element is assumed to relate to all works contained in the manuscript. For manuscripts containing a single work, no referencing is necessary.
+3. Title Statement
+This is the title statement for the electronic document as a whole, rather than for the manuscript. This title may refer to the manuscript, or it can be a default title for the project as a whole. The title of the manuscript is recorded later in the record in 5.3.1.3 Title. The <titleStmt> can include information about the project's name, funding and members.
+<titleStmt>
+<title>OCIMCO Project</title>
+<funder>JISC</funder>
+<principal>Gillian Evison</principal>
+</titleStmt>
+4. Publication Statement
+<publicationStmt> contains information about the publication of the description/transcription of the manuscript, rather than the publication of the manuscript itself. It can contain the name, address and contact details of the publishing body, the date of publication, as well as an id number.
+The id number should be the MARC Organisation Code for your institution, i.e. UkCu.
+<publicationStmt>
+<date calendar="Gregorian">2011-05-22</date>
+<publisher>Cambridge University Library</publisher>
+<pubPlace>
+<address>
+<addrLine>Department of Near and Middle Eastern Collections</addrLine>
+<addrLine>Cambridge University Library</addrLine>
+<street>West Road</street>
+<settlement>Cambridge</settlement>
+<postCode>CB3 9DR</postCode>
+<addrLine><ref target="http://www.lib.cam.ac.uk/deptserv/neareastern/">Cambridge University Library </ref></addrLine>
+<addrLine><email>near_eastern@lib.cam.ac.uk</email></addrLine>
+</address>
+</pubPlace>
+<idno>UkCU</idno>
+</publicationStmt>
+5. Manuscript Description
+In this document, we will concentrate on manuscript description, which takes place in the <msdesc> element. This element can be included either in the <sourceDesc> element of the <teiHeader> element or in the main <body> element. We will also be touching on the <encodingDesc> and <profileDesc> elements for the recording of subject headings. The rest of the TEI document should be created as normal, according to the TEI guidelines. See our full example for further information.
+5.1 Manuscript Identifier
+The <msIdentifier> element provides information used to identify the manuscript. It records data such as the holding institution, class-marks, alternative identifiers, and specific names for particular manuscripts.
+The elements used to describe the holding institution include <country>, <region>, <settlement>, <institution> and <repository>.
+The elements used to identify the manuscript within the holding institution are: <idno>, <collection>, <altIdentifier> (when the manuscript has or has had more than one identifier), and <msName> (when the manuscript is known by a name).
+Basic example:
+<msIdentifier>
+<country>United Kingdom</country>
+<region type="county">Cambridgeshire</region>
+<settlement>Cambridge</settlement>
+<institution>Cambridge University</institution>
+<repository>University Library</repository>
+<collection>Oriental Manuscripts</collection>
+<idno>Add. 3691</idno>
+</msIdentifier>
+Example with alternative identifier and collection:
+<msIdentifier>
+<country>United Kingdom</country>
+<region type="county">Cambridgeshire</region>
+<settlement>Cambridge</settlement>
+<institution>Cambridge University</institution>
+<repository>University Library</repository>
+<collection>Oriental Manuscripts</collection>
+<idno>Add. 180</idno>
+<altIdentifier type="other">
+<collection>Lewis<collection>
+<idno>1</idno>
+</altIdentifier>
+</msIdentifier>
+Example with manuscript name:
+<msIdentifier>
+<country>United Kingdom</country>
+<region type="county">Cambridgeshire</region>
+<settlement>Cambridge</settlement>
+<institution>Cambridge University</institution>
+<repository>University Library</repository>
+<collection>Oriental Manuscripts</collection>
+<idno>Or. 1287</idno>
+<msName xml:lang="eng">Mingana Palimpsest</msName>
+</msIdentifier>
+5.2 Manuscript Heading
+The <head> element is intended to contain a heading providing summarised information about the manuscript. Not used in the Fihrist schema - the general information about the manuscript, such as a general title, is instead included in the <summary>, under <msContent> [see 3.3]
+5.3 Manuscript Contents and Descriptive Clusters
+5.3.1 Intellectual Content
+5.3.1.1 Structure and elements
+The element <msContents> is used to describe the intellectual content of the manuscript (title, author, editor, textual additions, filitation and bibliographical references). Every work contained in the manuscript is treated as a separate <msItem>. A <summary> element can be included before the first <msItem> to contain general information about the manuscript contents. This can be particularly useful for summarising the contents of an MS containing multiple works (e.g. "a collection of poems"). If a collection of works also has a standard title, this can be recorded using a <title> element with attribute type="general" embedded within <summary>.
+The element <msItem> contains the intellectual information for each individual work contained within the manuscript. If a manuscript contains multiple works, it will have multiple <msItem> elements; it a manuscript contains a single work, it will only have one <msItem>. For MS containing multiple works, you can record the location of each work within the manuscript using <locus>. The xml:id attribute of the <msItem> may be used to link each work to its correspondent physical description [3.3.2], date [see 3.3.3] or subject heading [see 3.3.5.2] (see 2. Linking within the TEI document above).
+Basic structure of the elements providing the intellectual content:
+<msContents>
+<summary>Summarised information about the manuscript</summary>
+<msItem>
+-- Intellectual content –
+</msItem>
+</msContent>
+When the manuscript contains several works the <msItem> is identified with a running number, using the attribute n, and with a corresponding xml:id attribute. The value of xml:id is used to relate information recorded later in the document to that particular work within the manuscript (i.e. subject headings which are only relevant to that work). We have adopted the convention of using a running number prefixed by "a" as the xml:id value - i.e. a1, a2, a3 etc.
+Basic structure of the intellectual content of a manuscript with several works:
+<msContents>
+<summary>Summarised information about the manuscript</summary>
+<msItem n="1" xml:id="a1">
+-- Intellectual content of the first work --
+</msItem>
+<msItem n="2" xml:id="a2">
+-- Intellectual content of the second work--
+</msItem>
+
+
+<msItem n="n" xml:id="a-n">
+-- Intellectual content of the n work--
+</msItem>
+</msContent>
+Basic structure of the intellectual content of a single work, nested within <msContents>:
+<msItem n="1" xml:id="a1">
+<locus from="1a" to="30b">ff. 1a-30b</locus>
+<author>Information about the author of the work</author>
+<editor>Information about the editor, compiler, translator</editor>
+<title>Title or titles of the work</title>
+<listBibl>
+-- List of items with bibliographical information of any kind --
+<bibl>Bibliographical information</bibl>
+</listBibl>
+<filiation>Filiation of the manuscript with other copies</filiation>
+</msItem>
+The elements contained within <msItem> to provide intellectual information are:
+1. <locus> contains the pagination or foliation to locate the work within the manuscript.
+2. <author> in a bibliographic reference, contains the name(s) of the author(s), personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority.
+3. <editor> supplies additional information concerning the secondary statement of responsibility and its role (editor, compiler, translator, etc.)
+4. <respStmt> (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. [we are not currently using this element].
+5. <title> contains a title for any kind of work. More than one type of title can be recorded, distinguished by the type attribute
+6. <rubric> contains the text of any rubric or heading attached to a particular manuscript item - that is, a string of words through which a manuscript signals the beginning of a text division, often with an assertion as to its author and title, which is in some way set off from the text itself, usually in red ink, or by use of different size or type of script, or some other such visual device.
+7. <incipit> contains the incipit of a manuscript item, that is the opening words of the text proper, exclusive of any rubric which might precede it, of sufficient length to identify the work uniquely; such incipts were, in fomer times, frequently used a means of reference to a work, in place of a title.
+8. <quote> (quotation) contains a phrase or passage attributed by the narrator or author to some agency external to the text.
+9. <explicit> contains the explicit of a manuscript item, that is, the closing words of the text proper, exclusive of any rubric or colophon which might follow it.
+10. <finalRubric> contains the string of words that denotes the end of a text division, often with an assertion as to its author and title, usually set off from the text itself by red ink, by a different size or type of script, or by some other such visual device.
+11. <colophon> contains the colophon of a manuscript item: that is, a statement providing information regarding the date, place, agency, or reason for production of the manuscript.
+12. <decoNote> (note on decoration) contains a note describing either a decorative component of a manuscript, or a fairly homogenous class of such components. The OCIMCO project has only used <decoNote> in the physical description.
+13. <listBibl> (citation list) contains a list of bibliographic citations of any kind.
+14. <bibl> (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged.
+15. <filiation> contains information concerning the manuscript's filiation, i.e. its relationship to other surviving manuscripts of the same text, its protographs, antigraphs and apographs.
+16. <note> contains a note or annotation.
+17. <textLang> (text language) describes the languages and writing systems used by a manuscript.
+5.3.1.2 Author and Editor
+The <author> element provides the name of the author and its variants using the element <persName>. Ideally this should contain the normalised form of an author's name according to the Library of Congress authority file and using the Library of Congress transliteration system for non-Latin scripts, which is indicated with the attribute xml:lang. Names sourced in this way should have a type attribute value of "standard".
+However, due to the nature of the manuscript material, there is not always an authorised name for the authors. In these cases, best practice is: 1) to provide the name as it appears in the manuscript, when the cataloguer has access to this material; 2) if the information comes from a previous record, to supply the name provided by the printed catalogue or card and, updating this information when possible. Names sourced in this way should have a type attribute value of "supplied".
+For "standard" names, the key and ref attributes of the author element should be filled in with the Library of Congress identifier for the name and the URL of the author’s entry in the Virtual Internet Authority File respectively.
+Examples for standard and supplied names:
+<author key= "n81059876" ref="http://viaf.org/viaf/98930150">
+<persName xml:lang="per-Latn-x-lc" type="standard">Jalāl al-Dīn Rūmī, Maulana, 1207-1273</persName>
+</author>
+
+
+<author>
+<persName xml:lang="ara-Latn-x-lc" type="supplied">Abū ʻAbd Allāh ibn Aḥmad Muḥarram</persName>
+</author>
+The Arabic script version of the name may be divided into its different components, namely <surname>, <forename>, <addName type="laqab">, <addName type="kunyah">, <addName type="khitab">, <addName type="nisbah">. The order in which the parts of the name should be displayed may be indicated with the attribute sort="1,2,3, etc.". Alternatively, the name may be written as it appears in the source.
+Example for the author’s name أبو منصور الحسن بن نوح القممري
+<author key="n80129268" ref="http://viaf.org/viaf/90058060">
+<persName xml:lang="ara-Latn-x-lc">Qumrī, Abū Manṣūr al-Ḥasan ibn Nūḥ, 11th cent.</persName>
+<persName xml:lang="ara">
+<surname sort="3">بن نوح</surname>
+<forename sort="2">الحسن</forename>
+<addName type="kunyah" sort="1">أبو منصور</addName>
+<addName type="nisbah" sort="4">القمري</addName>
+<addName type="khitab"/>
+<addName type="nisbah"/> 
+</persName>
+</author>
+OR, without separating the parts of the name:
+<author key="n80129268" ref="http://viaf.org/viaf/90058060">
+<persName xml:lang="ara-Latn-x-lc">Qumrī, Abū Manṣūr al-Ḥasan ibn Nūḥ, 11th cent.</persName>
+<persName xml:lang="ara"> أبو منصور الحسن بن نوح القممري
+<surname/>
+<forename/>
+<addName type="kunyah"/>
+<addName type="nisbah"/>
+<addName type="khitab"/>
+<addName type="nisbah"/>
+</persName>
+For those rare cases of authors whose proper identification may require an alternative version of the name, this shall be supplied, both in Latin and Arabic script, by adding the element <persName type="alt">
+.
+Example alternative name for the author named ابن الحمصي، أحمد بن محمد
+<author key="n99082721" ref="http://viaf.org/viaf/59258530">
+<persName xml:lang="ara-Latn-x-lc" type="standard">Ibn al-Ḥimṣī, Aḥmad ibn Muḥammad, d. 1527 or 8</persName>
+<persName xml:lang="ara-Latn-x-lc" type="alt">Aḥmad ibn Muḥammad ibn ʻUmar ibn Abī Bakr ibn Abī Bakr ibn ʻUthmān ibn ʻAbd al-Laṭīf ibn Aḥmad ibn ʻAbd al-Raḥmān ibn ʻAlī ibn Aḥmad ibn Muḥammad ibn Ḥasan ibn ʻAbd Allāh ibn Zayd ibn ʻAbd Rabbihi al-Anṣārī</persName>
+<persName xml:lang="ara">
+<surname sort="1"> ابن الحمصي<surname>
+<surname sort="3"> ابن محمد<surname>
+<forename sort="2"> احمد</forename>
+<addName type="kunyah
+<addName type="nisbah"/>
+<addName type="khitab"/>
+<addName type="nisbah"
+</persName>
+<persName xml:lang="ara" type="alt">
+احمد بن محمد بن عمر بن ابي بكر بن ابي بكر بن عثمان بن عبد اللطيف بن احمد بن عبد الرحمان بن علي بن احمد بن محمد بن حسن بن عبد الله بن زيد بن عبد ربه
+</persName>
+</author>
+For secondary statements of responsibility, use the <editor> element, distinguished with the following values in the roleattribute: "editor", which refers to the person responsible for editing the manuscript, usually by collating it with other copies; "compiler", to the person responsible for the selection and compilation of the material contained in the manuscript; and "translator", to the person responsible for the translation of an original work. When using the element <editor>, the name should be tagged as <persName>, and the Arabic script supplied with <foreign>, indicating the language with the attribute xml:lang.
+Example of the element <editor>
+<editor role="translator">
+<persName xml:lang="per-Latn-x-lc" type="supplied">Abū al-Barakāt Muḥammad ibn Aḥmad ibn Muḥammad al-Ḥusayī <foreign xml:lang="ara">أبو البركات محمد بن محمد بن احمد بن محمد الحسيني</foreign>
+</persName>
+</editor>
+If the editor, translator or compiler is a known author with an authorised name, the references to the Library of Congress number and the Virtual International Authority File url may be added to the <persName> element following the model:
+<persName type="standard" key=" LC idno" ref="URL of VIAF entry">.
+5.3.1.3 Title
+Within <msItem>, the <title> element should be used to supply the regularised form of the item's title and any variants that exist. Variant titles are categorised using the type attribute. The main title of the work does not have a type attribute. If the work does not have a standard title, a descriptive title should be provided.
+Titles can be entered in more than one language and script, indicated by the xml:lang attribute
+Example of standard title in Latin transliteration and Arabic script:
+<msItem>
+<title xml:lang="ara-Latn-x-lc">Ghurar al-durar</title>
+<title xml:lang="ara">غرر الدرر</title>
+</msItem>
+Example of item with alternative title in Latin transliteration and Arabic script:
+<msItem>
+<title xml:lang="ara-Latn-x-lc">al-Qusṭās fī al-ʽarūḍ</title>
+<title xml:lang="ara-Latn-x-lc" type="alt">al-Qisṭās fī al-ʻarūḍ</title>
+<title xml:lang="ara-Latn-x-lc" type="alt">al-Qisṭās al-mustaqīm</title>
+<title xml:lang="ara">القسطاس في العروض</title>
+<title xml:lang="ara" type="alt">القسطاس المستقيم</title>
+</msItem>
+Example of descriptive title:
+<title xml:lang="eng">Collection of prayers and devotional texts</title>
+In order to define the hierarchical relationship between the titles of parts of a work which have an independent status within the manuscript, use the attributes type="main" and type="sub".
+Example of main title and subtitle:
+<msItem>
+<title xml:lang="per-Latn-x-lc" type="main">Khamsah-i Nizāmī</title>
+<title xml:lang="per-Latn-x-lc" type="sub">Khusraw va Shirīn</title>
+<title xml:lang="ara">خمسۀ نظامی</title>
+<title xml:lang="ara" type="alt">خسرو و شیرین</title>
+</msItem>
+In cases where there is a general title for a collection of works, a <title> element with attributetype="general" should be embedded in the in the <summary> element[see 3.3.1.1].
+5.3.1.4 Rubrics, Incipits, Explicits, and Other Quotations from the Text
+The elements <rubric>, <incipit>, <explicit>, <finalRubric>, <colophon>, and the more general <quote> are available within <msItem> to provide information about the opening and closing statements of the work and other relevant parts of the text. Each of these elements has the same substructure, containing a mixture of phrase-level elements and plain text. A <locus> element can be included within each, to specify the location of the component within the manuscript.
+Example for Incipit:
+<incipit xml:lang="ara" type="basmalah">
+<locus from="4a" to="4a">f. 4a</locus>
+بسم الله الرحمن الرحيم
+</incipit>
+5.3.1.5 Filiation, Bibliography, Text Classification and Related Resources
+Information concerning textual relations may be supplied in a variety of ways. The <filiation> element provides information about the relationship of the manuscript with other surviving manuscripts in terms of their content. <bibl> can also be used to point out to external resources related to a work such as printed catalogue pages, digitised versions or pages where images of the manuscript can be ordered.
+Example
+<msItem n="2" xml:id="a2">
+<title xml:lang="ara-Latn-x-lc">Khulāṣat al-ikhtiṣāṣ fī maʻrifat al-quwá wa-al-khawāṣṣ</title>
+<filiation>There is another manuscript of this work at the Birmingham University, Mingana Collection, Islamic Arabic Ms. no. 933 (1485)</filiation>
+</msItem>
+The <listBibl> element, which includes a number of bibliographical items tagged with the element <bibl>, is used to provide bibliographical references or to specify textual relations. This element can be used to supply information concerning the relationship between commentaries, recensions and supplements, and the original works from which they derive.
+Example of bibliographical reference:
+<msItem>
+<listBibl>
+<bibl>Golius Sale Cat., med. qu. 12</bibl>
+<bibl>UAM 147 entry DCXLII (642)</bibl>
+<bibl>NPAE, 590</bibl>
+<bibl>GAL I 239</bibl>
+<bibl>GAS III 319</bibl>
+</listBibl>
+</msItem>
+Example of reference to textual relationship:
+<msItem>
+<title xml:lang="ara-Latn-x-lc">Khulāṣat al-ikhtiṣāṣ fī maʻrifat al-quwá wa-al-khawāṣṣ</title>
+<filiation>There is another manuscript of this work at the Birmingham University, Mingana Collection, Islamic Arabic Ms. no. 933 (1485)</filiation>
+<listBibl>
+<bibl>Abridgement of <title xml:lang="ara-Latn-x-lc">al-Falāḥah al-nabaṭīyah <foreign xml:lang="ara">النبطية الفلاحة </foreign></title> of <author key="n88250347" ref="http://viaf.org/viaf/88345338"><persName xml:lang="ara-Latn-x-lc">Ibn Waḥshīyah, Aḥmad ibn ʻAlī, 9th cent.</persName><persName xml:lang="ara">ابو بكر احمد بن وحشية</persName></author>.</bibl></listBibl>
+</msItem>
+A <bibl> containing a <ref> element can be used to point to external resources related to a work, such as printed catalogue pages, digitised versions or sites where images can be ordered. For digitised versions, use the type attribute value "digitised-version", for image ordering sites, use "image-orders".
+Examples of pointing out to a related resource:
+Printed Catalogue
+<listBibl>
+<bibl>
+<ref target="http://www.lib.cam.ac.uk/arabic_catalogues/browne/view.php?id=76" >no. 673</ref>
+</bibl>
+</listBibl>
+Digitised Version
+<listBibl>
+<bibl type="digitised-version"> 
+<ref target="http://www.example.ac.uk/digitised_ms.html" >http://www.example.ac.uk/digitised_ms.html</ref>
+</bibl>
+</listBibl>
+Image Orders
+<listBibl>
+<bibl type="image-orders"> 
+<ref target="http://www.example.ac.uk/image_orders.html" >http://www.example.ac.uk/image_orders.html</ref>
+</bibl>
+</listBibl>
+OPTIONAL PRACTICE: It is possible to use a taxonomy to broadly classify works according to the following categories: commentary, supercommentary, supplement, translation, abridgement, gloss, selection, diagrams, papers, documents, extract, notes, and letters. These values, prefixed by a "#" are entered in the class attribute of the <msItem> element.
+Example of classes (abridgement)
+<msItem class="#abridgement">
+<title xml:lang="ara-Latn-x-lc">Khulāṣat al-ikhtiṣāṣ fī maʻrifat al-quwá wa-al-khawāṣṣ</title>
+<listBibl>
+<bibl>Abridgement of <title xml:lang="ara-Latn-x-lc">al-Falāḥah al-nabaṭīyah <foreign xml:lang="ara">النبطية الفلاحة </foreign></title> of <author key="n88250347" ref="http://viaf.org/viaf/88345338"><persName xml:lang="ara-Latn-x-lc">Ibn Waḥshīyah, Aḥmad ibn ʻAlī, 9th cent.</persName><persName xml:lang="ara">ابو بكر احمد بن وحشية</persName></author>.</listBibl>
+</msItem>
+5.3.1.6 Languages
+The element <textLang> is used to indicate the language or languages used in the work. The element itself contains a prose description of the language or languages used. The mainLangand otherLangs attributes contain the ISO 639-2 codes for the languages. Either attribute can take multiple entries, separated by blank spaces.
+Example <textLang>:
+<msItem>
+<textLang mainLang="per" otherLangs="ara ota">In Persian with Arabic and Turkish glosses</textLang>
+<msItem>
+5.3.1.7 Table of contents
+To record a table of contents, including section or chapter headings, insert a <msItem> element with attribute type set to "toc" for each heading, nested within the main <msItem> element. These secondary (or child) <msItem> elements may contain <locus>, <title> and other relevant elements.
+Example for table of contents
+<msItem>
+<msItem type="toc">
+<locus from="94b" to="94b">f. 94b</locus>
+<title>Fī al-ʽuzlah <foreign>في العزلة</foreign></title>
+</msItem>
+<msItem type="toc">
+<locus from="96a" to="96a">f. 96a</locus>
+<title>Fī jihād al-ʽadw <foreign>في جهاد العدو</foreign></title>
+</msItem>
+</msItem>
+5.3.1.8 Note
+A <msItem> may contain one or more <note> elements, each holding a note or annotation which does not fit easily into any of the other elements.
+Example for <note>:
+<note>The first three folios are bound upside down.</note>
+5.3.2 Physical Description
+Under the general heading 'physical description' we subsume a large number of different aspects of the manuscript, including:
+1. aspects of the form, support, extent, and quire structure of the manuscript object and of the way in which the text is laid out on the page.
+2. the style of writing used and discussion of any decorative features, any musical notation employed, and of any annotations or marginalia.
+3. discussion of binding, seals, and any accompanying material.
+5.3.2.1 Object Description
+The <objectDesc> element is used to group together those parts of the physical description which relate specifically to the text-bearing object. The form attribute of the <objectDesc> element indicates the form of the writing support being described. Valid values are:
+1. codex
+2. scroll
+3. leaf
+4. other
+By default the assumed form is "codex".
+This element contains:
+1. <supportDesc> - refers to the physical characteristics of the carrier of the text.
+2. <layoutDesc> - contains information about the disposition of the textual elements.
+5.3.2.1.1. Support description
+The <supportDesc> element and sub-elements describe the physical characteristics of the carrier medium. The material attribute <supportDesc> designates the materials used for the writing support. Valid values are:
+1. perg (parchment)
+2. chart (paper)
+3. mixed
+4. unknown
+<supportDesc> can contain the following elements:
+1. <support>
+2. <extent>
+3. <collation>
+4. <foliation>
+5. <condition>
+Example for <supportDesc>:
+<objectDesc form="codex">
+<supportDesc material="chart">
+< /supportDesc>
+</objectDesc>
+5.3.2.1.1.1. Support
+The <support> element contains a variety of elements used to describe the characteristics of the material written on and discuss its alterations, such as coloured and burnished paper, watermarks, etc.
+Example of <support>:
+<objectDesc form="codex">
+<supportDesc material="chart">
+<support>
+<material>Burnished paper</material> with <watermark>three crescents</watermark> watermark.
+</support>
+< /supportDesc>
+</objectDesc>
+5.3.2.1.1.2. Extent
+The <extent element> specifies the number of leaves in the manuscript. You can also use the embedded <dimensions> element to specify leaf dimensions, including unit of measurement.
+Example of <extent>:
+<objectDesc form="codex">
+<supportDesc material="chart">
+<extent>ii+100+ii
+<dimensions type="leaf" unit="cm">
+<height>35</height>
+<width>27</width>
+<dimensions>
+</extent>
+< /supportDesc>
+</objectDesc>
+5.3.2.1.1.3. Collation
+The <collation> element provides information about the arrangement of the leaves and quires of the manuscript. This information may be conveyed using informal prose in a paragraph tagged with <p></p>, or may be specified in terms of its segmentation with the with the <seg> element. Each segment can additionally have a <locus> element to describe position within the manuscript, and a <formula> element to describing the way the leaves have been gathered into quires.
+Example of <collation>:
+<objectDesc form="codex">
+<supportDesc material="perg">
+<collation>
+<p>Standard quire of 8 leaves gathered according to the Rule of Gregory</p>
+<seg n="1" type="gathering">
+<locus from="11a" to="14b">ff. 11a-14b</locus>
+<formula>H/F-F/H-H/F-F/H</formula>
+</seg>
+<seg n="2" type="gathering">
+</seg>
+</collation>
+< /supportDesc>
+</objectDesc>
+5.3.2.1.1.4. Foliation
+The <foliation> element is used to provide information about the systems used to number the folios or pages in the manuscript. The usage of several systems might be noted by providing an XML identification (xml:id) to distinguish between systems.
+Example of <foliation>:
+<foliation xml:id="original">
+<p>Original foliation in red Arab numerals in the outer margin of each recto</p>
+</foliation>
+<foliation xml:id="modern">
+<p>Additional pagination in pencil in <locus from="1b" to="67a">ff. 1b-67a</locus></p>
+</foliation>
+5.3.2.1.1.5. Condition
+The <condition> element summarises the physical conditions of the manuscript in plain prose tagged with <p></p>.
+Example of <condition>:
+<condition>
+<p>The manuscript shows signs of damage from on its outermost leaves.</p>
+</condition>
+5.3.2.1.2. Layout Description
+The <layoutDesc> element is used to describe the way text and illumination are arranged on the page, specifying for example the number of written, ruled, or pricked lines and columns per page, size of margins, distinct blocks such as glosses, commentaries, etc.
+By default, the layout refers to the misṭāra and should indicate the number of columns lines and the distance between lines.
+Example of <layoutDesc>:
+<layoutDesc>
+<layout columns="1" ruledLines="10" n="mistara">
+<dimensions type="line-height" unit="mm">
+<height>10</height>
+</dimensions>
+</layout>
+</layoutDesc>
+5.3.2.2 Writing, Decoration and Other Notations
+The physical description given in the previous elements may be complemented with information concerning aspects of the writing, illumination, or other notation found in a manuscript, including additions made in later hands.
+5.3.2.2.1. Writing
+The <handDesc> element provides a description of the characteristics of the writing, with the <handNote> element and its attributes scope, script and medium. The script can be described using the <desc> element, and the name of the scribe with <persName> (the Arabic script version of the name given by using the <foreign> element within <persName>).
+Valid values for the scope attribute are:
+1. sole
+2. major
+3. minor
+Valid attributes for the script attribute are:
+1. muhaqqaq
+2. rayhani
+3. rayhani
+4. naskh
+5. maghribi
+6. bihari
+7. nasta_liq
+8. thuluth
+9. tawqi_
+10. riqa_
+11. ghubar
+12. ta_liq
+13. diwani
+14. ruq_ah
+15. siyaqah
+16. unknown
+Example of <handDesc>:
+<handDesc>
+<handNote scope="major" script="naskh" medium="blackink">
+<desc>Naskh script in black ink</desc>
+<persName xml:lang="ara-Latn-x-lc" type="standard" key="n86836739" ref=" http://viaf.org/viaf/6796 6754/"> Ibn al-Bawwāb, ʻAlī ibn Hilāl, d. 1022 <foreign xml:lang="ara"> ابن البواب، علي بن هلال</foreign></persName>
+</handNote>
+</handDesc>
+If the manuscript has been written by different hands or presents different calligraphic styles it may be noted by providing a location with the <locus> element.
+Example of <handDesc> with <locus>
+<handDesc>
+<handNote scope="major" script="naskh" medium="blackink">
+<locus from="2b" to="60a">ff. 2b-60a</locus>
+<desc>Naskh script, black ink</desc>
+<persName xml:lang="ara-Latn-x-lc" type="standard" key="n86836739" ref=" http://viaf.org/viaf/6796 6754/"> Ibn al-Bawwāb, ʻAlī ibn Hilāl, d. 1022 <foreign xml:lang="ara"> ابن البواب، علي بن هلال</foreign></persName>
+</handNote>
+<handNote scope="major" script="naskh" medium="brownink">
+<locus from="61a" to="80a">ff. 61a-80a</locus>
+<desc>Hardly legible naskh, brown ink</desc>
+<persName xml:lang="ara-Latn-x-lc" type="supplied">Aḥmad b. Muḥammad<foreign xml:lang="ara"> أحمد بن محمد</foreign></persName>
+</handNote>
+</handDesc>
+The <handNote> element may also describe all the textual additions to the manuscript, such as signatures, seal impressions, etc.
+OPTIONAL PRACTICE: an alternative way to describe the features contained within the <handDesc> element is to use a <handNote> and insert a series of segments to provide palaeographical data.
+Example
+<handDesc>
+<handNote script="naskh" scope="major">
+<desc>naskh</desc>
+<seg type="pace">
+<seg type="density">550</seg>
+<seg type="ratio">1:1</seg>
+<seg type="anglealef">95</seg>
+<seg type="anglekaf">30</seg>
+</seg>
+</handNote> </handDesc>
+5.3.2.2.2. Decoration
+Decorative elements may be described within the <decoDesc> element with one or several descriptive paragraphs tagged as <decoNote>. The <decoNote> element allows you to categorise the nature of the decorative motifs with the type, and to position the decoration in the manuscript with the <locus> element.
+Valid values for the type attribute are:
+1. border
+2. diagram
+3. frieze
+4. illustration
+5. initial
+6. map
+7. marginal
+8. miniature
+9. mixed
+10. other
+11. paratext
+12. printmark
+13. publishmark
+14. rubrication
+15. secondary
+16. tooling
+17. unspecified
+18. unwan
+19. vignette
+Example for <decoDesc>:
+<decoDesc>
+<decoNote type="illustration"><desc>In <locus from="50a" to="50a">f. 50a</locus>, illustration representing a group of scholars</desc></decoNote>
+</decoDesc>
+5.3.2.2.3. Additions and Marginalia
+The <additions> element can be used to describe any additions to the manuscript. Additions may include elements such as <locus>, <persName>, <date> and <quote>. The type of addition (i.e. "marginalia") can be categorised using the <label> element. Additions can either be a prose description, enclosed in <p> tags, or (particularly for multiple or structured additions) be presented as a number of <items> within a <list> element.
+Example for additions:
+<additions>
+<list>
+<item>
+<label>marginalia</label>Name written in the margin of <locus from="40a" to="40a">f. 40a</locus>: <persName xml:lang="ara">أبو عثمان بن نحر</persName>
+</item>
+<item>
+<label>kabikaj</label>In <locus from="80b" to="80b">f. 80b</locus> the invocation: يا حفيظ يا كبيكج
+</item>
+<item>
+<label>orthography</label>
+Text very occasionally vocalised; diacritical dots for tāʾ marbuṭa omitted.
+</item>
+<item>
+<label>paper</label>
+European. 1. Colour: "ivory". Thickness: 0.11 mm. Distance between chain lines: 25 mm.
+</item>
+</list>
+</additions>
+5.3.2.3 Bindings, Seals and Additional Material
+The last component of the physical description relates to supporting but distinct physical components, namely bindings, seals and accompanying material.
+5.3.2.3.1 Binding Descriptions
+The <bindingDesc> element contains information about the bindings of the manuscript - concerning its material, distinctive marks, and provenance. This information may be provided in a summarised paragraph tagged with <p></p>. <decoNote> elements can be embedded to give more detailed information about parts of the binding. The <condition> can be embedded to describe the state of the binding.
+Example for <bindingDesc>
+<bindingDesc>
+<p>Original bound, <date calendar="gregorian" from="1700" to="1800">s. XVIII</date>, in <material>pasteboard covered with leather</material></p>
+<decoNote type="border">Upper cover illustrated with a border in gold</decoNote>
+<condition>Front and back leather inlaid panels very badly worn.</condition>
+</bindingDesc>
+5.3.2.3.2 Seals
+The <sealDesc> element supplies information about the seals attached to documents. It can either contain a text description in <p> tags, or any number of <seal> element. Multiple seal elements can be numbered using the n attribute.
+NB.- The seal impression of stamps of ownership may be described in <decoDesc>, in stylistic and decorative terms, or in <provenance> as regards its textual content.
+Example for <sealDesc>:
+<sealDesc>
+<seal n="1" type="pendant" subtype="cauda_duplex">
+<p>Round seal of <name type="person">Anders Olufsen</name> in black wax:
+<bibl>
+<ref>DAS 930</ref>
+</bibl>. Parchment tag, on which is written:
+<quote>pertinere nos predictorum placiti nostri iusticarii precessorum dif</quote>.</p>
+</seal>
+<seal n="2" type="pendant" subtype="cauda_duplex">
+<p>The seal of <name type="person">Jens Olufsen</name> in black wax:
+<bibl>
+<ref>DAS 1061</ref>
+</bibl>. Legend: <quote>S IOHANNES OLAVI</quote>.
+Parchment tag on which is written: <quote>Woldorp Iohanne G</quote>.</p>
+</seal>
+</sealDesc>
+5.3.2.3.3 Accompanying Material
+The <accMat> element allows for the listing and description of any documents and artefacts attached to the document. Textual content should be encoded with <p> tags, with elements such as <locus>, <persName>, <date> and <quote> embedded.
+Example for <accMat>:
+<accMat>
+<p>Pasted into the end of the volume is an original letter addressed to <persName>E. G. Browne</persName> and dated in <date calendar="Gregorian" when="1896">1896</date></p>
+</accMat>
+5.3.3 History
+The history of the manuscript is described with the <history> element, which contains: <origin>, <provenance> and <acquisition>.
+Use the <origin> element to provide the date in which the manuscript was written and, when known, the place. The element <date> should be used in combination with the calendarattribute.
+Valid values for calendar:
+1. Gregorian
+2. Julian
+3. AM
+4. Hijri-shamsi
+5. Hijri-qamari
+6. Coptic-EoM
+7. Alexandrian
+8. Iranian-Yazdigird
+9. Iranian-Jalali
+10. Spanish
+11. Ilahi
+12. Hindu
+13. unknown
+14. other
+Additionally, a number of attributes are used to qualify the <date> element:
+1. notBefore specifies the earliest possible date in standard form (yyyy-mm-dd)
+2. notAfter specifies the latest possible date in standard form (yyyy-mm-dd)
+3. from indicates the starting point of the period in standard form (yyyy-mm-dd)
+4. to indicates the ending point of the period in standard form (yyyy-mm-dd)
+5. when supplies the value of the date or time in a standard form (yyyy-mm-dd)
+These attributes should ALWAYS contain Gregorian dates, even if a different calendar is specified in the calendar attribute and used in the element content.
+Example for <origin>
+<origin>
+<date calendar="Hijri-qamari" when="1680">1091</date>
+<origPlace xml:lang="eng">Cairo <foreign xml:lang="ara">القاهرة</foreign></origPlace>
+</origin>
+When a date is given in a chronogram, use the rend attribute with a value of "chronogram:
+Example for chronogram:
+<date calendar="Hijri-qamari" when="1700" rend="chronogram"> في عام غفر انك =1351</date>
+In order to refer to a particular item in a manuscript with multiple works, the date should be nested within a <ref> element with the attribute target="#msItem id" [see 2. Linking with the TEI document above]
+Example of dates for multiple works
+<origin>
+<ref target="#a1"><date calendar="Hijri-qamari" when="1680">1091</date>
+<origPlace xml:lang="eng">Cairo <foreign xml:lang="ara">القاهرة</foreign></origPlace></ref>
+</origin>
+The <provenance> element supplies information about history of the manuscript and its former owners. The element <acquisition> is used to describe the way a manuscript was acquired by the holding institution. These may contain personal names tagged with <persName>, names of organizations tagged with <orgName>, and other elements to provide further information, such as <date> and <place>.
+Example for <provenance> and <acquisition>:
+<history>
+<provenance>
+<p>Recorded in two medieval catalogues of the books belonging
+to <name type="org">Durham Priory</name>, made in <date>1391</date> and
+<date>1405</date>.</p>
+</provenance>
+<acquisition>
+<p>Bequest of <persName> J.L. Burckhardt</persName> in <date calendar="Gregorian" when="1819">1819</date></p>
+</acquisition>
+</history>
+5.3.4 Administrative Information
+The <adminInfo> element is used to hold information relating to the curation and management of a manuscript in the holding institution. This information may be divided into the following parts:
+<recordHist> (recorded history): provides information about the <source> used for the manuscript description.
+Example of <recordHist>:
+<recordHist>
+<source>"Manuscript description based on E. G. Browne: A hand-list of the Muhammadan manuscripts, including all those written in the Arabic character, preserved in the Library of the University of Cambridge. Cambridge, 1900", abbreviated by the OCIMCO project team.</source>
+</recordHist>
+<availability>: supplies information about the availability of a manuscript, using the statusattribute. Valid values for status are "free", "unknown" and "restricted". May also contain information about the images or text, such as any restrictions on their use or distribution, their copyright status, etc.
+Example for <availability>:
+<availability status="restricted">
+<p>Entry to read in the Library is permitted only on presentation of a valid reader’s card for admissions procedures contact <ref target="http://www.lib.cam.ac.uk/cgi-bin/eligibility.cgi/">Cambridge University Library Admissions</ref>). Contact <email>near_eastern@lib.cam.ac.uk</email> for further information on the availability of this manuscript</p>
+</availability>
+<custodialHist> (custodial history): contains a description of a manuscript's custodial history, either as prose tagged with <p></p>, or as a series of dated custodial events, using the <custEvent> element.
+Example for <custodialHist>:
+<custodialHist>
+<custEvent type="conservation" notBefore="2001-03-01" notAfter="2001-02-28">
+<p>Rebound at Cambridge binders.</p>
+</custEvent>
+<custEvent type="photography" notBefore="2011-05-01" notAfter="2011-05-30">
+<p>Photographed by Imaging Services.</p>
+</custEvent>
+</custodialHist>
+5.3.5 Manuscript Parts
+Used to describe manuscripts which were originally physically distinct, but are now bound together. Allows you to group separate descriptions under one identifier. Not currently used in the Fihrist project.
+5.4 Local Taxonomies and Subject Headings
+The declaration of the local taxonomy of classes and subject headings fall outside of the <msDesc> element, but are included here as manuscript metadata often includes references to subjects and taxonomies. The Fihrist Catalogue makes use of subject headings in both search and browse
+5.4.1 Taxonomies
+The element <encodingDesc> is used to identify the source reference for the classes and the subject headings used to describe the content of the manuscript. In Fihrist we use the Library of Congress authorities (LCSH) for subject headings, and optionally a local declaration of classes (local_class) for the broad categorisation of manuscripts by genre [see 3.3.1.5 Filiation, Bibliography, Text Classification and Related Resources, OPTIONAL PRACTICE].
+If you only wish to use Library of Congress Subject headings, your <encodingDesc> should look like this:
+<encodingDesc>
+<classDecl>
+<taxonomy xml:id="LCSH">
+<bibl><ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref></bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+If you wish to use the local classes, your <encodingDesc> should look like this:
+<encodingDesc>
+<classDecl>
+<taxonomy xml:id="LCSH">
+<bibl><ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref></bibl>
+</taxonomy>
+<taxonomy xml:id="local_class">
+<category xml:id="commentary">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="supercommentary">
+<catDesc>supercommentary</catDesc>
+</category>
+<category xml:id="translation">
+<catDesc>translation</catDesc>
+</category>
+<category xml:id="multipleWorks">
+<catDesc>multipleWorks</catDesc>
+</category>
+<category xml:id="abridgement">
+<catDesc>abridgement</catDesc>
+</category>
+<category xml:id="papers">
+<catDesc>papers</catDesc>
+</category>
+<category xml:id="documents">
+<catDesc>documents</catDesc>
+</category>
+<category xml:id="extract">
+<catDesc>extract</catDesc>
+</category>
+<category xml:id="gloss">
+<catDesc>gloss</catDesc>
+</category>
+<category xml:id="selection">
+<catDesc>selection</catDesc>
+</category>
+<category xml:id="diagrams">
+<catDesc>diagrams</catDesc>
+</category>
+<category xml:id="notes">
+<catDesc>notes</catDesc>
+</category>
+<category xml:id="letters">
+<catDesc>letters</catDesc>
+</category>
+<category xml:id="palimpsest">
+<catDesc>palimpsest</catDesc>
+</category>
+<category xml:id="supplement">
+<catDesc>supplement</catDesc>
+</category>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+NB.- Further categories may be added to the <taxonomy> element according to the needs of a collection, by defining a new xml:id:
+<category xml:id="new_category">
+<catDesc>new_category</catDesc>
+</category>
+5.4.2 Subject Headings
+Fihrist uses Library of Congress Subject Headings to provide subject access to the works contained in the manuscripts. The subject headings are listed within the <profileDesc> element, according to the following template:
+<profileDesc>
+<textClass>
+<keywords scheme="#LCSH">
+<list>
+<item>
+<ref target="http://id.loc.gov/authorities/sh85100085#concept">Persian poetry--747-1500</ref>
+</item>
+<item>
+<ref target="http://id.loc.gov/authorities/sh85129652#concept">Sufi poetry</ref>
+</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+The target attribute of <ref> is used to point to the relevant page of the Library of Congress Subject Headings site.
+In order to link a subject heading to the relevant work in manuscripts containing multiple works, embed the subject heading in a further <ref> tag, with a target attribute pointing back to thexml:id attribute of the relevant <msItem> [see 2. Linking within the TEI document above].
+Example of pointing subject headings to particular works
+For a manuscript with two works: <msItem n="1" xml:id="a1"> containing an Arabic work on medicine, and <msItem n="2" xml:id="a2"> containing a medieval work on optics, the subject headings would be indicated as follows:
+<profileDesc>
+<item>
+<ref target="#a1"><ref target="http://id.loc.gov/authorities/sh85083116#concept">Medicine, Arab</ref></ref>
+</item>
+<item>
+<ref target="#a2"><ref target="http://id.loc.gov/authorities/sh2008108681#concept">Optics--Early works to 1800</ref></ref>
+</item>
+</profileDesc>
+5.5 Revision
+The <revisionDesc> element contains information concerning major changes to the TEI document, such as the type of revision, the name of the cataloguer and the date. Each separate event is recorded using a <change> element.
+Example for <revisionDesc>:
+<revisionDesc>
+<change when="2010-10-01">
+<persName>Yasmin Faghihi</persName>
+</change>
+</revisionDesc>
+6 Digital Facsimiles
+Used to list and describe any images of the manuscript for viewing alongside the TEI. Gives each image an id which can be used in the TEI transcription to link sections of text with corresponding images. Images are not currently displayed in the Fihrist Catalogue.
+7 Text
+A transcription of the manuscript would go here. Fihrist does not currently display transcriptions.
