@@ -1,0 +1,163 @@
+<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <funder/>
+        <principal/>
+      </titleStmt>
+      <publicationStmt>
+        <pubPlace/>
+        <date calendar="Gregorian"/>
+        <!--Decide on Publication Statement-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
+          <msIdentifier>
+            <country>United States of America</country>
+            <settlement>Collegeville, Minnesota</settlement>
+            <institution>HMML</institution>
+            <repository>Hill Museum & Manuscript Library</repository>
+            <collection>Kacmarcik Ms. 11</collection>
+            <idno>Unknown 197?</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Latin Theological Texts and Misc.</summary>
+            <textLang mainLang="la" otherLangs="de">Latin and German</textLang>
+            <msItem n="1" xml:id="a1">
+              <locus from="" to="">i+61ff</locus>
+              <title key=""  type="supplied">Liber de apprehensione.</title>
+              <title key=""  type="supplied" xml:lang="la">Liber de apprehensione.</title>
+              <!-- Need our URI key and ref tags here -->
+              <listBibl>
+                <bibl>
+                  <ref/>
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem n="2" xml:id="b1">
+              <locus from="" to="">i+125ff</locus>
+              <title key=""  type="supplied">Stellarium coronae benedictae Mariae virginis in laudem eius pro singulis praedicationibus elegantissime coaptatum</title>
+              <title key=""  type="supplied" xml:lang="la">Stellarium coronae benedictae Mariae virginis in laudem eius pro singulis praedicationibus elegantissime coaptatum</title>
+              <!-- Need our URI key and ref tags here -->
+              <listBibl>
+                <bibl>
+                  <ref/>
+                </bibl>
+              </listBibl>
+            </msItem>
+            <msItem n="3" xml:id="c1">
+              <locus from="" to="">21ff</locus>
+              <title key=""  type="supplied">De sensu et sensato</title>
+              <title key=""  type="supplied" xml:lang="la">De sensu et sensato</title>
+              <!-- Need our URI key and ref tags here -->
+              <listBibl>
+                <bibl>
+                  <ref/>
+                </bibl>
+              </listBibl>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+                <support><material>Paper</material></support>
+                <extent>lxi+16ff<dimensions type="leaf" unit="cm">
+                  <height>12 in</height>
+                  <width>8 in</width>
+                  <depth>33 cm</depth>
+                </dimensions>
+                  <dimensions type="written" unit="cm">
+                    <height/>
+                    <width/>
+                  </dimensions>
+                </extent>
+                <foliation xml:id="modern">
+                  <locus from="" to="">lxi+16ff</locus>
+                  <p/>
+                </foliation>
+                <foliation xml:id="modern">
+                   <locus/>
+                  <p/>
+                </foliation>
+                <collation>
+                  <p/>
+                  <seg n="1" type="gathering">
+                    <locus from="" to="">lxi+16ff</locus>
+                    <formula/>
+                  </seg>
+                </collation>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Printed book bound with manuscript.</p>
+                    </item>
+                    <item>
+                      <p>Two printed works with different provenances, bound with one manuscript.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2">
+                  <p/>
+                  <locus from="" to=""></locus>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handnote1" scope="major" script="mixed" medium="unknown">
+                <p>Latin, German</p>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <summary/>
+            <origin>
+              <origDate>Unknown</origDate>
+            </origin>
+            <provenance/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>Manuscript description based on Hill Museum and Manuscript Library's OLIVER project</source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy> </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <!--Alisdair's addition of categories-->
+    <profileDesc>
+      <textClass> </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <persName/>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- facsimile information about the manuscript -->
+    <graphic/>
+    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
+      elements to give coordinates for any special areas of interest -->
+  </facsimile>
+  <text>
+    <body>
+      <!-- If you had a transcription of the manuscript you would put it here -->
+      <p/>
+    </body>
+  </text>
+</TEI>
