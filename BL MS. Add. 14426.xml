@@ -69,7 +69,7 @@
                                     <ref target="#r2">6</ref>
                                 </bibl>
                                 <!-- Revisit two ref targets -->
-                                <!-- Where do will citedRange go? -->
+                                <!-- Where will citedRange go? -->
                                 <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->                     
                             </listBibl>
                         </msItem>
