@@ -162,6 +162,7 @@
                                     <!-- If the entry contains the final Syriac lines of the actual text -->
                                     <finalRubric xml:lang="syr"/>
                                     <!-- If the entry contains a subscription -->
+                                    <colophon><ref target="#m1">See below.</ref></colophon>
                                     <listBibl>
                                         <bibl>
                                             <ref target="#r1">I</ref>
@@ -209,6 +210,8 @@
                                 <author key=""/>
                                 <title key="" ref="http://lccn.loc.gov/">Job</title>
                                 <!-- Use Library of Congress URI for Job -->
+                                <colophon><ref target="#m2">See below.</ref></colophon>
+                                <colophon><ref target="#m5">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>
@@ -252,6 +255,7 @@
                                 <author key=""/>
                                 <title key="" ref="http://lccn.loc.gov/">The two books of
                                     Samuel</title>
+                                <colophon><ref target="#m6">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>
@@ -371,6 +375,7 @@
                                     <author key=""/>
                                     <title key="" ref="http://lccn.loc.gov/">2nd Chronicles</title>
                                     <!-- Use Library of Congress URI for  -->
+                                    <colophon><ref target="#m3">See below.</ref></colophon>
                                     <listBibl>
                                         <bibl>
                                             <ref target="#r1">I</ref>
@@ -451,6 +456,7 @@
                                     <!-- What should we do if the locus is not specified, but implied as 197a -->
                                     <locus from="197a">197a</locus>
                                 </rubric>
+                                <colophon><ref target="#m4">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>
@@ -509,6 +515,7 @@
                                 <title key="" ref="http://lccn.loc.gov/">The Twelve Minor
                                     Prophets</title>
                                 <!-- Use Library of Congress URI for  -->
+                                <colophon><ref target="#m7">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>
@@ -716,6 +723,7 @@
                                     <title>ܟܬܒܐ ܕܝܫܘܥ ܒܪ ܫܡܥܘܢ ܕܡܬܩܪܐ ܒܪ ܐܣܝܪܐ</title>
                                     <locus from="306a">306a</locus>
                                 </rubric>
+                                <colophon><ref target="#m3">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>
@@ -730,6 +738,7 @@
                                 <author key=""/>
                                 <title key="" ref="http://lccn.loc.gov/">The Three Books of the
                                     Maccabees</title>
+                                <colophon><ref target="#m3">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>

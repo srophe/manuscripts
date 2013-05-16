@@ -209,6 +209,8 @@
                                 <author key=""/>
                                 <title key="" ref="http://lccn.loc.gov/">Job</title>
                                 <!-- Use Library of Congress URI for Job -->
+                                <colophon><ref target="#m2">See below.</ref></colophon>
+                                <colophon><ref target="#m5">See below.</ref></colophon>                            
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>
@@ -267,6 +269,7 @@
                                     <title key="" ref="http://lccn.loc.gov/">1st Kings</title>
                                     <!-- Make sure this URI is for 1 Kings that would appear in a text in which the Protestant 1 Samuel is titled 1 Kings -->
                                     <!-- Use Library of Congress URI for  -->
+                                    <colophon><ref target="#m6">See below.</ref></colophon>
                                     <listBibl>
                                         <bibl>
                                             <ref target="#r1">I</ref>
@@ -371,6 +374,7 @@
                                     <author key=""/>
                                     <title key="" ref="http://lccn.loc.gov/">2nd Chronicles</title>
                                     <!-- Use Library of Congress URI for  -->
+                                    <colophon><ref target="#m3">See below.</ref></colophon>                                
                                     <listBibl>
                                         <bibl>
                                             <ref target="#r1">I</ref>
@@ -478,6 +482,7 @@
                                     <author key=""/>
                                     <title key="" ref="http://lccn.loc.gov/">Susanna</title>
                                     <!-- Use Library of Congress URI for  -->
+                                    <colophon><ref target="#m4">See below.</ref></colophon>                                
                                     <listBibl>
                                         <bibl>
                                             <ref target="#r1">I</ref>
@@ -509,6 +514,7 @@
                                 <title key="" ref="http://lccn.loc.gov/">The Twelve Minor
                                     Prophets</title>
                                 <!-- Use Library of Congress URI for  -->
+                                <colophon><ref target="#m7">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
                                         <ref target="#r1">I</ref>
@@ -743,6 +749,7 @@
                                     <author key=""/>
                                     <title key="" ref="http://lccn.loc.gov/">1st Maccabees</title>
                                     <!-- Use Library of Congress URI for  -->
+                                    <colophon><ref target="#m3">See below.</ref></colophon>                                
                                     <listBibl>
                                         <bibl>
                                             <ref target="#r1">I</ref>
