@@ -3,58 +3,76 @@ Please merge with Walters Documentation
 
 Syriaca Manual
 Contents
-1. 1. Introduction
-2. 2. Linking within the TEI document
-3. 3. Title Statement
-4. 4. Publication Statement
-5. 5. Manuscript Description
-1. 5.1 Manuscript Identifier
-2. 5.2 Manuscript Heading
-3. 5.3 Manuscript Contents and Descriptive Clusters
-1. 5.3.1 Intellectual Content
-1. 5.3.1.1 Structure and elements
-2. 5.3.1.2 Author and Editor
-3. 5.3.1.3 Title
-4. 5.3.1.4 Rubrics, Incipits, Explicits, and Other Quotations from the Text
-5. 5.3.1.5 Filiation, Bibliography, Text Classification and Related Resources
-6. 5.3.1.6 Languages
-7. 5.3.1.7 Table of contents
-8. 5.3.1.8 Note
-1. 5.3.2 Physical Description
-1. 5.3.2.1 Object Description
-1. 5.3.2.1.1. Support description
-1. 5.3.2.1.1.1. Support
-2. 5.3.2.1.1.2. Extent
-3. 5.3.2.1.1.3. Collation
-4. 5.3.2.1.1.4. Foliation
-5. 5.3.2.1.1.5. Condition
-1. 5.3.2.1.2. Layout Description
-1. 5.3.2.2 Writing, Decoration and Other Notations
-1. 5.3.2.2.1. Writing
-2. 5.3.2.2.2. Decoration
-3. 5.3.2.2.3. Additions and Marginalia
-1. 5.3.2.3 Bindings, Seals and Additional Material
-1. 5.3.2.3.1 Binding Descriptions
-2. 5.3.2.3.2 Seals
-3. 5.3.2.3.3 Accompanying Material
-1. 5.3.3 History
-2. 5.3.4 Administrative Information
-3. 5.3.http://www.fihrist.org.uk/manual/#5345 Manuscript Parts
-1. 5.4 Local Taxonomies and Subject Headings
-1. 5.4.1 Taxonomies
-2. 5.4.2 Subject Headings
-1. 5.5 Revision
-1. 6. Digital Facsimiles
-2. 7. Text
+1. Introduction
+
+2. Linking within the TEI document
+
+3. Title Statement
+
+4. Publication Statement
+
+5. Manuscript Description
+5.1 Manuscript Identifier
+5.2 Manuscript Heading
+5.3 Manuscript Contents and Descriptive Clusters
+
+5.3.1 Intellectual Content
+5.3.1.1 Structure and elements
+5.3.1.2 Author and Editor
+5.3.1.3 Title
+5.3.1.4 Rubrics, Incipits, Explicits, and Other Quotations from the Text
+5.3.1.5 Filiation, Bibliography, Text Classification and Related Resources
+5.3.1.6 Languages
+5.3.1.7 Table of contents
+5.3.1.8 Note
+
+5.3.2 Physical Description
+5.3.2.1 Object Description
+5.3.2.1.1. Support description
+5.3.2.1.1.1. Support
+5.3.2.1.1.2. Extent
+5.3.2.1.1.3. Collation
+5.3.2.1.1.4. Foliation
+5.3.2.1.1.5. Condition
+
+5.3.2.1.2. Layout Description
+5.3.2.2 Writing, Decoration and Other Notations
+5.3.2.2.1. Writing
+5.3.2.2.2. Decoration
+5.3.2.2.3. Additions and Marginalia
+5.3.2.3 Bindings, Seals and Additional Material
+5.3.2.3.1 Binding Descriptions
+5.3.2.3.2 Seals
+5.3.2.3.3 Accompanying Material
+5.3.3 History
+5.3.4 Administrative Information
+
+5.3. http://www.fihrist.org.uk/manual/#5345 Manuscript Parts
+
+5.4 Local Taxonomies and Subject Headings
+5.4.1 Taxonomies
+5.4.2 Subject Headings
+5.5 Revision
+
+6. Digital Facsimiles
+
+7. Text
 
 1. Introduction
+
 These guidelines are for the creation of TEI records for Syriac Manuscripts according to the Fihrist Schema. Records created following this manual can be contributed to the Fihrist Catalogue. For the moment, these guidelines cover only the description rather than the transcription of manuscripts. It is envisaged that guidelines for transcription will be produced in the future.
+
 The Fihrist Schema is based on the Enrich Schema for the description of Western Manuscripts. More information about TEI itself can be found on the TEI website, including links to a documentation wiki. Most sections in this document correspond to a relevant section in the Enrich documentation, where fuller explanations may be found.
+
 2. Linking within the TEI document
+
 Manuscript description using TEI sometimes involves linking together different parts of the xml document. We will tackle this issue first, before going on to look at description, as it has implications for the whole structure of the document. However, this section may make more sense as you read further through the manual.
 Large parts of the TEI manuscript description (the identifier, the physical description, the manuscript history, the encoding description and the profile description) relate to the manuscript as a whole. Information about works contained within the manuscript is recorded in one or more <msItem> elements. This works well if a manuscript contains only one item, or if the broader aspects of the description (scribe, date, subject etc.) relate equally well to all of the works contained within the manuscript.
+
 Difficulties can arise where a manuscript contains multiple works (i.e. multiple <msItem> elements) with differing physical aspects, histories, subject matter etc. TEI gets around this difficulty by allowing you to assign a unique xml:id value to each <msItem>, and allowing you to use the <ref> element to reference that value in other parts of the document.
+
 So, if a manuscript contains two works of differing date:
+
 --Give each msItem a different value in xml:id--
 
 
@@ -70,14 +88,15 @@ So, if a manuscript contains two works of differing date:
 
 --and then reference these values (preceded by #) in the target attribute of the ref element when recording dates, to distinguish which date relates to which msItem--
 
-
 <history>
 <origin>
 <ref target="#a1"><date calendar="Gregorian" when="1680">1680</date></ref>
 <ref target="#a2"><date calendar="Gregorian" when="1695">1680</date></ref>
 </origin>
 </history>
+
 This principle can be applied when recording information about a specific <msItem> anywhere in the document outside that <msItem> element. Any data not surrounded by a <ref> element is assumed to relate to all works contained in the manuscript. For manuscripts containing a single work, no referencing is necessary.
+
 3. Title Statement
 This is the title statement for the electronic document as a whole, rather than for the manuscript. This title may refer to the manuscript, or it can be a default title for the project as a whole. The title of the manuscript is recorded later in the record in 5.3.1.3 Title. The <titleStmt> can include information about the project's name, funding and members.
 <titleStmt>
@@ -85,6 +104,7 @@ This is the title statement for the electronic document as a whole, rather than 
 <funder>JISC</funder>
 <principal>Gillian Evison</principal>
 </titleStmt>
+
 4. Publication Statement
 <publicationStmt> contains information about the publication of the description/transcription of the manuscript, rather than the publication of the manuscript itself. It can contain the name, address and contact details of the publishing body, the date of publication, as well as an id number.
 The id number should be the MARC Organisation Code for your institution, i.e. UkCu.
@@ -104,8 +124,10 @@ The id number should be the MARC Organisation Code for your institution, i.e. Uk
 </pubPlace>
 <idno>UkCU</idno>
 </publicationStmt>
+
 5. Manuscript Description
 In this document, we will concentrate on manuscript description, which takes place in the <msdesc> element. This element can be included either in the <sourceDesc> element of the <teiHeader> element or in the main <body> element. We will also be touching on the <encodingDesc> and <profileDesc> elements for the recording of subject headings. The rest of the TEI document should be created as normal, according to the TEI guidelines. See our full example for further information.
+
 5.1 Manuscript Identifier
 The <msIdentifier> element provides information used to identify the manuscript. It records data such as the holding institution, class-marks, alternative identifiers, and specific names for particular manuscripts.
 The elements used to describe the holding institution include <country>, <region>, <settlement>, <institution> and <repository>.
@@ -145,6 +167,7 @@ Example with manuscript name:
 <idno>Or. 1287</idno>
 <msName xml:lang="eng">Mingana Palimpsest</msName>
 </msIdentifier>
+
 5.2 Manuscript Heading
 The <head> element is intended to contain a heading providing summarised information about the manuscript. Not used in the Fihrist schema - the general information about the manuscript, such as a general title, is instead included in the <summary>, under <msContent> [see 3.3]
 5.3 Manuscript Contents and Descriptive Clusters
