@@ -106,37 +106,76 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="20 22">
-                                    <p>There are from 20 to 22 lines in each page.</p>
+                                    <p>There are from 20 to 22 lines on each page.</p>
                                     <locus from="1" to="108">ff. 1-108</locus>     <!-- Do we need locus here? Probably not -->
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                         <handDesc hands="2">
-                             <!-- How do we need to deal with handDesc hands? Do only the scribes count or do all hands that contributed count? -->
-                             <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="unknown">
-                                 <locus from="1" to="105">ff. 1-105</locus>
-                                 <p>The character is a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></p>
+                         <handDesc hands="1">
+                             <handNote scope="major" script="unknown"><p>The character is an elegant, regular Estrangela, of the earlier half of the <origDate notBefore="1700" notAfter="1800">viiith century</origDate>.
+                                 Vowels have been added in a few cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ, , ).</p></handNote>
+                             <!-- VOWELS  -->
+                             <handNote xml:id="handnote1" scope="minor" script="Estrangelo" medium="unknown">
+                                 <locus from="2a" to="2a">fol. 2a.</locus>
+                                 <listPerson>
+                                     <person role="scribe" xml:id="Serg_Abraham" corresp="">
+                                         <persName xml:lang="eng">Deacon Sergius bar Abraham, of Rīsh’ainā or Rās’ain (%)</persName>
+                                         <persName xml:lang="syr"></persName>
+                                     </person>
+                                 </listPerson>
+                                 <!-- Not a scribe? / Needs arabic and syriac name added / Where are the xml ids for authors?-->
                              </handNote>
                              <handNote xml:id="handnote2" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="1" to="105">ff. 1-105</locus>
-                                 <p>They have been twice signed with letters (see foll.<locus from="16" to="16">16</locus>, 
-                                     <locus from="46" to="46">46</locus>, and <locus from="56" to="56">56</locus>), but at neither time correctly.</p>
+                                 <locus from="2a" to="2a">fol. 2a</locus>
+                                 <p>Note written in large open Estrangela characters.</p>
                              </handNote>
-                             <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="1" to="105">ff. 1-105</locus>
-                                 <p>Vowels have sometimes been added by a later hand (ܰ, ܶ, ܺ, ܳ, , , ). </p>
-                                 <!-- Not in the Word Doc, Needs to be added, we need to come up with a standard way in the XML to represent this, I think we flag this as having vocalization data and someone adds it later.-->
-                                 <!-- Vocalization goes here -->
+                            <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
+                                 <locus from="107b" to="108a">ff. 107b and 108a.</locus>
+                                 <listPerson>
+                                     <person role="scribe" xml:id="Moses_Nisibis" corresp="">
+                                         <persName xml:lang="eng">Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932)</persName>
+                                         <persName xml:lang="syr"></persName>
+                                     </person>
+                                 </listPerson>
+                                 <p>Subscription on 107b and note on 108a in the handwriting of Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932).</p>
+                                 <!-- Not a scribe/ Two loci? / "abbat" sp? -->
                              </handNote>
                          </handDesc>
                         <additions>
                             <list>
                                 <item>
-                                    <p><label>Marginal note</label>noting lesson on <locus from="28b" to="28b">f. 28b</locus>. ܩܪܝܢܐ ܕܚܡܫܐ ܕܪܐܙܐ.</p></item>
-                                <!-- Not sure what Wright is doing with the syriac of the lesson above -->
-                            </list>
-                            <!-- Label this work? Find this element ,something that can contain title not list  -->
-                            <!-- Additions does allow "title" to exist? -->
+                                    <item n="1" xml:id="m1">
+                                        <locus from="107b">Fol. 107b</locus>
+                                        <p><label>Subscription</label></p></item>
+                                    <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ; after which follows the doxology, ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣ ܐܡܝܼܢ ܘܐܡܝܢ܆, and in a more cursive character the words ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.  </quote>
+                                    </item>
+                                <!-- Language in quote? -->
+                                <item>
+                                    <item n="2" xml:id="m2">
+                                        <locus from="108a">Fol. 108a</locus>
+                                        <p><label>A note</label>on fol. 108 a, states that the manuscript was written for the monks of the convent of Nātphā, @[ See Assemani, Bibl. Or., t. ii., Dissert. de Monophysitis, art. ix., Monasterium Nataphae.]@ near Māridīn, at the expense of the priest Julian ܢܘܢܝܐ, and of the deacons George and Dādā, visitors (ܣܳܥܽܘܪܳܐ, περιοδευτής) of the said convent. </p></item>
+                                    <quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ ܛܝܒܘܬܐ ܕܐܠܗܐ ܕܐܬܬ ܒܐ̈ܝܕܝܗܘܢ. ܠܟܢܘܫܝܐ ܩܕܝܫܐ ܕܝܚܝ̈ܕܝܐ ܕܢܛܦܐ ܕܒܛܘܪܐ ܡܪܕܐ. ܩܫܝܫܐ ܝܘܠܝܢܐ ܢܘܢܝܐ. ܘܓܐܘܪܓܝ ܘܕܕܐ ܡܫܡ̈ܫܢܐ ܘܣܥܘܪ̈ܐ ܕܝܠܗ ܕܟܢܘܫܝܐ. ܕܟܠ ܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ ܘܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܩܠܝܠ ܘܐܢ ܒܣܓܝ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܣܡܘ ܣܝܡܬܐ ܗܕܐ̣. ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ ܠܡܢܬܐ ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote>
+                                </item>
+                                <item>
+                                    <item n="3" xml:id="m3">
+                                        <locus from="108a">Fol. 108a</locus>
+                                        <p><label> <!-- ?--></label>What originally followed has been erased, and in its place we read, in the handwriting of Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932), @[See the notes in his handwriting in many other volumes of this collection, and also Assemani, Bibl. Or. t. i. p. 83, t. ii. p. 118; Cureton, the Festal Letters of Athanasius, preface, p. xxiv., note.]@ that this book was procured by him for the library of the said convent. </p></item>
+                                    <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ ܡܘܫܐ ܢܨܝܒܝܢܝܐ ܪܝܫܕܝܪܐ. ܘܐܚܪܡܬ ܒܡܠܬܐ ܕܐܠܗܐ ܥܠ ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܐܘ ܡܘܒܕ ܘܡܫܓܢܐ ܠܟܬܒܐ ܗܢܐ ܡܢܗ̇ ܕܕܝܪܐ ܒܚܕ ܡܢ ܙܢܝ̈ܢ. ܘܡ̇ܢ ܕܣܥܐ ܥܠ ܗܠܝܢ܆ ܚܪܡܗ ܕܐܠܗܐ ܘܪܘܓܙܗ ܘܠܘܛܬܗ ܢܗܘܘܢ ܥܠܘܗܝ. ܘܟܠ ܕܢܛܪ ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱  </quote>
+                                </item>
+                                <item>
+                                    <item n="4" xml:id="m4">
+                                        <locus from="2a">Fol. 2a</locus>
+                                        <p><label><!--?--></label></p></item>
+                                    <quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ  (?)ܡܫܡܫܢܐ ܒܪܝܫܥܝܢܐ. ܟܘܠ ܕܩܪܐ ܒܗ ܐܘ ܢܟܬܘܒ(sic) ܡܢܗ ܘܠܐ ܢܗܦܟܝ (sic) ܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܚܪܡܗ ܕܡܪܝܐ ܥܠܘܗܝ ܘܥܠ ܒܝܬܘܗܝ (sic) ܘܥܠ ܥܘܬܪܗ ܘܥܠ ܘܥܘܡܪܗ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote>
+                                </item>
+                                <item>
+                                    <item n="5" xml:id="m5">
+                                        <locus from="2a">Fol. 2a</locus>
+                                        <p><label>Notation</label> of the names of two readers of the book, John and Yeshūa’</p></item>
+                                    <quote xml:lang="syr">ܝܘܚܢܢ ܚ̇ܛܝܐ ܘܝܫܘܥ ܬܠܡܝܕܗ ܕܡܫܝܚܐ.</quote>
+                                </item>
+                              </list>
+                            <!-- What to do with the xml ids above? -->
                             <catchwords/>
                         </additions>
                         <bindingDesc>
@@ -198,7 +237,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2010-05-06">
+            <change when="2012-21-05">
                 <persName/>
             </change>
         </revisionDesc>
