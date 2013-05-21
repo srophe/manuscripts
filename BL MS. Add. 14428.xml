@@ -46,26 +46,26 @@
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
-                        <idno>BL MS Add. 12,133</idno></msIdentifier>
+                        <idno>BL MS Add. 14,428</idno></msIdentifier>
               <msContents>
                         <summary>Biblical Manuscripts: Old Testament</summary>
                         <textLang mainLang="syr">Syriac</textLang>
                         <msItem n="1" xml:id="a1" class="#translation">
                             <!-- waiting to find out on this -->
-                            <locus from="1a" to="108b">ff. 1a-108b</locus>
+                            <locus from="1" to="89">ff. 1-89</locus>
                             <author key=""/>
-                            <title ref="http://syriaca.org/work/2">The book of Exodus, according to the Peshitta version.</title>
+                            <title ref="http://syriaca.org/work/3">The book of Numbers, according to the Peshitta version, commencing with ch. iii. 14. </title>
                             <rubric xml:lang="syr">
-                                <title>ܡܦܩܢܐ̇ ܣܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ</title>
-                                <locus from="3b">3b</locus>
+                                <title/>
+                                <locus/>
                             </rubric>
-                            <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by rubrics in the text.</p></note>
+                            <note/>
                             <listBibl>
                                 <bibl>
-                                    <ref target="#r1">V</ref>
+                                    <ref target="#r1">XI</ref>
                                 </bibl>
                                 <bibl>
-                                    <ref target="#r2">6</ref>
+                                    <ref target="#r2">9-10</ref>
                                 </bibl>
                                 <!-- Revisit two ref targets -->
                                 <!-- Where will citedRange go? -->
@@ -78,10 +78,10 @@
                             <supportDesc material="perg">
                                 <support n="1">
                                     <material>Vellum</material>
-                                    <locus from="1" to="108">Fol. 1-108</locus>
+                                    <locus from="1" to="89">Fol. 1-89</locus>
                                 </support>
-                                   <extent> ff. 108 <dimensions type="leaf" unit="in">
-                                        <height>9 3/4</height>
+                                   <extent> ff. 89 <dimensions type="leaf" unit="in">
+                                        <height>9 7/8</height>
                                         <width>6 1/2</width>
                                     </dimensions>
                                     <dimensions type="written" unit="in">
@@ -90,92 +90,94 @@
                                     </dimensions>
                                 </extent>
                                 <foliation xml:id="ancient">
-                                    <locus from="1" to="108">ff. 1-108</locus>
-                                    <p>The quires are signed with both letters and arithmetical figures, thus:   etc</p>
-                                    <!-- Uncopyable figures from Worddoc missing above  -->
+                                    <locus from="1" to="89">ff. 1-89</locus>
                                 </foliation>
                                 <collation>
-                                    <p>The quires are eleven in number.</p>
+                                    <p>The quires, originally ten in number, are signed with letters</p>
                                     <seg n="1" type="gathering">
                                         <locus/>
-                               <!-- Let' not enter a locus except in the cases where we have multiple gatherings or manuscripst that are composite or broken? -->
                                         <formula/>
                                     </seg>
                                 </collation>
-                                <condition/>
+                                <condition><p>The last leaf is much torn and of the first quire only a single leaf remains.</p></condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="20 22">
                                     <p>There are from 20 to 22 lines on each page.</p>
-                                    <locus from="1" to="108">ff. 1-108</locus>     <!-- Do we need locus here? Probably not -->
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                         <handDesc hands="1">
-                             <!-- What is the exact relationship between the # of hands and the notes below? -->
-                             <handNote scope="major" script="unknown"><p>The character is an elegant, regular Estrangela, of the earlier half of the <origDate notBefore="1700" notAfter="1800">viiith century</origDate>.
-                                 Vowels have been added in a few cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ, , ).</p></handNote>
-                             <!-- VOWELS  -->
+                         <handDesc hands="3">
+                             <handNote scope="major" script="unknown"><p>This manuscript is written in a beautiful, regular Estrangela around <origDate notBefore="0724" notAfter="0725">A.D. 724</origDate>.</p></handNote>
+                             <listPerson>
+                                 <person role="scribe" xml:id="Saba_Rasain" corresp="">
+                                     <persName xml:lang="eng">Deacon Sābā of Rās’ain</persName>
+                                     <persName xml:lang="syr"></persName>
+                                 </person>
+                             </listPerson>
                              <handNote xml:id="handnote1" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="2a" to="2a">fol. 2a.</locus>
+                                 <locus from="89a" to="89a">fol. 89a.</locus>
                                  <listPerson>
                                      <person role="scribe" xml:id="Serg_Abraham" corresp="">
                                          <persName xml:lang="eng">Deacon Sergius bar Abraham, of Rīsh’ainā or Rās’ain (%)</persName>
                                          <persName xml:lang="syr"></persName>
                                      </person>
                                  </listPerson>
-                                 <!-- Not a scribe? / Needs arabic and syriac name added / Where are the xml ids for authors?-->
-                             </handNote>
+                              </handNote>
                              <handNote xml:id="handnote2" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="2a" to="2a">fol. 2a</locus>
-                                 <p>Note written in large open Estrangela characters.</p>
+                                 <locus from="89b" to="89b">fol. 89b.</locus>
+                                 <p>Two notes in a small and neat hand.</p>
                              </handNote>
-                            <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="107b" to="108a">ff. 107b and 108a.</locus>
+                             <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
+                                 <locus from="89a" to="89a">fol. 89a.</locus>
                                  <listPerson>
-                                     <person role="scribe" xml:id="Moses_Nisibis" corresp="">
-                                         <persName xml:lang="eng">Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932)</persName>
+                                     <person role="scribe" xml:id="Abraham_Beth-Severinna" corresp="">
+                                         <persName xml:lang="eng">Abraham, who is in name a monk, from Beth-Severīnna, from the convent of Mār Gabriel</persName>
                                          <persName xml:lang="syr"></persName>
                                      </person>
                                  </listPerson>
-                                 <p>Subscription on 107b and note on 108a in the handwriting of Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932).</p>
-                                 <!-- Not a scribe/ Two loci? / "abbat" sp? -->
+                                 <p>Written in a small and modern hand.</p>
                              </handNote>
-                         </handDesc>
+                   </handDesc>
                         <additions>
                             <list>
-                                <item>
-                                    <item n="1" xml:id="m1">
-                                        <locus from="107b">Fol. 107b</locus>
-                                        <p><label>Subscription</label></p></item>
-                                    <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ; after which follows the doxology, ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣ ܐܡܝܼܢ ܘܐܡܝܢ܆, and in a more cursive character the words ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.  </quote>
-                                    </item>
-                                <!-- Language in quote? -->
-                                <item>
-                                    <item n="2" xml:id="m2">
-                                        <locus from="108a">Fol. 108a</locus>
-                                        <p><label>A note</label>on fol. 108 a, states that the manuscript was written for the monks of the convent of Nātphā, @[ See Assemani, Bibl. Or., t. ii., Dissert. de Monophysitis, art. ix., Monasterium Nataphae.]@ near Māridīn, at the expense of the priest Julian ܢܘܢܝܐ, and of the deacons George and Dādā, visitors (ܣܳܥܽܘܪܳܐ, περιοδευτής) of the said convent. </p></item>
-                                    <quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ ܛܝܒܘܬܐ ܕܐܠܗܐ ܕܐܬܬ ܒܐ̈ܝܕܝܗܘܢ. ܠܟܢܘܫܝܐ ܩܕܝܫܐ ܕܝܚܝ̈ܕܝܐ ܕܢܛܦܐ ܕܒܛܘܪܐ ܡܪܕܐ. ܩܫܝܫܐ ܝܘܠܝܢܐ ܢܘܢܝܐ. ܘܓܐܘܪܓܝ ܘܕܕܐ ܡܫܡ̈ܫܢܐ ܘܣܥܘܪ̈ܐ ܕܝܠܗ ܕܟܢܘܫܝܐ. ܕܟܠ ܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ ܘܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܩܠܝܠ ܘܐܢ ܒܣܓܝ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܣܡܘ ܣܝܡܬܐ ܗܕܐ̣. ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ ܠܡܢܬܐ ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote>
-                                </item>
-                                <item>
-                                    <item n="3" xml:id="m3">
-                                        <locus from="108a">Fol. 108a</locus>
-                                        <p><label> <!-- ?--></label>What originally followed has been erased, and in its place we read, in the handwriting of Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932), @[See the notes in his handwriting in many other volumes of this collection, and also Assemani, Bibl. Or. t. i. p. 83, t. ii. p. 118; Cureton, the Festal Letters of Athanasius, preface, p. xxiv., note.]@ that this book was procured by him for the library of the said convent. </p></item>
-                                    <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ ܡܘܫܐ ܢܨܝܒܝܢܝܐ ܪܝܫܕܝܪܐ. ܘܐܚܪܡܬ ܒܡܠܬܐ ܕܐܠܗܐ ܥܠ ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܐܘ ܡܘܒܕ ܘܡܫܓܢܐ ܠܟܬܒܐ ܗܢܐ ܡܢܗ̇ ܕܕܝܪܐ ܒܚܕ ܡܢ ܙܢܝ̈ܢ. ܘܡ̇ܢ ܕܣܥܐ ܥܠ ܗܠܝܢ܆ ܚܪܡܗ ܕܐܠܗܐ ܘܪܘܓܙܗ ܘܠܘܛܬܗ ܢܗܘܘܢ ܥܠܘܗܝ. ܘܟܠ ܕܢܛܪ ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱  </quote>
-                                </item>
-                                <item>
-                                    <item n="4" xml:id="m4">
-                                        <locus from="2a">Fol. 2a</locus>
-                                        <p><label><!--?--></label></p></item>
-                                    <quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ  (?)ܡܫܡܫܢܐ ܒܪܝܫܥܝܢܐ. ܟܘܠ ܕܩܪܐ ܒܗ ܐܘ ܢܟܬܘܒ(sic) ܡܢܗ ܘܠܐ ܢܗܦܟܝ (sic) ܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܚܪܡܗ ܕܡܪܝܐ ܥܠܘܗܝ ܘܥܠ ܒܝܬܘܗܝ (sic) ܘܥܠ ܥܘܬܪܗ ܘܥܠ ܘܥܘܡܪܗ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote>
-                                </item>
-                                <item>
-                                    <item n="5" xml:id="m5">
-                                        <locus from="2a">Fol. 2a</locus>
-                                        <p><label>Notation</label> of the names of two readers of the book, John and Yeshūa’</p></item>
-                                    <quote xml:lang="syr">ܝܘܚܢܢ ܚ̇ܛܝܐ ܘܝܫܘܥ ܬܠܡܝܕܗ ܕܡܫܝܚܐ.</quote>
-                                </item>
-                              </list>
+                                 <item n="1" xml:id="m1">
+                                        <locus from="89a">89a</locus>
+                                        <p><label>Subscription</label></p>
+                                        <quote xml:lang="syr">ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</quote>
+                                      </item>
+                                <item n="2" xml:id="m2">
+                                        <locus from="89a">89a</locus>
+                                        <p><label>Doxology</label> following subscription.</p>
+                                        <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote>
+                                     </item>
+                                 <item n="3" xml:id="m3">
+                                        <locus from="89a">89a</locus>
+                                        <p><label>Note</label> following doxology and in smaller letters.</p>
+                                        <quote>"Jesus God, have mercy on Sābā the scribe of Rās’ain, who wrote this book, and did not write in it a blotted tau." See Add. 12,135, part first, and Add. 14,430, where we have the dates A.D. 726 and 724.</quote>
+                                        <quote xml:lang="syr">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒ[ܗ.]</quote>
+                                        <!-- Question in Word Dox attached to this syriac quote ^ -->
+                                       </item>
+                                 <item n="4" xml:id="m4">
+                                        <locus from="89b">Fol. 89b</locus>
+                                        <p><label>Note</label> stating: ""Our Lord Jesus the Messiah, have mercy on the feeble, sinful and miserable (man), who has need of the mercy of God, Rūbīl (Reuben) the sinful deacon,
+                                            who read this Testament with his master Mār Abraham Hahunāyā (?); @[The second letter of this word is rather indistinctly written.
+                                            It appears to be derived from the name of Hah, a Jacobite see (Assem., Bibl. Or., t. ii., Dissert. de Monophysitis, art. ix., Haa, ܚܰܐܚ]@ and they inserted (words) in it, and restored (injured passages) in it, and made erasures from it; but this they did only where it was proper.
+                                            Lord, give a blessing, that everyone who reads in these books may pray for Rūbīl the sinner, who sewed, and read, and renovated, and for Abraham his master abundantly and especially, (saying:) May my prayer intercede for them, Amen. "Written by the scribe Rām-īd (?), may God pardon him."</p>
+                                        <quote xml:lang="syr">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ ܘܣ̇ܢܝܩ ܥܠ ܪܚ̈ܡܐ ܕܐܠܗܐ ܪܘܒܝܠ ܡܫܡܫܢܐ ܚ̇ܛܝܐ ܕܐܩܪܗ̇  (sic) ܠܕܝܬܐܝܩܐ ܗܕܐ ܡܢ ܪܒܐ ܕܝܠܗ ܡܪܝ ܐܒܪܗܡ ܚܚܘܢܝܐ ܘܣܝܡ̇ܘܢ ܒܗ̇ ܘܚܕܬܘܢ ܒܗ̇ ܘܓܪܕܘܢ ܡܢܗ̇. ܒܪܡ ܕܝܢ ܒܘܠܝܬܐ ܣܥܪܘܢ ܗܕܐ. ܐܠܐ ܒܪܟܡܪܝ ܕܟܠ ܕܩ̇ܪܐ ܒ̈ܟܬܒܐ ܗܠܝܢ ܡܨܠܐ ܥܠ ܪܘܒܝܠ ܚ̇ܛܝܐ ܕܚ̣ܛ ܘܩ̣ܪܐ ܘܐܬܩ̇ܢ ܘܥܠ ܐܒܪܗܡ ܪܒ̣ܐ ܕܝܠܗ ܣܓܝ ܘܝܬܝܪܐܝܬ. ܨܠܘܬܝ ܬܦܝܣ ܚܠܦܝܗܘܢ ܐܡܝܢ. ܣܪܛ ܪܡܝܕܝ  (?)ܟܬܘܒܐ ܐܠܗܐ ܚܣ̣ܐ ܠܗ..</quote>
+                                       </item>
+                                  <item n="5" xml:id="m5">
+                                        <locus from="89b">Fol. 89b</locus>
+                                        <p><label>Note</label> stating: "These things took place in the year 1128 (A.D. 817), in the days of the honoured and Christ-loving abbat Mār Thomas, warden of this holy convent. May the Lord forgive all his shortcomings and transgressions, through the heard and accepted prayers of the Mother of God the Virgin Mary, on account of his care of this church. And may every one," etc. </p>
+                                        <quote xml:lang="syr">ܗܘ̈ܝ ܕܝܢ ܗܠܝܢ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ. ܒܝ̈ܘܡܝ ܡܝܩܪܐ ܘܪܚ̇ܡ ܠܡܫܝܚܐ ܡܪܝ ܬܐܘܡܐ ܪܝܫܕܝܪܐ ܘܩܘܢܟܝܐ ܕܥܘܡܪܐ ܗܢܐ ܩܕܝܫܐ. ܡ̇ܚܣܐ ܡܪܝܐ ܟܠܗܘܢ ܒܘܨܪ̈ܘܗܝ ܘܡܬܥܒܪ̈ܢܘܬܐ ܕܝܠܗ. ܒ̈ܨܠܘܬܐ ܫܡ̈ܝܥܬܐ ܘܡ̈ܩܒܠܬܐ ܕܝ̇ܠܕܬ ܐܠܗܐ ܒܬܘܠܬܐ ܡܪܝܡ ܡܛܠ [ܝܨ]ܝܦܘܬܗ ܕܗܢ ܗܝܟܠܐ ܘܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ܒܗܝܡܢ ܐܡܝܢ.</quote>
+                               </item>
+                                <item n="6" xml:id="m6">
+                                    <locus from="89a">Fol. 89a</locus>
+                                    <p><label>Maginal Note</label> stating: ""The wretched Abraham, who is in name a monk, from Beth-Severīnna, @[ See Assemani, Bibl. Or., t. i. p. 216.]@ from the con¬vent of Mār Gabriel,
+                                        fell in with this book in the year 1794 (AD. 1483). Let him who reads," etc."</p>
+                                    <quote xml:lang="syr">ܦܓܥ ܒܟܬܒܐ ܗܢܐ ܐܒܪܗܡ ܕܘܝܐ ܕܒܫܡ ܕܝܪܝܐ ܡܢ ܒܝܬ ܣܒܝܪܝܢܐ. ܡܢ ܥܘܡܪܐ ܕܡܪܝ ܓܒܪܐܝܠ [ܫܢܬ ܏ܐ]ܥ܏ܨܕ ܕܝܘܢܝ̈ܐ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠܘܗܝ ܡܛܠܡܪܢ.</quote>
+                                </item>  
+                            </list>
                             <!-- What to do with the xml ids above? -->
                             <catchwords/>
                         </additions>
