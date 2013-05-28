@@ -47,7 +47,13 @@
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
                         <idno>BL MS Add. 12,133</idno></msIdentifier>
-              <msContents>
+                    <msPart n="1" xml:id="Part1">
+                        <altIdentifier type="internal">
+                            <collection>Wright</collection>
+                            <idno>IX</idno>
+                            <idno>BL Add 12,172 ff. 1-108</idno>
+                        </altIdentifier>
+                    <msContents class="bible-ot">
                         <summary>Biblical Manuscripts: Old Testament</summary>
                         <textLang mainLang="syr">Syriac</textLang>
                         <msItem n="1" xml:id="a1" class="#translation">
@@ -60,18 +66,10 @@
                                 <locus from="3b">3b</locus>
                             </rubric>
                             <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by rubrics in the text.</p></note>
-                            <listBibl>
-                                <bibl>
-                                    <ref target="#r1">V</ref>
-                                </bibl>
-                                <bibl>
-                                    <ref target="#r2">6</ref>
-                                </bibl>
                                 <!-- Revisit two ref targets -->
                                 <!-- Where will citedRange go? -->
-                                <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->                     
-                            </listBibl>
-                        </msItem>                                                 
+                                <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->  
+                        </msItem>
                  </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -113,7 +111,7 @@
                         </objectDesc>
                          <handDesc hands="1">
                              <!-- What is the exact relationship between the # of hands and the notes below? -->
-                             <handNote scope="major" script="unknown"><p>The character is an elegant, regular Estrangela, of the earlier half of the <origDate notBefore="1700" notAfter="1800">viiith century</origDate>.
+                             <handNote scope="major" script="unknown"><p>The character is an elegant, regular Estrangela, of the earlier half of the <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.
                                  Vowels have been added in a few cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ, , ).</p></handNote>
                              <!-- VOWELS  -->
                              <handNote xml:id="handnote1" scope="minor" script="Estrangelo" medium="unknown">
@@ -131,15 +129,17 @@
                                  <p>Note written in large open Estrangela characters.</p>
                              </handNote>
                             <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="107b" to="108a">ff. 107b and 108a.</locus>
+                                 <locus from="107b">fol. 107b</locus>
+                                <locus from="108a">fol. 108a.</locus>
                                  <listPerson>
-                                     <person role="scribe" xml:id="Moses_Nisibis" corresp="">
+                                     <person role="scribe" xml:id="Moses_Nisibis" corresp="" ref="http://syriaca.org/person/647">
                                          <persName xml:lang="eng">Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932)</persName>
                                          <persName xml:lang="syr"></persName>
                                      </person>
                                  </listPerson>
                                  <p>Subscription on 107b and note on 108a in the handwriting of Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932).</p>
-                                 <!-- Not a scribe/ Two loci? / "abbat" sp? -->
+                                <!-- TUCKER: How are we connecting additions to the scribes?-->
+                                
                              </handNote>
                          </handDesc>
                         <additions>
@@ -148,9 +148,9 @@
                                     <item n="1" xml:id="m1">
                                         <locus from="107b">Fol. 107b</locus>
                                         <p><label>Subscription</label></p></item>
-                                    <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ; after which follows the doxology, ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣ ܐܡܝܼܢ ܘܐܡܝܢ܆, and in a more cursive character the words ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.  </quote>
+                                    <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ;</quote>q after which follows the doxology, <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣ ܐܡܝܼܢ ܘܐܡܝܢ܆, and in a more cursive character the words ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.  </quote>
                                     </item>
-                                <!-- Language in quote? -->
+                                <!--Quote-->
                                 <item>
                                     <item n="2" xml:id="m2">
                                         <locus from="108a">Fol. 108a</locus>
@@ -196,25 +196,168 @@
                         <provenance/>
                         <acquisition/>
                     </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>Manuscript description based on<list>
-                                        <item><ref xml:id="r1"> William Wright, Catalogue of Syriac
-                                                Manuscripts in the British Museum Acquired since the
-                                                Year 1838, Part I (London, 1870)</ref></item>
-                                        <item><ref xml:id="r2">William Wright, Catalogue of Syriac
-                                                Manuscripts in the British Museum Acquired since the
-                                                Year 1838, Part I (London, 1870)</ref></item>
-                                    </list>abbreviated by the Syriaca.org project team.</source>
-                                <!-- fix this with bibl, etc -->
-                            </recordHist>
-                            <availability status="restricted">
-                                <p/>
-                            </availability>
-                            <note/>
-                        </adminInfo>
-                    </additional>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on
+                                        <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>.
+                                        abbreviated by the Syriaca.org project team.</source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p/>
+                                </availability>
+                                <note/>
+                                <listBibl>
+                                    <bibl xml:id="Wright">
+                                        <author>William Wright</author>
+                                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                                            British Museum Acquired since the Year 1838</title>
+                                        <pubPlace>London</pubPlace>
+                                        <date>1870</date>
+                                        <ptr target="http://syriaca.org/bibl/8"/>
+                                        <citedRange unit="entry">IX</citedRange>
+                                        <citedRange unit="pp">I:7-8</citedRange>
+                                    </bibl>
+                                </listBibl>
+                            </adminInfo>
+                        </additional>
+                    </msPart>
+                    <msPart n="2" xml:id="Part2">
+                        <altIdentifier type="internal">
+                            <collection>Wright</collection>
+                            <idno>LI</idno>
+                        </altIdentifier>
+                        <msContents class="bible-ot">
+                            <summary>Biblical Manuscripts: Old Testament</summary>
+                            <textLang mainLang="syr">Syriac</textLang>
+                            <msItem n="1" xml:id="a1" class="translation">
+                                <!-- waiting to find out on this -->
+                                <locus from="109" to="169">ff. 109-169</locus>
+                                <author key=""/>
+                                <title ref="http://syriaca.org/work/6">The book of Joshua, translated from the Septuagint by Paul of Tellā</title>
+                                <rubric xml:lang="syr">
+                                    <title>ܟܬܒܐ ܕܝܫܘܥ ܒܪܗ ܕܢܘܢ</title>
+                                    <locus from=""></locus>
+                                </rubric>
+                                <note><p>The text is divided into 11 capitula, ܩ̈ܦܠܐܐ, a summary of the contents of which is prefixed. @[ See Chrysostom, Synopsis Scripturae Sacrae; Opera, t vi. p. 397; Migne, Patrol. Gr., t. lvi., col. 336.]@</p>
+                                    <p>There is also a farther marginal subdivision into 53 (ܢܓ) sections and upwards of 2000 versicles (ܦܬܐܠܦ ܒ, fol. 168 b).</p>
+                                    <p>The text is that of the Hexapla of Origen, with all the critical marks; the various readings of Aquila, Symmachus, and Theodotion; and a few explanatory notes. The tetragrammaton is indicated on the margin by  .ܦܝܦ </p></note>
+                                <colophon><ref target="#m1">See below.</ref></colophon>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="perg">
+                                    <support n="1">
+                                        <material>Vellum</material>
+                                        <locus from="109" to="169">ff. 109-169</locus>
+                                    </support>
+                                    <extent> ff. 61 <dimensions type="leaf" unit="in">
+                                        <height>9 7/8</height>
+                                        <width>6 5/8</width>
+                                    </dimensions>
+                                        <dimensions type="written" unit="in">
+                                            <height/>
+                                            <width/>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation xml:id="ancient">
+                                        <locus from="109" to="169">ff. 109-169</locus>
+                                        <p>The quires, signed with letters, were originally eight in number, but the signatures now run from ܝܒ to ܝܚ. </p>
+                                    </foliation>
+                                    <collation>
+                                        <p>The quires were originally eight in number.</p>
+                                        <seg n="1" type="gathering">
+                                            <locus/>
+                                            <formula/>
+                                        </seg>
+                                    </collation>
+                                    <condition>
+                                        <p>Of the 61 leaves some are slightly stained and the last is much torn. Leaves are wanting at the beginning, and after foll. 112, 113, 119, 120, and 128.
+                                            The following por¬tions of the capitula and text are missing: capp. 1, 2, 3, and part of 4 (as far as the words πετρίναις περιτέμνει τοὺς 'Ιουδαίους); Ch. i. 11—ii. 1, ii. 11—iii. 16, vi. 16—25, vii. 6— 15, and x. 2—11.</p>
+                                    </condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="25 26">
+                                        <p>There are from 25 to 26 lines on each page.</p>
+                                        <locus from="109" to="169">ff. 109-169</locus>    
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc hands="1">
+                                <!-- What is the exact relationship between the # of hands and the notes below? -->
+                                <handNote scope="major" script="unknown"><p>The writing is a fine, regular Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.</p></handNote>
+                                <!-- VOWELS  -->
+                                <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="unknown">
+                                    <locus from="109" to="169">ff. 109-169</locus>
+                                    <listPerson>
+                                        <person role="scribe" xml:id="Paul_Tella" corresp="">
+                                            <persName xml:lang="eng">Paul of Tellā</persName>
+                                            <persName xml:lang="syr"></persName>
+                                        </person>
+                                    </listPerson>
+                                    <!-- Is Paul of Tella the scribe?-->
+                                </handNote>
+                            </handDesc>
+                            <additions>
+                                <list>
+                                    <item>
+                                        <item n="1" xml:id="m1">
+                                            <locus from="169b">Fol. 169b</locus>
+                                            <p><label></label></p></item>
+                                        <quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ 
+                                            ܫܥܒܝܢ .ܘ. ܗܠܝܼܢ ܒܬܪ ܫܘܠܡܐ ܐܝܟ ܗ̇ܢܘܢ ܫܒܥܝܢ ܣܝ̈ܡܢ ܗ̈ܘܝ ܒܨܚܚܐ ܥܡ ܓܐܪ̈ܘܢܐ܀ ܒܗܿܘ ܝܘܡܐ̣. ܟܕ ܢܣ̣ܒܘ ܠܩܒܘܬܗ ܕܐܠܗܐ. ܡܟܪܟܝܢ ܗܘܘ ܠܗ̇ ܒܐܝܣܪܝܠ. ܘ܏ܫ.
+                                            ܨܚܚܐ ܕܝܢ ܕܡܢܗ ܗܢܐ ܐܬܦܫܩ ܠܣܘܪܝܝܐ ܘܐܬܟܬܒ̣. ܪܫ̣ܝܡ ܗܘܐ ܥܠܘܗܝ ܗܟܢܐ. ܐܬ̣ܟܬܒ ܡܢ ܫ̈ܬܝܬܝ ܦܨ̈ܐ ܡܢ ܗ̇ܘ ܕܐܦ ܐܬܬܣܝܡ. ܐܬ݁ܦܚܡ ܕܝܢ ܐܦ ܠܘܬ ܪ̈ܒܝܥܝ ܦܨ̈ܐ܀
+                                        </quote>
+                                        <quote>"Joshua the son of Nun is ended. After the end, these (words), according to the LXX., are placed in the exemplar with obelisks: 'Εν ἐκείνῃ τῇ ἡμέρα λαβόντες οἱ νίοὶ 'Ισραὴλ τὴν κιβωτὸν τοῦ Θεοῦ, περιεφέροσαν ἐν ἐαυτοῖς κ.τ.λ. On the exemplar from which this was translated into Syriac and written, was inscribed: 'Transcribed from the Hexapla, from which too it was furnished (with the various readings), and collated also with the Tetrapla.'"</quote>
+                                    </item>
+                                </list>
+                                <!-- What to do with the xml ids above? -->
+                                <catchwords/>
+                            </additions>
+                            <bindingDesc>
+                                <p>
+                                    <date calendar="gregorian" from="" to=""/>
+                                    <material/>
+                                </p>
+                                <decoNote type="illustration"> </decoNote>
+                                <condition/>
+                            </bindingDesc>
+                        </physDesc>
+                        <history>
+                            <summary/>
+                            <origin>
+                                <date calendar="Gregorian"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on
+                                        <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>.
+                                        abbreviated by the Syriaca.org project team.</source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p/>
+                                </availability>
+                                <note/>
+                                <listBibl>
+                                    <bibl xml:id="Wright">
+                                        <author>William Wright</author>
+                                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                                            British Museum Acquired since the Year 1838</title>
+                                        <pubPlace>London</pubPlace>
+                                        <date>1870</date>
+                                        <ptr target="http://syriaca.org/bibl/8"/>
+                                        <citedRange unit="entry">LI</citedRange>
+                                        <citedRange unit="pp">I:31-32</citedRange>
+                                    </bibl>
+                                </listBibl>
+                            </adminInfo>
+                        </additional>
+                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

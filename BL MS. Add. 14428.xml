@@ -47,11 +47,10 @@
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
                         <idno>BL MS Add. 14,428</idno></msIdentifier>
-              <msContents>
+                    <msContents class="bible-ot">
                         <summary>Biblical Manuscripts: Old Testament</summary>
                         <textLang mainLang="syr">Syriac</textLang>
-                        <msItem n="1" xml:id="a1" class="#translation">
-                            <!-- waiting to find out on this -->
+                        <msItem n="1" xml:id="a1">
                             <locus from="1" to="89">ff. 1-89</locus>
                             <author key=""/>
                             <title ref="http://syriaca.org/work/3">The book of Numbers, according to the Peshitta version, commencing with ch. iii. 14. </title>
@@ -60,17 +59,7 @@
                                 <locus/>
                             </rubric>
                             <note/>
-                            <listBibl>
-                                <bibl>
-                                    <ref target="#r1">XI</ref>
-                                </bibl>
-                                <bibl>
-                                    <ref target="#r2">9-10</ref>
-                                </bibl>
-                                <!-- Revisit two ref targets -->
-                                <!-- Where will citedRange go? -->
                                 <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->                     
-                            </listBibl>
                         </msItem>                                                 
                  </msContents>
                     <physDesc>
@@ -80,7 +69,7 @@
                                     <material>Vellum</material>
                                     <locus from="1" to="89">Fol. 1-89</locus>
                                 </support>
-                                   <extent> ff. 89 <dimensions type="leaf" unit="in">
+                                   <extent>ff. 89 <dimensions type="leaf" unit="in">
                                         <height>9 7/8</height>
                                         <width>6 1/2</width>
                                     </dimensions>
@@ -156,16 +145,17 @@
                                         <p><label>Note</label> following doxology and in smaller letters.</p>
                                         <quote>"Jesus God, have mercy on Sābā the scribe of Rās’ain, who wrote this book, and did not write in it a blotted tau." See Add. 12,135, part first, and Add. 14,430, where we have the dates A.D. 726 and 724.</quote>
                                         <quote xml:lang="syr">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒ[ܗ.]</quote>
-                                        <!-- Question in Word Dox attached to this syriac quote ^ -->
+                                        <!-- Question in Word Doc attached to this syriac quote ^ -->
                                        </item>
                                  <item n="4" xml:id="m4">
                                         <locus from="89b">Fol. 89b</locus>
                                         <p><label>Note</label> stating: ""Our Lord Jesus the Messiah, have mercy on the feeble, sinful and miserable (man), who has need of the mercy of God, Rūbīl (Reuben) the sinful deacon,
-                                            who read this Testament with his master Mār Abraham Hahunāyā (?); @[The second letter of this word is rather indistinctly written.
-                                            It appears to be derived from the name of Hah, a Jacobite see (Assem., Bibl. Or., t. ii., Dissert. de Monophysitis, art. ix., Haa, ܚܰܐܚ]@ and they inserted (words) in it, and restored (injured passages) in it, and made erasures from it; but this they did only where it was proper.
-                                            Lord, give a blessing, that everyone who reads in these books may pray for Rūbīl the sinner, who sewed, and read, and renovated, and for Abraham his master abundantly and especially, (saying:) May my prayer intercede for them, Amen. "Written by the scribe Rām-īd (?), may God pardon him."</p>
+                                            who read this Testament with his master Mār Abraham Hahunāyā (?); and they inserted (words) in it, and restored (injured passages) in it, and made erasures from it; but this they did only where it was proper.
+                                            Lord, give a blessing, that everyone who reads in these books may pray for Rūbīl the sinner, who sewed, and read, and renovated, and for Abraham his master abundantly and especially, (saying:) May my prayer intercede for them, Amen. "Written by the scribe Rām-īd (?), may God pardon him."  @[The second letter of this word is rather indistinctly written.
+                                            It appears to be derived from the name of Hah, a Jacobite see (Assem., Bibl. Or., t. ii., Dissert. de Monophysitis, art. ix., Haa, ܚܰܐܚ]@</p>
                                         <quote xml:lang="syr">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ ܘܣ̇ܢܝܩ ܥܠ ܪܚ̈ܡܐ ܕܐܠܗܐ ܪܘܒܝܠ ܡܫܡܫܢܐ ܚ̇ܛܝܐ ܕܐܩܪܗ̇  (sic) ܠܕܝܬܐܝܩܐ ܗܕܐ ܡܢ ܪܒܐ ܕܝܠܗ ܡܪܝ ܐܒܪܗܡ ܚܚܘܢܝܐ ܘܣܝܡ̇ܘܢ ܒܗ̇ ܘܚܕܬܘܢ ܒܗ̇ ܘܓܪܕܘܢ ܡܢܗ̇. ܒܪܡ ܕܝܢ ܒܘܠܝܬܐ ܣܥܪܘܢ ܗܕܐ. ܐܠܐ ܒܪܟܡܪܝ ܕܟܠ ܕܩ̇ܪܐ ܒ̈ܟܬܒܐ ܗܠܝܢ ܡܨܠܐ ܥܠ ܪܘܒܝܠ ܚ̇ܛܝܐ ܕܚ̣ܛ ܘܩ̣ܪܐ ܘܐܬܩ̇ܢ ܘܥܠ ܐܒܪܗܡ ܪܒ̣ܐ ܕܝܠܗ ܣܓܝ ܘܝܬܝܪܐܝܬ. ܨܠܘܬܝ ܬܦܝܣ ܚܠܦܝܗܘܢ ܐܡܝܢ. ܣܪܛ ܪܡܝܕܝ  (?)ܟܬܘܒܐ ܐܠܗܐ ܚܣ̣ܐ ܠܗ..</quote>
                                        </item>
+                                <!--Footnote? -->
                                   <item n="5" xml:id="m5">
                                         <locus from="89b">Fol. 89b</locus>
                                         <p><label>Note</label> stating: "These things took place in the year 1128 (A.D. 817), in the days of the honoured and Christ-loving abbat Mār Thomas, warden of this holy convent. May the Lord forgive all his shortcomings and transgressions, through the heard and accepted prayers of the Mother of God the Virgin Mary, on account of his care of this church. And may every one," etc. </p>
@@ -173,10 +163,11 @@
                                </item>
                                 <item n="6" xml:id="m6">
                                     <locus from="89a">Fol. 89a</locus>
-                                    <p><label>Maginal Note</label> stating: ""The wretched Abraham, who is in name a monk, from Beth-Severīnna, @[ See Assemani, Bibl. Or., t. i. p. 216.]@ from the con¬vent of Mār Gabriel,
-                                        fell in with this book in the year 1794 (AD. 1483). Let him who reads," etc."</p>
+                                    <p><label>Maginal Note</label> stating: ""The wretched Abraham, who is in name a monk, from Beth-Severīnna, from the con¬vent of Mār Gabriel,
+                                        fell in with this book in the year 1794 (AD. 1483). Let him who reads," etc." @[ See Assemani, Bibl. Or., t. i. p. 216.]@</p>
                                     <quote xml:lang="syr">ܦܓܥ ܒܟܬܒܐ ܗܢܐ ܐܒܪܗܡ ܕܘܝܐ ܕܒܫܡ ܕܝܪܝܐ ܡܢ ܒܝܬ ܣܒܝܪܝܢܐ. ܡܢ ܥܘܡܪܐ ܕܡܪܝ ܓܒܪܐܝܠ [ܫܢܬ ܏ܐ]ܥ܏ܨܕ ܕܝܘܢܝ̈ܐ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠܘܗܝ ܡܛܠܡܪܢ.</quote>
-                                </item>  
+                                </item> 
+                                <!--Footnote? -->
                             </list>
                             <!-- What to do with the xml ids above? -->
                             <catchwords/>
@@ -199,24 +190,30 @@
                         <acquisition/>
                     </history>
                     <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>Manuscript description based on<list>
-                                        <item><ref xml:id="r1"> William Wright, Catalogue of Syriac
-                                                Manuscripts in the British Museum Acquired since the
-                                                Year 1838, Part I (London, 1870)</ref></item>
-                                        <item><ref xml:id="r2">William Wright, Catalogue of Syriac
-                                                Manuscripts in the British Museum Acquired since the
-                                                Year 1838, Part I (London, 1870)</ref></item>
-                                    </list>abbreviated by the Syriaca.org project team.</source>
-                                <!-- fix this with bibl, etc -->
-                            </recordHist>
-                            <availability status="restricted">
-                                <p/>
-                            </availability>
-                            <note/>
-                        </adminInfo>
-                    </additional>
+                          <adminInfo>
+                                    <recordHist>
+                                        <source>Manuscript description based on
+                                            <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>.
+                                            abbreviated by the Syriaca.org project team.</source>
+                                    </recordHist>
+                                    <availability status="restricted">
+                                        <p/>
+                                    </availability>
+                                    <note/>
+                                <listBibl>
+                                    <bibl xml:id="Wright">
+                                        <author>William Wright</author>
+                                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                                            British Museum Acquired since the Year 1838</title>
+                                        <pubPlace>London</pubPlace>
+                                        <date>1870</date>
+                                        <ptr target="http://syriaca.org/bibl/8"/>
+                                        <citedRange unit="entry">XI</citedRange>
+                                        <citedRange unit="pp">I:9-10</citedRange>
+                                      </bibl>
+                                </listBibl>
+                             </adminInfo>
+                          </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
