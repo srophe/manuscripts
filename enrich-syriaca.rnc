@@ -2972,9 +2972,11 @@ tei_msItem =
     ## item
     attribute class { 
     ## 
-    "theology: collected authors" |
+    "#theology: collected authors" |
     ##
-    "theology: catanae patrum"    }?,
+    "#theology: catanae patrum"  |
+    ##
+    "#translation"    }?,
     empty
   }
 tei_rubric =

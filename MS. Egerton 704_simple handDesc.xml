@@ -1029,56 +1029,54 @@
                                 <item n="1" xml:id="m1">
                                     <label/>
                                     <locus from="47b">Fol. 47b</locus>
-                                    <quote xml:lang="syr">ܘܐܬܟ̣ܬܒ ܥܠ ܐܝܼܕܘ̈ܗܝ <persName ref="#s1"
-                                            >ܕܚܛܝܐ ܘܡܚܝܼܠܐ ܐܒܪܗܡ ܕܘ̇ܝܐ ܒܪ ܡܲܩܕܫܝܐ ܡܢܚܐ
-                                            ܝܫܘܥ̇</persName> ܕܐܬܩܪܝ <persName ref="#s1"
-                                            >ܓ݂ܙܘܝ</persName> ܡܢ <placeName ref="#p1">ܩܨܘܪ</placeName> ܐܬܪܐ
+                                    <quote xml:lang="syr"><ref target="#Abr_b_Yesh"/>ܘܐܬܟ̣ܬܒ ܥܠ ܐܝܼܕܘ̈ܗܝ ܕܚܛܝܐ ܘܡܚܝܼܠܐ ܐܒܪܗܡ ܕܘ̇ܝܐ ܒܪ ܡܲܩܕܫܝܐ ܡܢܚܐ
+                                            ܝܫܘܥ̇ ܕܐܬܩܪܝ ܓ݂ܙܘܝ ܡܢ ܩܨܘܪ ܐܬܪܐ
                                         ܕܡܪܕܐ ܐܘܟܝܬ ܡܐܪܕܝܢ ܡܕܝܢܬܐ. </quote>
                                 </item>
                                 <item n="2" xml:id="m2">
                                     <label/>
                                     <locus from="77a">Fol. 77a</locus>
-                                    <quote xml:lang="syr"><ref target="#s1"/> ܘܨܠܘ ܥܠ ܐܒܪܗܡ ܚܲܛܝܐ ܒܪ
+                                    <quote xml:lang="syr"><ref target="#Abr_b_Yesh"/> ܘܨܠܘ ܥܠ ܐܒܪܗܡ ܚܲܛܝܐ ܒܪ
                                         ܡܩܕܫܝܐ ܝܫܘܥ ܡܢ ܡܕܢܚܐ ܐܬܪܐ ܕܡܪܕܝܢ ܡܕܝܢܬܐ ܡܢ ܩܪܝܬܐ ܡܒܪܟܬܐ ܩܨܘܪ
                                         ܟ̣ܬܒܬܗ ܠܟܬܒܐ ܗܢܐ ܒܐܘܪܫܠܡ ܡܕܝܢܬܗ ܕܡܟܠܐ ܪܒܐ ܒܕܝܪܐ ܩܕܝܫܬܐ
                                         ܕܝܿܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ ܕܡܬܟܲܢܐ ܕܒܝܬ ܡܪܩܘܣ.. </quote>
                                 </item>
                                 <item n="3" xml:id="m3">
                                     <label/>
-                                    <p>See also <locus from="165b">Foll. 165b</locus> and <locus
+                                    <p><ref target="#Abr_b_Yesh"/>See also <locus from="165b">Foll. 165b</locus> and <locus
                                             from="320a">320a</locus>.</p>
                                 </item>
                                 <item n="4" xml:id="m4">
                                     <label/>
                                     <locus from="199-200">Foll. 199-200</locus>
-                                    <quote xml:lang="syr"><ref target="#s2"/> ܘܨܰܠܰܘ ܥܰܠ ܐܠܺܝܠܐ
+                                    <quote xml:lang="syr"><ref target="#Ant_Jerus"/> ܘܨܰܠܰܘ ܥܰܠ ܐܠܺܝܠܐ
                                         ܐܢܛܘܢܝܘܣ ܨܗܝܘܢܝܐ ܕܟܬ݂ܒ ܡܛܠ ܡܪܢ ܘܗܼܘ ܢܚܣܐ ܠܟܘܢ ܐܰܡܺܝܢ.
                                     </quote>
                                 </item>
                                 <item n="5" xml:id="m5">
                                     <label/>
                                     <locus from="77a">Fol. 77a</locus>
-                                    <quote xml:lang="ara-syrc"><ref target="#s3"/> ܝܩܘܠ ܐܠܚܩܝܪ ܣܪܓܝܣ
+                                    <quote xml:lang="ara-syrc"><ref target="#Serg_al-Jub"/> ܝܩܘܠ ܐܠܚܩܝܪ ܣܪܓܝܣ
                                         ܘܐܛܥ ܐܣܡܗ ܐܠܓܒܝܠܝ ܐܢܢܝ ܐܣܬܒܕܠܬ ܗܕܐ ܟܬܐܒ ܐܠܥܬܝܩܗ ܟܠܗ ܟ݂ܛ
                                         ܣܪܝܐܢܝ ܦܝ ܢܨܟܬܗ ܟ݂ܛ ܝܕܝ ܡܦܣܪ ܟ݂ܛ ܐܟܪܫܘܢܝ ܘܐܠܠܗ ܥܠܝ ܡܐ ܢܩܘܠ
                                         ܘܟܝܠ ܫܐܗܕ ܚܩ ܒܚܛܪܗ̈ ܐܟ݂ܘܬܝ ܡܛܪܢ ܝܘܢܢ ܘܡܛܪܐܢ ܝܘܣܦ ܟ݂ܘܪܝ ܝܚܢܐ
                                         ܟ݂ܘܪܝ ܐܢܛܘܢܝܘܣ ܘܒܐܩܝ ܐܠܐܟ݂ܘܗ ܐܠܠܗ ܝܟ݂ܠܨܗܡ ܐܡܝܢ:
-                                    </quote><!-- Need to tag the name of Sergius al-Jubaili in the Garshuni -->
+                                    </quote>
                                 </item>
                                 <item n="6" xml:id="m6">
                                     <label/>
                                     <locus from="105a">Fol. 105a</locus>
-                                    <quote xml:lang="ara-syrc"><ref target="#s3"/> ܝܘܩܠ ܐܠܚܩܝܪ ܣܪܓܝܣ
+                                    <quote xml:lang="ara-syrc"><ref target="#Serg_al-Jub"/> ܝܘܩܠ ܐܠܚܩܝܪ ܣܪܓܝܣ
                                         ܐܠܓܒܝܠܝ ܘܐܛܥ ܐܣܡܗ ܐ܏ܠܟ
-                                    </quote><!-- Need to tag the name of Sergius al-Jubaili in the Garshuni -->
+                                    </quote>
                                 </item>
                                 <item n="7" xml:id="m7">
                                     <label/>
                                     <locus from="219a">Fol. 219a</locus>
-                                    <quote xml:lang="ara-syrc"><ref target="#s3"/> ܝܘܐܠܟܬܐܒ ܒܪܣܡ
+                                    <quote xml:lang="ara-syrc"><ref target="#Serg_al-Jub"/> ܝܘܐܠܟܬܐܒ ܒܪܣܡ
                                         ܐܠܚܩܝܪ ܣܪܓܝܣ ܘܐܟܘܬܗ ܡܛܪܐܢ ܝܘܢܢ ܡܛܪܐܢ ܝܘܣܦ: ܘܐܘܠܐܕ ܐܟ݂ܝ ܟ݂ܘܪܝ
                                         ܝܚܢܐ ܫܡܐܣ ܒܘܠܨ ܫܡܐܣ ܣܡܥܐܢ ܐܠܠܗ ܝܚܦܛܗܡ ܐܡܝܢ܀
-                                    </quote><!-- Need to tag the name of Sergius al-Jubaili in the Garshuni -->
+                                    </quote>
                                 </item>
                             </list>
                             <catchwords/>
