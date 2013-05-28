@@ -3,18 +3,9 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
-      <titleStmt>
-        <title/>
-        <funder/>
-        <principal/>
-      </titleStmt>
-      <publicationStmt>
-        <pubPlace/>
-        <date calendar="Gregorian"/>
-        <!--Decide on Publication Statement-->
-      </publicationStmt>
+      <titleStmt/>
       <sourceDesc>
-        <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
+        <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
           <msIdentifier>
             <country>United States of America</country>
             <settlement>Collegeville, Minnesota</settlement>
@@ -26,209 +17,127 @@
           <msPart n="1" xml:id="Part1">
             <altIdentifier type="internal">
               <collection>Kacmarcik Ms. 11</collection>
-              <idno></idno>
-             </altIdentifier>
-          <msContents>
-            <summary>Latin Theological Text by Albertus Magnus, St., bp of Ratisbon</summary>
-            <textLang mainLang="la" otherLangs="">Latin</textLang>
-            <msItem n="1" xml:id="part1a1">
-              <locus from="" to="">i+61ff</locus>
-              <title key=""  type="supplied" xml:lang="la">Liber de apprehensione.</title>
-              <!-- Need our URI key and ref tags here -->
-              <listBibl>
-                <bibl>
-                  <ref/>
-                </bibl>
-              </listBibl>
-            </msItem>
-          </msContents>
+              <idno/>
+            </altIdentifier>
+            <msContents>
+              <textLang mainLang="la" otherLangs="">Latin</textLang>
+              <msItem n="1" xml:id="part1a1">
+                <locus>i+61ff</locus>
+                <author ref="http://viaf.org/viaf/88125532">Albertus Magnus, St., bp of Ratisbon
+                  (1193-1280)</author>
+                <title type="supplied" xml:lang="la">Liber de apprehensione.</title>
+                <incipit xml:lang="la">De apprehensione ac apprehensionis modis seu
+                  diversitatibus</incipit>
+                <explicit xml:lang="la">...vir ingenio acutus moribus gravis et vita
+                  bonus.</explicit>
+                <note>The text is followed by Tabula dialogi.</note>
+              </msItem>
+            </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="chart">
-                  <support><material>Paper</material></support>
-                  <extent> 1+61 ff.
-                    <dimensions type="leaf" unit="in">
-                      <height>12 in.</height>
-                      <width>8 in.</width>
-                    </dimensions>
+                  <support>
+                    <material>Paper</material>
+                  </support>
+                  <extent> 1+61 ff. <dimensions>12 x 8 inches; 33 cm</dimensions>
                   </extent>
-                  <foliation xml:id="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <foliation xml:id="modern">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p></p>
-                    <seg n="1" type="gathering">
-                      <locus from="" to=""></locus>
-                      <formula/>
-                    </seg>
-                  </collation>
-                  <condition>
-                    <list>
-                      <item>             
-                        <p>Copiously annotated.</p>
-                      </item>
-                    </list>
-                  </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="2" writtenLines="32">
-                    <locus from="" to=""/>
-                    <p>Printed work, 2 cols, 32 lines each.</p>
+                  <layout>
+                    <p>Printed work, 2 cols, 32 lines each. Copiously annotated.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="1">
-                <handNote xml:id="handnote1" scope="major" script="unknown" medium="unknown">
-                  <p>Latin</p>
-                </handNote>
-              </handDesc>
-              <additions>
-                <list>
-                  <item>
-                    <p>Printer: Wolfgang Monacensis, Leipzig (1511). A pencilled note inside the front cover gives the date 1505. Owner, ir:</p>
-                  </item>
-                </list>
-              </additions>
             </physDesc>
             <history>
-              <summary/>
               <origin>
-                <origDate notBefore="1511" notAfter="1511">August 1511</origDate>
+                <origPlace>Leipzig</origPlace>
+                <origDate>16th century</origDate>
+                <origDate>August 1511</origDate>
               </origin>
-              <provenance>                
-              </provenance>
             </history>
             <additional>
               <adminInfo>
-                <recordHist>
-                 <source>Manuscript description based on Hill Museum and Manuscript Library's OLIVER project</source>
-                 </recordHist>
+                <note>Printer: Wolfgang Monacensis, Leipzig (1511). A pencilled note inside the
+                  front cover gives the date 1505. Owner, ir:</note>
               </adminInfo>
-              <listBibl>
-                <bibl/>
-              </listBibl>
             </additional>
-          </msPart>  
+          </msPart>
           <msPart n="2" xml:id="Part2">
             <altIdentifier type="internal">
               <collection>Kacmarcik Ms. 11</collection>
-              <idno></idno>
+              <idno/>
             </altIdentifier>
             <msContents>
-              <summary>Latin Theological Text by Pelbartus de Temesvar, OFM (ca. 1430-1504)</summary>
               <textLang mainLang="la">Latin</textLang>
               <msItem n="1" xml:id="part2a1">
-              <locus from="" to="">i+125ff</locus>
-              <title key=""  type="supplied" xml:lang="la">Stellarium coronae benedictae Mariae virginis in laudem eius pro singulis praedicationibus elegantissime coaptatum</title>
-              <!-- Need our URI key and ref tags here -->
-              <listBibl>
-                <bibl>
-                  <ref/>
-                </bibl>
-              </listBibl>
-            </msItem>
+                <locus>i+125ff</locus>
+                <author>Pelbartus de Temesvar, OFM (ca. 1430-1504)</author>
+                <title type="supplied" xml:lang="la">Stellarium coronae benedictae Mariae virginis
+                  in laudem eius pro singulis praedicationibus elegantissime coaptatum</title>
+              </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="chart">
-                  <support><material>Paper</material></support>
-                  <extent> i+125 ff.
-                    <dimensions type="leaf" unit="in">
-                      <height>12 in.</height>
-                      <width>8 in.</width>
-                     </dimensions>
+                  <support>
+                    <material>Paper</material>
+                  </support>
+                  <extent> i+125 ff. 
+                    <dimensions>12 x 8 inches; 33 cm</dimensions>
                   </extent>
-                  <foliation xml:id="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <foliation xml:id="modern">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p></p>
-                    <seg n="1" type="gathering">
-                      <locus from="" to=""></locus>
-                      <formula/>
-                    </seg>
-                  </collation>
-                  <condition>
-                    <list>
-                      <item>             
-                        <p>Glosses and marginal notes.</p>
-                      </item>
-                    </list>
-                  </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="2" writtenLines="67">
-                    <locus from="" to=""/>
-                    <p>Printed work. 2 cols, 67 lines each.</p>
+                  <layout>
+                    <p>Printed work. 2 cols, 67 lines each. Glosses and marginal notes.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="1">
-                <handNote xml:id="handnote1" scope="major" script="unknown" medium="unknown">
-                  <p>Latin</p>
-                </handNote>
-              </handDesc>
-              <additions>
-                <list>
-                  <item>
-                    <p>Printer: Johannes Schönsperger. Verso, title page: Liber magistri Petri Meyers emptus Herbipoli anno 1503 In die sancte Kathrine octo solidis herbii.</p>
-                  </item>
-                </list>
-              </additions>
             </physDesc>
             <history>
-              <summary/>
               <origin>
-                <origDate notBefore="1502" notAfter="1503">1502</origDate>
+                <origPlace>Augsburg</origPlace>
+                <origDate>16th century</origDate>
+                <origDate>1502</origDate>
               </origin>
-              <provenance>                
-              </provenance>
             </history>
             <additional>
               <adminInfo>
-                <recordHist>
-                  <source>Manuscript description based on Hill Museum and Manuscript Library's OLIVER project</source>
-                </recordHist>
+                <note>Printer: Johannes Schönsperger. Verso, title page: Liber magistri Petri
+                  Meyers emptus Herbipoli anno 1503 In die sancte Kathrine octo solidis
+                  herbii.</note>
               </adminInfo>
-              <listBibl>
-                <bibl/>
-              </listBibl>
             </additional>
-          </msPart>  
+          </msPart>
           <msPart n="3" xml:id="Part3">
             <altIdentifier type="internal">
               <collection>Kacmarcik Ms. 11</collection>
-              <idno></idno>
+              <idno/>
             </altIdentifier>
             <msContents>
-              <summary>Latin Theological Text by Albertu Magnus, St., bp of Ratisbon (attributed) and Poem</summary>
+              <summary>Latin Theological Text by Albertu Magnus, St., bp of Ratisbon (attributed)
+                and Poem</summary>
               <textLang mainLang="la" otherLangs="de">Latin and German</textLang>
               <msItem n="1" xml:id="part3a1">
                 <locus from="1a" to="21b">1-21 ff.</locus>
-                <title key=""  type="supplied" xml:lang="">De sensu et sensato, with prologue by unidentified author</title>
-                <title key=""  type="supplied" xml:lang="la">De sensu et sensato</title>
+                <author>Albertu Magnus, St., bp of Ratisbon</author>
+                <author>Anonymous</author>
+                <title key="" type="supplied" xml:lang="">De sensu et sensato, with prologue by
+                  unidentified author</title>
+                <title key="" type="supplied" xml:lang="la">De sensu et sensato</title>
               </msItem>
               <msItem n="2" xml:id="part3a2">
                 <locus from="21b" to="21b">f. 21b</locus>
-                <title key=""  type="supplied" xml:lang="">Poem</title>
+                <title key="" type="supplied" xml:lang="">Poem</title>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="chart">
-                  <support><material>Paper</material></support>
-                  <extent> 21 ff.
-                    <dimensions type="leaf" unit="in">
+                  <support>
+                    <material>Paper</material>
+                  </support>
+                  <extent> 21 ff. <dimensions type="leaf" unit="in">
                       <height>12 in.</height>
                       <width>8 in.</width>
                     </dimensions>
@@ -242,15 +151,15 @@
                     <p/>
                   </foliation>
                   <collation>
-                    <p></p>
+                    <p/>
                     <seg n="1" type="gathering">
-                      <locus from="" to=""></locus>
+                      <locus from="" to=""/>
                       <formula/>
                     </seg>
                   </collation>
                   <condition>
                     <list>
-                      <item>             
+                      <item>
                         <p>Unnumerated. Copious marginal and interlinear notes.</p>
                       </item>
                     </list>
@@ -274,7 +183,9 @@
               <additions>
                 <list>
                   <item>
-                    <p>ff. 2-15: blue and red ink used for chapter headings and first words of paragraphs. Following f. 15b chapter headings, text, notes, and art work were left unfinished.</p>
+                    <p>ff. 2-15: blue and red ink used for chapter headings and first words of
+                      paragraphs. Following f. 15b chapter headings, text, notes, and art work were
+                      left unfinished.</p>
                   </item>
                 </list>
               </additions>
@@ -284,13 +195,13 @@
               <origin>
                 <origDate notBefore="1600" notAfter="1700">16th century</origDate>
               </origin>
-              <provenance>                
-              </provenance>
+              <provenance> </provenance>
             </history>
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on Hill Museum and Manuscript Library's OLIVER project</source>
+                  <source>Manuscript description based on Hill Museum and Manuscript Library's
+                    OLIVER project</source>
                 </recordHist>
               </adminInfo>
               <listBibl>
@@ -298,7 +209,7 @@
               </listBibl>
             </additional>
           </msPart>
-       </msDesc>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
