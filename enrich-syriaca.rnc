@@ -1982,7 +1982,8 @@ tei_availability =
   ##   example any restrictions on its use or distribution, its copyright
   ##   status, etc.
   element availability {
-    tei_model.pLike+,
+    tei_model.pLike,
+    tei_licence,
     
     ## supplies a code identifying the current availability of the
     ## text.
@@ -1998,11 +1999,21 @@ tei_availability =
       | 
         ##
         "restricted"
-    },
+    }?,
     att.global.attributes,
     att.declarable.attributes,
     empty
   }
+tei_licence = 
+ element licence {
+    attribute target {
+      list { xsd:anyURI+ }
+    },
+    att.global.attributes,
+    att.datable.w3c.attributes,
+    (tei_model.pLike),
+    empty
+    }
 tei_seriesStmt =
   
   ## (series statement) groups information about the series, if any, to which
