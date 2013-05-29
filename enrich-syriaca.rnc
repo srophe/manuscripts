@@ -1982,8 +1982,8 @@ tei_availability =
   ##   example any restrictions on its use or distribution, its copyright
   ##   status, etc.
   element availability {
-    tei_model.pLike,
-    tei_licence,
+    tei_model.pLike?,
+    tei_licence?,
     
     ## supplies a code identifying the current availability of the
     ## text.
