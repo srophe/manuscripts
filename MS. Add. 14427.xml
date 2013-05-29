@@ -8,21 +8,17 @@
         <funder>NEH</funder>
         <principal>David A. Michelson</principal>
         <respStmt>
-          <resp></resp>
-          <persName>David Michelson</persName>
+          <name type="person">Tucker Hannah</name>
+          <resp>creator</resp>
         </respStmt>
         <respStmt>
-          <resp></resp>
-          <persName>Daniel Greeson</persName>
-        </respStmt>
-        <respStmt>
-          <resp></resp>
-          <persName>Tucker Hannah</persName>
+          <name type="person">Daniel Greeson</name>
+          <resp>creator</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
         <pubPlace/>
-        <date calendar="Gregorian">2012-12-12</date>
+        <date calendar="Gregorian"></date>
         <!--Decide on Publication Statement-->
       </publicationStmt>
       <sourceDesc>
@@ -43,10 +39,7 @@
               <!-- Need our URI key and ref tags here -->
               <listBibl>
                 <bibl>
-                  <ref target="#r1">IV</ref>
-                </bibl>
-                <bibl>
-                  <ref target="#r2">6</ref>
+                  <ref target="#Wright"/>
                 </bibl>
               </listBibl>
               <msItem n="2" xml:id="b1" class="#translation">
@@ -56,10 +49,7 @@
                 <finalRubric xml:lang="syr">. ܕܟܗ̈ܢܐ . ܣܦܪܐ . ܕܬܠܬܐ . ܕܐܘܪܝܬܐ </finalRubric>
                 <listBibl>
                   <bibl>
-                    <ref target="#r1">IV</ref>
-                  </bibl>
-                  <bibl>
-                    <ref target="#r2">6</ref>
+                    <ref target="#Wright"/>
                   </bibl>
                 </listBibl>
               </msItem>
@@ -71,10 +61,7 @@
                 <finalRubric xml:lang="syr">ܕܐܪܒܥܐ . ܕܐܘܪܝܬܐ.. ܡܢܝܢܐ . ܣܦܪܐ</finalRubric>
                 <listBibl>
                   <bibl>
-                    <ref target="#r1">IV</ref>
-                  </bibl>
-                  <bibl>
-                    <ref target="#r2">6</ref>
+                    <ref target="#Wright"/>
                   </bibl>
                 </listBibl>
               </msItem>
@@ -85,10 +72,7 @@
                 <rubric xml:lang="syr">ܬܢܝܢܐ . ܕܢܡܘܣܐ . ܣܦܪܐ . ܕܚܡܫܐ . ܕܐܘܪܝܬܐ.</rubric>
                 <listBibl>
                   <bibl>
-                    <ref target="#r1">IV</ref>
-                  </bibl>
-                  <bibl>
-                    <ref target="#r2">6</ref>
+                    <ref target="#Wright"/>
                   </bibl>
                 </listBibl>
               </msItem>
@@ -168,19 +152,26 @@
           <additional>
             <adminInfo>
               <recordHist>
-                <source>Manuscript description based on<list>
-                    <item><ref xml:id="r1">Numeral citation is based on William Wright, Catalogue of
-                        Syriac Manuscripts in the British Museum Acquired since the Year 1838, Part
-                        I (London, 1870)</ref></item>
-                    <item><ref xml:id="r2">Pagination refers to William Wright, Catalogue of Syriac
-                        Manuscripts in the British Museum Acquired since the Year 1838, Part I
-                        (London, 1870)</ref></item>
-                  </list>abbreviated by the Syriaca.org project team.</source>
+                <source>Manuscript description based on
+                  <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>.
+                  abbreviated by the Syriaca.org project team.</source>
               </recordHist>
+              <availability status="restricted">
+                <p/>
+              </availability>
+              <note/>
             </adminInfo>
             <listBibl>
-              <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since
-                the year 1838, (London, 1870-72), I:5-6.</bibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                  British Museum Acquired since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">IV</citedRange>
+                <citedRange unit="pp">I:5-6</citedRange>
+              </bibl>
             </listBibl>
           </additional>
         </msDesc>
