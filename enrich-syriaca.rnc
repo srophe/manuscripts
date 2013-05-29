@@ -2780,6 +2780,9 @@ tei_origDate =
       | 
         ## HIndu calendar
         "Hindu"
+      |
+        ##Seleucid calendar
+        "Seleucid"
       | 
         ##
         "unknown"
