@@ -8,16 +8,12 @@
                 <funder>National Endowment for the Humanities</funder>
                 <principal>David Michelson</principal>
                 <respStmt>
-                    <resp></resp>
-                    <persName>David Michelson</persName>
+                    <name type="person">Tucker Hannah</name>
+                    <resp>creator</resp>
                 </respStmt>
                 <respStmt>
-                    <resp></resp>
-                    <persName>Daniel Greeson</persName>
-                </respStmt>
-                <respStmt>
-                    <resp></resp>
-                    <persName>Tucker Hannah</persName>
+                    <name type="person">Daniel Greeson</name>
+                    <resp>creator</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -62,10 +58,7 @@
                             <!-- NO Library of Congress URI available for Peshitta -->
                             <listBibl>
                                 <bibl>
-                                    <ref target="#r1">I</ref>
-                                </bibl>
-                                <bibl>
-                                    <ref target="#r2">1-3</ref>
+                                    <ref target="#Wright"/>
                                 </bibl>
                             </listBibl>
                             <textLang mainLang="syr">Syriac</textLang>
@@ -77,10 +70,7 @@
                                 <!-- If the entry contains a subscription -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="3" xml:id="c1" class="#translation">
@@ -99,10 +89,7 @@
                                     </rubric>
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -118,10 +105,7 @@
                                     </rubric>
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -142,10 +126,7 @@
                                     <colophon><ref target="#m1">See below.</ref></colophon>
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -165,10 +146,7 @@
                                     <colophon><ref target="#m1">See below.</ref></colophon>
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -197,10 +175,7 @@
                                     <colophon><ref target="#m5">See below.</ref></colophon>
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -213,13 +188,10 @@
                                 <colophon><ref target="#m2">See below.</ref></colophon>
                                 <colophon><ref target="#m5">See below.</ref></colophon>
                                 <listBibl>
-                                    <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
-                                    </bibl>
-                                </listBibl>
+                                <bibl>
+                                    <ref target="#Wright"/>
+                                </bibl>
+                            </listBibl>
                             </msItem>
                             <msItem n="9" xml:id="b3" class="#translation">
                                 <locus from="86a" to="95">86a-95</locus>
@@ -227,13 +199,10 @@
                                 <title key="" ref="http://lccn.loc.gov/">Joshua</title>
                                 <!-- Use Library of Congress URI for Joshua -->
                                 <listBibl>
-                                    <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
-                                    </bibl>
-                                </listBibl>
+                                <bibl>
+                                    <ref target="#Wright"/>
+                                </bibl>
+                            </listBibl>
                             </msItem>
                             <msItem n="10" xml:id="b4" class="#translation">
                                 <locus from="95a" to="105">95a-105</locus>
@@ -242,13 +211,10 @@
                                 <!-- Use Library of Congress URI for Judges -->
                                 <colophon><ref target="#m6">See below.</ref></colophon>
                                 <listBibl>
-                                    <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
-                                    </bibl>
-                                </listBibl>
+                                <bibl>
+                                    <ref target="#Wright"/>
+                                </bibl>
+                            </listBibl>
                             </msItem>
                             <msItem n="11" xml:id="b5" class="#translation">
                                 <locus from="105a" to="128">105a-128</locus>
@@ -257,13 +223,10 @@
                                     Samuel</title>
                                 <colophon><ref target="#m6">See below.</ref></colophon>
                                 <listBibl>
-                                    <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
-                                    </bibl>
-                                </listBibl>
+                                <bibl>
+                                    <ref target="#Wright"/>
+                                </bibl>
+                            </listBibl>
                                 <msItem n="12" xml:id="c6" class="#translation">
                                     <locus from="105a" to="118">105a-118</locus>
                                     <author key=""/>
@@ -273,10 +236,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -289,10 +249,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -304,10 +261,7 @@
                                     Kings</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="15" xml:id="c8" class="#translation">
@@ -319,10 +273,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -335,10 +286,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -350,10 +298,7 @@
                                     Chronicles</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="18" xml:id="c10" class="#translation">
@@ -363,10 +308,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -378,10 +320,7 @@
                                     <colophon><ref target="#m3">See below.</ref></colophon>
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -394,10 +333,7 @@
                                 <!-- Use Library of Congress URI for Proverbs -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -408,10 +344,7 @@
                                 <!-- Use Library of Congress URI for Ecclesiastes -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -424,10 +357,7 @@
                                 <!-- I imagine this would have a distinct URI, and so we should cross-reference this msItem as both -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -438,10 +368,7 @@
                                 <!-- Use Library of Congress URI for  -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -459,10 +386,7 @@
                                 <colophon><ref target="#m4">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="25" xml:id="c12" class="#translation">
@@ -472,10 +396,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -486,10 +407,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">1</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -502,10 +420,7 @@
                                 <colophon><ref target="#m7">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">1</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -518,10 +433,7 @@
                                 <colophon><ref target="#m7">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -532,10 +444,7 @@
                                 <!-- This will likely need a brand new URI of our own making in order to convey that "Jeremiah" here implies more than only the book of Jeremiah -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="30" xml:id="c14" class="#translation">
@@ -545,10 +454,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -558,10 +464,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -572,10 +475,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -587,10 +487,7 @@
                                 <!-- Use Library of Congress URI for  -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -601,10 +498,7 @@
                                 <!-- This will likely need a brand new URI of our own making in order to convey that "Daniel" here implies more than only the book of Daniel -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="35" xml:id="c17" class="#translation">
@@ -614,10 +508,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -628,10 +519,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -642,10 +530,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -662,10 +547,7 @@
                                 </rubric>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="39" xml:id="c20" class="#translation">
@@ -675,10 +557,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -689,10 +568,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -705,10 +581,7 @@
                                 <!-- Use Library of Congress URI for  -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -726,10 +599,7 @@
                                 <colophon><ref target="#m3">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -741,10 +611,7 @@
                                 <colophon><ref target="#m3">See below.</ref></colophon>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="44" xml:id="c22" class="#translation">
@@ -754,10 +621,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -768,13 +632,9 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
-                                        </bibl>
-                                    </listBibl>
-                                </msItem>
+                                    </listBibl>                                </msItem>
                                 <msItem n="46" xml:id="c24" class="#translation">
                                     <locus from="346a" to="351">346a-351</locus>
                                     <author key=""/>
@@ -782,10 +642,7 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -804,10 +661,7 @@
                                 </rubric>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -830,10 +684,7 @@
                                 <!-- If the entry contains a subscription -->
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -850,10 +701,7 @@
                                 </rubric>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -864,10 +712,7 @@
                                     Baruch</title>
                                 <listBibl>
                                     <bibl>
-                                        <ref target="#r1">I</ref>
-                                    </bibl>
-                                    <bibl>
-                                        <ref target="#r2">2</ref>
+                                        <ref target="#Wright"/>
                                     </bibl>
                                 </listBibl>
                                 <msItem n="51" xml:id="c25" class="#translation">
@@ -882,10 +727,7 @@
                                     </rubric>
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
@@ -897,16 +739,12 @@
                                     <!-- Use Library of Congress URI for  -->
                                     <listBibl>
                                         <bibl>
-                                            <ref target="#r1">I</ref>
-                                        </bibl>
-                                        <bibl>
-                                            <ref target="#r2">2</ref>
+                                            <ref target="#Wright"/>
                                         </bibl>
                                     </listBibl>
                                 </msItem>
                             </msItem>
                         </msItem>
-
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -1106,22 +944,27 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>Manuscript description based on<list>
-                                        <item><ref xml:id="r1">Numeral citation is based on William
-                                                Wright, Catalogue of Syriac Manuscripts in the
-                                                British Museum Acquired since the Year 1838, Part I
-                                                (London, 1870)</ref></item>
-                                        <item><ref xml:id="r2">Pagination refers to William Wright,
-                                                Catalogue of Syriac Manuscripts in the British
-                                                Museum Acquired since the Year 1838, Part I (London,
-                                                1870)</ref></item>
-                                    </list>abbreviated by the Syriaca.org project team.</source>
+                                <source>Manuscript description based on
+                                    <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>.
+                                    abbreviated by the Syriaca.org project team.</source>
                             </recordHist>
                             <availability status="restricted">
                                 <p/>
                             </availability>
                             <note/>
                         </adminInfo>
+                        <listBibl>
+                            <bibl xml:id="Wright">
+                                <author>William Wright</author>
+                                <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                                    British Museum Acquired since the Year 1838</title>
+                                <pubPlace>London</pubPlace>
+                                <date>1870</date>
+                                <ptr target="http://syriaca.org/bibl/8"/>
+                                <citedRange unit="entry">I</citedRange>
+                                <citedRange unit="pp">I:1-3</citedRange>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
