@@ -777,6 +777,7 @@ tei_model.biblPart =
   | tei_extent
   | tei_idno
   | tei_msIdentifier
+  | tei_citedRange
 tei_model.frontPart = tei_divGen | tei_titlePage
 tei_model.pPart.data =
   tei_model.dateLike
@@ -1278,7 +1279,7 @@ tei_date =
         ##
         "other"
       | xsd:Name
-    },
+    }?,
     att.global.attributes,
     att.datable.attributes,
     att.editLike.attribute.cert,
@@ -1784,6 +1785,23 @@ tei_bibl =
     att.typed.attributes,
     empty
   }
+tei_citedRange= 
+ 
+ ## (cited range) defines the range of cited content, often represented by pages or other units
+element citedRange {
+   (text), att.global.attributes,
+   att.pointing.attributes,
+   attribute unit
+   {
+      "vol" | "issue" | "pp" | "ll" | "chap" | "part" | xsd:Name
+   }?,
+   attribute from {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
+   attribute to {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }? 
+}
 tei_listBibl =
   
   ## (citation list) contains a list of bibliographic citations of any kind. 

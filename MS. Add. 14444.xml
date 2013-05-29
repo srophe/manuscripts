@@ -5,22 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>BL Add. 14,444</title>
-        <principal>Wright, William</principal>
+        <principal>David A. Michelson</principal>
         <respStmt>
-          <resp/>
-          <persName>David Michelson</persName>
+          <name type="person">Tucker Hannah</name>
+          <resp>creator</resp>
         </respStmt>
         <respStmt>
-          <resp/>
-          <persName>Daniel Greeson</persName>
-        </respStmt>
-        <respStmt>
-          <resp/>
-          <persName>Tucker Hannah</persName>
+          <name type="person">Daniel Greeson</name>
+          <resp>creator</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <date calendar="Gregorian">2012-11-26</date>
+        <date calendar="Gregorian"></date>
         <pubPlace/>
         <distributor/>
         <idno/>
@@ -57,10 +53,7 @@
                 </note>
                 <listBibl>
                   <bibl>
-                    <ref target="#p1r1">VI</ref>
-                  </bibl>
-                  <bibl>
-                    <ref target="#p1r2">6</ref>
+                    <ref target="#Wrightpart1"/>
                   </bibl>
                 </listBibl>
               </msItem>
@@ -126,19 +119,24 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on<list>
-                    <item><ref xml:id="p1r1">Numeral citation is based on William Wright, Catalogue of
-                      Syriac Manuscripts in the British Museum Acquired since the Year 1838, Part
-                      I (London, 1870)</ref></item>
-                    <item><ref xml:id="p1r2">Pagination refers to William Wright, Catalogue of Syriac
-                      Manuscripts in the British Museum Acquired since the Year 1838, Part I
-                      (London, 1870)</ref></item>
-                  </list>abbreviated by the Syriaca.org project team.</source>
+                  <source>Manuscript description based on
+                    <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>.
+                    abbreviated by the Syriaca.org project team.</source>
                 </recordHist>
+                <availability status="restricted"/>
+                <note/>
               </adminInfo>
               <listBibl>
-                <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since
-                  the year 1838, (London, 1870-72), I:6..</bibl>
+                <bibl xml:id="Wrightpart1">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                    British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">VI</citedRange>
+                  <citedRange unit="pp">1:6</citedRange>
+                </bibl>
               </listBibl>
             </additional>
           </msPart>
@@ -157,10 +155,7 @@
                     ref="http://lccn.loc.gov/">Job</title></title>
                 <listBibl>
                   <bibl>
-                    <ref target="#p2r1">X</ref>
-                  </bibl>
-                  <bibl>
-                    <ref target="#p2r2">8</ref>
+                    <ref target="#Wrightpart2"/>
                   </bibl>
                 </listBibl>
               </msItem>
@@ -177,10 +172,7 @@
                 </note>
                 <listBibl>
                   <bibl>
-                    <ref target="#p2r1">X</ref>
-                  </bibl>
-                  <bibl>
-                    <ref target="#p2r2">8</ref>
+                    <ref target="#Wrightpart2"/>
                   </bibl>
                 </listBibl>
               </msItem>
@@ -250,25 +242,29 @@
               </origin>
               <provenance/>
             </history>
-          <additional>
-            <adminInfo>
-              <recordHist>
-                <source>Manuscript description based on<list>
-                    <item><ref xml:id="p2r1">Numeral citation is based on William Wright, Catalogue of
-                        Syriac Manuscripts in the British Museum Acquired since the Year 1838, Part
-                        I (London, 1870)</ref></item>
-                    <item><ref xml:id="p2r2">Pagination refers to William Wright, Catalogue of Syriac
-                        Manuscripts in the British Museum Acquired since the Year 1838, Part I
-                        (London, 1870)</ref></item>
-                  </list>abbreviated by the Syriaca.org project team.</source>
-              </recordHist>
-            </adminInfo>
-            <listBibl>
-              <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since
-                the year 1838, (London, 1870-72), I:6..</bibl>
-            </listBibl>
-          </additional>
-          </msPart>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on
+                    <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>.
+                    abbreviated by the Syriaca.org project team.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart2"><!-- In this manuscript part the references and the xml:id reflect that a different cited range of Wright is of concern than in Part 1 -->
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                    British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">X</citedRange>
+                  <citedRange unit="pp">I:8</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>          </msPart>
         </msDesc>
       </sourceDesc>
     </fileDesc>
