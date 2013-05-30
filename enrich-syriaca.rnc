@@ -2090,13 +2090,12 @@ tei_projectDesc =
     att.declarable.attributes,
     empty
   }
-tei_model.editorialDeclPart = notAllowed
 tei_editorialDecl =
   
   ## (editorial practice declaration) provides details of editorial principles and practices applied
   ## during the encoding of a text.
   element editorialDecl {
-    (tei_model.pLike+ | tei_model.editorialDeclPart+),
+    (tei_model.pLike? | tei_model.editorialDeclPart),
     att.global.attributes,
     att.declarable.attributes,
     empty
@@ -2848,9 +2847,9 @@ tei_msIdentifier =
     (((tei_model.placeNamePart_sequenceOptional,
        tei_institution?,
        tei_repository,
-       tei_collection?,
-       tei_idno?)
-      | tei_msName),
+       tei_collection?)
+      | tei_msName)?,
+       tei_idno?,
      (tei_altIdentifier | tei_msName)*),
     att.global.attributes,
     empty

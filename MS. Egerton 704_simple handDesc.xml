@@ -802,7 +802,6 @@
                                     inelegant, with occasional Syriac and Greek vowels and other
                                     points, of the <origDate notBefore="1600" notAfter="1700">xviith
                                         century</origDate>. </p></handNote>
-                            <!-- We need an an attibute for vocalization, yes, non, types+ East Syriac, Serto, Greek, Other. -->
                             <handNote xml:id="handnote1" scope="major" script="unknown" medium="unknown">
                                 <locus from="3" to="198">ff. 3-198</locus>
                                 <listPerson>
@@ -812,8 +811,8 @@
                                         <persName xml:lang="syr">ܓ݂ܙܘܝ,</persName>
                                         <p>
                                             from the village of
-                                            <placeName xml:lang="eng" type="supplied" ref="">Kosūr</placeName>, near
-                                            <placeName xml:lang="eng" type="supplied" ref="" >Māridīn</placeName>; 
+                                            <placeName xml:lang="eng" type="supplied" ref="http://syriaca.org/place/">Kosūr</placeName>, near <!-- NEED the URIs for this place!!!! -->
+                                            <placeName xml:lang="eng" type="supplied" ref="http://syriaca.org/place/" >Māridīn</placeName>; <!-- NEED the URIs for this place!!!! -->
                                             and he wrote the volume in the 
                                             <listPlace>
                                                 <place type="convent" xml:id="Beth_Marcus" corresp="">
@@ -821,7 +820,7 @@
                                                     <placeName xml:lang="eng" type="supplied">Beth Marcus</placeName>
                                                 </place>
                                             </listPlace>, 
-                                            at <placeName xml:lang="eng" type="supplied" ref="">Jerusalem</placeName>. 
+                                            at <placeName xml:lang="eng" type="supplied" ref="http://syriaca.org/place/">Jerusalem</placeName>. <!-- NEED the URIs for this place!!!! -->
                                         </p>
                                     </person>
                                 </listPerson>
