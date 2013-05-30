@@ -1,42 +1,31 @@
 ﻿<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digital Catalogue of the Syriac Manuscripts in the British Library</title>
-                <funder>National Endowment for the Humanities</funder>
-                <principal>David Michelson</principal>
+                <title xml:lang="en">Digital Catalogue of the Syriac Manuscripts in the British
+                    Library</title>
+                <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+                <funder>...</funder>
+                <principal>David A. Michelson</principal>
                 <respStmt>
-                    <resp></resp>
-                    <!--Decide on resp-->
-                    <persName>David Michelson</persName>
-                </respStmt>
-                <respStmt>
-                    <resp></resp>
-                    <persName>Daniel Greeson</persName>
-                </respStmt>
-                <respStmt>
-                    <resp></resp>
-                    <persName>Tucker Hannah</persName>
+                    <name>Daniel Greeson</name>
+                    <resp>creator</resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
             <publicationStmt>
+                <pubPlace/>
+                <authority>Syriaca.org: The Syriac Reference Portal </authority>
+                <idno type="URI">http://syriaca.org/.../source</idno>
+                <availability>
+                    <p><licence target="http://creativecommons.org/licenses/by/3.0/">Distributed
+                        under a Creative Commons Attribution 3.0 Unported License </licence></p>
+                </availability>
                 <date calendar="Gregorian"/>
-                <!-- Date of our publication/will be machine generated-->
-                <publisher>Syriaca.org</publisher>
-                <pubPlace>
-                    <address>
-                <addrLine/>
-                <addrLine><!--we need to work this out further--></addrLine>
-               <street/>
-                <settlement/>
-                <postCode/>
-                <addrLine><!--<ref target=""/>--></addrLine>
-                <addrLine><email/></addrLine>
-                </address>
-                </pubPlace>
-                <idno>Syriaca.org</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
@@ -97,13 +86,14 @@
                             </layoutDesc>
                         </objectDesc>
                          <handDesc hands="3">
-                             <handNote scope="major" script="unknown"><p>This manuscript is written in a beautiful, regular Estrangela around <origDate notBefore="0724" notAfter="0725">A.D. 724</origDate>.</p></handNote>
+                             <handNote scope="major" script="unknown"><p>This manuscript is written in a beautiful, regular Estrangela around <origDate notBefore="0724" notAfter="0725">A.D. 724</origDate>.</p>
                              <listPerson>
                                  <person role="scribe" xml:id="Saba_Rasain" corresp="">
                                      <persName xml:lang="eng">Deacon Sābā of Rās’ain</persName>
                                      <persName xml:lang="syr"></persName>
                                  </person>
                              </listPerson>
+                             </handNote>
                              <handNote xml:id="handnote1" scope="minor" script="Estrangelo" medium="unknown">
                                  <locus from="89a" to="89a">fol. 89a.</locus>
                                  <listPerson>
@@ -174,7 +164,7 @@
                         </additions>
                         <bindingDesc>
                             <p>
-                                <date calendar="gregorian" from="" to=""/>
+                                <date calendar="gregorian"/>
                                 <material/>
                             </p>
                             <decoNote type="illustration"> </decoNote>
@@ -206,7 +196,7 @@
                                         <title xml:lang="en">Catalogue of Syriac Manuscripts in the
                                             British Museum Acquired since the Year 1838</title>
                                         <pubPlace>London</pubPlace>
-                                        <date>1870</date>
+                                        <date calendar="Gregorian">1870</date>
                                         <ptr target="http://syriaca.org/bibl/8"/>
                                         <citedRange unit="entry">XI</citedRange>
                                         <citedRange unit="pp">I:9-10</citedRange>
@@ -218,6 +208,13 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>Description is based on Wright's Catalogue without consultation of physical manuscripts. Foliation is approximate. Wright often does not indicate ending folia so those have been assumed based on beginning folia.</p>
+                    <p>Scribal notes which could not be more clearly classified based on Wright's descriptions have been identified as &lt;additions&gt; whether they occur in the margins or the body of the manuscript.</p>
+                    <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents as possible, including tables of contents and indices.</p>
+                </interpretation>
+            </editorialDecl>
             <classDecl>
                 <taxonomy xml:id="LCSH">
                     <bibl>

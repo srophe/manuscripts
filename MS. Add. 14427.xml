@@ -178,6 +178,13 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p>Description is based on Wright's Catalogue without consultation of physical manuscripts. Foliation is approximate. Wright often does not indicate ending folia so those have been assumed based on beginning folia.</p>
+          <p>Scribal notes which could not be more clearly classified based on Wright's descriptions have been identified as &lt;additions&gt; whether they occur in the margins or the body of the manuscript.</p>
+          <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents as possible, including tables of contents and indices.</p>
+        </interpretation>
+      </editorialDecl>
       <classDecl>
         <taxonomy> </taxonomy>
       </classDecl>

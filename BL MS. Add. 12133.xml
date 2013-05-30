@@ -1,42 +1,31 @@
 ﻿<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digital Catalogue of the Syriac Manuscripts in the British Library</title>
-                <funder>National Endowment for the Humanities</funder>
-                <principal>David Michelson</principal>
+                <title xml:lang="en">Digital Catalogue of the Syriac Manuscripts in the British
+                    Library</title>
+                <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+                <funder>...</funder>
+                <principal>David A. Michelson</principal>
                 <respStmt>
-                    <resp></resp>
-                    <!--Decide on resp-->
-                    <persName>David Michelson</persName>
-                </respStmt>
-                <respStmt>
-                    <resp></resp>
-                    <persName>Daniel Greeson</persName>
-                </respStmt>
-                <respStmt>
-                    <resp></resp>
-                    <persName>Tucker Hannah</persName>
+                    <name>Daniel Greeson</name>
+                    <resp>creator</resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
             <publicationStmt>
+                <pubPlace/>
+                <authority>Syriaca.org: The Syriac Reference Portal </authority>
+                <idno type="URI">http://syriaca.org/.../source</idno>
+                <availability>
+                    <p><licence target="http://creativecommons.org/licenses/by/3.0/">Distributed
+                            under a Creative Commons Attribution 3.0 Unported License </licence></p>
+                </availability>
                 <date calendar="Gregorian"/>
-                <!-- Date of our publication/will be machine generated-->
-                <publisher>Syriaca.org</publisher>
-                <pubPlace>
-                    <address>
-                <addrLine/>
-                <addrLine><!--we need to work this out further--></addrLine>
-               <street/>
-                <settlement/>
-                <postCode/>
-                <addrLine><!--<ref target=""/>--></addrLine>
-                <addrLine><email/></addrLine>
-                </address>
-                </pubPlace>
-                <idno>Syriaca.org</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
@@ -46,203 +35,32 @@
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
-                        <idno>BL MS Add. 12,133</idno></msIdentifier>
+                        <idno>BL MS Add. 12,133</idno>
+                    </msIdentifier>
                     <msPart n="1" xml:id="Part1">
                         <altIdentifier type="internal">
                             <collection>Wright</collection>
                             <idno>IX</idno>
                             <idno>BL Add 12,172 ff. 1-108</idno>
                         </altIdentifier>
-                    <msContents class="bible-ot">
-                        <summary>Biblical Manuscripts: Old Testament</summary>
-                        <textLang mainLang="syr">Syriac</textLang>
-                        <msItem n="1" xml:id="a1" class="#translation">
-                            <!-- waiting to find out on this -->
-                            <locus from="1a" to="108b">ff. 1a-108b</locus>
-                            <author key=""/>
-                            <title ref="http://syriaca.org/work/2">The book of Exodus, according to the Peshitta version.</title>
-                            <rubric xml:lang="syr">
-                                <title>ܡܦܩܢܐ̇ ܣܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ</title>
-                                <locus from="3b">3b</locus>
-                            </rubric>
-                            <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by rubrics in the text.</p></note>
-                                <!-- Revisit two ref targets -->
-                                <!-- Where will citedRange go? -->
-                                <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->  
-                        </msItem>
-                 </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="perg">
-                                <support n="1">
-                                    <material>Vellum</material>
-                                    <locus from="1" to="108">Fol. 1-108</locus>
-                                </support>
-                                   <extent> ff. 108 <dimensions type="leaf" unit="in">
-                                        <height>9 3/4</height>
-                                        <width>6 1/2</width>
-                                    </dimensions>
-                                    <dimensions type="written" unit="in">
-                                        <height/>
-                                        <width/>
-                                    </dimensions>
-                                </extent>
-                                <foliation xml:id="ancient">
-                                    <locus from="1" to="108">ff. 1-108</locus>
-                                    <p>The quires are signed with both letters and arithmetical figures, thus:   etc</p>
-                                    <!-- Uncopyable figures from Worddoc missing above  -->
-                                </foliation>
-                                <collation>
-                                    <p>The quires are eleven in number.</p>
-                                    <seg n="1" type="gathering">
-                                        <locus/>
-                               <!-- Let' not enter a locus except in the cases where we have multiple gatherings or manuscripst that are composite or broken? -->
-                                        <formula/>
-                                    </seg>
-                                </collation>
-                                <condition/>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout columns="1" writtenLines="20 22">
-                                    <p>There are from 20 to 22 lines on each page.</p>
-                                    <locus from="1" to="108">ff. 1-108</locus>     <!-- Do we need locus here? Probably not -->
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                         <handDesc hands="1">
-                             <!-- What is the exact relationship between the # of hands and the notes below? -->
-                             <handNote scope="major" script="unknown"><p>The character is an elegant, regular Estrangela, of the earlier half of the <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.
-                                 Vowels have been added in a few cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ, , ).</p></handNote>
-                             <!-- VOWELS  -->
-                             <handNote xml:id="handnote1" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="2a" to="2a">fol. 2a.</locus>
-                                 <listPerson>
-                                     <person role="scribe" xml:id="Serg_Abraham" corresp="">
-                                         <persName xml:lang="eng">Deacon Sergius bar Abraham, of Rīsh’ainā or Rās’ain (%)</persName>
-                                         <persName xml:lang="syr"></persName>
-                                     </person>
-                                 </listPerson>
-                                 <!-- Not a scribe? / Needs arabic and syriac name added / Where are the xml ids for authors?-->
-                             </handNote>
-                             <handNote xml:id="handnote2" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="2a" to="2a">fol. 2a</locus>
-                                 <p>Note written in large open Estrangela characters.</p>
-                             </handNote>
-                            <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
-                                 <locus from="107b">fol. 107b</locus>
-                                <locus from="108a">fol. 108a.</locus>
-                                 <listPerson>
-                                     <person role="scribe" xml:id="Moses_Nisibis" corresp="" ref="http://syriaca.org/person/647">
-                                         <persName xml:lang="eng">Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932)</persName>
-                                         <persName xml:lang="syr"></persName>
-                                     </person>
-                                 </listPerson>
-                                 <p>Subscription on 107b and note on 108a in the handwriting of Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932).</p>
-                                <!-- TUCKER: How are we connecting additions to the scribes?-->
-                                
-                             </handNote>
-                         </handDesc>
-                        <additions>
-                            <list>
-                                <item>
-                                    <item n="1" xml:id="m1">
-                                        <locus from="107b">Fol. 107b</locus>
-                                        <p><label>Subscription</label></p></item>
-                                    <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ;</quote>q after which follows the doxology, <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣ ܐܡܝܼܢ ܘܐܡܝܢ܆, and in a more cursive character the words ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.  </quote>
-                                    </item>
-                                <!--Quote-->
-                                <item>
-                                    <item n="2" xml:id="m2">
-                                        <locus from="108a">Fol. 108a</locus>
-                                        <p><label>A note</label>on fol. 108 a, states that the manuscript was written for the monks of the convent of Nātphā, @[ See Assemani, Bibl. Or., t. ii., Dissert. de Monophysitis, art. ix., Monasterium Nataphae.]@ near Māridīn, at the expense of the priest Julian ܢܘܢܝܐ, and of the deacons George and Dādā, visitors (ܣܳܥܽܘܪܳܐ, περιοδευτής) of the said convent. </p></item>
-                                    <quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ ܛܝܒܘܬܐ ܕܐܠܗܐ ܕܐܬܬ ܒܐ̈ܝܕܝܗܘܢ. ܠܟܢܘܫܝܐ ܩܕܝܫܐ ܕܝܚܝ̈ܕܝܐ ܕܢܛܦܐ ܕܒܛܘܪܐ ܡܪܕܐ. ܩܫܝܫܐ ܝܘܠܝܢܐ ܢܘܢܝܐ. ܘܓܐܘܪܓܝ ܘܕܕܐ ܡܫܡ̈ܫܢܐ ܘܣܥܘܪ̈ܐ ܕܝܠܗ ܕܟܢܘܫܝܐ. ܕܟܠ ܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ ܘܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܩܠܝܠ ܘܐܢ ܒܣܓܝ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܣܡܘ ܣܝܡܬܐ ܗܕܐ̣. ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ ܠܡܢܬܐ ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote>
-                                </item>
-                                <item>
-                                    <item n="3" xml:id="m3">
-                                        <locus from="108a">Fol. 108a</locus>
-                                        <p><label> <!-- ?--></label>What originally followed has been erased, and in its place we read, in the handwriting of Moses of Nisibis, abbat of the convent of S. Mary Deipara in the desert of Scete (A. Gr. 1243, A.D. 932), @[See the notes in his handwriting in many other volumes of this collection, and also Assemani, Bibl. Or. t. i. p. 83, t. ii. p. 118; Cureton, the Festal Letters of Athanasius, preface, p. xxiv., note.]@ that this book was procured by him for the library of the said convent. </p></item>
-                                    <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ ܡܘܫܐ ܢܨܝܒܝܢܝܐ ܪܝܫܕܝܪܐ. ܘܐܚܪܡܬ ܒܡܠܬܐ ܕܐܠܗܐ ܥܠ ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܐܘ ܡܘܒܕ ܘܡܫܓܢܐ ܠܟܬܒܐ ܗܢܐ ܡܢܗ̇ ܕܕܝܪܐ ܒܚܕ ܡܢ ܙܢܝ̈ܢ. ܘܡ̇ܢ ܕܣܥܐ ܥܠ ܗܠܝܢ܆ ܚܪܡܗ ܕܐܠܗܐ ܘܪܘܓܙܗ ܘܠܘܛܬܗ ܢܗܘܘܢ ܥܠܘܗܝ. ܘܟܠ ܕܢܛܪ ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱  </quote>
-                                </item>
-                                <item>
-                                    <item n="4" xml:id="m4">
-                                        <locus from="2a">Fol. 2a</locus>
-                                        <p><label><!--?--></label></p></item>
-                                    <quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ  (?)ܡܫܡܫܢܐ ܒܪܝܫܥܝܢܐ. ܟܘܠ ܕܩܪܐ ܒܗ ܐܘ ܢܟܬܘܒ(sic) ܡܢܗ ܘܠܐ ܢܗܦܟܝ (sic) ܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܚܪܡܗ ܕܡܪܝܐ ܥܠܘܗܝ ܘܥܠ ܒܝܬܘܗܝ (sic) ܘܥܠ ܥܘܬܪܗ ܘܥܠ ܘܥܘܡܪܗ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote>
-                                </item>
-                                <item>
-                                    <item n="5" xml:id="m5">
-                                        <locus from="2a">Fol. 2a</locus>
-                                        <p><label>Notation</label> of the names of two readers of the book, John and Yeshūa’</p></item>
-                                    <quote xml:lang="syr">ܝܘܚܢܢ ܚ̇ܛܝܐ ܘܝܫܘܥ ܬܠܡܝܕܗ ܕܡܫܝܚܐ.</quote>
-                                </item>
-                              </list>
-                            <!-- What to do with the xml ids above? -->
-                            <catchwords/>
-                        </additions>
-                        <bindingDesc>
-                            <p>
-                                <date calendar="gregorian" from="" to=""/>
-                                <material/>
-                            </p>
-                            <decoNote type="illustration"> </decoNote>
-                            <condition/>
-                        </bindingDesc>
-                    </physDesc>
-                    <history>
-                        <summary/>
-                        <origin>
-                            <date calendar="Gregorian"/>
-                        </origin>
-                        <provenance/>
-                        <acquisition/>
-                    </history>
-                        <additional>
-                            <adminInfo>
-                                <recordHist>
-                                    <source>Manuscript description based on
-                                        <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>.
-                                        abbreviated by the Syriaca.org project team.</source>
-                                </recordHist>
-                                <availability status="restricted">
-                                    <p/>
-                                </availability>
-                                <note/>
-                                <listBibl>
-                                    <bibl xml:id="Wright">
-                                        <author>William Wright</author>
-                                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the
-                                            British Museum Acquired since the Year 1838</title>
-                                        <pubPlace>London</pubPlace>
-                                        <date>1870</date>
-                                        <ptr target="http://syriaca.org/bibl/8"/>
-                                        <citedRange unit="entry">IX</citedRange>
-                                        <citedRange unit="pp">I:7-8</citedRange>
-                                    </bibl>
-                                </listBibl>
-                            </adminInfo>
-                        </additional>
-                    </msPart>
-                    <msPart n="2" xml:id="Part2">
-                        <altIdentifier type="internal">
-                            <collection>Wright</collection>
-                            <idno>LI</idno>
-                        </altIdentifier>
                         <msContents class="bible-ot">
                             <summary>Biblical Manuscripts: Old Testament</summary>
                             <textLang mainLang="syr">Syriac</textLang>
-                            <msItem n="1" xml:id="a1" class="translation">
+                            <msItem n="1" xml:id="a1">
                                 <!-- waiting to find out on this -->
-                                <locus from="109" to="169">ff. 109-169</locus>
+                                <locus from="1a" to="108b">ff. 1a-108b</locus>
                                 <author key=""/>
-                                <title ref="http://syriaca.org/work/6">The book of Joshua, translated from the Septuagint by Paul of Tellā</title>
+                                <title ref="http://syriaca.org/work/2">The book of Exodus, according
+                                    to the Peshitta version.</title>
                                 <rubric xml:lang="syr">
-                                    <title>ܟܬܒܐ ܕܝܫܘܥ ܒܪܗ ܕܢܘܢ</title>
-                                    <locus from=""></locus>
+                                    <title>ܡܦܩܢܐ̇ ܣܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ</title>
+                                    <locus from="3b">3b</locus>
                                 </rubric>
-                                <note><p>The text is divided into 11 capitula, ܩ̈ܦܠܐܐ, a summary of the contents of which is prefixed. @[ See Chrysostom, Synopsis Scripturae Sacrae; Opera, t vi. p. 397; Migne, Patrol. Gr., t. lvi., col. 336.]@</p>
-                                    <p>There is also a farther marginal subdivision into 53 (ܢܓ) sections and upwards of 2000 versicles (ܦܬܐܠܦ ܒ, fol. 168 b).</p>
-                                    <p>The text is that of the Hexapla of Origen, with all the critical marks; the various readings of Aquila, Symmachus, and Theodotion; and a few explanatory notes. The tetragrammaton is indicated on the margin by  .ܦܝܦ </p></note>
-                                <colophon><ref target="#m1">See below.</ref></colophon>
+                                <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by
+                                        rubrics in the text.</p></note>
+                                <!-- Revisit two ref targets -->
+                                <!-- Where will citedRange go? -->
+                                <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -250,74 +68,153 @@
                                 <supportDesc material="perg">
                                     <support n="1">
                                         <material>Vellum</material>
-                                        <locus from="109" to="169">ff. 109-169</locus>
+                                        <locus from="1" to="108">Fol. 1-108</locus>
                                     </support>
-                                    <extent> ff. 61 <dimensions type="leaf" unit="in">
-                                        <height>9 7/8</height>
-                                        <width>6 5/8</width>
-                                    </dimensions>
+                                    <extent> ff. 108 <dimensions type="leaf" unit="in">
+                                            <height>9 3/4</height>
+                                            <width>6 1/2</width>
+                                        </dimensions>
                                         <dimensions type="written" unit="in">
                                             <height/>
                                             <width/>
                                         </dimensions>
                                     </extent>
                                     <foliation xml:id="ancient">
-                                        <locus from="109" to="169">ff. 109-169</locus>
-                                        <p>The quires, signed with letters, were originally eight in number, but the signatures now run from ܝܒ to ܝܚ. </p>
+                                        <locus from="1" to="108">ff. 1-108</locus>
+                                        <p>The quires are signed with both letters and arithmetical
+                                            figures, thus: etc</p>
+                                        <!-- Uncopyable figures from Worddoc missing above  -->
                                     </foliation>
                                     <collation>
-                                        <p>The quires were originally eight in number.</p>
+                                        <p>The quires are eleven in number.</p>
                                         <seg n="1" type="gathering">
                                             <locus/>
+                                            <!-- Let' not enter a locus except in the cases where we have multiple gatherings or manuscripst that are composite or broken? -->
                                             <formula/>
                                         </seg>
                                     </collation>
-                                    <condition>
-                                        <p>Of the 61 leaves some are slightly stained and the last is much torn. Leaves are wanting at the beginning, and after foll. 112, 113, 119, 120, and 128.
-                                            The following por¬tions of the capitula and text are missing: capp. 1, 2, 3, and part of 4 (as far as the words πετρίναις περιτέμνει τοὺς 'Ιουδαίους); Ch. i. 11—ii. 1, ii. 11—iii. 16, vi. 16—25, vii. 6— 15, and x. 2—11.</p>
-                                    </condition>
+                                    <condition/>
                                 </supportDesc>
                                 <layoutDesc>
-                                    <layout columns="1" writtenLines="25 26">
-                                        <p>There are from 25 to 26 lines on each page.</p>
-                                        <locus from="109" to="169">ff. 109-169</locus>    
+                                    <layout columns="1" writtenLines="20 22">
+                                        <p>There are from 20 to 22 lines on each page.</p>
+                                        <locus from="1" to="108">ff. 1-108</locus>
+                                        <!-- Do we need locus here? Probably not -->
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc hands="1">
                                 <!-- What is the exact relationship between the # of hands and the notes below? -->
-                                <handNote scope="major" script="unknown"><p>The writing is a fine, regular Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.</p></handNote>
+                                <handNote scope="major" script="unknown"><p>The character is an
+                                        elegant, regular Estrangela, of the earlier half of the
+                                            <origDate notBefore="0700" notAfter="0800">viiith
+                                            century</origDate>. Vowels have been added in a few
+                                        cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ,
+                                        , ).</p></handNote>
                                 <!-- VOWELS  -->
-                                <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="unknown">
-                                    <locus from="109" to="169">ff. 109-169</locus>
+                                <handNote xml:id="handnote1" scope="minor" script="Estrangelo"
+                                    medium="unknown">
+                                    <locus from="2a" to="2a">fol. 2a.</locus>
                                     <listPerson>
-                                        <person role="scribe" xml:id="Paul_Tella" corresp="">
-                                            <persName xml:lang="eng">Paul of Tellā</persName>
-                                            <persName xml:lang="syr"></persName>
+                                        <person role="scribe" xml:id="Serg_Abraham" corresp="">
+                                            <persName xml:lang="eng">Deacon Sergius bar Abraham, of
+                                                Rīsh’ainā or Rās’ain (%)</persName>
+                                            <persName xml:lang="syr"/>
                                         </person>
                                     </listPerson>
-                                    <!-- Is Paul of Tella the scribe?-->
+                                    <!-- Not a scribe? / Needs arabic and syriac name added / Where are the xml ids for authors?-->
+                                </handNote>
+                                <handNote xml:id="handnote2" scope="minor" script="Estrangelo"
+                                    medium="unknown">
+                                    <locus from="2a" to="2a">fol. 2a</locus>
+                                    <p>Note written in large open Estrangela characters.</p>
+                                </handNote>
+                                <handNote xml:id="handnote3" scope="minor" script="Estrangelo"
+                                    medium="unknown">
+                                    <locus from="107b">fol. 107b</locus>
+                                    <locus from="108a">fol. 108a.</locus>
+                                    <listPerson>
+                                        <person role="scribe" xml:id="Moses_Nisibis" corresp=""
+                                            ref="http://syriaca.org/person/647">
+                                            <persName xml:lang="eng">Moses of Nisibis, abbat of the
+                                                convent of S. Mary Deipara in the desert of Scete
+                                                (A. Gr. 1243, A.D. 932)</persName>
+                                            <persName xml:lang="syr"/>
+                                        </person>
+                                    </listPerson>
+                                    <p>Subscription on 107b and note on 108a in the handwriting of
+                                        Moses of Nisibis, abbat of the convent of S. Mary Deipara in
+                                        the desert of Scete (A. Gr. 1243, A.D. 932).</p>
+                                    <!-- TUCKER: How are we connecting additions to the scribes?-->
                                 </handNote>
                             </handDesc>
                             <additions>
                                 <list>
-                                    <item>
-                                        <item n="1" xml:id="m1">
-                                            <locus from="169b">Fol. 169b</locus>
-                                            <p><label></label></p></item>
-                                        <quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ 
-                                            ܫܥܒܝܢ .ܘ. ܗܠܝܼܢ ܒܬܪ ܫܘܠܡܐ ܐܝܟ ܗ̇ܢܘܢ ܫܒܥܝܢ ܣܝ̈ܡܢ ܗ̈ܘܝ ܒܨܚܚܐ ܥܡ ܓܐܪ̈ܘܢܐ܀ ܒܗܿܘ ܝܘܡܐ̣. ܟܕ ܢܣ̣ܒܘ ܠܩܒܘܬܗ ܕܐܠܗܐ. ܡܟܪܟܝܢ ܗܘܘ ܠܗ̇ ܒܐܝܣܪܝܠ. ܘ܏ܫ.
-                                            ܨܚܚܐ ܕܝܢ ܕܡܢܗ ܗܢܐ ܐܬܦܫܩ ܠܣܘܪܝܝܐ ܘܐܬܟܬܒ̣. ܪܫ̣ܝܡ ܗܘܐ ܥܠܘܗܝ ܗܟܢܐ. ܐܬ̣ܟܬܒ ܡܢ ܫ̈ܬܝܬܝ ܦܨ̈ܐ ܡܢ ܗ̇ܘ ܕܐܦ ܐܬܬܣܝܡ. ܐܬ݁ܦܚܡ ܕܝܢ ܐܦ ܠܘܬ ܪ̈ܒܝܥܝ ܦܨ̈ܐ܀
-                                        </quote>
-                                        <quote>"Joshua the son of Nun is ended. After the end, these (words), according to the LXX., are placed in the exemplar with obelisks: 'Εν ἐκείνῃ τῇ ἡμέρα λαβόντες οἱ νίοὶ 'Ισραὴλ τὴν κιβωτὸν τοῦ Θεοῦ, περιεφέροσαν ἐν ἐαυτοῖς κ.τ.λ. On the exemplar from which this was translated into Syriac and written, was inscribed: 'Transcribed from the Hexapla, from which too it was furnished (with the various readings), and collated also with the Tetrapla.'"</quote>
-                                    </item>
+                                    <item n="1" xml:id="m1">
+                                        <locus from="107b">Fol. 107b</locus>
+                                        <p><label>Subscription</label></p>
+                                        <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
+                                            ܕܐܘܪܝܬܐ;</quote>q after which follows the doxology,
+                                            <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣
+                                            ܐܡܝܼܢ ܘܐܡܝܢ܆, and in a more cursive character the words
+                                            ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ. </quote></item>
+                                    <item n="2" xml:id="m2">
+                                        <locus from="108a">Fol. 108a</locus>
+                                        <p><label>A note</label>on fol. 108 a, states that the
+                                            manuscript was written for the monks of the convent of
+                                            Nātphā, @[ See Assemani, Bibl. Or., t. ii., Dissert. de
+                                            Monophysitis, art. ix., Monasterium Nataphae.]@ near
+                                            Māridīn, at the expense of the priest Julian ܢܘܢܝܐ, and
+                                            of the deacons George and Dādā, visitors (ܣܳܥܽܘܪܳܐ,
+                                            περιοδευτής) of the said convent. </p>
+                                        <quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ
+                                            ܛܝܒܘܬܐ ܕܐܠܗܐ ܕܐܬܬ ܒܐ̈ܝܕܝܗܘܢ. ܠܟܢܘܫܝܐ ܩܕܝܫܐ ܕܝܚܝ̈ܕܝܐ
+                                            ܕܢܛܦܐ ܕܒܛܘܪܐ ܡܪܕܐ. ܩܫܝܫܐ ܝܘܠܝܢܐ ܢܘܢܝܐ. ܘܓܐܘܪܓܝ ܘܕܕܐ
+                                            ܡܫܡ̈ܫܢܐ ܘܣܥܘܪ̈ܐ ܕܝܠܗ ܕܟܢܘܫܝܐ. ܕܟܠ ܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ
+                                            ܘܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܩܠܝܠ ܘܐܢ ܒܣܓܝ. ܕܐܠܗܐ ܗ̇ܘ
+                                            ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܣܡܘ ܣܝܡܬܐ ܗܕܐ̣. ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ ܠܡܢܬܐ
+                                            ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ
+                                            ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote></item>
+                                    <item n="3" xml:id="m3">
+                                        <locus from="108a">Fol. 108a</locus>
+                                        <p><label>
+                                                <!-- ?--></label>What originally followed has been
+                                            erased, and in its place we read, in the handwriting of
+                                            Moses of Nisibis, abbat of the convent of S. Mary
+                                            Deipara in the desert of Scete (A. Gr. 1243, A.D. 932),
+                                            @[See the notes in his handwriting in many other volumes
+                                            of this collection, and also Assemani, Bibl. Or. t. i.
+                                            p. 83, t. ii. p. 118; Cureton, the Festal Letters of
+                                            Athanasius, preface, p. xxiv., note.]@ that this book
+                                            was procured by him for the library of the said convent. </p>
+                                        <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ
+                                            ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ ܡܘܫܐ ܢܨܝܒܝܢܝܐ
+                                            ܪܝܫܕܝܪܐ. ܘܐܚܪܡܬ ܒܡܠܬܐ ܕܐܠܗܐ ܥܠ ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܐܘ
+                                            ܡܘܒܕ ܘܡܫܓܢܐ ܠܟܬܒܐ ܗܢܐ ܡܢܗ̇ ܕܕܝܪܐ ܒܚܕ ܡܢ ܙܢܝ̈ܢ. ܘܡ̇ܢ ܕܣܥܐ
+                                            ܥܠ ܗܠܝܢ܆ ܚܪܡܗ ܕܐܠܗܐ ܘܪܘܓܙܗ ܘܠܘܛܬܗ ܢܗܘܘܢ ܥܠܘܗܝ. ܘܟܠ ܕܢܛܪ
+                                            ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ
+                                            ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱ </quote></item>
+                                    <item n="4" xml:id="m4">
+                                        <locus from="2a">Fol. 2a</locus>
+                                        <p><label><!--?--></label></p>
+                                        <quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ
+                                            (?)ܡܫܡܫܢܐ ܒܪܝܫܥܝܢܐ. ܟܘܠ ܕܩܪܐ ܒܗ ܐܘ ܢܟܬܘܒ(sic) ܡܢܗ ܘܠܐ
+                                            ܢܗܦܟܝ (sic) ܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܚܪܡܗ ܕܡܪܝܐ ܥܠܘܗܝ ܘܥܠ
+                                            ܒܝܬܘܗܝ (sic) ܘܥܠ ܥܘܬܪܗ ܘܥܠ ܘܥܘܡܪܗ ܠܥܠܡ ܥܠܡܝܢ
+                                            ܐܡܝܢ.</quote></item>
+                                    <item n="5" xml:id="m5">
+                                        <locus from="2a">Fol. 2a</locus>
+                                        <p><label>Notation</label> of the names of two readers of
+                                            the book, John and Yeshūa’</p>
+                                        <quote xml:lang="syr">ܝܘܚܢܢ ܚ̇ܛܝܐ ܘܝܫܘܥ ܬܠܡܝܕܗ
+                                            ܕܡܫܝܚܐ.</quote></item>
                                 </list>
                                 <!-- What to do with the xml ids above? -->
                                 <catchwords/>
                             </additions>
                             <bindingDesc>
                                 <p>
-                                    <date calendar="gregorian" from="" to=""/>
+                                    <date calendar="gregorian"/>
                                     <material/>
                                 </p>
                                 <decoNote type="illustration"> </decoNote>
@@ -335,8 +232,8 @@
                         <additional>
                             <adminInfo>
                                 <recordHist>
-                                    <source>Manuscript description based on
-                                        <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>.
+                                    <source>Manuscript description based on <bibl><ref
+                                                target="#Wright">Wright's Catalogue</ref></bibl>.
                                         abbreviated by the Syriaca.org project team.</source>
                                 </recordHist>
                                 <availability status="restricted">
@@ -349,7 +246,169 @@
                                         <title xml:lang="en">Catalogue of Syriac Manuscripts in the
                                             British Museum Acquired since the Year 1838</title>
                                         <pubPlace>London</pubPlace>
-                                        <date>1870</date>
+                                        <date calendar="gregorian">1870</date>
+                                        <ptr target="http://syriaca.org/bibl/8"/>
+                                        <citedRange unit="entry">IX</citedRange>
+                                        <citedRange unit="pp">I:7-8</citedRange>
+                                    </bibl>
+                                </listBibl>
+                            </adminInfo>
+                        </additional>
+                    </msPart>
+                    <msPart n="2" xml:id="Part2">
+                        <altIdentifier type="internal">
+                            <collection>Wright</collection>
+                            <idno>LI</idno>
+                        </altIdentifier>
+                        <msContents class="bible-ot">
+                            <summary>Biblical Manuscripts: Old Testament</summary>
+                            <textLang mainLang="syr">Syriac</textLang>
+                            <msItem n="1" xml:id="b1">
+                                <locus from="109" to="169">ff. 109-169</locus>
+                                <author key=""/>
+                                <title ref="http://syriaca.org/work/6">The book of Joshua,
+                                    translated from the Septuagint by Paul of Tellā</title>
+                                <rubric xml:lang="syr">
+                                    <title>ܟܬܒܐ ܕܝܫܘܥ ܒܪܗ ܕܢܘܢ</title>
+                                    <locus/>
+                                </rubric>
+                                <note><p>The text is divided into 11 capitula, ܩ̈ܦܠܐܐ, a summary of
+                                        the contents of which is prefixed. @[ See Chrysostom,
+                                        Synopsis Scripturae Sacrae; Opera, t vi. p. 397; Migne,
+                                        Patrol. Gr., t. lvi., col. 336.]@</p>
+                                    <p>There is also a farther marginal subdivision into 53 (ܢܓ)
+                                        sections and upwards of 2000 versicles (ܦܬܐܠܦ ܒ, fol. 168
+                                        b).</p>
+                                    <p>The text is that of the Hexapla of Origen, with all the
+                                        critical marks; the various readings of Aquila, Symmachus,
+                                        and Theodotion; and a few explanatory notes. The
+                                        tetragrammaton is indicated on the margin by .ܦܝܦ
+                                    </p></note>
+                                <colophon><ref target="#m1">See below.</ref></colophon>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="perg">
+                                    <support n="1">
+                                        <material>Vellum</material>
+                                        <locus from="109" to="169">ff. 109-169</locus>
+                                    </support>
+                                    <extent> ff. 61 <dimensions type="leaf" unit="in">
+                                            <height>9 7/8</height>
+                                            <width>6 5/8</width>
+                                        </dimensions>
+                                        <dimensions type="written" unit="in">
+                                            <height/>
+                                            <width/>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation xml:id="ancient">
+                                        <locus from="109" to="169">ff. 109-169</locus>
+                                        <p>The quires, signed with letters, were originally eight in
+                                            number, but the signatures now run from ܝܒ to ܝܚ. </p>
+                                    </foliation>
+                                    <collation>
+                                        <p>The quires were originally eight in number.</p>
+                                        <seg n="1" type="gathering">
+                                            <locus/>
+                                            <formula/>
+                                        </seg>
+                                    </collation>
+                                    <condition>
+                                        <p>Of the 61 leaves some are slightly stained and the last
+                                            is much torn. Leaves are wanting at the beginning, and
+                                            after foll. 112, 113, 119, 120, and 128. The following
+                                            por¬tions of the capitula and text are missing: capp. 1,
+                                            2, 3, and part of 4 (as far as the words πετρίναις
+                                            περιτέμνει τοὺς 'Ιουδαίους); Ch. i. 11—ii. 1, ii.
+                                            11—iii. 16, vi. 16—25, vii. 6— 15, and x. 2—11.</p>
+                                    </condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="25 26">
+                                        <p>There are from 25 to 26 lines on each page.</p>
+                                        <locus from="109" to="169">ff. 109-169</locus>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc hands="1">
+                                <!-- What is the exact relationship between the # of hands and the notes below? -->
+                                <handNote scope="major" script="unknown"><p>The writing is a fine,
+                                        regular Estrangela of the <origDate notBefore="0700"
+                                            notAfter="0800">viiith
+                                    century</origDate>.</p></handNote>
+                                <!-- VOWELS  -->
+                                <handNote xml:id="handnote1" scope="major" script="Estrangelo"
+                                    medium="unknown">
+                                    <locus from="109" to="169">ff. 109-169</locus>
+                                    <listPerson>
+                                        <person role="scribe" xml:id="Paul_Tella" corresp="">
+                                            <persName xml:lang="eng">Paul of Tellā</persName>
+                                            <persName xml:lang="syr"/>
+                                        </person>
+                                    </listPerson>
+                                </handNote>
+                            </handDesc>
+                            <additions>
+                                <list>
+                                    <item n="1" xml:id="m1">
+                                        <locus from="169b">Fol. 169b</locus>
+                                        <p><label/></p></item>
+                                    <note><quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ ܫܥܒܝܢ
+                                            .ܘ. ܗܠܝܼܢ ܒܬܪ ܫܘܠܡܐ ܐܝܟ ܗ̇ܢܘܢ ܫܒܥܝܢ ܣܝ̈ܡܢ ܗ̈ܘܝ ܒܨܚܚܐ ܥܡ
+                                            ܓܐܪ̈ܘܢܐ܀ ܒܗܿܘ ܝܘܡܐ̣. ܟܕ ܢܣ̣ܒܘ ܠܩܒܘܬܗ ܕܐܠܗܐ. ܡܟܪܟܝܢ ܗܘܘ
+                                            ܠܗ̇ ܒܐܝܣܪܝܠ. ܘ܏ܫ. ܨܚܚܐ ܕܝܢ ܕܡܢܗ ܗܢܐ ܐܬܦܫܩ ܠܣܘܪܝܝܐ
+                                            ܘܐܬܟܬܒ̣. ܪܫ̣ܝܡ ܗܘܐ ܥܠܘܗܝ ܗܟܢܐ. ܐܬ̣ܟܬܒ ܡܢ ܫ̈ܬܝܬܝ ܦܨ̈ܐ ܡܢ
+                                            ܗ̇ܘ ܕܐܦ ܐܬܬܣܝܡ. ܐܬ݁ܦܚܡ ܕܝܢ ܐܦ ܠܘܬ ܪ̈ܒܝܥܝ ܦܨ̈ܐ܀ </quote>
+                                        <quote>"Joshua the son of Nun is ended. After the end, these
+                                            (words), according to the LXX., are placed in the
+                                            exemplar with obelisks: 'Εν ἐκείνῃ τῇ ἡμέρα λαβόντες οἱ
+                                            νίοὶ 'Ισραὴλ τὴν κιβωτὸν τοῦ Θεοῦ, περιεφέροσαν ἐν
+                                            ἐαυτοῖς κ.τ.λ. On the exemplar from which this was
+                                            translated into Syriac and written, was inscribed:
+                                            'Transcribed from the Hexapla, from which too it was
+                                            furnished (with the various readings), and collated also
+                                            with the Tetrapla.'"</quote></note>
+                                </list>
+                                <!-- What to do with the xml ids above? -->
+                                <catchwords/>
+                            </additions>
+                            <bindingDesc>
+                                <p>
+                                    <date calendar="gregorian"/>
+                                    <material/>
+                                </p>
+                                <decoNote type="illustration"> </decoNote>
+                                <condition/>
+                            </bindingDesc>
+                        </physDesc>
+                        <history>
+                            <summary/>
+                            <origin>
+                                <date calendar="Gregorian"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>Manuscript description based on <bibl><ref
+                                                target="#Wright">Wright's Catalogue</ref></bibl>.
+                                        abbreviated by the Syriaca.org project team.</source>
+                                </recordHist>
+                                <availability status="restricted">
+                                    <p/>
+                                </availability>
+                                <note/>
+                                <listBibl>
+                                    <bibl xml:id="Wright">
+                                        <author>William Wright</author>
+                                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the
+                                            British Museum Acquired since the Year 1838</title>
+                                        <pubPlace>London</pubPlace>
+                                        <date calendar="Gregorian">1870</date>
                                         <ptr target="http://syriaca.org/bibl/8"/>
                                         <citedRange unit="entry">LI</citedRange>
                                         <citedRange unit="pp">I:31-32</citedRange>
@@ -362,6 +421,13 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <editorialDecl>
+               <interpretation>
+                    <p>Description is based on Wright's Catalogue without consultation of physical manuscripts. Foliation is approximate. Wright often does not indicate ending folia so those have been assumed based on beginning folia.</p>
+                    <p>Scribal notes which could not be more clearly classified based on Wright's descriptions have been identified as &lt;additions&gt; whether they occur in the margins or the body of the manuscript.</p>
+                    <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents as possible, including tables of contents and indices.</p>
+                </interpretation>
+            </editorialDecl>
             <classDecl>
                 <taxonomy xml:id="LCSH">
                     <bibl>
