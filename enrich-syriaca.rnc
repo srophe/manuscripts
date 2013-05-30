@@ -3492,7 +3492,7 @@ tei_msPart =
   ## (manuscript part) contains information about an originally
   ## distinct manuscript or part of a manuscript, now forming part of a composite manuscript.
   element msPart {
-    (tei_altIdentifier,
+    ((tei_altIdentifier | tei_msIdentifier),
      tei_model.headLike*,
      (tei_model.pLike+
       | (tei_msContents?,
