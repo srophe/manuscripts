@@ -74,7 +74,8 @@
               <!--use the Wright's Section Headings here for @class-->
               <summary  />
               <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
-              <textLang mainLang="syr">Syriac</textLang>
+              <textLang mainLang="syr" >Syriac</textLang>
+              <!-- Please use "syr" for all mss in Syriac except in the following cases: 1. If Wright mentions "Greek Vowels" or "Serto and Vocalized" then use "syr-Syrj" "Vocalized West Syriac". 2. If Wright mentions "Vowel Points and Nestorian" then use "syr-Syrn" "Vocalized East Syriac". Consult DM if it only mentions Vowel Points. Garshuni will be marked "ar" -->
               <msItem n="1" xml:id="p1a1" class="#translation"><!-- class="#translation" can be changed as needed, though the schema may need editing to keep up with categories -->
                 <locus from="" to=""/>
                 <author key=""/>
