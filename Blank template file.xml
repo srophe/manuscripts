@@ -5,13 +5,38 @@
     <fileDesc>
       <titleStmt>
         <title xml:lang="en"><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add. 14,444" --></title>
+        <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
-        <funder><!-- Who are the funders for the Wright's Catalogue digitization? --></funder>
+        <funder>National Endowment for the Humanities</funder>
+        <funder>Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
         <respStmt>
-          <name type="person"><!-- Additional collaborator's name --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
           <resp>creator</resp>
-        </respStmt><!-- Repeat the <respStmt> block for more than one additional collaborator -->
+        </respStmt>
+<respStmt>          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+          <resp>creator</resp></respStmt>
+          <respStmt>
+            <name ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+            <resp>Syriac text entry</resp>
+          </respStmt>
+        <respStmt>
+          <name ref="http://syriaca.org/editors.xml#pkirlles">Philemon Kirlles</name>
+          <resp>Arabic text entry</resp>
+        </respStmt>
+        <!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
+          <respStmt>
+            <name ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+            <resp>Greek and coptic entry and proofreading</resp>
+  </respStmt>
+        <respStmt>
+          <name ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <resp>Project Manager, Syriac Research Group, University of Alabama</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <resp>English text entry and proofreading</resp>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="1.0"/>
@@ -19,7 +44,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/<!-- Insert the Syriaca.org URI here -->/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number here -->/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/"><p>Distributed under a
@@ -28,20 +53,27 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="MSSSyriaques" xml:lang="en">
+        <msDesc xml:id="" xml:lang="en">
+          <!-- format the msDesc xml:id="manuscript-202" using the URI number for the whole ms--> 
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Christian Middle East Section</collection>
-            <idno>MS <!-- The manuscript name identified at the end of the Wright entry --></idno>
+            <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number here FOR THE WHOLE MS--></idno>
+            <altIdentifier><idno>BL <!-- BL + the manuscript name identified at the end of the Wright entry ex.. BL Add. 14444 (note: do not use commas or folia numbers)--></idno></altIdentifier>
           </msIdentifier>
           <msPart n="1" xml:id="Part1">
+<msIdentifier>            
+<idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number here FOR THE PART use the Arabic numeral equivalent of Wright' number, eg CLIV = 154--></idno>
             <altIdentifier type="internal">
-              <idno>MS <!-- Name of manuscript and the folia of part 1 (e.g., Add. 14,444 foll. 1-24) --></idno>
+              <idno>BL <!-- BL + the name of manuscript and the folia of part 1 (e.g., BL Add. 14444 foll. 1-24) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
             </altIdentifier>
-            <msContents>
-              <summary><!-- Wright's section heading (e.g., Biblical Manuscripts: Old Testament) --></summary>
+</msIdentifier>
+            <msContents class="">
+              <!--use the Wright's Section Headings here for @class-->
+              <summary  />
+              <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" class="#translation"><!-- class="#translation" can be changed as needed, though the schema may need editing to keep up with categories -->
                 <locus from="" to=""/>
