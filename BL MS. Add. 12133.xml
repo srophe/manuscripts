@@ -22,8 +22,8 @@
                 <authority>Syriaca.org: The Syriac Reference Portal </authority>
                 <idno type="URI">http://syriaca.org/.../source</idno>
                 <availability>
-                    <p><licence target="http://creativecommons.org/licenses/by/3.0/">Distributed
-                            under a Creative Commons Attribution 3.0 Unported License </licence></p>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/"><p>Distributed under a
+                        Creative Commons Attribution 3.0 Unported License</p></licence>
                 </availability>
                 <date calendar="Gregorian"/>
             </publicationStmt>
