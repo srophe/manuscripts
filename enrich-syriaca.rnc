@@ -2100,6 +2100,15 @@ tei_editorialDecl =
     att.declarable.attributes,
     empty
   }
+tei_model.editorialDeclPart =
+    tei_interpretation
+tei_interpretation=
+    element interpretation
+{
+   att.global.attributes,
+   att.declarable.attributes,
+   tei_model.pLike+
+}
 tei_classDecl =
   
   ## (classification declarations) contains one or more taxonomies defining any classificatory

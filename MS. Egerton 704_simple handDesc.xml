@@ -798,10 +798,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="4">
-                            <handNote scope="major" script="unknown"><p>The writing is small and
-                                    inelegant, with occasional Syriac and Greek vowels and other
-                                    points, of the <origDate notBefore="1600" notAfter="1700">xviith
-                                        century</origDate>. </p></handNote>
+                            <handNote scope="major" script="unknown"><p>The writing is small and inelegant, with occasional Syriac and Greek vowels and other points, of the <origDate notBefore="1600" notAfter="1700">xviith century</origDate>. </p></handNote>
                             <handNote xml:id="handnote1" scope="major" script="unknown" medium="unknown">
                                 <locus from="3" to="198">ff. 3-198</locus>
                                 <listPerson>
