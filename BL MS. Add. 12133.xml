@@ -4,8 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">Digital Catalogue of the Syriac Manuscripts in the British
-                    Library</title>
+                <title xml:lang="en">BL MS Add. 12,133</title>
                 <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
                 <funder>...</funder>
                 <principal>David A. Michelson</principal>
@@ -40,7 +39,6 @@
                     <msPart n="1" xml:id="Part1">
                         <altIdentifier type="internal">
                             <collection>Wright</collection>
-                            <idno>IX</idno>
                             <idno>BL Add 12,172 ff. 1-108</idno>
                         </altIdentifier>
                         <msContents class="bible-ot">
@@ -58,9 +56,6 @@
                                 </rubric>
                                 <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by
                                         rubrics in the text.</p></note>
-                                <!-- Revisit two ref targets -->
-                                <!-- Where will citedRange go? -->
-                                <!-- Resolve this with reference to the Draft TEI schema perhaps this is deleted altogether?-->
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -70,7 +65,7 @@
                                         <material>Vellum</material>
                                         <locus from="1" to="108">Fol. 1-108</locus>
                                     </support>
-                                    <extent> ff. 108 <dimensions type="leaf" unit="in">
+                                    <extent>ff. 108<dimensions type="leaf" unit="in">
                                             <height>9 3/4</height>
                                             <width>6 1/2</width>
                                         </dimensions>
@@ -153,28 +148,27 @@
                                     <item n="1" xml:id="m1">
                                         <locus from="107b">Fol. 107b</locus>
                                         <p><label>Subscription</label></p>
-                                        <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
-                                            ܕܐܘܪܝܬܐ;</quote>q after which follows the doxology,
+                                        <p><quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
+                                            ܕܐܘܪܝܬܐ;</quote>after which follows the doxology,
                                             <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣
-                                            ܐܡܝܼܢ ܘܐܡܝܢ܆, and in a more cursive character the words
-                                            ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ. </quote></item>
+                                            ܐܡܝܼܢ ܘܐܡܝܢ܆</quote>, and in a more cursive character the words
+                                        <quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></p></item>
                                     <item n="2" xml:id="m2">
                                         <locus from="108a">Fol. 108a</locus>
                                         <p><label>A note</label>on fol. 108 a, states that the
                                             manuscript was written for the monks of the convent of
-                                            Nātphā, @[ See Assemani, Bibl. Or., t. ii., Dissert. de
-                                            Monophysitis, art. ix., Monasterium Nataphae.]@ near
-                                            Māridīn, at the expense of the priest Julian ܢܘܢܝܐ, and
+                                            Nātphā,  near Māridīn, at the expense of the priest Julian ܢܘܢܝܐ, and
                                             of the deacons George and Dādā, visitors (ܣܳܥܽܘܪܳܐ,
-                                            περιοδευτής) of the said convent. </p>
-                                        <quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ
+                                            περιοδευτής) of the said convent. @[ See Assemani, Bibl. Or., t. ii., Dissert. de
+                                            Monophysitis, art. ix., Monasterium Nataphae.]@ </p>
+                                        <p><quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ
                                             ܛܝܒܘܬܐ ܕܐܠܗܐ ܕܐܬܬ ܒܐ̈ܝܕܝܗܘܢ. ܠܟܢܘܫܝܐ ܩܕܝܫܐ ܕܝܚܝ̈ܕܝܐ
                                             ܕܢܛܦܐ ܕܒܛܘܪܐ ܡܪܕܐ. ܩܫܝܫܐ ܝܘܠܝܢܐ ܢܘܢܝܐ. ܘܓܐܘܪܓܝ ܘܕܕܐ
                                             ܡܫܡ̈ܫܢܐ ܘܣܥܘܪ̈ܐ ܕܝܠܗ ܕܟܢܘܫܝܐ. ܕܟܠ ܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ
                                             ܘܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܩܠܝܠ ܘܐܢ ܒܣܓܝ. ܕܐܠܗܐ ܗ̇ܘ
                                             ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܣܡܘ ܣܝܡܬܐ ܗܕܐ̣. ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ ܠܡܢܬܐ
                                             ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ
-                                            ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote></item>
+                                            ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote></p></item>
                                     <item n="3" xml:id="m3">
                                         <locus from="108a">Fol. 108a</locus>
                                         <p><label>
@@ -182,11 +176,11 @@
                                             erased, and in its place we read, in the handwriting of
                                             Moses of Nisibis, abbat of the convent of S. Mary
                                             Deipara in the desert of Scete (A. Gr. 1243, A.D. 932),
+                                            that this book was procured by him for the library of the said convent.
                                             @[See the notes in his handwriting in many other volumes
                                             of this collection, and also Assemani, Bibl. Or. t. i.
                                             p. 83, t. ii. p. 118; Cureton, the Festal Letters of
-                                            Athanasius, preface, p. xxiv., note.]@ that this book
-                                            was procured by him for the library of the said convent. </p>
+                                            Athanasius, preface, p. xxiv., note.]@</p>
                                         <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ
                                             ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ ܡܘܫܐ ܢܨܝܒܝܢܝܐ
                                             ܪܝܫܕܝܪܐ. ܘܐܚܪܡܬ ܒܡܠܬܐ ܕܐܠܗܐ ܥܠ ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܐܘ
@@ -363,9 +357,9 @@
                                             ܗ̇ܘ ܕܐܦ ܐܬܬܣܝܡ. ܐܬ݁ܦܚܡ ܕܝܢ ܐܦ ܠܘܬ ܪ̈ܒܝܥܝ ܦܨ̈ܐ܀ </quote>
                                         <quote>"Joshua the son of Nun is ended. After the end, these
                                             (words), according to the LXX., are placed in the
-                                            exemplar with obelisks: 'Εν ἐκείνῃ τῇ ἡμέρα λαβόντες οἱ
+                                            exemplar with obelisks: <quote xml:lang="grk">'Εν ἐκείνῃ τῇ ἡμέρα λαβόντες οἱ
                                             νίοὶ 'Ισραὴλ τὴν κιβωτὸν τοῦ Θεοῦ, περιεφέροσαν ἐν
-                                            ἐαυτοῖς κ.τ.λ. On the exemplar from which this was
+                                            ἐαυτοῖς κ.τ.λ.</quote> On the exemplar from which this was
                                             translated into Syriac and written, was inscribed:
                                             'Transcribed from the Hexapla, from which too it was
                                             furnished (with the various readings), and collated also
