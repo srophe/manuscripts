@@ -8,8 +8,8 @@
           ><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add. 14444", without commas --></title>
         <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
-        <funder>National Endowment for the Humanities</funder>
-        <funder>Andrew W. Mellon Foundation</funder>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
         <respStmt>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
