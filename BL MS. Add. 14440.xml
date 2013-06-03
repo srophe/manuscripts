@@ -91,8 +91,8 @@
               <author key=""/>
               <title ref="">The book of Judges according to the Peshitta
                 version<!-- Include URI inside @ref --></title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܣܦܪ ܕܝ̈ܢܐ ܕܡܬܩ̤ܪܐ ܥܒܪܐܝܬܐ ܫܒ̈ܛܐ</title>
-                <locus from="36b">36b</locus>
+              <rubric xml:lang="syr">ܟܬܒܐ ܕܣܦܪ ܕܝ̈ܢܐ ܕܡܬܩ̤ܪܐ ܥܒܪܐܝܬܐ ܫܒ̈ܛܐ<locus from="36b"/>
+                
               </rubric>
               <listBibl>
                 <bibl>
@@ -105,8 +105,8 @@
               <author key=""/>
               <title ref="">The two books of Samuel (undivided) according to the Peshitta
                 version<!-- Include URI inside @ref --></title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܫܡܘܐܝܠ</title>
-                <locus from="70a">70a</locus>
+              <rubric xml:lang="syr">ܟܬܒܐ ܕܫܡܘܐܝܠ
+                <locus from="70a"/>
               </rubric>
               <listBibl>
                 <bibl>
