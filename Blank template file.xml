@@ -168,6 +168,7 @@
                                                                                                                   <!-- @script may be "Estrangelo", "Serto", "Nestorian", "mixed", or "unknown" -->
                                                                                                                   <!-- @medium may contain any phrasing Wright may mention, or "unknown" if he does not -->
                   <desc><!-- Include Wright's prose here --></desc>
+                  </handNote> 
               </handDesc><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
             </physDesc>
             <history>

@@ -1,16 +1,38 @@
 ﻿<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">BL MS Add. 12,133</title>
+                <title xml:lang="en"><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add. 14444", without commas --></title>
+                <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
                 <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
-                <funder>...</funder>
+                <funder>National Endowment for the Humanities</funder>
+                <funder>Andrew W. Mellon Foundation</funder>
                 <principal>David A. Michelson</principal>
                 <respStmt>
-                    <name>Daniel Greeson</name>
-                    <resp>creator</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+                    <resp>Creator</resp>
+                </respStmt>
+                <respStmt>
+                    <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+                    <resp>Syriac text entry</resp>
+                </respStmt>
+                <respStmt>
+                    <name type="person" ref="http://syriaca.org/editors.xml#pkirlles">Philemon Kirlles</name>
+                    <resp>Arabic text entry</resp>
+                </respStmt><!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
+                <respStmt>
+                    <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+                    <resp>Greek and coptic entry and proofreading</resp>
+                </respStmt>
+                <respStmt>
+                    <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+                    <resp>Project Manager, Syriac Research Group, University of Alabama</resp>
+                </respStmt>
+                <respStmt>
+                    <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+                    <resp>English text entry and proofreading</resp>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -19,51 +41,58 @@
             <publicationStmt>
                 <pubPlace/>
                 <authority>Syriaca.org: The Syriac Reference Portal </authority>
-                <idno type="URI">http://syriaca.org/.../source</idno>
+                <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript here -->/source</idno>
                 <availability>
+                    <p/>
                     <licence target="http://creativecommons.org/licenses/by/3.0/"><p>Distributed under a
                         Creative Commons Attribution 3.0 Unported License</p></licence>
                 </availability>
-                <date calendar="Gregorian"/>
+                <date calendar="Gregorian"><!-- Date of publication --></date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
-                    <!--work out why we have an xml id here, also do we need to specify english here?-->
+                <msDesc xml:id="manuscript-12133" xml:lang="en"><!-- @xml:id consists of "manuscript-" followed by the URI number (without commas) for the whole ms (e.g., xml:id="manuscript-14444") --> 
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
-                        <idno>BL MS Add. 12,133</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS--></idno>
+                        <altIdentifier type="internal">
+                            <idno>BL Add. 12133</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msPart n="1" xml:id="Part1">
-                        <altIdentifier type="internal">
-                            <collection>Wright</collection>
-                            <idno>BL Add 12,172 ff. 1-108</idno>
-                        </altIdentifier>
-                        <msContents class="bible-ot">
-                            <summary>Biblical Manuscripts: Old Testament</summary>
-                            <textLang mainLang="syr">Syriac</textLang>
-                            <msItem n="1" xml:id="a1">
-                                <!-- waiting to find out on this -->
+                        <msIdentifier>            
+                            <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here using Arabic numeral equivalent of Wright's number --></idno>
+                            <altIdentifier type="internal">
+                                <idno>BL Add. 12133 foll. 1-108</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents class="bible-ot"><!--use the Wright's Section Headings here for @class-->
+                            <summary/><!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
+                            <textLang mainLang="syr" >Syriac</textLang><!-- See notes from 5/30 meeting regarding how to identify and label language -->
+                            <msItem n="1" xml:id="p1a1">
                                 <locus from="1a" to="108b">ff. 1a-108b</locus>
                                 <author key=""/>
                                 <title ref="http://syriaca.org/work/2">The book of Exodus, according
                                     to the Peshitta version.</title>
                                 <rubric xml:lang="syr">
-                                    <title>ܡܦܩܢܐ̇ ܣܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ</title>
+                                    <title xml:lang="syr">ܡܦܩܢܐ̇ ܣܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ</title>
                                     <locus from="3b">3b</locus>
-                                </rubric>
-                                <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by
-                                        rubrics in the text.</p></note>
+                                    <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by
+                                        rubrics in the text.</p></note></rubric>
+                                <listBibl>
+                                    <bibl>
+                                        <ref target="#Wrightpart1"/>
+                                    </bibl>
+                                </listBibl>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="perg">
-                                    <support n="1">
+                                    <support>
                                         <material>Vellum</material>
-                                        <locus from="1" to="108">Fol. 1-108</locus>
                                     </support>
                                     <extent>ff. 108<dimensions type="leaf" unit="in">
                                             <height>9 3/4</height>
@@ -94,21 +123,17 @@
                                     <layout columns="1" writtenLines="20 22">
                                         <p>There are from 20 to 22 lines on each page.</p>
                                         <locus from="1" to="108">ff. 1-108</locus>
-                                        <!-- Do we need locus here? Probably not -->
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
-                            <handDesc hands="1">
-                                <!-- What is the exact relationship between the # of hands and the notes below? -->
-                                <handNote scope="major" script="unknown"><p>The character is an
-                                        elegant, regular Estrangela, of the earlier half of the
-                                            <origDate notBefore="0700" notAfter="0800">viiith
-                                            century</origDate>. Vowels have been added in a few
+                            <handDesc>
+                                <handNote xml:id="handnotep1a1" scope="major" script="Estrangelo" medium="unknown">
+                                    <desc>The character is an elegant, regular Estrangela, of the earlier half of the 
+                                        <origDate notBefore="0700" notAfter="0800">viiith century</origDate>. Vowels have been added in a few
                                         cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ,
-                                        , ).</p></handNote>
+                                        , ).</desc></handNote>
                                 <!-- VOWELS  -->
-                                <handNote xml:id="handnote1" scope="minor" script="Estrangelo"
-                                    medium="unknown">
+                                <handNote xml:id="handnotep1a2" scope="minor" script="Estrangelo" medium="unknown">
                                     <locus from="2a" to="2a">fol. 2a.</locus>
                                     <listPerson>
                                         <person role="scribe" xml:id="Serg_Abraham" corresp="">
@@ -119,12 +144,12 @@
                                     </listPerson>
                                     <!-- Not a scribe? / Needs arabic and syriac name added / Where are the xml ids for authors?-->
                                 </handNote>
-                                <handNote xml:id="handnote2" scope="minor" script="Estrangelo"
+                                <handNote xml:id="handnote3" scope="minor" script="Estrangelo"
                                     medium="unknown">
                                     <locus from="2a" to="2a">fol. 2a</locus>
-                                    <p>Note written in large open Estrangela characters.</p>
+                                    <desc>Note written in large open Estrangela characters.</desc>
                                 </handNote>
-                                <handNote xml:id="handnote3" scope="minor" script="Estrangelo"
+                                <handNote xml:id="handnote4" scope="minor" script="Estrangelo"
                                     medium="unknown">
                                     <locus from="107b">fol. 107b</locus>
                                     <locus from="108a">fol. 108a.</locus>
@@ -145,7 +170,7 @@
                             </handDesc>
                             <additions>
                                 <list>
-                                    <item n="1" xml:id="m1">
+                                    <item n="1" xml:id="p1m1">
                                         <locus from="107b">Fol. 107b</locus>
                                         <p><label>Subscription</label></p>
                                         <p><quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
@@ -153,7 +178,7 @@
                                             <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣
                                             ܐܡܝܼܢ ܘܐܡܝܢ܆</quote>, and in a more cursive character the words
                                         <quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></p></item>
-                                    <item n="2" xml:id="m2">
+                                    <item n="2" xml:id="p1m2">
                                         <locus from="108a">Fol. 108a</locus>
                                         <p><label>A note</label>on fol. 108 a, states that the
                                             manuscript was written for the monks of the convent of
@@ -169,7 +194,7 @@
                                             ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܣܡܘ ܣܝܡܬܐ ܗܕܐ̣. ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ ܠܡܢܬܐ
                                             ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ
                                             ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote></p></item>
-                                    <item n="3" xml:id="m3">
+                                    <item n="3" xml:id="p1m3">
                                         <locus from="108a">Fol. 108a</locus>
                                         <p><label>
                                                 <!-- ?--></label>What originally followed has been
@@ -188,7 +213,7 @@
                                             ܥܠ ܗܠܝܢ܆ ܚܪܡܗ ܕܐܠܗܐ ܘܪܘܓܙܗ ܘܠܘܛܬܗ ܢܗܘܘܢ ܥܠܘܗܝ. ܘܟܠ ܕܢܛܪ
                                             ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ
                                             ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱ </quote></item>
-                                    <item n="4" xml:id="m4">
+                                    <item n="4" xml:id="p1m4">
                                         <locus from="2a">Fol. 2a</locus>
                                         <p><label><!--?--></label></p>
                                         <quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ
@@ -204,60 +229,47 @@
                                             ܕܡܫܝܚܐ.</quote></item>
                                 </list>
                                 <!-- What to do with the xml ids above? -->
-                                <catchwords/>
                             </additions>
-                            <bindingDesc>
-                                <p>
-                                    <date calendar="gregorian"/>
-                                    <material/>
-                                </p>
-                                <decoNote type="illustration"> </decoNote>
-                                <condition/>
-                            </bindingDesc>
                         </physDesc>
                         <history>
                             <summary/>
-                            <origin>
-                                <date calendar="Gregorian"/>
-                            </origin>
-                            <provenance/>
+                           <provenance/>
                             <acquisition/>
                         </history>
                         <additional>
                             <adminInfo>
                                 <recordHist>
-                                    <source>Manuscript description based on <bibl><ref
-                                                target="#Wright">Wright's Catalogue</ref></bibl>.
+                                    <source>Manuscript description based on
+                                        <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>.
                                         abbreviated by the Syriaca.org project team.</source>
                                 </recordHist>
-                                <availability status="restricted">
-                                    <p/>
-                                </availability>
+                                <availability status="restricted"/>
                                 <note/>
-                                <listBibl>
-                                    <bibl xml:id="Wright">
-                                        <author>William Wright</author>
-                                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the
-                                            British Museum Acquired since the Year 1838</title>
-                                        <pubPlace>London</pubPlace>
-                                        <date calendar="gregorian">1870</date>
-                                        <ptr target="http://syriaca.org/bibl/8"/>
+                            </adminInfo>
+                            <listBibl>
+                                <bibl xml:id="Wrightpart1">
+                                    <author>William Wright</author>
+                                    <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                                    <pubPlace>London</pubPlace>
+                                    <date>1870</date>
+                                    <ptr target="http://syriaca.org/bibl/8"/>
                                         <citedRange unit="entry">IX</citedRange>
                                         <citedRange unit="pp">I:7-8</citedRange>
                                     </bibl>
                                 </listBibl>
-                            </adminInfo>
-                        </additional>
+                           </additional>
                     </msPart>
                     <msPart n="2" xml:id="Part2">
-                        <altIdentifier type="internal">
-                            <collection>Wright</collection>
-                            <idno>LI</idno>
-                        </altIdentifier>
+                        <msIdentifier>            
+                            <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the new msPart's Syriaca.org URI number here using Arabic numeral equivalent of Wright's number --></idno>
+                            <altIdentifier type="internal">
+                                <idno>BL Add. 12133 foll. 109-169</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents class="bible-ot">
-                            <summary>Biblical Manuscripts: Old Testament</summary>
+                            <summary/>
                             <textLang mainLang="syr">Syriac</textLang>
-                            <msItem n="1" xml:id="b1">
+                            <msItem n="1" xml:id="p2a1">
                                 <locus from="109" to="169">ff. 109-169</locus>
                                 <author key=""/>
                                 <title ref="http://syriaca.org/work/6">The book of Joshua,
@@ -279,6 +291,11 @@
                                         tetragrammaton is indicated on the margin by .ܦܝܦ
                                     </p></note>
                                 <colophon><ref target="#m1">See below.</ref></colophon>
+                                <listBibl>
+                                    <bibl>
+                                        <ref target="#Wrightpart2"/>
+                                    </bibl>
+                                </listBibl>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -286,9 +303,8 @@
                                 <supportDesc material="perg">
                                     <support n="1">
                                         <material>Vellum</material>
-                                        <locus from="109" to="169">ff. 109-169</locus>
                                     </support>
-                                    <extent> ff. 61 <dimensions type="leaf" unit="in">
+                                    <extent>ff. 61 <dimensions type="leaf" unit="in">
                                             <height>9 7/8</height>
                                             <width>6 5/8</width>
                                         </dimensions>
@@ -313,7 +329,7 @@
                                         <p>Of the 61 leaves some are slightly stained and the last
                                             is much torn. Leaves are wanting at the beginning, and
                                             after foll. 112, 113, 119, 120, and 128. The following
-                                            por¬tions of the capitula and text are missing: capp. 1,
+                                            portions of the capitula and text are missing: capp. 1,
                                             2, 3, and part of 4 (as far as the words πετρίναις
                                             περιτέμνει τοὺς 'Ιουδαίους); Ch. i. 11—ii. 1, ii.
                                             11—iii. 16, vi. 16—25, vii. 6— 15, and x. 2—11.</p>
@@ -326,15 +342,10 @@
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
-                            <handDesc hands="1">
-                                <!-- What is the exact relationship between the # of hands and the notes below? -->
-                                <handNote scope="major" script="unknown"><p>The writing is a fine,
-                                        regular Estrangela of the <origDate notBefore="0700"
-                                            notAfter="0800">viiith
-                                    century</origDate>.</p></handNote>
+                            <handDesc>
+                                <handNote xml:id="handnotep2a1" scope="major" script="Estrangelo" medium="unknown">
+                                    <p>The writing is a fine, regular Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.</p>
                                 <!-- VOWELS  -->
-                                <handNote xml:id="handnote1" scope="major" script="Estrangelo"
-                                    medium="unknown">
                                     <locus from="109" to="169">ff. 109-169</locus>
                                     <listPerson>
                                         <person role="scribe" xml:id="Paul_Tella" corresp="">
@@ -346,9 +357,9 @@
                             </handDesc>
                             <additions>
                                 <list>
-                                    <item n="1" xml:id="m1">
+                                    <item n="1" xml:id="p2m1">
                                         <locus from="169b">Fol. 169b</locus>
-                                        <p><label/></p></item>
+                                    </item>
                                     <note><quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ ܫܥܒܝܢ
                                             .ܘ. ܗܠܝܼܢ ܒܬܪ ܫܘܠܡܐ ܐܝܟ ܗ̇ܢܘܢ ܫܒܥܝܢ ܣܝ̈ܡܢ ܗ̈ܘܝ ܒܨܚܚܐ ܥܡ
                                             ܓܐܪ̈ܘܢܐ܀ ܒܗܿܘ ܝܘܡܐ̣. ܟܕ ܢܣ̣ܒܘ ܠܩܒܘܬܗ ܕܐܠܗܐ. ܡܟܪܟܝܢ ܗܘܘ
@@ -368,14 +379,6 @@
                                 <!-- What to do with the xml ids above? -->
                                 <catchwords/>
                             </additions>
-                            <bindingDesc>
-                                <p>
-                                    <date calendar="gregorian"/>
-                                    <material/>
-                                </p>
-                                <decoNote type="illustration"> </decoNote>
-                                <condition/>
-                            </bindingDesc>
                         </physDesc>
                         <history>
                             <summary/>
@@ -388,27 +391,24 @@
                         <additional>
                             <adminInfo>
                                 <recordHist>
-                                    <source>Manuscript description based on <bibl><ref
-                                                target="#Wright">Wright's Catalogue</ref></bibl>.
+                                    <source>Manuscript description based on
+                                        <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>.
                                         abbreviated by the Syriaca.org project team.</source>
                                 </recordHist>
-                                <availability status="restricted">
-                                    <p/>
-                                </availability>
+                                <availability status="restricted"/>
                                 <note/>
-                                <listBibl>
-                                    <bibl xml:id="Wright">
-                                        <author>William Wright</author>
-                                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the
-                                            British Museum Acquired since the Year 1838</title>
-                                        <pubPlace>London</pubPlace>
-                                        <date calendar="Gregorian">1870</date>
-                                        <ptr target="http://syriaca.org/bibl/8"/>
+                            </adminInfo>
+                            <listBibl>
+                                <bibl xml:id="Wrightpart2">
+                                    <author>William Wright</author>
+                                    <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                                    <pubPlace>London</pubPlace>
+                                    <date>1870</date>
+                                    <ptr target="http://syriaca.org/bibl/8"/>
                                         <citedRange unit="entry">LI</citedRange>
                                         <citedRange unit="pp">I:31-32</citedRange>
                                     </bibl>
                                 </listBibl>
-                            </adminInfo>
                         </additional>
                     </msPart>
                 </msDesc>
@@ -423,12 +423,7 @@
                 </interpretation>
             </editorialDecl>
             <classDecl>
-                <taxonomy xml:id="LCSH">
-                    <bibl>
-                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
-                            Congress Subject Headings</ref>
-                    </bibl>
-                </taxonomy>
+                <taxonomy/>
             </classDecl>
         </encodingDesc>
         <profileDesc>
@@ -441,8 +436,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2012-05-21">
-                <persName/>
+            <change when="2012-05-21" who=" ">
             </change>
         </revisionDesc>
     </teiHeader>
