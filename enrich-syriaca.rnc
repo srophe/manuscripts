@@ -2920,6 +2920,12 @@ tei_altIdentifier =
       | 
         ## unspecified
         "other"
+      |
+        ## British Library identifier
+        "BL"
+      |
+        ## Wright' identifier
+        "Wright"
     },
     att.typed.attribute.subtype,
     empty
