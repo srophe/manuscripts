@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title xml:lang="en"
-          ><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add. 14444", without commas --></title>
+          ><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add MS 14444", without commas or periods --></title>
         <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -67,7 +67,7 @@
             <collection>Christian Middle East Section</collection>
             <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS, --></idno>
             <altIdentifier type="BL">
-              <idno>BL <!-- BL + the manuscript name identified at the end of the Wright entry ex.. BL Add. 14444 (note: do not use commas or folia numbers)--></idno>
+              <idno>Add MS <!-- Add MS + the manuscript name identified at the end of the Wright entry ex.. BL Add. 14444 (note: do not use commas or folia numbers)--></idno>
             </altIdentifier>
             <altIdentifier type="Wright">
               <idno>Wright <!-- IF there are no msParts then enter a Wright number here: Wright + the entry number from Wright )--></idno>
@@ -158,28 +158,19 @@
                       <width></width>
                     </dimensions>, etc. -->
                   </extent>
-                  <foliation type="ancient"><!-- Denote here the locus and nature of any pagination system original to the msPart -->
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <foliation type="modern"><!-- Denote here the locus and nature of any pagination system imposed later in the msPart's history, including that of Wright -->
-                    <locus from="" to=""/>
-                    <p/>
+                  <!-- Policy is to put Wright' description into collation and condition -->
+                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. -->
                   </foliation>
                   <collation>
-                    <p/>
-                    <seg n="1" type="gathering">
-                      <locus from="" to=""/>
-                      <formula><!-- If a clear formula for collation  is given or discernable, note it here --></formula>
-                    </seg><!-- If the work consists of multiple collation systems, note the locus and formula for each by repeating the <seg> block, altering @n for each new <seg> -->
+                    <!-- Collation will  usually be just a prose description. -->
                   </collation>
                   <condition>
                     <p><!-- Reproduce Wright's prose regarding the condition, tagging any loci, persons, places, foreign words, etc. as necessary --></p>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines=""><!-- @writtenLines should not contain anything but numbers and spaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
-                    <locus from="" to=""/>
+                  <layout columns="" writtenLines=""><!-- @writtenLines should not contain anything but numbers and whitespaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
+                    <locus from="" to=""/><!-- Only use locus if there is more than one layout in the MS, eg if the number of columns changes half of the way through -->
                     <p><!-- Include Wright's prose here --></p>
                   </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
                 </layoutDesc>
