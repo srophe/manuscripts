@@ -67,7 +67,7 @@
             <collection>Christian Middle East Section</collection>
             <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS, --></idno>
             <altIdentifier type="BL">
-              <idno>Add MS <!-- Add MS + the manuscript name identified at the end of the Wright entry ex.. BL Add. 14444 (note: do not use commas or folia numbers)--></idno>
+              <idno>Add MS <!-- Add MS + the manuscript name identified at the end of the Wright entry ex.. BL Add. MS 14444 (note: do not use commas or folia numbers)--></idno>
             </altIdentifier>
             <altIdentifier type="Wright">
               <idno>Wright <!-- IF there are no msParts then enter a Wright number here: Wright + the entry number from Wright )--></idno>
@@ -77,7 +77,7 @@
             <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
               <altIdentifier type="BL">
-                <idno>BL <!-- BL + the name of manuscript and the folia of part 1 (e.g., BL Add. 14444 foll. 1-24) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno>BL <!-- BL + the name of manuscript and the folia of part 1 (e.g., BL Add. MS 14444 foll. 1-24) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
               </altIdentifier>
               <altIdentifier type="Wright">
                 <idno>Wright <!-- Wright + the entry number from Wright )--></idno>
@@ -158,11 +158,9 @@
                       <width></width>
                     </dimensions>, etc. -->
                   </extent>
-                  <!-- Policy is to put Wright' description into collation and condition -->
-                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. -->
-                  </foliation>
+                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
                   <collation>
-                    <!-- Collation will  usually be just a prose description. -->
+                    <p/><!-- Collation will  usually be just a prose description. -->
                   </collation>
                   <condition>
                     <p><!-- Reproduce Wright's prose regarding the condition, tagging any loci, persons, places, foreign words, etc. as necessary --></p>
@@ -182,6 +180,13 @@
                   <desc><!-- Include Wright's prose here --></desc>
                 </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
               </handDesc>
+              <additions><!-- Include in the <quote> any marginalia or colophons to the manuscript.  Add more <item> blocks as necessary. -->
+                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <list>
+                  <item n="" xml:id=""><locus from="" to=""/><quote/></item>
+                  <item n="" xml:id=""><locus from="" to=""/><quote/></item>
+                </list>
+              </additions>
             </physDesc>
             <history>
               <summary/>
@@ -218,7 +223,7 @@
             <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
               <altIdentifier type="BL">
-                <idno>BL <!-- BL + the name of manuscript and the folia of part 1 (e.g., BL Add. 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno>BL <!-- BL + the name of manuscript and the folia of part 1 (e.g., BL Add. MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
               </altIdentifier>
               <altIdentifier type="Wright">
                 <idno>Wright <!-- Wright + the entry number from Wright--></idno>
@@ -275,16 +280,8 @@
                     <locus/>
                     <p/>
                   </foliation>
-                  <foliation type="modern">
-                    <locus from="" to=""/>
-                    <p/>
-                  </foliation>
                   <collation>
                     <p/>
-                    <seg n="1" type="gathering">
-                      <locus from="" to=""/>
-                      <formula/>
-                    </seg>
                   </collation>
                   <condition>
                     <p/>
