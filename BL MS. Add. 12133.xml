@@ -4,7 +4,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en"><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add. 14444", without commas --></title>
+                <title xml:lang="en">BL Add. 12133</title>
                 <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
                 <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
                 <funder>National Endowment for the Humanities</funder>
@@ -50,15 +50,15 @@
                 <date calendar="Gregorian"><!-- Date of publication --></date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="manuscript-12133" xml:lang="en"><!-- @xml:id consists of "manuscript-" followed by the URI number (without commas) for the whole ms (e.g., xml:id="manuscript-14444") --> 
+                <msDesc xml:id="manuscript-" xml:lang="en"><!-- UPDATE--> 
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
                         <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS--></idno>
-                        <altIdentifier type="internal">
-                            <idno>BL Add. 12133</idno>
+                        <altIdentifier type="BL">
+                            <idno>Add. MS 12133</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msPart n="1" xml:id="Part1">
@@ -66,6 +66,15 @@
                             <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here using Arabic numeral equivalent of Wright's number --></idno>
                             <altIdentifier type="internal">
                                 <idno>BL Add. 12133 foll. 1-108</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msIdentifier>
+                            <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+                            <altIdentifier type="BL">
+                                <idno>BL Add. 12133 foll. 1-108</idno>
+                            </altIdentifier>
+                            <altIdentifier type="Wright">
+                                <idno>Wright IX</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents class="bible-ot"><!--use the Wright's Section Headings here for @class-->
@@ -81,12 +90,7 @@
                                     <locus from="3b">3b</locus>
                                     <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by
                                         rubrics in the text.</p></note></rubric>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wrightpart1"/>
-                                    </bibl>
-                                </listBibl>
-                            </msItem>
+                        </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
@@ -94,35 +98,28 @@
                                     <support>
                                         <material>Vellum</material>
                                     </support>
-                                    <extent>ff. 108<dimensions type="leaf" unit="in">
-                                            <height>9 3/4</height>
-                                            <width>6 1/2</width>
+                                    <extent>
+                                        <measure type="composition" unit="leaf" quantity="108">108 ff.</measure>
+                                        <dimensions type="leaf" unit="in">
+                                            <height>
+                                                <measure type="height" quantity="9.75" unit="in">9 3/4</measure><!-- Change @quantity and the human-readable text as necessary -->
+                                            </height>
+                                            <width>
+                                                <measure type="width" quantity="6.5" unit="in">6 1/2</measure><!-- Change @quantity and the human-readable text as necessary -->
+                                            </width>
                                         </dimensions>
-                                        <dimensions type="written" unit="in">
-                                            <height/>
-                                            <width/>
-                                        </dimensions>
-                                    </extent>
-                                    <foliation xml:id="ancient">
-                                        <locus from="1" to="108">ff. 1-108</locus>
-                                        <p>The quires are signed with both letters and arithmetical
-                                            figures, thus: etc</p>
-                                        <!-- Uncopyable figures from Worddoc missing above  -->
-                                    </foliation>
+                                  </extent>
+                                    <foliation xml:id="ancient"/>
                                     <collation>
-                                        <p>The quires are eleven in number.</p>
-                                        <seg n="1" type="gathering">
-                                            <locus/>
-                                            <!-- Let' not enter a locus except in the cases where we have multiple gatherings or manuscripst that are composite or broken? -->
-                                            <formula/>
-                                        </seg>
+                                        <p>The quires, eleven in number, are signed with both letters and arithmetical figures, thus:   etc. </p>
+                                        <!-- Uncopyable figures from Worddoc missing above  -->
                                     </collation>
                                     <condition/>
                                 </supportDesc>
                                 <layoutDesc>
                                     <layout columns="1" writtenLines="20 22">
-                                        <p>There are from 20 to 22 lines on each page.</p>
                                         <locus from="1" to="108">ff. 1-108</locus>
+                                        <p>There are from 20 to 22 lines on each page.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -163,7 +160,7 @@
                                         </person>
                                     </listPerson>
                                     <p>Subscription on 107b and note on 108a in the handwriting of
-                                        Moses of Nisibis, abbat of the convent of S. Mary Deipara in
+                                        <persName xml:id="Moses_Nisbis">Moses of Nisibis</persName>, abbat of the convent of S. Mary Deipara in
                                         the desert of Scete (A. Gr. 1243, A.D. 932).</p>
                                     <!-- TUCKER: How are we connecting additions to the scribes?-->
                                 </handNote>
@@ -262,8 +259,11 @@
                     <msPart n="2" xml:id="Part2">
                         <msIdentifier>            
                             <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the new msPart's Syriaca.org URI number here using Arabic numeral equivalent of Wright's number --></idno>
-                            <altIdentifier type="internal">
+                            <altIdentifier type="BL">
                                 <idno>BL Add. 12133 foll. 109-169</idno>
+                            </altIdentifier>
+                            <altIdentifier type="Wright">
+                                <idno>Wright LI</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents class="bible-ot">
@@ -291,39 +291,27 @@
                                         tetragrammaton is indicated on the margin by .ܦܝܦ
                                     </p></note>
                                 <colophon><ref target="#m1">See below.</ref></colophon>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wrightpart2"/>
-                                    </bibl>
-                                </listBibl>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="perg">
-                                    <support n="1">
-                                        <material>Vellum</material>
-                                    </support>
-                                    <extent>ff. 61 <dimensions type="leaf" unit="in">
-                                            <height>9 7/8</height>
-                                            <width>6 5/8</width>
-                                        </dimensions>
-                                        <dimensions type="written" unit="in">
-                                            <height/>
-                                            <width/>
+                                  <support><material>Vellum</material></support>
+                                    <extent>
+                                        <measure type="composition" unit="leaf" quantity="61">61 ff.</measure>
+                                        <dimensions type="leaf" unit="in">
+                                            <height>
+                                                <measure type="height" quantity="9.875" unit="in">9 7/8</measure>
+                                            </height>
+                                            <width>
+                                                <measure type="width" quantity="6.625" unit="in">6 5/8</measure>
+                                            </width>
                                         </dimensions>
                                     </extent>
-                                    <foliation xml:id="ancient">
-                                        <locus from="109" to="169">ff. 109-169</locus>
+                                    <foliation xml:id="ancient"/>
+                                    <collation>
                                         <p>The quires, signed with letters, were originally eight in
                                             number, but the signatures now run from ܝܒ to ܝܚ. </p>
-                                    </foliation>
-                                    <collation>
-                                        <p>The quires were originally eight in number.</p>
-                                        <seg n="1" type="gathering">
-                                            <locus/>
-                                            <formula/>
-                                        </seg>
                                     </collation>
                                     <condition>
                                         <p>Of the 61 leaves some are slightly stained and the last

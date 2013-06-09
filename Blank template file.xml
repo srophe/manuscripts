@@ -229,7 +229,7 @@
                 <idno>Wright <!-- Wright + the entry number from Wright--></idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents>
+            <msContents class="">
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1"><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->

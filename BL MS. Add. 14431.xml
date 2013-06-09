@@ -80,6 +80,7 @@
               <title ref="" type="supplied">The first book of Samuel according to the Peshitta
                 version<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
               <rubric xml:lang="syr">ܢܒܝܘܬܗ ܕܫܡܘܐܝܠ</rubric>
+              <note>The missing portions of the text are: 1 Sam., ch. i. 26—ch. ii. 19.</note>
             </msItem>
             <msItem n="2" xml:id="a2">
               <!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem> in part 1. -->
@@ -88,6 +89,7 @@
               <!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
               <title ref="" type="supplied">The second book of Samuel according to the Peshitta
                 version<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
+              <note>The missing portions of the text are: 2 Sam., ch. xi. 11—20. Some lessons have been marked on the margins by later hands, and in a few instances the commencement of ܨܚ̈ܚܐ or sections (e.g. <locus from="114a">foll. 114a</locus> and <locus from="119a">119a</locus>).</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -123,61 +125,50 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote xml:id="" scope="" script="" medium=""><!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                <!-- @script may be "Estrangelo", "Serto", "Nestorian", "mixed", or "unknown" -->
-                <!-- @medium may contain any phrasing Wright may mention, or "unknown" if he does not -->
-                <desc><!-- Include Wright's prose here --></desc>
-                <handNote xml:id="" scope="" script="" medium=""><!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                  <!-- @script may be "Estrangelo", "Serto", "Nestorian", "mixed", or "unknown" -->
-                  <!-- @medium may contain any phrasing Wright may mention, or "unknown" if he does not -->
-                  <desc><!-- Include Wright's prose here --></desc>
-                  <handNote xml:id="" scope="" script="" medium=""><!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                    <!-- @script may be "Estrangelo", "Serto", "Nestorian", "mixed", or "unknown" -->
-                    <!-- @medium may contain any phrasing Wright may mention, or "unknown" if he does not -->
-                    <desc><!-- Include Wright's prose here --></desc>
-              </handNote>
-              <!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
+              <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="regular">
+                <desc>This volume is written in a line, regular Estrangela, not later than A. Gr. 856, <origDate notBefore="0545" notAfter="0546">A.D. 545</origDate></desc>
+                </handNote>
+              <handNote xml:id="handnote2" scope="minor" script="unknown" medium="modern">
+                  <desc><locus from="147">fol. 147</locus> is more modern.</desc></handNote>
+                  <handNote xml:id="handnote3" scope="minor" script="unknown" medium="unknown">
+                    <desc>Greek vowels have been added here and there by a later hand (ܰ , ܶ ,ܺ , ܳ, , , ) </desc></handNote>
+                    <!-- NEED GREEK VOWELS!! -->
             </handDesc>
-            <additions><!-- Include in the <quote> any marginalia or colophons to the manuscript.  Add more <item> blocks as necessary. -->
-              <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+            <additions>
               <list>
-                <item n="" xml:id=""><locus from="" to=""/><quote/></item>
-                <item n="" xml:id=""><locus from="" to=""/><quote/></item>
+                <item n="additonal1" xml:id="add1"> <quote>On <locus from="157a">fol. 157a</locus> after the doxology, there, is a note, mentioning the name of the, scribe Sergūnā:</quote><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟܬܒܐ ܗܢܐ ܢܨܠܐ ܥܠ ܚܛܝܐ ܣܪܓܘܢܐ ܕܟܬ̣ܒ. ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ̣ ܐܝܟ ܕܐܬܚܢܢ ܓܝܣܐ ܒܙܩܝܦܐ. ܐܝܢ ܐܡܝܢ ܘܐܡܝܢ</quote><quote>and after it, in a more current hand of the same period, another note, stating that the manuscript was collated in the year 850, A.D. 545, by one George (</quote><quote xml:id="syr">ܓܝܘܪܓܝ = ܙܨܕܫܙܨ</quote><quote> according to the alphabet of Bar-daisān @[ On the alphabet of Bardesanes,</quote><quote xml:lang="syr">ܐܬܘ̈ܬܐ ܐܠܦ ܕܝܨܢܝܬܐ </quote><quote>or</quote><quote xml:lang="syr">ܕܒܪܕܝܨܢ </quote><quote>, See Add. 7202, fol. 1 a; the Journal of Sacred Literature, vol. vi (new series), January 1865, p. 465; and Land’s Anecdota, t. ii. p.13.] @</quote><quote xml:lang="syr">ܐܬܦܚܡ (sic) ܟܬܒܐ ܗܢܐ ܒܫܢܬ ܬܡܢܡܐܐ ܘܚܡܫܝܢ ܘܫܝܬ ܒܝܪܚܐ ܢܝܣܢ ܒܥܣܪܐ ܒܗ ܒܬܪܝܢ ܒܫܒܐ. ܕܟܠ ܕܩܪܐ ܒܗ ܢܨܠܐ ܥܠ ܚܛܝܐ ܙܨܕܫܙܨ ܕܦܚܡ ܕܐܠܗܐ ܢܫܒܘܩ ܒܘܨܪ̈ܘܗܝ ܐܢ ܘܐܡܝܢ.</quote></item>
+                <item n="additional2" xml:id="add2"><locus from="157b" to="157b"/><quote>A note on fol. 157 b informs us that this book was presented to the convent of S. Mary Deipara by Yakīrā bar ‘Abbās of Tagrīt; and an addition, in a different hand, written over an erasure, adds that he did so through the brothers Matthew and Abraham,
+                  monks of Tagrīt (see Add. 17,102, fol. 59 b):</quote><quote xml:lang="syr">ܝܗܒ ܟܬܒܐ ܗܢܐ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܐ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܐܒܐ ܒܝܫܘܝ܆ ܝܩܝܪܐ ܒܪ ܥܒܣ ܡܢ ܬܓܪܝܬ ܡܕܝܢܬܐ. ܡܛܠ ܦܘܪܩܢܐ ܕܢܦܫܗ ܘ܏ܫ. ܒܡܬܚܦܛܢܘܬܐ ܕܡܬܝ ܘܕܐܒܪܗܡ ܐܚ̈ܐ ܕ̈ܝܪܝܐ ܬܓܪ̈ܝܢܬܝܐ (sic) ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠܝܗܘܢ ܘܟܠ ܕܩܪܐ ܒܗ ܘܢܟܡܢ ܥܠܘܗܝ ܢܕܥ ܕܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܥܠ ܦܘܩܕܢܐ.</quote>
+                </item>
+                <item n="additional3" xml:id="add3">On<locus from="157b">157b</locus>as well as on <locus from="158a">foll. 158a</locus> and <locus from="1a">1a</locus>, we find anathemas written by different hands.</item>
               </list>
             </additions>
           </physDesc>
           <history>
             <summary/>
             <origin>
-              <origDate notBefore="" notAfter=""
-                ><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate>
-              <!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600") -->
+              <origDate notBefore="0545" notAfter="0546">not later than A. Gr. 856, A.D. 545</origDate>
             </origin>
-            <provenance>
-              <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary --></p>
-            </provenance>
           </history>
           <additional>
             <adminInfo>
               <recordHist>
-                <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's
+                <source>Manuscript description based on <bibl><ref target="#Wright">Wright's
                       Catalogue</ref></bibl>. abbreviated by the Syriaca.org project team.</source>
               </recordHist>
               <availability status="restricted"/>
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wrightpart1"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
+              <bibl xml:id="Wright"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry"
-                  ><!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                <citedRange unit="pp"
-                  ><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                <citedRange unit="entry">XII</citedRange>
+                <citedRange unit="pp">I:14-15</citedRange>
               </bibl>
             </listBibl>
           </additional>
