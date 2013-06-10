@@ -16,6 +16,10 @@
                     <resp>Creator</resp>
                 </respStmt>
                 <respStmt>
+                    <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+                    <resp>Editor</resp>
+                </respStmt>
+                <respStmt>
                     <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert
                         Aydin</name>
                     <resp>Syriac text entry</resp>

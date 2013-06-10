@@ -14,6 +14,10 @@
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
           <resp>Creator</resp>
         </respStmt>
+        <respStmt>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+          <resp>Editor</resp>
+        </respStmt>
         <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
         <resp>Syriac text entry</resp>
         <respStmt>
