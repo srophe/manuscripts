@@ -863,14 +863,14 @@
                                 <item n="1" xml:id="m1">
                                     <label/>
                                     <locus from="47b">Fol. 47b</locus>
-                                    <quote xml:lang="syr"><ref target="#Abr_b_Yesh"/>ܘܐܬܟ̣ܬܒ ܥܠ ܐܝܼܕܘ̈ܗܝ ܕܚܛܝܐ ܘܡܚܝܼܠܐ ܐܒܪܗܡ ܕܘ̇ܝܐ ܒܪ ܡܲܩܕܫܝܐ ܡܢܚܐ
+                                    <quote xml:lang="syr"><ref target="#Abr_b_Yesh"/><ref target="#handnote1"/>ܘܐܬܟ̣ܬܒ ܥܠ ܐܝܼܕܘ̈ܗܝ ܕܚܛܝܐ ܘܡܚܝܼܠܐ ܐܒܪܗܡ ܕܘ̇ܝܐ ܒܪ ܡܲܩܕܫܝܐ ܡܢܚܐ
                                             ܝܫܘܥ̇ ܕܐܬܩܪܝ ܓ݂ܙܘܝ ܡܢ ܩܨܘܪ ܐܬܪܐ
                                         ܕܡܪܕܐ ܐܘܟܝܬ ܡܐܪܕܝܢ ܡܕܝܢܬܐ. </quote>
                                 </item>
                                 <item n="2" xml:id="m2">
                                     <label/>
                                     <locus from="77a">Fol. 77a</locus>
-                                    <quote xml:lang="syr"><ref target="#Abr_b_Yesh"/> ܘܨܠܘ ܥܠ ܐܒܪܗܡ ܚܲܛܝܐ ܒܪ
+                                    <quote xml:lang="syr"><ref target="#Abr_b_Yesh"/><ref target="#handnote1"/> ܘܨܠܘ ܥܠ ܐܒܪܗܡ ܚܲܛܝܐ ܒܪ
                                         ܡܩܕܫܝܐ ܝܫܘܥ ܡܢ ܡܕܢܚܐ ܐܬܪܐ ܕܡܪܕܝܢ ܡܕܝܢܬܐ ܡܢ ܩܪܝܬܐ ܡܒܪܟܬܐ ܩܨܘܪ
                                         ܟ̣ܬܒܬܗ ܠܟܬܒܐ ܗܢܐ ܒܐܘܪܫܠܡ ܡܕܝܢܬܗ ܕܡܟܠܐ ܪܒܐ ܒܕܝܪܐ ܩܕܝܫܬܐ
                                         ܕܝܿܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ ܕܡܬܟܲܢܐ ܕܒܝܬ ܡܪܩܘܣ.. </quote>
