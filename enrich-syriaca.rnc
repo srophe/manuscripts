@@ -2173,14 +2173,26 @@ tei_handNote =
     attribute script {
       list {
         (
-         ##
-         "Estrangelo"
+         ## default for all mss in which there is no clear indication of script
+         "syr-Syrc"
          | 
-           ##
-           "Serto"
+           ## Estrangelo/a
+           "syr-Syre"
            |
-           ##
-           "Nestorian"
+           ## Jacobite, or Greek vowels
+           "syr-Syrj"
+           |
+           ## Nestorian, pointed vowels, vowel points
+           "syr-Syrn"
+           |
+           ## Malkite
+           "syr-Syrm"
+           |
+           ## Palestinian
+           "syr-Syrp"
+           |
+           ## Garshuni or Karshuni
+           "ar-Syrc"
            |
            ##
            "mixed"
