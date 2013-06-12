@@ -1270,8 +1270,11 @@ tei_date =
         ## Ilahi (Mughal)
         "Ilahi"
       | 
-        ## HIndu calendar
+        ## Hindu calendar
         "Hindu"
+        |
+        ##Seleucid calendar
+        "Seleucid"
       | 
         ##
         "unknown"
@@ -2798,7 +2801,7 @@ tei_origDate =
         ## Ilahi (Mughal)
         "Ilahi"
       | 
-        ## HIndu calendar
+        ## Hindu calendar
         "Hindu"
       |
         ##Seleucid calendar
