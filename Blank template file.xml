@@ -6,7 +6,7 @@
       <titleStmt>
         <title xml:lang="en"
           ><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add MS 14444", without commas or periods --></title>
-        <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
+        <!--Note: the .xml file will be based on the number from the URI in the msIdentifier which represents the manuscript as a whole (not msParts). -->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -23,11 +23,6 @@
           <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
           <resp>Syriac text entry</resp>
         </respStmt>
-        <respStmt>
-          <name type="person" ref="http://syriaca.org/editors.xml#pkirlles">Philemon Kirlles</name>
-          <resp>Arabic text entry</resp>
-        </respStmt>
-        <!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
         <respStmt>
           <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
           <resp>Greek and coptic entry and proofreading</resp>
