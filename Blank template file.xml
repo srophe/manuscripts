@@ -210,26 +210,33 @@
                   </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
                 </layoutDesc>
               </objectDesc>
-              <handDesc>
-                <handNote xml:id="" scope="" script="" medium=""><!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
+              <handDesc hands=""><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
+                <handNote xml:id="p1handNote1" scope="" script="" medium=""><!-- @xml:id should be sequentially assigned as "p1handNote1", "p1handNote2", and so on. If there is only one <msPart>, then the "p1" need not be included. -->
+                  <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
                   <!-- @script please use the ISO code combinations cited here: https://docs.google.com/document/d/17pO4a8PPWerLzqLlFfNqPNeHcyfNz_JR_iwAqKro5dM/edit -->
                   <!-- @medium may contain any phrasing Wright may mention, or "unknown" if he does not -->
-                  <desc><!-- Include Wright's prose here --></desc>
+                  <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
                 </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
               </handDesc>
+              <decoDesc><!-- If no mention of decoration, the <decoDesc> block may be removed. -->
+                <decoNote xml:id="p1decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "p1decoNote1", "p1decoNote2", etc. If there is only one <msPart>, then the "p1" need not be included.-->
+                  <!-- There are many valid entries for @type. See manual for a complete list. -->
+                  <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
+                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
+              </decoDesc>
               <additions>
                 <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item><!-- Include in the <quote> any marginalia or colophons to the manuscript.  Add more <item> blocks as necessary. --><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item><!-- Include in the <quote> any marginalia or colophons to the manuscript.  Add more <item> blocks as necessary. -->
+                  <!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
                   <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
                 </list>
               </additions>
             </physDesc>
             <history>
-              <summary/>
               <origin>
                 <origDate notBefore="" notAfter=""><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origPlace><placeName/><!-- Include place if place of composition is mentioned --></origPlace>
+                <origPlace/><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
               </origin>
               <provenance>
                 <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
@@ -334,11 +341,16 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc>
-                <handNote xml:id="" scope="" script="" medium="">
-                  <desc/>
+              <handDesc hands="">
+                <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
+                  <desc></desc>
                 </handNote>
               </handDesc>
+              <decoDesc>
+                <decoNote xml:id="p2decoNote1" type="" medium="">
+                  <desc></desc>
+                </decoNote>
+              </decoDesc>
               <additions>
                 <p/>
                 <list>
@@ -351,7 +363,7 @@
               <summary/>
               <origin>
                 <origDate notBefore="" notAfter=""/>
-                <origPlace><placeName/></origPlace>
+                <origPlace></origPlace>
               </origin>
               <provenance/>
               <acquisition/>
