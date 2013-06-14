@@ -4,8 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en"
-          ><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add MS 14444", without commas or periods --></title>
+        <title xml:lang="en"><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add MS 14444", without commas or periods --></title>
         <!--Note: the .xml file will be based on the number from the URI in the msIdentifier which represents the manuscript as a whole (not msParts). -->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>

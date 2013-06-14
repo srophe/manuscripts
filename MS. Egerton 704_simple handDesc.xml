@@ -4,9 +4,11 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>BL Egerton 704</title>
-                <funder>National Endowment for the Humanities</funder>
-                <principal>David Michelson</principal>
+                <title>BL Egerton MS 704</title>
+                <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+                <funder>The Andrew W. Mellon Foundation</funder>
+                <principal>David A. Michelson</principal>
                 <respStmt>
                     <name type="person">Tucker Hannah</name>
                     <resp>Creator</resp>
@@ -15,733 +17,336 @@
                     <name type="person">Daniel Greeson</name>
                     <resp>Editor</resp>
                 </respStmt>
+                <respStmt>
+                    <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+                    <resp>Syriac text entry</resp>
+                </respStmt>
+                <respStmt>
+                    <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+                    <resp>Project Manager, Syriac Research Group, University of Alabama</resp>
+                </respStmt>
+                <respStmt>
+                    <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+                    <resp>English text entry and proofreading</resp>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
             <publicationStmt>
-                <date calendar="Gregorian"/>
-                <!-- Date of our publication -->
-                <publisher>Syriaca.org</publisher>
-                <pubPlace>
-                    <address>
-                <addrLine/>
-                <addrLine><!--we need to work this out further--></addrLine>
-               <street/>
-                <settlement/>
-                <postCode/>
-                <addrLine><!--<ref target=""/>--></addrLine>
-                <addrLine><email/></addrLine>
-                </address>
-                </pubPlace>
-                <idno>Syriaca.org</idno>
+                <pubPlace/>
+                <authority>Syriaca.org: The Syriac Reference Portal </authority>
+                <idno type="URI">http://syriaca.org/manuscript/1153/source</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+                    </licence>
+                </availability>
+                <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
+                <msDesc xml:id="manuscript-1153" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
-                        <collection>Egerton MSS</collection>
-                        <idno>MS. Egerton 704</idno>
-                        <altIdentifier type="other">
-                            <!-- Probably won't be using this -->
-                            <idno/>
+                        <collection>Christian Middle East Section</collection>
+                        <idno type="URI">http://syriaca.org/manuscript/1153</idno>
+                        <altIdentifier type="BL">
+                            <idno>Egerton MS 704</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Wright">
+                            <idno>Wright I</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msContents>
-                        <summary>Biblical Manuscripts: Old Testament</summary>
+                    <msContents class="Biblical Manuscripts: Old Testament">
+                        <summary/>
                         <textLang mainLang="syr">Syriac</textLang>
-                        <msItem n="1" xml:id="a1" class="#translation">
+                        <msItem n="1" xml:id="a1">
                             <locus from="1a" to="376b">ff. 1a-376b</locus>
                             <author key=""/>
-                            <title key="" ref="http://lccn.loc.gov/">The whole of the Scriptures of
-                                the Old Testament, according to the Peshitta version, with the
-                                Apocrypha.</title>
-                            <!-- NO Library of Congress URI available for Peshitta -->
-                            <listBibl>
-                                <bibl>
-                                    <ref target="#Wright"/>
-                                </bibl>
-                            </listBibl>
-                            <textLang mainLang="syr">Syriac</textLang>
-                            <msItem n="2" xml:id="b1" class="#translation">
+                            <title ref="http://syriaca.org/" type="supplied">The whole of the Scriptures of the Old Testament, according to the Peshitta version, with the Apocrypha.</title><!-- URIs for works still needed -->
+                            <msItem n="2" xml:id="b1">
                                 <locus from="2a" to="77">ff. 2a-77</locus>
-                                <title key="nr96002535" ref="http://lccn.loc.gov/nr96002535">The
-                                    Pentateuch</title>
-                                <finalRubric xml:lang="syr"/>
-                                <!-- If the entry contains a subscription -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="3" xml:id="c1" class="#translation">
+                                <author key=""/>
+                                <title ref="http://syriaca.org/" type="supplied">The Pentateuch</title>
+                                <msItem n="3" xml:id="c1">
                                     <locus from="2a" to="21">ff. 2a-21</locus>
                                     <author key=""/>
-                                    <title key="n80017837" ref="http://lccn.loc.gov/n80017837"
-                                        >Genesis</title>
-                                    <rubric xml:lang="syr">
-                                        <title>ܟܬܳܒܳܐ<choice>
-                                                <orig>ܦܰܐܢܛܰܩܛܻܣ</orig>
-                                                <reg>πανδέκτης</reg>
-                                                <!-- Should this be a <reg> element? There really doesn't seem to be a good tag to indicate that this is simply a transcription-->
-                                            </choice> ܐܘ̇ ܩܰܐܬܘܠܝܩܝܐ ܕܐܝ̣ܬ ܠܗ ܒܗ</title>
-                                        <!--We are not sure how to reflect a  gloss we would like to supply, such as this transcribed word (in Syriac in the original, but it is a greek word). There are also right to left issues here, we are not sure if the tags are working correctly.-->
-                                        <locus from="3a">3a</locus>
-                                    </rubric>
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Genesis</title>
+                                    <rubric xml:lang="syr">ܟܬܳܒܳܐ<choice><orig>ܦܰܐܢܛܰܩܛܻܣ</orig><reg xml:lang="grc">πανδέκτης</reg></choice> ܐܘ̇ ܩܰܐܬܘܠܝܩܝܐ ܕܐܝ̣ܬ ܠܗ ܒܗ<locus from="3a">3a</locus></rubric>
                                 </msItem>
-                                <msItem n="4" xml:id="c2" class="#translation">
+                                <msItem n="4" xml:id="c2">
                                     <locus from="21a" to="37">ff. 21a-37</locus>
                                     <author key=""/>
-                                    <title key="n79063137" ref="http://lccn.loc.gov/n79063137"
-                                        >Exodus</title>
-                                    <rubric xml:lang="syr">
-                                        <title>ܟܬܒܐ ܫܠ݁ܡܠܡ̣ܢܝܐ ܕܡܬ̣ܝܕܥ ܦ̣̇ܐܢܛܩܛܝ̣ܣ ܕܒܗ ܬܪ̈ܬܝܗܝܢ
-                                            ܕܝܐܬܝܩܐܣ ܕܥܬܝܩܬܐ ܘܕܚܿܕܬܐ</title>
-                                        <locus from="22b">22b</locus>
-                                    </rubric>
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Exodus</title>
+                                    <rubric xml:lang="syr">ܟܬܒܐ ܫܠ݁ܡܠܡ̣ܢܝܐ ܕܡܬ̣ܝܕܥ ܦ̣̇ܐܢܛܩܛܝ̣ܣ ܕܒܗ ܬܪ̈ܬܝܗܝܢ ܕܝܐܬܝܩܐܣ ܕܥܬܝܩܬܐ ܘܕܚܿܕܬܐ<locus from="22b">22b</locus></rubric>
                                 </msItem>
-                                <msItem n="5" xml:id="c3" class="#translation">
+                                <msItem n="5" xml:id="c3">
                                     <locus from="37a" to="47">ff. 37a-47</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/n81033502"
-                                        >Leviticus</title>
-                                    <!-- Use Library of Congress URI for Leviticus -->
-                                    <rubric xml:lang="syr"/>
-                                    <!-- If the entry contains the Syriac title of the text -->
-                                    <incipit xml:lang="syr"/>
-                                    <!-- If the entry contains the first Syriac lines of the actual text -->
-                                    <explicit xml:lang="syr"/>
-                                    <!-- If the entry contains the final Syriac lines of the actual text -->
-                                    <finalRubric xml:lang="syr"/>
-                                    <!-- If the entry contains a subscription -->
+                                    <title ref="http://syriaca.org/" type="supplied">Leviticus</title>
                                     <colophon><ref target="#m1">See below.</ref></colophon>
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
                                 </msItem>
-                                <msItem n="6" xml:id="c4" class="#translation">
+                                <msItem n="6" xml:id="c4">
                                     <locus from="47b" to="63">ff. 47b-63</locus>
                                     <author key=""/>
-                                    <title key="n79139733" ref="http://lccn.loc.gov/n79139733"
-                                        >Numbers</title>
-                                    <rubric xml:lang="syr"/>
-                                    <!-- If the entry contains the Syriac title of the text -->
-                                    <incipit xml:lang="syr"/>
-                                    <!-- If the entry contains the first Syriac lines of the actual text -->
-                                    <explicit xml:lang="syr"/>
-                                    <!-- If the entry contains the final Syriac lines of the actual text -->
-                                    <finalRubric xml:lang="syr"/>
-                                    <!-- If the entry contains a subscription -->
+                                    <title ref="http://syriaca.org/" type="supplied">Numbers</title>
                                     <colophon><ref target="#m1">See below.</ref></colophon>
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
                                 </msItem>
                                 <msItem n="7" xml:id="c5" class="#translation">
                                     <locus from="63b" to="77">63b-77</locus>
                                     <author key=""/>
-                                    <title key="n79135429" ref="http://lccn.loc.gov/n79135429"
-                                        >Deuteronomy</title>
-                                    <rubric xml:lang="syr">
-                                        <title>ܦܐܛܩܛܝܣ ܡܟܲܢܫܬ݀ ܒܓܘܗ̇ ܠܟ݁ܠܗܘܢ ܟܬܒ̈ܝ ܩܘ̈ܕܫܐ. ܠܩܗܠܐ
-                                            ܕܡܠܲܚܡܽܘܬܳܐ ܥܕܬܳܢܳܝܬܳܐ</title>
-                                        <locus from="66b">66b</locus>
-                                    </rubric>
-                                    <rubric xml:lang="syr">
-                                        <title>ܦܪܓܡܛܝܐ ܡܫܲܪܬܚܬܐ ܕܦܐܢܛܩܛܝܼܣ ܫܩܝܼܠܬ݀܆ ܗܼܝ ܒܗ̇ ܢܒܝ̈ܐ
-                                            ܘܐܘܢܓܠܝܘܿܢ ܘܫ̈ܠܝܼܚܐ.</title>
-                                        <locus from="76b">76b</locus>
-                                    </rubric>
-                                    <incipit xml:lang="syr"/>
-                                    <!-- If the entry contains the first Syriac lines of the actual text -->
-                                    <explicit xml:lang="syr"/>
-                                    <!-- If the entry contains the final Syriac lines of the actual text -->
-                                    <finalRubric xml:lang="syr"/>
-                                    <!-- If the entry contains a subscription -->
+                                    <title ref="http://syriaca.org/" type="supplied">Deuteronomy</title>
+                                    <rubric xml:lang="syr">ܦܐܛܩܛܝܣ ܡܟܲܢܫܬ݀ ܒܓܘܗ̇ ܠܟ݁ܠܗܘܢ ܟܬܒ̈ܝ ܩܘ̈ܕܫܐ. ܠܩܗܠܐ ܕܡܠܲܚܡܽܘܬܳܐ ܥܕܬܳܢܳܝܬܳܐ<locus from="66b">66b</locus></rubric>
+                                    <rubric xml:lang="syr">ܦܪܓܡܛܝܐ ܡܫܲܪܬܚܬܐ ܕܦܐܢܛܩܛܝܼܣ ܫܩܝܼܠܬ݀܆ ܗܼܝ ܒܗ̇ ܢܒܝ̈ܐ ܘܐܘܢܓܠܝܘܿܢ ܘܫ̈ܠܝܼܚܐ.<locus from="76b">76b</locus></rubric>
                                     <colophon><ref target="#m2">See below.</ref></colophon>
                                     <colophon><ref target="#m5">See below.</ref></colophon>
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
                                 </msItem>
                             </msItem>
-                            <msItem n="8" xml:id="b2" class="#translation">
+                            <msItem n="8" xml:id="b2">
                                 <locus from="77a" to="86">77a-86</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Job</title>
-                                <!-- Use Library of Congress URI for Job -->
+                                <title ref="http://syriaca.org/" type="supplied">Job</title>
                                 <colophon><ref target="#m2">See below.</ref></colophon>
                                 <colophon><ref target="#m5">See below.</ref></colophon>
-                                <listBibl>
-                                <bibl>
-                                    <ref target="#Wright"/>
-                                </bibl>
-                            </listBibl>
                             </msItem>
-                            <msItem n="9" xml:id="b3" class="#translation">
+                            <msItem n="9" xml:id="b3">
                                 <locus from="86a" to="95">86a-95</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Joshua</title>
-                                <!-- Use Library of Congress URI for Joshua -->
-                                <listBibl>
-                                <bibl>
-                                    <ref target="#Wright"/>
-                                </bibl>
-                            </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">Joshua</title>
                             </msItem>
-                            <msItem n="10" xml:id="b4" class="#translation">
+                            <msItem n="10" xml:id="b4">
                                 <locus from="95a" to="105">95a-105</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Judges</title>
-                                <!-- Use Library of Congress URI for Judges -->
+                                <title ref="http://syriaca.org/" type="supplied">Judges</title>
                                 <colophon><ref target="#m6">See below.</ref></colophon>
-                                <listBibl>
-                                <bibl>
-                                    <ref target="#Wright"/>
-                                </bibl>
-                            </listBibl>
                             </msItem>
-                            <msItem n="11" xml:id="b5" class="#translation">
+                            <msItem n="11" xml:id="b5">
                                 <locus from="105a" to="128">105a-128</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The two books of
-                                    Samuel</title>
+                                <title ref="http://syriaca.org/" type="supplied">The two books of Samuel</title>
                                 <colophon><ref target="#m6">See below.</ref></colophon>
-                                <listBibl>
-                                <bibl>
-                                    <ref target="#Wright"/>
-                                </bibl>
-                            </listBibl>
-                                <msItem n="12" xml:id="c6" class="#translation">
+                                <msItem n="12" xml:id="c6">
                                     <locus from="105a" to="118">105a-118</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">1st Samuel</title>
-                                    <title key="" ref="http://lccn.loc.gov/">1st Kings</title>
-                                    <!-- Make sure this URI is for 1 Kings that would appear in a text in which the Protestant 1 Samuel is titled 1 Kings -->
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">1st Samuel</title>
+                                    <title ref="http://syriaca.org/" type="supplied">1st Kings</title><!-- Make sure this URI is for 1 Kings that would appear in a text in which the Protestant 1 Samuel is titled 1 Kings -->
                                 </msItem>
                                 <msItem n="13" xml:id="c7" class="#translation">
                                     <locus from="118a" to="128">118a-128</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">2nd Samuel</title>
-                                    <title key="" ref="http://lccn.loc.gov/">2nd Kings</title>
-                                    <!-- Make sure this URI is for 2 Kings that would appear in a text in which the Protestant 2 Samuel is titled 2 Kings -->
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">2nd Samuel</title>
+                                    <title ref="http://syriaca.org/" type="supplied">2nd Kings</title><!-- Make sure this URI is for 2 Kings that would appear in a text in which the Protestant 2 Samuel is titled 2 Kings -->
                                 </msItem>
                             </msItem>
-                            <msItem n="14" xml:id="b6" class="#translation">
+                            <msItem n="14" xml:id="b6">
                                 <locus from="128a" to="153">128a-153</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The two books of
-                                    Kings</title>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">The two books of Kings</title>
                                 <msItem n="15" xml:id="c8" class="#translation">
                                     <locus from="128a" to="141">128a-141</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">1st Kings</title>
-                                    <!-- This is the Protestant 1 Kings -->
-                                    <title key="" ref="http://lccn.loc.gov/">3rd Kings</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">1st Kings</title><!-- This is the Protestant 1 Kings -->
+                                    <title ref="http://syriaca.org/" type="supplied">3rd Kings</title>
                                 </msItem>
                                 <msItem n="16" xml:id="c9" class="#translation">
                                     <locus from="141b" to="153">141b-153</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">2nd Kings</title>
-                                    <!-- This is the Protestant 2 Kings -->
-                                    <title key="" ref="http://lccn.loc.gov/">4th Kings</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">2nd Kings</title><!-- This is the Protestant 2 Kings -->
+                                    <title ref="http://syriaca.org/" type="supplied">4th Kings</title>
                                 </msItem>
                             </msItem>
-                            <msItem n="17" xml:id="b7" class="#translation">
+                            <msItem n="17" xml:id="b7">
                                 <locus from="153a" to="178">153a-178</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The two books of
-                                    Chronicles</title>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="18" xml:id="c10" class="#translation">
+                                <title ref="http://syriaca.org/" type="supplied">The two books of Chronicles</title>
+                                <msItem n="18" xml:id="c10">
                                     <locus from="153a" to="160">153a-160</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">1st Chronicles</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">1st Chronicles</title>
                                 </msItem>
-                                <msItem n="19" xml:id="c11" class="#translation">
+                                <msItem n="19" xml:id="c11">
                                     <locus from="160a" to="178">160a-178</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">2nd Chronicles</title>
-                                    <!-- Use Library of Congress URI for  -->
+                                    <title ref="http://syriaca.org/" type="supplied">2nd Chronicles</title>
                                     <colophon><ref target="#m3">See below.</ref></colophon>
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
                                 </msItem>
                             </msItem>
-                            <msItem n="20" xml:id="b8" class="#translation">
+                            <msItem n="20" xml:id="b8">
                                 <locus from="178b" to="187">178b-187</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Proverbs of
-                                    Solomon</title>
-                                <!-- Use Library of Congress URI for Proverbs -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">The Proverbs of Solomon</title>
                             </msItem>
-                            <msItem n="21" xml:id="b9" class="#translation">
+                            <msItem n="21" xml:id="b9">
                                 <locus from="187a" to="190">187a-190</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Ecclesiastes</title>
-                                <!-- Use Library of Congress URI for Ecclesiastes -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">Ecclesiastes</title>
                             </msItem>
-                            <msItem n="22" xml:id="b10" class="#translation">
+                            <msItem n="22" xml:id="b10">
                                 <locus from="190a" to="191">190a-191</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Song of Songs</title>
-                                <!-- Use Library of Congress URI for Song of Songs -->
-                                <title key="" ref="http://lccn.loc.gov/">Song of Solomon</title>
-                                <!-- I imagine this would have a distinct URI, and so we should cross-reference this msItem as both -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">Song of Songs</title>
+                                <title ref="http://syriaca.org/" type="supplied">Song of Solomon</title><!-- I imagine this would have a distinct URI, and so we should cross-reference this msItem as both -->
                             </msItem>
-                            <msItem n="23" xml:id="b11" class="#translation">
+                            <msItem n="23" xml:id="b11">
                                 <locus from="191a" to="197">191a-197</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Book of Wisdom</title>
-                                <!-- Use Library of Congress URI for  -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">The Book of Wisdom</title>
                             </msItem>
-                            <msItem n="24" xml:id="b12" class="#translation">
+                            <msItem n="24" xml:id="b12">
                                 <locus from="197a" to="201">197a-201</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Book of Illustrious
-                                    Women</title>
-                                <!-- Use Library of Congress URI for  -->
-                                <rubric xml:lang="syr">
-                                    <title>ܟܬܒܐ ܕܥܠ ܢܫ̈ܐ ܡܫܒܚ̈ܬܐ</title>
-                                    <!-- What should we do if the locus is not specified, but implied as 197a -->
-                                    <locus from="197a">197a</locus>
-                                </rubric>
+                                <title ref="http://syriaca.org/" type="supplied">The Book of Illustrious Women</title>
+                                <rubric xml:lang="syr">ܟܬܒܐ ܕܥܠ ܢܫ̈ܐ ܡܫܒܚ̈ܬܐ<locus from="197a">197a</locus><!-- Locus is not specified, but implied as 197a --></rubric>
                                 <colophon><ref target="#m4">See below.</ref></colophon>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="25" xml:id="c12" class="#translation">
+                                <msItem n="25" xml:id="c12">
                                     <locus from="197a" to="198">197a-198</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Ruth</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Ruth</title>
                                 </msItem>
-                                <msItem n="26" xml:id="c13" class="#translation">
+                                <msItem n="26" xml:id="c13">
                                     <locus from="198b" to="201">198b-201</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Susanna</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Susanna</title>
                                 </msItem>
                             </msItem>
-                            <msItem n="27" xml:id="b13" class="#translation">
+                            <msItem n="27" xml:id="b13">
                                 <locus from="201a" to="219">201a-219</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Isaiah</title>
-                                <!-- Use Library of Congress URI for  -->                                
+                                <title ref="http://syriaca.org/" type="supplied">Isaiah</title>
                                 <colophon><ref target="#m7">See below.</ref></colophon>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
                             </msItem>
-                            <msItem n="28" xml:id="b14" class="#translation">
+                            <msItem n="28" xml:id="b14">
                                 <locus from="219a" to="234">219a-234</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Twelve Minor
-                                    Prophets</title>
-                                <!-- Use Library of Congress URI for  -->
+                                <title ref="http://syriaca.org/" type="supplied">The Twelve Minor Prophets</title>
                                 <colophon><ref target="#m7">See below.</ref></colophon>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
                             </msItem>
-                            <msItem n="29" xml:id="b15" class="#translation">
+                            <msItem n="29" xml:id="b15">
                                 <locus from="234b" to="258">234b-258</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Jeremiah</title>
-                                <!-- This will likely need a brand new URI of our own making in order to convey that "Jeremiah" here implies more than only the book of Jeremiah -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="30" xml:id="c14" class="#translation">
+                                <title ref="http://syriaca.org/" type="supplied">Jeremiah</title><!-- This will likely need a brand new URI of our own making in order to convey that "Jeremiah" here implies more than only the book of Jeremiah -->
+                                <msItem n="30" xml:id="c14">
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Jeremiah</title>
-                                    <!-- This is the canonical Jeremiah -->
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Jeremiah</title><!-- This is the canonical Jeremiah -->
                                 </msItem>
-                                <msItem n="31" xml:id="c15" class="#translation">
+                                <msItem n="31" xml:id="c15">
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Lamentations</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Lamentations</title>
                                 </msItem>
-                                <msItem n="32" xml:id="c16" class="#translation">
+                                <msItem n="32" xml:id="c16">
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">The Prayer of
-                                        Jeremiah</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">The Prayer of Jeremiah</title>
                                 </msItem>
                             </msItem>
-                            <msItem n="33" xml:id="b16" class="#translation">
+                            <msItem n="33" xml:id="b16">
                                 <locus from="258b" to="278">258b-278</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Ezekiel</title>
-                                <!-- Use Library of Congress URI for  -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">Ezekiel</title>
                             </msItem>
-                            <msItem n="34" xml:id="b17" class="#translation">
+                            <msItem n="34" xml:id="b17">
                                 <locus from="278a" to="287">278a-287</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Daniel</title>
-                                <!-- This will likely need a brand new URI of our own making in order to convey that "Daniel" here implies more than only the book of Daniel -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="35" xml:id="c17" class="#translation">
+                                <title ref="http://syriaca.org/" type="supplied">Daniel</title><!-- This will likely need a brand new URI of our own making in order to convey that "Daniel" here implies more than only the book of Daniel -->
+                                <msItem n="35" xml:id="c17">
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Daniel</title>
-                                    <!-- This is the canonical Daniel -->
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Daniel</title><!-- This is the canonical Daniel -->
                                 </msItem>
-                                <msItem n="36" xml:id="c18" class="#translation">
+                                <msItem n="36" xml:id="c18">
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Song of the Three Holy
-                                        Children</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Song of the Three Holy Children</title>
                                 </msItem>
-                                <msItem n="37" xml:id="c19" class="#translation">
+                                <msItem n="37" xml:id="c19">
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Bel and the
-                                        Dragon</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Bel and the Dragon</title>
                                 </msItem>
                             </msItem>
-                            <msItem n="38" xml:id="b18" class="#translation">
+                            <msItem n="38" xml:id="b18">
                                 <locus from="287a" to="296">287a-296</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Book of Holy
-                                    Women</title>
-                                <!-- Use Library of Congress URI for  -->
-                                <rubric xml:lang="syr">
-                                    <title>ܟܬܒܐ ܕܥܠ ܢܫ̈ܐ ܩܕܝ̈ܫܬܐ</title>
-                                    <locus from="287a">287a</locus>
-                                </rubric>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="39" xml:id="c20" class="#translation">
+                                <title ref="http://syriaca.org/" type="supplied">The Book of Holy Women</title>
+                                <rubric xml:lang="syr">ܟܬܒܐ ܕܥܠ ܢܫ̈ܐ ܩܕܝ̈ܫܬܐ<locus from="287a">287a</locus></rubric>
+                                <msItem n="39" xml:id="c20">
                                     <locus from="287a" to="290">287a-290</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Esther</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Esther</title>
                                 </msItem>
-                                <msItem n="40" xml:id="c21" class="#translation">
+                                <msItem n="40" xml:id="c21">
                                     <locus from="290a" to="296">290a-296</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">Judith</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">Judith</title>
                                 </msItem>
                             </msItem>
-                            <msItem n="41" xml:id="b19" class="#translation">
+                            <msItem n="41" xml:id="b19">
                                 <locus from="296a" to="306">296a-306</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">Ezra and Nehemiah</title>
-                                <!-- What other titles should we tag this msItem with? Ezra and Nehemiah separately? Esdras? Should those be "c"-level tags as their own books, or just additional titles for this item? -->
-                                <!-- Use Library of Congress URI for  -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">Ezra and Nehemiah</title><!-- What other titles should we tag this msItem with? Ezra and Nehemiah separately? Esdras? Should those be "c"-level tags as their own books, or just additional titles for this item? -->
                             </msItem>
-                            <msItem n="42" xml:id="b20" class="#translation">
+                            <msItem n="42" xml:id="b20">
                                 <locus from="306a" to="320">306a-320</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Book of Jesus the son
-                                    of Simeon, called the son of Sirach</title>
-                                <title key="" ref="http://lccn.loc.gov/">Ecclesiasticus</title>
-                                <!-- Use Library of Congress URI for, USE SBL?  -->
-                                <rubric xml:lang="syr">
-                                    <title>ܟܬܒܐ ܕܝܫܘܥ ܒܪ ܫܡܥܘܢ ܕܡܬܩܪܐ ܒܪ ܐܣܝܪܐ</title>
-                                    <locus from="306a">306a</locus>
-                                </rubric>
+                                <title ref="http://syriaca.org/" type="supplied">The Book of Jesus the son of Simeon, called the son of Sirach</title>
+                                <title ref="http://syriaca.org/" type="supplied">Ecclesiasticus</title>
+                                <rubric xml:lang="syr">ܟܬܒܐ ܕܝܫܘܥ ܒܪ ܫܡܥܘܢ ܕܡܬܩܪܐ ܒܪ ܐܣܝܪܐ<locus from="306a">306a</locus></rubric>
                                 <colophon><ref target="#m3">See below.</ref></colophon>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
                             </msItem>
-                            <msItem n="43" xml:id="b21" class="#translation">
+                            <msItem n="43" xml:id="b21">
                                 <locus from="320a" to="351">320a-351</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Three Books of the
-                                    Maccabees</title>
+                                <title ref="http://syriaca.org/" type="supplied">The Three Books of the Maccabees</title>
                                 <colophon><ref target="#m3">See below.</ref></colophon>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="44" xml:id="c22" class="#translation">
+                                <msItem n="44" xml:id="c22">
                                     <locus from="320a" to="334">320a-334</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">1st Maccabees</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">1st Maccabees</title>
                                 </msItem>
-                                <msItem n="45" xml:id="c23" class="#translation">
+                                <msItem n="45" xml:id="c23">
                                     <locus from="334a" to="346">334a-346</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">2nd Maccabees</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>                                </msItem>
-                                <msItem n="46" xml:id="c24" class="#translation">
+                                    <title ref="http://syriaca.org/" type="supplied">2nd Maccabees</title>
+                                </msItem>
+                                <msItem n="46" xml:id="c24">
                                     <locus from="346a" to="351">346a-351</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">3rd Maccabees</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">3rd Maccabees</title>
                                 </msItem>
                             </msItem>
-                            <msItem n="47" xml:id="b22" class="#translation">
-                                <!-- Do we want this to be a "b"-level item distinct from the first three books of Maccabees? Do we want to reproduce or edit Wright in this case? -->
+                            <msItem n="47" xml:id="b22"><!-- Do we want this to be a "b"-level item distinct from the first three books of Maccabees? Do we want to reproduce or edit Wright in this case? -->
                                 <locus from="351b" to="360">351b-360</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The discourse of Josephus
-                                    (Josippus) on Eleazar, Shamuni (Samona), and her seven sons </title>
-                                <title key="" ref="http://lccn.loc.gov/">4th Maccabees</title>
-                                <!-- Use Library of Congress URI for  -->
-                                <rubric xml:lang="syr">
-                                    <title> ܡܐܡܪܐ ܕܝܘܣܝܦܘܣ ܥܠ ܐܠܝܥܙܪ ܘܫܡܘܢܝ ܘܒܢܝ̈ܗ̇ </title>
-                                    <locus from="351b">351b</locus>
-                                </rubric>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">The discourse of Josephus (Josippus) on Eleazar, Shamuni (Samona), and her seven sons </title>
+                                <title ref="http://syriaca.org/" type="supplied">4th Maccabees</title>
+                                <rubric xml:lang="syr"> ܡܐܡܪܐ ܕܝܘܣܝܦܘܣ ܥܠ ܐܠܝܥܙܪ ܘܫܡܘܢܝ ܘܒܢܝ̈ܗ̇ <locus from="351b">351b</locus></rubric>
                             </msItem>
-                            <msItem n="48" xml:id="b23" class="#translation">
+                            <msItem n="48" xml:id="b23">
                                 <locus from="360a" to="368">360a-368</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The First Book of Esdras,
-                                    translated from the Septuagint Version</title>
-                                <!-- Does the latter part of that go here or should it be included somewhere else in the msItem? -->
-                                <!-- Use Library of Congress URI for  -->
-                                <rubric xml:lang="syr">
-                                    <title> ܬܘܒ ܡܦܩܝܢܢ ܟܬܒܐ ܩܕܡܝܐ ܕܥܙܪܐ ܘܗܢܐ ܕܝܢ ܐܝܟ ܡܫܠܡܢܘܬܐ
-                                        ܕܫܒ̈ܥܝܢ</title>
-                                    <locus from="360a">360a</locus>
-                                </rubric>
-                                <finalRubric xml:lang="syr">ܫܠܼܡ. ܘܗܢܐ ܟܬ݁ܒܐ ܕܐܝܼܬܘܗܝ ܗܘ ܩܕܡܝܐ
-                                    ܕܥܙܪܐ. ܕܡܛܠ ܕܠܐ ܐܫܼܬܟܚ ܠܢ ܒܨܚܚܐ ܦܫܝܛܐܼ. ܟܬܒܢܝܗܝ ܐܝܟ ܫܒܥܝܢܝܐ.
-                                        <locus from="368a">368a</locus>
-                                </finalRubric>
-                                <!-- If the entry contains a subscription -->
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">The First Book of Esdras, translated from the Septuagint Version</title>
+                                <rubric xml:lang="syr"> ܬܘܒ ܡܦܩܝܢܢ ܟܬܒܐ ܩܕܡܝܐ ܕܥܙܪܐ ܘܗܢܐ ܕܝܢ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒ̈ܥܝܢ<locus from="360a">360a</locus></rubric>
+                                <finalRubric xml:lang="syr">ܫܠܼܡ. ܘܗܢܐ ܟܬ݁ܒܐ ܕܐܝܼܬܘܗܝ ܗܘ ܩܕܡܝܐ  ܕܥܙܪܐ. ܕܡܛܠ ܕܠܐ ܐܫܼܬܟܚ ܠܢ ܒܨܚܚܐ ܦܫܝܛܐܼ. ܟܬܒܢܝܗܝ ܐܝܟ ܫܒܥܝܢܝܐ.<locus from="368a">368a</locus></finalRubric>
                             </msItem>
-                            <msItem n="49" xml:id="b24" class="#translation">
+                            <msItem n="49" xml:id="b24">
                                 <locus from="368a" to="373">368a-373</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Book of Tobit,
-                                    translated from the Septuagint Version</title>
-                                <!-- Does "translated from the Septuagint Version" go here or should it be included somewhere else in the msItem? -->
-                                <!-- Use Library of Congress URI for  -->
-                                <rubric xml:lang="syr">
-                                    <title>ܬܘܒ ܟܬܒܐ ܕܛܘܒܝܛ ܗܟܘܬ ܕܝܢ ܐܝܟ ܡܲܫܠܡܢܘܬܐ ܕܫܒ̈ܥܝܢ.</title>
-                                    <locus from="368a">368a</locus>
-                                </rubric>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
+                                <title ref="http://syriaca.org/" type="supplied">The Book of Tobit, translated from the Septuagint Version</title>
+                                <rubric xml:lang="syr">ܬܘܒ ܟܬܒܐ ܕܛܘܒܝܛ ܗܟܘܬ ܕܝܢ ܐܝܟ ܡܲܫܠܡܢܘܬܐ ܕܫܒ̈ܥܝܢ.<locus from="368a">368a</locus></rubric>
                             </msItem>
-                            <msItem n="50" xml:id="b25" class="#translation">
+                            <msItem n="50" xml:id="b25">
                                 <locus from="373a" to="376b">373a-376b</locus>
                                 <author key=""/>
-                                <title key="" ref="http://lccn.loc.gov/">The Two Epistles of
-                                    Baruch</title>
-                                <listBibl>
-                                    <bibl>
-                                        <ref target="#Wright"/>
-                                    </bibl>
-                                </listBibl>
-                                <msItem n="51" xml:id="c25" class="#translation">
+                                <title ref="http://syriaca.org/" type="supplied">The Two Epistles of Baruch</title>
+                                <msItem n="51" xml:id="c25">
                                     <locus from="373a" to="374">373a-374</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">The First Epistle of
-                                        Baruch</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <rubric xml:lang="syr">
-                                        <title>ܐܓܪܬܐ ܩܕܡܝܿܬܐ ܕܒܪܘܟ ܣܿܦܪܐ</title>
-                                        <locus from="373a">373a</locus>
-                                    </rubric>
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">The First Epistle of Baruch</title>
+                                    <rubric xml:lang="syr">ܐܓܪܬܐ ܩܕܡܝܿܬܐ ܕܒܪܘܟ ܣܿܦܪܐ<locus from="373a">373a</locus></rubric>
                                 </msItem>
-                                <msItem n="52" xml:id="c26" class="#translation">
+                                <msItem n="52" xml:id="c26">
                                     <locus from="374a" to="376b">374a-376b</locus>
                                     <author key=""/>
-                                    <title key="" ref="http://lccn.loc.gov/">The Second Epistle of
-                                        Baruch</title>
-                                    <!-- Use Library of Congress URI for  -->
-                                    <listBibl>
-                                        <bibl>
-                                            <ref target="#Wright"/>
-                                        </bibl>
-                                    </listBibl>
+                                    <title ref="http://syriaca.org/" type="supplied">The Second Epistle of Baruch</title>
                                 </msItem>
                             </msItem>
                         </msItem>
