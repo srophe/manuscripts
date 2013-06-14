@@ -3010,10 +3010,14 @@ tei_msContents =
     
     ## identifies the text types or classifications applicable to this object.
     attribute class { 
-    ## 
-    "theology: collected authors" |
     ##
-    "theology: catanae patrum"    }?,
+    "Biblical Manuscripts: Old Testament" |
+    ##
+    "Biblical Manuscripts: New Testament" |
+    ## 
+    "Theology: Collected Authors" |
+    ##
+    "Theology: Catanae Patrum"    }?,
     empty
   }
 tei_msItem =
