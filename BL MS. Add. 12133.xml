@@ -4,8 +4,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">BL Add. 12133</title>
-                <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
+                <title xml:lang="en">BL Add MS 12133</title>
                 <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
                 <funder>National Endowment for the Humanities</funder>
                 <funder>Andrew W. Mellon Foundation</funder>
@@ -22,10 +21,6 @@
                     <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
                     <resp>Syriac text entry</resp>
                 </respStmt>
-                <respStmt>
-                    <name type="person" ref="http://syriaca.org/editors.xml#pkirlles">Philemon Kirlles</name>
-                    <resp>Arabic text entry</resp>
-                </respStmt><!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
                 <respStmt>
                     <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
                     <resp>Greek and coptic entry and proofreading</resp>
@@ -45,7 +40,7 @@
             <publicationStmt>
                 <pubPlace/>
                 <authority>Syriaca.org: The Syriac Reference Portal </authority>
-                <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript here -->/source</idno>
+                <idno type="URI">http://syriaca.org/manuscript/1/source</idno>
                 <availability>
                     <p/>
                     <licence target="http://creativecommons.org/licenses/by/3.0/"><p>Distributed under a
@@ -54,46 +49,39 @@
                 <date calendar="Gregorian"><!-- Date of publication --></date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="manuscript-" xml:lang="en"><!-- UPDATE--> 
+                <msDesc xml:id="manuscript-1" xml:lang="en"> 
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
-                        <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS--></idno>
+                        <idno type="URI">http://syriaca.org/manuscript/1</idno>
                         <altIdentifier type="BL">
-                            <idno>Add. MS 12133</idno>
+                            <idno>Add MS 12133</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msPart n="1" xml:id="Part1">
                         <msIdentifier>            
-                            <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here using Arabic numeral equivalent of Wright's number --></idno>
-                            <altIdentifier type="internal">
-                                <idno>BL Add. 12133 foll. 1-108</idno>
-                            </altIdentifier>
-                        </msIdentifier>
-                        <msIdentifier>
-                            <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+                            <idno type="URI">http://syriaca.org/manuscript/2</idno>
                             <altIdentifier type="BL">
-                                <idno>BL Add. 12133 foll. 1-108</idno>
+                                <idno>Add 12133 foll. 1-108</idno>
                             </altIdentifier>
                             <altIdentifier type="Wright">
                                 <idno>Wright IX</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents class="bible-ot"><!--use the Wright's Section Headings here for @class-->
-                            <summary/><!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
-                            <textLang mainLang="syr" >Syriac</textLang><!-- See notes from 5/30 meeting regarding how to identify and label language -->
+                        <msContents class="bible-ot">
+                            <summary/>
+                            <textLang mainLang="syr">Syriac</textLang><!-- See notes from 5/30 meeting regarding how to identify and label language -->
                             <msItem n="1" xml:id="p1a1">
                                 <locus from="1a" to="108b">ff. 1a-108b</locus>
-                                <author key=""/>
                                 <title ref="http://syriaca.org/work/2">The book of Exodus, according
                                     to the Peshitta version.</title>
                                 <rubric xml:lang="syr">
                                     <title xml:lang="syr">ܡܦܩܢܐ̇ ܣܦܪܐ ܕܬܪ̈ܝܼܢ ܕܐܘܪܝܬܐ</title>
                                     <locus from="3b">3b</locus>
-                                    <note><p>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by
-                                        rubrics in the text.</p></note></rubric>
+                                    <note>The lessons (ܩܪܝܢܐ, abbreviated ܩܪܝ) are indicated by
+                                        rubrics in the text.</note></rubric>
                         </msItem>
                         </msContents>
                         <physDesc>
@@ -106,17 +94,17 @@
                                         <measure type="composition" unit="leaf" quantity="108">108 ff.</measure>
                                         <dimensions type="leaf" unit="in">
                                             <height>
-                                                <measure type="height" quantity="9.75" unit="in">9 3/4</measure><!-- Change @quantity and the human-readable text as necessary -->
+                                                <measure type="height" quantity="9.75" unit="in">9 3/4</measure>
                                             </height>
                                             <width>
-                                                <measure type="width" quantity="6.5" unit="in">6 1/2</measure><!-- Change @quantity and the human-readable text as necessary -->
+                                                <measure type="width" quantity="6.5" unit="in">6 1/2</measure>
                                             </width>
                                         </dimensions>
                                   </extent>
                                     <foliation xml:id="ancient"/>
                                     <collation>
                                         <p>The quires, eleven in number, are signed with both letters and arithmetical figures, thus:   etc. </p>
-                                        <!-- Uncopyable figures from Worddoc missing above  -->
+                                        <!-- Missing arithmetical figures^^ -->
                                     </collation>
                                     <condition/>
                                 </supportDesc>
@@ -128,32 +116,32 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
-                                <handNote xml:id="handnotep1a1" scope="major" script="Estrangelo" medium="unknown">
+                                <handNote xml:id="handnotep1a1" scope="major" script="syr-Syre" medium="unknown">
                                     <desc>The character is an elegant, regular Estrangela, of the earlier half of the 
-                                        <origDate notBefore="0700" notAfter="0800">viiith century</origDate>. Vowels have been added in a few
-                                        cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ,
+                                        <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.</desc></handNote>
+                                <handNote xml:id="handnotep1a2" scope="minor" script="syr-Syrj" medium="unknown">
+                                    <desc>Vowels have been added in a few cases by a later hand (e.g. foll. 15 b and 16 a, ܰ, ܶ, ܺ, ܳ,
                                         , ).</desc></handNote>
-                                <!-- VOWELS  -->
-                                <handNote xml:id="handnotep1a2" scope="minor" script="Estrangelo" medium="unknown">
-                                    <locus from="2a" to="2a">fol. 2a.</locus>
+                                <!-- Missing SyriacVOWELS  -->
+                                <handNote xml:id="handnotep1a3" scope="minor" script="syr-Syre" medium="unknown">
+                                    <locus target="2a">fol. 2a</locus>
                                     <listPerson>
                                         <person role="scribe" xml:id="Serg_Abraham" corresp="">
                                             <persName xml:lang="eng">Deacon Sergius bar Abraham, of
                                                 Rīsh’ainā or Rās’ain (%)</persName>
-                                            <persName xml:lang="syr"/>
+                                            <!-- NEED ARABIC ^ -->
                                         </person>
                                     </listPerson>
-                                    <!-- Not a scribe? / Needs arabic and syriac name added / Where are the xml ids for authors?-->
                                 </handNote>
-                                <handNote xml:id="handnote3" scope="minor" script="Estrangelo"
+                                <handNote xml:id="handnotep1a4" scope="minor" script="syr-Syre"
                                     medium="unknown">
-                                    <locus from="2a" to="2a">fol. 2a</locus>
+                                    <locus target="2a">fol. 2a</locus>
                                     <desc>Note written in large open Estrangela characters.</desc>
                                 </handNote>
-                                <handNote xml:id="handnote4" scope="minor" script="Estrangelo"
+                                <handNote xml:id="handnotep1a5" scope="minor" script="syr-Syre"
                                     medium="unknown">
-                                    <locus from="107b">fol. 107b</locus>
-                                    <locus from="108a">fol. 108a.</locus>
+                                    <locus target="107b">fol. 107b</locus>
+                                    <locus target="108a">fol. 108a.</locus>
                                     <listPerson>
                                         <person role="scribe" xml:id="Moses_Nisibis" corresp=""
                                             ref="http://syriaca.org/person/647">
@@ -163,22 +151,21 @@
                                             <persName xml:lang="syr"/>
                                         </person>
                                     </listPerson>
-                                    <p>Subscription on 107b and note on 108a in the handwriting of
+                                    <desc><label>Subscription</label> on <locus>107b</locus> and note on <locus>108a</locus> in the handwriting of
                                         <persName xml:id="Moses_Nisbis">Moses of Nisibis</persName>, abbat of the convent of S. Mary Deipara in
-                                        the desert of Scete (A. Gr. 1243, A.D. 932).</p>
-                                    <!-- TUCKER: How are we connecting additions to the scribes?-->
+                                        the desert of Scete (A. Gr. 1243, A.D. 932).</desc>
                                 </handNote>
                             </handDesc>
                             <additions>
                                 <list>
                                     <item n="1" xml:id="p1m1">
-                                        <locus from="107b">Fol. 107b</locus>
-                                        <p><label>Subscription</label></p>
-                                        <p><quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
-                                            ܕܐܘܪܝܬܐ;</quote>after which follows the doxology,
-                                            <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣
-                                            ܐܡܝܼܢ ܘܐܡܝܢ܆</quote>, and in a more cursive character the words
-                                        <quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></p></item>
+                                        <locus target="107b">Fol. 107b</locus>
+                                        <label>Subscription</label>
+                                        <quote xml:lang="syr-Syre">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
+                                            ܕܐܘܪܝܬܐ;</quote><quote>after which follows the doxology,
+                                            </quote>                                            <quote xml:lang="syr-Syre">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣
+                                            ܐܡܝܼܢ ܘܐܡܝܢ܆</quote><quote>, and in a more cursive character the words</quote>
+                                        <quote xml:lang="syr-Syre">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></item>
                                     <item n="2" xml:id="p1m2">
                                         <locus from="108a">Fol. 108a</locus>
                                         <p><label>A note</label>on fol. 108 a, states that the
@@ -408,35 +395,39 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-               <interpretation>
-                    <p>Description is based on Wright's Catalogue without consultation of physical manuscripts. Foliation is approximate. Wright often does not indicate ending folia so those have been assumed based on beginning folia.</p>
-                    <p>Scribal notes which could not be more clearly classified based on Wright's descriptions have been identified as &lt;additions&gt; whether they occur in the margins or the body of the manuscript.</p>
-                    <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents as possible, including tables of contents and indices.</p>
+                <interpretation>
+                    <p>Description is based on Wright's Catalogue without consultation of physical
+                        manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                        those have been assumed based on beginning folia.</p>
+                    <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                        have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                        of the manuscript.</p>
+                    <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                        as possible, including tables of contents and indices.</p>
                 </interpretation>
             </editorialDecl>
             <classDecl>
-                <taxonomy/>
+                <taxonomy><!-- Wright heading information here. --></taxonomy>
             </classDecl>
         </encodingDesc>
         <profileDesc>
-            <textClass>
-                <keywords scheme="#LCSH">
-                    <list>
-                        <item/>
-                    </list>
-                </keywords>
-            </textClass>
+            <langUsage>
+                <language ident=""><!-- Add in description of lanuages and scripts --></language>
+            </langUsage>
+            <textClass><!-- Should Wright's running header go here? --></textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2012-05-21" who=" ">
-            </change>
+            <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change>
+            <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+            <change type="planned" subtype="vowels">Add missing Syriac vowels.</change>
+            <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <!-- facsimile information about the manuscript -->
         <graphic/>
         <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-            elements to give coordinates for any special areas of interest -->
+      elements to give coordinates for any special areas of interest -->
     </facsimile>
     <text>
         <body>
@@ -445,3 +436,4 @@
         </body>
     </text>
 </TEI>
+<!-- Notes of remaining items: Where to link the PDF, where to put raw full text, where put Wright's running headers, lanugage and script issues -->
