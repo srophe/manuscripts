@@ -447,6 +447,27 @@ att.internetMedia.attribute.mimeType =
   attribute mimeType {
     xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
+att.measurement.attributes = 
+  att.measurement.attribute.unit, att.measurement.attribute.quantity
+att.measurement.attribute.unit = 
+
+    ## indicates the units used for the measurement
+    attribute unit {
+    
+        ## inches
+        "in" |
+        ## centimeters
+        "cm" |
+        ##  leaves
+        "leaf" |
+        ## characters
+        "chars" |
+        ## unspecified unit
+        "count"}
+att.measurement.attribute.quantity = 
+
+    ## specifies the number of the specified units that comprise the measurement
+    attribute quantity { xsd:double | xsd:decimal }?
 att.naming.attributes =
   att.canonical.attributes, att.naming.attribute.nymRef
 att.naming.attribute.nymRef =
@@ -1958,7 +1979,24 @@ tei_extent =
   
   ## describes the approximate size of a text as stored on
   ## some carrier medium, whether digital or non-digital, specified in any convenient units.
-  element extent { tei_macro.phraseSeq, att.global.attributes, empty }
+  element extent { tei_macro.phraseSeq, tei_measure, att.global.attributes, empty }
+tei_measure = 
+
+  ## contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name
+  element measure {att.global.attributes,
+   att.measurement.attributes,
+   attribute type {
+    ##
+    "composition" |
+    ##
+    "height" |
+    ##
+    "width" |
+    ##
+    "depth"    }?,
+   macro.phraseSeq}
+
+macro.phraseSeq = ( text )*
 tei_publicationStmt =
   
   ## (publication statement) groups information concerning the publication or distribution
@@ -2675,6 +2713,7 @@ tei_height =
   ## contains a measurement measured along the axis parallel to the spine. 
   element height {
     tei_macro.xtext,
+    tei_measure,
     att.global.attributes,
     att.dimensions.attributes,
     empty
@@ -2684,6 +2723,7 @@ tei_depth =
   ## specifies a length measured across the spine. 
   element depth {
     tei_macro.xtext,
+    tei_measure,
     att.global.attributes,
     att.dimensions.attributes,
     empty
@@ -2693,6 +2733,7 @@ tei_width =
   ## contains a measurement measured along the axis perpendicular to the spine. 
   element width {
     tei_macro.xtext,
+    tei_measure,
     att.global.attributes,
     att.dimensions.attributes,
     empty
