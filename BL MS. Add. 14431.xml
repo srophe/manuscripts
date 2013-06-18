@@ -5,7 +5,6 @@
     <fileDesc>
       <titleStmt>
         <title xml:lang="en">BL Add MS 14432</title>
-        <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -18,13 +17,9 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
           <resp>Editor</resp>
         </respStmt>
-        <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
-        <resp>Syriac text entry</resp>
         <respStmt>
-          <name type="person" ref="http://syriaca.org/editors.xml#pkirlles">Philemon Kirlles</name>
-          <resp>Arabic text entry</resp>
-        </respStmt>
-        <!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
+        <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+        <resp>Syriac text entry</resp></respStmt>
         <respStmt>
           <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
           <resp>Greek and coptic entry and proofreading</resp>
@@ -45,8 +40,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI"
-          >http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript here, if the manuscript has parts use the URI for the whole -->/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/87/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -56,44 +50,36 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-" xml:lang="en">
-          <!-- @xml:id consists of "manuscript-" followed by the URI number (without commas) for the whole ms (e.g., xml:id="manuscript-1") -->
+        <msDesc xml:id="manuscript-87" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Christian Middle East Section</collection>
             <idno type="URI"
-              >http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS, --></idno>
+              >http://syriaca.org/manuscript/87</idno>
             <altIdentifier type="BL">
-              <idno>BL Add. MS 14431</idno>
+              <idno>Add MS 14431</idno>
             </altIdentifier>
             <altIdentifier type="Wright">
               <idno>Wright XXII</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents class="bible-ot">
-            <!--use the Wright's Section Headings here for @class-->
             <summary/>
-            <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
-            <textLang mainLang="syr">Syriac</textLang>
+            <textLang mainLang="syr-Syre">Syriac</textLang>
             <msItem n="1" xml:id="a1">
               <locus from="1a" to="83b"/>
-              <author ref=""/>
-              <!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-              <title ref="" type="supplied">The first book of Samuel according to the Peshitta
-                version<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
+              <title ref="http://syriaca.org/work/9" type="supplied">The first book of Samuel according to the Peshitta
+                version.</title>
               <rubric xml:lang="syr">ܢܒܝܘܬܗ ܕܫܡܘܐܝܠ</rubric>
               <note>The missing portions of the text are: 1 Sam., ch. i. 26—ch. ii. 19.</note>
             </msItem>
             <msItem n="2" xml:id="a2">
-              <!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem> in part 1. -->
               <locus from="83b" to="158b"/>
-              <author ref=""/>
-              <!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-              <title ref="" type="supplied">The second book of Samuel according to the Peshitta
-                version<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-              <note>The missing portions of the text are: 2 Sam., ch. xi. 11—20. Some lessons have been marked on the margins by later hands, and in a few instances the commencement of ܨܚ̈ܚܐ or sections (e.g. <locus from="114a">foll. 114a</locus> and <locus from="119a">119a</locus>).</note>
+              <title ref="http://syriaca.org/work/10" type="supplied">The second book of Samuel according to the Peshitta
+                version.</title>
+              <note>The missing portions of the text are: 2 Sam., ch. xi. 11—20. Some lessons have been marked on the margins by later hands, and in a few instances the commencement of ܨܚ̈ܚܐ or sections (e.g. <locus target="114a">foll. 114a</locus> and <locus target="119a">119a</locus>).</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -112,31 +98,29 @@
                       <measure type="width" quantity="5" unit="in">5</measure></width>
                   </dimensions>
                 </extent>
-                <foliation type="ancient"/>
                 <collation>
-                  <p>16 quires.</p><!-- Collation will  usually be just a prose description. -->
+                  <p>16 quires.</p>
                 </collation>
                 <condition>
-                  <p>Some leaves are slightly stained and torn. Leaves are wanting after foll. 3 and
-                    109.</p>
+                  <p>Some leaves are slightly stained and torn. Leaves are wanting after <locus>foll. 3</locus> and
+                    <locus>109</locus>.</p>
                 </condition>
               </supportDesc>
               <layoutDesc>
                 <layout columns="1" writtenLines="20 25">
                   <p>Each page has from 20 to 25 lines.</p>
                 </layout>
-                <!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="regular">
-                <desc>This volume is written in a line, regular Estrangela, not later than A. Gr. 856, <origDate notBefore="0545" notAfter="0546">A.D. 545</origDate></desc>
+              <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="regular">
+                <desc>This volume is written in a line, regular Estrangela, not later than A. Gr. 856, <origDate notBefore="0545" notAfter="0546">A.D. 545</origDate>.</desc>
                 </handNote>
-              <handNote xml:id="handnote2" scope="minor" script="unknown" medium="modern">
+              <handNote xml:id="handnote2" scope="minor" script="syr-Syrc" medium="modern">
                   <desc><locus from="147">fol. 147</locus> is more modern.</desc></handNote>
-                  <handNote xml:id="handnote3" scope="minor" script="unknown" medium="unknown">
+                  <handNote xml:id="handnote3" scope="minor" script="syr-Syrj" medium="unknown">
                     <desc>Greek vowels have been added here and there by a later hand (ܰ , ܶ ,ܺ , ܳ, , , ) </desc></handNote>
-                    <!-- NEED GREEK VOWELS!! -->
+              <!-- Add missing Greek vowels -->
             </handDesc>
             <additions>
               <list>
@@ -164,7 +148,7 @@
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
+              <bibl xml:id="Wright">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -193,14 +177,18 @@
         </interpretation>
       </editorialDecl>
       <classDecl>
-        <taxonomy> </taxonomy>
+        <taxonomy><!-- Wright heading information here. --></taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass> </textClass>
+      <langUsage>
+        <language ident=""><!-- Add in description of lanuages and scripts --></language>
+      </langUsage>
+      <textClass><!-- Should Wright's running header go here? --></textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="" who=""/>
+      <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change>
+      <change type="planned" subtype="vowels">Add missing Greek vowels</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -216,3 +204,4 @@
     </body>
   </text>
 </TEI>
+<!-- Notes of remaining items: Where to link the PDF, where to put raw full text, where put Wright's running headers, lanugage and script issues -->
