@@ -4,8 +4,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">BL Add. 14428</title>
-                <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
+                <title xml:lang="en">BL Add MS 14428</title>
                 <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
                 <funder>National Endowment for the Humanities</funder>
                 <funder>Andrew W. Mellon Foundation</funder>
@@ -24,12 +23,6 @@
                         Aydin</name>
                     <resp>Syriac text entry</resp>
                 </respStmt>
-                <respStmt>
-                    <name type="person" ref="http://syriaca.org/editors.xml#pkirlles">Philemon
-                        Kirlles</name>
-                    <resp>Arabic text entry</resp>
-                </respStmt>
-                <!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
                 <respStmt>
                     <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan
                         Stitt</name>
@@ -53,7 +46,7 @@
                 <pubPlace/>
                 <authority>Syriaca.org: The Syriac Reference Portal </authority>
                 <idno type="URI"
-                    >http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript here -->/source</idno>
+                    >http://syriaca.org/manuscript/84/source</idno>
                 <availability>
                     <p/>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -63,25 +56,28 @@
                 <date calendar="Gregorian"><!-- Date of publication --></date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="manuscript-14428" xml:lang="en">
+                <msDesc xml:id="manuscript-84" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
-                        <idno type="URI">http://syriaca.org/manuscript/14428</idno>
-                        <altIdentifier type="internal">
-                            <idno>BL Add. 14428</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/84</idno>
+                        <altIdentifier type="BL">
+                            <idno>Add MS 14428</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Wright">
+                            <idno>Wright XI</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents class="bible-ot">
                         <summary/>
-                        <textLang mainLang="syr">Syriac</textLang>
+                        <textLang mainLang="syr-Syrc">Syriac</textLang>
                         <msItem n="1" xml:id="a1">
                             <locus from="1" to="89">ff. 1-89</locus>
-                            <author key=""/>
                             <title ref="http://syriaca.org/work/3">The book of Numbers, according to
-                                the Peshitta version, commencing with ch. iii. 14. </title>
+                                the Peshitta version</title>
+                            <note>Commences with ch. iii. 14.</note> 
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -90,39 +86,36 @@
                                 <support>
                                     <material>Vellum</material>
                                 </support>
-                                <extent>ff. 89 <dimensions type="leaf" unit="in">
-                                        <height>9 7/8</height>
-                                        <width>6 1/2</width>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="89"> 89 ff.</measure>
+                                    <dimensions type="leaf" unit="in">
+                                        <height>
+                                            <measure type="height" quantity="9.875" unit="in">9 7/8</measure>
+                                        </height>
+                                        <width>
+                                            <measure type="width" quantity="6.5" unit="in">6 1/2</measure>
+                                        </width>
                                     </dimensions>
-                                    <dimensions type="written" unit="in"> </dimensions>
                                 </extent>
-                                <foliation xml:id="ancient">
-                                    <locus from="1" to="89">ff. 1-89</locus>
-                                </foliation>
                                 <collation>
                                     <p>The quires, originally ten in number, are signed with
                                         letters</p>
-                                    <seg n="1" type="gathering">
-                                        <locus from="1" to="89">ff. 1-89</locus>
-                                        <formula/>
-                                    </seg>
                                 </collation>
-                                <condition><p>The last leaf is much torn and of the first quire only
-                                        a single leaf remains.</p></condition>
+                                <condition>The last leaf is much torn and of the first quire only
+                                        a single leaf remains.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="20 22">
-                                    <locus from="1" to="89">ff. 1-89</locus>
                                     <p>There are from 20 to 22 lines on each page.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote xml:id="handnote1" scope="major" script="Estrangelo"
+                            <handNote xml:id="handnote1" scope="major" script="syr-Syre"
                                 medium="unknown">
-                                <p>This manuscript is written in a beautiful, regular Estrangela
+                                <desc>This manuscript is written in a beautiful, regular Estrangela
                                     around <origDate notBefore="0724" notAfter="0725">A.D.
-                                        724</origDate>.</p>
+                                        724</origDate>.</desc>
                                 <locus from="1" to="89">ff. 1-89</locus>
                                 <listPerson>
                                     <person role="scribe" xml:id="Saba_Rasain" corresp="">
@@ -131,9 +124,9 @@
                                     </person>
                                 </listPerson>
                             </handNote>
-                            <handNote xml:id="handnote2" scope="minor" script="Estrangelo"
+                            <handNote xml:id="handnote2" scope="minor" script="syr-Syrc"
                                 medium="unknown">
-                                <locus from="89a" to="89a">fol. 89a.</locus>
+                                <locus target="89a">fol. 89a.</locus>
                                 <listPerson>
                                     <person role="scribe" xml:id="Serg_Abraham" corresp="">
                                         <persName xml:lang="eng">Deacon Sergius bar Abraham, of
@@ -142,12 +135,12 @@
                                     </person>
                                 </listPerson>
                             </handNote>
-                            <handNote xml:id="handnote3" scope="minor" script="Estrangelo"
+                            <handNote xml:id="handnote3" scope="minor" script="syr-Syrc"
                                 medium="unknown">
-                                <locus from="89b" to="89b">fol. 89b.</locus>
-                                <p>Two notes in a small and neat hand.</p>
+                                <locus target="89b">fol. 89b.</locus>
+                                <desc>Two notes in a small and neat hand.</desc>
                             </handNote>
-                            <handNote xml:id="handnote4" scope="minor" script="Estrangelo"
+                            <handNote xml:id="handnote4" scope="minor" script="syr-Syrc"
                                 medium="unknown">
                                 <locus from="89a" to="89a">fol. 89a.</locus>
                                 <listPerson>
@@ -158,37 +151,34 @@
                                         <persName xml:lang="syr"/>
                                     </person>
                                 </listPerson>
-                                <p>Written in a small and modern hand.</p>
+                                <desc>Written in a small and modern hand.</desc>
                             </handNote>
                         </handDesc>
                         <additions>
                             <list>
-                                <item n="1" xml:id="m1">
-                                    <locus from="89a">89a</locus>
+                                <item n="1" xml:id="m1"><locus target="89a">89a</locus><ref target="#a1"/>
                                     <p><label>Subscription</label></p>
-                                    <quote xml:lang="syr">ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</quote>
+                                    <quote xml:lang="syr-Syrc">ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</quote>
                                 </item>
-                                <item n="2" xml:id="m2">
-                                    <locus from="89a">89a</locus>
-                                    <p><label>Doxology</label> following subscription.</p>
-                                    <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
+                                <item n="2" xml:id="m2"><locus target="89a">89a</locus><ref target="#a1"/>
+                                    <quote><label>Doxology</label> following subscription</quote>
+                                    <quote xml:lang="syr-Syrc">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
                                         ܐܡܝܢ.</quote>
                                 </item>
-                                <item n="3" xml:id="m3">
-                                    <locus from="89a">89a</locus>
-                                    <p><label>Note</label> following doxology and in smaller
-                                        letters.</p>
-                                    <quote>"Jesus God, have mercy on Sābā the scribe of Rās’ain, who
+                                <item n="3" xml:id="m3"><locus target="89a">89a</locus><ref target="#a1"/>
+                                    <quote><label>Note</label> following doxology and in smaller
+                                        letters.
+                                    "Jesus God, have mercy on Sābā the scribe of Rās’ain, who
                                         wrote this book, and did not write in it a blotted tau." See
                                         Add. 12,135, part first, and Add. 14,430, where we have the
                                         dates A.D. 726 and 724.</quote>
-                                    <quote xml:lang="syr">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ
-                                        ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒ[ܗ.]</quote>
-                                    <!-- Question in Word Doc attached to this syriac quote ^ -->
+                                    <quote xml:lang="syr-Syrc">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ
+                                        ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒܗ.</quote>
+                                    <!-- Question about dots in the Syriac -->
                                 </item>
                                 <item n="4" xml:id="m4">
-                                    <locus from="89b">Fol. 89b</locus>
-                                    <p><label>Note</label> stating: ""Our Lord Jesus the Messiah,
+                                    <locus target="89b">Fol. 89b</locus><ref target="#a1"/>
+                                    <quote><label>Note</label> stating: ""Our Lord Jesus the Messiah,
                                         have mercy on the feeble, sinful and miserable (man), who
                                         has need of the mercy of God, Rūbīl (Reuben) the sinful
                                         deacon, who read this Testament with his master Mār Abraham
@@ -201,10 +191,10 @@
                                         (saying:) May my prayer intercede for them, Amen. "Written
                                         by the scribe Rām-īd (?), may God pardon him." @[The second
                                         letter of this word is rather indistinctly written. It
-                                        appears to be derived from the name of Hah, a Jacobite see
+                                        appears to be derived from the name of Hah, a Jacobite <bibl>see
                                         (Assem., Bibl. Or., t. ii., Dissert. de Monophysitis, art.
-                                        ix., Haa, ܚܰܐܚ]@</p>
-                                    <quote xml:lang="syr">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ
+                                        ix., Haa, ܚܰܐܚ</bibl></quote>
+                                    <quote xml:lang="syr-Syrc">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ
                                         ܘܣ̇ܢܝܩ ܥܠ ܪܚ̈ܡܐ ܕܐܠܗܐ ܪܘܒܝܠ ܡܫܡܫܢܐ ܚ̇ܛܝܐ ܕܐܩܪܗ̇ (sic)
                                         ܠܕܝܬܐܝܩܐ ܗܕܐ ܡܢ ܪܒܐ ܕܝܠܗ ܡܪܝ ܐܒܪܗܡ ܚܚܘܢܝܐ ܘܣܝܡ̇ܘܢ ܒܗ̇ ܘܚܕܬܘܢ
                                         ܒܗ̇ ܘܓܪܕܘܢ ܡܢܗ̇. ܒܪܡ ܕܝܢ ܒܘܠܝܬܐ ܣܥܪܘܢ ܗܕܐ. ܐܠܐ ܒܪܟܡܪܝ ܕܟܠ
@@ -212,38 +202,34 @@
                                         ܐܒܪܗܡ ܪܒ̣ܐ ܕܝܠܗ ܣܓܝ ܘܝܬܝܪܐܝܬ. ܨܠܘܬܝ ܬܦܝܣ ܚܠܦܝܗܘܢ ܐܡܝܢ. ܣܪܛ
                                         ܪܡܝܕܝ (?)ܟܬܘܒܐ ܐܠܗܐ ܚܣ̣ܐ ܠܗ..</quote>
                                 </item>
-                                <!--Footnote? -->
                                 <item n="5" xml:id="m5">
-                                    <locus from="89b">Fol. 89b</locus>
-                                    <p><label>Note</label> stating: "These things took place in the
+                                    <locus from="89b">Fol. 89b</locus><ref target="#a1"/>
+                                    <quote><label>Note</label> stating: "These things took place in the
                                         year 1128 (A.D. 817), in the days of the honoured and
                                         Christ-loving abbat Mār Thomas, warden of this holy convent.
                                         May the Lord forgive all his shortcomings and
                                         transgressions, through the heard and accepted prayers of
                                         the Mother of God the Virgin Mary, on account of his care of
-                                        this church. And may every one," etc. </p>
-                                    <quote xml:lang="syr">ܗܘ̈ܝ ܕܝܢ ܗܠܝܢ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ.
+                                        this church. And may every one," etc.</quote>
+                                    <quote xml:lang="syr-Syrc">ܗܘ̈ܝ ܕܝܢ ܗܠܝܢ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ.
                                         ܒܝ̈ܘܡܝ ܡܝܩܪܐ ܘܪܚ̇ܡ ܠܡܫܝܚܐ ܡܪܝ ܬܐܘܡܐ ܪܝܫܕܝܪܐ ܘܩܘܢܟܝܐ ܕܥܘܡܪܐ
                                         ܗܢܐ ܩܕܝܫܐ. ܡ̇ܚܣܐ ܡܪܝܐ ܟܠܗܘܢ ܒܘܨܪ̈ܘܗܝ ܘܡܬܥܒܪ̈ܢܘܬܐ ܕܝܠܗ.
                                         ܒ̈ܨܠܘܬܐ ܫܡ̈ܝܥܬܐ ܘܡ̈ܩܒܠܬܐ ܕܝ̇ܠܕܬ ܐܠܗܐ ܒܬܘܠܬܐ ܡܪܝܡ ܡܛܠ
                                         [ܝܨ]ܝܦܘܬܗ ܕܗܢ ܗܝܟܠܐ ܘܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ܒܗܝܡܢ ܐܡܝܢ.</quote>
                                 </item>
                                 <item n="6" xml:id="m6">
-                                    <locus from="89a">Fol. 89a</locus>
-                                    <p><label>Maginal Note</label> stating: ""The wretched Abraham,
+                                    <locus target="89a">Fol. 89a</locus><ref target="#a1"/>
+                                    <quote><label>Maginal Note</label> stating:""The wretched Abraham,
                                         who is in name a monk, from Beth-Severīnna, from the convent
                                         of Mār Gabriel, fell in with this book in the year 1794 (AD.
-                                        1483). Let him who reads," etc." @[ See Assemani, Bibl. Or.,
-                                        t. i. p. 216.]@</p>
-                                    <quote xml:lang="syr">ܦܓܥ ܒܟܬܒܐ ܗܢܐ ܐܒܪܗܡ ܕܘܝܐ ܕܒܫܡ ܕܝܪܝܐ ܡܢ ܒܝܬ
+                                        1483). Let him who reads," etc." <bibl>See Assemani, Bibl. Or.,
+                                        t. i. p. 216.</bibl></quote>
+                                    <quote xml:lang="syr-Syrc">ܦܓܥ ܒܟܬܒܐ ܗܢܐ ܐܒܪܗܡ ܕܘܝܐ ܕܒܫܡ ܕܝܪܝܐ ܡܢ ܒܝܬ
                                         ܣܒܝܪܝܢܐ. ܡܢ ܥܘܡܪܐ ܕܡܪܝ ܓܒܪܐܝܠ [ܫܢܬ ܏ܐ]ܥ܏ܨܕ ܕܝܘܢܝ̈ܐ ܕܩ̇ܪܐ
                                         ܢܨ̇ܠܐ ܥܠܘܗܝ ܡܛܠܡܪܢ.</quote>
                                 </item>
-                                <!--Footnote? -->
                             </list>
-                            <!-- What to do with the xml ids above? -->
-                            <catchwords/>
-                        </additions>
+                     </additions>
                     </physDesc>
                     <history>
                         <summary/>
@@ -263,7 +249,7 @@
                             <availability status="restricted">
                                 <p/>
                             </availability>
-                            <note/>
+                            <note/></adminInfo>
                             <listBibl>
                                 <bibl xml:id="Wright">
                                     <author>William Wright</author>
@@ -276,7 +262,6 @@
                                     <citedRange unit="pp">I:9-10</citedRange>
                                 </bibl>
                             </listBibl>
-                        </adminInfo>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -285,31 +270,36 @@
             <editorialDecl>
                 <interpretation>
                     <p>Description is based on Wright's Catalogue without consultation of physical
-                        manuscripts. Foliation is approximate. Wright often does not indicate ending
-                        folia so those have been assumed based on beginning folia.</p>
-                    <p>Scribal notes which could not be more clearly classified based on Wright's
-                        descriptions have been identified as &lt;addition&gt;s whether they occur in
-                        the margins or the body of the manuscript.</p>
-                    <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript
-                        contents as possible, including tables of contents and indices.</p>
+                        manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                        those have been assumed based on beginning folia.</p>
+                    <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                        have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                        of the manuscript.</p>
+                    <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                        as possible, including tables of contents and indices.</p>
                 </interpretation>
             </editorialDecl>
             <classDecl>
-                <taxonomy> </taxonomy>
+                <taxonomy><!-- Wright heading information here. --></taxonomy>
             </classDecl>
         </encodingDesc>
         <profileDesc>
-            <textClass> </textClass>
+            <langUsage>
+                <language ident=""><!-- Add in description of lanuages and scripts --></language>
+            </langUsage>
+            <textClass><!-- Should Wright's running header go here? --></textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="" who=""/>
+            <change when="" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+            <change type="planned" subtype="vocalization">Enter vocalization.</change>
+            <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <!-- facsimile information about the manuscript -->
         <graphic/>
         <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-            elements to give coordinates for any special areas of interest -->
+      elements to give coordinates for any special areas of interest -->
     </facsimile>
     <text>
         <body>
@@ -318,3 +308,4 @@
         </body>
     </text>
 </TEI>
+<!-- Notes of remaining items: Where to link the PDF, where to put raw full text, where put Wright's running headers, lanugage and script issues -->
