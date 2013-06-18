@@ -2980,9 +2980,9 @@ tei_altIdentifier =
         ## British Library identifier
         "BL"
       |
-        ## Wright' identifier
+        ## Wright's identifier
         "Wright"
-    },
+    }?,
     att.typed.attribute.subtype,
     empty
   }
