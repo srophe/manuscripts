@@ -65,26 +65,25 @@
                     </msIdentifier>
               <msContents class="bible-ot">
                         <summary/>
-                        <textLang mainLang="syr-Syre">Syriac</textLang>
+                        <textLang mainLang="syr">Syriac</textLang>
                         <msItem n="1" xml:id="a1">
                             <locus from="1" to="105"/>
                             <title ref="http://syriaca.org/work/1">The book of Genesis, according to the Peshitta version.</title>
                             <rubric xml:lang="syr">
                                 <title>ܒܪܝܬܐ ܣ̣ܦܪܐ ܩܕܡܝܐ ܕܐܘܪܝܬܐ</title>
-                                <locus target="2b">2b</locus>
+                                <locus from="2b" to="2b">2b</locus>
                             </rubric>
                             <note>The lessons are marked in the text in the usual way; others have been added subsequently at the top of the page.
                                 The following portions of the text are wanting: ch. i. 7—18, ch. iii. 13—22, ch. v. 24—vi. 15, ch. xxii. 11—xxv. 17, and ch. xlvii. 13 to the end.</note>
                         </msItem>
                             <msItem n="2" xml:id="a2">
                                 <locus from="1" to="2a"/>
-                                <author key=""/>
                                 <title>Index to additional lessons mentioned above.</title>
-                                    <quote xml:lang="syr-Syrc"><p>܏ܩ ܕܚܡܫܐ ܒܫܒܐ ܕܐܢܝܚܬܐ ܏ܟـ ܝܓ ܏ܦ ܙ</p>
+                                    <quote xml:lang="syr"><p>܏ܩ ܕܚܡܫܐ ܒܫܒܐ ܕܐܢܝܚܬܐ ܏ܟـ ܝܓ ܏ܦ ܙ</p>
                                         <p>܏ܩ ܕܫܒܬܐ ܕܫܒܬܐ ܕܐܢܝܚܬܐ ܏ܟـ ܒ ܏ܦ ܒ</p>
                                         <p>܏ܩ ܕܚܕܒܫܒܐ ܚܕܬܐ ܪܝܫ ܟܬܒܐ</p>
                                         <p>܏ܩ ܕܚܕܒܫܒܐ :ܓ: ܡܢ ܩܝܡܬܐ ܏ܟـ ܐ ܏ܦ . .</p>
-                                        <!--Note that the punctuation here does display in the right order from right to left but only in Author view not text view-->
+             <!--Note that the punctuation here does display in the right order from right to left but only in Author view not text view-->
                                         <p>܏ܩ ܕܚܕ ܒܫܒܐ : ܕ :܏ܟـ ܐ ܏ܦ ܚ</p>
                                         and so on. Here ܟـ stands for ܟܘܪܣܐ , % (quire), and ܦ for ܦܬܚܐ (opening).</quote>
            <!-- Arabic needs to be added -->
@@ -107,7 +106,7 @@
                                        </dimensions>
                                 </extent>
                                 <collation>
-                                    <p>Originally the book was made up of 13 quires. The quires have been twice signed with letters (see foll. 16, 46, and 56), but at neither time correctly.</p>
+                                    <p>Originally the book was made up of 13 quires. The quires have been twice signed with letters (see <locus>foll. 16, 46, and 56</locus>), but at neither time correctly.</p>
                                 </collation>
                                 <condition>
                                     <p> Originally the book was made up of 13 quires of which the sixth and the last are now wanting, and several others are imperfect, leaves being missing after
@@ -122,23 +121,20 @@
                         </objectDesc>
                          <handDesc>
                              <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="unknown">
-                                 <locus from="1" to="105">ff. 1-105</locus>
                                  <desc>The character is a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                              </handNote>
                              <handNote xml:id="handnote2" scope="minor" script="syr-Syrc" medium="unknown">
-                                 <locus from="1" to="105">ff. 1-105</locus>
-                                 <desc>They have been twice signed with letters (see foll.<locus target="16">16</locus>, 
-                                     <locus target="46">46</locus>, and <locus target="56">56</locus>), but at neither time correctly.</desc>
+                                 <desc>They have been twice signed with letters (see foll.<locus from="16" to="16">16</locus>, 
+                                     <locus from="46" to="46">46</locus>, and <locus from="56" to="56">56</locus>), but at neither time correctly.</desc>
                              </handNote>
                              <handNote xml:id="handnote3" scope="minor" script="syr-Syrj" medium="unknown">
-                                 <locus from="1" to="105">ff. 1-105</locus>
                                  <p>Vowels have sometimes been added by a later hand (ܰ, ܶ, ܺ, ܳ, , , ). </p>
          <!-- Add missing Syriac vowels. -->
                              </handNote>
                          </handDesc>
                         <additions>
                             <list>
-                                <item n="3" xml:id="b1"><locus target="2b"/><ref target="#a1"/>
+                                <item n="3" xml:id="addition1"><locus from="2b" to="2b"/><ref target="#a1"/>
                                     <quote><label>Marginal note</label> mentions that with this volume was once bound up a work, (or more probably a series of extracts,) entitled <choice><seg><title>ܒܘ̈ܚܢܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ</title>, <title>"Disquisitions of the holy Teachers"</title></seg></choice></quote></item>
                             </list>
                             <catchwords/>
@@ -201,7 +197,7 @@
             <textClass><!-- Should Wright's running header go here? --></textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change>
+            <change when="20130623" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
             <change type="planned" subtype="arabic">Add missing Arabic text.</change>
             <change type="planned" subtype="vowels">Add missing Syriac vowels.</change>
         </revisionDesc>

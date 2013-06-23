@@ -61,7 +61,7 @@
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
-                        <collection>Christian Middle East Section</collection>
+                        <collection>Oriental Manuscripts</collection>
                         <idno type="URI">http://syriaca.org/manuscript/84</idno>
                         <altIdentifier type="BL">
                             <idno>Add MS 14428</idno>
@@ -116,7 +116,7 @@
                                 <desc>This manuscript is written in a beautiful, regular Estrangela
                                     around <origDate notBefore="0724" notAfter="0725">A.D.
                                         724</origDate>.</desc>
-                                <locus from="1" to="89">ff. 1-89</locus>
+                                <locus from="1" to="89">1-89 ff.</locus>
                                 <listPerson>
                                     <person role="scribe" xml:id="Saba_Rasain" corresp="">
                                         <persName xml:lang="eng">Deacon Sābā of Rās’ain</persName>
@@ -126,7 +126,7 @@
                             </handNote>
                             <handNote xml:id="handnote2" scope="minor" script="syr-Syrc"
                                 medium="unknown">
-                                <locus target="89a">fol. 89a.</locus>
+                                <locus from="89a" to="89a">89a f.</locus>
                                 <listPerson>
                                     <person role="scribe" xml:id="Serg_Abraham" corresp="">
                                         <persName xml:lang="eng">Deacon Sergius bar Abraham, of
@@ -137,7 +137,7 @@
                             </handNote>
                             <handNote xml:id="handnote3" scope="minor" script="syr-Syrc"
                                 medium="unknown">
-                                <locus target="89b">fol. 89b.</locus>
+                                <locus from="89b" to="89b">89b f.</locus>
                                 <desc>Two notes in a small and neat hand.</desc>
                             </handNote>
                             <handNote xml:id="handnote4" scope="minor" script="syr-Syrc"
