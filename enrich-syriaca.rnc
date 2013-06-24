@@ -1979,7 +1979,7 @@ tei_extent =
   
   ## describes the approximate size of a text as stored on
   ## some carrier medium, whether digital or non-digital, specified in any convenient units.
-  element extent { tei_macro.phraseSeq, tei_measure, att.global.attributes, empty }
+  element extent { tei_macro.phraseSeq, tei_measure, tei_dimensions, att.global.attributes, empty }
 tei_measure = 
 
   ## contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name
