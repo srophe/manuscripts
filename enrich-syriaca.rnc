@@ -3283,7 +3283,7 @@ tei_decoDesc =
   
   ## (decoration description) contains a description of the decoration of a manuscript, either as a sequence of paragraphs, or as a sequence of topically organised decoNote elements.
   element decoDesc {
-    (tei_model.pLike+ | tei_decoNote+), att.global.attributes, empty
+    (tei_model.pLike+ | tei_decoNote+)?, att.global.attributes, empty
   }
 tei_decoNote =
   
@@ -3372,7 +3372,7 @@ tei_bindingDesc =
   ## as a series of paragraphs or as a series of distinct binding elements,
   ## one for each binding of the manuscript. 
   element bindingDesc {
-    ((tei_model.pLike | tei_decoNote | tei_condition)+ | tei_binding+),
+    ((tei_model.pLike | tei_decoNote | tei_condition)+ | tei_binding+)?,
     att.global.attributes,
     empty
   }
@@ -3396,7 +3396,7 @@ tei_sealDesc =
   ## as a series of paragraphs or as a series of distinct seal elements,
   ## possibly with additional decoNotes. 
   element sealDesc {
-    (tei_model.pLike+ | (tei_decoNote | tei_seal | tei_condition)+),
+    (tei_model.pLike+ | (tei_decoNote | tei_seal | tei_condition)+)?,
     att.global.attributes,
     empty
   }
@@ -3515,7 +3515,7 @@ tei_custodialHist =
   ## (custodial history) contains a description of a manuscript's custodial history, either
   ## as running prose or as a series of dated custodial events. 
   element custodialHist {
-    (tei_model.pLike+ | tei_custEvent+), att.global.attributes, empty
+    (tei_model.pLike+ | tei_custEvent+)?, att.global.attributes, empty
   }
 tei_custEvent =
   
