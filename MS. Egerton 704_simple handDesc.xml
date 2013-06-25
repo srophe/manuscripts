@@ -73,11 +73,11 @@
                         <msItem n="1" xml:id="a1">
                             <locus from="1a" to="376b">ff. 1a-376b</locus>
                             <author key=""/>
-                            <title ref="http://syriaca.org/" type="supplied">The whole of the Scriptures of the Old Testament, according to the Peshitta version, with the Apocrypha.</title><!-- URIs for works still needed -->
+                            <title ref="http://syriaca.org/work/69" type="supplied">The whole of the Scriptures of the Old Testament, according to the Peshitta version, with the Apocrypha.</title><!-- URIs for works still needed -->
                             <msItem n="2" xml:id="b1">
                                 <locus from="2a" to="77">ff. 2a-77</locus>
                                 <author key=""/>
-                                <title ref="http://syriaca.org/" type="supplied">The Pentateuch</title>
+                                <title ref="http://syriaca.org/work/68" type="supplied">The Pentateuch</title>
                                 <msItem n="3" xml:id="c1">
                                     <locus from="2a" to="21">ff. 2a-21</locus>
                                     <author key=""/>
@@ -284,7 +284,8 @@
                             <msItem n="41" xml:id="b19">
                                 <locus from="296a" to="306">296a-306</locus>
                                 <author key=""/>
-                                <title ref="" type="supplied">Ezra and Nehemiah</title><!-- Should this receive a new URI, or should the title be split into two titles? -->
+                                <title ref="http://syriaca.org/work/15" type="supplied">Ezra</title>
+                                <title ref="http://syriaca.org/work/16" type="supplied">Nehemiah</title>
                             </msItem>
                             <msItem n="42" xml:id="b20">
                                 <locus from="306a" to="320">306a-320</locus>
@@ -392,8 +393,8 @@
                                         <persName xml:lang="syr">ܓ݂ܙܘܝ,</persName>
                                         <p>
                                             from the village of
-                                            <placeName xml:lang="eng" type="supplied" ref="http://syriaca.org/place/">Kosūr</placeName>, near <!-- NEED the URI for this place!!!! -->
-                                            <placeName xml:lang="eng" type="supplied" ref="http://syriaca.org/place/" >Māridīn</placeName>; <!-- NEED the URI for this place!!!! -->
+                                            <placeName xml:lang="eng" type="supplied" ref="">Kosūr</placeName>, near 
+                                            <placeName xml:lang="eng" type="supplied" ref="" >Māridīn</placeName>; 
                                             and he wrote the volume in the 
                                             <listPlace>
                                                 <place type="convent" xml:id="Beth_Marcus" ref="">
@@ -401,12 +402,12 @@
                                                     <placeName xml:lang="eng" type="supplied">Beth Marcus</placeName>
                                                 </place>
                                             </listPlace>, 
-                                            at <placeName xml:lang="eng" type="supplied" ref="http://syriaca.org/place/">Jerusalem</placeName>. <!-- NEED the URI for this place!!!! -->
+                                            at <placeName xml:lang="eng" type="supplied" ref="">Jerusalem</placeName>.
                                         </p>
                                     </person>
                                 </listPerson>
                                 </handNote>
-                            <handNote xml:id="handnote2" scope="major" script="unknown" medium="unknown">
+                            <handNote xml:id="handnote2" scope="minor" script="unknown" medium="unknown">
                                 <locus from="199" to="200">Foll. 199 and 200</locus>
                                 <listPerson>
                                         <person role="scribe" xml:id="Ant_Jerus" ref="">
@@ -415,7 +416,7 @@
                                         </person>
                                     </listPerson>
                             </handNote>
-                            <handNote xml:id="handnote3" scope="major" script="unknown" medium="unknown">
+                            <handNote xml:id="handnote3" scope="minor" script="unknown" medium="unknown">
                                 <locus from="201" to="201">Fol. 201</locus>
                                 <listPerson>
                                     <person role="scribe" xml:id="Serg_al-Jub" ref="">
@@ -423,10 +424,10 @@
                                     </person>
                                 </listPerson>
                                 <p>
-                                    <locus from="201" to="201">Fol. 201</locus> is in the handwriting of one <persName xml:lang="eng" ref="#Serg_al-Jub">Sergius al-Jubaili</persName>, who name appears in the following Arabic notes.
+                                    <locus from="201" to="201">Fol. 201</locus> is in the handwriting of one <persName xml:lang="eng" ref="#Serg_al-Jub">Sergius al-Jubaili</persName>, whose name appears in the following Arabic notes (see below).
                                 </p>
                             </handNote>
-                            <handNote xml:id="handnote4" scope="major" script="unknown" medium="unknown">
+                            <handNote xml:id="handnote4" scope="minor" script="unknown" medium="unknown">
                                 <locus from="2" to="2">Foll. 2</locus>
                                 <locus from="373" to="376">Foll. 373-376</locus>
                                 <p>
