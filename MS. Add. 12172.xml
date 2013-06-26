@@ -4,145 +4,163 @@
 <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title>BL Add. 12,172</title>
+        <title>BL Add MS 12172</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
         <respStmt>
-          <name type="person">Tucker Hannah</name>
-          <resp>creator</resp>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
-          <name type="person">Daniel Greeson</name>
-          <resp>creator</resp>
+          <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Syriac text entered by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project management by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+        </respStmt>
+        <respStmt>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+      </editionStmt>
       <publicationStmt>
-        <date calendar="Gregorian">2012-11-13</date>
         <pubPlace/>
-        <distributor>E-Corpus</distributor>
-        <idno>[E-Corpus ID Number]</idno>
-      </publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal </authority>
+        <idno type="URI">http://syriaca.org/manuscript/61/source</idno>
+        <availability>
+          <p/>
+          <licence target="http://creativecommons.org/licenses/by/3.0/">
+            <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+          </licence>
+        </availability>
+        <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+      </publicationStmt>      
       <sourceDesc>
-        <msDesc xml:id="MSSSyriaques" xml:lang="en">
+        <msDesc xml:id="manuscript-61" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
-            <collection>Christian Middle East Section</collection>
-            <idno>BL MS Add. 12,172</idno></msIdentifier>
-          <msPart n="1" xml:id="Part1">
-            <altIdentifier type="internal">
-              <collection>Wright</collection>
-              <idno>DLXXX</idno>
-              <idno>BL Add 12,172 ff. 1-11</idno>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/61</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 12172</idno>
             </altIdentifier>
-            <msContents>
-              <summary></summary>
+          </msIdentifier>
+          <msPart n="1" xml:id="Part1">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/62</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 12172 foll.1-11</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">580</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DLXXX</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents class="Theology: Collected Authors">
+              <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="part1a1">
+              <msItem n="1" xml:id="p1a1">
                 <locus from="1b" to="4">foll. 1b-4</locus>
                 <author ref="">Isaiah of Scete</author>
-                <rubric><title key="" ref="http://lccn.loc.gov/">ܡܐܡܪܐ ܡܘܬܪܢܐ ܕܢܦܫܐ</title></rubric>
-                <listBibl>
-                  <bibl>
-                    <ref target="#Wrightpart1"/>
-                  </bibl>
-                </listBibl>
+                <rubric ref="" xml:lang="syr">ܡܐܡܪܐ ܡܘܬܪܢܐ ܕܢܦܫܐ</rubric>
               </msItem>
-              <msItem n="2" xml:id="part1a2">
+              <msItem n="2" xml:id="p1a2">
                 <locus from="4a" to="5">foll. 4a-5</locus>
                 <author ref="">Isaiah of Scete</author>
-                <rubric><title key="" ref="http://lccn.loc.gov/">ܬܪ̈ܥܣܪ ܡܬܟܪ̈ܟܢܐ ܟܕ ܝܬܒܝܢ ܘܐܡ̣ܪܘ ܗܠܝܢ</title></rubric>
-                <listBibl>
-                  <bibl>
-                    <ref target="#Wrightpart1"/>
-                  </bibl>
-                </listBibl>
+                <rubric ref="" xml:lang="syr">ܬܪ̈ܥܣܪ ܡܬܟܪ̈ܟܢܐ ܟܕ ܝܬܒܝܢ ܘܐܡ̣ܪܘ ܗܠܝܢ</rubric>
                 </msItem>
-                <msItem n="3" xml:id="part1a3">
+                <msItem n="3" xml:id="p1a3">
                   <locus from="5b" to="7">foll. 5b-7</locus>
                   <author ref="">Isaiah of Scete</author>
-                  <rubric><title key="" ref="http://lccn.loc.gov/">ܕܐܝܟܢܐ ܘ̇ܠܐ ܠܗܘܢ ܠܐܚ̈ܐ ܕܢܚܘܢ ܥܡ ܚܕܕܐ</title></rubric>
-                  <listBibl>
-                    <bibl>
-                      <ref target="#Wrightpart1"/>
-                    </bibl>
-                  </listBibl>
+                  <rubric ref="" xml:lang="syr">ܕܐܝܟܢܐ ܘ̇ܠܐ ܠܗܘܢ ܠܐܚ̈ܐ ܕܢܚܘܢ ܥܡ ܚܕܕܐ</rubric>
                 </msItem>
-                <msItem n="4" xml:id="part1a4">
+                <msItem n="4" xml:id="p1a4">
                   <locus from="7b" to="8">foll. 7b-8</locus>
                   <author ref="">Isaiah of Scete</author>
-                  <rubric><title key="" ref="http://lccn.loc.gov/">ܡܛܠ ܡܟܝܟܘܬܐ</title></rubric>
-                  <listBibl>
-                    <bibl>
-                      <ref target="#Wrightpart1"/>
-                    </bibl>
-                  </listBibl>
+                  <rubric ref="" xml:lang="syr">ܡܛܠ ܡܟܝܟܘܬܐ</rubric>
                 </msItem>
-                <msItem n="5" xml:id="part1a5">
+                <msItem n="5" xml:id="p1a5">
                   <locus from="8a" to="9">foll. 8a-9</locus>
                   <author ref="">Isaiah of Scete</author>
-                  <rubric><title key="" ref="http://lccn.loc.gov/">ܦܘܩ̈ܕܢܐ ܠܗ̇ܢܘܢ ܕܡܬܪܚܩܝܢ ܡܢ ܥܠܡܐ</title></rubric>
-                  <listBibl>
-                    <bibl>
-                      <ref target="#Wrightpart1"/>
-                    </bibl>
-                  </listBibl>
+                  <rubric ref="" xml:lang="syr">ܦܘܩ̈ܕܢܐ ܠܗ̇ܢܘܢ ܕܡܬܪܚܩܝܢ ܡܢ ܥܠܡܐ</rubric>
                 </msItem>
-                <msItem n="6" xml:id="part1a6">
+                <msItem n="6" xml:id="p1a6" defective="yes">
                   <locus from="9a" to="11">foll. 9a-11</locus>
                   <author ref="">Isaiah of Scete</author>
-                  <rubric><title key="" ref="http://lccn.loc.gov/">ܡܛܠ ܐܝܠܝܢ ܕܫ̣ܡܥ ܘܚ̣ܙܐ ܨܝܕ ܣ̈ܒܐ</title></rubric>
-                  <listBibl>
-                    <bibl>
-                      <ref target="#Wrightpart1"/>
-                    </bibl>
-                  </listBibl>
+                  <rubric ref="" xml:lang="syr">ܡܛܠ ܐܝܠܝܢ ܕܫ̣ܡܥ ܘܚ̣ܙܐ ܨܝܕ ܣ̈ܒܐ</rubric>
                 </msItem>
-              <p>See <ref target="">Add. 14,575</ref>, items 1—6.</p>
+              <p>See <ref target="http://syriaca.org/manuscript/311">Add. 14,575</ref>, items 1—6.</p><!-- Is this the proper way to mark this up? -->
             </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>vellum</material></support>
-                  <extent> 11 leaves
+                  <extent> 
+                    <measure type="composition" unit="leaf" quantity="11">11 ff.</measure>
                     <dimensions type="leaf" unit="in">
-                      <height>9 1/2 in.</height>
-                      <width>6 3/8 in.</width>
+                      <height><measure type="height" quantity="9.5" unit="in">9 1/2</measure></height>
+                      <width><measure type="width" quantity="6.375" unit="in">6 3/8</measure></width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <foliation type="modern">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p></p>
-                    <seg n="1" type="gathering">
-                      <locus from="" to=""></locus>
-                      <formula/>
-                    </seg>
-                  </collation>
+                  <foliation type="ancient"/>
+                  <collation/>
                   <condition>
-                    <p>The last folio is much torn and the first slightly so. The <ref target="#part1a6">sixth item</ref> of the manuscript is imperfect.</p>
+                    <p>The <locus from="11" to="11">last folio</locus> is much torn and <locus from="1" to="1">the first</locus> slightly so.</p>
+                    <p>The <ref target="#p1a6">sixth item</ref> of the manuscript is imperfect.</p>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="2" writtenLines="28 30">
-                    <locus from="1" to="11"/>
                     <p>Each page is divided into two columns, of from 28 to 30 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc>
-                <handNote scope="major" script="unknown" medium="unknown">
+              <handDesc hands="1">
+                <handNote xml:id="p1handNote1" scope="major" script="syr-Syrc" medium="unknown">
                   <p>This manuscript is written in a good, regular hand of about the <origDate notBefore="0900" notAfter="1000">10th century</origDate>.</p>
                 </handNote>
               </handDesc>
+              <decoDesc/>
               <additions>
-                <p>on the margin of <locus from="2a" target="#part1a1">fol. 2 a</locus> are the words <quote xml:lang="syr">ܘܬܘܒ ܕܡܪܝ ܐܝܣܚܩ</quote></p>
+                <list>
+                  <item n="1" xml:id="p1addition1">
+                    <locus from="1a" to="1a"/>
+                    <p>The note on <locus from="1a">fol. 1a</locus> states that the manuscript belonged to one 
+                  <listPerson><person role="owner" xml:id="Zach_b._John" ref=""><persName>Zachariah, the son of John,</persName></person></listPerson> 
+                  who bequeathed it after his death to the monks <q>"of this convent"</q> (<placeName type="supplied" ref="">S. Mary Deipara</placeName>?), 
+                  to be sold and its price divided among them, that he might be remembered in their prayers</p>
+                    <quote xml:lang="syr">ܐܬܚܦܛ ܘܐܝ̣ܨܦ ܘܩܢܐ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܬܐ <foreign xml:lang="la">(sic)</foreign> ܟܬܒܐ ܕܐܒܐ ܐܫܥܝܐ. ܙܟܪܝܐ ܒܪ ܝܘܚܢܢ. ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ. ܘܡܢ ܒܘܪܟܬܐ ܕܡ̣ܛܬ ܠܗ ܡܢ ܐܒܗܘ̈ܗܝ. ܐܝܟ ܕܠܦܘܪܩܢܐ ܕܢܦܫܗ̣ ܘܕܘܟܪܢܐ ܕܥ̈ܢܝܕܘܗܝ. ܐܠܐ ܡܛܠ ܡܪܢ ܕܢܩ̣ܪܐ ܒܗ̣ ܢܨ̇ܠܐ ܥܠܘܗܝ̣ ܕܢܚ̇ܣܐ ܠܗ ܐܠܗܐ ܘܠܐܒܗܘ̈ܗܝ. ܘܡܢ ܒܬܪ ܥܘܢܕܢܗ ܦܩܕܗ ܠܗܠܝܢ ܠܐܒܗ̈ܬܐ ܩܕܝ̈ܫܐ ܕܐܝܬ ܒܕܝܪܐ ܗܕܐ. ܕܢܙܕܒ̇ܢ ܘܢܬ݀ܦܠܓ ܛܝܡ̈ܘܗܝ ܥܠܝܗܘܢ. ܕܢܬܕܟܪܘܢܝܗܝ ܒܨ̈ܠܘܬܗܘܢ. ܘܟܠ ܕܠܚ̇ܐ ܏ܘܫ</quote>
+                  </item>
+                  <item n="2" xml:id="p1addition2">
+                    <locus from="2a" to="2a"/>
+                    <ref target="#p1a1"/>
+                    <p>It was at one time bound with another codex containing the works of <listPerson><person role="owner" xml:id="Isaac_Ant" ref=""><persName>Isaac of Antioch</persName></person></listPerson>, for on the margin of <locus from="2a">fol. 2 a</locus> are the words</p>
+                    <quote xml:lang="syr">ܘܬܘܒ ܕܡܪܝ ܐܝܣܚܩ</quote>
+                  </item>
+                </list>
               </additions>
             </physDesc>
             <history>
@@ -152,13 +170,11 @@
               </origin>
               <provenance>
                 <list>
-                  <item><p>The note on <locus from="1a">fol. 1a</locus> states that the manuscript belonged to one 
-                  <listPerson><person role="owner" xml:id="Zach_b._John"><persName>Zachariah, the son of John,</persName></person></listPerson> 
-                  who bequeathed it after his death to the monks <q>"of this convent"</q> (<placeName type="supplied" ref="">S. Mary Deipara</placeName>?), 
-                  to be sold and its price divided among them, that he might be remembered in their prayers</p>
-                  <title xml:lang="syr">ܐܬܚܦܛ ܘܐܝ̣ܨܦ ܘܩܢܐ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܬܐ (sic) ܟܬܒܐ ܕܐܒܐ ܐܫܥܝܐ. ܙܟܪܝܐ ܒܪ ܝܘܚܢܢ. ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ. ܘܡܢ ܒܘܪܟܬܐ ܕܡ̣ܛܬ ܠܗ ܡܢ ܐܒܗܘ̈ܗܝ. ܐܝܟ ܕܠܦܘܪܩܢܐ ܕܢܦܫܗ̣ ܘܕܘܟܪܢܐ ܕܥ̈ܢܝܕܘܗܝ. ܐܠܐ ܡܛܠ ܡܪܢ ܕܢܩ̣ܪܐ ܒܗ̣ ܢܨ̇ܠܐ ܥܠܘܗܝ̣ ܕܢܚ̇ܣܐ ܠܗ ܐܠܗܐ ܘܠܐܒܗܘ̈ܗܝ. ܘܡܢ ܒܬܪ ܥܘܢܕܢܗ ܦܩܕܗ ܠܗܠܝܢ ܠܐܒܗ̈ܬܐ ܩܕܝ̈ܫܐ ܕܐܝܬ ܒܕܝܪܐ ܗܕܐ. ܕܢܙܕܒ̇ܢ ܘܢܬ݀ܦܠܓ ܛܝܡ̈ܘܗܝ ܥܠܝܗܘܢ. ܕܢܬܕܟܪܘܢܝܗܝ ܒܨ̈ܠܘܬܗܘܢ. ܘܟܠ ܕܠܚ̇ܐ ܏ܘܫ..</title></item>
+                  <item>
+                    <ref target="#p1addition1">See below.</ref>
+                  </item>
                 <item>
-                  <p>It was at one time bound with another codex containing the works of <listPerson><person role="owner" xml:id="Isaac_Ant"><persName>Isaac of Antioch</persName></person></listPerson>, for on the margin of <locus from="2a" target="#part1a1">fol. 2 a</locus> are the words <quote xml:lang="syr">ܘܬܘܒ ܕܡܪܝ ܐܝܣܚܩ</quote></p>
+                  <ref target="#p1addition2">See below.</ref>
                 </item>
                 </list>
                 </provenance>

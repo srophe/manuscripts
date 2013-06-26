@@ -928,6 +928,7 @@ tei_quote =
     att.global.attributes,
     att.typed.attributes,
     att.msExcerpt.attributes,
+    att.canonical.attributes,
     empty
   }
 tei_q =
@@ -2235,6 +2236,12 @@ tei_handNote =
            ## Garshuni or Karshuni
            "ar-Syrc"
            |
+           ## Arabic
+           "ar"
+           |
+           ##
+           "other"
+           |
            ##
            "mixed"
          | 
@@ -3010,6 +3017,7 @@ tei_explicit =
     att.global.attributes,
     att.typed.attributes,
     att.msExcerpt.attributes,
+    att.canonical.attributes,
     empty
   }
 tei_filiation =
@@ -3028,6 +3036,7 @@ tei_finalRubric =
     tei_macro.phraseSeq,
     att.global.attributes,
     att.typed.attributes,
+    att.canonical.attributes,
     empty
   }
 tei_incipit =
@@ -3038,6 +3047,7 @@ tei_incipit =
     att.global.attributes,
     att.typed.attributes,
     att.msExcerpt.attributes,
+    att.canonical.attributes,
     empty
   }
 tei_msContents =
@@ -3093,6 +3103,7 @@ tei_rubric =
     tei_macro.phraseSeq,
     att.global.attributes,
     att.typed.attributes,
+    att.canonical.attributes,
     empty
   }
 tei_summary =
@@ -3123,7 +3134,7 @@ att.msExcerpt.attribute.defective =
   ## indicates whether the passage being quoted is defective,
   ##       i.e. incomplete through loss or damage.
   [ a:defaultValue = "false" ]
-  attribute defective { xsd:boolean | "unknown" | "inapplicable" }?
+  attribute defective { xsd:boolean  | "yes" | "unknown" | "inapplicable" }?
 tei_physDesc =
   
   ## (physical description) contains a full physical description of a

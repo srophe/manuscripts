@@ -60,11 +60,16 @@
                         <repository>British Library</repository>
                         <collection>Christian Middle East Section</collection>
                         <idno type="URI">http://syriaca.org/manuscript/1153</idno>
-                        <altIdentifier type="BL">
-                            <idno>Egerton MS 704</idno>
+                        <altIdentifier>
+                            <idno type="BL-Shelfmark">Egerton MS 704</idno>
                         </altIdentifier>
-                        <altIdentifier type="Wright">
-                            <idno>Wright I</idno>
+                        <altIdentifier>
+                            <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                            <idno type="Wright-BL-Arabic">1</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                            <idno type="Wright-BL-Roman">I</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents class="Biblical Manuscripts: Old Testament">
