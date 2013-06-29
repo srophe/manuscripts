@@ -220,7 +220,7 @@
               <handDesc hands=""><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
                 <handNote xml:id="p1handNote1" scope="" script="" medium=""><!-- @xml:id should be sequentially assigned as "p1handNote1", "p1handNote2", and so on. If there is only one <msPart>, then the "p1" need not be included. -->
                   <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                  <!-- @script please use the ISO code combinations cited here: https://docs.google.com/document/d/17pO4a8PPWerLzqLlFfNqPNeHcyfNz_JR_iwAqKro5dM/edit -->
+                  <!-- @script please use the ISO code combinations cited here: ___ -->
                   <!-- @medium may contain any phrasing Wright may mention (using hyphens between words, not white space), or "unknown" if he does not -->
                   <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
                 </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->

@@ -9,30 +9,32 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
         <respStmt>
+          <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
-          <resp>Creator</resp>
         </respStmt>
         <respStmt>
+          <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
-          <resp>Editor</resp>
         </respStmt>
         <respStmt>
+          <resp>Syriac text entered by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
-          <resp>Syriac text entry</resp>
         </respStmt>
         <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
-          <resp>Greek and coptic entry and proofreading</resp>
         </respStmt>
         <respStmt>
+          <resp>Project management by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
-          <resp>Project Manager, Syriac Research Group, University of Alabama</resp>
         </respStmt>
         <respStmt>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac
-            Research Group, University of Alabama</name>
-          <resp>English text entry and proofreading</resp>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -57,28 +59,34 @@
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
-            <collection>Christian Middle East Section</collection>
+            <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/731</idno>
-            <altIdentifier type="BL">
-              <idno>Add MS 17104</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 17104</idno>
             </altIdentifier>
-            <altIdentifier type="Wright">
-              <idno>Wright XXV</idno>
-            </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">25</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">XXV</idno>
+              </altIdentifier>
           </msIdentifier>
         <msContents class="bible-ot">
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
           <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1b" to="49b"/>
+                <locus from="1" to="49"/>
             <title ref="http://syriaca.org/work/13" type="supplied">The first book of Chronicles, according to the Peshitta version.</title>
-                <rubric xml:lang="syr">ܣܦܪ ܕܘܒܪ ܝܘܡ̈ܬܐ ܕܡ̈ܠܟܐ ܕܝܗܘܕܐ ܕܡܬܩܪܐ ܣܦܪ  (%)ܕܒܪܝܡܝܢ . <locus from="1b"/></rubric>
+                <rubric xml:lang="syr">ܣܦܪ ܕܘܒܪ ܝܘܡ̈ܬܐ ܕܡ̈ܠܟܐ ܕܝܗܘܕܐ ܕܡܬܩܪܐ ܣܦܪ  (%)ܕܒܪܝܡܝܢ . <locus from="1b" to="1b"/></rubric>
                 <!-- ARABIC NEEDED ^^^-->
                 <note>The missing portions are : ch. xiv. 12—xvii. 27, and xxii. 8 to the end.</note>
               </msItem>
-              <msItem n="2" xml:id="a2"><locus from="49b" to="104b"/>
+              <msItem n="2" xml:id="a2" defective="true">
+                <locus from="49b" to="104b"/>
                 <title ref="http://syriaca.org/work/14" type="supplied">The second book of Chronicles, according to the Peshitta version.</title>
-                <rubric xml:lang="syr">ܦܠܓܘܬܐ ܐܚܪܝܬܐ ܕܣܦܪ ܕܒܪܝܡܝܢ<locus from="49b"/></rubric>
+                <rubric xml:lang="syr">ܦܠܓܘܬܐ ܐܚܪܝܬܐ ܕܣܦܪ ܕܒܪܝܡܝܢ<locus from="49b" to="49b"/></rubric>
                 <note>It commences with ch. vi. 1 of the Hebrew text. The missing portions are: ch. xviii. 19—29, xx. 24—32, and ch. xxix. 5 to the end.</note>
                </msItem>
             </msContents>
@@ -92,10 +100,10 @@
                     <measure type="composition" unit="leaf" quantity="104">104 ff.</measure>
                     <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="8.5" unit="in">8 1/2</measure><!-- Change @quantity and the human-readable text as necessary -->
+                        <measure type="height" quantity="8.5" unit="in">8 1/2</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="5.375" unit="in">5 3/8</measure><!-- Change @quantity and the human-readable text as necessary -->
+                        <measure type="width" quantity="5.375" unit="in">5 3/8</measure>
                       </width>
                     </dimensions>
                   </extent>
@@ -104,7 +112,7 @@
                     <p>The quires are at present 11 in number, but ܗ, ܙ, ܚ, and ܛ have been lost, as well as several at the end. What the original signatures of the quires were, does not appear; they are now signed with letters.</p>
                   </collation>
                   <condition>
-                    <p>Some of the leaves are much stained and torn, especially <locus>fol. 1, 2, 8, 28, 39, 47, 48, 55, 77, 78, 103 and 104</locus>. Leaves are also missing after <locus>foll. 79 and 84</locus>                      <!-- Reproduce Wright's prose regarding the condition, tagging any loci, persons, places, foreign words, etc. as necessary --></p>
+                    <p>Some of the leaves are much stained and torn, especially <locus>fol. 1, 2, 8, 28, 39, 47, 48, 55, 77, 78, 103 and 104</locus>. Leaves are also missing after <locus>foll. 79 and 84</locus></p>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
@@ -114,28 +122,28 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc>
-                <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="unknown">
+                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>The writing is a small, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate> </desc>
                 </handNote>
                 <handNote xml:id="handnote2" scope="minor" script="syr-Syrj" medium="uknown">
                   <desc>Numerous Greek vowels have been added by a later hand (α, ε, ⲏ, ω, ὄ and αυ; e.g. ܘܢܺܬܢܺܐܝܶܠ, ܘܐܘܨܡ, ܘܝܘܐܒ, ܝܬ, ܠܡ̇ܢܘ). The same hand that added the vowel-points has divided the books into sections, marked by Greek letters on the margins. The last of these in 1 Chronicles is ϊθ (ch. xxii. 2), <locus>fol. 48 a</locus>; and in 2 Chronicles (commencing with Δ) ΚΓ (ch. xxix. 1), <locus>fol. 104 b</locus>.</desc>
                 </handNote>
-                <!-- Missing other vowels on top of these syriac words!!! -->
+   <!-- Missing other vowels on top of these syriac words!!! -->
               </handDesc>
               <additions>
                 <p>There are also a few marginal notes and glosses</p>
                 <list>
-                  <item n="add1" xml:id="add1"><locus target="3a"/>
-                    <quote xml:lang="syr-Syrc">ܘܐܺܘܝܡ,</quote><label>marg.</label><quote xml:lang="grc">ηαμ</quote></item>
-                  <item n="add2" xml:id="add2"><locus target="11b"/>
+                  <item n="1" xml:id="addition1"><locus from="3a" to="3a"/>
+                    <quote xml:lang="syr">ܘܐܺܘܝܡ,</quote><label>marg.</label><quote xml:lang="grc">ηαμ</quote></item>
+                  <item n="2" xml:id="addition2"><locus from="11b" to="11b"/>
                     <quote/></item>
-                  <item n="add3" xml:id="add3"><locus target="11b"/>
-                    <quote xml:lang="syr-Syrc">ܣܩܐ̣</quote>,<label>marg.</label><quote xml:lang="grc">ⲤⲔⲰ</quote>;</item>
-                  <!-- GREEK not showing ^^^ -->
-                  <item n="add4" xml:id="add4"><locus target="30a"/>
-                    <quote xml:lang="syr-Syrc">ܕܩܒܨܝܐܝܠ</quote>, <label>marg.</label> <quote xml:lang="grc">ΚΑΒⲤΗΛ</quote><quote xml:lang="syr-Syrc">ܢܘܠܐ ܕܓܪ̈ܕܚܐ</quote>, <label>marg.</label> <quote xml:lang="syr-Syrc">ܚܘ̈ܟܶܐ </quote></item>
-                  <item n="add5" xml:id="add5"><locus target="36a"/>
-                    <quote xml:lang="syr-Sryc">ܘܕܒ̈ܠܐ. ܘܩܪ̈ܬܠܘܬܐ ܕܥ̈ܢܒܐ</quote>(1 Chron. xii. 40),<label>marg.</label><quote xml:lang="syr-Syrc">ܥ̈ܠܘܗܝ ܕܚܡܪܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܥܒܪ̈ܝܐ</quote> and <quote xml:lang="syr-Syrc">ܪ̈ܠܝܬܐ ܕܥ̈ܢܒܐ </quote> </item>
+                  <item n="3" xml:id="addition3"><locus from="11b" to="11b"/>
+                    <quote xml:lang="syr">ܣܩܐ̣</quote>,<label>marg.</label><quote xml:lang="grc">ⲤⲔⲰ</quote>;</item>
+      <!-- GREEK not showing ^^^ -->
+                  <item n="4" xml:id="addition4"><locus from="30a" to="30a"/>
+                    <quote xml:lang="syr">ܕܩܒܨܝܐܝܠ</quote>, <label>marg.</label> <quote xml:lang="grc">ΚΑΒⲤΗΛ</quote><quote xml:lang="syr">ܢܘܠܐ ܕܓܪ̈ܕܚܐ</quote>, <label>marg.</label> <quote xml:lang="syr">ܚܘ̈ܟܶܐ</quote></item>
+                  <item n="5" xml:id="addition5"><locus from="36a" to="36a"/>
+                    <quote xml:lang="syr">ܘܕܒ̈ܠܐ. ܘܩܪ̈ܬܠܘܬܐ ܕܥ̈ܢܒܐ</quote>(1 Chron. xii. 40),<label>marg.</label><quote xml:lang="syr">ܥ̈ܠܘܗܝ ܕܚܡܪܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܥܒܪ̈ܝܐ</quote> and <quote xml:lang="syr">ܪ̈ܠܝܬܐ ܕܥ̈ܢܒܐ </quote> </item>
                 </list>
               </additions>
             </physDesc>
@@ -153,14 +161,14 @@
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
+              <bibl xml:id="Wright">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                <citedRange unit="entry">XXV</citedRange>
+                <citedRange unit="pp">I:16-17</citedRange>
               </bibl>
             </listBibl>
           </additional>
