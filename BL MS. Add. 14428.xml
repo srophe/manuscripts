@@ -1,6 +1,6 @@
 ﻿<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
