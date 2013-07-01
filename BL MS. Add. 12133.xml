@@ -78,7 +78,7 @@
                                 <idno type="Wright-BL-Roman">IX</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents class="bible-ot">
+                        <msContents>
                             <summary/>
                             <textLang mainLang="syr">Syriac</textLang>
                             <msItem n="1" xml:id="p1a1" defective="false">
@@ -124,34 +124,34 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
-                                <handNote xml:id="p1handnotea1" scope="major" script="syr-Syre" medium="unknown">
+                                <handNote xml:id="p1handnote1" scope="major" script="syr-Syre" medium="unknown">
                                     <desc>The character is an elegant, regular Estrangela, of the earlier half of the 
                                         <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.</desc></handNote>
-                                <handNote xml:id="p1handnotea2" scope="minor" script="syr-Syrj" medium="unknown">
+                                <handNote xml:id="p1handnote2" scope="minor" script="syr-Syrj" medium="unknown">
                                     <desc>Vowels have been added in a few cases by a later hand (e.g. foll. <locus>15b and 16a</locus>, ܰ, ܶ, ܺ, ܳ,
                                         , ).</desc></handNote>
-      <!-- Missing Syriac vowels  -->
-                                <handNote xml:id="p1handnotea3" scope="minor" script="syr-Syrc" medium="unknown">
+      <!--Missing Syriac vowels-->
+                                <handNote xml:id="p1handnote3" scope="minor" script="syr-Syrc" medium="unknown">
                                     <locus from="2a" to="2a"/>
                                     <listPerson>
-                                        <person role="scribe" xml:id="Serg_Abraham" corresp="">
+                                        <person role="scribe" xml:id="Sergius-Bar-Abraham">
                                             <persName xml:lang="eng">Deacon Sergius bar Abraham, of
-                                                Rīsh’ainā or Rās’ain (%)</persName>
-         <!-- NEED ARABIC ^ -->
+                                                Rīsh’ainā or Rās’ain</persName>
+         <!--NEED ARABIC-->
                                         </person>
                                     </listPerson>
                                 </handNote>
-                                <handNote xml:id="p1handnotea4" scope="minor" script="syr-Syre"
+                                <handNote xml:id="p1handnote4" scope="minor" script="syr-Syre"
                                     medium="unknown">
                                     <locus from="2a" to="2a"/>
                                     <desc>Note written in large open Estrangela characters.</desc>
                                 </handNote>
-                                <handNote xml:id="p1handnotea5" scope="minor" script="syr-Syrc"
+                                <handNote xml:id="p1handnote5" scope="minor" script="syr-Syrc"
                                     medium="unknown">
                                     <locus from="107b" to="107b"/>
                                     <locus from="108a" to="108a"/>
                                     <listPerson>
-                                        <person role="scribe" xml:id="Moses_Nisibis" corresp="" ref="http://syriaca.org/person/647">
+                                        <person role="scribe" xml:id="Moses_Nisibis" ref="http://syriaca.org/person/647">
                                             <persName xml:lang="eng">Moses of Nisibis, abbat of the
                                                 convent of S. Mary Deipara in the desert of Scete
                                                 (A. Gr. 1243, A.D. 932)</persName>
@@ -159,7 +159,7 @@
                                         </person>
                                     </listPerson>
                                     <desc><label>Subscription</label> on <locus>107b</locus> and note on <locus>108a</locus> in the handwriting of
-                                        <persName xml:id="Moses_Nisbis">Moses of Nisibis</persName>, abbat of the convent of S. Mary Deipara in
+                                        <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, abbat of the convent of S. Mary Deipara in
                                         the desert of Scete (A. Gr. 1243, A.D. 932).</desc>
                                 </handNote>
                             </handDesc>
@@ -193,16 +193,18 @@
                                         <locus from="108a" to="108a"/>
                                         <desc>What originally followed has been
                                             erased, and in its place we read, in the handwriting of
-                                            <persName xml:id="Moses_Nisbis">Moses of Nisibis</persName>, abbat of the convent of S. Mary
-                                            Deipara in the desert of Scete<bibl> (A. Gr. 1243, A.D. 932)</bibl>,
+                                            <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, abbat of the <placeName>convent of S. Mary
+                                                Deipara</placeName> in the <placeName>desert of Scete</placeName><date>(A. Gr. 1243,</date><date> A.D. 932)</date>,
                                             that this book was procured by him for the library of the said convent.
-                                            <bibl>See the notes in his handwriting in many other volumes
-                                            of this collection, and also Assemani, Bibl. Or. t. i.
-                                            p. 83, t. ii. p. 118; Cureton, the Festal Letters of
+                                            See the notes in his handwriting in many other volumes
+                                            of this collection, and also <bibl>Assemani, Bibl. Or. t. i.
+                                            p. 83, t. ii. p. 118;</bibl> <bibl>Cureton, the Festal Letters of
                                             Athanasius, preface, p. xxiv., note.</bibl></desc>
                                         <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ
-                                            ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ ܡܘܫܐ ܢܨܝܒܝܢܝܐ
-                                            ܪܝܫܕܝܪܐ. ܘܐܚܪܡܬ ܒܡܠܬܐ ܕܐܠܗܐ ܥܠ ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܐܘ
+                                            ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ 
+                                            <persName ref="http://syriaca.org/person/647">ܡܘܫܐ ܢܨܝܒܝܢܝܐ
+                                            ܪܝܫܕܝܪܐ</persName>.
+                                            ܘܐܚܪܡܬ ܒܡܠܬܐ ܕܐܠܗܐ ܥܠ ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܐܘ
                                             ܡܘܒܕ ܘܡܫܓܢܐ ܠܟܬܒܐ ܗܢܐ ܡܢܗ̇ ܕܕܝܪܐ ܒܚܕ ܡܢ ܙܢܝ̈ܢ. ܘܡ̇ܢ ܕܣܥܐ
                                             ܥܠ ܗܠܝܢ܆ ܚܪܡܗ ܕܐܠܗܐ ܘܪܘܓܙܗ ܘܠܘܛܬܗ ܢܗܘܘܢ ܥܠܘܗܝ. ܘܟܠ ܕܢܛܪ
                                             ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ
@@ -269,7 +271,7 @@
                                 <idno type="Wright-BL-Roman">LI</idno>
                             </altIdentifier>
                         </msIdentifier>
-                        <msContents class="bible-ot">
+                        <msContents>
                             <summary/>
                             <textLang mainLang="syr">Syriac</textLang>
                             <msItem n="1" xml:id="p2a1" defective="true">
@@ -420,12 +422,27 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident=""><!-- Add in description of lanuages and scripts --></language>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+                <language ident="syr-Syre">Syriac in Estrangela</language>
+                <language ident="syr-Syrj">Vocalized West Syriac</language>
+                <language ident="syr-Syrn">Vocalized East Syriac</language>
+                <language ident="syr-x-syrm">Melkite Syriac</language>
+                <language ident="syr-x-syrp">Palestinian Syriac</language>
+                <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+                <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+                <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="la">Latin</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="cop">Coptic</language>
             </langUsage>
             <textClass><!-- Should Wright's running header go here? --></textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+            <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
             <change type="planned" subtype="arabic">Add missing Arabic text.</change>
             <change type="planned" subtype="vowels">Add missing Syriac vowels.</change>
             <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>

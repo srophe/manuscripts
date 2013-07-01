@@ -10,9 +10,12 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">
+          David A. michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
@@ -458,12 +461,36 @@
         <taxonomy><!-- Wright heading information here. --></taxonomy>
       </classDecl>
     </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident=""><!-- Add in description of lanuages and scripts --></language>
-      </langUsage>
-      <textClass><!-- Should Wright's running header go here? --></textClass>
-    </profileDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="syr">Unvocalized Syriac of any variety or period</language>
+          <language ident="syr-Syre">Syriac in Estrangela</language>
+          <language ident="syr-Syrj">Vocalized West Syriac</language>
+          <language ident="syr-Syrn">Vocalized East Syriac</language>
+          <language ident="syr-x-syrm">Melkite Syriac</language>
+          <language ident="syr-x-syrp">Palestinian Syriac</language>
+          <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+          <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+          <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+          <language ident="en">English</language>
+          <language ident="ar">Arabic</language>
+          <language ident="fr">French</language>
+          <language ident="de">German</language>
+          <language ident="la">Latin</language>
+          <language ident="grc">Ancient Greek</language>
+          <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+        <list>
+          <item>
+            <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
+            <ref target="#bible-nt"/>       
+          </item>
+        </list>
+        </keywords>
+      </textClass>
+      </profileDesc>
     <revisionDesc>
       <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
