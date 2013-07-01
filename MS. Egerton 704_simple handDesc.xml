@@ -9,6 +9,9 @@
                 <funder>The National Endowment for the Humanities</funder>
                 <funder>The Andrew W. Mellon Foundation</funder>
                 <principal>David A. Michelson</principal>
+                <editor role="general-editor">
+                    <name type="person" ref="http://syriaca.org/editors.xml#dmichelson">
+                        David A. michelson</name></editor>
                 <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
                 <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
                 <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
