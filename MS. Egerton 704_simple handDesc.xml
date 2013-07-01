@@ -81,7 +81,7 @@
                         <msItem n="1" xml:id="a1">
                             <locus from="1a" to="376b">ff. 1a-376b</locus>
                             <author key=""/>
-                            <title ref="http://syriaca.org/work/69" type="supplied">The whole of the Scriptures of the Old Testament, according to the Peshitta version, with the Apocrypha.</title><!-- URIs for works still needed -->
+                            <title ref="http://syriaca.org/work/69" type="supplied">The whole of the Scriptures of the Old Testament, according to the Peshitta version, with the Apocrypha.</title>
                             <msItem n="2" xml:id="b1">
                                 <locus from="2a" to="77">ff. 2a-77</locus>
                                 <author key=""/>
@@ -445,8 +445,9 @@
                         </handDesc>
                         <decoDesc/>
                         <additions>
-                            <p>To several of the books short notes are prefixed, giving some account of the writer, date, etc. As in the Bodleian and Vatican MMS. mentioned in Dr. Payne Smith's Catalogue of the Syriac MSS. in the
-                                Bodleian Library (Oxford, 1864), nos. 1 and 2; and also Assemani, Manuscriptorum Codd. Bibl. Apost. Vat. Catalogus (Rom. 1756-58), t. ii. p. 14, no. vii.</p><!-- How do we want to mark up this paragraph? -->
+                            <p xml:id="addition8">To several of the books short notes are prefixed, giving some account of the writer, date, etc. As in the Bodleian and Vatican MSS. mentioned in <bibl>Dr. Payne Smith's Catalogue of the Syriac MSS. in the
+                                Bodleian Library (Oxford, 1864), nos. <msIdentifier><idno>1</idno></msIdentifier> and <msIdentifier><idno>2</idno></msIdentifier></bibl>; and also <bibl>Assemani, Manuscriptorum Codd. Bibl. Apost. Vat. Catalogus (Rom. 1756-58), t. ii. p. 14, no. <msIdentifier><idno>vii</idno></msIdentifier>.</bibl></p>
+                            <!-- Need to work out where to put the URIs -->
                             <list>
                                 <item n="1" xml:id="addition1">
                                     <label/>
@@ -504,7 +505,7 @@
                                     <label/>
                                     <locus from="1">Fol. 1</locus>
                                     <quote>This MS. is the property of <persName ref="">Dr. Adam Clarke, of Millbrook, Lanch</persName>.</quote>
-                                    <p>See the Catalogue of the European and Asiatic Manuscripts in the Library of the late Dr. Adam Clarke, by J.B.B. Clarke (Lond. 1835), p. 203, no. 249</p><!-- How would we like to mark this up? -->
+                                    <p>See the <bibl>Catalogue of the European and Asiatic Manuscripts in the Library of the late Dr. Adam Clarke, by J.B.B. Clarke (Lond. 1835), p. 203, no. <msIdentifier><idno>249</idno></msIdentifier></bibl></p>
                                 </item>
                             </list>
                             <catchwords/>
