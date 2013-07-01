@@ -9,34 +9,32 @@
                 <funder>National Endowment for the Humanities</funder>
                 <funder>Andrew W. Mellon Foundation</funder>
                 <principal>David A. Michelson</principal>
+                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
+                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
+                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
                 <respStmt>
-                    <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J.
-                        Greeson</name>
-                    <resp>Creator</resp>
+                    <resp>Created by</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
                 </respStmt>
                 <respStmt>
+                    <resp>Edited by</resp>
                     <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
-                    <resp>Editor</resp>
                 </respStmt>
                 <respStmt>
-                    <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert
-                        Aydin</name>
-                    <resp>Syriac text entry</resp>
+                    <resp>Syriac text entered by</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
                 </respStmt>
                 <respStmt>
-                    <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan
-                        Stitt</name>
-                    <resp>Greek and coptic entry and proofreading</resp>
+                    <resp>Greek and coptic text entry and proofreading by</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
                 </respStmt>
                 <respStmt>
-                    <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth
-                        Walston</name>
-                    <resp>Project Manager, Syriac Research Group, University of Alabama</resp>
+                    <resp>Project management by</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
                 </respStmt>
                 <respStmt>
-                    <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup"
-                        >Syriac Research Group, University of Alabama</name>
-                    <resp>English text entry and proofreading</resp>
+                    <resp>English text entry and proofreading by</resp>
+                    <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -63,18 +61,23 @@
                         <repository>British Library</repository>
                         <collection>Oriental Manuscripts</collection>
                         <idno type="URI">http://syriaca.org/manuscript/84</idno>
-                        <altIdentifier type="BL">
-                            <idno>Add MS 14428</idno>
+                        <altIdentifier>
+                            <idno type="BL-Shelfmark">Add MS 14428</idno>
                         </altIdentifier>
-                        <altIdentifier type="Wright">
-                            <idno>Wright XI</idno>
+                        <altIdentifier>
+                            <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                            <idno type="Wright-BL-Arabic">11</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                            <idno type="Wright-BL-Roman">XI</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents class="bible-ot">
                         <summary/>
-                        <textLang mainLang="syr-Syrc">Syriac</textLang>
-                        <msItem n="1" xml:id="a1">
-                            <locus from="1" to="89">ff. 1-89</locus>
+                        <textLang mainLang="syr">Syriac</textLang>
+                        <msItem n="1" xml:id="a1" defective="true">
+                            <locus from="1" to="89"/>
                             <title ref="http://syriaca.org/work/3">The book of Numbers, according to
                                 the Peshitta version</title>
                             <note>Commences with ch. iii. 14.</note> 
@@ -111,12 +114,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote xml:id="handnote1" scope="major" script="syr-Syre"
+                            <handNote xml:id="handNote1" scope="major" script="syr-Syre"
                                 medium="unknown">
                                 <desc>This manuscript is written in a beautiful, regular Estrangela
                                     around <origDate notBefore="0724" notAfter="0725">A.D.
                                         724</origDate>.</desc>
-                                <locus from="1" to="89">1-89 ff.</locus>
                                 <listPerson>
                                     <person role="scribe" xml:id="Saba_Rasain" corresp="">
                                         <persName xml:lang="eng">Deacon Sābā of Rās’ain</persName>
@@ -124,9 +126,9 @@
                                     </person>
                                 </listPerson>
                             </handNote>
-                            <handNote xml:id="handnote2" scope="minor" script="syr-Syrc"
+                            <handNote xml:id="handNote2" scope="minor" script="syr-Syrc"
                                 medium="unknown">
-                                <locus from="89a" to="89a">89a f.</locus>
+                                <locus from="89a" to="89a"/>
                                 <listPerson>
                                     <person role="scribe" xml:id="Serg_Abraham" corresp="">
                                         <persName xml:lang="eng">Deacon Sergius bar Abraham, of
@@ -135,14 +137,14 @@
                                     </person>
                                 </listPerson>
                             </handNote>
-                            <handNote xml:id="handnote3" scope="minor" script="syr-Syrc"
+                            <handNote xml:id="handNote3" scope="minor" script="syr-Syrc"
                                 medium="unknown">
-                                <locus from="89b" to="89b">89b f.</locus>
+                                <locus from="89b" to="89b"/>
                                 <desc>Two notes in a small and neat hand.</desc>
                             </handNote>
                             <handNote xml:id="handnote4" scope="minor" script="syr-Syrc"
                                 medium="unknown">
-                                <locus from="89a" to="89a">fol. 89a.</locus>
+                                <locus from="89a" to="89a"/>
                                 <listPerson>
                                     <person role="scribe" xml:id="Abraham_Beth-Severinna" corresp="">
                                         <persName xml:lang="eng">Abraham, who is in name a monk,
@@ -156,29 +158,29 @@
                         </handDesc>
                         <additions>
                             <list>
-                                <item n="1" xml:id="m1"><locus target="89a">89a</locus><ref target="#a1"/>
-                                    <p><label>Subscription</label></p>
-                                    <quote xml:lang="syr-Syrc">ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</quote>
+                                <item n="1" xml:id="addition1"><locus from="89a" to="89a"/><ref target="#a1"/>
+                                    <desc><label>Subscription</label></desc>
+                                    <quote xml:lang="syr">ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</quote>
                                 </item>
-                                <item n="2" xml:id="m2"><locus target="89a">89a</locus><ref target="#a1"/>
-                                    <quote><label>Doxology</label> following subscription</quote>
-                                    <quote xml:lang="syr-Syrc">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
+                                <item n="2" xml:id="addition2"><locus from="89a" to="89a"/><ref target="#a1"/>
+                                    <desc><label>Doxology</label> following subscription</desc>
+                                    <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
                                         ܐܡܝܢ.</quote>
                                 </item>
-                                <item n="3" xml:id="m3"><locus target="89a">89a</locus><ref target="#a1"/>
-                                    <p><label>Note</label> following doxology and in smaller
-                                        letters.</p>
+                                <item n="3" xml:id="addition3"><locus from="89a" to="89a"/><ref target="#a1"/>
+                                    <desc><label>Note</label> following doxology and in smaller
+                                        letters.</desc>
                                     <quote>"Jesus God, have mercy on Sābā the scribe of Rās’ain, who
-                                        wrote this book, and did not write in it a blotted tau." See
+                                        wrote this book, and did not write in it a blotted tau."</quote> <desc>See
                                         Add. 12,135, part first, and Add. 14,430, where we have the
-                                        dates A.D. 726 and 724.</quote>
-                                    <quote xml:lang="syr-Syrc">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ
+                                        dates A.D. 726 and 724.</desc>
+                                    <quote xml:lang="syr">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ
                                         ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒܗ.</quote>
-                                    <!-- Question about dots in the Syriac -->
+                   <!-- Question about dots in the Syriac -->
                                 </item>
-                                <item n="4" xml:id="m4">
-                                    <locus target="89b">Fol. 89b</locus><ref target="#a1"/>
-                                    <p><label>Note</label> stating: <quote>""Our Lord Jesus the Messiah,
+                                <item n="4" xml:id="addition4">
+                                    <locus from="89b" to="89b"/><ref target="#a1"/>
+                                    <desc><label>Note</label> stating: </desc><quote>""Our Lord Jesus the Messiah,
                                         have mercy on the feeble, sinful and miserable (man), who
                                         has need of the mercy of God, Rūbīl (Reuben) the sinful
                                         deacon, who read this Testament with his master Mār Abraham
@@ -189,12 +191,12 @@
                                         for Rūbīl the sinner, who sewed, and read, and renovated,
                                         and for Abraham his master abundantly and especially,
                                         (saying:) May my prayer intercede for them, Amen. "Written
-                                        by the scribe Rām-īd (?), may God pardon him."</quote> The second
+                                        by the scribe Rām-īd (?), may God pardon him."</quote> <desc>The second
                                         letter of this word is rather indistinctly written. It
-                                        appears to be derived from the name of Hah, a Jacobite <bibl>see
+                                        appears to be derived from the name of Hah, a Jacobite </desc><bibl>see
                                         (Assem., Bibl. Or., t. ii., Dissert. de Monophysitis, art.
-                                        ix., Haa, ܚܰܐܚ</bibl></p>
-                                    <quote xml:lang="syr-Syrc">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ
+                                        ix., Haa, ܚܰܐܚ</bibl>
+                                    <quote xml:lang="syr">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ
                                         ܘܣ̇ܢܝܩ ܥܠ ܪܚ̈ܡܐ ܕܐܠܗܐ ܪܘܒܝܠ ܡܫܡܫܢܐ ܚ̇ܛܝܐ ܕܐܩܪܗ̇ (sic)
                                         ܠܕܝܬܐܝܩܐ ܗܕܐ ܡܢ ܪܒܐ ܕܝܠܗ ܡܪܝ ܐܒܪܗܡ ܚܚܘܢܝܐ ܘܣܝܡ̇ܘܢ ܒܗ̇ ܘܚܕܬܘܢ
                                         ܒܗ̇ ܘܓܪܕܘܢ ܡܢܗ̇. ܒܪܡ ܕܝܢ ܒܘܠܝܬܐ ܣܥܪܘܢ ܗܕܐ. ܐܠܐ ܒܪܟܡܪܝ ܕܟܠ
@@ -202,8 +204,8 @@
                                         ܐܒܪܗܡ ܪܒ̣ܐ ܕܝܠܗ ܣܓܝ ܘܝܬܝܪܐܝܬ. ܨܠܘܬܝ ܬܦܝܣ ܚܠܦܝܗܘܢ ܐܡܝܢ. ܣܪܛ
                                         ܪܡܝܕܝ (?)ܟܬܘܒܐ ܐܠܗܐ ܚܣ̣ܐ ܠܗ..</quote>
                                 </item>
-                                <item n="5" xml:id="m5">
-                                    <locus from="89b">Fol. 89b</locus><ref target="#a1"/>
+                                <item n="5" xml:id="addition5">
+                                    <locus from="89b" to="89b"/><ref target="#a1"/>
                                     <p><label>Note</label> stating: <quote>"These things took place in the
                                         year 1128 (A.D. 817), in the days of the honoured and
                                         Christ-loving abbat Mār Thomas, warden of this holy convent.
@@ -211,7 +213,7 @@
                                         transgressions, through the heard and accepted prayers of
                                         the Mother of God the Virgin Mary, on account of his care of
                                         this church. And may every one," etc.</quote></p>
-                                    <quote xml:lang="syr-Syrc">ܗܘ̈ܝ ܕܝܢ ܗܠܝܢ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ.
+                                    <quote xml:lang="syr">ܗܘ̈ܝ ܕܝܢ ܗܠܝܢ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ.
                                         ܒܝ̈ܘܡܝ ܡܝܩܪܐ ܘܪܚ̇ܡ ܠܡܫܝܚܐ ܡܪܝ ܬܐܘܡܐ ܪܝܫܕܝܪܐ ܘܩܘܢܟܝܐ ܕܥܘܡܪܐ
                                         ܗܢܐ ܩܕܝܫܐ. ܡ̇ܚܣܐ ܡܪܝܐ ܟܠܗܘܢ ܒܘܨܪ̈ܘܗܝ ܘܡܬܥܒܪ̈ܢܘܬܐ ܕܝܠܗ.
                                         ܒ̈ܨܠܘܬܐ ܫܡ̈ܝܥܬܐ ܘܡ̈ܩܒܠܬܐ ܕܝ̇ܠܕܬ ܐܠܗܐ ܒܬܘܠܬܐ ܡܪܝܡ ܡܛܠ

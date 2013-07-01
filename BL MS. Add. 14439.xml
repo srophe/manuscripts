@@ -10,35 +10,32 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
+        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
         <respStmt>
+          <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
-          <resp>Creator</resp>
         </respStmt>
         <respStmt>
+          <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
-          <resp>Editor</resp>
         </respStmt>
         <respStmt>
+          <resp>Syriac text entered by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
-          <resp>Syriac text entry</resp>
         </respStmt>
         <respStmt>
-          <name type="person" ref="http://syriaca.org/editors.xml#pkirlles">Philemon Kirlles</name>
-          <resp>Arabic text entry</resp>
-        </respStmt>
-        <!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
-        <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
-          <resp>Greek and coptic entry and proofreading</resp>
         </respStmt>
         <respStmt>
+          <resp>Project management by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
-          <resp>Project Manager, Syriac Research Group, University of Alabama</resp>
         </respStmt>
         <respStmt>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac
-            Research Group, University of Alabama</name>
-          <resp>English text entry and proofreading</resp>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
