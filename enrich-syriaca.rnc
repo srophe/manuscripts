@@ -1626,6 +1626,7 @@ tei_editor =
   element editor {
     tei_macro.phraseSeq,
     att.global.attributes,
+    att.canonical.attributes,
     
     ## specifies the nature of the intellectual responsibility
     [ a:defaultValue = "editor" ] attribute role { xsd:Name }?,

@@ -9,9 +9,11 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
@@ -430,7 +432,7 @@
                 <idno type="Wright-BL-Roman">DCCXII</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents>
+            <msContents class="">
               <summary></summary>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p4a1">
@@ -531,7 +533,7 @@
                 <idno type="Wright-BL-Roman">DCCVII</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents>
+            <msContents class="">
               <summary></summary>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p5a1">
@@ -877,6 +879,7 @@
               <provenance>
                 <p>A note on <locus from="197a">fol. 197a</locus> informs us that this volume belonged to <placeName xml:lang="eng">the convent of S. Mary Deipara</placeName>: <title xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪ̈ܝܐ ܕܒܡܕܒܪܐ ܕܡܨܪܝܢ. ܘ܏ܫ</title>.</p>
               </provenance>
+              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -885,16 +888,14 @@
                     <bibl><ref target="#Wrightpart7">Wright's Catalogue</ref></bibl>.
                     abbreviated by the Syriaca.org project team.</source>
                 </recordHist>
-                <availability status="restricted">
-                  <p/>
-                </availability>
+                <availability status="restricted"/>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
                 <bibl xml:id="Wrightpart7">
                   <author>William Wright</author>
-                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the
-                    British Museum Acquired since the Year 1838</title>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
@@ -920,14 +921,62 @@
         </taxonomy>
       </classDecl>
     </encodingDesc>
-    <profileDesc>
-      <textClass>
-      </textClass>
-    </profileDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="syr">Unvocalized Syriac of any variety or period</language>
+      <language ident="syr-Syre">Syriac in Estrangela</language>
+      <language ident="syr-Syrj">Vocalized West Syriac</language>
+      <language ident="syr-Syrn">Vocalized East Syriac</language>
+      <language ident="syr-x-syrm">Melkite Syriac</language>
+      <language ident="syr-x-syrp">Palestinian Syriac</language>
+      <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+      <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+      <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+      <language ident="en">English</language>
+      <language ident="ar">Arabic</language>
+      <language ident="fr">French</language>
+      <language ident="de">German</language>
+      <language ident="la">Latin</language>
+      <language ident="grc">Ancient Greek</language>
+      <language ident="cop">Coptic</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="#Wright-BL-Taxonomy">
+        <list>
+          <item>
+            <ref target="#Part1"/> 
+            <ref target="#theo-single"/>       
+          </item>
+          <item>
+            <ref target="#Part2"/> 
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part3"/> 
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part4"/> 
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part5"/> 
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part6"/> 
+            <ref target="#bible-ot"/>       
+          </item>
+          <item>
+            <ref target="#Part7"/> 
+            <ref target="#bible-ot"/>       
+          </item>
+        </list>
+      </keywords>
+    </textClass>
+  </profileDesc>
     <revisionDesc>
-      <change when="2012-11-13">
-        <persName></persName>
-      </change>
+      <change when="2012-11-13" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
     </revisionDesc>
 </teiHeader>
   <facsimile>
