@@ -3268,7 +3268,7 @@ tei_handDesc =
   
   ## (description of hands) contains a description of all the different kinds of writing  used in a manuscript.
   element handDesc {
-    (tei_model.pLike+ | (tei_summary?, tei_handNote+)),
+    (tei_model.pLike?, tei_summary?, tei_handNote+),
     att.global.attributes,
     
     ## specifies the number of distinct hands identified within the manuscript
