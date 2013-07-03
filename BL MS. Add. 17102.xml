@@ -57,7 +57,7 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-" xml:lang="en"> <!-- CHECK THIS -->
+        <msDesc xml:id="manuscript-729" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
@@ -83,10 +83,9 @@
           <msContents>
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
-            <msItem n="1" xml:id="a1">
+            <msItem n="1" xml:id="a1" defective="true">
               <locus from="1" to="60"/>
-              <title ref="">The book of Joshua, according to the Peshitta version.</title>
-       <!-- !!CHECK URI FOR!! -->
+              <title ref="http://syriaca.org/work/6">The book of Joshua, according to the Peshitta version.</title>
               <note>Commencences with ch. iv. 7. Some of the lessons are rubricated in the text, the end of each being indicated
                   by the letter ܫ; others are marked on the margins by references to an index, ܦܘܪܫ
                   ܩܪ̈ܝܢܐ, which is now lost.
@@ -218,6 +217,25 @@
             <origin>
               <origDate notBefore="0599" notAfter="0600">Dated A. Gr. 910, A.D. 599</origDate>
             </origin>
+            <provenance>
+              <list>
+                <item n="1" xml:id="provenance1"><ref target="addition1"/>
+                  <desc>Long Note stating that this manuscript was written in the year
+                 <date>910</date>, and collated with another copy of the school of the Armenians. The names of
+                  the man at whose expense it was transcribed, and of the convent to which he gave
+                 it, were altered by the hand of a person from the village of <placeName>Kěphar-Darīn</placeName>, who
+                 added a few lines, informing us that the manuscript was incorporated with the
+                 library of the <placeName>convent of Mār Daniel at Kěphar-Bīl</placeName> ܕܟܣ̈ܝܗ (?), near Antioch,
+                 when Thomas was abbat, the priest Simeon his deputy, and the priest Moses
+                 librarian. The name of this man has in turn been erased by one <persName>Yazdīn bar Dūmā</persName></desc></item>
+                <item n="2" xml:id="provenance2"><ref target="addition2"/>
+                  <desc>More recent <label>note</label>A more recent note, on fol. <locus>59b</locus>, records that
+                    <persName>Pāpā bar Dūmā</persName> of <placeName>Tagrīt</placeName> (Tecrit) presented this book to the <placeName>convent of S. Mary
+                      Deipara</placeName>, by the hands of Matthew and Abraham of <placeName>Tagrīt</placeName>. The latter part of this
+                    note, from <quote xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</quote> to the end, is in a different hand from the former part.</desc>                  
+                </item>
+              </list>
+            </provenance>
           </history>
           <additional>
             <adminInfo>
@@ -259,9 +277,57 @@
             as possible, including tables of contents and indices.</p>
         </interpretation>
       </editorialDecl>
-      <classDecl>
-        <taxonomy> </taxonomy>
-      </classDecl>
+        <classDecl>
+          <taxonomy xml:id="Wright-BL-Taxonomy">
+            <bibl target="#Wright"/>
+            <category xml:id="biblical-manuscripts">
+              <category xml:id="bible-ot"/>
+              <category xml:id="bible-nt"/>
+              <category xml:id="bible-apocrypha"/>
+              <category xml:id="bible-punctuation"/>
+            </category>
+            <category xml:id="service-books">
+              <category xml:id="psalter"/>
+              <category xml:id="lectionaries"/>
+              <category xml:id="missals"/>
+              <category xml:id="sacerdotals"/>
+              <category xml:id="choral"/>
+              <category xml:id="hymns"/>
+              <category xml:id="prayers"/>
+              <category xml:id="funerals"/>
+            </category>
+            <category xml:id="theology">
+              <category xml:id="theo-single"/>
+              <category xml:id="theo-collected"/>
+              <category xml:id="theo-catenae"/>
+              <category xml:id="theo-anonymous"/>
+              <category xml:id="theo-council"/>
+            </category>
+            <category xml:id="wright-history">
+              <category xml:id="history"/>
+            </category>
+            <category xml:id="lives">
+              <category xml:id="lives-collect"/>
+              <category xml:id="lives-single"/>
+            </category>
+            <category xml:id="scientific-lit">
+              <category xml:id="sci-logic"/>
+              <category xml:id="sci-grammar"/>
+              <category xml:id="sci-ethics"/>
+              <category xml:id="sci-medicine"/>
+              <category xml:id="sci-agriculture"/>
+              <category xml:id="sci-chemistry"/>
+              <category xml:id="sci-natural-history"/>
+            </category>
+            <category xml:id="wright-fly-leaves">
+              <category xml:id="fly-leaves"/>
+            </category>
+            <category xml:id="appendices">
+              <category xml:id="appendix-a"/>
+              <category xml:id="appendix-b"/>
+            </category>
+          </taxonomy>
+        </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -286,7 +352,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
+              <ref target="#Part1"/>  
               <ref target="#bible-ot"/>       
             </item>
           </list>

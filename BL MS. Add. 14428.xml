@@ -73,7 +73,7 @@
                             <idno type="Wright-BL-Roman">XI</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msContents class="bible-ot">
+                    <msContents>
                         <summary/>
                         <textLang mainLang="syr">Syriac</textLang>
                         <msItem n="1" xml:id="a1" defective="true">
@@ -173,7 +173,7 @@
                                     <quote>"Jesus God, have mercy on Sābā the scribe of Rās’ain, who
                                         wrote this book, and did not write in it a blotted tau."</quote> <desc>See
                                         Add. 12,135, part first, and Add. 14,430, where we have the
-                                        dates A.D. 726 and 724.</desc>
+                                        dates A.D. <date>726</date> and <date>724</date>.</desc>
                                     <quote xml:lang="syr">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ
                                         ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒܗ.</quote>
                    <!-- Question about dots in the Syriac -->
@@ -208,7 +208,7 @@
                                     <locus from="89b" to="89b"/><ref target="#a1"/>
                                     <p><label>Note</label> stating: <quote>"These things took place in the
                                         year 1128 (A.D. 817), in the days of the honoured and
-                                        Christ-loving abbat Mār Thomas, warden of this holy convent.
+                                        Christ-loving abbat <persName>Mār Thomas</persName>, warden of this holy convent.
                                         May the Lord forgive all his shortcomings and
                                         transgressions, through the heard and accepted prayers of
                                         the Mother of God the Virgin Mary, on account of his care of
@@ -222,8 +222,8 @@
                                 <item n="6" xml:id="m6">
                                     <locus target="89a">Fol. 89a</locus><ref target="#a1"/>
                                     <quote><label>Maginal Note</label> stating:""The wretched Abraham,
-                                        who is in name a monk, from Beth-Severīnna, from the convent
-                                        of Mār Gabriel, fell in with this book in the year 1794 (AD.
+                                        who is in name a monk, from <placeName>Beth-Severīnna</placeName>, from the <placeName>convent
+                                        of Mār Gabriel</placeName>, fell in with this book in the year 1794 (AD.
                                         1483). Let him who reads," etc." <bibl>See Assemani, Bibl. Or.,
                                         t. i. p. 216.</bibl></quote>
                                     <quote xml:lang="syr-Syrc">ܦܓܥ ܒܟܬܒܐ ܗܢܐ ܐܒܪܗܡ ܕܘܝܐ ܕܒܫܡ ܕܝܪܝܐ ܡܢ ܒܝܬ
@@ -282,17 +282,89 @@
                 </interpretation>
             </editorialDecl>
             <classDecl>
-                <taxonomy><!-- Wright heading information here. --></taxonomy>
+                <taxonomy xml:id="Wright-BL-Taxonomy">
+                    <bibl target="#Wright"/>
+                    <category xml:id="biblical-manuscripts">
+                        <category xml:id="bible-ot"/>
+                        <category xml:id="bible-nt"/>
+                        <category xml:id="bible-apocrypha"/>
+                        <category xml:id="bible-punctuation"/>
+                    </category>
+                    <category xml:id="service-books">
+                        <category xml:id="psalter"/>
+                        <category xml:id="lectionaries"/>
+                        <category xml:id="missals"/>
+                        <category xml:id="sacerdotals"/>
+                        <category xml:id="choral"/>
+                        <category xml:id="hymns"/>
+                        <category xml:id="prayers"/>
+                        <category xml:id="funerals"/>
+                    </category>
+                    <category xml:id="theology">
+                        <category xml:id="theo-single"/>
+                        <category xml:id="theo-collected"/>
+                        <category xml:id="theo-catenae"/>
+                        <category xml:id="theo-anonymous"/>
+                        <category xml:id="theo-council"/>
+                    </category>
+                    <category xml:id="wright-history">
+                        <category xml:id="history"/>
+                    </category>
+                    <category xml:id="lives">
+                        <category xml:id="lives-collect"/>
+                        <category xml:id="lives-single"/>
+                    </category>
+                    <category xml:id="scientific-lit">
+                        <category xml:id="sci-logic"/>
+                        <category xml:id="sci-grammar"/>
+                        <category xml:id="sci-ethics"/>
+                        <category xml:id="sci-medicine"/>
+                        <category xml:id="sci-agriculture"/>
+                        <category xml:id="sci-chemistry"/>
+                        <category xml:id="sci-natural-history"/>
+                    </category>
+                    <category xml:id="wright-fly-leaves">
+                        <category xml:id="fly-leaves"/>
+                    </category>
+                    <category xml:id="appendices">
+                        <category xml:id="appendix-a"/>
+                        <category xml:id="appendix-b"/>
+                    </category>
+                </taxonomy>
             </classDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident=""><!-- Add in description of lanuages and scripts --></language>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+                <language ident="syr-Syre">Syriac in Estrangela</language>
+                <language ident="syr-Syrj">Vocalized West Syriac</language>
+                <language ident="syr-Syrn">Vocalized East Syriac</language>
+                <language ident="syr-x-syrm">Melkite Syriac</language>
+                <language ident="syr-x-syrp">Palestinian Syriac</language>
+                <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+                <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+                <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="la">Latin</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="cop">Coptic</language>
             </langUsage>
-            <textClass><!-- Should Wright's running header go here? --></textClass>
+            <textClass>
+                <keywords scheme="#Wright-BL-Taxonomy">
+                    <list>
+                        <item>
+                            <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
+                            <ref target="#bible-nt"/>       
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+            <change when="2013-07-03" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
             <change type="planned" subtype="vocalization">Enter vocalization.</change>
             <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
         </revisionDesc>

@@ -419,7 +419,55 @@
                 </interpretation>
             </editorialDecl>
             <classDecl>
-                <taxonomy><!-- Wright heading information here. --></taxonomy>
+                <taxonomy xml:id="Wright-BL-Taxonomy">
+                    <bibl target="#Wright"/>
+                    <category xml:id="biblical-manuscripts">
+                        <category xml:id="bible-ot"/>
+                        <category xml:id="bible-nt"/>
+                        <category xml:id="bible-apocrypha"/>
+                        <category xml:id="bible-punctuation"/>
+                    </category>
+                    <category xml:id="service-books">
+                        <category xml:id="psalter"/>
+                        <category xml:id="lectionaries"/>
+                        <category xml:id="missals"/>
+                        <category xml:id="sacerdotals"/>
+                        <category xml:id="choral"/>
+                        <category xml:id="hymns"/>
+                        <category xml:id="prayers"/>
+                        <category xml:id="funerals"/>
+                    </category>
+                    <category xml:id="theology">
+                        <category xml:id="theo-single"/>
+                        <category xml:id="theo-collected"/>
+                        <category xml:id="theo-catenae"/>
+                        <category xml:id="theo-anonymous"/>
+                        <category xml:id="theo-council"/>
+                    </category>
+                    <category xml:id="wright-history">
+                        <category xml:id="history"/>
+                    </category>
+                    <category xml:id="lives">
+                        <category xml:id="lives-collect"/>
+                        <category xml:id="lives-single"/>
+                    </category>
+                    <category xml:id="scientific-lit">
+                        <category xml:id="sci-logic"/>
+                        <category xml:id="sci-grammar"/>
+                        <category xml:id="sci-ethics"/>
+                        <category xml:id="sci-medicine"/>
+                        <category xml:id="sci-agriculture"/>
+                        <category xml:id="sci-chemistry"/>
+                        <category xml:id="sci-natural-history"/>
+                    </category>
+                    <category xml:id="wright-fly-leaves">
+                        <category xml:id="fly-leaves"/>
+                    </category>
+                    <category xml:id="appendices">
+                        <category xml:id="appendix-a"/>
+                        <category xml:id="appendix-b"/>
+                    </category>
+                </taxonomy>
             </classDecl>
         </encodingDesc>
         <profileDesc>
@@ -447,7 +495,6 @@
                         <item>
                             <ref target="#Part1"/>
                             <ref target="#Part2"/>
-                            <!-- This target will be used for each msPart or not used if only one part -->  
                             <ref target="#bible-ot"/>       
                         </item>
                     </list>

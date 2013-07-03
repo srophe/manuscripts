@@ -1,6 +1,6 @@
 ﻿<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
@@ -9,9 +9,11 @@
                 <funder>National Endowment for the Humanities</funder>
                 <funder>Andrew W. Mellon Foundation</funder>
                 <principal>David A. Michelson</principal>
-                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
-                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
-                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
+                <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
                 <respStmt>
                     <resp>Created by</resp>
                     <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
@@ -59,17 +61,22 @@
                         <repository>British Library</repository>
                         <collection>Oriental Manuscripts</collection>
                         <idno type="URI">http://syriaca.org/manuscript/82</idno>
-                        <altIdentifier type="BL">
-                            <idno>Add MS 14426</idno>
+                        <altIdentifier>
+                            <idno type="BL-Shelfmark">Add MS 14426</idno>
                         </altIdentifier>
-                        <altIdentifier type="Wright">
-                            <idno>Wright V</idno>
+                        <altIdentifier>
+                            <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                            <idno type="Wright-BL-Arabic">5</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                            <idno type="Wright-BL-Roman">V</idno>
                         </altIdentifier>
                     </msIdentifier>
               <msContents class="bible-ot">
                         <summary/>
                         <textLang mainLang="syr">Syriac</textLang>
-                        <msItem n="1" xml:id="a1">
+                        <msItem n="1" xml:id="a1" defective="true">
                             <locus from="1" to="105"/>
                             <title ref="http://syriaca.org/work/1">The book of Genesis, according to the Peshitta version.</title>
                             <rubric xml:lang="syr">
@@ -79,17 +86,16 @@
                             <note>The lessons are marked in the text in the usual way; others have been added subsequently at the top of the page.
                                 The following portions of the text are wanting: ch. i. 7—18, ch. iii. 13—22, ch. v. 24—vi. 15, ch. xxii. 11—xxv. 17, and ch. xlvii. 13 to the end.</note>
                         </msItem>
-                            <msItem n="2" xml:id="a2">
+                            <msItem n="2" xml:id="a2" defective="inapplicable">
                                 <locus from="1" to="2a"/>
                                 <title>Index to additional lessons mentioned above.</title>
                                     <quote xml:lang="syr"><p>܏ܩ ܕܚܡܫܐ ܒܫܒܐ ܕܐܢܝܚܬܐ ܏ܟـ ܝܓ ܏ܦ ܙ</p>
                                         <p>܏ܩ ܕܫܒܬܐ ܕܫܒܬܐ ܕܐܢܝܚܬܐ ܏ܟـ ܒ ܏ܦ ܒ</p>
                                         <p>܏ܩ ܕܚܕܒܫܒܐ ܚܕܬܐ ܪܝܫ ܟܬܒܐ</p>
                                         <p>܏ܩ ܕܚܕܒܫܒܐ :ܓ: ܡܢ ܩܝܡܬܐ ܏ܟـ ܐ ܏ܦ . .</p>
-             <!--Note that the punctuation here does display in the right order from right to left but only in Author view not text view-->
                                         <p>܏ܩ ܕܚܕ ܒܫܒܐ : ܕ :܏ܟـ ܐ ܏ܦ ܚ</p>
                                         and so on. Here ܟـ stands for ܟܘܪܣܐ , % (quire), and ܦ for ܦܬܚܐ (opening).</quote>
-           <!-- Arabic needs to be added -->
+          <!-- Arabic needs to be added -->
                             </msItem>                                
                  </msContents>
                     <physDesc>
@@ -97,7 +103,6 @@
                             <supportDesc material="perg">
                                 <support>
                                     <material>Vellum</material>
-                                    <locus from="1" to="105">Fol. 1-105</locus>
                                 </support>
                                    <extent>
                                        <measure type="composition" unit="leaf" quantity="105">105 ff.</measure>
@@ -109,11 +114,11 @@
                                        </dimensions>
                                 </extent>
                                 <collation>
-                                    <p>Originally the book was made up of 13 quires. The quires have been twice signed with letters (see <locus>foll. 16, 46, and 56</locus>), but at neither time correctly.</p>
+                                    <p>Originally the book was made up of 13 quires. The quires have been twice signed with letters (see foll. <locus>16</locus>, <locus>46</locus>, and <locus>56</locus>), but at neither time correctly.</p>
                                 </collation>
                                 <condition>
                                     <p> Originally the book was made up of 13 quires of which the sixth and the last are now wanting, and several others are imperfect, leaves being missing after
-                                        <locus>Foll. 2, Foll. 7, Foll. 11, Foll. 45, and Foll. 105</locus>.</p>>
+                                        Foll. <locus>2</locus>, Foll. <locus>7</locus>, Foll. <locus>11</locus>, Foll. <locus>45</locus>, and Foll. <locus>105</locus>.</p>>
                                  </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -126,7 +131,7 @@
                              <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="unknown">
                                  <desc>The character is a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                              </handNote>
-                             <handNote xml:id="handnote2" scope="minor" script="syr-Syrc" medium="unknown">
+                             <handNote xml:id="handnote2" scope="minor" script="syr" medium="unknown">
                                  <desc>They have been twice signed with letters (see foll.<locus from="16" to="16">16</locus>, 
                                      <locus from="46" to="46">46</locus>, and <locus from="56" to="56">56</locus>), but at neither time correctly.</desc>
                              </handNote>
@@ -137,7 +142,7 @@
                          </handDesc>
                         <additions>
                             <list>
-                                <item n="3" xml:id="addition1"><locus from="2b" to="2b"/><ref target="#a1"/>
+                                <item n="1" xml:id="addition1"><locus from="2b" to="2b"/><ref target="#a1"/>
                                     <quote><label>Marginal note</label> mentions that with this volume was once bound up a work, (or more probably a series of extracts,) entitled <choice><seg><title>ܒܘ̈ܚܢܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ</title>, <title>"Disquisitions of the holy Teachers"</title></seg></choice></quote></item>
                             </list>
                             <catchwords/>
@@ -190,17 +195,89 @@
                 </interpretation>
             </editorialDecl>
             <classDecl>
-                <taxonomy><!-- Wright heading information here. --></taxonomy>
-            </classDecl>
+                <taxonomy xml:id="Wright-BL-Taxonomy">
+                    <bibl target="#Wright"/>
+                    <category xml:id="biblical-manuscripts">
+                        <category xml:id="bible-ot"/>
+                        <category xml:id="bible-nt"/>
+                        <category xml:id="bible-apocrypha"/>
+                        <category xml:id="bible-punctuation"/>
+                    </category>
+                    <category xml:id="service-books">
+                        <category xml:id="psalter"/>
+                        <category xml:id="lectionaries"/>
+                        <category xml:id="missals"/>
+                        <category xml:id="sacerdotals"/>
+                        <category xml:id="choral"/>
+                        <category xml:id="hymns"/>
+                        <category xml:id="prayers"/>
+                        <category xml:id="funerals"/>
+                    </category>
+                    <category xml:id="theology">
+                        <category xml:id="theo-single"/>
+                        <category xml:id="theo-collected"/>
+                        <category xml:id="theo-catenae"/>
+                        <category xml:id="theo-anonymous"/>
+                        <category xml:id="theo-council"/>
+                    </category>
+                    <category xml:id="wright-history">
+                        <category xml:id="history"/>
+                    </category>
+                    <category xml:id="lives">
+                        <category xml:id="lives-collect"/>
+                        <category xml:id="lives-single"/>
+                    </category>
+                    <category xml:id="scientific-lit">
+                        <category xml:id="sci-logic"/>
+                        <category xml:id="sci-grammar"/>
+                        <category xml:id="sci-ethics"/>
+                        <category xml:id="sci-medicine"/>
+                        <category xml:id="sci-agriculture"/>
+                        <category xml:id="sci-chemistry"/>
+                        <category xml:id="sci-natural-history"/>
+                    </category>
+                    <category xml:id="wright-fly-leaves">
+                        <category xml:id="fly-leaves"/>
+                    </category>
+                    <category xml:id="appendices">
+                        <category xml:id="appendix-a"/>
+                        <category xml:id="appendix-b"/>
+                    </category>
+                </taxonomy>
+            </classDecl>   
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident=""><!-- Add in description of lanuages and scripts --></language>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+                <language ident="syr-Syre">Syriac in Estrangela</language>
+                <language ident="syr-Syrj">Vocalized West Syriac</language>
+                <language ident="syr-Syrn">Vocalized East Syriac</language>
+                <language ident="syr-x-syrm">Melkite Syriac</language>
+                <language ident="syr-x-syrp">Palestinian Syriac</language>
+                <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+                <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+                <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="la">Latin</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="cop">Coptic</language>
             </langUsage>
-            <textClass><!-- Should Wright's running header go here? --></textClass>
+            <textClass>
+                <keywords scheme="#Wright-BL-Taxonomy">
+                    <list>
+                        <item>
+                            <ref target="#Part1"/> 
+                            <ref target="#bible-ot"/>       
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="20130623" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+            <change when="2013-07-03" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
             <change type="planned" subtype="arabic">Add missing Arabic text.</change>
             <change type="planned" subtype="vowels">Add missing Syriac vowels.</change>
         </revisionDesc>
