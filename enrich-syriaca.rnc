@@ -2217,7 +2217,7 @@ tei_handNote =
       list {
         (
          ## default for all mss in which there is no clear indication of script
-         "syr-Syrc"
+         "syr"
          | 
            ## Estrangelo/a
            "syr-Syre"
@@ -2377,7 +2377,25 @@ tei_change =
      | tei_model.global)*,
     att.global.attributes,
     att.ascribed.attributes,
-    att.typed.attributes,
+    att.typed.attribute.type,
+    
+    attribute subtype {
+    
+    ## Add missing Arabic text
+    "arabic"
+    |
+    ## Enter vocalization
+    "vocalization"
+    |
+    ## Enter arithmetical figures
+    "arithmetical"
+    |
+    ## Question in Word Doc to be addressed
+    "question"
+    |
+    ## Missing something (specify what is missing)
+    "missing"
+    }?,
     
     ## supplies the date of the change in standard form, i.e. YYYY-MM-DD.
     attribute when {
