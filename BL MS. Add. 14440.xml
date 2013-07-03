@@ -1,18 +1,23 @@
 <?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add. 14440</title>
-        <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
+        <title xml:lang="en">BL Add MS 14440</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>National Endowment for the Humanities</funder>
         <funder>Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
-        <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A.
+          michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A.
+          Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J.
+          Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D.
+          Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
@@ -35,7 +40,8 @@
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac
+            Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -44,8 +50,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI"
-          >http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript here -->/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/104/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -55,190 +60,139 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-14440" xml:lang="en">
+        <msDesc xml:id="manuscript-104" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
-            <collection>Christian Middle East Section</collection>
-            <idno type="URI"
-              >http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS--></idno>
-            <altIdentifier type="internal">
-              <idno>BL Add. 14440</idno>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/104</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 14440</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">16</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">XVI</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents class="bible-ot">
-            <!--use the Wright's Section Headings here for @class-->
+          <msContents>
             <summary/>
-            <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
             <textLang mainLang="syr">Syriac</textLang>
-            <!-- See notes from 5/30 meeting regarding how to identify and label language -->
-            <msItem n="1" xml:id="a1">
-              <locus from="1b" to="36a">ff. 1b-36a</locus>
-              <author key=""/>
-              <title ref="">The book of Joshua according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
+            <msItem n="1" xml:id="a1" defective="false">
+              <locus from="1" to="36"/>
+              <title ref="http://syriaca.org/work/6">The book of Joshua according to the Peshitta
+                version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܝܫܘܥ ܒܪܢܘܢ</title>
-                <locus from="1b">1b</locus>
-              </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
+                <locus from="1b" to="1b"/></rubric>
             </msItem>
             <msItem n="2" xml:id="a2">
-              <locus from="36b" to="69b">ff. 36b-69b</locus>
-              <author key=""/>
-              <title ref="">The book of Judges according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
-              <rubric xml:lang="syr">ܟܬܒܐ ܕܣܦܪ ܕܝ̈ܢܐ ܕܡܬܩ̤ܪܐ ܥܒܪܐܝܬܐ ܫܒ̈ܛܐ<locus from="36b"/>
-                
+              <locus from="36b" to="69b"/>
+              <title ref="http://syriaca.org/work/6">The book of Judges according to the Peshitta
+                version</title>
+              <rubric xml:lang="syr">ܟܬܒܐ ܕܣܦܪ ܕܝ̈ܢܐ ܕܡܬܩ̤ܪܐ ܥܒܪܐܝܬܐ ܫܒ̈ܛܐ<locus from="36b" to="36b"
+                />
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
             <msItem n="3" xml:id="a3">
-              <locus from="70a" to="147a">ff. 70a-147a</locus>
-              <author key=""/>
-              <title ref="">The two books of Samuel (undivided) according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
-              <rubric xml:lang="syr">ܟܬܒܐ ܕܫܡܘܐܝܠ
-                <locus from="70a"/>
+              <locus from="70a" to="147a"/>
+              <title ref="http://syriaca.org/work/44">The two books of Samuel (undivided) according
+                to the Peshitta version</title>
+              <rubric xml:lang="syr">ܟܬܒܐ ܕܫܡܘܐܝܠ <locus from="70a" to="70a"/>
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
             <msItem n="4" xml:id="a4">
-              <locus from="147a" to="225b">ff. 147a-225b</locus>
-              <author key=""/>
-              <title ref="">The two books of Kings (undivided) according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
+              <locus from="147a" to="225b"/>
+              <title ref="http://syriaca.org/work/45">The two books of Kings (undivided) according
+                to the Peshitta version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܣܦܪ ܡܠܟܘ̈ܬܐ</title>
-                <locus from="147a">147a</locus>
+                <locus from="147a" to="147a"/>
               </rubric>
-              <!-- Subscription? -->
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
+              <finalRubric xml:lang="syr">ܫܠܡ ܣܦܪܐ ܕܐܪ̈ܒܥܐ ܕܡܠܟ̈ܐ ܕܒܢ̈ܝ ܝܣܪܝܠ <locus from="147a"
+                  to="147a"/>
+              </finalRubric>
+              <note> 1 Kings, xxii, 8—27 is missing. </note>
             </msItem>
             <msItem n="5" xml:id="a5">
-              <locus from="225b" to="289b">ff. 225b-289b</locus>
-              <author key=""/>
-              <title ref="">The Proverbs of Solomon according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
+              <locus from="225b" to="289b"/>
+              <title ref="http://syriaca.org/work/20">The Proverbs of Solomon according to the
+                Peshitta version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܡ̈ܬܠܐ ܕܫܠܝܡܘܢ ܒܪ ܕܘܝܕ</title>
-                <locus from="225b">225b</locus>
+                <locus from="225b" to="225b"/>
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
             <msItem n="6" xml:id="a6">
-              <locus from="250b" to="289a">ff. 250b-289b</locus>
-              <author key=""/>
-              <title ref="">The Proverbs of Jesus the son of Sirach, or Ecclesiasticus according to
-                the Peshitta version<!-- Include URI inside @ref --></title>
+              <locus from="250b" to="289b"/>
+              <title ref="http://syriaca.org/work/58">The Proverbs of Jesus the son of Sirach, or
+                Ecclesiasticus according to the Peshitta version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܒܪ ܣܝܪܐ</title>
-                <locus from="225b">250b</locus>
+                <locus from="225b" to="225b"/>
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
             <msItem n="7" xml:id="a7">
-              <locus from="289b" to="297b">ff. 289b-289b</locus>
-              <author key=""/>
-              <title ref="">The book of Ecclesiastes or Koheleth according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
+              <locus from="289b" to="297b"/>
+              <title ref="http://syriaca.org/work/21">The book of Ecclesiastes or Koheleth according
+                to the Peshitta version</title>
               <rubric xml:lang="syr"><title>ܟܬܒ̇ܐ ܕܩܘܿܗܠܸܬ̣ ܒܪ ܕܵܘܝܼܕ</title>
-                <locus from="289b">289b</locus>
+                <locus from="289b" to="289b"/>
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
             <msItem n="8" xml:id="a8">
-              <locus from="297a" to="301b">ff. 297a-301b</locus>
-              <author key=""/>
-              <title ref="">The book of Ruth according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
+              <locus from="297a" to="301b"/>
+              <title ref="http://syriaca.org/work/8">The book of Ruth according to the Peshitta
+                version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܪܥܘܬ</title>
-                <locus from="297b">297b</locus>
+                <locus from="297b" to="297b"/>
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
             <msItem n="9" xml:id="a9">
-              <locus from="301b" to="305b">ff. 301b-305b</locus>
-              <author key=""/>
-              <title ref="">The Song of Songs according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
+              <locus from="301b" to="305b"/>
+              <title ref="http://syriaca.org/work/22">The Song of Songs according to the Peshitta
+                version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܫܪܬ ܫܐܪܝܢ ܕܐܝܬܘܗܝ ܦܘܫܩܗ̇ ܬܫܒܚܬ ܬܫܒ̈ܚܬܐ</title>
-                <locus from="301b">301b</locus>
+                <locus from="301b" to="301b"/>
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
             <msItem n="10" xml:id="a10">
-              <locus from="305b" to="325b">ff. 305b-325b</locus>
-              <author key=""/>
-              <title ref="">The book of Job according to the Peshitta
-                version<!-- Include URI inside @ref --></title>
+              <locus from="305b" to="325b"/>
+              <title ref="http://syriaca.org/work/18">The book of Job according to the Peshitta
+                version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܢܨܝܚܐ ܐܝܘܒ ܙܕܝܩܐ</title>
-                <locus from="305b">305b</locus>
+                <locus from="305b" to="305b"/>
+                <note>The following portions of the text are missing: Job, xii. 9— xiv. 5, xv. 29—xvii. 14, xxviii. 24—xxxiii. 9, and xlii. 11 to the end.</note>
               </rubric>
-              <listBibl>
-                <bibl>
-                  <ref target="#Wright"/>
-                </bibl>
-              </listBibl>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
                 <support><material>Vellum</material></support>
-                <extent> ff. 325
+                <extent>
+                  <measure type="composition" unit="leaf" quantity="325"> 325 ff.</measure>
                   <dimensions type="leaf" unit="in">
-                    <height>9 3/4</height>
-                    <width>7</width>
+                    <height>
+                      <measure type="height" quantity="9.75" unit="in">9 3/4</measure>
+                    </height>
+                    <width>
+                      <measure type="width" quantity="7" unit="in">7</measure>
+                    </width>
                   </dimensions>
                 </extent>
-                <foliation type="ancient">
-                  <locus from="1a" to="325b"/>
-                  <p>The quires are signed with letters; ܟܟ, ܠܓ and ܠܕ are incomplete.</p>
-                </foliation>
+                <foliation type="ancient"/>
                 <collation>
                   <p>There are 34 quires.</p>
-                  <seg n="1" type="gathering">
-                    <locus from="1a" to="325b"/>
-                    <formula><!-- If a clear formula for collation  is given, note it here --></formula>
-                  </seg><!-- If the work consists of multiple collation systems, note the locus and formula for each by repeating the <seg> block, altering @n for each new <seg> -->
-                </collation>
+                  </collation>
                 <condition>
-                  <p>Many leaves are much stained and a few slightly torn (especially foll. 68, 76, 77, 79, 86, 87, 89—193, and 318—325). Leaves are missing after foll. 185, 312, 313, 319, and 325.
-                    The following portions of the text are missing: 1 Kings, xxii, 8—27; Job, xii. 9— xiv. 5, xv. 29—xvii. 14, xxviii. 24—xxxiii. 9, and xlii. 11 to the end. </p>
+                  <p>The quires are signed with letters; ܟܟ, ܠܓ and ܠܕ are incomplete. Many leaves are much stained and a few slightly torn (especially foll. <locus>68</locus>, <locus>76</locus>,
+                    <locus>77</locus>, <locus>79</locus>, <locus>86</locus>, <locus>87</locus>, <locus>89—193</locus>, and <locus>318—325</locus>). Leaves are missing after foll. <locus>185</locus>, <locus>312</locus>,
+                    <locus>313</locus>, <locus>319</locus>, and <locus>325</locus>. The following portions of the text are missing: 1 Kings,
+                    xxii, 8—27; Job, xii. 9— xiv. 5, xv. 29—xvii. 14, xxviii. 24—xxxiii. 9, and
+                    xlii. 11 to the end.</p>
                 </condition>
               </supportDesc>
               <layoutDesc>
@@ -249,21 +203,19 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="unknown">
-                <desc>This manuscript is written in a good, regular hand of the <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>, with numerous Syriac vowels and diacritical marks.</desc>
+              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
+                <desc>This manuscript is written in a good, regular hand of the <origDate
+                    notBefore="0900" notAfter="1100">xth or xith cent.</origDate>, with numerous
+                  Syriac vowels and diacritical marks.</desc>
               </handNote>
             </handDesc>
           </physDesc>
           <history>
             <summary/>
             <origin>
-              <origDate notBefore="" notAfter=""
-                ><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate>
-              <!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600" -->
+              <origDate
+                notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
             </origin>
-            <provenance>
-              <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary --></p>
-            </provenance>
           </history>
           <additional>
             <adminInfo>
@@ -275,7 +227,7 @@
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
+              <bibl xml:id="Wright">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -304,14 +256,87 @@
         </interpretation>
       </editorialDecl>
       <classDecl>
-        <taxonomy> </taxonomy>
-      </classDecl>
+        <taxonomy xml:id="Wright-BL-Taxonomy">
+          <bibl target="#Wright"/>
+          <category xml:id="biblical-manuscripts">
+            <category xml:id="bible-ot"/>
+            <category xml:id="bible-nt"/>
+            <category xml:id="bible-apocrypha"/>
+            <category xml:id="bible-punctuation"/>
+          </category>
+          <category xml:id="service-books">
+            <category xml:id="psalter"/>
+            <category xml:id="lectionaries"/>
+            <category xml:id="missals"/>
+            <category xml:id="sacerdotals"/>
+            <category xml:id="choral"/>
+            <category xml:id="hymns"/>
+            <category xml:id="prayers"/>
+            <category xml:id="funerals"/>
+          </category>
+          <category xml:id="theology">
+            <category xml:id="theo-single"/>
+            <category xml:id="theo-collected"/>
+            <category xml:id="theo-catenae"/>
+            <category xml:id="theo-anonymous"/>
+            <category xml:id="theo-council"/>
+          </category>
+          <category xml:id="wright-history">
+            <category xml:id="history"/>
+          </category>
+          <category xml:id="lives">
+            <category xml:id="lives-collect"/>
+            <category xml:id="lives-single"/>
+          </category>
+          <category xml:id="scientific-lit">
+            <category xml:id="sci-logic"/>
+            <category xml:id="sci-grammar"/>
+            <category xml:id="sci-ethics"/>
+            <category xml:id="sci-medicine"/>
+            <category xml:id="sci-agriculture"/>
+            <category xml:id="sci-chemistry"/>
+            <category xml:id="sci-natural-history"/>
+          </category>
+          <category xml:id="wright-fly-leaves">
+            <category xml:id="fly-leaves"/>
+          </category>
+          <category xml:id="appendices">
+            <category xml:id="appendix-a"/>
+            <category xml:id="appendix-b"/>
+          </category>
+        </taxonomy>
+      </classDecl> 
     </encodingDesc>
     <profileDesc>
-      <textClass> </textClass>
+      <langUsage>
+        <language ident="syr">Unvocalized Syriac of any variety or period</language>
+        <language ident="syr-Syre">Syriac in Estrangela</language>
+        <language ident="syr-Syrj">Vocalized West Syriac</language>
+        <language ident="syr-Syrn">Vocalized East Syriac</language>
+        <language ident="syr-x-syrm">Melkite Syriac</language>
+        <language ident="syr-x-syrp">Palestinian Syriac</language>
+        <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+        <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+        <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+        <language ident="en">English</language>
+        <language ident="ar">Arabic</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="la">Latin</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="cop">Coptic</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#bible-ot"/>       
+            </item>
+          </list>
+        </keywords></textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="" who=""/>
+      <change when="2013-07-03" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -327,3 +352,4 @@
     </body>
   </text>
 </TEI>
+<!-- Notes of remaining items: Where to link the PDF, where to put raw full text, where put Wright's running headers, lanugage and script issues -->
