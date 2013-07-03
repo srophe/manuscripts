@@ -9,9 +9,12 @@
                 <funder>National Endowment for the Humanities</funder>
                 <funder>Andrew W. Mellon Foundation</funder>
                 <principal>David A. Michelson</principal>
-                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name></editor>
-                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name></editor>
-                <editor role="creator"><name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name></editor>
+                <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">
+                    David A. michelson</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
                 <respStmt>
                     <resp>Created by</resp>
                     <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
@@ -131,7 +134,7 @@
                                     <desc>Vowels have been added in a few cases by a later hand (e.g. foll. <locus>15b and 16a</locus>, ܰ, ܶ, ܺ, ܳ,
                                         , ).</desc></handNote>
       <!--Missing Syriac vowels-->
-                                <handNote xml:id="p1handnote3" scope="minor" script="syr-Syrc" medium="unknown">
+                                <handNote xml:id="p1handnote3" scope="minor" script="syr" medium="unknown">
                                     <locus from="2a" to="2a"/>
                                     <listPerson>
                                         <person role="scribe" xml:id="Sergius-Bar-Abraham">
@@ -146,7 +149,7 @@
                                     <locus from="2a" to="2a"/>
                                     <desc>Note written in large open Estrangela characters.</desc>
                                 </handNote>
-                                <handNote xml:id="p1handnote5" scope="minor" script="syr-Syrc"
+                                <handNote xml:id="p1handnote5" scope="minor" script="syr"
                                     medium="unknown">
                                     <locus from="107b" to="107b"/>
                                     <locus from="108a" to="108a"/>
@@ -154,19 +157,19 @@
                                         <person role="scribe" xml:id="Moses_Nisibis" ref="http://syriaca.org/person/647">
                                             <persName xml:lang="eng">Moses of Nisibis, abbat of the
                                                 convent of S. Mary Deipara in the desert of Scete
-                                                (A. Gr. 1243, A.D. 932)</persName>
+                                                (<date>A. Gr. 1243</date>, <date>A.D. 932</date>)</persName>
                                             <persName xml:lang="syr"/>
                                         </person>
                                     </listPerson>
                                     <desc><label>Subscription</label> on <locus>107b</locus> and note on <locus>108a</locus> in the handwriting of
-                                        <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, abbat of the convent of S. Mary Deipara in
-                                        the desert of Scete (A. Gr. 1243, A.D. 932).</desc>
+                                        <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, abbat of the <placeName>convent of S. Mary Deipara</placeName> in
+                                        the <placeName>desert of Scete</placeName> (<date>A. Gr. 1243</date>, <date>A.D. 932</date>).</desc>
                                 </handNote>
                             </handDesc>
                             <additions>
                                 <list>
                                     <item n="1" xml:id="p1addition1">
-                                        <locus from="107b" to="107b"/>
+                                        <locus from="107b" to="107b"/><ref target="p1a1"/>
                                         <label>Subscription</label>
                                         <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
                                             ܕܐܘܪܝܬܐ;</quote><desc>after which follows the doxology,
@@ -174,7 +177,7 @@
                                             ܐܡܝܼܢ ܘܐܡܝܢ܆</quote><desc>, and in a more cursive character the words</desc>
                                         <quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></item>
                                     <item n="2" xml:id="p1addition2">
-                                        <locus from="108a" to="108a"/>
+                                        <locus from="108a" to="108a"/><ref target="p1a1"/>
                                         <desc>A <label>note</label>on fol. <locus>108a</locus>, states that the
                                             manuscript was written for the monks of the convent of
                                             Nātphā,  near Māridīn, at the expense of the priest Julian <quote xml:lang="syr">ܢܘܢܝܐ</quote>, and
@@ -190,7 +193,7 @@
                                             ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ
                                             ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote></item>
                                     <item n="3" xml:id="p1addition3">
-                                        <locus from="108a" to="108a"/>
+                                        <locus from="108a" to="108a"/><ref target="p1a1"/>
                                         <desc>What originally followed has been
                                             erased, and in its place we read, in the handwriting of
                                             <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, abbat of the <placeName>convent of S. Mary
@@ -210,14 +213,14 @@
                                             ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ
                                             ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱ </quote></item>
                                     <item n="4" xml:id="p1addition4">
-                                        <locus from="2a" to="2a"/>
+                                        <locus from="2a" to="2a"/><ref target="p1a1"/>
                                         <quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ
                                             (?)ܡܫܡܫܢܐ ܒܪܝܫܥܝܢܐ. ܟܘܠ ܕܩܪܐ ܒܗ ܐܘ ܢܟܬܘܒ(sic) ܡܢܗ ܘܠܐ
                                             ܢܗܦܟܝ (sic) ܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܚܪܡܗ ܕܡܪܝܐ ܥܠܘܗܝ ܘܥܠ
                                             ܒܝܬܘܗܝ (sic) ܘܥܠ ܥܘܬܪܗ ܘܥܠ ܘܥܘܡܪܗ ܠܥܠܡ ܥܠܡܝܢ
-                                            ܐܡܝܢ.</quote></item>
-                                    <item n="5" xml:id="m5">
-                                        <locus from="2a" to="2a"/>
+                                            ܐܡܝܢ.</quote><ref target="p1a1"/></item>
+                                    <item n="5" xml:id="p1addition5">
+                                        <locus from="2a" to="2a"/><ref target="p1a1"/>
                                         <desc><label>Notation</label> of the names of two readers of
                                             the book, John and Yeshūa’</desc>
                                         <quote xml:lang="syr">ܝܘܚܢܢ ܚ̇ܛܝܐ ܘܝܫܘܥ ܬܠܡܝܕܗ
@@ -333,7 +336,7 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
-                                <handNote xml:id="p2handnotea1" scope="major" script="syr-Syre" medium="unknown">
+                                <handNote xml:id="p2handnote1" scope="major" script="syr-Syre" medium="unknown">
                                     <p>The writing is a fine, regular Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith century</origDate>.</p>
                        <!-- VOWELS  -->
                                     <locus from="109" to="169"/>
@@ -348,23 +351,22 @@
                             <additions>
                                 <list>
                                     <item n="1" xml:id="p2addition1">
-                                        <locus from="169b" to="169b"/>
-                                    </item>
-                                    <note><quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ ܫܥܒܝܢ
+                                        <locus from="169b" to="169b"/><ref target="#p2a1"/></item>
+                                    <note><p><quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ ܫܥܒܝܢ
                                             .ܘ. ܗܠܝܼܢ ܒܬܪ ܫܘܠܡܐ ܐܝܟ ܗ̇ܢܘܢ ܫܒܥܝܢ ܣܝ̈ܡܢ ܗ̈ܘܝ ܒܨܚܚܐ ܥܡ
                                             ܓܐܪ̈ܘܢܐ܀ ܒܗܿܘ ܝܘܡܐ̣. ܟܕ ܢܣ̣ܒܘ ܠܩܒܘܬܗ ܕܐܠܗܐ. ܡܟܪܟܝܢ ܗܘܘ
                                             ܠܗ̇ ܒܐܝܣܪܝܠ. ܘ܏ܫ. ܨܚܚܐ ܕܝܢ ܕܡܢܗ ܗܢܐ ܐܬܦܫܩ ܠܣܘܪܝܝܐ
                                             ܘܐܬܟܬܒ̣. ܪܫ̣ܝܡ ܗܘܐ ܥܠܘܗܝ ܗܟܢܐ. ܐܬ̣ܟܬܒ ܡܢ ܫ̈ܬܝܬܝ ܦܨ̈ܐ ܡܢ
-                                            ܗ̇ܘ ܕܐܦ ܐܬܬܣܝܡ. ܐܬ݁ܦܚܡ ܕܝܢ ܐܦ ܠܘܬ ܪ̈ܒܝܥܝ ܦܨ̈ܐ܀ </quote>
-                                        <quote>"Joshua the son of Nun is ended. After the end, these
+                                            ܗ̇ܘ ܕܐܦ ܐܬܬܣܝܡ. ܐܬ݁ܦܚܡ ܕܝܢ ܐܦ ܠܘܬ ܪ̈ܒܝܥܝ ܦܨ̈ܐ܀ </quote></p>
+                                        <p><quote>"Joshua the son of Nun is ended. After the end, these
                                             (words), according to the LXX., are placed in the
                                             exemplar with obelisks: </quote><quote xml:lang="grc">'Εν ἐκείνῃ τῇ ἡμέρα λαβόντες οἱ
                                             νίοὶ 'Ισραὴλ τὴν κιβωτὸν τοῦ Θεοῦ, περιεφέροσαν ἐν
-                                            ἐαυτοῖς κ.τ.λ.</quote> <quote>On the exemplar from which this was
+                                            ἐαυτοῖς κ.τ.λ.</quote><quote>On the exemplar from which this was
                                             translated into Syriac and written, was inscribed:
                                             'Transcribed from the Hexapla, from which too it was
                                             furnished (with the various readings), and collated also
-                                            with the Tetrapla.'"</quote></note>
+                                            with the Tetrapla.'"</quote></p></note>
                                 </list>
                             </additions>
                         </physDesc>
@@ -439,7 +441,18 @@
                 <language ident="grc">Ancient Greek</language>
                 <language ident="cop">Coptic</language>
             </langUsage>
-            <textClass><!-- Should Wright's running header go here? --></textClass>
+            <textClass>
+                <keywords scheme="#Wright-BL-Taxonomy">
+                    <list>
+                        <item>
+                            <ref target="#Part1"/>
+                            <ref target="#Part2"/>
+                            <!-- This target will be used for each msPart or not used if only one part -->  
+                            <ref target="#bible-ot"/>       
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>

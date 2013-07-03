@@ -1,44 +1,43 @@
 <?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add. 17102</title>
-        <!--Note: we still need to work out the naming conventions for the title of the .xml file-->
+        <title xml:lang="en">BL Add MS 17102</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>National Endowment for the Humanities</funder>
         <funder>Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">
+          David A. michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
+          <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
-          <resp>Creator</resp>
         </respStmt>
         <respStmt>
+          <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
-          <resp>Editor</resp>
         </respStmt>
         <respStmt>
+          <resp>Syriac text entered by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
-          <resp>Syriac text entry</resp>
         </respStmt>
         <respStmt>
-          <name type="person" ref="http://syriaca.org/editors.xml#pkirlles">Philemon Kirlles</name>
-          <resp>Arabic text entry</resp>
-        </respStmt>
-        <!-- FOR VOLUME ONE ONLY, or whenever the arabic runs out -->
-        <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
-          <resp>Greek and coptic entry and proofreading</resp>
         </respStmt>
         <respStmt>
+          <resp>Project management by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
-          <resp>Project Manager, Syriac Research Group, University of Alabama</resp>
         </respStmt>
         <respStmt>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac
-            Research Group, University of Alabama</name>
-          <resp>English text entry and proofreading</resp>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -48,7 +47,7 @@
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
         <idno type="URI"
-          >http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript here -->/source</idno>
+          >http://syriaca.org/manuscript/729/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -63,34 +62,40 @@
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
-            <collection>Christian Middle East Section</collection>
+            <collection>Oriental Manuscripts</collection>
             <idno type="URI"
-              >http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS--></idno>
-            <altIdentifier type="BL">
-              <idno>BL Add. MS 17102</idno>
+              >http://syriaca.org/manuscript/729</idno>
+            <altIdentifier>
+              <idno  type="BL-Shelfmark">Add MS 17102</idno>
             </altIdentifier>
             <altIdentifier type="Wright">
               <idno>Wright XVII</idno>
             </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">17</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">XVII</idno>
+            </altIdentifier>
           </msIdentifier>
-          <msContents class="bible-ot">
+          <msContents>
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
-            <!-- See notes from 5/30 meeting regarding how to identify and label language -->
             <msItem n="1" xml:id="a1">
-              <locus from="1a" to="60b"/>
+              <locus from="1" to="60"/>
               <title ref="">The book of Joshua, according to the Peshitta version.</title>
-              <!-- !!CHECK URI FOR!! -->
-              <note><p>Commencences with ch. iv. 7.</p>
-                <p>Some of the lessons are rubricated in the text, the end of each being indicated
+       <!-- !!CHECK URI FOR!! -->
+              <note>Commencences with ch. iv. 7. Some of the lessons are rubricated in the text, the end of each being indicated
                   by the letter ܫ; others are marked on the margins by references to an index, ܦܘܪܫ
-                  ܩܪ̈ܝܢܐ, which is now lost.</p>
+                  ܩܪ̈ܝܢܐ, which is now lost.
               </note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="vellum">
+              <supportDesc material="perg">
                 <support><material>Vellum</material></support>
                 <extent>
                   <measure type="composition" unit="leaf" quantity="60">60 ff.</measure>
@@ -105,9 +110,10 @@
                 </extent>
                 <foliation/>
                 <collation><p>Quires originally signed with arithmetical figures but are now numbered with
-                  letters.The quires were originally signed with arithmetical figures (see fol. 52,).</p>
+                  letters.The quires were originally signed with arithmetical figures (see fol. <locus>52</locus>,).</p>
                   <note>Wright's catalogue contains additional information not included here.</note>
-                  <!-- NEEDS ARABIC --></collation>
+  <!--NEEDS ARABIC-->
+                </collation>
                 <condition>
                   <p>The first leaf is slightly stained and soiled. The first quire, of seven, is
                     missing.</p>
@@ -120,55 +126,55 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote xml:id="handnote1" scope="major" script="Estrangelo" medium="unknown">
-                <locus from="1a" to="60b">ff. 1-60</locus>
+              <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="unknown">
+                <locus from="1" to="60"/>
                 <desc>This volume is written in a beautiful, regular Estrangela.</desc>
               </handNote>
-              <handNote xml:id="handnote2" scope="minor" script="Estrangelo" medium="unknown">
-                <locus from="1a" to="60b">ff. 1-60</locus>
+              <handNote xml:id="handnote2" scope="minor" script="syr" medium="unknown">
+                <locus from="1" to="60"/>
                 <desc>Quires were originally signed with arithmetical figures but are now numbered
                   with letters.</desc>
               </handNote>
-              <handNote xml:id="handnote3" scope="minor" script="Estrangelo" medium="unknown">
-                <locus from="60a">fol. 60a</locus>
+              <handNote xml:id="handnote3" scope="minor" script="syr" medium="unknown">
+                <locus from="60a" to="60a"/>
                 <desc>Long note dating manuscript and its later collation.</desc>
               </handNote>
-              <handNote xml:id="handnote4" scope="minor" script="Estrangelo" medium="unknown">
-                <locus from="59b">fol. 59b</locus>
+              <handNote xml:id="handnote4" scope="minor" script="syr" medium="unknown">
+                <locus from="59b" to="59b"/>
                 <desc>More recent note recording provenance.</desc>
               </handNote>
-              <handNote xml:id="handnote5" scope="minor" script="Estrangelo" medium="unknown">
-                <locus from="59b">fol. 59b</locus>
-                <desc>The latter part of this <ref target="#handnote4" xml:id="">note</ref>, from
+              <handNote xml:id="handnote5" scope="minor" script="syr" medium="unknown">
+                <locus from="59b" to="59b"/>
+                <desc>The latter part of this <ref target="#handnote4">note</ref>, from
                   ܒܡܬܚܦܛܢܘܬܐ to the end, is in a different hand from the former part.</desc>
               </handNote>
-              <handNote xml:id="handnote6" scope="minor" script="Estrangelo" medium="unknown">
-                <locus from="59b">fol. 59b</locus>
+              <handNote xml:id="handnote6" scope="minor" script="syr" medium="unknown">
+                <locus from="59b" to="59b"/>
                 <desc>Maginal note.</desc>
               </handNote>
-              <handNote xml:id="handnote6" scope="minor" script="Estrangelo" medium="unknown">
-                <locus from="60b">fol. 60b</locus>
-                <desc>Note written by the librarian of the convent of S. Mary Deipara.</desc>
+              <handNote xml:id="handnote7" scope="minor" script="syr" medium="unknown">
+                <locus from="60b" to="60b"/>
+                <desc>Note written by the librarian of the <placeName>convent of S. Mary Deipara</placeName>.</desc>
               </handNote>
-              <handNote xml:id="handnote7" scope="minor" script="Estrangelo" medium="unknown">
-                <locus from="60b">fol. 60b</locus>
+              <handNote xml:id="handnote8" scope="minor" script="syr" medium="unknown">
+                <locus from="60b" to="60b"/>
                 <desc>Nearly effaced anathema written in a later hand.</desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
-                <item n="1" xml:id="m1">
-                  <locus from="60a">fol. 60a</locus>
-                  <p><label>Long Note</label>stating that this manuscript was written in the year
-                    910, and collated with another copy of the school of the Armenians. The names of
+                <item n="1" xml:id="addition1">
+                  <locus from="60a" to="60a"/><ref target="#a1"/>
+                  <desc><label>Long Note</label>stating that this manuscript was written in the year
+                    <date>910</date>, and collated with another copy of the school of the Armenians. The names of
                     the man at whose expense it was transcribed, and of the convent to which he gave
-                    it, were altered by the hand of a person from the village of Kěphar-Darīn, who
+                    it, were altered by the hand of a person from the village of <placeName>Kěphar-Darīn</placeName>, who
                     added a few lines, informing us that the manuscript was incorporated with the
-                    library of the convent of Mār Daniel at Kěphar-Bīl ܕܟܣ̈ܝܗ (?), near Antioch,
+                    library of the <placeName>convent of Mār Daniel at Kěphar-Bīl</placeName> ܕܟܣ̈ܝܗ (?), near Antioch,
                     when Thomas was abbat, the priest Simeon his deputy, and the priest Moses
-                    librarian. The name of this man has in turn been erased by one Yazdīn bar Dūmā
-                    (?).</p>
-                  <quote xml:lang="syr">ܐܬܚܦܛ ܘܥܒ̣ܕ ܗܢܐ̣. [(ܝܙܕܝܢ ܒܪ ܖܘܡܐ) . . . ܟܦܪܕܪܝܢ. ܡܢ ܙܝܢܬܐ]
+                    librarian. The name of this man has in turn been erased by one <persName>Yazdīn bar Dūmā</persName>
+                    (?).</desc>
+                  <p><quote xml:lang="syr">ܐܬܚܦܛ ܘܥܒ̣ܕ ܗܢܐ̣. [(ܝܙܕܝܢ ܒܪ ܖܘܡܐ) . . . ܟܦܪܕܪܝܢ. ܡܢ ܙܝܢܬܐ]
                     ܕܐܠܗܐ. ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܩܢܘܡܗ̣ ܘܕܐܝܠܝܢ ܕܩ̇ܪܝܢ ܒܗ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ : ܣܡ ܠܗ ܣܝܡܬܐ
                     ܗܕܐ̣. ܗ̣ܘ ܢܫܘܝܘܗܝ ܕܢܫܡ̣ܥ ܡܢ ܡܪܗ܇ ܗ̇ܝ ܒܪܬ ܩܠܐ ܒܪܝܟܬܐ ܕܐܡ̇ܪܐ̇. ܐܝܘ ܥܒ̣ܕܐ ܛܒ̇ܐ
                     ܘܡܗܝܡܢܐ̇. ܥܠ ܩܠܝܠ ܡܗ̣ܝܡܢ ܗܘ̣ܝܬ݁. ܥܠ ܣܓܿܝ ܐܩܝܡܟ. ܥܘܠ ܠܚܕܘܬܗ ܕܡܪܟ. ܘܠܥܢܝܕܘ̈ܗܝ
@@ -178,30 +184,30 @@
                     ܕܝܢ ܟܬܒܐ ܗܢܐ̣. [ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܕܢܝܐܝܠ ܕܟܦܪܒܝܠ] ܕܟܣ̈ܝܗ ܟܘܪܐ ܕܐܢ̈ܛܝܘܟܝܐ. ܥܠ
                     ܕܝܢ ܠܒܝܬ ܟܬܒ̈ܐ ܒܝ̈ܘܡܝ ܪܝܫܕܝܪܐ ܬܐܘܡܐ ܕܝܠܗ ܕܥܘܡܪܐ ܘܩܫܝܫܐ ܫܡܥܘܢ ܕܒܬܪܗ ܟܕ ܐܝܬܘܗܝ
                     ܟܬܒܝܐ ܩܫܝܫܐ ܡܘܫܐ. ܕܐܠܗܐ ܒܪ̈ܚܡ̣ܘܗܝ ܘܒܛܝܒܘܬܗ ܢܬܠ ܐܓܪܐ ܘܦܘܪܥܢܐ ܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ
-                    ܒܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥܒܕܐ܀ ܘ ܀ </quote>
+                    ܒܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥܒܕܐ܀ ܘ ܀ </quote></p>
                 </item>
-                <item n="2" xml:id="m2">
-                  <locus from="59b">59b</locus>
-                  <p>More recent <label>note</label>A more recent note, on fol. 59 b, records that
-                    Pāpā bar Dūmā of Tagrīt (Tecrit) presented this book to the convent of S. Mary
-                    Deipara, by the hands of Matthew and Abraham of Tagrīt. The latter part of this
-                    note, from <quote xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</quote> to the end, is in a different hand from the former part. </p>
-                  <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote>
+                <item n="2" xml:id="addition2">
+                  <locus from="59b" to="59b"/><ref target="#a1"/>
+                  <p><desc>More recent <label>note</label>A more recent note, on fol. <locus>59b</locus>, records that
+                    <persName>Pāpā bar Dūmā</persName> of <placeName>Tagrīt</placeName> (Tecrit) presented this book to the <placeName>convent of S. Mary
+                    Deipara</placeName>, by the hands of Matthew and Abraham of <placeName>Tagrīt</placeName>. The latter part of this
+                    note, from <quote xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</quote> to the end, is in a different hand from the former part.</desc></p>
+                  <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote></p>
                 </item>
-                <item n="3" xml:id="m3">
-                  <locus from="59b">59b</locus>
-                  <p><label>Margin</label> note</p>
+                <item n="3" xml:id="addition3">
+                  <locus from="59b" to="59b"/><ref target="#a1"/>
+                 <desc><label>Margin. note</label></desc>
                   <quote xml:lang="syr">ܝܗܒ̣ ܟܬܒܐ ܗܢ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܝܪ̈ܝܝܐ ܕܐܒܐ ܒܝܫܘܝ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܛܐ̣. ܦܦܐ ܒܪ ܕܘܡܐ ܬܓܪܝܬܢܝܐ. ܡܛܠ ܚܘܣܝܐ ܕܚܘ̈ܒܘܗܝ ܘܕܘܟܪܢܐ ܕܥ̈ܢܝܕܘܗܝ. ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ♱ . . ܒܡܬܚܦܛܢܘܬܐ ܕܡܬܝ ܘܕܐܒܪܗܡ ܐܚ̈ܐ ܕ̈ܝܪܝܐ ܬܓܪܝܢܬܝܐ (sic) ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠܝܗܘܢ ܘܟܠ ܕܩܪܐ ܒܗ ܘܢܟ̇ܡܢ ܥܠܘܗܝ ܢܕܥ ܕܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܥܠ ܦܘܩܕܢܐ</quote>
-                  <!-- Question in Word Doc attached to this syriac quote ^ -->
+    <!--A question about the dot that comes on top-->
                 </item>
-                <item n="4" xml:id="m4">
-                  <locus from="60b">60b</locus>
-                  <p><label>Note</label> written by the librarian of the convent of S. Mary Deipara</p>
+                <item n="4" xml:id="addition4">
+                  <locus from="60b" to="60b"/><ref target="#a1"/>
+                  <desc><label>Note</label> written by the librarian of the <placeName>convent of S. Mary Deipara</placeName></desc>
                   <quote xml:lang="syr">ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ. ܠܝܬ ܠܗ ܫܘܠܛܢܐ ܡܢ ܐܠܗܐ ܕܢܠܒܟܝܘܗܝ [ܐܠܐ ܐܫܬܐ ܝܪ̈ܚܝܢ]. ܘܟܠ ܕܠܐ ܡܗܦܟ ܠܗ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. ܘܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. </quote>
                 </item>
-                <item n="5" xml:id="m5">
-                  <locus from="60b">60b</locus>
-                  <p><label>Note</label>, almost effaced, that was an anathema upon Nestorius and other heretics.</p>
+                <item n="5" xml:id="addition5">
+                  <locus from="60b" to="60b"/><ref target="#a1"/>
+                  <desc><label>Note</label>, almost effaced, that was an anathema upon Nestorius and other heretics.</desc>
                 </item>
               </list>
               <catchwords/>
@@ -212,9 +218,6 @@
             <origin>
               <origDate notBefore="0599" notAfter="0600">Dated A. Gr. 910, A.D. 599</origDate>
             </origin>
-            <provenance>
-              <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary --></p>
-            </provenance>
           </history>
           <additional>
             <adminInfo>
@@ -226,7 +229,7 @@
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
+              <bibl xml:id="Wright">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -261,11 +264,40 @@
       </classDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass> </textClass>
+      <langUsage>
+        <language ident="syr">Unvocalized Syriac of any variety or period</language>
+        <language ident="syr-Syre">Syriac in Estrangela</language>
+        <language ident="syr-Syrj">Vocalized West Syriac</language>
+        <language ident="syr-Syrn">Vocalized East Syriac</language>
+        <language ident="syr-x-syrm">Melkite Syriac</language>
+        <language ident="syr-x-syrp">Palestinian Syriac</language>
+        <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+        <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+        <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+        <language ident="en">English</language>
+        <language ident="ar">Arabic</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="la">Latin</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="cop">Coptic</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
+              <ref target="#bible-ot"/>       
+            </item>
+          </list>
+        </keywords>
+      </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="" who=""/>
-    </revisionDesc>
+      <change when="2013-07-01" who="http://syriaca.org/editors.xml#?">CREATED: file</change>
+      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
+      </revisionDesc>
   </teiHeader>
   <facsimile>
     <!-- facsimile information about the manuscript -->
@@ -280,3 +312,4 @@
     </body>
   </text>
 </TEI>
+<!-- Notes of remaining items: Where to link the PDF, where to put raw full text, where put Wright's running headers, lanugage and script issues -->

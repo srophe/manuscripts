@@ -10,36 +10,7 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">
-          David A. michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
-        <respStmt>
-          <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
-        </respStmt>
-        <respStmt>
-          <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
-        </respStmt>
-        <respStmt>
-          <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
-        </respStmt>
-        <respStmt>
-          <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
-        </respStmt>
-        <respStmt>
-          <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
-        </respStmt>
-        <respStmt>
-          <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
-        </respStmt>
+        
       </titleStmt>
       <editionStmt>
         <edition n="1.0"/>
@@ -91,7 +62,7 @@
                 <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents class=""><!--use the Wright's Section Headings here for @class-->
+            <msContents>
               <summary/><!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
               <textLang mainLang="syr">Syriac</textLang><!-- For now just keep language as Syriac, this may change later. Note use ISO 639-1 codes if available then 639-2 otherwise, for example, Ancient Greek is grc in ISO-639-2-->
               <msItem n="1" xml:id="p1a1" defective="">
