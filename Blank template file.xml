@@ -262,7 +262,7 @@
             <history>
               <origin>
                 <origDate notBefore="" notAfter=""><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origPlace/><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
+                <origPlace><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
               </origin>
               <provenance>
                 <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
@@ -551,6 +551,8 @@
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
+      <change type="planned" subtype="missing">Missing various unspecified things.</change>
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>

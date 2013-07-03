@@ -3403,7 +3403,7 @@ tei_bindingDesc =
   ## as a series of paragraphs or as a series of distinct binding elements,
   ## one for each binding of the manuscript. 
   element bindingDesc {
-    ((tei_model.pLike | tei_decoNote | tei_condition)+ | tei_binding+)?,
+    (tei_model.pLike?, tei_decoNote?,tei_condition?, tei_binding?)+,
     att.global.attributes,
     empty
   }
@@ -3411,7 +3411,7 @@ tei_binding =
   
   ## contains a description of one binding, i.e. type of covering, boards, etc. applied to a manuscript.
   element binding {
-    (tei_model.pLike | tei_condition | tei_decoNote)+,
+    (tei_model.pLike | tei_condition | tei_decoNote)?,
     att.global.attributes,
     att.datable.attributes,
     
