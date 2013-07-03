@@ -10,7 +10,35 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+        </respStmt>
+        <respStmt>
+          <resp>Syriac text entered by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project management by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+        </respStmt>
+        <respStmt>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="1.0"/>
@@ -181,7 +209,11 @@
                     <p/><!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.-->
                   </collation>
                   <condition>
-                    <p><!-- Reproduce Wright's prose regarding the condition, tagging any , persons, places, foreign words, etc. as necessary taggging loci is optional --></p>
+                    <list>
+                      <item>
+                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any , persons, places, foreign words, etc. as necessary taggging loci is optional --></p>
+                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
+                    </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
@@ -199,7 +231,7 @@
                   <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
                 </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
               </handDesc>
-              <decoDesc><!-- If no mention of decoration, the <decoDesc> block may be removed. -->
+              <decoDesc>
                 <decoNote xml:id="p1decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "p1decoNote1", "p1decoNote2", etc. If there is only one <msPart>, then the "p1" need not be included.-->
                   <!-- There are many valid entries for @type. See manual for a complete list. -->
                   <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
@@ -283,7 +315,7 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
                 <locus from="" to=""/>
-                <author key=""/>
+                <author ref=""/>
                 <title ref=""/>
                 <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
                 <incipit xml:lang="syr"><locus from="" to=""/></incipit>
@@ -298,7 +330,7 @@
               </msItem>
               <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
                 <locus from="" to=""/>
-                <author key=""/>
+                <author ref=""/>
                 <title ref=""/>
                 <rubric xml:lang="syr"><locus from="" to=""/></rubric>
                 <incipit xml:lang="syr"><locus from="" to=""/></incipit>
@@ -335,7 +367,11 @@
                     <p/>
                   </collation>
                   <condition>
-                    <p/>
+                    <list>
+                      <item>
+                        <p/>
+                      </item>
+                    </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
