@@ -192,7 +192,7 @@
               </msItem>
               <msItem n="2" xml:id="p2a2" defective="true">
                 <locus from="4" to="11">Foll. 4-11</locus>
-                <editor role="translator" ref="">Paul of Tellā</editor>
+                <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tellā</editor>
                 <title type="supplied" ref="http://syriaca.org/work/99">Hosea, translated from the Septuagint</title>
                 <rubric xml:lang="syr">ܟܬܒܒ ܕܬܪܥܣܪ̈ ܢܒ̈ܝܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ<locus from="4" to="4"/></rubric>
                 <note>Originally the twelve minor prophets, translated from the Septuagint by Paul of Tellā. There now remains only Hosea, ch. i. 1 — v. 15.</note>
