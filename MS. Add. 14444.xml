@@ -81,10 +81,10 @@
                 <idno type="Wright-BL-Roman">VI</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents class="Biblical Manuscripts: Old Testament">
+            <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p1a1" defective="yes">
+              <msItem n="1" xml:id="p1a1" defective="true">
                 <locus from="1-24b">foll. 1-24b</locus>
                 <author key=""/> 
                 <title type="supplied" ref="http://syriaca.org/work/1">Fragments of the book of Genesis, according to the Peshitta version</title>
@@ -199,7 +199,7 @@
                 <author key=""/> 
                 <title>Index to the lessons in the books of <title type="supplied" ref="http://syriaca.org/work/3">Leviticus</title> and <title type="supplied" ref="http://syriaca.org/work/18">Job</title></title>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective="yes">
+              <msItem n="2" xml:id="p2a2" defective="true">
                 <locus from="25" to="38">foll. 25-38</locus>
                 <author key=""/> 
                 <title type="supplied" ref="http://syriaca.org/work/3">Fragments of the book of Leviticus, according to the Peshitta version</title>

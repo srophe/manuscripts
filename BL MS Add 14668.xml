@@ -84,7 +84,7 @@
             <msContents class="Biblical Manuscripts: Old Testament">
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p1a1" defective="yes">
+              <msItem n="1" xml:id="p1a1" defective="true">
                 <locus from="1" to="3">Foll. 1-3</locus>
                 <title ref="http://syriaca.org/work/5" type="supplied">The book of Deuteronomy, according to the Peshitta version</title>
                 <note>On <locus from="1" to="1">fol. 1</locus> is ch. 12:11-31.</note>
@@ -190,7 +190,7 @@
                 <rubric xml:lang="syr"> [ܩ̈ܦܠܐܐ ܕܗܘܫܥ ܢܒ[ܝܐ <locus from="4" to="4"/></rubric>
                 <note>See <bibl>Chrysostom, Synopsis Scripturae Sacrae; Opera, t. vi. p. 455</bibl></note>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective="yes">
+              <msItem n="2" xml:id="p2a2" defective="true">
                 <locus from="4" to="11">Foll. 4-11</locus>
                 <editor role="translator" ref="">Paul of Tellā</editor>
                 <title type="supplied" ref="http://syriaca.org/work/28">Hosea, translated from the Septuagint</title>
@@ -290,28 +290,28 @@
             <msContents class="Biblical Manuscripts: Old Testament">
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p3a1" defective="yes">
+              <msItem n="1" xml:id="p3a1" defective="true">
                 <locus from="12" to="12">Fol. 12</locus>
                 <title type="supplied" ref="http://syriaca.org/work/28">Hosea, according to the Peshitta version</title>
                 <note><locus from="12a" to="12a">Fol. 12a</locus> contains ch. 7:13-14, 8:2-4.</note>
                 <note><locus from="12b" to="12b">Fol. 12b</locus> contains 8:7, 12, 13.</note>
               </msItem>
-              <msItem n="2" xml:id="p3a2" defective="yes">
+              <msItem n="2" xml:id="p3a2" defective="true">
                 <locus from="13a" to="17">Foll. 13a-17</locus>
                 <title type="supplied" ref="http://syriaca.org/work/30">Amos, according to the Peshitta version</title>
                 <note>Ch. 3:6 to the end.</note>
               </msItem>
-              <msItem n="3" xml:id="p3a3" defective="yes">
+              <msItem n="3" xml:id="p3a3" defective="true">
                 <locus from="18a" to="18b">Fol. 18</locus>
                 <title type="supplied" ref="http://syriaca.org/work/31">Obadiah, according to the Peshitta version</title>
                 <note>Vv. 1-20.</note>
               </msItem>
-              <msItem n="4" xml:id="p3a4" defective="yes">
+              <msItem n="4" xml:id="p3a4" defective="true">
                 <locus from="19a" to="19a">Fol. 19a</locus>
                 <title type="supplied" ref="http://syriaca.org/work/34">Habakkuk, according to the Peshitta version</title>
                 <note>Ch. 2:18 to the end.</note>
               </msItem>
-              <msItem n="5" xml:id="p3a5" defective="yes">
+              <msItem n="5" xml:id="p3a5" defective="true">
                 <locus from="19b" to="19b">Fol. 19b</locus>
                 <title type="supplied" ref="http://syriaca.org/work/35">Zephaniah, according to the Peshitta version</title>
                 <note>Ch. 1:1-6.</note>
@@ -414,7 +414,7 @@
             <msContents class="Biblical Manuscripts: Old Testament">
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p4a1" defective="yes"><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
+              <msItem n="1" xml:id="p4a1" defective="true"><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
                 <locus from="" to=""/>
                 <author ref=""/>
                 <title ref=""/>

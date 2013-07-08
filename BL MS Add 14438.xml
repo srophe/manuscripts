@@ -84,7 +84,7 @@
             <msContents class="Biblical Manuscripts: Old Testament">
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p1a1" defective="yes">
+              <msItem n="1" xml:id="p1a1" defective="true">
                 <locus from="1a" to="49">Foll. 1a-49</locus>
                 <title ref="http://syriaca.org/work/5" type="supplied">The book of Deuteronomy, according to the Peshitta version</title>
                 <rubric xml:lang="syr">ܬܢܝܢ ܢܡܘܣܐ ܣܦܪܐ ܕܚܡܫܐ ܕܐܘܪܝܬܐ

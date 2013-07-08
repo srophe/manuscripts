@@ -109,7 +109,7 @@
                   <author ref="">Isaiah of Scete</author>
                   <rubric ref="" xml:lang="syr">ܦܘܩ̈ܕܢܐ ܠܗ̇ܢܘܢ ܕܡܬܪܚܩܝܢ ܡܢ ܥܠܡܐ</rubric>
                 </msItem>
-                <msItem n="6" xml:id="p1a6" defective="yes">
+                <msItem n="6" xml:id="p1a6" defective="true">
                   <locus from="9a" to="11">foll. 9a-11</locus>
                   <author ref="">Isaiah of Scete</author>
                   <rubric ref="" xml:lang="syr">ܡܛܠ ܐܝܠܝܢ ܕܫ̣ܡܥ ܘܚ̣ܙܐ ܨܝܕ ܣ̈ܒܐ</rubric>
