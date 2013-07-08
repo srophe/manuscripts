@@ -559,10 +559,10 @@
             <msContents class="Biblical Manuscripts: Old Testament">
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p4a1" defective="true">
+              <msItem n="1" xml:id="p4a1" defective="unknown">
                 <locus from="22" to="22">Fol. 22</locus>
                 <author ref=""/>
-                <title type="supplied" ref="http://syriaca.org/work/5">Deuteronomy, according to the Peshitta version</title>
+<title type="supplied" ref="http://syriaca.org/work/5">Deuteronomy, according to the Peshitta version</title>
                 <note>Ch. 3:21-4:17.</note>
               </msItem>
             </msContents>
@@ -594,8 +594,8 @@
                 <layoutDesc/>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p4handNote1" scope="sole" script="unknown" medium="unknown">
-                  <desc>Written in a good, regular hand of the <origDate notBefore="0900" notAfter="1000">10th century</origDate>.</desc>
+                <handNote xml:id="p4handNote1" scope="sole" script="syr" medium="unknown">
+                  <desc>Written in a good, regular hand of the <origDate notBefore="0900" notAfter="1000">xth century</origDate>.</desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
@@ -674,7 +674,7 @@
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"/>
+                  <foliation/>
                   <collation/>
                   <condition>
                     <list>
