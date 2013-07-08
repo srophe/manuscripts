@@ -84,7 +84,7 @@
                         <msContents>
                             <summary/>
                             <textLang mainLang="syr">Syriac</textLang>
-                            <msItem n="1" xml:id="p1a1" defective="false">
+                            <msItem n="1" xml:id="p1a1">
                                 <locus from="1" to="108"/>
                                 <title ref="http://syriaca.org/work/2">The book of Exodus, according
                                     to the Peshitta version.</title>
@@ -291,10 +291,10 @@
                                     <p>There is also a farther marginal subdivision into 53 (ܢܓ)
                                         sections and upwards of 2000 versicles (ܦܬܐܠܦ ܒ, fol. <locus>168b</locus>
                                         ).</p>
-                                    <p>The text is that of the Hexapla of Origen, with all the
-                                        critical marks; the various readings of Aquila, Symmachus,
-                                        and Theodotion; and a few explanatory notes. The
-                                        tetragrammaton is indicated on the margin by .ܦܝܦ
+                                    <p>The text is that of the <bibl>Hexapla<ptr target="http://syriaca.org/work/133"/></bibl> of Origen, with all the
+                                        critical marks; the various readings of <bibl>Aquila<ptr target="http://syriaca.org/work/134"/></bibl>, <bibl>Symmachus<ptr target="http://syriaca.org/work/135"/></bibl>,
+                                        and <bibl>Theodotion<ptr target="http://syriaca.org/work/136"/></bibl>; and a few explanatory notes. The
+                                        tetragrammaton is indicated on the margin by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.
                                     </p></note>
                                 <colophon><ref target="#p2addition1">See below.</ref></colophon>
                             </msItem>
@@ -420,7 +420,7 @@
             </editorialDecl>
             <classDecl>
                 <taxonomy xml:id="Wright-BL-Taxonomy">
-                    <bibl target="#Wright"/>
+                    <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
                     <category xml:id="biblical-manuscripts">
                         <category xml:id="bible-ot"/>
                         <category xml:id="bible-nt"/>
@@ -504,7 +504,7 @@
         <revisionDesc>
             <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
             <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-            <change type="planned" subtype="vowels">Add missing Syriac vowels.</change>
+            <change type="planned" subtype="missing">Add missing Syriac vowels.</change>
             <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
         </revisionDesc>
     </teiHeader>

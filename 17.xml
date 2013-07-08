@@ -47,7 +47,7 @@
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
         <idno type="URI"
-          >http://syriaca.org/manuscript/729/source</idno>
+          >http://syriaca.org/manuscript/17/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -57,14 +57,14 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-729" xml:lang="en">
+        <msDesc xml:id="manuscript-17" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
             <idno type="URI"
-              >http://syriaca.org/manuscript/729</idno>
+              >http://syriaca.org/manuscript/17</idno>
             <altIdentifier>
               <idno  type="BL-Shelfmark">Add MS 17102</idno>
             </altIdentifier>
@@ -279,7 +279,7 @@
       </editorialDecl>
         <classDecl>
           <taxonomy xml:id="Wright-BL-Taxonomy">
-            <bibl target="#Wright"/>
+            <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
             <category xml:id="biblical-manuscripts">
               <category xml:id="bible-ot"/>
               <category xml:id="bible-nt"/>

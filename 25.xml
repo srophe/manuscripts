@@ -47,7 +47,7 @@
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
         <idno type="URI"
-          >http://syriaca.org/manuscript/731/source</idno>
+          >http://syriaca.org/manuscript/25/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -57,13 +57,13 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-731" xml:lang="en">
+        <msDesc xml:id="manuscript-25" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/731</idno>
+            <idno type="URI">http://syriaca.org/manuscript/25</idno>
             <altIdentifier>
               <idno type="BL-Shelfmark">Add MS 17104</idno>
             </altIdentifier>
@@ -192,7 +192,7 @@
       </editorialDecl>
       <classDecl>
         <taxonomy xml:id="Wright-BL-Taxonomy">
-          <bibl target="#Wright"/>
+          <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
           <category xml:id="biblical-manuscripts">
             <category xml:id="bible-ot"/>
             <category xml:id="bible-nt"/>
@@ -275,8 +275,8 @@
     <revisionDesc>
       <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vowels">Missing vowels on top of Syriac words.</change>
-      <change type="planned" subtype="greek">Add missing Greek text.</change>
+      <change type="planned" subtype="missing">Add in missing Syriac characters</change>
+      <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

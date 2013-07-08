@@ -46,7 +46,7 @@
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
         <idno type="URI"
-          >http://syriaca.org/manuscript/103/source</idno>
+          >http://syriaca.org/manuscript/19/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -56,7 +56,7 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-103" xml:lang="en">
+        <msDesc xml:id="manuscript-19" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
@@ -130,7 +130,7 @@
                   <desc>A later hand has added Greek vowels here and there (α, ⲉ, ⲏ, or ϊ, foll. <locus>9b</locus>, <locus>10a</locus>, ο or ω, foll. <locus>10a</locus>, <locus>13b</locus>, <locus>16a</locus>, ογ), and also Syriac vowel-points (for example, on foll. 17 a, 24 a and b, 25 a).
                     A modern hand (perhaps the same that added the vowels) has marked the lessons on the margins, and also appended a few notes, either referring to the text of the LXX., or explanatory of proper names and other words. For example: fol. 31 b, ܘܒܫܥܠܒܝܢ (Judg. i. 35), marg. ܗ̄ ܒܝܬ ܬܥ̈ܠܐ; fol. 36 a, ܘܐܡܪܘ ܚܪܒܐ ܠܡܪܝܐ ܘܠܓܕܥܘܢ  (Judg. vii. 18), marg. ܥ܏ܒ ܙܟܘܬܐ ܠܡܪܝܐ ܒܝܕ ܓܕܥܘܢ; fol. 38 a, ܐܟܘܬܟ ܐܝܬܝܗܘܢ ܗܘܘ (Judg. viii. 18), marg. ܥ܏ܒ ܬܗܘܐ ܠܟ ܐܝܟ ܚܕ ܡܢܗܘܢ; fol. 43 a, ܬܒ̣ܪܐ ܕܪܟܒܐ ܕܪܚܝܐ (Judg. ix. 53), marg. ܏ܗ ܦܝܢܟܐ ܕܪܰܚܝܐ; fol. 48 b, ܐܦܪܡܝܐ ܐܢܬ (Judg. xii. 5), marg. ܥ܏ܒ ܦܪܬܝܐ ܐܢܬ ; fol. 55 b, ܟܠ ܓܒܪ ܐܠܦ ܘܬܠܬܡܐܐ ܕܟܦܣܐ (Judg. xvi. 5), marg. ܥ܏ܒ ܠܪܒ ܐ̈ܠܦܐ ܘܡܐܐ ܕܟܣܦܐ. In one place a Greek word is written on the margin by the same hand, viz. fol. 18 b, κγροc (ܘܕܩܪܘܣ, Josh. xiii. 11).</desc>
                   
-                  <!-- Missing some numbers or letters -->
+  <!-- Missing some numbers or letters -->
                 </handNote>
               </handDesc>
             </physDesc>
@@ -257,7 +257,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-07-03" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-07-08" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
       <change type="planned" subtype="missing">Add in missing Syriac characters</change>
     </revisionDesc>
   </teiHeader>

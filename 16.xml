@@ -60,13 +60,13 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-104" xml:lang="en">
+        <msDesc xml:id="manuscript-16" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/104</idno>
+            <idno type="URI">http://syriaca.org/manuscript/16</idno>
             <altIdentifier>
               <idno type="BL-Shelfmark">Add MS 14440</idno>
             </altIdentifier>
@@ -257,7 +257,7 @@
       </editorialDecl>
       <classDecl>
         <taxonomy xml:id="Wright-BL-Taxonomy">
-          <bibl target="#Wright"/>
+          <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
           <category xml:id="biblical-manuscripts">
             <category xml:id="bible-ot"/>
             <category xml:id="bible-nt"/>

@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14432</title>
+        <title xml:lang="en">BL Add MS 14431</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -46,7 +46,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/87/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/22/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -56,14 +56,14 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-87" xml:lang="en">
+        <msDesc xml:id="manuscript-22" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
             <idno type="URI"
-              >http://syriaca.org/manuscript/87</idno>
+              >http://syriaca.org/manuscript/22</idno>
             <altIdentifier >
               <idno type="BL-Shelrmark">Add MS 14431</idno>
             </altIdentifier>
@@ -127,7 +127,7 @@
               <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="regular">
                 <desc>This volume is written in a line, regular Estrangela, not later than A. Gr. 856, <origDate notBefore="0545" notAfter="0546">A.D. 545</origDate>.</desc>
                 </handNote>
-              <handNote xml:id="handnote2" scope="minor" script="syr-Syrc" medium="modern">
+              <handNote xml:id="handnote2" scope="minor" script="syr" medium="modern">
                 <desc>fol. <locus>147</locus> is more modern.</desc></handNote>
                   <handNote xml:id="handnote3" scope="minor" script="syr-Syrj" medium="unknown">
                     <desc>Greek vowels have been added here and there by a later hand (ܰ , ܶ ,ܺ , ܳ, , , ) </desc></handNote>
@@ -190,7 +190,7 @@
       </editorialDecl>
       <classDecl>
         <taxonomy xml:id="Wright-BL-Taxonomy">
-          <bibl target="#Wright"/>
+          <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
           <category xml:id="biblical-manuscripts">
             <category xml:id="bible-ot"/>
             <category xml:id="bible-nt"/>
@@ -272,7 +272,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-06-29" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
-      <change type="planned" subtype="vowels">Add missing Greek vowels</change>
+      <change type="planned" subtype="missing">Add missing Greek vowels</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
