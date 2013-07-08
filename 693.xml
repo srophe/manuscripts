@@ -84,7 +84,7 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p1a1">
+              <msItem n="1" xml:id="p1a1" defective="unknown">
                 <locus from="1a" to="1b"/>
                 <title ref="http://syriaca.org/work/1" type="supplied">Genesis, ch. i. v. 7—18, according to the Peshitta version</title>
               </msItem>
