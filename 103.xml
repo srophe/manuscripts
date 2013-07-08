@@ -176,7 +176,7 @@
       </editorialDecl>
       <classDecl>
         <taxonomy xml:id="Wright-BL-Taxonomy">
-          <bibl><ref target="#Wright"/></bibl>
+          <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
           <category xml:id="biblical-manuscripts">
             <category xml:id="bible-ot"/>
             <category xml:id="bible-nt"/>
