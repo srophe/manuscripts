@@ -64,7 +64,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/103</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS14439</idno>
+              <idno type="BL-Shelfmark">Add MS 14439</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,7 +81,7 @@
               <msItem n="1" xml:id="a1">
                 <locus from="1" to="29"/>
                 <title ref="http://syriaca.org/work/6" type="supplied">The book of Joshua, according to the Peshitta version.</title>
-                <finalRubric xml:lang="syr">܀ܫܠܡ . ܟܬܒܐ . ܕܝܫܘܥ . ܒܪܢܘܢ<locus from="1a" to="1a"/></finalRubric>
+                <finalRubric xml:lang="syr">ܫܠܡ . ܟܬܒܐ . ܕܝܫܘܥ . ܒܪܢܘܢ܀<locus from="29" to="29"/></finalRubric>
               </msItem>
               <msItem n="2" xml:id="a2">
                 <locus from="29b" to="69"/>

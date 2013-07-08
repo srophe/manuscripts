@@ -80,7 +80,7 @@
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="60a"/>
                 <title ref="http://syriaca.org/work/1" type="supplied">Genesis, according to the Peshitta version.</title>
-                <finalRubric xml:lang="syr">ܫܠܡ. ܣܦܪܐ. ܩܕܡܝܐ. ܒܪܝܬܐ<locus from="1b" to="1b"/>
+                <finalRubric xml:lang="syr">ܫܠܡ. ܣܦܪܐ. ܩܕܡܝܐ. ܒܪܝܬܐ<locus from="60a" to="60a"/>
                 </finalRubric>
                 <note><p>Portions of the text are missing: after fol. <locus>2</locus>, Gen. ii. 10—iii. 12.</p>
                   <p>Gen. xlix. v. 1. Omits ܠܗܘܢ; ܘܐܚܘܟܘܢ—v. 2. ܠܐܝܣܪܝܠ, and so always.—v. 4. ܬܫܘܝܬ.—v.5. Omits ܐܚ̈ܐ—v.6.
@@ -93,7 +93,7 @@
                 <rubric xml:lang="syr">ܡܦܩܢܐ. ܣܦܪܐ ܕܬܪ̈ܝܢ ܕܐܘܪܝܬܐ
                   <locus from="60a" to="60a"/>
                 </rubric>
-                <finalRubric xml:lang="syr">ܫܠܡ ܡܦܩܢܐ ܣܦܪܐ ܕܬܪ̈ܝܢ ܕܐܘܪܝܬܐ
+                <finalRubric xml:lang="syr">ܫܠܡ ܡܦܩܢܐ ܣܦܪܐ ܕܬܪ̈ܝܢ ܕܐܘܪܝܬܐ<locus from="116b" to="116b"/>
                 </finalRubric>
                 <note><p>Portions of the text are missing: after fol. <locus>89</locus>, Exod. xxiii. 9—31.</p>
                   <p>Exod. xv. 1—21. v. 4.  ܫܕܐ ܒܝܡ̈ܐ ; ܛܒ݁ܥܘ -- v. 5. ܟܐܦ̈ܐ —v. 6..ܬܒܪܬ ܒܥܠܕܒ̈ܒܝܟ —v. 7.. ܘܒܣܘܓܐܬ ܬܘܩܦܟ݂ ܣܚܿܦܬ ܣܢܐܝ̈ܟ v. 14.. ܠܝ̈ܬܒܐ ܕܦܠܫܬ —v. 15. ܘܠܓܢܒܪ̈ܐ ; ܐܪܬܝܬܐ —v. 16. ܥܡܘܪ̈ܐ ܕܟܢܥܢ —v. 19. ܡܛܘܠ ; ܘܐܗܦܟ ܡܪܝܐ ܥܠܝܗܘܢ —v. 20. ܘܢܦ̣ܩ ܟܘܠܗܝܢ ; ܘܒܪܒܝܥܐ.	
@@ -106,7 +106,7 @@
                     <locus from="116b" to="116b"/>
                   </rubric>
                   <finalRubric xml:lang="syr">ܫܠܡ ܡܢܝܢܐ ܣܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ
-                  </finalRubric>
+                  <locus from="177a" to="177a"/></finalRubric>
                   <note><p>Portions of the text are missing: after fol. <locus>119</locus>, Num. ii. 34—iii. 25.</p></note>
                 </msItem>
               </msItem>
