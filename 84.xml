@@ -44,7 +44,7 @@
                 <pubPlace/>
                 <authority>Syriaca.org: The Syriac Reference Portal </authority>
                 <idno type="URI"
-                    >http://syriaca.org/manuscript/11/source</idno>
+                    >http://syriaca.org/manuscript/84/source</idno>
                 <availability>
                     <p/>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -54,13 +54,13 @@
                 <date calendar="Gregorian"><!-- Date of publication --></date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="manuscript-11" xml:lang="en">
+                <msDesc xml:id="manuscript-84" xml:lang="en">
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Oriental Manuscripts</collection>
-                        <idno type="URI">http://syriaca.org/manuscript/11</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/84</idno>
                         <altIdentifier>
                             <idno type="BL-Shelfmark">Add MS 14428</idno>
                         </altIdentifier>

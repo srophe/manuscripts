@@ -46,7 +46,7 @@
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
         <idno type="URI"
-          >http://syriaca.org/manuscript/19/source</idno>
+          >http://syriaca.org/manuscript/103/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -56,7 +56,7 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-19" xml:lang="en">
+        <msDesc xml:id="manuscript-103" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>

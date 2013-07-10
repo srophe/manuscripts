@@ -54,13 +54,13 @@
                 <date calendar="Gregorian"><!-- Date of publication --></date>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="manuscript-5" xml:lang="en"> 
+                <msDesc xml:id="manuscript-82" xml:lang="en"> 
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Oriental Manuscripts</collection>
-                        <idno type="URI">http://syriaca.org/manuscript/5</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/82</idno>
                         <altIdentifier>
                             <idno type="BL-Shelfmark">Add MS 14426</idno>
                         </altIdentifier>

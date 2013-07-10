@@ -1,22 +1,19 @@
 <?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
-<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14440</title>
+        <title xml:lang="en">BL Add MS 14431</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
-        <funder>National Endowment for the Humanities</funder>
-        <funder>Andrew W. Mellon Foundation</funder>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J.
-          Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D.
-          Hannah</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">
+          David A. michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
@@ -40,8 +37,7 @@
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac
-            Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -50,7 +46,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/104/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/87/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,161 +56,98 @@
         <date calendar="Gregorian"><!-- Date of publication --></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-16" xml:lang="en">
+        <msDesc xml:id="manuscript-87" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/16</idno>
-            <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14440</idno>
+            <idno type="URI"
+              >http://syriaca.org/manuscript/87</idno>
+            <altIdentifier >
+              <idno type="BL-Shelrmark">Add MS 14431</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
-                Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">16</idno>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">22</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
-                Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">XVI</idno>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">XXII</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
-            <msItem n="1" xml:id="a1" defective="false">
-              <locus from="1" to="36"/>
-              <title ref="http://syriaca.org/work/6">The book of Joshua according to the Peshitta
-                version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܝܫܘܥ ܒܪܢܘܢ</title>
-                <locus from="1b" to="1b"/></rubric>
+            <msItem n="1" xml:id="a1" defective="true">
+              <locus from="1" to="83"/>
+              <title ref="http://syriaca.org/work/9" type="supplied">The first book of Samuel according to the Peshitta
+                version.</title>
+              <rubric xml:lang="syr">ܢܒܝܘܬܗ ܕܫܡܘܐܝܠ</rubric>
+              <note>The missing portions of the text are: 1 Sam., ch. i. 26—ch. ii. 19.</note>
             </msItem>
-            <msItem n="2" xml:id="a2">
-              <locus from="36b" to="69b"/>
-              <title ref="http://syriaca.org/work/6">The book of Judges according to the Peshitta
-                version</title>
-              <rubric xml:lang="syr">ܟܬܒܐ ܕܣܦܪ ܕܝ̈ܢܐ ܕܡܬܩ̤ܪܐ ܥܒܪܐܝܬܐ ܫܒ̈ܛܐ<locus from="36b" to="36b"
-                />
-              </rubric>
-            </msItem>
-            <msItem n="3" xml:id="a3">
-              <locus from="70a" to="147a"/>
-              <title ref="http://syriaca.org/work/44">The two books of Samuel (undivided) according
-                to the Peshitta version</title>
-              <rubric xml:lang="syr">ܟܬܒܐ ܕܫܡܘܐܝܠ <locus from="70a" to="70a"/>
-              </rubric>
-            </msItem>
-            <msItem n="4" xml:id="a4">
-              <locus from="147a" to="225b"/>
-              <title ref="http://syriaca.org/work/45">The two books of Kings (undivided) according
-                to the Peshitta version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܣܦܪ ܡܠܟܘ̈ܬܐ</title>
-                <locus from="147a" to="147a"/>
-              </rubric>
-              <finalRubric xml:lang="syr">ܫܠܡ ܣܦܪܐ ܕܐܪ̈ܒܥܐ ܕܡܠܟ̈ܐ ܕܒܢ̈ܝ ܝܣܪܝܠ <locus from="225b"
-                  to="225b"/>
-              </finalRubric>
-              <note> 1 Kings, xxii, 8—27 is missing. </note>
-            </msItem>
-            <msItem n="5" xml:id="a5">
-              <locus from="225b" to="289b"/>
-              <title ref="http://syriaca.org/work/20">The Proverbs of Solomon according to the
-                Peshitta version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܡ̈ܬܠܐ ܕܫܠܝܡܘܢ ܒܪ ܕܘܝܕ</title>
-                <locus from="225b" to="225b"/>
-              </rubric>
-            </msItem>
-            <msItem n="6" xml:id="a6">
-              <locus from="250b" to="289b"/>
-              <title ref="http://syriaca.org/work/58">The Proverbs of Jesus the son of Sirach, or
-                Ecclesiasticus according to the Peshitta version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܒܪ ܣܝܪܐ</title>
-                <locus from="225b" to="225b"/>
-              </rubric>
-            </msItem>
-            <msItem n="7" xml:id="a7">
-              <locus from="289b" to="297b"/>
-              <title ref="http://syriaca.org/work/21">The book of Ecclesiastes or Koheleth according
-                to the Peshitta version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒ̇ܐ ܕܩܘܿܗܠܸܬ̣ ܒܪ ܕܵܘܝܼܕ</title>
-                <locus from="289b" to="289b"/>
-              </rubric>
-            </msItem>
-            <msItem n="8" xml:id="a8">
-              <locus from="297a" to="301b"/>
-              <title ref="http://syriaca.org/work/8">The book of Ruth according to the Peshitta
-                version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܪܥܘܬ</title>
-                <locus from="297b" to="297b"/>
-              </rubric>
-            </msItem>
-            <msItem n="9" xml:id="a9">
-              <locus from="301b" to="305b"/>
-              <title ref="http://syriaca.org/work/22">The Song of Songs according to the Peshitta
-                version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܫܪܬ ܫܐܪܝܢ ܕܐܝܬܘܗܝ ܦܘܫܩܗ̇ ܬܫܒܚܬ ܬܫܒ̈ܚܬܐ</title>
-                <locus from="301b" to="301b"/>
-              </rubric>
-            </msItem>
-            <msItem n="10" xml:id="a10">
-              <locus from="305b" to="325b"/>
-              <title ref="http://syriaca.org/work/18">The book of Job according to the Peshitta
-                version</title>
-              <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܢܨܝܚܐ ܐܝܘܒ ܙܕܝܩܐ</title>
-                <locus from="305b" to="305b"/>
-                <note>The following portions of the text are missing: Job, xii. 9— xiv. 5, xv. 29—xvii. 14, xxviii. 24—xxxiii. 9, and xlii. 11 to the end.</note>
-              </rubric>
+            <msItem n="2" xml:id="a2" defective="true">
+              <locus from="83b" to="158b"/>
+              <title ref="http://syriaca.org/work/10" type="supplied">The second book of Samuel according to the Peshitta
+                version.</title>
+              <note>The missing portions of the text are: 2 Sam., ch. xi. 11—20. Some lessons have been marked on the margins by later hands, and in a few instances the commencement of ܨܚ̈ܚܐ or sections (e.g. <locus target="114a">foll. 114a</locus> and <locus target="119a">119a</locus>).</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
-                <support><material>Vellum</material></support>
+                <support>
+                  <material>Vellum</material>
+                </support>
                 <extent>
-                  <measure type="composition" unit="leaf" quantity="325"> 325 ff.</measure>
+                  <measure type="composition" unit="leaf" quantity="158">158 ff.</measure>
                   <dimensions type="leaf" unit="in">
                     <height>
-                      <measure type="height" quantity="9.75" unit="in">9 3/4</measure>
+                      <measure type="height" quantity="8.375" unit="in">8 3/8</measure>
                     </height>
                     <width>
-                      <measure type="width" quantity="7" unit="in">7</measure>
-                    </width>
+                      <measure type="width" quantity="5" unit="in">5</measure></width>
                   </dimensions>
                 </extent>
-                <foliation type="ancient"/>
                 <collation>
-                  <p>There are 34 quires.</p>
-                  </collation>
+                  <p>16 quires.</p>
+                </collation>
                 <condition>
-                  <p>The quires are signed with letters; ܟܟ, ܠܓ and ܠܕ are incomplete. Many leaves are much stained and a few slightly torn (especially foll. <locus>68</locus>, <locus>76</locus>,
-                    <locus>77</locus>, <locus>79</locus>, <locus>86</locus>, <locus>87</locus>, <locus>89—193</locus>, and <locus>318—325</locus>). Leaves are missing after foll. <locus>185</locus>, <locus>312</locus>,
-                    <locus>313</locus>, <locus>319</locus>, and <locus>325</locus>. The following portions of the text are missing: 1 Kings,
-                    xxii, 8—27; Job, xii. 9— xiv. 5, xv. 29—xvii. 14, xxviii. 24—xxxiii. 9, and
-                    xlii. 11 to the end.</p>
+                  <p>Some leaves are slightly stained and torn. Leaves are wanting after foll. <locus>3</locus> and
+                    <locus>109</locus>.</p>
                 </condition>
               </supportDesc>
               <layoutDesc>
-                <layout columns="1" writtenLines="18 23">
-                  <locus from="1a" to="325b"/>
-                  <p>The number of lines in each page varies from 18 to 23.</p>
+                <layout columns="1" writtenLines="20 25">
+                  <p>Each page has from 20 to 25 lines.</p>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                <desc>This manuscript is written in a good, regular hand of the <origDate
-                    notBefore="0900" notAfter="1100">xth or xith cent.</origDate>, with numerous
-                  Syriac vowels and diacritical marks.</desc>
-              </handNote>
+              <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="regular">
+                <desc>This volume is written in a line, regular Estrangela, not later than A. Gr. 856, <origDate notBefore="0545" notAfter="0546">A.D. 545</origDate>.</desc>
+                </handNote>
+              <handNote xml:id="handnote2" scope="minor" script="syr" medium="modern">
+                <desc>fol. <locus>147</locus> is more modern.</desc></handNote>
+                  <handNote xml:id="handnote3" scope="minor" script="syr-Syrj" medium="unknown">
+                    <desc>Greek vowels have been added here and there by a later hand (ܰ , ܶ ,ܺ , ܳ, , , ) </desc></handNote>
+ <!-- Add missing Greek vowels -->
             </handDesc>
+            <additions>
+              <list>
+                <item n="1" xml:id="additon1"><locus from="157a" to="157a"/><ref target="a2"/> <quote>On fol.<locus>157a</locus> after the doxology, there, is a note, mentioning the name of the, scribe <persName>Sergūnā</persName>:</quote><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟܬܒܐ ܗܢܐ ܢܨܠܐ ܥܠ ܚܛܝܐ ܣܪܓܘܢܐ ܕܟܬ̣ܒ. ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ̣ ܐܝܟ ܕܐܬܚܢܢ ܓܝܣܐ ܒܙܩܝܦܐ. ܐܝܢ ܐܡܝܢ ܘܐܡܝܢ</quote><quote>and after it, in a more current hand of the same period, another note, stating that the manuscript was collated in the year <date>850, A.D. 545</date>, by one George (</quote><quote xml:id="syr">ܓܝܘܪܓܝ = ܙܨܕܫܙܨ</quote><quote> according to the alphabet of Bar-daisān. On the alphabet of Bardesanes,</quote><quote xml:lang="syr">ܐܬܘ̈ܬܐ ܐܠܦ ܕܝܨܢܝܬܐ </quote><quote>or</quote><quote xml:lang="syr">ܕܒܪܕܝܨܢ </quote><quote>, See 
+                  <bibl>Add. 7202, fol. 1 a; the Journal of Sacred Literature, vol. vi (new series), January 1865, p. 465</bibl>; and <bibl>Land’s Anecdota, t. ii. p.13.</bibl></quote><quote xml:lang="syr">ܐܬܦܚܡ (sic) ܟܬܒܐ ܗܢܐ ܒܫܢܬ ܬܡܢܡܐܐ ܘܚܡܫܝܢ ܘܫܝܬ ܒܝܪܚܐ ܢܝܣܢ ܒܥܣܪܐ ܒܗ ܒܬܪܝܢ ܒܫܒܐ. ܕܟܠ ܕܩܪܐ ܒܗ ܢܨܠܐ ܥܠ ܚܛܝܐ ܙܨܕܫܙܨ ܕܦܚܡ ܕܐܠܗܐ ܢܫܒܘܩ ܒܘܨܪ̈ܘܗܝ ܐܢ ܘܐܡܝܢ.</quote></item>
+                <item n="2" xml:id="additon2"><locus from="157b" to="157b"/><ref target="a2"/><quote>A note on fol. <locus>157b</locus> informs us that this book was presented to the <placeName>convent of S. Mary Deipara</placeName> by <persName>Yakīrā bar ‘Abbās of Tagrīt</persName>; and an addition, in a different hand, written over an erasure, adds that he did so through the brothers Matthew and Abraham,
+                  monks of Tagrīt (see Add. 17,102, fol. 59 b):</quote><quote xml:lang="syr">ܝܗܒ ܟܬܒܐ ܗܢܐ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܐ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܐܒܐ ܒܝܫܘܝ܆ ܝܩܝܪܐ ܒܪ ܥܒܣ ܡܢ ܬܓܪܝܬ ܡܕܝܢܬܐ. ܡܛܠ ܦܘܪܩܢܐ ܕܢܦܫܗ ܘ܏ܫ. ܒܡܬܚܦܛܢܘܬܐ ܕܡܬܝ ܘܕܐܒܪܗܡ ܐܚ̈ܐ ܕ̈ܝܪܝܐ ܬܓܪ̈ܝܢܬܝܐ (sic) ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠܝܗܘܢ ܘܟܠ ܕܩܪܐ ܒܗ ܘܢܟܡܢ ܥܠܘܗܝ ܢܕܥ ܕܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܥܠ ܦܘܩܕܢܐ.</quote>
+                </item>
+                <item n="3" xml:id="addition3"><ref target="a2"/>On <locus from="157b" to="157b">157b</locus>as well as on <locus from="158a" to="158a">158a</locus> and <locus>1a</locus>, we find anathemas written by different hands.</item>
+              </list>
+            </additions>
           </physDesc>
           <history>
             <summary/>
             <origin>
-              <origDate
-                notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
+              <origDate notBefore="0545" notAfter="0546">Not later than A. Gr. 856, A.D. 545.</origDate>
             </origin>
           </history>
           <additional>
@@ -234,8 +167,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">XVI</citedRange>
-                <citedRange unit="pp">I:10-11</citedRange>
+                <citedRange unit="entry">XII</citedRange>
+                <citedRange unit="pp">I:14-15</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -305,7 +238,7 @@
             <category xml:id="appendix-b"/>
           </category>
         </taxonomy>
-      </classDecl> 
+      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -330,13 +263,16 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
+              <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
               <ref target="#bible-ot"/>       
             </item>
           </list>
-        </keywords></textClass>
+        </keywords>
+      </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-07-03" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-06-29" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change type="planned" subtype="missing">Add missing Greek vowels</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
