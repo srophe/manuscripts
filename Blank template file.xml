@@ -465,8 +465,9 @@
         </interpretation>
       </editorialDecl>
         <classDecl>
-          <taxonomy xml:id="Wright-BL-Taxonomy">
-            <bibl target="#Wright"/>
+          <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+              <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/></bibl>
             <category xml:id="biblical-manuscripts">
               <category xml:id="bible-ot"/>
               <category xml:id="bible-nt"/>
