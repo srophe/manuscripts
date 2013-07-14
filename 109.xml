@@ -4,8 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en"><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add MS 14444", without commas or periods --></title>
-        <!--Note: the .xml file will be based on the number from the URI in the msIdentifier which represents the manuscript as a whole (not msParts). -->
+        <title xml:lang="en">BL Add MS 14442</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -46,7 +45,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript in this spot. If the manuscript has msParts, use the URI for the whole -->/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/109/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -56,13 +55,13 @@
         <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="" xml:lang="en"><!-- @xml:id consists of "manuscript-" followed by the URI number (without commas) for the whole ms (e.g., xml:id="manuscript-1") -->
+        <msDesc xml:id="manuscript-109" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here FOR THE WHOLE MS, --></idno>
+            <idno type="URI">http://syriaca.org/manuscript/109</idno>
             <altIdentifier>
               <idno type="BL-Shelfmark">Add MS <!-- Add MS + the manuscript name identified at the end of the Wright entry ex. Add MS 14444 (note: do not use commas, periods, or folia numbers)--></idno>
             </altIdentifier>
