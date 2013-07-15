@@ -149,13 +149,50 @@
                 </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
               </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item><!-- Include in the <quote> any marginalia or colophons to the manuscript.  Add more <item> blocks as necessary. -->
-                  <!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="" xml:id="">
+                    <ref target=""/>
+                    <locus from="1" to="1"/>
+                    <p>Fol. 1, if it belongs to this manuscript at all, is nothing but a part of the ancient bind¬ing. It contains only a few words in Arabic and Syriac, and the name of one <persName>Abu'l-Faraj bar Joseph</persName>,</p>
+                    <p><quote xml:lang="syr">ܐܒܘܠܦܪܓ ܒܪܗ ܕܝܘܣܦ</quote>.</p>
+                  </item>
+                  <item n="" xml:id="">
+                    <ref target="#handNote1"/>
+                    <p>Many notes and glosses, and numerous Greek words, are written on the margins by the same hand that wrote the text; for all which see the edition of Ceriani</p>
+                  </item>
+                  <item n="" xml:id="">
+                    <locus from="132b" to="132b"/>
+                    <ref target="#a1"/>
+                    <quote xml:lang="syr">ܫ̣ܠܡ ܟܬܒܐ ܕܡܦܩܢܐ̣ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ. . .
+                      ܨܚ̇ܚܐ ܕܝܢ ܗܿܘ ܕܡܢܗ ܐܬ̇ܦܫܩ ܠܠܫܢܐ ܣܘܪܝܝܐ̣. ܪܘܫܡܐ̇ ܐܝܬ ܒܗ̣ ܗܢܐ. ܐܬܢܣ̣ܒ ܡܢ ܫ̈ܬܝܬܝ ܦܨ̈ܐ ܕܐܝܟ ܡ̈ܫܠܡܢܘܬܐ̣. ܘܐܬ̇ܦܚܡ ܡܢ ܗܿܘ ܕܐܦ ܡ̈ܫܠܡܢܘܬܐ ܐܬܬ̣ܣܝܡ.. .
+                      ܐܬܦ̇ܚܡ ܕܝܢ ܬܘܒ ܗܼܘ ܡܦܩܢܐ̣. ܠܘܬ ܨܚܚܐ̇ ܚܬܝܬܐ̣ ܕܗܢܐ ܪܘܫܡܐ ܐܝܬ ܠܗ.♱. 
+                      ܐܬܟ̣ܬܒܬ ܡܫܠܡܢܘܬܐ  ܕܫܒܥܝܢ ܡܢ ܐܟܣܐܦܠܐ̣ ܐܝܟܐ ܕܗ̇ܝ ܥܒܪܝܬܐ ܡ̇ܦܚܡܐ ܗܘܬ܇ ܐܝܟ ܗ̇ܝ ܥܒܪܝܬܐ ܕܫܡܪ̈ܝܐ. ܘܡ̣ܬܪܨ ܗܘܐ̣ ܒܐܝܼܕܐ ܕܐܘܣܒܝܣ ܗ̇ܘ ܕܦܡܦܘܠܘܣ. ( <foreign xml:lang="en">marg</foreign>. <!-- ADD MISSING COPTIC -->) ܐܝܟܢܐ ܕܗ̣ܘ ܪܘܫܡܐ ܡܫܘܕܥ ܗܘܐ. ܡܢ ܗ̇ܘ̣ ܕܐܦ ܗܠܝܢ ܕܡܢ ܗ̇ܝ ܕܫܡܪ̈ܝܐ ܩܿܕܡ ܐܬܬܣܝܡ܆ ܒܠܚܘܕܼ ܠܘܬ ܡܬܚܘܝܢܘܬܐ ܕܐܬܥ̣ܡܠ ܗ̣ܘ ܨܚܚܐ. 
+                    </quote>
+                    <p>"The book of Exodus, according to the translation of the LXX., is ended.</p>
+                    <p>"In the exemplar from which it was translated into the Syriac tongue, was this epigraph: 'Taken from a (copy of the) Hexapla, which (was arranged) according to the (different) versions, and collated with one which was furnished with the (various readings of the) versions. (The correctness of this translation is not quite certain. See <bibl>Bianchini, Vindiciae Canonic. Scriptur., pp. cclxxiv., cclxxvi.</bibl>; <bibl>Daniel secundum LXX., Rome, 1772, pp. 74, 75</bibl>; and compare <bibl>Middledorpf, Codex Syriaco-hexaplaris, pars i. p. 65</bibl> (<foreign xml:lang="syr">ܡܢ ܗܿܘ ܕܐܦ ܡܫ̈ܠܡܢܘܬܐ ܐܬܬܣܝܡܢ</foreign>),and <bibl>Zeitschrift der Deutschen Morgenlandischen Gesell- schaft, Band iii. p. 427</bibl>.)</p>
+                    <p>"This (copy of) Exodus was also collated with an accurate exemplar, in which was this epigraph: ‘The translation of the LXX. was transcribed from (a manuscript of) the Hexapla, in which the Hebrew was collated according to the Hebrew (text) of the Samaritans.' And (this manuscript) was corrected by the hand of <persName ref="">Eusebius Pamphili</persName>, as the epigraph shows; from which (manuscript) too the things taken from the Samaritan text have been previously inserted, merely as an evidence that great pains was taken with the copy."</p>
+                  </item>
+                  <item n="" xml:id="">
+                    <ref target=""/>
+                    <locus from="132b" to="132b"/>
+                    <p>After this comes the doxology:</p>
+                    <p><quote xml:lang="syr">ܫܘܒܚܐ̇ ܠܐܒܐ̣ ܘܠܒܪܐ ܘܠܪܘܚܐ ܕܩܘܕܫܐ. ܗܫܐ̇ ;ܘܒܟܠܙܒܢ ܘܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. . ܐܝܢ ܘܐܡܝ̣ܢ</quote></p>                     
+                  </item>
+                  <item n="" xml:id="">
+                    <ref target=""/>
+                    <locus from="132b" to="132b"/>
+                    <p>Below <ref target="">the doxology</ref> we read the name of the copyist, <persName ref="">Lazarus</persName>, and the date of the manuscript, written in two lines, in a small, current hand</p>—
+                    <p><quote xml:lang="syr">ܐܫܬܠܡ ܟܬܒܐ ܗܢܐ ܒܐܝܪܚ ܫܒܛ ܕܫܢܬ ܐܠܦ ܘܬܡܢܐ ܡܛܠ ܡܪܢ ܟܠܟܘܢ ܡܗܝ̈ܡܢܐ ܕܥܬܝܕܝܢ ܕܢܦܓܥܘܢ ܒܟܬܒܐ ܗܢܐ ܨܠܘ ܥܠܝ ܕܝܠ ܡܚܝܠܐ ܘܚܛܝܐ ܠܥܙܪ ܡܣܟܢܐ ܕܟ݁ܬܒܬ</quote>.</p>
+                  </item>
+                  <item n="" xml:id="">
+                    <ref target=""/>
+                    <locus from="134a" to="134a"/>
+                    <p>On fol. 134 a is the following note, written by the deacon <persName ref="">Maimūn bar Halfūn</persName>, <date when-custom="1282" datingMethod="Seleucid">A. Gr. 1282</date>, <date when="0971" calendar="Gregorian">A.D. 971</date>.</p>
+                    <p><quote xml:lang="syr">ܡܝܡܘܢ ܒܪ ܚܠܦܘܢ ܡܫܡܫܢܐ  ܒܫܡܐ̣. ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠܘܗܝ ܡܛܠ ܡܪܢ ܕܢܬܚܢܢ ܐܝܟ ܓܝܣܐ ܗܿܘ ܕܡܢ ܝܡܝܢܐ ܕܡܪܝܐ ܨܠܝܒ ܗܘܐ܇ ܘܟܠܢܫ ܐܝܟ ܨܠܘܬܗ ܗܟܢܐ ܡܬܦܪܥ܇ ܟܬܒ ܕܝܢ ܫܢܬ ܐܠܦ ܘܪ܏ܘܦܒ ܕܝܘܢ̈ܝܐ. ܏ܗ.
+                    ܐܚ̈ܝ ܚ̈ܒܝܒܐ ܠܐ ܬܣܒ݂ܪܘܢ ܕܣܡܬ ܠܫܡܐ ܕܝܠܝ. ܒܟ̈ܬܒܐ ܩ̈ܕܝܫܐ ܐܝܟ ܕܠܫܘܒܗܪܐ̣. ܒܪܡ ܗܕܐ ܒܥܝܬ܇ ܕܟܠܡܢ ܕܦ̇ܓܥ ܒܗ̈ܠܝܢ ܢܨ̇ܠܐ ܥܠ ܚܛܝܬܝ ܐܡܝܢܐܝܬ</quote></p>
+                  </item>
                 </list>
-              </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
+              </additions>
               <bindingDesc>
                 <binding xml:id="p1binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
                 <decoNote xml:id="p1bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->

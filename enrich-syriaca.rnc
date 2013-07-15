@@ -1434,6 +1434,7 @@ tei_date =
     }?,
     att.global.attributes,
     att.datable.attributes,
+    att.datable.custom.attributes,
     att.editLike.attribute.cert,
     att.editLike.attribute.resp,
     att.editLike.attribute.evidence,
