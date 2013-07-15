@@ -225,6 +225,133 @@ att.datable.w3c.attribute.to =
     | xsd:dateTime
   }?
 att.datable.attributes = att.datable.w3c.attributes
+att.datable.custom.attributes=
+att.datable.custom.attribute.when-custom,
+att.datable.custom.attribute.datingMethod,
+att.datable.custom.attribute.notBefore-custom,
+att.datable.custom.attribute.notAfter-custom,
+att.datable.custom.attribute.from-custom,
+att.datable.custom.attribute.to-custom
+att.datable.custom.attribute.when-custom=
+  
+  ## supplies the value of the date or time in a standard form,
+  ##       e.g. yyyy-mm-dd.
+  attribute when-custom {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+att.datable.custom.attribute.datingMethod=
+
+    ## supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes
+    attribute datingMethod   {
+      
+      ## Gregorian calendar
+      "Gregorian"
+      | 
+        ## Julian calendar
+        "Julian"
+      | 
+        ## Anno Mundi
+        "AM"
+      | 
+        ## Hijri solar calendar (Mughal Indian revenue era)
+        "Hijri-shamsi"
+      | 
+        ## Hijiri lunar calendar
+        "Hijri-qamari"
+      | 
+        ## Coptic (Era of Martyrs)
+        "Coptic-EoM"
+      | 
+        ## Alexandrian (Era of Alexander I)
+        "Alexandrian"
+      | 
+        ## Era of Yazdigird (Iranian)
+        "Iranian-Yazdigird"
+      | 
+        ## Jalali (Iranian)
+        "Iranian-Jalali"
+      | 
+        ## Spanish calendar
+        "Spanish"
+      | 
+        ## Ilahi (Mughal)
+        "Ilahi"
+      | 
+        ## Hindu calendar
+        "Hindu"
+        |
+        ##Seleucid calendar
+        "Seleucid"
+      | 
+        ##
+        "unknown"
+      | 
+        ##
+        "other"
+      | xsd:Name
+    }?
+att.datable.custom.attribute.notBefore-custom =
+  
+  ## specifies the earliest possible date for the event in
+  ##	  standard form, e.g. yyyy-mm-dd.
+  attribute notBefore-custom {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+att.datable.custom.attribute.notAfter-custom =
+  
+  ## specifies the latest possible date for the event in
+  ##	  standard form, e.g. yyyy-mm-dd.
+  attribute notAfter-custom {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+att.datable.custom.attribute.from-custom =
+  
+  ## indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.
+  attribute from-custom {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+att.datable.custom.attribute.to-custom =
+  
+  ## indicates the ending point of the period in standard
+  ##	  form, e.g. yyyy-mm-dd.
+  attribute to-custom {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
 att.declarable.attributes = att.declarable.attribute.default
 att.declarable.attribute.default =
   
@@ -2828,6 +2955,7 @@ tei_origDate =
     text,
     att.global.attributes,
     att.datable.attributes,
+    att.datable.custom.attributes,
     att.editLike.attribute.cert,
     att.editLike.attribute.resp,
     att.editLike.attribute.evidence,
