@@ -2508,7 +2508,7 @@ tei_change =
     
     attribute subtype {
     
-    ## Add missing Arabic text
+    ## Add in missing Arabic characters
     "arabic"
     |
     ## Enter vocalization
@@ -2520,8 +2520,14 @@ tei_change =
     ## Question in Word Doc to be addressed
     "question"
     |
-    ## Missing something (specify what is missing)
-    "missing"
+    ## Add in missing Syriac characters
+    "syriac"
+    |
+    ## Add in missing Greek characters
+    "greek"
+    |
+    ## Add in missing Coptic characters
+    "coptic"
     }?,
     
     ## supplies the date of the change in standard form, i.e. YYYY-MM-DD.
