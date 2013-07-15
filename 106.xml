@@ -85,6 +85,7 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1">
+                <locus from="2a" to="2a"/>
                 <title xml:lang="lat">Synopsis Scripturae Sacrae</title>
                 <title>A summary of the contents.</title>
                 <note><p>A summary of the contents, <foreign xml:lang="syr">ܩ̈ܦܠܐܐ ܕܒܪܝܬܐ</foreign>, is prefixed, fol. <locus>2a</locus>.
