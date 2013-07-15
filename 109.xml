@@ -223,9 +223,9 @@
                     </dimensions>
                   </extent>
                   <collation>
-                    <p>It does not appear how the quires were originally signed, but they have been marked at a later period with Coptic ciphers (% 2, % 3, Ⲁ 1, Ⲉ 5, % G),
+                    <p>It does not appear how the quires were originally signed, but they have been marked at a later period with Coptic ciphers 
                       and also, though incorrectly, with Syriac letters. </p>
-   <!-- Coptic letters missing -->
+                    <!-- Coptic letters missing (% 2, % 3, Ⲁ 1, Ⲉ 5, % G), -->
                   </collation>
                   <condition>
                     <list>
