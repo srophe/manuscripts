@@ -84,31 +84,39 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p1a1" defective="true">
-                <locus from="1" to="46"/>
-                <title ref="http://syriaca.org/work/142" type="supplied">The book of Genesis, translated from the Septuagint by Paul, bishop of Tellā or Constantina.</title>
+              <msItem>
+                <title>Synopsis Scripturae Sacrae</title>
+                <title>A summary of the contents.</title>
+                <note><p>A summary of the contents, <foreign xml:lang="syr">ܩ̈ܦܠܐܐ ܕܒܪܝܬܐ</foreign>, is prefixed, fol. <locus>2a</locus>.
+                  See <bibl>Chrysostom, Synopsis Scripturae Sacrae ; Opera, ed. 1834-8, t. vi. p. 373, Migne, Patrol. Gr., t. lvi., col. 317</bibl>,
+                  and <bibl>Ceriani in the work cited above, t. ii. fasc. i. p. xiii.</bibl></p></note> </msItem>
+              <msItem n="2" defective="true" xml:id="a2">
+                <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName>Tellā</placeName> or <placeName>Constantina</placeName>.</editor>
+                <title>The book of Genesis, translated from the Septuagint by Paul, bishop of <placeName>Tellā</placeName> or <placeName>Constantina</placeName> with the critical marks of the Hexapla of Origen; and marginal readings of Aquila, Symmachus, and Theodotion</title>
+                <note><p>The text exhibits the critical marks of the <bibl>Hexapla<ptr target="http://syriaca.org/work/133"/></bibl> of <persName>Origen</persName>; 
+                  and the margins contain the various readings of <bibl>Aquila<ptr target="http://syriaca.org/work/134"/></bibl> (<foreign xml:lang="syr">ܐ</foreign>), <bibl>Symmachus<ptr target="http://syriaca.org/work/135"/></bibl> (<foreign xml:lang="syr">ܣ</foreign>), and 
+                  <bibl>Theodotion<ptr target="http://syriaca.org/work/136"/></bibl> (<foreign xml:lang="syr">ܬ</foreign>);
+                  glosses upon some words (e. g. foll. <locus>24a</locus>, <locus>25a</locus>, <locus>27b</locus>, <locus>29a</locus>, <locus>30a</locus>, etc.);
+                  and a good many Greek vocables, written in not inelegant characters. The tetragrammaton is expressed by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.</p>
+                  </note>
+                <msItem xml:id="b1">
+                  <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName>Tellā</placeName> or <placeName>Constantina</placeName>.</editor>
+                  <title>The book of Genesis, translated from the Septuagint by Paul, bishop of <placeName>Tellā</placeName> or <placeName>Constantina</placeName></title>
+                <locus from="9a" to="46"/>
                 <finalRubric xml:lang="syr">ܫܠܡ ܟܬܒܐ ܕܒܪܝܬܐ̣. ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ ܘܬܪ̈ܝܢ
                   <locus from="46b" to="46b"/>
                 </finalRubric>
                 <note>
+                  <p>On this text see <bibl>Monumenta Sacra et Profana opera Collegii Doctorum Bibl. Ambros., tom. i. fasc. i. Prolegomena in editionem versionis Syriacae ex textu LXX., p. iii. “Paulus Episcopus Monophysita Telae Mauslath, aliorum fortasse opera adjutus, jussu Athanasii Patriarchae Monophysitae Antiocheni vertit LXX. In Syriacum annis 616-7 Chr., fortasse etiam sequentibus, in urbe Alexandriae.”</bibl> Most of the books of this version have already been edited by <bibl>Norberg</bibl>, <bibl>Bugati</bibl>, <bibl>Middledorpf</bibl>, and <bibl>Rördam</bibl>; and an edition of the whole is now being printed by Dr. Ceriani of Milan in the work cited above. He has given a minute description of this manuscript of the book of genesis in <bibl>tom. ii. fasc. ii. p. xvii., etc.</bibl>See also his memoir, <bibl>Le Edizioni e i Maoscritti etc., p. 19.</bibl></p>
+                  
                   <p>Several portions of the capitula are missing, as also the following passages of the text: ch. i. 1—iv. 8, ix. 24— xvi. 2, xvi. 12 — xx. 1, xx. 13 — xxxi. 53, xxxii. 12 — xxxvi. 2, xl. I8 — xliii. 1, and xlvii. 16—1. 17.</p>                
-                  <p>The lessons are rubricated in the text, the end of each being indicated by <foreign xml:lang="syr">ܫ</foreign>. In the <foreign xml:lang="syr">ܩ̈ܦܠܐܐ</foreign> they are noted on the margins.</p>
-                  <p>The text exhibits the critical marks of the <bibl>Hexapla<ptr target="http://syriaca.org/work/133"/></bibl> of Origen; 
-                    and the margins contain the various readings of <bibl>Aquila<ptr target="http://syriaca.org/work/134"/></bibl> (<foreign xml:lang="syr">ܐ</foreign>), <bibl>Symmachus<ptr target="http://syriaca.org/work/135"/></bibl> (<foreign xml:lang="syr">ܣ</foreign>), and 
-                    <bibl>Theodotion<ptr target="http://syriaca.org/work/136"/></bibl> (<foreign xml:lang="syr">ܬ</foreign>);
-                    glosses upon some words (e. g. foll. <locus>24a</locus>, <locus>25a</locus>, <locus>27b</locus>, <locus>29a</locus>, <locus>30a</locus>, etc.);
-                    and a good many Greek vocables, written in not inelegant characters. The tetragrammaton is expressed by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.</p>
-                  <p>A summary of the contents, <foreign xml:lang="syr">ܩ̈ܦܠܐܐ ܕܒܪܝܬܐ</foreign>, is prefixed, fol. <locus>2a</locus>.
-                    See <bibl>Chrysostom, Synopsis Scripturae Sacrae ; Opera, ed. 1834-8, t. vi. p. 373</bibl>; <bibl>Migne, Patrol. Gr., t. lvi., col. 317</bibl>,
-                    and <bibl>Ceriani in the work cited above, t. ii. fasc. i. p. xiii.</bibl></p>
-                </note>
-               <listBibl>
-                  <bibl>See Monumenta Sacra et Profana opera Collegii Doctorum Bibl. Ambros., tom. i. fasc. i. Prolegomena in editionem versionis Syriacae ex textu LXX., p. iii. 
-                    “Paulus Episcopus Monophysita Telae Mauslath, aliorum fortasse opera adjusts, jussu Athanasii Patriarchae Monophysitae Antiocheni vertit LXX. In Syriacum annis 616-7 Chr., fortasse etiam sequentibus, in urbe Alexandriae.”
-                    Most of the books of this version have already been edited by Norberg, Bugati, Middledorpf, and Rördam; and an edition of the whole is now being printed by Dr. Ceriani of Milan in the work cited above. He has given a minute description of this manuscript of the book of genesis in tom. ii. fasc. ii. p. xvii., etc.
-                    See also his memoir, Le Edizioni e i Maoscritti etc., p. 19.</bibl>
-                </listBibl>
+                  <p>The lessons are rubricated in the text, the end of each being indicated by <foreign xml:lang="syr">ܫ</foreign>. In the <foreign xml:lang="syr">ܩ̈ܦܠܐܐ</foreign> they are noted on the margins.</p></msItem>
+                <msItem xml:id="b2”><title>Critical marks of the Hexapla of Origen</title>
+                    <msItem xml:id="c1”><title>Marginal notes of Genesis according to Aquila</title></msItem>
+                      <msItem xml:id="c2”><title>Marginal notes of Genesis according to Symmachus</title></msItem>
+                        <msItem xml:id="c3”><title>Marginal notes of Genesis according to Theodotion</title></msItem>
               </msItem>
+             
             </msContents>
             <physDesc>
               <objectDesc form="codex">
