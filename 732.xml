@@ -96,9 +96,8 @@
               <msItem n="2" xml:id="a2" defective="true">
                 <locus from="116a" to="130"/>
                 <title ref="http://syriaca.org/work/65" type="supplied">The two epistles of Baruch.</title>
-                  <listBibl>
-                  <bibl>This manuscript has been used by de Lagarde in his edition of the Apocrypha, Libri vet. Test. apocryphi Syriace, 1861.</bibl>
-                </listBibl>
+                  <note>This manuscript has been used by de Lagarde in his edition of the <bibl>Apocrypha, Libri vet. Test. apocryphi Syriace, 1861.</bibl>
+                  </note>
                 <msItem n="3" xml:id="b1">
                   <locus from="116a" to="121a"/>
                   <title ref="http://syriaca.org/work/66" type="supplied">The first epistle of Baruch.</title>
@@ -107,15 +106,15 @@
                   </rubric>
                   <finalRubric xml:lang="syr">ܫܠܡܬ ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܒܪܘܟ ܣ̇ܦܪܐ. ܘ:ܘ.
                     <locus from="121b" to="121b"/>
-                  </finalRubric>
-                  </msItem>
-                <msItem n="3" xml:id="b2">
+                  </finalRubric>                
+                 <msItem n="4" xml:id="b2">
                   <locus from="121b" to="130"/>
                   <title ref="http://syriaca.org/work/67" type="supplied">The second epistle of Baruch.</title>
                   <rubric xml:lang="syr">ܐܓܪܬܐ ܕܬܪ̈ܬܝܢ
                     <locus from="121b" to="121b"/>
                   </rubric>
                   </msItem>
+                </msItem>
               </msItem>
             </msContents>
             <physDesc>
@@ -142,7 +141,7 @@
                   <condition>
                     <list>
                       <item>
-                        <p>130 leaves, a few of which are much stained and torn, especially foll. 1, 10, 127 and 130.</p>
+                        <p>130 leaves, a few of which are much stained and torn, especially foll. <locus>1</locus>, <locus>10</locus>, <locus>127</locus> and <locus>130</locus>.</p>
                       </item>
                     </list>
                   </condition>
@@ -158,10 +157,10 @@
                   <desc>The writing is an elegant Estrangela of the <origDate from="0500" to="0600">vith cent</origDate>.</desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
-                  <desc>Greek vowels have been not unfrequently added by a later hand (ܰ, ܶ, ܺ, ܳ, ; , , , ܡܢ ܩܘܪ̈ܝܗܘܢ, but also % and %; %, e.g. ܙܰܘܽܬܪ̈ܐ);
+                  <desc>Greek vowels have been not unfrequently added by a later hand (ܰ, ܶ, ܺ, ܳ, ; , , , ܡܢ ܩܘܪ̈ܝܗܘܢ, but also  and ; , e.g. ܙܰܘܽܬܪ̈ܐ);
                     the points rukkākh and kushshāi very rarely (e.g. fol. <locus>98a</locus>).
                     The same reader who added the vowels has divided the Prophecies into 33 sections (fol. <locus>102b</locus>, ܨܠܓ).</desc>
-    <!-- Add Greek vowels --> 
+    <!-- Add Greek vowels / Vocalization notation --> 
                 </handNote>
                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
                   <desc>Of the lessons, some are rubricated in the text, whilst others have been noted on the margins by different hands.</desc>
@@ -173,8 +172,8 @@
               <additions>
                 <list>
                   <item n="1" xml:id="addition1"><ref target="a1"/>
-                    <desc>There are a very few marginal notes in Arabic; e.g. fol. <locus>12a</locus>,</desc> <quote xml:lang="syr">ܐܩܠܘܒܝܐ</quote>, <desc>marg. % (%); 
-                      fol. <locus>44b</locus>,</desc> <quote xml:lang="syr">ܡܪܝܐ ܨܒܐܘܬ</quote>,<desc> marg. % (%). </desc></item>
+                    <desc>There are a very few marginal notes in Arabic; e.g. fol. <locus>12a</locus>,</desc> <quote xml:lang="syr">ܐܩܠܘܒܝܐ</quote>, <desc>marg. ; 
+                      fol. <locus>44b</locus>,</desc> <quote xml:lang="syr">ܡܪܝܐ ܨܒܐܘܬ</quote>,<desc> marg. . </desc></item>
      <!-- Add Arabic -->
                   <item n="2" xml:id="addition2"><locus from="18a" to="18a"/><ref target="a1"/>
                     <desc>On fol. <locus>18a</locus>, at the foot of the page, the Syriac word </desc><quote xml:lang="syr">ܨܗܠܐ</quote> <desc>is represented in Greek letters by </desc><quote xml:lang="grc">cεγλω</quote>.</item>
@@ -185,7 +184,8 @@
                     <desc>Above this is written in cursive Greek characters the single word </desc><quote xml:lang="grc">ερεμιασ</quote><desc>.</desc></item>
                   <item n="4" xml:id="addition4"><locus from="130a" to="130b"/><ref target="a2"/>
                     <desc>Fol. 130 does not, apparently, belong to this volume. It contains, on the recto, two notes,
-                      the one stating that a certain book belonged to the <placeName>convent of S. Mary Deipara</placeName>, the other that it was brought thither by the abbat <persName>Moses of Nisibis</persName>. 
+                      the one stating that a certain book belonged to the <placeName>convent of S. Mary Deipara</placeName>,
+                      the other that it was brought thither by the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>. 
                       The, latter, so far as it is legible, runs as follows:</desc>
                     <quote xml:lang="syr">ܫܡܝܐ ܘܐܪܥܐ ܘܟܠ ܕܒܗܘܢ ܢܬ݂ܠܘܢ ܘ̇ܝܐ ܠܡ̇ܢ ܕܐܡ̣ܪܚ ܘܫ̣ܛ ܠܡܠܬܗ ܕܐܠܗܐ ܐܘܟܝܬ ܕܟܗܢܐ ܕܐܠܗܐ ܡܪܝ ܡܘܫܐ ܪܝܫܕܝܪܐ ܏ܩܕܝ ܕܕܝܪܐ ܗܕܐ ܕܒܝܬ ܝ̇ܠܕܬ ܐܠܗܐ ܕܒܡܕܒܪܐ ܕܣܘܪ̈ܝܝܐ. ܗܢܐ  . . . ܘܐܬܛ̇ܪܦ ܫܬ ܫܢܝ̈ܐ ܡܢ ܒܓܕܕ ܥܕܡܐ ܠܡܨܪܝܢ ܘܐܝܼܬܝ ܟܬܒ̈ܐ   . . . ܟܐܒܐ ܕܠܒܗ ܥܠܝܗܘܢ܆ ܟܬ̣ܒ ܦܣܩܐ ܗܢܐ ܏ܘܫ.</quote></item>
                   <item n="5" xml:id="addition5"><locus from="130b" to="130b"/>
@@ -340,4 +340,3 @@
     </body>
   </text>
 </TEI>
-

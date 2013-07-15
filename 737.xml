@@ -79,7 +79,7 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
                 <title ref="http://syriaca.org/work/20" type="supplied">The Proverbs of Solomon, according to the Peshitta version</title>
-     <!-- RUNNING TITLE -->
+                <fw type="header"><rubric xml:lang="syr">ܚܟܡܬܐ</rubric></fw>
                 <finalRubric xml:lang="syr">ܫܠܡܬ. ܚܟܡܬܐ. ܕܫܠܝܡܘܢ̇ ܒܪ  ܕܘܝܕ
                   <locus from="39a" to="39a"/>
                 </finalRubric>

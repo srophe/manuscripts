@@ -78,13 +78,18 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1">
+                <locus from="1b" to="1b"/>
+                <title>An index of lessons</title>
+                <rubric xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܐܫܥܝܐ ܢܒܝܐ ܡ̇ܫܒܚܐ ܕܢܒܝ̈ܐ.</rubric>
+      <!-- Symeon is scribe here-->
+              </msItem>
+              <msItem n="2" xml:id="a2">
                 <locus from="1" to="120"/>
                 <title ref="http://syriaca.org/work/23" type="supplied">The book of Isaiah, according to the Peshitta version. </title>
                 <rubric xml:lang="syr">ܢܒܝܘܬܗ ܕܐܫܥܝܐ
                   <locus from="3b" to="3b"/>
                 </rubric>
-                <note>Some lessons are indicated by rubrics in the text, 
-                  and many more have been added on the margins by a later hand, which has often altered the original rubrics. </note>
+                <note>Some lessons are indicated by rubrics in the text, and many more have been added on the margins by a later hand, which has often altered the original rubrics. </note>
               </msItem>
             </msContents>
             <physDesc>
@@ -127,43 +132,38 @@
                   <desc>The writing is a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
-                  <desc>A few Greek vowels have been subsequently added . </desc>
+                  <desc>A few Greek vowels have been subsequently added. </desc>
        <!-- Greek Vowels -->
                 </handNote>
                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
-                  <desc>Simeon the son of ܪܓܝܘ, wrote </desc>
+                  <desc>Simeon the son of ܪܓܝܘ, wrote __</desc>
                 </handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="1b" to="1b"/><ref target="a1"/>
-                    <desc>An index to these lessons is prefixed to the book, fol. 1b, with the title:</desc>
-                    <quote xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܐܫܥܝܐ ܢܒܝܐ ܡ̇ܫܒܚܐ ܕܢܒܝ̈ܐ.</quote>
-           <!-- Scribe - Symeon -->
-                  </item>
-                  <item n="2" xml:id="addition2"><locus from="122a" to="122a"/>
+                  <item n="1" xml:id="addition1"><locus from="122a" to="122a"/>
                     <desc>What originally stood after the doxology, fol. 122a, has been erased, in order to make room for a note in a modern hand. Of this latter only a few words are now legible,
                       owing to the lower part of the leaf being torn away, but it evidently contained the name of a possessor of the volume: </desc>
                     <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܐܫܥ[ܝܐ] . . . ܩܫܝܫ[ܐ] . . .</quote>
                     </item>
-                  <item n="3" xml:id="addition3"><locus from="122b" to="122b"/><ref target="a1"/>
+                  <item n="2" xml:id="addition2"><locus from="122b" to="122b"/><ref target="a1"/>
                     <desc>On fol. 122b there is a note of older date, probably of the <date>xth cent</date>., stating that the manuscript belonged to <persName>Leontius</persName>, abbat of the <placeName>convent of Mār Theodore</placeName>
                       on the mountain to the west of <placeName>Sarīn</placeName>,
                       who, with his disciple <persName>Constantine</persName>, purchased it for the use of the convent: </desc>
                     <quote xml:lang="syr">ܢܗܘܐ ܕܘܟܪܢܐ ܛܒܐ ܩܕܡ ܐܠܗܐ ܠܩܫܝܫܐ ܡܪܝ ܠܐܘܢܛܝ ܕܒܪ̈ܚ̣ܡܘܗܝ ܕܐܠܗܐ ܪܝܫܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܡܪܝ ܬܐܕܘܪܐ ܕܛܘܪܐ ܕܡܥܪ̈ܒܝ ܣܪܝܢ܇ ܕܡܢ ܥܡܠܐ ܕܐܝܼܕ̈ܘܗܝ ܘܡܢ ܕܘܥܬܐ ܕܐܦ̈ܘܗܝ̇. ܘܕܩܘܣܛ ܬܠܡܝܕܗ. ܐܬܚ̇ܦܛܘܢ ܘܣܡ̣ܘܢ ܣܝܼܡܬܐ ܗܕܐ ܒܥܘܡܪܗܘܿܢ. ܡܛܠ ܥܘܗܕܢܐ ܕܥܢܝ̈ܕܝܗܘܢ ܘܢܘܛ̇ܪܐ ܕܚܝܝ̈ܗܘܢ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠܬܗ ܥܒ̣ܕܘܢ ܗܕܐ̣. ܗܼܘ ܢܫܘܐ ܐܢܘܢ ܘ܏ܫ.</quote>
              <!-- Scribe - Symeon -->
                   </item>
-                  <item n="4" xml:id="addition4"><locus from="3a" to="3a"/><ref target="a1"/> 
+                  <item n="3" xml:id="addition3"><locus from="3a" to="3a"/><ref target="a1"/> 
                     <desc>The above note is in the handwriting of one Simeon the son of</desc><quote xml:lang="syr">ܪܓܝܘ</quote><desc>,
                       the same who drew up the index of lessons, as may be seen from the note appended to that index, fol. 3a:</desc>
                     <quote xml:lang="syr">ܡܛܠ ܚܘܒܗ ܘܚ̈ܫܘܗܝ ܩ̈ܕܝܫܐ ܕܡܫܝܚܐ ܐܠܗܐ ܦܪܘܩܢ: ܟܠ ܕܡ̇ܦܪܫ ܩܪ̈ܝܢܐ ܒܟܬܒܐ ܗܢܐ ܕܛܘܒܬܢܐ ܐܫܥܝܐ̣ ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܘܕܘ̇ܝܐ  . . . ܫܡܥܘܢ ܒܪ ܪܓܝܘ ܕܣ̣ܡ ܒܗ ܩܪ̈ܝܢܐ̣. ܘܥܠ ܩܫܝܫܐ ܡܪܝ ܠܐܘܢܛܝ ܡܪܗ ܕܝܠܗ ܕܟܬܒܐ ܏܏ܘܫ</quote>
                   </item>
-                  <item n="5" xml:id="addition5"><locus from="1a" to="1a"/><ref target="a1"/> 
-                    <desc>The large writing that once covered fol. 1 a has been partially effaced, and over it there is now written a prayer of <persName>Jacob of Batnae</persName>, </desc>
+                  <item n="4" xml:id="addition4"><locus from="1a" to="1a"/><ref target="a1"/> 
+                    <desc>The large writing that once covered fol. 1a has been partially effaced, and over it there is now written a prayer of <persName>Jacob of Batnae</persName>, </desc>
                     <quote xml:lang="syr">ܒܥܘܬܐ ܕܡܪܝ ܝܥܩܘܒ</quote><desc>, beginning:</desc>
                     <quote xml:lang="syr">ܘܝ ܚܛܝܐ ܐܝܟܐ ܣܚܝܦ ܐܢܬ ܡܐ ܕܚ̇ܛܐ ܐܢܬ: ܏ܘܫ</quote>
                   </item>
-                  <item n="6" xml:id="addition6"><locus from="121" to="121"/>
+                  <item n="5" xml:id="addition5"><locus from="121" to="121"/>
                     <desc>The leaf, or rather scrap of vellum, numbered fol. 121, does not belong to this volume, but contains <ref target="#http://syriaca.org/work/51">Jeremiah</ref>, ch. i. 5—8, ch. ix. 23, 24, etc., written in a comparatively modern hand, with many abbreviations.</desc>
                   </item>
                 </list>
@@ -293,7 +293,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-12" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change> 
+      <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
