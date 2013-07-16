@@ -2368,6 +2368,9 @@ tei_handNote =
            ## Arabic
            "ar"
            |
+           ## Ancient Greek
+           "grc"
+           |
            ##
            "other"
            |

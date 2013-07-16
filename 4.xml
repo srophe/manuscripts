@@ -85,7 +85,7 @@
                   <locus from="8b" to="8b"/>
                 </rubric>
                 <colophon>
-                  <ref target="">See below.
+                  <ref target="#addition4 #addition5 #addition6">See below.
                   </ref>
                 </colophon>
                  <note>The text is divided into ten capitula (<foreign xml:lang="syr">ܩ̈ܦܠܐܐ</foreign>), a summary of the contents of which is prefixed, <locus from="2b" to="2b">fol. 2 b</locus> (See <bibl>Chrysostom, Synopsis Scripturae Sacrae; Opera, t. vi., p. 382</bibl>; <bibl>Migne, Patrol. Gr., t. lvi. col. 325</bibl>). There are also other marginal sub-divisions into 42 (<foreign xml:lang="syr">ܡܒ</foreign>) sections, and upwards of 3300 versicles (<locus from="132a" to="132a">fol. 132 a</locus>, <foreign xml:lang="syr">ܦܬܓ̈ܡܐ ܐ̈ܠܦܐ. ܓ. ܫ</foreign>). The lessons are rubricated in the text, and the end of each is usually marked by the letter  <foreign xml:lang="syr">ܫ</foreign>. An index to these lessons was once prefixed to the volume, but the greater part of it is lost, only one page (<locus from="2a" to="2a">fol. 2 a</locus>) being left. This page contains 18 circles, arranged in three columns of 6 each, and surrounded by a double border of green and red. Each circle contains the indication of one lesson, as in the <!--NEED TO INSERT FIGURE --> accompanying figure, the text of which is: <foreign xml:lang="syr">ܡܛ ܕܚܕܒܫܒܐ ܕܠܐ ܟـ . . . ܚ ܦ ܗ</foreign>; which means that the lesson specified is to be found in the eighth quire (<foreign xml:lang="syr">ܟܘܪܣܐ</foreign>, <!-- NEED ARABIC -->), at the fifth opening (<foreign xml:lang="syr">ܦܬܚܐ</foreign>), or, in this case, on the recto of the sixth leaf, <locus from="72" to="72">fol. 72</locus>. See the edition of <bibl>Ceriani; Monumenta, t. ii. fasc. ii. p. 114, etc.</bibl></note>
@@ -131,61 +131,63 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
+              <handDesc hands="4">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                   <desc>The writing is a fine, regular Estrangela.</desc>
+                   <desc>The writing is a fine, regular Estrangela.<ref target="#addition3 #addition4 #addition5 #addition6"/></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                    <desc><ref target="">See additions.</ref></desc>
+                    <desc><ref target="#addition1">See additions.</ref></desc>
                  </handNote>
-                 <handNote xml:id="handNote3" scope="minor" script="" medium="unknown">
-                    <desc></desc>
+                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
+                   <desc><ref target="#addition2">See additions.</ref></desc>
                  </handNote>
+                <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition7">See additions.</ref></desc>
+                </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p1decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "p1decoNote1", "p1decoNote2", etc. If there is only one <msPart>, then the "p1" need not be included.-->
-                  <!-- There are many valid entries for @type. See manual for a complete list. -->
-                  <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
-                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
-              </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+              <decoDesc/>
               <additions>
                 <list>
-                  <item n="" xml:id="">
-                    <ref target=""/>
+                  <item n="1" xml:id="addition1">
+                    <ref target="#handNote2"/>
                     <locus from="1" to="1"/>
-                    <p>Fol. 1, if it belongs to this manuscript at all, is nothing but a part of the ancient bind¬ing. It contains only a few words in Arabic and Syriac, and the name of one <persName>Abu'l-Faraj bar Joseph</persName>,</p>
-                    <p><quote xml:lang="syr">ܐܒܘܠܦܪܓ ܒܪܗ ܕܝܘܣܦ</quote>.</p>
+                    <p>Fol. 1, if it belongs to this manuscript at all, is nothing but a part of the ancient binding. It contains only a few words in Arabic and Syriac, and the name of one <listPerson><person ref=""><persName>Abu'l-Faraj bar Joseph</persName> <persName xml:lang="syr">ܐܒܘܠܦܪܓ ܒܪܗ ܕܝܘܣܦ</persName></person></listPerson>.</p>
                   </item>
-                  <item n="" xml:id="">
+                  <item n="2" xml:id="addition2">
+                    <ref target="#handNote3"/>
+                    <locus from="8" to="8"/>
+                    <p>Some comparatively modern writing on fol. 8 a has been almost wholly effaced.</p>
+                  </item>
+                  <item n="3" xml:id="addition3">
                     <ref target="#handNote1"/>
                     <p>Many notes and glosses, and numerous Greek words, are written on the margins by the same hand that wrote the text; for all which see the edition of Ceriani</p>
                   </item>
-                  <item n="" xml:id="">
+                  <item n="4" xml:id="addition4">
                     <locus from="132b" to="132b"/>
-                    <ref target="#a1"/>
+                    <ref target="#a1 #handNote1"/>
                     <quote xml:lang="syr">ܫ̣ܠܡ ܟܬܒܐ ܕܡܦܩܢܐ̣ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ. . .
                       ܨܚ̇ܚܐ ܕܝܢ ܗܿܘ ܕܡܢܗ ܐܬ̇ܦܫܩ ܠܠܫܢܐ ܣܘܪܝܝܐ̣. ܪܘܫܡܐ̇ ܐܝܬ ܒܗ̣ ܗܢܐ. ܐܬܢܣ̣ܒ ܡܢ ܫ̈ܬܝܬܝ ܦܨ̈ܐ ܕܐܝܟ ܡ̈ܫܠܡܢܘܬܐ̣. ܘܐܬ̇ܦܚܡ ܡܢ ܗܿܘ ܕܐܦ ܡ̈ܫܠܡܢܘܬܐ ܐܬܬ̣ܣܝܡ.. .
                       ܐܬܦ̇ܚܡ ܕܝܢ ܬܘܒ ܗܼܘ ܡܦܩܢܐ̣. ܠܘܬ ܨܚܚܐ̇ ܚܬܝܬܐ̣ ܕܗܢܐ ܪܘܫܡܐ ܐܝܬ ܠܗ.♱. 
                       ܐܬܟ̣ܬܒܬ ܡܫܠܡܢܘܬܐ  ܕܫܒܥܝܢ ܡܢ ܐܟܣܐܦܠܐ̣ ܐܝܟܐ ܕܗ̇ܝ ܥܒܪܝܬܐ ܡ̇ܦܚܡܐ ܗܘܬ܇ ܐܝܟ ܗ̇ܝ ܥܒܪܝܬܐ ܕܫܡܪ̈ܝܐ. ܘܡ̣ܬܪܨ ܗܘܐ̣ ܒܐܝܼܕܐ ܕܐܘܣܒܝܣ ܗ̇ܘ ܕܦܡܦܘܠܘܣ. ( <foreign xml:lang="en">marg</foreign>. <!-- ADD MISSING COPTIC -->) ܐܝܟܢܐ ܕܗ̣ܘ ܪܘܫܡܐ ܡܫܘܕܥ ܗܘܐ. ܡܢ ܗ̇ܘ̣ ܕܐܦ ܗܠܝܢ ܕܡܢ ܗ̇ܝ ܕܫܡܪ̈ܝܐ ܩܿܕܡ ܐܬܬܣܝܡ܆ ܒܠܚܘܕܼ ܠܘܬ ܡܬܚܘܝܢܘܬܐ ܕܐܬܥ̣ܡܠ ܗ̣ܘ ܨܚܚܐ. 
                     </quote>
-                    <p>"The book of Exodus, according to the translation of the LXX., is ended.</p>
+                    <p>"The book of Exodus, according to the translation of the LXX., is ended.</p> <!-- Is this a final rubric? -->
                     <p>"In the exemplar from which it was translated into the Syriac tongue, was this epigraph: 'Taken from a (copy of the) Hexapla, which (was arranged) according to the (different) versions, and collated with one which was furnished with the (various readings of the) versions. (The correctness of this translation is not quite certain. See <bibl>Bianchini, Vindiciae Canonic. Scriptur., pp. cclxxiv., cclxxvi.</bibl>; <bibl>Daniel secundum LXX., Rome, 1772, pp. 74, 75</bibl>; and compare <bibl>Middledorpf, Codex Syriaco-hexaplaris, pars i. p. 65</bibl> (<foreign xml:lang="syr">ܡܢ ܗܿܘ ܕܐܦ ܡܫ̈ܠܡܢܘܬܐ ܐܬܬܣܝܡܢ</foreign>),and <bibl>Zeitschrift der Deutschen Morgenlandischen Gesell- schaft, Band iii. p. 427</bibl>.)</p>
                     <p>"This (copy of) Exodus was also collated with an accurate exemplar, in which was this epigraph: ‘The translation of the LXX. was transcribed from (a manuscript of) the Hexapla, in which the Hebrew was collated according to the Hebrew (text) of the Samaritans.' And (this manuscript) was corrected by the hand of <persName ref="">Eusebius Pamphili</persName>, as the epigraph shows; from which (manuscript) too the things taken from the Samaritan text have been previously inserted, merely as an evidence that great pains was taken with the copy."</p>
                   </item>
-                  <item n="" xml:id="">
-                    <ref target=""/>
+                  <item n="5" xml:id="addition5">
+                    <ref target="#a1 #handNote1"/>
                     <locus from="132b" to="132b"/>
                     <p>After this comes the doxology:</p>
                     <p><quote xml:lang="syr">ܫܘܒܚܐ̇ ܠܐܒܐ̣ ܘܠܒܪܐ ܘܠܪܘܚܐ ܕܩܘܕܫܐ. ܗܫܐ̇ ;ܘܒܟܠܙܒܢ ܘܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. . ܐܝܢ ܘܐܡܝ̣ܢ</quote></p>                     
                   </item>
-                  <item n="" xml:id="">
-                    <ref target=""/>
+                  <item n="6" xml:id="addition6">
+                    <ref target="#a1 #handNote1"/>
                     <locus from="132b" to="132b"/>
-                    <p>Below <ref target="">the doxology</ref> we read the name of the copyist, <persName ref="">Lazarus</persName>, and the date of the manuscript, written in two lines, in a small, current hand</p>—
+                    <p>Below <ref target="#addition5">the doxology</ref> we read the name of the copyist, <persName ref="">Lazarus</persName>, and the date of the manuscript, written in two lines, in a small, current hand</p>—
                     <p><quote xml:lang="syr">ܐܫܬܠܡ ܟܬܒܐ ܗܢܐ ܒܐܝܪܚ ܫܒܛ ܕܫܢܬ ܐܠܦ ܘܬܡܢܐ ܡܛܠ ܡܪܢ ܟܠܟܘܢ ܡܗܝ̈ܡܢܐ ܕܥܬܝܕܝܢ ܕܢܦܓܥܘܢ ܒܟܬܒܐ ܗܢܐ ܨܠܘ ܥܠܝ ܕܝܠ ܡܚܝܠܐ ܘܚܛܝܐ ܠܥܙܪ ܡܣܟܢܐ ܕܟ݁ܬܒܬ</quote>.</p>
                   </item>
-                  <item n="" xml:id="">
-                    <ref target=""/>
+                  <item n="7" xml:id="addition7">
+                    <ref target="#handNote4"/>
                     <locus from="134a" to="134a"/>
                     <p>On fol. 134 a is the following note, written by the deacon <persName ref="">Maimūn bar Halfūn</persName>, <date when-custom="1282" datingMethod="Seleucid">A. Gr. 1282</date>, <date when="0971" calendar="Gregorian">A.D. 971</date>.</p>
                     <p><quote xml:lang="syr">ܡܝܡܘܢ ܒܪ ܚܠܦܘܢ ܡܫܡܫܢܐ  ܒܫܡܐ̣. ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠܘܗܝ ܡܛܠ ܡܪܢ ܕܢܬܚܢܢ ܐܝܟ ܓܝܣܐ ܗܿܘ ܕܡܢ ܝܡܝܢܐ ܕܡܪܝܐ ܨܠܝܒ ܗܘܐ܇ ܘܟܠܢܫ ܐܝܟ ܨܠܘܬܗ ܗܟܢܐ ܡܬܦܪܥ܇ ܟܬܒ ܕܝܢ ܫܢܬ ܐܠܦ ܘܪ܏ܘܦܒ ܕܝܘܢ̈ܝܐ. ܏ܗ.
@@ -194,51 +196,39 @@
                 </list>
               </additions>
               <bindingDesc>
-                <binding xml:id="p1binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
-                <decoNote xml:id="p1bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
-                <condition/><!-- Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. -->
-              </bindingDesc><!-- IF <bindingDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <sealDesc>
-                <seal xml:id="p1seal1" contemporary="">
-                  <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-                </seal><!-- <seal> block may be repeated as necessary for each seal. -->
-              </sealDesc><!-- IF <sealDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <accMat><!-- Use this for any mention of closely-related accompanying material (documents, artifacts, letters) which are associated with the <msPart> -->
-                <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-              </accMat><!-- IF <accMat> IS NOT USED, delete nested elements and make it an empty element.-->
+                <binding xml:id="binding1" contemporary="true"><p><ref target="#addition1">See additions.</ref></p></binding>
+              </bindingDesc>
+              <sealDesc/>
+              <accMat>
+                <p><ref target="#addition4">See additions.</ref></p>
+              </accMat>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="" notAfter=""><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origPlace><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
+                <origDate when-custom="1008" datingMethod="Seleucid">A. Gr. 1008</origDate>
+                <origDate when="0697" calendar="Gregorian">A.D. 697</origDate>
               </origin>
-              <provenance>
-                <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
-              </provenance><!-- IF <provenance> IS NOT USED, delete nested elements and make it an empty element.-->
-              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
+              <provenance/>
+              <acquisition/>
             </history>
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
-                  <custEvent type="">
-                    <p/>
-                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
-                </custodialHist><!-- IF <custodialHist> IS NOT USED, delete nested elements and make it an empty element.-->
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart1"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
+                <bibl xml:id="Wright">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                  <citedRange unit="entry">XLIX</citedRange>
+                  <citedRange unit="pp">I:29-31</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -258,7 +248,6 @@
             as possible, including tables of contents and indices.</p>
         </interpretation>
       </editorialDecl>
-        <classDecl>
           <classDecl>
             <taxonomy xml:id="Wright-BL-Taxonomy">
               <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/></bibl>
@@ -334,21 +323,19 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
-            <ref target="#bible-nt"/>       
+            <ref target="#bible-ot"/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change when="2013-07-12" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
+      <change type="planned" subtype="arabic">Add in missing Arabic characters.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
+      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
