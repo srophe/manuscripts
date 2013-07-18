@@ -2532,6 +2532,9 @@ tei_change =
     |
     ## Add in missing Coptic characters
     "coptic"
+    |
+    ## Missing _________
+    "missing"
     }?,
     
     ## supplies the date of the change in standard form, i.e. YYYY-MM-DD.
