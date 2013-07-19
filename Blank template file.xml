@@ -553,6 +553,9 @@
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="missing">Missing various unspecified things.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
+      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
