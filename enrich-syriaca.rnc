@@ -782,6 +782,7 @@ tei_model.listLike =
   | tei_listEvent
   | tei_listPerson
   | tei_listPlace
+  |tei_table
 tei_model.noteLike = tei_note
 tei_model.lLike = tei_l
 tei_model.pLike = tei_p
@@ -2370,6 +2371,9 @@ tei_handNote =
            |
            ## Ancient Greek
            "grc"
+           |
+           ## Coptic
+           "cop"
            |
            ##
            "other"
@@ -4255,6 +4259,24 @@ tei_listPlace =
     att.declarable.attributes,
     empty
   }
+tei_table = 
+
+    ## contains text displayed in tabular form, in rows and columns.
+  element table
+{
+   att.global.attributes,
+   att.global.linking.attribute.corresp,
+   att.global.analytic.attributes,
+   att.global.facs.attributes,
+   att.global.change.attributes,
+   attribute rows { data.count }?,
+   attribute cols { data.count }?,
+   (
+      ( model.headLike | model.global )*,
+      ( ( row, model.global* )+ | ( ( model.graphicLike ), model.global* )+ ),
+      ( ( model.divBottom ), model.global* )*
+   )
+}
 tei_location =
   
   ## defines the location of a place as a set of geographical coordinates, in terms of a other named geo-political entities, or as an
