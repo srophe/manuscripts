@@ -297,7 +297,7 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p3a1" defective="true">
                 <locus from="72a" to="82a"/>
-                <title ref="http://syriaca.org/work/21">The book of Koheleth or Ecclesiastes, accord¬ing to the Peshitta version. </title>
+                <title ref="http://syriaca.org/work/21">The book of Koheleth or Ecclesiastes, according to the Peshitta version. </title>
                 <fw type="header"><rubric xml:lang="syr">ܩܘܗܠܬ<locus from="74b" to="74b"/></rubric></fw>
                 <note>The missing portions of the text are: ch. i. 1-17, iv. 16—v. 7, v. 18—viii. 17, ix. 8—xi. 3, and xii. 14 to the end.</note>
                 <listBibl>

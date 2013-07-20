@@ -279,6 +279,7 @@
                             <textLang mainLang="syr">Syriac</textLang>
                             <msItem n="1" xml:id="p2a1" defective="true">
                                 <locus from="109" to="169"/>
+                                <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
                                 <title ref="http://syriaca.org/work/141">The book of Joshua,
                                     translated from the Septuagint by Paul of Tellā</title>
                                 <rubric xml:lang="syr">
@@ -341,7 +342,7 @@
                        <!-- VOWELS  -->
                                     <locus from="109" to="169"/>
                                     <listPerson>
-                                        <person role="scribe" xml:id="Paul_Tella" corresp="">
+                                        <person role="scribe" xml:id="Paul_Tella" corresp="http://syriaca.org/person/82">
                                             <persName xml:lang="eng">Paul of Tellā</persName>
                                             <persName xml:lang="syr"/>
                                         </person>
