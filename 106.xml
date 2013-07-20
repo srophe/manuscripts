@@ -100,7 +100,7 @@
                   glosses upon some words (e. g. foll. <locus>24a</locus>, <locus>25a</locus>, <locus>27b</locus>, <locus>29a</locus>, <locus>30a</locus>, etc.);
                   and a good many Greek vocables, written in not inelegant characters. The tetragrammaton is expressed by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.</p>
                   </note>
-                <msItem xml:id="b1">
+                <msItem n="3" xml:id="b1">
                   <locus from="9a" to="46"/>
                   <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName>Tellā</placeName> or <placeName>Constantina</placeName>.</editor>
                   <title ref="http://syriaca.org/work/142">The book of Genesis, translated from the Septuagint by Paul, bishop of <placeName>Tellā</placeName> or <placeName>Constantina</placeName></title>
@@ -112,10 +112,10 @@
                   <p>Several portions of the capitula are missing, as also the following passages of the text: ch. i. 1—iv. 8, ix. 24— xvi. 2, xvi. 12 — xx. 1, xx. 13 — xxxi. 53, xxxii. 12 — xxxvi. 2, xl. I8 — xliii. 1, and xlvii. 16—1. 17.</p>                
                   <p>The lessons are rubricated in the text, the end of each being indicated by <foreign xml:lang="syr">ܫ</foreign>. In the <foreign xml:lang="syr">ܩ̈ܦܠܐܐ</foreign> they are noted on the margins.</p></note>
                   </msItem>
-                <msItem xml:id="b2"><title>Critical marks of the Hexapla of Origen</title>
-                    <msItem xml:id="c1"><title>Marginal notes of Genesis according to Aquila</title>
-                      <msItem xml:id="c2"><title>Marginal notes of Genesis according to Symmachus</title>
-                        <msItem xml:id="c3"><title>Marginal notes of Genesis according to Theodotion</title>
+                <msItem n="4" xml:id="b2"><title ref="http://syriaca.org/work/143">Critical marks of the Hexapla of Origen</title>
+                  <msItem n="5" xml:id="c1"><title ref="http://syriaca.org/work/144">Marginal notes of the book of Genesis according to Aquila</title>
+                    <msItem n="6" xml:id="c2"><title ref="http://syriaca.org/work/145">Marginal notes of the book of Genesis according to Symmachus</title>
+                      <msItem n="7" xml:id="c3"><title ref="http://syriaca.org/work/146">Marginal notes of the book of Genesis according to Theodotion</title>
               </msItem>
                </msItem>
                 </msItem>
