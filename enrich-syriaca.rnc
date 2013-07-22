@@ -4266,17 +4266,42 @@ tei_table =
 {
    att.global.attributes,
    att.global.linking.attribute.corresp,
-   att.global.analytic.attributes,
-   att.global.facs.attributes,
-   att.global.change.attributes,
    attribute rows { data.count }?,
    attribute cols { data.count }?,
    (
-      ( model.headLike | model.global )*,
-      ( ( row, model.global* )+ | ( ( model.graphicLike ), model.global* )+ ),
-      ( ( model.divBottom ), model.global* )*
+      ( tei_model.headLike | tei_model.global )*,
+      ( ( tei_row, tei_model.global* )+ | ( ( tei_model.graphicLike ), tei_model.global* )+ ),
+      ( ( tei_model.divBottom ), tei_model.global* )*
    )
 }
+data.count = xsd:nonNegativeInteger
+tei_row=
+    
+    ## contains one row of a table
+    element row
+    {
+   att.global.attributes,
+   att.global.linking.attribute.corresp,
+   tei_cell+
+}
+tei_cell=
+    
+    ## contains one cell of a table
+    element cell
+    {
+   att.global.attributes,
+   att.global.linking.attribute.corresp,
+   macro.specialPara
+}
+macro.specialPara =
+   (
+      text
+    | tei_model.gLike
+    | tei_model.phrase
+    | tei_model.inter
+    | tei_model.divPart
+    | tei_model.global
+   )*
 tei_location =
   
   ## defines the location of a place as a set of geographical coordinates, in terms of a other named geo-political entities, or as an
