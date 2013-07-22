@@ -63,7 +63,8 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1116</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 18715<!-- Add MS + the manuscript name identified at the end of the Wright entry ex. Add MS 14444 (note: do not use commas, periods, or folia numbers)--></idno>
+              <idno type="BL-Shelfmark">Add MS 18715
+          </idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
