@@ -556,6 +556,7 @@
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
       <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
+      <change type="planned" subtype="table">Table to be revised.</change>
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
