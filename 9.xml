@@ -74,6 +74,21 @@
               <idno type="Wright-BL-Roman">LXXV</idno>
             </altIdentifier>
           </msIdentifier>
+           <physDesc>
+              <objectDesc form="codex">
+                 <supportDesc material="mixed">
+                    <extent>
+                       <measure unit="leaf" quantity="214">214 ff.</measure>
+                       <dimensions/>
+                    </extent>
+                 </supportDesc>
+              </objectDesc>
+           </physDesc>
+           <additional>
+              <adminInfo>
+                 <note>In its present state it is made up of parts of four vellum manuscripts, the defects of which are supplied by paper leaves.</note>
+              </adminInfo>
+           </additional>
           <msPart n="1" xml:id="Part1">
             <msIdentifier><!-- IF there is only one msPart, delete this <msIdentifier> block because it would be redundant. -->
               <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part (number should be  a sequential number assigned in the Wright decoder) --></idno>
