@@ -79,7 +79,7 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1">
-                <locus from="1" to="29"/>
+                <locus from="1" to="29b"/>
                 <title ref="http://syriaca.org/work/6" type="supplied">The book of Joshua, according to the Peshitta version.</title>
                 <finalRubric xml:lang="syr">ܫܠܡ . ܟܬܒܐ . ܕܝܫܘܥ . ܒܪܢܘܢ܀<locus from="29" to="29"/></finalRubric>
               </msItem>
@@ -109,7 +109,7 @@
                   <foliation type="ancient"/>
                   <collation>
                     <p>The quires, originally 14 in number, are signed with both letters and arithmetical figures;
-                      e.g. fol. <locus>5</locus>, ܒ;  fol. <locus>34</locus>, ; fol. <locus>48</locus>, ܝܒ; fol. <locus>56</locus>, ܝܓ; fol. <locus>64</locus>, ܝܕ.</p>
+                      e.g. fol. <locus>5</locus>, <foreign xml:lang="syr">ܒ</foreign>;  fol. <locus>34</locus>, ; fol. <locus>48</locus>, <foreign xml:lang="syr">ܝܒ</foreign>; fol. <locus>56</locus>, <foreign xml:lang="syr">ܝܓ</foreign>; fol. <locus>64</locus>, <foreign xml:lang="syr">ܝܕ</foreign>.</p>
                    </collation>
     <!-- Missing some numbers or letters -->
                   <condition>
@@ -118,21 +118,38 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="2" writtenLines="18 22">
-                    <p>Each page is divided into two columns, of from 18 to 22 lines.</p>
+                    <p>Each page is divided into two columns, from 18 to 22 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc>
+              <handDesc hands="3">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>This manuscript is written in a large Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
-                  <desc>A later hand has added Greek vowels here and there (α, ⲉ, ⲏ, or ϊ, foll. <locus>9b</locus>, <locus>10a</locus>, ο or ω, foll. <locus>10a</locus>, <locus>13b</locus>, <locus>16a</locus>, ογ), and also Syriac vowel-points (for example, on foll. 17 a, 24 a and b, 25 a).
-                    A modern hand (perhaps the same that added the vowels) has marked the lessons on the margins, and also appended a few notes, either referring to the text of the LXX., or explanatory of proper names and other words. For example: fol. 31 b, ܘܒܫܥܠܒܝܢ (Judg. i. 35), marg. ܗ̄ ܒܝܬ ܬܥ̈ܠܐ; fol. 36 a, ܘܐܡܪܘ ܚܪܒܐ ܠܡܪܝܐ ܘܠܓܕܥܘܢ  (Judg. vii. 18), marg. ܥ܏ܒ ܙܟܘܬܐ ܠܡܪܝܐ ܒܝܕ ܓܕܥܘܢ; fol. 38 a, ܐܟܘܬܟ ܐܝܬܝܗܘܢ ܗܘܘ (Judg. viii. 18), marg. ܥ܏ܒ ܬܗܘܐ ܠܟ ܐܝܟ ܚܕ ܡܢܗܘܢ; fol. 43 a, ܬܒ̣ܪܐ ܕܪܟܒܐ ܕܪܚܝܐ (Judg. ix. 53), marg. ܏ܗ ܦܝܢܟܐ ܕܪܰܚܝܐ; fol. 48 b, ܐܦܪܡܝܐ ܐܢܬ (Judg. xii. 5), marg. ܥ܏ܒ ܦܪܬܝܐ ܐܢܬ ; fol. 55 b, ܟܠ ܓܒܪ ܐܠܦ ܘܬܠܬܡܐܐ ܕܟܦܣܐ (Judg. xvi. 5), marg. ܥ܏ܒ ܠܪܒ ܐ̈ܠܦܐ ܘܡܐܐ ܕܟܣܦܐ. In one place a Greek word is written on the margin by the same hand, viz. fol. 18 b, κγροc (ܘܕܩܪܘܣ, Josh. xiii. 11).</desc>
-                  
-  <!-- Missing some numbers or letters -->
+                  <desc>See below.</desc>
+                 </handNote>
+                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc>See below.</desc>
                 </handNote>
               </handDesc>
+              <additions>
+                <list>
+                  <item n="1" xml:id="addition1"><ref target="#handNote2"/>
+                    <desc>A later hand has added Greek vowels here and there (<foreign xml:lang="grc">α</foreign>, , , or <foreign xml:lang="grc">ϊ</foreign>, foll. <locus>9b</locus>, <locus>10a</locus>,
+                      <foreign xml:lang="grc">ο</foreign> or <foreign xml:lang="grc">ω</foreign>, foll. <locus>10a</locus>, <locus>13b</locus>, <locus>16a</locus>, <foreign xml:lang="grc">ογ</foreign>), 
+                      and also Syriac vowel-points (for example, on foll. <locus>17a</locus>, <locus>24a</locus>, <locus>24b</locus>, <locus>25a</locus>).</desc>
+  <!-- Missing some numbers or letters --></item>
+                  <item n="2" xml:id="addition2"><ref target="handNote3"/>
+                    <desc>A modern hand (perhaps the same that added the vowels) has marked the lessons on the margins, and also appended a few notes,
+                      either referring to the text of the LXX., or explanatory of proper names and other words. For example: fol. <locus>31b</locus>, <foreign xml:lang="syr">ܘܒܫܥܠܒܝܢ</foreign> (Judg. i. 35),
+                      marg. <foreign xml:lang="syr">ܗ̄ ܒܝܬ ܬܥ̈ܠܐ</foreign>; fol. <locus>36a</locus>, <foreign xml:lang="syr">ܘܐܡܪܘ ܚܪܒܐ ܠܡܪܝܐ ܘܠܓܕܥܘܢ</foreign>  (Judg. vii. 18), marg. <foreign xml:lang="syr">ܥ܏ܒ ܙܟܘܬܐ ܠܡܪܝܐ ܒܝܕ ܓܕܥܘܢ</foreign>; fol. <locus>38a</locus>,
+                      <foreign xml:lang="syr">ܐܟܘܬܟ ܐܝܬܝܗܘܢ ܗܘܘ</foreign> (Judg. viii. 18), marg. <foreign xml:lang="syr">ܥ܏ܒ ܬܗܘܐ ܠܟ ܐܝܟ ܚܕ ܡܢܗܘܢ</foreign>; fol. <locus>43a</locus>, <foreign xml:lang="syr">ܬܒ̣ܪܐ ܕܪܟܒܐ ܕܪܚܝܐ</foreign> (Judg. ix. 53), marg. ܏<foreign xml:lang="syr">ܗ ܦܝܢܟܐ ܕܪܰܚܝܐ</foreign>;
+                      fol. <locus>48b</locus>, <foreign xml:lang="syr">ܐܦܪܡܝܐ ܐܢܬ</foreign> (Judg. xii. 5), marg. <foreign xml:lang="syr">ܥ܏ܒ ܦܪܬܝܐ ܐܢܬ</foreign> ; fol. <locus>55b</locus>, <foreign xml:lang="syr">ܟܠ ܓܒܪ ܐܠܦ ܘܬܠܬܡܐܐ ܕܟܦܣܐ</foreign> (Judg. xvi. 5), marg. <foreign xml:lang="syr">ܥ܏ܒ ܠܪܒ ܐ̈ܠܦܐ ܘܡܐܐ ܕܟܣܦܐ</foreign>.
+                      In one place a Greek word is written on the margin by the same hand, viz. fol. <locus>18b</locus>, <foreign xml:lang="grc">κγροc</foreign> (<foreign xml:lang="syr">ܘܕܩܪܘܣ</foreign>, Josh. xiii. 11).</desc>
+                    <quote/></item>
+                </list>
+              </additions>
             </physDesc>
             <history>
               <summary/>

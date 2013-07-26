@@ -63,8 +63,7 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI"
-              >http://syriaca.org/manuscript/729</idno>
+            <idno type="URI">http://syriaca.org/manuscript/729</idno>
             <altIdentifier>
               <idno  type="BL-Shelfmark">Add MS 17102</idno>
             </altIdentifier>
@@ -87,8 +86,8 @@
               <locus from="1" to="60"/>
               <title ref="http://syriaca.org/work/6">The book of Joshua, according to the Peshitta version.</title>
               <note>Commencences with ch. iv. 7. Some of the lessons are rubricated in the text, the end of each being indicated
-                  by the letter ܫ; others are marked on the margins by references to an index, ܦܘܪܫ
-                  ܩܪ̈ܝܢܐ, which is now lost.
+                  by the letter <foreign xml:lang="syr">ܫ</foreign>; others are marked on the margins by references to an index, <foreign xml:lang="syr">ܦܘܪܫ
+                  ܩܪ̈ܝܢܐ</foreign>, which is now lost.
               </note>
             </msItem>
           </msContents>
@@ -145,7 +144,7 @@
               <handNote xml:id="handnote5" scope="minor" script="syr" medium="unknown">
                 <locus from="59b" to="59b"/>
                 <desc>The latter part of this <ref target="#handnote4">note</ref>, from
-                  ܒܡܬܚܦܛܢܘܬܐ to the end, is in a different hand from the former part.</desc>
+                  <foreign xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</foreign> to the end, is in a different hand from the former part.</desc>
               </handNote>
               <handNote xml:id="handnote6" scope="minor" script="syr" medium="unknown">
                 <locus from="59b" to="59b"/>
@@ -163,17 +162,17 @@
             <additions>
               <list>
                 <item n="1" xml:id="addition1">
-                  <locus from="60a" to="60a"/><ref target="#a1"/>
-                  <desc><label>Long Note</label>stating that this manuscript was written in the year
+                  <locus from="60a" to="60a"/><ref target="#a1 #handnote3"/>
+                  <desc>Long note stating that this manuscript was written in the year
                     <date>910</date>, and collated with another copy of the school of the Armenians. The names of
                     the man at whose expense it was transcribed, and of the convent to which he gave
                     it, were altered by the hand of a person from the village of <placeName>Kěphar-Darīn</placeName>, who
                     added a few lines, informing us that the manuscript was incorporated with the
-                    library of the <placeName>convent of Mār Daniel at Kěphar-Bīl</placeName> ܕܟܣ̈ܝܗ (?), near Antioch,
-                    when Thomas was abbat, the priest Simeon his deputy, and the priest Moses
-                    librarian. The name of this man has in turn been erased by one <persName>Yazdīn bar Dūmā</persName>
+                    library of the <placeName>convent of Mār Daniel at Kěphar-Bīl</placeName> <foreign xml:lang="syr">ܕܟܣ̈ܝܗ</foreign> (?), near <placeName>Antioch</placeName>,
+                    when <persName>Thomas</persName> was abbat, the priest <persName>Simeon</persName> his deputy, and the priest <persName>Moses
+                    </persName> librarian. The name of this man has in turn been erased by one <persName>Yazdīn bar Dūmā</persName>
                     (?).</desc>
-                  <p><quote xml:lang="syr">ܐܬܚܦܛ ܘܥܒ̣ܕ ܗܢܐ̣. [(ܝܙܕܝܢ ܒܪ ܖܘܡܐ) . . . ܟܦܪܕܪܝܢ. ܡܢ ܙܝܢܬܐ]
+                  <quote xml:lang="syr">ܐܬܚܦܛ ܘܥܒ̣ܕ ܗܢܐ̣. [(ܝܙܕܝܢ ܒܪ ܖܘܡܐ) . . . ܟܦܪܕܪܝܢ. ܡܢ ܙܝܢܬܐ]
                     ܕܐܠܗܐ. ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܩܢܘܡܗ̣ ܘܕܐܝܠܝܢ ܕܩ̇ܪܝܢ ܒܗ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ : ܣܡ ܠܗ ܣܝܡܬܐ
                     ܗܕܐ̣. ܗ̣ܘ ܢܫܘܝܘܗܝ ܕܢܫܡ̣ܥ ܡܢ ܡܪܗ܇ ܗ̇ܝ ܒܪܬ ܩܠܐ ܒܪܝܟܬܐ ܕܐܡ̇ܪܐ̇. ܐܝܘ ܥܒ̣ܕܐ ܛܒ̇ܐ
                     ܘܡܗܝܡܢܐ̇. ܥܠ ܩܠܝܠ ܡܗ̣ܝܡܢ ܗܘ̣ܝܬ݁. ܥܠ ܣܓܿܝ ܐܩܝܡܟ. ܥܘܠ ܠܚܕܘܬܗ ܕܡܪܟ. ܘܠܥܢܝܕܘ̈ܗܝ
@@ -183,30 +182,32 @@
                     ܕܝܢ ܟܬܒܐ ܗܢܐ̣. [ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܕܢܝܐܝܠ ܕܟܦܪܒܝܠ] ܕܟܣ̈ܝܗ ܟܘܪܐ ܕܐܢ̈ܛܝܘܟܝܐ. ܥܠ
                     ܕܝܢ ܠܒܝܬ ܟܬܒ̈ܐ ܒܝ̈ܘܡܝ ܪܝܫܕܝܪܐ ܬܐܘܡܐ ܕܝܠܗ ܕܥܘܡܪܐ ܘܩܫܝܫܐ ܫܡܥܘܢ ܕܒܬܪܗ ܟܕ ܐܝܬܘܗܝ
                     ܟܬܒܝܐ ܩܫܝܫܐ ܡܘܫܐ. ܕܐܠܗܐ ܒܪ̈ܚܡ̣ܘܗܝ ܘܒܛܝܒܘܬܗ ܢܬܠ ܐܓܪܐ ܘܦܘܪܥܢܐ ܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ
-                    ܒܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥܒܕܐ܀ ܘ ܀ </quote></p>
-                </item>
+                    ܒܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥܒܕܐ܀ ܘ ܀ </quote>                </item>
                 <item n="2" xml:id="addition2">
-                  <locus from="59b" to="59b"/><ref target="#a1"/>
-                  <p><desc>More recent <label>note</label>A more recent note, on fol. <locus>59b</locus>, records that
+                  <locus from="59b" to="59b"/><ref target="#a1 #handnote4"/>
+                  <desc>A more recent note, on fol. <locus>59b</locus>, records that
                     <persName>Pāpā bar Dūmā</persName> of <placeName>Tagrīt</placeName> (Tecrit) presented this book to the <placeName>convent of S. Mary
-                    Deipara</placeName>, by the hands of Matthew and Abraham of <placeName>Tagrīt</placeName>. The latter part of this
-                    note, from <quote xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</quote> to the end, is in a different hand from the former part.</desc></p>
-                  <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote></p>
-                </item>
+                    Deipara</placeName>, by the hands of <persName>Matthew</persName> and <persName>Abraham</persName> of <placeName>Tagrīt</placeName>. 
+                  </desc></item>
                 <item n="3" xml:id="addition3">
-                  <locus from="59b" to="59b"/><ref target="#a1"/>
-                 <desc><label>Margin. note</label></desc>
+                  <locus from="59b" to="59b"/><ref target="#a1 #handnote5"/>
+                    <desc>The latter part of this <ref target="#addition2">note</ref>, from <foreign xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</foreign> to the end, is in a different hand from the former part.</desc>
+                  <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote>
+                </item>
+                <item n="4" xml:id="addition4">
+                  <locus from="59b" to="59b"/><ref target="#a1 #handnote6"/>
+                 <desc>Margin. note</desc>
                   <quote xml:lang="syr">ܝܗܒ̣ ܟܬܒܐ ܗܢ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܝܪ̈ܝܝܐ ܕܐܒܐ ܒܝܫܘܝ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܛܐ̣. ܦܦܐ ܒܪ ܕܘܡܐ ܬܓܪܝܬܢܝܐ. ܡܛܠ ܚܘܣܝܐ ܕܚܘ̈ܒܘܗܝ ܘܕܘܟܪܢܐ ܕܥ̈ܢܝܕܘܗܝ. ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ♱ . . ܒܡܬܚܦܛܢܘܬܐ ܕܡܬܝ ܘܕܐܒܪܗܡ ܐܚ̈ܐ ܕ̈ܝܪܝܐ ܬܓܪܝܢܬܝܐ (sic) ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠܝܗܘܢ ܘܟܠ ܕܩܪܐ ܒܗ ܘܢܟ̇ܡܢ ܥܠܘܗܝ ܢܕܥ ܕܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܥܠ ܦܘܩܕܢܐ</quote>
     <!--A question about the dot that comes on top-->
                 </item>
-                <item n="4" xml:id="addition4">
-                  <locus from="60b" to="60b"/><ref target="#a1"/>
-                  <desc><label>Note</label> written by the librarian of the <placeName>convent of S. Mary Deipara</placeName></desc>
+                <item n="5" xml:id="addition5">
+                  <locus from="60b" to="60b"/><ref target="#a1 #handnote7"/>
+                  <desc>Note written by the librarian of the <placeName>convent of S. Mary Deipara</placeName></desc>
                   <quote xml:lang="syr">ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ. ܠܝܬ ܠܗ ܫܘܠܛܢܐ ܡܢ ܐܠܗܐ ܕܢܠܒܟܝܘܗܝ [ܐܠܐ ܐܫܬܐ ܝܪ̈ܚܝܢ]. ܘܟܠ ܕܠܐ ܡܗܦܟ ܠܗ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. ܘܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. </quote>
                 </item>
-                <item n="5" xml:id="addition5">
-                  <locus from="60b" to="60b"/><ref target="#a1"/>
-                  <desc><label>Note</label>, almost effaced, that was an anathema upon Nestorius and other heretics.</desc>
+                <item n="6" xml:id="addition6">
+                  <locus from="60b" to="60b"/><ref target="#a1 #handnote8"/>
+                  <desc>Note, almost effaced, that was an anathema upon <persName>Nestorius</persName> and other heretics.</desc>
                 </item>
               </list>
               <catchwords/>
@@ -225,14 +226,14 @@
                   the man at whose expense it was transcribed, and of the convent to which he gave
                  it, were altered by the hand of a person from the village of <placeName>Kěphar-Darīn</placeName>, who
                  added a few lines, informing us that the manuscript was incorporated with the
-                 library of the <placeName>convent of Mār Daniel at Kěphar-Bīl</placeName> ܕܟܣ̈ܝܗ (?), near Antioch,
-                 when Thomas was abbat, the priest Simeon his deputy, and the priest Moses
+                 library of the <placeName>convent of Mār Daniel at Kěphar-Bīl</placeName> ܕܟܣ̈ܝܗ (?), near <placeName>Antioch</placeName>,
+                 when <persName>Thomas</persName> was abbat, the priest <persName>Simeon</persName> his deputy, and the priest <persName>Moses</persName>
                  librarian. The name of this man has in turn been erased by one <persName>Yazdīn bar Dūmā</persName></desc></item>
                 <item n="2" xml:id="provenance2"><ref target="addition2"/>
                   <desc>More recent <label>note</label>A more recent note, on fol. <locus>59b</locus>, records that
                     <persName>Pāpā bar Dūmā</persName> of <placeName>Tagrīt</placeName> (Tecrit) presented this book to the <placeName>convent of S. Mary
-                      Deipara</placeName>, by the hands of Matthew and Abraham of <placeName>Tagrīt</placeName>. The latter part of this
-                    note, from <quote xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</quote> to the end, is in a different hand from the former part.</desc>                  
+                      Deipara</placeName>, by the hands of <persName>Matthew</persName> and <persName>Abraham</persName> of <placeName>Tagrīt</placeName>. The latter part of this
+                    note, from <foreign xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</foreign> to the end, is in a different hand from the former part.</desc>                  
                 </item>
               </list>
             </provenance>
@@ -351,8 +352,7 @@
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
-            <item>
-              <ref target="#Part1"/>  
+            <item>  
               <ref target="#bible-ot"/>       
             </item>
           </list>

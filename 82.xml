@@ -86,15 +86,15 @@
                             <note>The lessons are marked in the text in the usual way; others have been added subsequently at the top of the page.
                                 The following portions of the text are wanting: ch. i. 7—18, ch. iii. 13—22, ch. v. 24—vi. 15, ch. xxii. 11—xxv. 17, and ch. xlvii. 13 to the end.</note>
                         </msItem>
-                            <msItem n="2" xml:id="a2" defective="inapplicable">
+                            <msItem n="2" xml:id="a2">
                                 <locus from="1" to="2a"/>
                                 <title>Index to additional lessons mentioned above.</title>
-                                    <quote xml:lang="syr"><p>܏ܩ ܕܚܡܫܐ ܒܫܒܐ ܕܐܢܝܚܬܐ ܏ܟـ ܝܓ ܏ܦ ܙ</p>
+                                    <note><quote xml:lang="syr"><p>܏ܩ ܕܚܡܫܐ ܒܫܒܐ ܕܐܢܝܚܬܐ ܏ܟـ ܝܓ ܏ܦ ܙ</p>
                                         <p>܏ܩ ܕܫܒܬܐ ܕܫܒܬܐ ܕܐܢܝܚܬܐ ܏ܟـ ܒ ܏ܦ ܒ</p>
                                         <p>܏ܩ ܕܚܕܒܫܒܐ ܚܕܬܐ ܪܝܫ ܟܬܒܐ</p>
                                         <p>܏ܩ ܕܚܕܒܫܒܐ :ܓ: ܡܢ ܩܝܡܬܐ ܏ܟـ ܐ ܏ܦ . .</p>
-                                        <p>܏ܩ ܕܚܕ ܒܫܒܐ : ܕ :܏ܟـ ܐ ܏ܦ ܚ</p>
-                                        and so on. Here ܟـ stands for ܟܘܪܣܐ , % (quire), and ܦ for ܦܬܚܐ (opening).</quote>
+                                        <p>܏ܩ ܕܚܕ ܒܫܒܐ : ܕ :܏ܟـ ܐ ܏ܦ ܚ</p></quote>
+                                        <p>and so on. Here <foreign xml:lang="syr">ܟـ</foreign> stands for <foreign xml:lang="syr">ܟܘܪܣܐ </foreign>,  (quire), and <foreign xml:lang="syr">ܦ</foreign> for <foreign xml:lang="syr">ܦܬܚܐ</foreign> (opening).</p></note>
           <!-- Arabic needs to be added -->
                             </msItem>                                
                  </msContents>
@@ -127,7 +127,7 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                         <handDesc>
+                         <handDesc hands="4">
                              <handNote xml:id="handnote1" scope="major" script="syr-Syre" medium="unknown">
                                  <desc>The character is a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                              </handNote>
@@ -136,13 +136,16 @@
                                      <locus from="46" to="46">46</locus>, and <locus from="56" to="56">56</locus>), but at neither time correctly.</desc>
                              </handNote>
                              <handNote xml:id="handnote3" scope="minor" script="syr-Syrj" medium="unknown">
-                                 <p>Vowels have sometimes been added by a later hand (ܰ, ܶ, ܺ, ܳ, , , ). </p>
+                                 <desc>Vowels have sometimes been added by a later hand (ܰ, ܶ, ܺ, ܳ, , , ). </desc>
          <!-- Add missing Syriac vowels. -->
+                             </handNote>
+                             <handNote xml:id="handnote4" scope="minor" script="syr" medium="unknown">
+                                 <desc>See below.</desc>       
                              </handNote>
                          </handDesc>
                         <additions>
                             <list>
-                                <item n="1" xml:id="addition1"><locus from="2b" to="2b"/><ref target="#a1"/>
+                                <item n="1" xml:id="addition1"><locus from="2b" to="2b"/><ref target="#a1 #handnote4"/>
                                     <desc><label>Marginal note</label> mentions that with this volume was once bound up a work, (or more probably a series of extracts,) entitled <choice><seg><title>ܒܘ̈ܚܢܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ</title>, <title>"Disquisitions of the holy Teachers"</title></seg></choice></desc></item>
                             </list>
                             <catchwords/>
@@ -269,7 +272,6 @@
                 <keywords scheme="#Wright-BL-Taxonomy">
                     <list>
                         <item>
-                            <ref target="#Part1"/> 
                             <ref target="#bible-ot"/>       
                         </item>
                     </list>
