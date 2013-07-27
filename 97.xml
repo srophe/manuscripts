@@ -97,8 +97,8 @@
                     (<foreign xml:lang="syr">ܨܚܚܐ ܕܫܡܪ̈ܝܐ</foreign> or <foreign xml:lang="syr">ܥܒܪܝܐ ܕܫܡܪ̈ܝܐ</foreign>, foll. <locus>8b</locus>, <locus>14a</locus>, <locus>16b</locus>, <locus>19b</locus>, <locus>31a</locus>, <locus>33b</locus>, <locus>34a</locus> and <locus>34b</locus>).</p>
                   <p>The tetragrammaton is expressed by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.</p>
                 </note>
-                <msItem n="2" xml:id="p1b1"><title ref="http://syriaca.org/work/168">Marginal notes of the book of Numbers according to Aquila</title>  
-                  <msItem n="3" xml:id="p1b2"><title ref="http://syriaca.org/work/169">Marginal notes of the book of Numbers according to Symmachus</title>     
+                <msItem n="2" xml:id="p1b1"><title ref="http://syriaca.org/work/168">Marginal notes of the book of Numbers according to Aquila</title>
+                  <msItem n="3" xml:id="p1b2"><title ref="http://syriaca.org/work/169">Marginal notes of the book of Numbers according to Symmachus</title>   
                     <msItem n="4" xml:id="p1b3"><title ref="http://syriaca.org/work/170">Marginal notes of the book of Numbers according to Theodotion</title>
                       <msItem n="5" xml:id="p1b4"><title ref="http://syriaca.org/work/171">Hebrew text of the book of Numbers</title>
                         <msItem n="6" xml:id="p1b5"><title ref="http://syriaca.org/work/172">The additional passages of the Samaritan codex of the book of Numbers</title>
@@ -229,15 +229,15 @@
                     (<foreign xml:lang="syr">ܥ</foreign>, e.g. foll. <locus>52a</locus>, <locus>53b</locus>, <locus>54a</locus> and <locus>54b</locus>, etc.); </p>
                   <p>The tetragrammaton is denoted by <foreign xml:lang="syr">ܦܝܦܝ</foreign> (fol. <locus>69a</locus>, <foreign xml:lang="syr">ܕܦܝܦܝ</foreign>; fol. <locus>91a</locus>, <foreign xml:lang="syr">ܠܦܘܡܗ ܕܦܝܦܝ</foreign>).</p>
                 </note>
-                <msItem n="3" xml:id="p2b1"><title ref="http://syriaca.org/work/175">Marginal notes of the book of Kings according to Aquila</title>  
-                  <msItem n="4" xml:id="p2b2"><title ref="http://syriaca.org/work/176">Marginal notes of the book of Kings according to Symmachus</title>     
+                <msItem n="3" xml:id="p2b1"><title ref="http://syriaca.org/work/175">Marginal notes of the book of Kings according to Aquila</title> 
+                  <msItem n="4" xml:id="p2b2"><title ref="http://syriaca.org/work/176">Marginal notes of the book of Kings according to Symmachus</title>   
                     <msItem n="5" xml:id="p2b3"><title ref="http://syriaca.org/work/177">Marginal notes of the book of Kings according to Theodotion</title>
                       <msItem n="6" xml:id="p2b4"><title ref="http://syriaca.org/work/178">Hebrew text of the book of King</title>
                       </msItem>
-                    </msItem> 
+                    </msItem>
+                  </msItem>
                   </msItem>
                 </msItem>
-              </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">

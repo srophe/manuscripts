@@ -80,7 +80,7 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
           <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1" to="49"/>
+                <locus from="1" to="49b"/>
             <title ref="http://syriaca.org/work/13" type="supplied">The first book of Chronicles, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܣܦܪ ܕܘܒܪ ܝܘܡ̈ܬܐ ܕܡ̈ܠܟܐ ܕܝܗܘܕܐ ܕܡܬܩܪܐ ܣܦܪ  ܕܒܪܝܡܝܢ.<locus from="1b" to="1b"/></rubric>
       <!-- ARABIC NEEDED ^^^-->
@@ -112,10 +112,10 @@
                   </extent>
                   <foliation type="ancient"/>
                   <collation>
-                    <p>The quires are at present 11 in number, but ܗ, ܙ, ܚ, and ܛ have been lost, as well as several at the end. What the original signatures of the quires were, does not appear; they are now signed with letters.</p>
+                    <p>The quires are at present 11 in number, but <foreign xml:lang="syr"> ܚ</foreign>,<foreign xml:lang="syr">ܗ</foreign>, <foreign xml:lang="syr">ܙ</foreign> , and <foreign xml:lang="syr">ܛ</foreign> have been lost, as well as several at the end. What the original signatures of the quires were, does not appear; they are now signed with letters.</p>
                   </collation>
                   <condition>
-                    <p>Some of the leaves are much stained and torn, especially <locus>fol. 1, 2, 8, 28, 39, 47, 48, 55, 77, 78, 103 and 104</locus>. Leaves are also missing after <locus>foll. 79 and 84</locus></p>
+                    <p>Some of the leaves are much stained and torn, especially fol. <locus>1</locus>, <locus>2</locus>, <locus>8</locus>, <locus>28</locus>, <locus>39</locus>, <locus>47</locus>, <locus>48</locus>, <locus>55</locus>, <locus>77</locus>, <locus>78</locus>, <locus>103</locus> and <locus>104</locus>. Leaves are also missing after <locus>foll. 79 and 84</locus></p>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
@@ -126,25 +126,37 @@
               </objectDesc>
               <handDesc>
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a small, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate> </desc>
+                  <desc>The writing is a small, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="handnote2" scope="minor" script="syr-Syrj" medium="uknown">
-                  <desc>Numerous Greek vowels have been added by a later hand (α, ε, ⲏ, ω, ὄ and αυ; e.g. ܘܢܺܬܢܺܐܝܶܠ, ܘܐܘܨܡ, ܘܝܘܐܒ, ܝܬ, ܠܡ̇ܢܘ). The same hand that added the vowel-points has divided the books into sections, marked by Greek letters on the margins. The last of these in 1 Chronicles is ϊθ (ch. xxii. 2), <locus>fol. 48 a</locus>; and in 2 Chronicles (commencing with Δ) ΚΓ (ch. xxix. 1), <locus>fol. 104 b</locus>.</desc>
+                  <desc>Numerous Greek vowels have been added by a later hand (<foreign xml:lang="grc">α</foreign>, <foreign xml:lang="grc">ε</foreign>, ⲏ, <foreign xml:lang="grc">ω</foreign>, <foreign xml:lang="grc">ὄ</foreign> and <foreign xml:lang="grc">αυ</foreign>; e.g. <foreign xml:lang="syr">ܘܢܺܬܢܺܐܝܶܠ, ܘܐܘܨܡ, ܘܝܘܐܒ, ܝܬ, ܠܡ̇ܢܘ</foreign>). The same hand that added the vowel-points has divided the books into sections, marked by Greek letters on the margins. The last of these in 1 Chronicles is <foreign xml:lang="grc">ϊθ</foreign> (ch. xxii. 2), fol. <locus>48a</locus>; and in 2 Chronicles (commencing with <foreign xml:lang="grc">Δ</foreign>) ΚΓ (ch. xxix. 1), fol. <locus>104b</locus>.</desc>
                 </handNote>
    <!-- Missing other vowels on top of these syriac words!!! -->
+                <handNote xml:id="handnote3" scope="minor" script="syr grc" medium="uknown">
+                  <locus from="3a" to="3a"/><desc>See below.</desc>
+                </handNote>
+                <handNote xml:id="handnote4" scope="minor" script="syr grc" medium="uknown">
+                  <locus from="11b" to="11b"/><desc>See below.</desc>
+                </handNote>
+                <handNote xml:id="handnote5" scope="minor" script="syr grc" medium="uknown">
+                  <locus from="30a" to="30a"/><desc>See below.</desc>
+                </handNote>
+                <handNote xml:id="handnote6" scope="minor" script="syr" medium="uknown">
+                  <locus from="36a" to="36a"/><desc>See below.</desc>
+                </handNote>
               </handDesc>
               <additions>
                 <p>There are also a few marginal notes and glosses</p>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="3a" to="3a"/><ref target="#a1"/>
+                  <item n="1" xml:id="addition1"><locus from="3a" to="3a"/><ref target="#a1 #handnote3"/>
                     <quote xml:lang="syr">ܘܐܺܘܝܡ,</quote><label>marg.</label><quote xml:lang="grc">ηαμ</quote></item>
-                  <item n="2" xml:id="addition2"><locus from="11b" to="11b"/><ref target="#a1"/>
+                  <item n="2" xml:id="addition2"><locus from="11b" to="11b"/><ref target="#a1 #handnote4"/>
                     <quote xml:lang="syr">ܣܩܐ̣</quote>,<label>marg.</label><quote xml:lang="grc">ⲤⲔⲰ</quote></item>
     <!-- GREEK not showing ^^^ -->
-                  <item n="3" xml:id="addition3"><locus from="30a" to="30a"/><ref target="#a1"/>
+                  <item n="3" xml:id="addition3"><locus from="30a" to="30a"/><ref target="#a1 #handnote5"/>
                     <quote xml:lang="syr">ܕܩܒܨܝܐܝܠ</quote>, <label>marg.</label> <quote xml:lang="grc">ΚΑΒⲤΗΛ</quote><quote xml:lang="syr">ܢܘܠܐ ܕܓܪ̈ܕܚܐ</quote>, <label>marg.</label> <quote xml:lang="syr">ܚܘ̈ܟܶܐ</quote></item>
     <!-- GREEK not showing ^^^ -->
-                  <item n="4" xml:id="addition4"><locus from="36a" to="36a"/><ref target="#a1"/>
+                  <item n="4" xml:id="addition4"><locus from="36a" to="36a"/><ref target="#a1 #handnote6"/>
                     <quote xml:lang="syr">ܘܕܒ̈ܠܐ. ܘܩܪ̈ܬܠܘܬܐ ܕܥ̈ܢܒܐ</quote>(1 Chron. xii. 40),<label>marg.</label><quote xml:lang="syr">ܥ̈ܠܘܗܝ ܕܚܡܪܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܥܒܪ̈ܝܐ</quote> and <quote xml:lang="syr">ܪ̈ܠܝܬܐ ܕܥ̈ܢܒܐ </quote></item>
                 </list>
               </additions>
@@ -265,7 +277,6 @@
           <keywords scheme="#Wright-BL-Taxonomy">
             <list>
               <item>
-                <ref target="#Part1"/>
                 <ref target="#bible-ot"/>       
               </item>
             </list>

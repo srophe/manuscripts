@@ -85,7 +85,7 @@
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
             <msItem n="1" xml:id="a1" defective="false">
-              <locus from="1" to="36"/>
+              <locus from="1" to="36b"/>
               <title ref="http://syriaca.org/work/6">The book of Joshua according to the Peshitta
                 version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܝܫܘܥ ܒܪܢܘܢ</title>
@@ -93,7 +93,7 @@
             </msItem>
             <msItem n="2" xml:id="a2">
               <locus from="36b" to="69b"/>
-              <title ref="http://syriaca.org/work/6">The book of Judges according to the Peshitta
+              <title ref="http://syriaca.org/work/7">The book of Judges according to the Peshitta
                 version</title>
               <rubric xml:lang="syr">ܟܬܒܐ ܕܣܦܪ ܕܝ̈ܢܐ ܕܡܬܩ̤ܪܐ ܥܒܪܐܝܬܐ ܫܒ̈ܛܐ<locus from="36b" to="36b"
                 />
@@ -116,11 +116,11 @@
               <finalRubric xml:lang="syr">ܫܠܡ ܣܦܪܐ ܕܐܪ̈ܒܥܐ ܕܡܠܟ̈ܐ ܕܒܢ̈ܝ ܝܣܪܝܠ <locus from="225b"
                   to="225b"/>
               </finalRubric>
-              <note> 1 Kings, xxii, 8—27 is missing. </note>
+              <note>1 Kings, xxii, 8—27 is missing.</note>
             </msItem>
             <msItem n="5" xml:id="a5">
               <locus from="225b" to="289b"/>
-              <title ref="http://syriaca.org/work/20">The Proverbs of Solomon according to the
+              <title ref="http://syriaca.org/work/20">The Proverbs of Solomon, according to the
                 Peshitta version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܡ̈ܬܠܐ ܕܫܠܝܡܘܢ ܒܪ ܕܘܝܕ</title>
                 <locus from="225b" to="225b"/>
@@ -129,14 +129,14 @@
             <msItem n="6" xml:id="a6">
               <locus from="250b" to="289b"/>
               <title ref="http://syriaca.org/work/58">The Proverbs of Jesus the son of Sirach, or
-                Ecclesiasticus according to the Peshitta version</title>
+                Ecclesiasticus, according to the Peshitta version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܒܪ ܣܝܪܐ</title>
                 <locus from="225b" to="225b"/>
               </rubric>
             </msItem>
             <msItem n="7" xml:id="a7">
               <locus from="289b" to="297b"/>
-              <title ref="http://syriaca.org/work/21">The book of Ecclesiastes or Koheleth according
+              <title ref="http://syriaca.org/work/21">The book of Ecclesiastes or Koheleth, according
                 to the Peshitta version</title>
               <rubric xml:lang="syr"><title>ܟܬܒ̇ܐ ܕܩܘܿܗܠܸܬ̣ ܒܪ ܕܵܘܝܼܕ</title>
                 <locus from="289b" to="289b"/>
@@ -144,7 +144,7 @@
             </msItem>
             <msItem n="8" xml:id="a8">
               <locus from="297a" to="301b"/>
-              <title ref="http://syriaca.org/work/8">The book of Ruth according to the Peshitta
+              <title ref="http://syriaca.org/work/8">The book of Ruth, according to the Peshitta
                 version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܪܥܘܬ</title>
                 <locus from="297b" to="297b"/>
@@ -152,7 +152,7 @@
             </msItem>
             <msItem n="9" xml:id="a9">
               <locus from="301b" to="305b"/>
-              <title ref="http://syriaca.org/work/22">The Song of Songs according to the Peshitta
+              <title ref="http://syriaca.org/work/22">The Song of Songs, according to the Peshitta
                 version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܫܪܬ ܫܐܪܝܢ ܕܐܝܬܘܗܝ ܦܘܫܩܗ̇ ܬܫܒܚܬ ܬܫܒ̈ܚܬܐ</title>
                 <locus from="301b" to="301b"/>
@@ -164,7 +164,8 @@
                 version</title>
               <rubric xml:lang="syr"><title>ܟܬܒܐ ܕܢܨܝܚܐ ܐܝܘܒ ܙܕܝܩܐ</title>
                 <locus from="305b" to="305b"/>
-                <note>The following portions of the text are missing: Job, xii. 9— xiv. 5, xv. 29—xvii. 14, xxviii. 24—xxxiii. 9, and xlii. 11 to the end.</note>
+                <note>The following portions of the text are missing: Job, xii. 9— xiv. 5, xv.
+                  29—xvii. 14, xxviii. 24—xxxiii. 9, and xlii. 11 to the end.</note>
               </rubric>
             </msItem>
           </msContents>
@@ -186,13 +187,16 @@
                 <foliation type="ancient"/>
                 <collation>
                   <p>There are 34 quires.</p>
-                  </collation>
+                </collation>
                 <condition>
-                  <p>The quires are signed with letters; ܟܟ, ܠܓ and ܠܕ are incomplete. Many leaves are much stained and a few slightly torn (especially foll. <locus>68</locus>, <locus>76</locus>,
-                    <locus>77</locus>, <locus>79</locus>, <locus>86</locus>, <locus>87</locus>, <locus>89—193</locus>, and <locus>318—325</locus>). Leaves are missing after foll. <locus>185</locus>, <locus>312</locus>,
-                    <locus>313</locus>, <locus>319</locus>, and <locus>325</locus>. The following portions of the text are missing: 1 Kings,
-                    xxii, 8—27; Job, xii. 9— xiv. 5, xv. 29—xvii. 14, xxviii. 24—xxxiii. 9, and
-                    xlii. 11 to the end.</p>
+                  <p>The quires are signed with letters; <foreign xml:lang="syr">ܠܓ</foreign>,<foreign xml:lang="syr">ܟܟ</foreign>, and <foreign xml:lang="syr">ܠܕ</foreign> are incomplete. Many leaves
+                    are much stained and a few slightly torn (especially foll. <locus>68</locus>,
+                      <locus>76</locus>, <locus>77</locus>, <locus>79</locus>, <locus>86</locus>,
+                      <locus>87</locus>, <locus>89—193</locus>, and <locus>318—325</locus>). Leaves
+                    are missing after foll. <locus>185</locus>, <locus>312</locus>,
+                      <locus>313</locus>, <locus>319</locus>, and <locus>325</locus>. The following
+                    portions of the text are missing: 1 Kings, xxii, 8—27; Job, xii. 9— xiv. 5, xv.
+                    29—xvii. 14, xxviii. 24—xxxiii. 9, and xlii. 11 to the end.</p>
                 </condition>
               </supportDesc>
               <layoutDesc>
@@ -213,8 +217,7 @@
           <history>
             <summary/>
             <origin>
-              <origDate
-                notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
+              <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
             </origin>
           </history>
           <additional>
@@ -257,7 +260,8 @@
       </editorialDecl>
       <classDecl>
         <taxonomy xml:id="Wright-BL-Taxonomy">
-          <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
+          <bibl><ref target="#Wright"/><ptr
+              target="http://syriaca.org/documentation/Wright-BL-Taxonomy"/></bibl>
           <category xml:id="biblical-manuscripts">
             <category xml:id="bible-ot"/>
             <category xml:id="bible-nt"/>
@@ -305,7 +309,7 @@
             <category xml:id="appendix-b"/>
           </category>
         </taxonomy>
-      </classDecl> 
+      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -317,7 +321,7 @@
         <language ident="syr-x-syrp">Palestinian Syriac</language>
         <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
         <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
-        <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+        <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
         <language ident="en">English</language>
         <language ident="ar">Arabic</language>
         <language ident="fr">French</language>
@@ -330,10 +334,11 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#bible-ot"/>       
+              <ref target="#bible-ot"/>
             </item>
           </list>
-        </keywords></textClass>
+        </keywords>
+      </textClass>
     </profileDesc>
     <revisionDesc>
       <change when="2013-07-03" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
@@ -352,4 +357,3 @@
     </body>
   </text>
 </TEI>
-
