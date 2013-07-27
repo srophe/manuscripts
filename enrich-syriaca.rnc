@@ -2539,6 +2539,9 @@ tei_change =
     |
     ## Missing _________
     "missing"
+    |
+    ## Table to be revised.
+    "table"
     }?,
     
     ## supplies the date of the change in standard form, i.e. YYYY-MM-DD.
@@ -3034,6 +3037,8 @@ tei_origPlace =
   ## (origin place) contains any form of place name, used to identify the
   ## place of origin for a manuscript or manuscript part. 
   element origPlace {
+    (tei_p |
+    tei_model.listLike)?,
     tei_macro.xtext,
     att.global.attributes,
     att.datable.attributes,
