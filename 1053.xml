@@ -63,30 +63,22 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1053</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS <!-- Add MS + the manuscript name identified at the end of the Wright entry ex. Add MS 14444 (note: do not use commas, periods, or folia numbers)--></idno>
-            </altIdentifier>
-            <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic"><!-- IF there are no msParts then enter the Arabic numeral Wright number here. If there ARE msParts, then delete this <altIdentifier> block.--></idno>
-            </altIdentifier>
-            <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman"><!-- IF there are no msParts then enter the Roman numeral Wright number here. If there ARE msParts, then delete this <altIdentifier> block.--></idno>
+              <idno type="BL-Shelfmark">Add MS 17257</idno>
             </altIdentifier>
           </msIdentifier>
           <msPart n="1" xml:id="Part1">
-            <msIdentifier><!-- IF there is only one msPart, delete this <msIdentifier> block because it would be redundant. -->
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part (number should be  a sequential number assigned in the Wright decoder) --></idno>
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/1054</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the manuscript name identified at the end of the Wright entry ex. Add MS 14444 and the folia of part 1 (e.g.,  Add MS 14444 foll. 1-24) (note: do not use commas or periods and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 17527 foll. 1-21</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">207</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">CCVII</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
@@ -1690,7 +1682,7 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p11a1" defective="true">
-                <locus from="" to=""/>
+                <locus from="84" to="94"/>
                 <editor type="translator" ref="http://syriaca.org/person/82">Paul of Tellā</editor>
                 <title ref="http://syriaca.org/work/158">Portions of the Psalms, translated from the Septuagint by Paul of Tellā</title>
                 <note>
@@ -2467,8 +2459,8 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
-            <ref target="#bible-nt"/>       
+            <ref target="#Part11"/>
+            <ref target="#bible-ot"/>       
           </item>
         </list>
         </keywords>

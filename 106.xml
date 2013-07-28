@@ -160,15 +160,26 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="1">
+              <handDesc hands="3">
                 <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>This manuscript is written in a good, regular Estrangela of the <origDate from="0700" to="0800">viith cent.</origDate></desc>
                 </handNote>
+                <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc>See <ref target="#p1addition1">below</ref>.</desc>
+                </handNote>
+                <handNote xml:id="p1handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc>See <ref target="#p1decoNote1">below</ref>.</desc>
+                </handNote>
               </handDesc>
+              <decoDesc>
+                <decoNote xml:id="p1decoNote1" type="illustration"><locus from="1b" to="1b"/>
+                  <desc>On the <ref target="#p1addition1">other side</ref>, a rudely drawn portrait of a saint, with some almost effaced lines of modern writing beneath.</desc>
+                </decoNote>
+              </decoDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="1" to="1"/><ref target="p1a1"/>
-                    <desc>The fly-leaf, fol. <locus>1</locus>, has on the one side the word </desc><quote xml:lang="syr">ܬܠܝܬܝܘܬܐ</quote><desc> in large open letters; and on the other side, a rudely drawn portrait of a saint, with some almost effaced lines of modern writing beneath.</desc>
+                  <item n="1" xml:id="p1addition1"><locus from="1a" to="1a"/><ref target="#p1a1 #p1decoNote1"/>
+                    <desc>The fly-leaf, fol. <locus>1</locus>, has on the one side the word </desc><quote xml:lang="syr">ܬܠܝܬܝܘܬܐ</quote><desc> in large open letters.</desc>
                     </item>
                 </list>
               </additions>
@@ -264,23 +275,31 @@
                 <handNote xml:id="p2handNote2" scope="minor" script="syr-Syrj" medium="unknown">
                   <desc>A few Greek vowels have been added by a later hand.</desc>
                 </handNote>
-                <handNote xml:id="p2handNote3" scope="minor" script="syr" medium="unknown"><ref target="p2a1"/>
+                <handNote xml:id="p2handNote3" scope="minor" script="syr" medium="unknown">
                   <desc>Of the lessons, some are rubricated in the text, and others are marked by a later hand on the margin.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote4" scope="minor" script="syr" medium="unknown"><ref target="#p2addition2"/>
+                  <desc>See below.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote5" scope="minor" script="syr" medium="unknown"><ref target="#p2addition3"/>
+                  <desc>See below.</desc>
                 </handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="p2addition1"><locus from="48b" to="49a"/><ref target="p2handNote2"/>
+                  <item n="1" xml:id="p2addition1"><locus from="48b" to="49a"/><ref target="#p2handNote2"/>
                     <desc>A few Greek vowels have been added by a later hand on fol. 48b and 49a.</desc>
       <!-- Add Greek Vowels -->
                   </item>
-                  <item n="2" xml:id="p2addition2"><locus from="48a" to="48a"/><ref target="p2a1"/>
+                  <item n="2" xml:id="p2addition2"><locus from="48a" to="48a"/><ref target="#p2handNote4"/>
                     <desc>On fol. 48a there is a note, recording that this book belonged to the brothers <persName>Matthew</persName>, <persName>Abraham</persName> and <persName>Theodore</persName>
                       of <placeName>Tagrīt</placeName>:</desc><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܡܬܝ ܘܐܒܪܗܡ ܘܬܐܕܪܘܣ ܐܚ̈ܐ ܬܓܪ̈ܝܬܢܝܐ. ܙܒܢܘܗܝ ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܚܝܝ̈ܗܘܢ ܘܟܠ ܕܦܓܥ ܒܗ. ܟܠ ܕܝܢ ܕܠܚܐ ܠܥܘܕܢܗ̈ܘܢ (sic)
                         ܡܢ  ܟܬܒܐ ܗܢܐ. ܢܗܘܐ ܚܪܡ ܡܢ ܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ. ܘܫܘܝܬ ܒܐܘܣܝܐ ܐܝܢ ܘܐܡܝܢ.</quote></item>
-                  <item n="3" xml:id="p2addition3"><locus from="48a" to="48a"/><ref target="p2a1"/>
-                    <desc>Just above this, there is another note, stating that in the year 1517 of the Greeks, A.D. <date>1206</date>, twelve brethren from Syria entered the <placeName>convent of S. Mary Deipara</placeName>:</desc>
+                  <item n="3" xml:id="p2addition3"><locus from="48a" to="48a"/><ref target="#p2handNote5 #p2a1"/>
+                    <desc>Just above <ref target="#p2addition2">this</ref>, there is another note, stating that in the year 1517 of the Greeks, A.D. <date>1206</date>, twelve brethren from Syria entered the <placeName>convent of S. Mary Deipara</placeName>:</desc>
                     <quote xml:lang="syr">ܒܫܢܬ ܐ̄ ܘܚܡܫܡܐܐ ܘܝܙ̄ ܕܝܘܢܝ̈ܐ ܒܢܝܣ̇ܢ ܝܪܚܐ ܥܠܢܢ ܠܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣܩܛܝ ܬܪ̈ܥܣܪ ܐܚ̈ܐ ܕܡܢ ܣܘܪܝܐ.</quote></item>
+                  <item n="4" xml:id="p2addition4"><locus from="48a" to="48a"/><ref target="#p2handNote3"/>
+                    <desc>Lessons marked by a later hand.</desc></item>
                 </list>
               </additions>
             </physDesc>

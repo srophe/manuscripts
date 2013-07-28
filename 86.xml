@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add Ms 14430</title>
+        <title xml:lang="en">BL Add MS 14430</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -77,8 +77,13 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1" to="73"/>
+              <msItem n="1" xml:id="a1">
+                <locus from="1b" to="1b"/>
+                <title>Index of Lessons.</title>
+                <note>The lessons are marked in the text in the usual way, and an index of them is prefixed to the volume, fol. 1b.</note>
+              </msItem>
+              <msItem n="1" xml:id="a2" defective="true">
+                <locus from="1b" to="73a"/>
                 <title ref="http://syriaca.org/work/45" type="supplied">The first book of Kings, according to the Peshitta version, the text extending, however, as far as 2 Kings, ch. ii. 18.</title>
                 <rubric xml:lang="syr">ܣܦܪ ܡ̈ܠܟܘܐ ܕܒ̈ܢܝ ܐܝܣܪܐܝܠ
                   <locus from="1a" to="1a"/>
@@ -134,35 +139,54 @@
                 </handNote>
               <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                 <locus from="2b" to="2b"/>
-                <desc><title ref="http://syriaca.org/work/50">The twelve minor Prophets</title> were at one time bound up with this volume, as we learn from the words <foreign xml:lang="syr">ܘܬܘܒ ܝ܏ܒ ܢܒܝ̈ܐ</foreign> in a comparatively modern hand on the margin of fol. 2b.</desc>
+                <desc>See <ref target="#addition7">below</ref>.</desc>
                 </handNote>
                 <handNote xml:id="handNote3" scope="major" script="syr-Syrj" medium="unknown">
                   <desc>Greek vowels have been occasionally added by a later hand.</desc>
      <!-- Add Greek Vowels -->
                 </handNote>
+                <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
+                  <locus from="73a" to="73a"/>
+                  <desc>See <ref target="#addition1 #addition2">below</ref>.</desc>
+                </handNote>
+                <handNote xml:id="handNote5" scope="minor" script="syr" medium="unknown">
+                  <locus from="73b" to="73b"/>
+                  <desc>See <ref target="#addition3 #addition4">below</ref>.</desc>
+                </handNote>
+                <handNote xml:id="handNote6" scope="minor" script="syr" medium="unknown">
+                  <locus from="73b" to="73b"/>
+                  <desc>See <ref target="#addition5">below</ref>.</desc>
+                </handNote>
+                <handNote xml:id="handNote7" scope="minor" script="syr" medium="unknown">
+                  <locus from="1b" to="1b"/>
+                  <desc>See <ref target="#addition6">below</ref>.</desc>
+                </handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="73a" to="73a"/><ref target="a1"/>
+                  <item n="1" xml:id="addition1"><locus from="73a" to="73a"/><ref target="#a2 #handNote4"/>
                     <desc>On fol. 73a, after the subscription, stands the following note, giving the name of the scribe, with his usual boast that he "never made a blotted tau.”</desc>
                     <quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟܬܒܐ ܗܠܝܼܢ. ܢܨ̇ܠܐ ܥܠ ܚ̇ܛܝܐ ܘܕܘܝܐ ܡܪܣܒܐ ܫܡܫܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ ܕܟ̣ܬܒ ܐܝܟ ܚܝܠܗ܇ ܘܬܘ ܛܡܝܡܐ ܒܗܘܢ ܠܐ ܥܒܕ. ܘܢܐܡܪ̣ . ܐܠܗܐ̣ ܚܘܢܝܗܝ ܠܚ̇ܛܝܐ ܒܨܠܘܬ ܝܠܕܬܟ ܐܡܝܢ.</quote>
-                      <desc>This is followed by the doxology:</desc><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܕܠܐ ܦܘܠܓ ܐܡܝܢ ܘܐܡܝܢ</quote>
                     </item>
-                  <item n="2" xml:id="addition2"><locus from="73b" to="73b"/><ref target="a1"/>
+                  <item n="2" xml:id="addition2"><locus from="73a" to="73a"/><ref target="#a2 #handNote4"/>
+                    <desc><ref target="#addition1">This</ref> is followed by the doxology:</desc><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܕܠܐ ܦܘܠܓ ܐܡܝܢ ܘܐܡܝܢ</quote></item>
+                  <item n="3" xml:id="addition3"><locus from="73b" to="73b"/><ref target="#handNote5"/>
                     <desc>On fol. 73b are three notes, the first of which states that this copy of the biblical books was written at the expense of the bishop <persName>Constantine of Māridīn</persName> (see Add. 12,135, fol. 42 b) for the <placeName>convent of the Specula</placeName> (or Watchtower ?) near <placeName>Rās’ain</placeName>.
                       See <bibl>Assemani, Bibl. Or., t. ii., Dissert, de Monophysitis, art. ix.</bibl>, Monasterium Saphyli (ܣܦܘܠܘܣ instead of ܣܦܩܠܘܣ); and <bibl>Land, Anecdota Syr., t. i. p. 74</bibl>.</desc>
                     <quote xml:lang="syr">ܠܐܝܩܪܐ ܘܠܬܫܒܘܚܬܐ ܕܐܒܐ ܘܒܪܐ ܘܪܘܚܐ ܩܕܝܫܐ: ܘܠܒܢܝܢܐ ܘܩܘܝ̇ܡܐ ܘܝܘܬܪܢܐ ܪܘܚܢܐ ܕܐܝܠܝܢ ܕܦܓܥܝܢ: ܐܬܚ̇ܦܛ ܘܣܡ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܕܟܬܒ̈ܐ ܗܠܝܢ ܒܥܘܡܪܐ ܕܝܠܗ ܣܦܩܠܝܣ ܕܪܝܫܥܝܢܐ̣. ܚܣܝܐ ܡܪܝ ܩܘܣܛܢܛܝܢܐ ܐܦܝܣܩܦܐ ܡܢܗ ܕܥܘܡܪܐ. ܚܠܦ ܦܘܪܩܢܐ ܕܪܘܚܗ ܘܕܘܟܪܢܐ ܛ̇ܒܐ ܕܥܢܝ̈ܕܘܗܝ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܩܕܝܫܐ ܐܬܚܦܛ ܘܠܐܝ̣. ܗ̣ܘ ܢܬܠ ܠܗ ܐܓܪܐ ܘܦܘܪܥܢܐ ܒܡܠܟܘܬܐ ܕܫܡܝܐ ܥܡ ܩ̈ܕܝܫܐ ܕܪܚܡܘܗܝ ܐܝܢ ܘܐܡܝܢ</quote></item>
-                  <item n="3" xml:id="addition3"><locus from="73b" to="73b"/><ref target="a1"/>
+                  <item n="4" xml:id="addition4"><locus from="73b" to="73b"/><ref target="#handNote5"/>
                     <desc>The second note informs us that the expense was borne in part by the deacon <persName>Sarai</persName> of <placeName>Tel-Beshmai</placeName> in the year 1035, A.D. 724, at the time when <persName>Simeon</persName> was abbat of the convent, 
                       <persName>Theodosius</persName> and <persName>Sarrai</persName> the stewards, and the deacon <persName>Anastasius</persName> the sacristan or warden. See <bibl>Assemani, loc. Cit., Tel-Besme</bibl>.</desc>
                     <quote xml:lang="syr">ܐܬܠܬܒܘ ܕܝܢ ܟܬܒ̈ܐ ܗܠܝܼܢ. ܒܚܦܝܛܘܬܐ ܕܡܪܝ ܨܪܝ ܡܫܡܫܢܐ ܬܠܒܫܡܝܐ. ܒܐܝܪܚ ܐܕܪ ܒܬܡܢܝܐ ܒܗ ܫܢܬ ܐܠܦܐ ܘܬܠܬܝܢ ܘܚܡܫ. ܒܝ̈ܘܡܝ ܢܟܦܐ ܡܪܝ ܫܡܥܘܢ ܪܝܫܕܝܪܐ̣. ܘܡܪܝ ܬܝܕܣܝ ܘܨܪܝ ܦܪ̈ܢܣܐ. ܘܒܝ̈ܘܡܝ ܡܪܝ ܐܢܣܛܘܣ ܩܫܝܫܐ ܘܩܘܢܟܝܐ. ܕܒܨܠܘ̈ܬܗܘܢ ܘܕܟܠܗܘܢ ܩ̈ܕܝܫܐ̣. ܢܬܚ̣ܢܢ ܣܒܐ ܫܡܫܐ ܕܟܬ̣ܒ ܐܡܝܢ ܘܐܡܝܢ</quote></item>
-                  <item n="4" xml:id="addition4"><locus from="73b" to="73b"/><ref target="a1"/>
+                  <item n="5" xml:id="addition5"><locus from="73b" to="73b"/><ref target="#handNote6"/>
                     <desc>The third note, which is in a different hand, says that this book was collated by <persName>Theodosius of  Tellā</persName>,
                      Tel-Mauzelath or Constantina. See <bibl>Assemani, loc. cit., Tela</bibl>, and <persName>Abraham</persName>, a monk of the convent of <placeName>Kūbē</placeName> (or the Thorns),
                       Near Edessa. See <bibl>Assemani, Bibl. Or., t. i. p. 278, t. ii. p. 109</bibl>.</desc>
                     <quote xml:lang="syr">ܦܚ̇ܡܘ ܟܬܒܐ ܗܢܐ̣. ܬܐܘܕܘܣܝ ܬܠܝܐ̣. ܘܐܚܐ ܐܒܪܗܡ ܡܢ ܕܝܪܐ ܕܩ̈ܘܒܐ. ܟܠ ܕܩ̇ܪܐ̣ ܢ̇ܨܠܐ ܥܠܝܗܘܢ. ܘ܏ܫ</quote></item>
-                  <item n="5" xml:id="addition5"><locus from="1b" to="1b"/><ref target="a1"/>
+                  <item n="6" xml:id="addition6"><locus from="1b" to="1b"/><ref target="#handNote7 #a1"/>
                     <desc>The lessons are marked in the text in the usual way, and an index of them is prefixed to the volume, fol. 1b.</desc></item>
+                  <item n="7" xml:id="addition7"><locus from="1b" to="1b"/><ref target="#handNote2"/>
+                    <desc><title ref="http://syriaca.org/work/50">The twelve minor Prophets</title> were at one time bound up with this volume, as we learn from the words <foreign xml:lang="syr">ܘܬܘܒ ܝ܏ܒ ܢܒܝ̈ܐ</foreign> in a comparatively modern hand on the margin of fol. 2b.</desc></item>
                 </list>
               </additions>
             </physDesc>

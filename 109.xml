@@ -135,22 +135,29 @@
                   <desc>The writing is a good, regular Estrangela of the <origDate from="0500" to="0600">vith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>Vowels added by a later hand.</desc>
-    <!-- Add vowels-->
-                </handNote>
+                <desc>See <ref target="#p1addition2">additions</ref>.</desc></handNote>
                 <handNote xml:id="p1handNote3" scope="major" script="syr" medium="unknown">
-                  <locus from="30a" to="30a"></locus>
-                  <desc>The lessons are rubricated in the text; one has been noted by a later hand on the margin of fol. 30a.</desc>
+                  <locus from="30a" to="30a"/>
+                  <desc>See <ref target="#p1addition3">additions</ref>.</desc>
                 </handNote>
                 <handNote xml:id="p1handNote4" scope="major" script="syr" medium="unknown">
-                  <locus from="34b" to="34b"></locus>
+                  <locus from="34b" to="34b">
+                    <desc>See <ref target="#p1addition1">additions</ref>.</desc>
+                  </locus>
                 </handNote>
               </handDesc>
                <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="34b" to="34b"/><ref target="p1handNote4"/>
+                  <item n="1" xml:id="p1addition1"><locus from="34b" to="34b"/><ref target="#p1handNote4"/>
                     <desc>On fol. 34 b, after the doxology, there stands a note in a later hand, now so erased as to be in great part illegible. It begins:</desc>
                     <quote xml:lang="syr">ܟܠܡܢ ܕܠܚܐ ܥܘܗܕܢܐ ܕܗܢ ܟܬܒܐ ܕܐܝܬܘܗܝ ܠܕܝܪܐ ܩ܏ܕܝ . . . . .</quote></item>
+                  <item n="2" xml:id="p1addition2"><ref target="#p1handNote2"/>
+                    <desc>Vowels added by a later hand.</desc>
+                    </item>
+       <!-- Add vowels-->
+                  <item n="3" xml:id="p1addition3"><ref target="#p1handNote3"/><locus from="30a" to="30a"/>
+                    <desc>The lessons are rubricated in the text; one has been noted by a later hand on the margin of fol. 30a.</desc>
+                  </item>
                 </list>
               </additions>
             </physDesc>
@@ -206,7 +213,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
@@ -223,7 +230,7 @@
                   <collation>
                     <p>It does not appear how the quires were originally signed, but they have been marked at a later period with Coptic ciphers 
                       and also, though incorrectly, with Syriac letters. </p>
-      <!-- Coptic letters missing (% 2, % 3, Ⲁ 1, Ⲉ 5, % G), -->
+     <!-- Coptic letters missing (% 2, % 3, Ⲁ 1, Ⲉ 5, % G), -->
                   </collation>
                   <condition>
                     <list>
@@ -330,7 +337,7 @@
                     </dimensions>
                   </extent>
                   <collation>
-                    <p>The quires were originally signed with arithmetical figures (e.g. fol. <locus>78</locus>, % ), but at later periods with Coptic ciphers (e.g. fol. <locus>84</locus> and <locus>96</locus>) and Syriac letters, both incorrectly.</p>
+                    <p>The quires were originally signed with arithmetical figures (e.g. fol. <locus>78</locus>,  ), but at later periods with Coptic ciphers (e.g. fol. <locus>84</locus> and <locus>96</locus>) and Syriac letters, both incorrectly.</p>
      <!-- Missing Arabic -->
                   </collation>
                   <condition>
@@ -351,13 +358,21 @@
                 <handNote xml:id="p3handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>This manuscript is written in a beautiful Estrangela of the <origDate from="0500" to="0800">vith or viith cent.</origDate></desc>
                 </handNote>
-                <handNote xml:id="p3handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>One lesson has been marked on the margin by a later hand, fol. <locus>80b</locus>.</desc>
+                <handNote xml:id="p3handNote2" scope="minor" script="syr" medium="unknown"><locus from="80b" to="80b"/>
+                  <desc>See <ref target="#p3addition1">additions</ref>.</desc>
                 </handNote>
+                <handNote xml:id="p3handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc>See <ref target="#p3addition2">additions</ref>.</desc></handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="p3addition1"><locus from="80b" to="80b"/><ref target="p2handNote2"/></item>
+                  <item n="1" xml:id="p3addition1"><locus from="80b" to="80b"/><ref target="#p3handNote2"/>
+                    <desc>One lesson has been marked on the margin by a later hand, fol. 80b.</desc>
+                  </item>
+                  <item n="2" xml:id="p3addition2"><ref target="#p3handNote3"/>
+                    <desc>The quires were originally signed with arithmetical figures (e.g. fol. <locus>78</locus>,  ), but at later periods with Coptic ciphers (e.g. fol. <locus>84</locus> and <locus>96</locus>) and Syriac letters, both incorrectly.</desc>
+        <!-- Missing Arabic -->
+                  </item>
                 </list>
               </additions>
             </physDesc>
@@ -407,27 +422,27 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p4a1" defective="true">
+              <msItem n="1" xml:id="p4a1">
                 <locus from="99" to="144"/>
                 <title ref="http://syriaca.org/work/50">The twelve minor Prophets, according to the Peshitta version.</title>
-              <msItem n="2" xml:id="p4b1" defective="true">
+              <msItem n="2" xml:id="p4b1">
                 <locus from="99a" to="102b"/>
                 <title ref="http://syriaca.org/work/33">Nahum, according to the Peshitta version.</title>
                 <incipit xml:lang="syr">ܘܡ̇ܘܒܫ ܠܗ<locus from="99a" to="99a"/></incipit>
                 <note>The text begins with ch. i. 4.</note>
-              <msItem n="3" xml:id="p4b2" defective="true">
+              <msItem n="3" xml:id="p4b2">
                 <locus from="102b" to="107b"/>
                 <title ref="http://syriaca.org/work/34">Habakkuk, according to the Peshitta version.</title>
-              <msItem n="4" xml:id="p4b3" defective="true">
+              <msItem n="4" xml:id="p4b3">
                 <locus from="107b" to="113a"/>
                 <title ref="http://syriaca.org/work/35">Zephaniah, according to the Peshitta version.</title>
-              <msItem n="5" xml:id="p4b4" defective="true">
+              <msItem n="5" xml:id="p4b4">
                 <locus from="113a" to="117a"/>
                 <title ref="http://syriaca.org/work/36">Haggai, according to the Peshitta version.</title>
-              <msItem n="6" xml:id="p4b5" defective="true">
+              <msItem n="6" xml:id="p4b5">
                 <locus from="117a" to="137a"/>
                 <title ref="http://syriaca.org/work/37">Zechariah, according to the Peshitta version.</title>
-              <msItem n="7" xml:id="p4b6" defective="true">
+              <msItem n="7" xml:id="p4b6">
                 <locus from="137a" to="144"/>
                 <title ref="http://syriaca.org/work/38">Malachi, according to the Peshitta version.</title>
                 <colophon>
@@ -459,7 +474,7 @@
                   <condition>
                     <list>
                       <item>
-                        <p>46 leaves , of which foll. 120—122 are much stained.</p>
+                        <p>46 leaves , of which foll. <locus>120—122</locus> are much stained.</p>
                       </item>
                       <item>
                         <p>No less than five quires are wanting at the commencement.</p>
@@ -477,20 +492,22 @@
                   <desc>The writing is a fine, regular Estrangela of the <origDate from="0500" to="0600">vith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="p4handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>One lesson is rubricated in the text, others are marked on the margins, some of them by later hands.</desc>
+                  <desc>See <ref target="#p4addition2">additions</ref>.</desc>  
                 </handNote>   
                 <handNote xml:id="p4handNote3" scope="minor" script="syr" medium="unknown">
-                  <desc>Quires marked at later periods with Coptic ciphers and Syriac letters, both incorrectly.</desc>
-                </handNote> 
+                  <desc>See <ref target="#p4addition3">additions</ref>.</desc></handNote> 
               </handDesc>
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p4addition1"><locus from="144a" to="144a"/><ref target="p4b7"/>
+                  <item n="1" xml:id="p4addition1"><locus from="144a" to="144a"/><ref target="#p4b7"/>
                     <desc>On fol. 144a there is the colophon: </desc><quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܟܬܒܐ ܕܬܪ̈ܥܣܪ ܢܒ̈ܝܐ</quote><desc>, which is followed by the usual doxology.</desc></item>
-                  <item n="2" xml:id="p4addition2"><locus from="128b" to="128b"/><ref target="p4b6"/>
+                  <item n="2" xml:id="p4addition2"><locus from="128b" to="128b"/><ref target="#p4b6 #p4handNote2"/>
                     <desc>One lesson is rubricated in the text, fol. 128b,</desc> <quote xml:lang="syr">ܩ ܕܐܘ̈ܫܥܢܐ</quote>
                     <desc>; others are marked on the margins, some of them by later hands.</desc></item>
+                  <item n="3" xml:id="p4addition3"><ref target="#p4handNote3"/>
+                    <desc>Quires marked at later periods with Coptic ciphers and Syriac letters, both incorrectly.</desc>
+                    </item>
                 </list>
               </additions>
             </physDesc>
