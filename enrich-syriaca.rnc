@@ -1786,6 +1786,7 @@ tei_title =
   ## contains a title for any kind of work.
   element title {
     tei_macro.paraContent,
+    tei_fw,
     att.global.attributes,
     att.canonical.attributes,
     
@@ -2374,6 +2375,9 @@ tei_handNote =
            |
            ## Coptic
            "cop"
+           |
+           ## Latin
+           "la"
            |
            ##
            "other"
@@ -3175,7 +3179,7 @@ tei_colophon =
   
   ## contains the  colophon
   ## of a  manuscript item: that is, a statement providing information regarding the date, place, agency, or reason for production of the manuscript.
-  element colophon { tei_macro.phraseSeq, att.global.attributes, empty }
+  element colophon { tei_macro.phraseSeq, tei_fw, att.global.attributes, empty }
 tei_explicit =
   
   ## contains the  explicit of a
@@ -3184,6 +3188,7 @@ tei_explicit =
   ##   
   element explicit {
     tei_macro.phraseSeq,
+    tei_fw,
     att.global.attributes,
     att.typed.attributes,
     att.msExcerpt.attributes,
@@ -3207,6 +3212,7 @@ tei_finalRubric =
     att.global.attributes,
     att.typed.attributes,
     att.canonical.attributes,
+    tei_fw,
     empty
   }
 tei_incipit =
@@ -3214,6 +3220,7 @@ tei_incipit =
   ## contains the incipit of a manuscript item, that is the opening words of the text proper, exclusive of any rubric which might precede it, of sufficient length to identify the work uniquely; such incipts were, in fomer times, frequently used a means of reference to a work, in place of a title.
   element incipit {
     tei_macro.phraseSeq,
+    tei_fw,
     att.global.attributes,
     att.typed.attributes,
     att.msExcerpt.attributes,
@@ -3251,6 +3258,7 @@ tei_msItem =
       | (tei_model.titlepagePart
          | tei_model.msItemPart
          | tei_model.global)+)),
+    tei_fw,
     att.global.attributes,
     att.msExcerpt.attributes,
     
@@ -3274,6 +3282,7 @@ tei_rubric =
     att.global.attributes,
     att.typed.attributes,
     att.canonical.attributes,
+    tei_fw,
     empty
   }
 tei_summary =

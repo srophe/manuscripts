@@ -122,7 +122,7 @@
                   </extent>
                   <foliation/>
                   <collation>
-                    <p>The quires, 20 in number, were originally signed with arithmetical figures (e.g. <locus from="167" to="167">fol. 167</locus>, <!-- NEED ARABIC -->; <locus from="177" to="177">fol. 177</locus>, <!-- NEED ARABIC -->; and <locus from="187" to="187">fol. 187</locus>, <foreign xml:lang="">ܘ</foreign><!-- Is this Arabic or Syriac? -->).</p>
+                    <p>The quires, 20 in number, were originally signed with arithmetical figures (e.g. <locus from="167" to="167">fol. 167</locus>, <!-- NEED ARABIC -->; <locus from="177" to="177">fol. 177</locus>, <!-- NEED ARABIC -->; and <locus from="187" to="187">fol. 187</locus>, <foreign xml:lang="ar"><!-- NEED ARABIC --></foreign>).</p>
                   </collation>
                   <condition>
                     <list>
@@ -349,6 +349,7 @@
     <revisionDesc>
       <change when="2013-07-23" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
