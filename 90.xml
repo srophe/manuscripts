@@ -231,7 +231,7 @@
                 <handNote xml:id="p1handNote5" scope="minor" script="syr" medium="unknown">
                   <desc>See <ref target="#p1addition4">additions</ref>.</desc>  
                 </handNote>
-                <handNote xml:id="p1handNote6" scope="minor" script="lat" medium="unknown"><locus from="29b" to="29b"/>
+                <handNote xml:id="p1handNote6" scope="minor" script="la" medium="unknown"><locus from="29b" to="29b"/>
                   <desc>See <ref target="#p1addition5">additions</ref>.</desc>  
                 </handNote>
                 <handNote xml:id="p1handNote7" scope="minor" script="syr" medium="unknown"><locus from="79b" to="79b"/>
@@ -263,7 +263,7 @@
              </physDesc>
             <history>
               <origin>
-                <origDate from="0700" to="0750">first half of the viiith cent</origDate>
+                <origDate from="0700" to="0750">First half of the viiith cent.</origDate>
               </origin>
               </history>
             <additional>
@@ -394,7 +394,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p2addition1">><ref target="#p2handNote2"/>
+                  <item n="1" xml:id="p2addition1"><ref target="#p2handNote2"/>
                     <desc>Greek words are written on the margins of foll. <locus>82a</locus>, <locus>89b</locus>, <locus>96a</locus>, <locus>100a</locus>, <locus>101a</locus>, <locus>103a</locus>, and <locus>127b</locus>.</desc></item>
                   <item n="2" xml:id="p2addition2"><ref target="#p2handNote3"/>
                     <desc>Annotations from Athanasius: foll. <locus>85b</locus>, <locus>106a</locus>, <locus>117b</locus>, <locus>118b</locus>, <locus>121b</locus>, <locus>122a</locus>.</desc><quote/></item>
