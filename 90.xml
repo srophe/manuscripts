@@ -150,7 +150,7 @@
                 <note>See <bibl>Bugati, Psalmi secundum edit. LXX interpretum, p. 493, etc.</bibl>.</note>
     <!-- Question about Syriac in Word doc -->
               </msItem>
-              <msItem n="9" xml:id="p1a9" defective="">
+              <msItem n="9" xml:id="p1a9">
                 <locus from="5a" to="79b"/>
                 <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
                 <title ref="http://syriaca.org/work/158" type="supplied">The Psalms, translated from the Septuagint by Paul of Tellā</title>
@@ -215,7 +215,7 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
+              <handDesc hands="7">
                 <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>The writing is a fine, regular Estrangela of the <origDate from="0700" to="0750">first half of the viiith cent</origDate>. </desc>  
                   </handNote>
@@ -255,7 +255,7 @@
                     <desc>On fol. 29 b there is a quotation from the Latin translation of Ps. xl. (xli.), 1, 2, one of the very rare instances of a Latin note in the volumes forming the Nitrian collection: </desc>
                     <quote xml:lang="lat">Beatvs qui intelligit fup egenum er pauperem. In die mala liberabt (sic) eum dnf. dnf conferur (sic) eum er uiuificet eum* er bearu faciar eum m rerra. </quote>
                     <desc>These words seem to be of considerably later date than the manuscript itself, though probably anterior to the <date>xiith cent</date>.</desc></item>
-         <!--WORD DOCUMENT QUESTION ABOUT LATIN-->
+     <!--WORD DOCUMENT QUESTION ABOUT LATIN-->
                   <item n="4" xml:id="p1addition6"><locus from="79b" to="79b"/><ref target="#p1handNote7"/>
                     <desc>On the margin of fol. 79b there is a note, in a hand of the <date>xiith</date> or <date>xiiith cent.</date>, stating that the book was repaired and bound by the scribe <persName>Yeshūa'</persName>:</desc><quote xml:lang="syr">ܚ̣̇ܕܬ ܘܕܒ̣̇ܩ ܝܫܘܥ ܟܬܘܒܐ ܕܦ̇ܓܥ̇ ܨ̇ܠܐ̣ ܦܪܘܫܐܝܬ܀</quote></item>
                 </list>
@@ -366,32 +366,48 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
+              <handDesc hands="7">
                 <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>The writing is a good, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate></desc>
                 </handNote>
-                <handNote xml:id="p2handNote2" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
+                <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>See <ref target="#p21addition1">additions</ref>.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc>See <ref target="#p21addition2">additions</ref>.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote4" scope="minor" script="syr" medium="unknown">
+                  <desc>See <ref target="#p21addition3">additions</ref>.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote5" scope="minor" script="syr" medium="unknown">
+                  <desc>See <ref target="#p21addition4">additions</ref>.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote6" scope="minor" script="syr" medium="unknown">
+                  <desc>Manuscript written by scribe named Simeon. <ref target="#p21addition5">additions</ref>.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote7" scope="minor" script="syr" medium="unknown">
+                  <desc>See <ref target="#p21addition6">additions</ref>.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote8" scope="minor" script="syr" medium="unknown"><locus from="80" to="81"/><ref target="#p2a3 #p2a4"/>
                 </handNote>
               </handDesc>
               <additions>
                 <p/>
                 <list>
                   <item n="1" xml:id="p2addition1">><ref target="#p2handNote2"/>
-                    <desc>Greek words are written on the margins of foll. 82a, 89b, 96a, 100a, 101a, 103a, and <locus>127b</locus>.</desc><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/>
-                    <desc>Annotations from </desc><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/>
-                    <desc>Annotations from </desc><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/>
-                    <desc>Annotations from </desc><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/>
+                    <desc>Greek words are written on the margins of foll. <locus>82a</locus>, <locus>89b</locus>, <locus>96a</locus>, <locus>100a</locus>, <locus>101a</locus>, <locus>103a</locus>, and <locus>127b</locus>.</desc></item>
+                  <item n="2" xml:id="p2addition2"><ref target="#p2handNote3"/>
+                    <desc>Annotations from Athanasius: foll. <locus>85b</locus>, <locus>106a</locus>, <locus>117b</locus>, <locus>118b</locus>, <locus>121b</locus>, <locus>122a</locus>.</desc><quote/></item>
+                  <item n="3" xml:id="p2addition3"><ref target="#p2handNote4"/>
+                    <desc>Annotations from Cyril: foll. <locus>84b</locus>, <locus>103a</locus>.</desc><quote/></item>
+                  <item n="4" xml:id="p2addition4"><ref target="#p2handNote5"/>
+                    <desc>Annotations from Hesychius of Jerusalem; foll. <locus>93b</locus>, <locus>95a</locus>, <locus>96a</locus>, <locus>97b</locus>, <locus>100b</locus>, <locus>106a</locus>, <locus>113b</locus>, <locus>114b</locus>, <locus>118a</locus>.</desc><quote/></item>
+                  <item n="5" xml:id="p2addition5"><ref target="#p2handNote6"/>
                     <desc>This manuscript was written by a scribe from the city of Amid, whose name appears to have been Simeon:</desc>
                     <quote xml:lang="syr">[ܐ̇ܢܐ ܫܡܥ]ܘܢ ܩܫܝܫܐ ܡܢ ܐܡܕ ܡܕܝܢܬܐ [ܟܬ̇ܒ]ܬ ܐܝܟ ܚܝܠܝ. ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܝ ܡܛܠ ܡܪܢ̇ ܕܐ̇ܬܚܢܢ ܐܝܟ ܓܝܿܣܐ ܕܡܢ ܝܡܝܢܐ ܐܡܝܢ ܘܐܡܝܢ܀</quote></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/>
+                  <item n="6" xml:id="p2addition6"><ref target="#p2handNote7"/>
                     <desc>Of the later notes on the same page one mentions the name of a reader also called Simeon:</desc>
                     <quote xml:lang="syr">ܚܪ ܒܟܬܒܐ ܗܢܐ ܕܕܘܝܕ ܢܒܝܐ ܫܡܥܘܢ ܚܲܛܝܐ ܘܡܠܸܐ ܡܘ̈ܡܐ ܒ̇ܥܐ ܐܢ̣ܐ ܡܢ ܟܠ ܕܦ̇ܓܥ ܒܗܠܝܢ ܣܘܪ̈ܛܐ ܢܨܠܐ ܥܠܘܗܝ ܘܥܠ ܐܒܗ̈ܘܗܝ ܘܨܠܘܬܗ ܠܦܠܓܐ ܬܗܘܐ ܐܝܢ ܘܐܡܝܢ.</quote></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
                 </list>
               </additions>
                 </physDesc>
@@ -515,24 +531,21 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
-            <ref target="#bible-nt"/>       
+            <ref target="#Part1"/>
+            <ref target="#bible-ot"/>       
+          </item>
+          <item>
+            <ref target="#Part2"/>
+            <ref target="#bible-ot"/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
+      <change when="2013-07-29" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
