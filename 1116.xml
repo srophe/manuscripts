@@ -100,24 +100,27 @@
               </msItem>
               <msItem n="6" xml:id="a6">
                 <locus from="213a" to="235b"/>
-                <title ref="http://syriaca.org/work/27" type="supplied">The book of Daniel, according to the Peshitta version.</title>
+                <title ref="http://syriaca.org/work/53" type="supplied">The book of Daniel, according to the Peshitta version.</title>
                 <note>With glosses in red ink, explanatory of the various kingdoms.</note>
-              <msItem n="7" xml:id="b1">
+            <msItem n="7" xml:id="b1">
+                  <locus from="235b" to="238b"/>
+              <title ref="http://syriaca.org/work/55" type="supplied">Bel and the Dragon</title>
+              <msItem n="7" xml:id="c1">
                 <locus from="235b" to="237a"/>
                 <title ref="http://syriaca.org/work/193" type="supplied">The history of Bel.</title>
                 <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܒܝܠ ܦܬܟܪܐ</rubric>
                 <note>Appended to <ref target="#a6">The book of Daniel</ref>.</note>
-              <msItem n="8" xml:id="b2">
+              <msItem n="8" xml:id="c2">
                   <locus from="237a" to="238a"/>
                 <title ref="http://syriaca.org/work/194" type="supplied">The history of the Dragon.</title>
                 <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܬܢܝܢܐ</rubric>
                 <note>Appended to <ref target="#a6">The book of Daniel</ref>.</note>
-              <msItem n="9" xml:id="b3">
+              <msItem n="9" xml:id="b2">
                   <locus from="238a" to="239b"/>
                 <title ref="http://syriaca.org/work/49" type="supplied">The history of Susanna and the elders.</title>
                 <rubric xml:lang="syr">ܬܫܥܝܬܗ̇ ܕܫܘܫܢ ܘܕܩ̈܏ܫ</rubric>
                 <note>Appended to <ref target="#a6">The book of Daniel</ref>.</note>
-              <msItem n="10" xml:id="b4">
+              <msItem n="10" xml:id="b3">
                   <locus from="155b" to="213a"/>
                 <title type="supplied">of Daniel the youth, concerning our Lord and the end of the world.</title>
                 <rubric xml:lang="syr">ܕܕܢܐܝܠ ܙܥܘܪܐ ܥܠ ܡܪܢ ܘܥܠ ܚܪܬܐ</rubric>
