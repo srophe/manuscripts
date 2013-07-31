@@ -3044,6 +3044,7 @@ tei_origPlace =
     (tei_p |
     tei_model.listLike)?,
     tei_macro.xtext,
+    (tei_placeName | text)*,
     att.global.attributes,
     att.datable.attributes,
     att.editLike.attribute.cert,
@@ -3357,7 +3358,7 @@ tei_supportDesc =
   ## (support description) groups elements describing the physical support for the written part of a manuscript.
   element supportDesc {
     (tei_model.pLike+
-     | (tei_support?,
+     | (tei_support*,
         tei_extent?,
         tei_foliation*,
         tei_collation?,
