@@ -140,13 +140,13 @@
          <!-- Add missing Syriac vowels. -->
                              </handNote>
                              <handNote xml:id="handnote4" scope="minor" script="syr" medium="unknown">
-                                 <desc>See below.</desc>       
+                                 <desc><ref target="#addition1">See below.</ref></desc>       
                              </handNote>
                          </handDesc>
                         <additions>
                             <list>
                                 <item n="1" xml:id="addition1"><locus from="2b" to="2b"/><ref target="#a1 #handnote4"/>
-                                    <desc><label>Marginal note</label> mentions that with this volume was once bound up a work, (or more probably a series of extracts,) entitled <choice><seg><title>ܒܘ̈ܚܢܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ</title>, <title>"Disquisitions of the holy Teachers"</title></seg></choice></desc></item>
+                                    <p>Marginal note mentions that with this volume was once bound up a work, (or more probably a series of extracts,) entitled <choice><seg><title>ܒܘ̈ܚܢܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ</title>, <title>"Disquisitions of the holy Teachers"</title></seg></choice></p></item>
                             </list>
                             <catchwords/>
                         </additions>

@@ -142,24 +142,24 @@
                 <desc>See <ref target="#addition7">below</ref>.</desc>
                 </handNote>
                 <handNote xml:id="handNote3" scope="major" script="syr-Syrj" medium="unknown">
-                  <desc>Greek vowels have been occasionally added by a later hand.</desc>
+                  <p>Greek vowels have been occasionally added by a later hand.</p>
      <!-- Add Greek Vowels -->
                 </handNote>
                 <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
                   <locus from="73a" to="73a"/>
-                  <desc>See <ref target="#addition1 #addition2">below</ref>.</desc>
+                  <p>See <ref target="#addition1 #addition2">below</ref>.</p>
                 </handNote>
                 <handNote xml:id="handNote5" scope="minor" script="syr" medium="unknown">
                   <locus from="73b" to="73b"/>
-                  <desc>See <ref target="#addition3 #addition4">below</ref>.</desc>
+                  <p>See <ref target="#addition3 #addition4">below</ref>.</p>
                 </handNote>
                 <handNote xml:id="handNote6" scope="minor" script="syr" medium="unknown">
                   <locus from="73b" to="73b"/>
-                  <desc>See <ref target="#addition5">below</ref>.</desc>
+                  <p>See <ref target="#addition5">below</ref>.</p>
                 </handNote>
                 <handNote xml:id="handNote7" scope="minor" script="syr" medium="unknown">
                   <locus from="1b" to="1b"/>
-                  <desc>See <ref target="#addition6">below</ref>.</desc>
+                  <p>See <ref target="#addition6">below</ref>.</p>
                 </handNote>
               </handDesc>
               <additions>

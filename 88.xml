@@ -150,29 +150,29 @@
               <additions>
                 <list>
                   <item n="1" xml:id="addition1"><locus from="122a" to="122a"/><ref target="#handNote4"/>
-                    <desc>What originally stood after the doxology, fol. 122a, has been erased, in order to make room for a note in a modern hand. Of this latter only a few words are now legible,
-                      owing to the lower part of the leaf being torn away, but it evidently contained the name of a possessor of the volume: </desc>
-                    <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܐܫܥ[ܝܐ] . . . ܩܫܝܫ[ܐ] . . .</quote>
+                    <p>What originally stood after the doxology, fol. 122a, has been erased, in order to make room for a note in a modern hand. Of this latter only a few words are now legible,
+                      owing to the lower part of the leaf being torn away, but it evidently contained the name of a possessor of the volume: </p>
+                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܐܫܥ[ܝܐ] . . . ܩܫܝܫ[ܐ] . . .</quote></p>
                     </item>
                   <item n="2" xml:id="addition2"><locus from="122b" to="122b"/><ref target="#handNote3"/>
-                    <desc>On fol. 122b there is a note of older date, probably of the <date>xth cent</date>., stating that the manuscript belonged to <persName>Leontius</persName>, abbat of the <placeName>convent of Mār Theodore</placeName>
+                    <p>On fol. 122b there is a note of older date, probably of the <date>xth cent</date>., stating that the manuscript belonged to <persName>Leontius</persName>, abbat of the <placeName>convent of Mār Theodore</placeName>
                       on the mountain to the west of <placeName>Sarīn</placeName>,
-                      who, with his disciple <persName>Constantine</persName>, purchased it for the use of the convent: </desc>
-                    <quote xml:lang="syr">ܢܗܘܐ ܕܘܟܪܢܐ ܛܒܐ ܩܕܡ ܐܠܗܐ ܠܩܫܝܫܐ ܡܪܝ ܠܐܘܢܛܝ ܕܒܪ̈ܚ̣ܡܘܗܝ ܕܐܠܗܐ ܪܝܫܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܡܪܝ ܬܐܕܘܪܐ ܕܛܘܪܐ ܕܡܥܪ̈ܒܝ ܣܪܝܢ܇ ܕܡܢ ܥܡܠܐ ܕܐܝܼܕ̈ܘܗܝ ܘܡܢ ܕܘܥܬܐ ܕܐܦ̈ܘܗܝ̇. ܘܕܩܘܣܛ ܬܠܡܝܕܗ. ܐܬܚ̇ܦܛܘܢ ܘܣܡ̣ܘܢ ܣܝܼܡܬܐ ܗܕܐ ܒܥܘܡܪܗܘܿܢ. ܡܛܠ ܥܘܗܕܢܐ ܕܥܢܝ̈ܕܝܗܘܢ ܘܢܘܛ̇ܪܐ ܕܚܝܝ̈ܗܘܢ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠܬܗ ܥܒ̣ܕܘܢ ܗܕܐ̣. ܗܼܘ ܢܫܘܐ ܐܢܘܢ ܘ܏ܫ.</quote>
+                      who, with his disciple <persName>Constantine</persName>, purchased it for the use of the convent: </p>
+                    <p><quote xml:lang="syr">ܢܗܘܐ ܕܘܟܪܢܐ ܛܒܐ ܩܕܡ ܐܠܗܐ ܠܩܫܝܫܐ ܡܪܝ ܠܐܘܢܛܝ ܕܒܪ̈ܚ̣ܡܘܗܝ ܕܐܠܗܐ ܪܝܫܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܡܪܝ ܬܐܕܘܪܐ ܕܛܘܪܐ ܕܡܥܪ̈ܒܝ ܣܪܝܢ܇ ܕܡܢ ܥܡܠܐ ܕܐܝܼܕ̈ܘܗܝ ܘܡܢ ܕܘܥܬܐ ܕܐܦ̈ܘܗܝ̇. ܘܕܩܘܣܛ ܬܠܡܝܕܗ. ܐܬܚ̇ܦܛܘܢ ܘܣܡ̣ܘܢ ܣܝܼܡܬܐ ܗܕܐ ܒܥܘܡܪܗܘܿܢ. ܡܛܠ ܥܘܗܕܢܐ ܕܥܢܝ̈ܕܝܗܘܢ ܘܢܘܛ̇ܪܐ ܕܚܝܝ̈ܗܘܢ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠܬܗ ܥܒ̣ܕܘܢ ܗܕܐ̣. ܗܼܘ ܢܫܘܐ ܐܢܘܢ ܘ܏ܫ.</quote></p>
              <!-- Scribe - Symeon -->
                   </item>
                   <item n="3" xml:id="addition3"><locus from="3a" to="3a"/><ref target="#handNote3"/> 
-                    <desc>The above <ref target="#addition2">note</ref> is in the handwriting of one Simeon the son of</desc><foreign xml:lang="syr">ܪܓܝܘ</foreign><desc>,
-                      the same who drew up the <ref target="#a1">index of lessons</ref>, as may be seen from the note appended to that index, fol. 3a:</desc>
-                    <quote xml:lang="syr">ܡܛܠ ܚܘܒܗ ܘܚ̈ܫܘܗܝ ܩ̈ܕܝܫܐ ܕܡܫܝܚܐ ܐܠܗܐ ܦܪܘܩܢ: ܟܠ ܕܡ̇ܦܪܫ ܩܪ̈ܝܢܐ ܒܟܬܒܐ ܗܢܐ ܕܛܘܒܬܢܐ ܐܫܥܝܐ̣ ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܘܕܘ̇ܝܐ  . . . ܫܡܥܘܢ ܒܪ ܪܓܝܘ ܕܣ̣ܡ ܒܗ ܩܪ̈ܝܢܐ̣. ܘܥܠ ܩܫܝܫܐ ܡܪܝ ܠܐܘܢܛܝ ܡܪܗ ܕܝܠܗ ܕܟܬܒܐ ܏܏ܘܫ</quote>
+                    <p>The above <ref target="#addition2">note</ref> is in the handwriting of one Simeon the son of<foreign xml:lang="syr">ܪܓܝܘ</foreign>,
+                      the same who drew up the <ref target="#a1">index of lessons</ref>, as may be seen from the note appended to that index, fol. 3a:</p>
+                    <p><quote xml:lang="syr">ܡܛܠ ܚܘܒܗ ܘܚ̈ܫܘܗܝ ܩ̈ܕܝܫܐ ܕܡܫܝܚܐ ܐܠܗܐ ܦܪܘܩܢ: ܟܠ ܕܡ̇ܦܪܫ ܩܪ̈ܝܢܐ ܒܟܬܒܐ ܗܢܐ ܕܛܘܒܬܢܐ ܐܫܥܝܐ̣ ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܘܕܘ̇ܝܐ  . . . ܫܡܥܘܢ ܒܪ ܪܓܝܘ ܕܣ̣ܡ ܒܗ ܩܪ̈ܝܢܐ̣. ܘܥܠ ܩܫܝܫܐ ܡܪܝ ܠܐܘܢܛܝ ܡܪܗ ܕܝܠܗ ܕܟܬܒܐ ܏܏ܘܫ</quote></p>
                   </item>
                   <item n="4" xml:id="addition4"><locus from="1a" to="1a"/><ref target="#a1"/> 
-                    <desc>The large writing that once covered fol. 1a has been partially effaced, and over it there is now written a prayer of <persName>Jacob of Batnae</persName>, </desc>
-                    <quote xml:lang="syr">ܒܥܘܬܐ ܕܡܪܝ ܝܥܩܘܒ</quote><desc>, beginning:</desc>
-                    <quote xml:lang="syr">ܘܝ ܚܛܝܐ ܐܝܟܐ ܣܚܝܦ ܐܢܬ ܡܐ ܕܚ̇ܛܐ ܐܢܬ: ܏ܘܫ</quote>
+                    <p>The large writing that once covered fol. 1a has been partially effaced, and over it there is now written a prayer of <persName>Jacob of Batnae</persName>, 
+                      <foreign xml:lang="syr">ܒܥܘܬܐ ܕܡܪܝ ܝܥܩܘܒ</foreign>, beginning:</p>
+                    <p><foreign xml:lang="syr">ܘܝ ܚܛܝܐ ܐܝܟܐ ܣܚܝܦ ܐܢܬ ܡܐ ܕܚ̇ܛܐ ܐܢܬ: ܏ܘܫ</foreign></p>
                   </item>
                   <item n="5" xml:id="addition5"><locus from="121" to="121"/><ref target="#handNote6"/>
-                    <desc>The leaf, or rather scrap of vellum, numbered fol. 121, does not belong to this volume, but contains <ref target="#http://syriaca.org/work/51">Jeremiah</ref>, ch. i. 5—8, ch. ix. 23, 24, etc., written in a comparatively modern hand, with many abbreviations.</desc>
+                    <p>The leaf, or rather scrap of vellum, numbered fol. 121, does not belong to this volume, but contains <ref target="#http://syriaca.org/work/51">Jeremiah</ref>, ch. i. 5—8, ch. ix. 23, 24, etc., written in a comparatively modern hand, with many abbreviations.</p>
                   </item>
                 </list>
               </additions>

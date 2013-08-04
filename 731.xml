@@ -149,15 +149,16 @@
                 <p>There are also a few marginal notes and glosses</p>
                 <list>
                   <item n="1" xml:id="addition1"><locus from="3a" to="3a"/><ref target="#a1 #handnote3"/>
-                    <quote xml:lang="syr">ܘܐܺܘܝܡ,</quote><label>marg.</label><quote xml:lang="grc">ηαμ</quote></item>
+                    <p><foreign xml:lang="syr">ܘܐܺܘܝܡ,</foreign>marg.<foreign xml:lang="grc">ηαμ</foreign></p></item>
                   <item n="2" xml:id="addition2"><locus from="11b" to="11b"/><ref target="#a1 #handnote4"/>
-                    <quote xml:lang="syr">ܣܩܐ̣</quote>,<label>marg.</label><quote xml:lang="grc">ⲤⲔⲰ</quote></item>
+                    <p><foreign xml:lang="syr">ܣܩܐ̣</foreign>,marg.<foreign xml:lang="grc">ⲤⲔⲰ</foreign></p></item>
     <!-- GREEK not showing ^^^ -->
                   <item n="3" xml:id="addition3"><locus from="30a" to="30a"/><ref target="#a1 #handnote5"/>
-                    <quote xml:lang="syr">ܕܩܒܨܝܐܝܠ</quote>, <label>marg.</label> <quote xml:lang="grc">ΚΑΒⲤΗΛ</quote><quote xml:lang="syr">ܢܘܠܐ ܕܓܪ̈ܕܚܐ</quote>, <label>marg.</label> <quote xml:lang="syr">ܚܘ̈ܟܶܐ</quote></item>
+                    <p><foreign xml:lang="syr">ܕܩܒܨܝܐܝܠ</foreign>, marg. <foreign xml:lang="grc">ΚΑΒⲤΗΛ</foreign>
+                    <foreign xml:lang="syr">ܢܘܠܐ ܕܓܪ̈ܕܚܐ</foreign>, marg. <foreign xml:lang="syr">ܚܘ̈ܟܶܐ</foreign></p></item>
     <!-- GREEK not showing ^^^ -->
-                  <item n="4" xml:id="addition4"><locus from="36a" to="36a"/><ref target="#a1 #handnote6"/>
-                    <quote xml:lang="syr">ܘܕܒ̈ܠܐ. ܘܩܪ̈ܬܠܘܬܐ ܕܥ̈ܢܒܐ</quote>(1 Chron. xii. 40),<label>marg.</label><quote xml:lang="syr">ܥ̈ܠܘܗܝ ܕܚܡܪܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܥܒܪ̈ܝܐ</quote> and <quote xml:lang="syr">ܪ̈ܠܝܬܐ ܕܥ̈ܢܒܐ </quote></item>
+                  <item n="4" xml:id="addition4"><locus from="36a" to="36a"/><ref target="#a1 #handnote6"/><p>
+                    <foreign xml:lang="syr">ܘܕܒ̈ܠܐ. ܘܩܪ̈ܬܠܘܬܐ ܕܥ̈ܢܒܐ</foreign>(1 Chron. xii. 40),marg.<foreign xml:lang="syr">ܥ̈ܠܘܗܝ ܕܚܡܪܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܥܒܪ̈ܝܐ</foreign> and <foreign xml:lang="syr">ܪ̈ܠܝܬܐ ܕܥ̈ܢܒܐ </foreign></p></item>
                 </list>
               </additions>
             </physDesc>

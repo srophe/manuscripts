@@ -161,28 +161,29 @@
                         <additions>
                             <list>
                                 <item n="1" xml:id="addition1"><locus from="89a" to="89a"/><ref target="#a1 #handNote1"/>
-                                    <desc>Subscription:</desc>
-                                    <quote xml:lang="syr">ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</quote>
+                                    <p>Subscription:</p>
+                                    <p><quote xml:lang="syr">ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</quote></p>
                                 </item>
                                 <item n="2" xml:id="addition2"><locus from="89a" to="89a"/><ref target="#a1 #handNote1"/>
-                                    <desc>Doxology following subscription:</desc>
-                                    <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
+                                    <p>Doxology following subscription:</p>
+                                    <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
                                         ܐܡܝܢ.</quote>
-                                </item>
+</p>                                </item>
                                 <item n="3" xml:id="addition3"><locus from="89a" to="89a"/><ref target="#a1 #handNote1"/>
-                                    <desc><label>Note</label> following doxology and in smaller
-                                        letters.</desc>
-                                    <quote>"Jesus God, have mercy on Sābā the scribe of Rās’ain, who
+                                    <p>Note following doxology and in smaller
+                                        letters.</p>
+                                    <p><quote>"Jesus God, have mercy on Sābā the scribe of Rās’ain, who
                                         wrote this book, and did not write in it a blotted tau."</quote>
-                                    <desc>See Add. 12,135, part first, and Add. 14,430, where we have the
-                                        dates A.D. <date>726</date> and <date>724</date>.</desc>
-                                    <quote xml:lang="syr">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ
-                                        ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒܗ.</quote>
+                                    See Add. 12,135, part first, and Add. 14,430, where we have the
+                                        dates A.D. <date>726</date> and <date>724</date>.</p>
+                                    <p><quote xml:lang="syr">ܝܫܘܥ ܐܠܗܐ̣. ܪܚܡ ܥܠ ܣܒܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ
+                                        ܕܟܬ̣ܒ ܟܬܒܐ ܗܢܐ܇ ܘܬܘ ܛܡܝܡܬܐ ܠܐ ܟܬܒ ܒܗ.</quote></p>
               <!-- Question about dots in the Syriac -->
                                 </item>
                                 <item n="4" xml:id="addition4">
                                     <locus from="89b" to="89b"/><ref target="#a1 #handNote3"/>
-                                    <desc>First note stating: </desc><quote>""Our Lord Jesus the Messiah,
+                                    <p>First note stating: </p>
+                                   <p> <quote>""Our Lord Jesus the Messiah,
                                         have mercy on the feeble, sinful and miserable (man), who
                                         has need of the mercy of God, <persName>Rūbīl (Reuben)</persName> the sinful
                                         deacon, who read this Testament with his master <persName>Mār Abraham
@@ -193,44 +194,44 @@
                                         for <persName>Rūbīl</persName> the sinner, who sewed, and read, and renovated,
                                         and for <persName>Abraham</persName> his master abundantly and especially,
                                         (saying:) May my prayer intercede for them, Amen. "Written
-                                        by the scribe <persName>Rām-īd </persName>(?), may God pardon him."</quote>
-                                    <desc>The second letter of this word is rather indistinctly written. It
+                                        by the scribe <persName>Rām-īd </persName>(?), may God pardon him."</quote></p>
+                                    <p>The second letter of this word is rather indistinctly written. It
                                         appears to be derived from the name of <placeName>Hah</placeName>, a Jacobite see
                                         <bibl>Assem., Bibl. Or., t. ii., Dissert. de Monophysitis, art.
-                                        ix., Haa, ܚܰܐܚ </bibl></desc>
-                                        <quote xml:lang="syr">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ
+                                        ix., Haa, ܚܰܐܚ </bibl></p>
+                                        <p><quote xml:lang="syr">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܚܘܢ ܠܡ̇ܚܝܠܐ ܘܚ̇ܛܝܐ ܘܕܘ̇ܝܐ
                                         ܘܣ̇ܢܝܩ ܥܠ ܪܚ̈ܡܐ ܕܐܠܗܐ ܪܘܒܝܠ ܡܫܡܫܢܐ ܚ̇ܛܝܐ ܕܐܩܪܗ̇ (sic)
                                         ܠܕܝܬܐܝܩܐ ܗܕܐ ܡܢ ܪܒܐ ܕܝܠܗ ܡܪܝ ܐܒܪܗܡ ܚܚܘܢܝܐ ܘܣܝܡ̇ܘܢ ܒܗ̇ ܘܚܕܬܘܢ
                                         ܒܗ̇ ܘܓܪܕܘܢ ܡܢܗ̇. ܒܪܡ ܕܝܢ ܒܘܠܝܬܐ ܣܥܪܘܢ ܗܕܐ. ܐܠܐ ܒܪܟܡܪܝ ܕܟܠ
                                         ܕܩ̇ܪܐ ܒ̈ܟܬܒܐ ܗܠܝܢ ܡܨܠܐ ܥܠ ܪܘܒܝܠ ܚ̇ܛܝܐ ܕܚ̣ܛ ܘܩ̣ܪܐ ܘܐܬܩ̇ܢ ܘܥܠ
                                         ܐܒܪܗܡ ܪܒ̣ܐ ܕܝܠܗ ܣܓܝ ܘܝܬܝܪܐܝܬ. ܨܠܘܬܝ ܬܦܝܣ ܚܠܦܝܗܘܢ ܐܡܝܢ. ܣܪܛ
-                                        ܪܡܝܕܝ (?)ܟܬܘܒܐ ܐܠܗܐ ܚܣ̣ܐ ܠܗ..</quote>
+                                        ܪܡܝܕܝ (?)ܟܬܘܒܐ ܐܠܗܐ ܚܣ̣ܐ ܠܗ..</quote></p>
                                 </item>
                                 <item n="5" xml:id="addition5">
                                     <locus from="89b" to="89b"/><ref target="#a1 #handNote3"/>
-                                    <desc>Second note stating: </desc><quote>"These things took place in the
+                                    <p>Second note stating: </p><p><quote>"These things took place in the
                                         year 1128 (A.D. 817), in the days of the honoured and
                                         Christ-loving abbat <persName>Mār Thomas</persName>, warden of this holy convent.
                                         May the Lord forgive all his shortcomings and
                                         transgressions, through the heard and accepted prayers of
                                         the Mother of God the Virgin Mary, on account of his care of
-                                        this church. And may every one," etc.</quote>
-                                    <quote xml:lang="syr">ܗܘ̈ܝ ܕܝܢ ܗܠܝܢ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ.
+                                        this church. And may every one," etc.</quote></p>
+                                    <p><quote xml:lang="syr">ܗܘ̈ܝ ܕܝܢ ܗܠܝܢ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ.
                                         ܒܝ̈ܘܡܝ ܡܝܩܪܐ ܘܪܚ̇ܡ ܠܡܫܝܚܐ ܡܪܝ ܬܐܘܡܐ ܪܝܫܕܝܪܐ ܘܩܘܢܟܝܐ ܕܥܘܡܪܐ
                                         ܗܢܐ ܩܕܝܫܐ. ܡ̇ܚܣܐ ܡܪܝܐ ܟܠܗܘܢ ܒܘܨܪ̈ܘܗܝ ܘܡܬܥܒܪ̈ܢܘܬܐ ܕܝܠܗ.
                                         ܒ̈ܨܠܘܬܐ ܫܡ̈ܝܥܬܐ ܘܡ̈ܩܒܠܬܐ ܕܝ̇ܠܕܬ ܐܠܗܐ ܒܬܘܠܬܐ ܡܪܝܡ ܡܛܠ
-                                        [ܝܨ]ܝܦܘܬܗ ܕܗܢ ܗܝܟܠܐ ܘܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ܒܗܝܡܢ ܐܡܝܢ.</quote>
+                                        [ܝܨ]ܝܦܘܬܗ ܕܗܢ ܗܝܟܠܐ ܘܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ܒܗܝܡܢ ܐܡܝܢ.</quote></p>
                                 </item>
                                 <item n="6" xml:id="addition6">
                                     <locus target="89a">Fol. 89a</locus><ref target="#a1 #handnote4"/>
-                                    <desc>Maginal note stating:</desc><quote>""The wretched <persName>Abraham</persName>,
+                                    <p>Maginal note stating:</p><p><quote>""The wretched <persName>Abraham</persName>,
                                         who is in name a monk, from <placeName>Beth-Severīnna</placeName>, from the <placeName>convent
                                         of Mār Gabriel</placeName>, fell in with this book in the year 1794 (AD.
-                                        1483). Let him who reads," etc."</quote> <desc>See <bibl>Assemani, Bibl. Or.,
-                                        t. i. p. 216.</bibl></desc>
-                                    <quote xml:lang="syr-Syrc">ܦܓܥ ܒܟܬܒܐ ܗܢܐ ܐܒܪܗܡ ܕܘܝܐ ܕܒܫܡ ܕܝܪܝܐ ܡܢ ܒܝܬ
+                                        1483). Let him who reads," etc."</quote></p> <p>See <bibl>Assemani, Bibl. Or.,
+                                        t. i. p. 216.</bibl></p>
+                                    <p><quote xml:lang="syr-Syrc">ܦܓܥ ܒܟܬܒܐ ܗܢܐ ܐܒܪܗܡ ܕܘܝܐ ܕܒܫܡ ܕܝܪܝܐ ܡܢ ܒܝܬ
                                         ܣܒܝܪܝܢܐ. ܡܢ ܥܘܡܪܐ ܕܡܪܝ ܓܒܪܐܝܠ [ܫܢܬ ܏ܐ]ܥ܏ܨܕ ܕܝܘܢܝ̈ܐ ܕܩ̇ܪܐ
-                                        ܢܨ̇ܠܐ ܥܠܘܗܝ ܡܛܠܡܪܢ.</quote>
+                                        ܢܨ̇ܠܐ ܥܠܘܗܝ ܡܛܠܡܪܢ.</quote></p>
                                 </item>
                             </list>
                      </additions>

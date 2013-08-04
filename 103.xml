@@ -136,17 +136,17 @@
               <additions>
                 <list>
                   <item n="1" xml:id="addition1"><ref target="#handNote2"/>
-                    <desc>A later hand has added Greek vowels here and there (<foreign xml:lang="grc">α</foreign>, , , or <foreign xml:lang="grc">ϊ</foreign>, foll. <locus>9b</locus>, <locus>10a</locus>,
+                    <p>A later hand has added Greek vowels here and there (<foreign xml:lang="grc">α</foreign>, , , or <foreign xml:lang="grc">ϊ</foreign>, foll. <locus>9b</locus>, <locus>10a</locus>,
                       <foreign xml:lang="grc">ο</foreign> or <foreign xml:lang="grc">ω</foreign>, foll. <locus>10a</locus>, <locus>13b</locus>, <locus>16a</locus>, <foreign xml:lang="grc">ογ</foreign>), 
-                      and also Syriac vowel-points (for example, on foll. <locus>17a</locus>, <locus>24a</locus>, <locus>24b</locus>, <locus>25a</locus>).</desc>
+                      and also Syriac vowel-points (for example, on foll. <locus>17a</locus>, <locus>24a</locus>, <locus>24b</locus>, <locus>25a</locus>).</p>
   <!-- Missing some numbers or letters --></item>
                   <item n="2" xml:id="addition2"><ref target="handNote3"/>
-                    <desc>A modern hand (perhaps the same that added the vowels) has marked the lessons on the margins, and also appended a few notes,
+                    <p>A modern hand (perhaps the same that added the vowels) has marked the lessons on the margins, and also appended a few notes,
                       either referring to the text of the LXX., or explanatory of proper names and other words. For example: fol. <locus>31b</locus>, <foreign xml:lang="syr">ܘܒܫܥܠܒܝܢ</foreign> (Judg. i. 35),
                       marg. <foreign xml:lang="syr">ܗ̄ ܒܝܬ ܬܥ̈ܠܐ</foreign>; fol. <locus>36a</locus>, <foreign xml:lang="syr">ܘܐܡܪܘ ܚܪܒܐ ܠܡܪܝܐ ܘܠܓܕܥܘܢ</foreign>  (Judg. vii. 18), marg. <foreign xml:lang="syr">ܥ܏ܒ ܙܟܘܬܐ ܠܡܪܝܐ ܒܝܕ ܓܕܥܘܢ</foreign>; fol. <locus>38a</locus>,
                       <foreign xml:lang="syr">ܐܟܘܬܟ ܐܝܬܝܗܘܢ ܗܘܘ</foreign> (Judg. viii. 18), marg. <foreign xml:lang="syr">ܥ܏ܒ ܬܗܘܐ ܠܟ ܐܝܟ ܚܕ ܡܢܗܘܢ</foreign>; fol. <locus>43a</locus>, <foreign xml:lang="syr">ܬܒ̣ܪܐ ܕܪܟܒܐ ܕܪܚܝܐ</foreign> (Judg. ix. 53), marg. ܏<foreign xml:lang="syr">ܗ ܦܝܢܟܐ ܕܪܰܚܝܐ</foreign>;
                       fol. <locus>48b</locus>, <foreign xml:lang="syr">ܐܦܪܡܝܐ ܐܢܬ</foreign> (Judg. xii. 5), marg. <foreign xml:lang="syr">ܥ܏ܒ ܦܪܬܝܐ ܐܢܬ</foreign> ; fol. <locus>55b</locus>, <foreign xml:lang="syr">ܟܠ ܓܒܪ ܐܠܦ ܘܬܠܬܡܐܐ ܕܟܦܣܐ</foreign> (Judg. xvi. 5), marg. <foreign xml:lang="syr">ܥ܏ܒ ܠܪܒ ܐ̈ܠܦܐ ܘܡܐܐ ܕܟܣܦܐ</foreign>.
-                      In one place a Greek word is written on the margin by the same hand, viz. fol. <locus>18b</locus>, <foreign xml:lang="grc">κγροc</foreign> (<foreign xml:lang="syr">ܘܕܩܪܘܣ</foreign>, Josh. xiii. 11).</desc>
+                      In one place a Greek word is written on the margin by the same hand, viz. fol. <locus>18b</locus>, <foreign xml:lang="grc">κγροc</foreign> (<foreign xml:lang="syr">ܘܕܩܪܘܣ</foreign>, Josh. xiii. 11).</p>
                     <quote/></item>
                 </list>
               </additions>

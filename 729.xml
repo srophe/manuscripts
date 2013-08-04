@@ -163,7 +163,7 @@
               <list>
                 <item n="1" xml:id="addition1">
                   <locus from="60a" to="60a"/><ref target="#a1 #handnote3"/>
-                  <desc>Long note stating that this manuscript was written in the year
+                  <p>Long note stating that this manuscript was written in the year
                     <date>910</date>, and collated with another copy of the school of the Armenians. The names of
                     the man at whose expense it was transcribed, and of the convent to which he gave
                     it, were altered by the hand of a person from the village of <placeName>Kěphar-Darīn</placeName>, who
@@ -171,8 +171,8 @@
                     library of the <placeName>convent of Mār Daniel at Kěphar-Bīl</placeName> <foreign xml:lang="syr">ܕܟܣ̈ܝܗ</foreign> (?), near <placeName>Antioch</placeName>,
                     when <persName>Thomas</persName> was abbat, the priest <persName>Simeon</persName> his deputy, and the priest <persName>Moses
                     </persName> librarian. The name of this man has in turn been erased by one <persName>Yazdīn bar Dūmā</persName>
-                    (?).</desc>
-                  <quote xml:lang="syr">ܐܬܚܦܛ ܘܥܒ̣ܕ ܗܢܐ̣. [(ܝܙܕܝܢ ܒܪ ܖܘܡܐ) . . . ܟܦܪܕܪܝܢ. ܡܢ ܙܝܢܬܐ]
+                    (?).</p>
+                  <p><quote xml:lang="syr">ܐܬܚܦܛ ܘܥܒ̣ܕ ܗܢܐ̣. [(ܝܙܕܝܢ ܒܪ ܖܘܡܐ) . . . ܟܦܪܕܪܝܢ. ܡܢ ܙܝܢܬܐ]
                     ܕܐܠܗܐ. ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܩܢܘܡܗ̣ ܘܕܐܝܠܝܢ ܕܩ̇ܪܝܢ ܒܗ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ : ܣܡ ܠܗ ܣܝܡܬܐ
                     ܗܕܐ̣. ܗ̣ܘ ܢܫܘܝܘܗܝ ܕܢܫܡ̣ܥ ܡܢ ܡܪܗ܇ ܗ̇ܝ ܒܪܬ ܩܠܐ ܒܪܝܟܬܐ ܕܐܡ̇ܪܐ̇. ܐܝܘ ܥܒ̣ܕܐ ܛܒ̇ܐ
                     ܘܡܗܝܡܢܐ̇. ܥܠ ܩܠܝܠ ܡܗ̣ܝܡܢ ܗܘ̣ܝܬ݁. ܥܠ ܣܓܿܝ ܐܩܝܡܟ. ܥܘܠ ܠܚܕܘܬܗ ܕܡܪܟ. ܘܠܥܢܝܕܘ̈ܗܝ
@@ -182,32 +182,32 @@
                     ܕܝܢ ܟܬܒܐ ܗܢܐ̣. [ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܕܢܝܐܝܠ ܕܟܦܪܒܝܠ] ܕܟܣ̈ܝܗ ܟܘܪܐ ܕܐܢ̈ܛܝܘܟܝܐ. ܥܠ
                     ܕܝܢ ܠܒܝܬ ܟܬܒ̈ܐ ܒܝ̈ܘܡܝ ܪܝܫܕܝܪܐ ܬܐܘܡܐ ܕܝܠܗ ܕܥܘܡܪܐ ܘܩܫܝܫܐ ܫܡܥܘܢ ܕܒܬܪܗ ܟܕ ܐܝܬܘܗܝ
                     ܟܬܒܝܐ ܩܫܝܫܐ ܡܘܫܐ. ܕܐܠܗܐ ܒܪ̈ܚܡ̣ܘܗܝ ܘܒܛܝܒܘܬܗ ܢܬܠ ܐܓܪܐ ܘܦܘܪܥܢܐ ܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ
-                    ܒܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥܒܕܐ܀ ܘ ܀ </quote>                </item>
+                    ܒܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥܒܕܐ܀ ܘ ܀ </quote> </p>               </item>
                 <item n="2" xml:id="addition2">
                   <locus from="59b" to="59b"/><ref target="#a1 #handnote4"/>
-                  <desc>A more recent note, on fol. <locus>59b</locus>, records that
+                  <p>A more recent note, on fol. <locus>59b</locus>, records that
                     <persName>Pāpā bar Dūmā</persName> of <placeName>Tagrīt</placeName> (Tecrit) presented this book to the <placeName>convent of S. Mary
                     Deipara</placeName>, by the hands of <persName>Matthew</persName> and <persName>Abraham</persName> of <placeName>Tagrīt</placeName>. 
-                  </desc></item>
+                  </p></item>
                 <item n="3" xml:id="addition3">
                   <locus from="59b" to="59b"/><ref target="#a1 #handnote5"/>
-                    <desc>The latter part of this <ref target="#addition2">note</ref>, from <foreign xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</foreign> to the end, is in a different hand from the former part.</desc>
+                    <p>The latter part of this <ref target="#addition2">note</ref>, from <foreign xml:lang="syr">ܒܡܬܚܦܛܢܘܬܐ</foreign> to the end, is in a different hand from the former part.</p>
                   <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote>
                 </item>
                 <item n="4" xml:id="addition4">
                   <locus from="59b" to="59b"/><ref target="#a1 #handnote6"/>
-                 <desc>Margin. note</desc>
-                  <quote xml:lang="syr">ܝܗܒ̣ ܟܬܒܐ ܗܢ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܝܪ̈ܝܝܐ ܕܐܒܐ ܒܝܫܘܝ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܛܐ̣. ܦܦܐ ܒܪ ܕܘܡܐ ܬܓܪܝܬܢܝܐ. ܡܛܠ ܚܘܣܝܐ ܕܚܘ̈ܒܘܗܝ ܘܕܘܟܪܢܐ ܕܥ̈ܢܝܕܘܗܝ. ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ♱ . . ܒܡܬܚܦܛܢܘܬܐ ܕܡܬܝ ܘܕܐܒܪܗܡ ܐܚ̈ܐ ܕ̈ܝܪܝܐ ܬܓܪܝܢܬܝܐ (sic) ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠܝܗܘܢ ܘܟܠ ܕܩܪܐ ܒܗ ܘܢܟ̇ܡܢ ܥܠܘܗܝ ܢܕܥ ܕܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܥܠ ܦܘܩܕܢܐ</quote>
+                 <p>Margin. note:</p>
+                  <p><quote xml:lang="syr">ܝܗܒ̣ ܟܬܒܐ ܗܢ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܝܪ̈ܝܝܐ ܕܐܒܐ ܒܝܫܘܝ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܛܐ̣. ܦܦܐ ܒܪ ܕܘܡܐ ܬܓܪܝܬܢܝܐ. ܡܛܠ ܚܘܣܝܐ ܕܚܘ̈ܒܘܗܝ ܘܕܘܟܪܢܐ ܕܥ̈ܢܝܕܘܗܝ. ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ ♱ . . ܒܡܬܚܦܛܢܘܬܐ ܕܡܬܝ ܘܕܐܒܪܗܡ ܐܚ̈ܐ ܕ̈ܝܪܝܐ ܬܓܪܝܢܬܝܐ (sic) ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠܝܗܘܢ ܘܟܠ ܕܩܪܐ ܒܗ ܘܢܟ̇ܡܢ ܥܠܘܗܝ ܢܕܥ ܕܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܥܠ ܦܘܩܕܢܐ</quote></p>
     <!--A question about the dot that comes on top-->
                 </item>
                 <item n="5" xml:id="addition5">
                   <locus from="60b" to="60b"/><ref target="#a1 #handnote7"/>
-                  <desc>Note written by the librarian of the <placeName>convent of S. Mary Deipara</placeName></desc>
-                  <quote xml:lang="syr">ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ. ܠܝܬ ܠܗ ܫܘܠܛܢܐ ܡܢ ܐܠܗܐ ܕܢܠܒܟܝܘܗܝ [ܐܠܐ ܐܫܬܐ ܝܪ̈ܚܝܢ]. ܘܟܠ ܕܠܐ ܡܗܦܟ ܠܗ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. ܘܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. </quote>
+                  <p>Note written by the librarian of the <placeName>convent of S. Mary Deipara</placeName></p>
+                  <p><quote xml:lang="syr">ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ. ܠܝܬ ܠܗ ܫܘܠܛܢܐ ܡܢ ܐܠܗܐ ܕܢܠܒܟܝܘܗܝ [ܐܠܐ ܐܫܬܐ ܝܪ̈ܚܝܢ]. ܘܟܠ ܕܠܐ ܡܗܦܟ ܠܗ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. ܘܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ ܬܚܝܬ ܦܣܩܐ ܐܝܬܘܗܝ. </quote></p>
                 </item>
                 <item n="6" xml:id="addition6">
                   <locus from="60b" to="60b"/><ref target="#a1 #handnote8"/>
-                  <desc>Note, almost effaced, that was an anathema upon <persName>Nestorius</persName> and other heretics.</desc>
+                  <p>Note, almost effaced, that was an anathema upon <persName>Nestorius</persName> and other heretics.</p>
                 </item>
               </list>
               <catchwords/>

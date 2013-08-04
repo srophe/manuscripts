@@ -179,7 +179,7 @@
               <additions>
                 <list>
                   <item n="1" xml:id="p1addition1"><locus from="1a" to="1a"/><ref target="#p1a1 #p1decoNote1"/>
-                    <desc>The fly-leaf, fol. <locus>1</locus>, has on the one side the word </desc><quote xml:lang="syr">ܬܠܝܬܝܘܬܐ</quote><desc> in large open letters.</desc>
+                    <p>The fly-leaf, fol. <locus>1</locus>, has on the one side the word <foreign xml:lang="syr">ܬܠܝܬܝܘܬܐ</foreign> in large open letters.</p>
                     </item>
                 </list>
               </additions>

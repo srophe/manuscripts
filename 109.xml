@@ -141,22 +141,21 @@
                   <desc>See <ref target="#p1addition3">additions</ref>.</desc>
                 </handNote>
                 <handNote xml:id="p1handNote4" scope="major" script="syr" medium="unknown">
-                  <locus from="34b" to="34b">
-                    <desc>See <ref target="#p1addition1">additions</ref>.</desc>
-                  </locus>
+                  <locus from="34b" to="34b"/>
+                  <desc>See <ref target="#p1addition1">additions</ref>.</desc>
                 </handNote>
               </handDesc>
                <additions>
                 <list>
                   <item n="1" xml:id="p1addition1"><locus from="34b" to="34b"/><ref target="#p1handNote4"/>
-                    <desc>On fol. 34 b, after the doxology, there stands a note in a later hand, now so erased as to be in great part illegible. It begins:</desc>
+                    <p>On fol. 34 b, after the doxology, there stands a note in a later hand, now so erased as to be in great part illegible. It begins:</p>
                     <quote xml:lang="syr">ܟܠܡܢ ܕܠܚܐ ܥܘܗܕܢܐ ܕܗܢ ܟܬܒܐ ܕܐܝܬܘܗܝ ܠܕܝܪܐ ܩ܏ܕܝ . . . . .</quote></item>
                   <item n="2" xml:id="p1addition2"><ref target="#p1handNote2"/>
-                    <desc>Vowels added by a later hand.</desc>
+                    <p>Vowels added by a later hand.</p>
                     </item>
        <!-- Add vowels-->
                   <item n="3" xml:id="p1addition3"><ref target="#p1handNote3"/><locus from="30a" to="30a"/>
-                    <desc>The lessons are rubricated in the text; one has been noted by a later hand on the margin of fol. 30a.</desc>
+                    <p>The lessons are rubricated in the text; one has been noted by a later hand on the margin of fol. 30a.</p>
                   </item>
                 </list>
               </additions>
@@ -367,10 +366,10 @@
               <additions>
                 <list>
                   <item n="1" xml:id="p3addition1"><locus from="80b" to="80b"/><ref target="#p3handNote2"/>
-                    <desc>One lesson has been marked on the margin by a later hand, fol. 80b.</desc>
+                    <p>One lesson has been marked on the margin by a later hand, fol. 80b.</p>
                   </item>
                   <item n="2" xml:id="p3addition2"><ref target="#p3handNote3"/>
-                    <desc>The quires were originally signed with arithmetical figures (e.g. fol. <locus>78</locus>,  ), but at later periods with Coptic ciphers (e.g. fol. <locus>84</locus> and <locus>96</locus>) and Syriac letters, both incorrectly.</desc>
+                    <p>The quires were originally signed with arithmetical figures (e.g. fol. <locus>78</locus>,  ), but at later periods with Coptic ciphers (e.g. fol. <locus>84</locus> and <locus>96</locus>) and Syriac letters, both incorrectly.</p>
         <!-- Missing Arabic -->
                   </item>
                 </list>
@@ -501,12 +500,12 @@
                 <p/>
                 <list>
                   <item n="1" xml:id="p4addition1"><locus from="144a" to="144a"/><ref target="#p4b7"/>
-                    <desc>On fol. 144a there is the colophon: </desc><quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܟܬܒܐ ܕܬܪ̈ܥܣܪ ܢܒ̈ܝܐ</quote><desc>, which is followed by the usual doxology.</desc></item>
+                    <p>On fol. 144a there is the colophon: <foreign xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܟܬܒܐ ܕܬܪ̈ܥܣܪ ܢܒ̈ܝܐ</foreign>, which is followed by the usual doxology.</p></item>
                   <item n="2" xml:id="p4addition2"><locus from="128b" to="128b"/><ref target="#p4b6 #p4handNote2"/>
-                    <desc>One lesson is rubricated in the text, fol. 128b,</desc> <quote xml:lang="syr">ܩ ܕܐܘ̈ܫܥܢܐ</quote>
-                    <desc>; others are marked on the margins, some of them by later hands.</desc></item>
+                    <p>One lesson is rubricated in the text, fol. 128b, <foreign xml:lang="syr">ܩ ܕܐܘ̈ܫܥܢܐ</foreign>
+                    ; others are marked on the margins, some of them by later hands.</p></item>
                   <item n="3" xml:id="p4addition3"><ref target="#p4handNote3"/>
-                    <desc>Quires marked at later periods with Coptic ciphers and Syriac letters, both incorrectly.</desc>
+                    <p>Quires marked at later periods with Coptic ciphers and Syriac letters, both incorrectly.</p>
                     </item>
                 </list>
               </additions>

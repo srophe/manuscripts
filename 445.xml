@@ -293,7 +293,7 @@
               <additions>
                 <list>
                   <item n="1" xml:id="p3addition1"><ref target="#p2handNote2"/>
-                    <desc>Syriac vowels and diacritical points have been added by a later hand.</desc>
+                    <p>Syriac vowels and diacritical points have been added by a later hand.</p>
                   </item>
                  </list>
               </additions>
@@ -1165,7 +1165,7 @@
               <additions>
                 <list>
                   <item n="1" xml:id="p9addition1"><ref target="#p9handNote2"/>
-                    <desc>Some Greek vowels have been added by a later hand.</desc>
+                    <p>Some Greek vowels have been added by a later hand.</p>
                   </item>
                 </list>
               </additions>

@@ -241,23 +241,23 @@
                <additions>
                 <list>
                   <item n="1" xml:id="p1addition1"><ref target="#p1handNote2"/>
-                    <desc>There are also many Greek words written on the margins in elegant slanting uncials, for instance, foll. <locus>14a</locus>, <locus>21a</locus>, <locus>22b</locus>, <locus>23a</locus>, <locus>24a</locus>, <locus>36b</locus>, <locus>37a</locus>, <locus>42a</locus>, <locus>44b</locus>, etc.</desc>
-                    <quote/></item>
+                    <p>There are also many Greek words written on the margins in elegant slanting uncials, for instance, foll. <locus>14a</locus>, <locus>21a</locus>, <locus>22b</locus>, <locus>23a</locus>, <locus>24a</locus>, <locus>36b</locus>, <locus>37a</locus>, <locus>42a</locus>, <locus>44b</locus>, etc.</p>
+                    </item>
                   <item n="2" xml:id="p1addition2"><ref target="#p1handNote3"/>
-                    <desc>Annotations from Athanasius; foll. <locus>8a</locus>, <locus>13a</locus>, <locus>40b</locus>, <locus>45a</locus> and <locus>45b</locus>. </desc><quote/></item>
+                    <p>Annotations from Athanasius; foll. <locus>8a</locus>, <locus>13a</locus>, <locus>40b</locus>, <locus>45a</locus> and <locus>45b</locus>. </p><quote/></item>
                   <item n="3" xml:id="p1addition3"><locus from="29a" to="29a"/><ref target="#p1handNote4"/>
-                    <desc>Annotations from Cyril; fol. 29a.</desc><quote/></item>
+                    <p>Annotations from Cyril; fol. 29a.</p><quote/></item>
                   <item n="4" xml:id="p1addition4"><ref target="#p1handNote5"/>
-                    <desc>Annotations from Hesychius, the priest, of Jerusalem, <quote xml:lang="syr">ܗܘܣܝܟܝܣ ܩܫܝܫܐ ܕܐܘܪܫܠܡ</quote>; foll. <locus>17a</locus>, <locus>19b</locus>,
+                    <p>Annotations from Hesychius, the priest, of Jerusalem, <foreign xml:lang="syr">ܗܘܣܝܟܝܣ ܩܫܝܫܐ ܕܐܘܪܫܠܡ</foreign>; foll. <locus>17a</locus>, <locus>19b</locus>,
                       <locus>20b</locus>, <locus>23b</locus>, <locus>33b</locus>, <locus>34b</locus>, <locus>41a</locus>.
-                    </desc></item>
+                    </p></item>
                   <item n="4" xml:id="p1addition5"><locus from="29b" to="29b"/><ref target="#p1handNote6"/>
-                    <desc>On fol. 29 b there is a quotation from the Latin translation of Ps. xl. (xli.), 1, 2, one of the very rare instances of a Latin note in the volumes forming the Nitrian collection: </desc>
-                    <quote xml:lang="lat">Beatvs qui intelligit fup egenum er pauperem. In die mala liberabt (sic) eum dnf. dnf conferur (sic) eum er uiuificet eum* er bearu faciar eum m rerra. </quote>
-                    <desc>These words seem to be of considerably later date than the manuscript itself, though probably anterior to the <date>xiith cent</date>.</desc></item>
+                    <p>On fol. 29 b there is a quotation from the Latin translation of Ps. xl. (xli.), 1, 2, one of the very rare instances of a Latin note in the volumes forming the Nitrian collection: </p>
+                    <p><quote xml:lang="lat">Beatvs qui intelligit fup egenum er pauperem. In die mala liberabt (sic) eum dnf. dnf conferur (sic) eum er uiuificet eum* er bearu faciar eum m rerra. </quote></p>
+                    <p>These words seem to be of considerably later date than the manuscript itself, though probably anterior to the <date>xiith cent</date>.</p></item>
      <!--WORD DOCUMENT QUESTION ABOUT LATIN-->
                   <item n="4" xml:id="p1addition6"><locus from="79b" to="79b"/><ref target="#p1handNote7"/>
-                    <desc>On the margin of fol. 79b there is a note, in a hand of the <date>xiith</date> or <date>xiiith cent.</date>, stating that the book was repaired and bound by the scribe <persName>Yeshūa'</persName>:</desc><quote xml:lang="syr">ܚ̣̇ܕܬ ܘܕܒ̣̇ܩ ܝܫܘܥ ܟܬܘܒܐ ܕܦ̇ܓܥ̇ ܨ̇ܠܐ̣ ܦܪܘܫܐܝܬ܀</quote></item>
+                    <p>On the margin of fol. 79b there is a note, in a hand of the <date>xiith</date> or <date>xiiith cent.</date>, stating that the book was repaired and bound by the scribe <persName>Yeshūa'</persName>:</p><foreign xml:lang="syr">ܚ̣̇ܕܬ ܘܕܒ̣̇ܩ ܝܫܘܥ ܟܬܘܒܐ ܕܦ̇ܓܥ̇ ܨ̇ܠܐ̣ ܦܪܘܫܐܝܬ܀</foreign></item>
                 </list>
               </additions>
              </physDesc>

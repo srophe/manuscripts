@@ -169,32 +169,32 @@
                                 <list>
                                     <item n="1" xml:id="p1addition1">
                                         <locus from="107b" to="107b"/><ref target="p1a1 #p1handnote5"/>
-                                        <desc>Subscription:</desc>
-                                        <quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
-                                            ܕܐܘܪܝܬܐ;</quote><desc>after which follows the doxology,
-                                            </desc><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣
-                                            ܐܡܝܼܢ ܘܐܡܝܢ܆</quote><desc>, and in a more cursive character the words</desc>
-                                        <quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></item>
+                                        <p>Subscription:</p>
+                                        <p><quote xml:lang="syr">ܫܠܡ ܡܦܩܢܐ̇ ܣ̣ܦܪܐ ܕܬܪ̈ܝܼܢ
+                                            ܕܐܘܪܝܬܐ;</quote> after which follows the doxology,
+                                            <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣
+                                            ܐܡܝܼܢ ܘܐܡܝܢ܆</quote><desc>, and in a more cursive character the words
+                                                <quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></p></item>
                                     <item n="2" xml:id="p1addition2">
                                         <locus from="108a" to="108a"/><ref target="p1a1 #p1handnote5"/>
-                                        <desc>A note on fol. <locus>108a</locus>, states that the
+                                        <p>A note on fol. <locus>108a</locus>, states that the
                                             manuscript was written for the monks of the <placeName>convent of
                                             Nātphā</placeName>,  near <placeName>Māridīn</placeName>, at the expense of the priest <persName>Julian</persName>
                                             <quote xml:lang="syr">ܢܘܢܝܐ</quote>, and
-                                            of the deacons <persName>George</persName> and <persName>Dādā</persName>, visitors (</desc><quote xml:lang="syr">ܣܳܥܽܘܪܳܐ</quote>,
-                                        <quote xml:lang="grc">περιοδευτής</quote>) <desc>of the said convent. See <bibl>Assemani, Bibl. Or., t. ii., Dissert. de
-                                            Monophysitis, art. ix., Monasterium Nataphae.</bibl></desc>
-                                        <quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ
+                                            of the deacons <persName>George</persName> and <persName>Dādā</persName>, visitors (<quote xml:lang="syr">ܣܳܥܽܘܪܳܐ</quote>,
+                                        <quote xml:lang="grc">περιοδευτής</quote>) of the said convent. See <bibl>Assemani, Bibl. Or., t. ii., Dissert. de
+                                            Monophysitis, art. ix., Monasterium Nataphae.</bibl></p>
+                                        <p><quote xml:lang="syr">ܐܬܚܦܛܘ ܘܥܒ̣ܕܘ ܟܬܒܐ ܗܢܐ ܡܢ ܥܡܠܗܘܢ ܘܡܢ
                                             ܛܝܒܘܬܐ ܕܐܠܗܐ ܕܐܬܬ ܒܐ̈ܝܕܝܗܘܢ. ܠܟܢܘܫܝܐ ܩܕܝܫܐ ܕܝܚܝ̈ܕܝܐ
                                             ܕܢܛܦܐ ܕܒܛܘܪܐ ܡܪܕܐ. ܩܫܝܫܐ ܝܘܠܝܢܐ ܢܘܢܝܐ. ܘܓܐܘܪܓܝ ܘܕܕܐ
                                             ܡܫܡ̈ܫܢܐ ܘܣܥܘܪ̈ܐ ܕܝܠܗ ܕܟܢܘܫܝܐ. ܕܟܠ ܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ
                                             ܘܥܠ ܟܠ ܕܐܝܬ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܩܠܝܠ ܘܐܢ ܒܣܓܝ. ܕܐܠܗܐ ܗ̇ܘ
                                             ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܣܡܘ ܣܝܡܬܐ ܗܕܐ̣. ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ ܠܡܢܬܐ
                                             ܘܠܝܪܬܘܬܐ ܕܡܛܬ ܠܩܕܝ̈ܫܐ ܒܢܘܗܪܐ. ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܕܥܒ̣ܕܘ
-                                            ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote></item>
+                                            ܘܥܒܕܝܢ ܨܒܝܢܗ ܕܐܠܗܐ ܠܥܠܡܝܢ.</quote></p></item>
                                     <item n="3" xml:id="p1addition3">
                                         <locus from="108a" to="108a"/><ref target="p1a1 #p1handnote5"/>
-                                        <desc>What originally followed has been
+                                        <p>What originally followed has been
                                             erased, and in its place we read, in the handwriting of
                                             <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, abbat of the <placeName>convent of S. Mary
                                                 Deipara</placeName> in the <placeName>desert of Scete</placeName><date>(A. Gr. 1243,</date><date> A.D. 932)</date>,
@@ -202,8 +202,8 @@
                                             See the notes in his handwriting in many other volumes
                                             of this collection, and also <bibl>Assemani, Bibl. Or. t. i.
                                             p. 83, t. ii. p. 118;</bibl> <bibl>Cureton, the Festal Letters of
-                                            Athanasius, preface, p. xxiv., note.</bibl></desc>
-                                        <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ
+                                            Athanasius, preface, p. xxiv., note.</bibl></p>
+                                        <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܝܕܬ ܐܠܗܐ
                                             ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܕܩܢܝܗܝ ܠܗ̇ 
                                             <persName ref="http://syriaca.org/person/647">ܡܘܫܐ ܢܨܝܒܝܢܝܐ
                                             ܪܝܫܕܝܪܐ</persName>.
@@ -211,20 +211,20 @@
                                             ܡܘܒܕ ܘܡܫܓܢܐ ܠܟܬܒܐ ܗܢܐ ܡܢܗ̇ ܕܕܝܪܐ ܒܚܕ ܡܢ ܙܢܝ̈ܢ. ܘܡ̇ܢ ܕܣܥܐ
                                             ܥܠ ܗܠܝܢ܆ ܚܪܡܗ ܕܐܠܗܐ ܘܪܘܓܙܗ ܘܠܘܛܬܗ ܢܗܘܘܢ ܥܠܘܗܝ. ܘܟܠ ܕܢܛܪ
                                             ܡܠܬܐ ܕܐܠܗܐ ܘܠܐ ܣܥܐ ܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ ܘܠܝ ܡܘܫܐ ܚܛܝܐ
-                                            ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱ </quote></item>
+                                            ܒ̈ܨܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ ܘܩܕ̈ܝܫܐ ܐܡܝܢ♱ </quote></p></item>
                                     <item n="4" xml:id="p1addition4">
                                         <locus from="2a" to="2a"/><ref target="p1a1 #p1handnote3"/>
-                                        <quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ
+                                        <p><quote xml:lang="syr">ܐܝܬܘ ܟܬܒܐ ܗܢܐ ܕܣܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܠܠܢܐ
                                             (?)ܡܫܡܫܢܐ ܒܪܝܫܥܝܢܐ. ܟܘܠ ܕܩܪܐ ܒܗ ܐܘ ܢܟܬܘܒ(sic) ܡܢܗ ܘܠܐ
                                             ܢܗܦܟܝ (sic) ܥܠ ܡܠܬܗ ܕܐܠܗܐ ܥܒܪ ܘܚܪܡܗ ܕܡܪܝܐ ܥܠܘܗܝ ܘܥܠ
                                             ܒܝܬܘܗܝ (sic) ܘܥܠ ܥܘܬܪܗ ܘܥܠ ܘܥܘܡܪܗ ܠܥܠܡ ܥܠܡܝܢ
-                                            ܐܡܝܢ.</quote><ref target="p1a1"/></item>
+                                            ܐܡܝܢ.</quote></p></item>
                                     <item n="5" xml:id="p1addition5">
                                         <locus from="2a" to="2a"/><ref target="p1a1 #p1handnote4"/>
-                                        <desc>Notation of the names of two readers of
-                                            the book, John and Yeshūa’</desc>
-                                        <quote xml:lang="syr">ܝܘܚܢܢ ܚ̇ܛܝܐ ܘܝܫܘܥ ܬܠܡܝܕܗ
-                                            ܕܡܫܝܚܐ.</quote></item>
+                                        <p>Notation of the names of two readers of
+                                            the book, John and Yeshūa’</p>
+                                        <p><quote xml:lang="syr">ܝܘܚܢܢ ܚ̇ܛܝܐ ܘܝܫܘܥ ܬܠܡܝܕܗ
+                                            ܕܡܫܝܚܐ.</quote></p></item>
                                 </list>
                             </additions>
                         </physDesc>
@@ -367,7 +367,7 @@
                                 <list>
                                     <item n="1" xml:id="p2addition1">
                                         <locus from="169b" to="169b"/><ref target="#p2a1 #p2handnote2"/></item>
-                                    <note><p><desc>On fol. 169b we have the following colophon:</desc><quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ ܫܥܒܝܢ
+                                    <note><p>On fol. 169b we have the following colophon:</><quote xml:lang="syr">ܫܠܡ ܝܫܘܥ ܒܪܗ ܕܢܘܢ ܐܝܟ ܗ̇ܢܘܢ ܫܥܒܝܢ
                                             .ܘ. ܗܠܝܼܢ ܒܬܪ ܫܘܠܡܐ ܐܝܟ ܗ̇ܢܘܢ ܫܒܥܝܢ ܣܝ̈ܡܢ ܗ̈ܘܝ ܒܨܚܚܐ ܥܡ
                                             ܓܐܪ̈ܘܢܐ܀ ܒܗܿܘ ܝܘܡܐ̣. ܟܕ ܢܣ̣ܒܘ ܠܩܒܘܬܗ ܕܐܠܗܐ. ܡܟܪܟܝܢ ܗܘܘ
                                             ܠܗ̇ ܒܐܝܣܪܝܠ. ܘ܏ܫ. ܨܚܚܐ ܕܝܢ ܕܡܢܗ ܗܢܐ ܐܬܦܫܩ ܠܣܘܪܝܝܐ

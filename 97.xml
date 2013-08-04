@@ -156,10 +156,12 @@
               <additions>
                 <list>
                   <item n="1" xml:id="p1addition1"><locus from="10b" to="10b"/><locus from="16a" to="16a"/><ref target="#p1a1 #p1handNote2"/>
-                    <desc>Brief notes, which occasionally explain Greek words; e. g. fol. 10b:</desc><quote xml:lang="syr"> ܗܪܟܐ ܠܚܒܝܨܐ ܝܘܢܐܝܬܼ ܐܢܩܪܝܣ</quote>(ch. xi. 8, <quote xml:lang="grc">ἐγκρὶς</quote>)
-                    <quote xml:lang="syr">  ܫܡܗ. ܐܝܬܘܗܝ ܕܝܢ ܚܕ ܡܢ ܐܕ̈ܫܐ ܕܦܠܩܘܢܬܪ̈ܐ  </quote>(<quote xml:lang="grc">πλακουντάρια</quote>)<quote xml:lang="syr"> ܗܟܢܐ ܘܗܿܘ ܕܦܝܠ ܒܡܫܚܐ.</quote>; 
-                    and fol. 16a:<quote xml:lang="syr">ܓܝܓܘ̈ܢܛܣ̣</quote>(ch. xiii. 34, 
-                    <quote xml:lang="grc">γίγαντας</quote>) <quote xml:lang="syr">ܓܢܒܪ̈ܐ ܝ̈ܠܝܕܝ ܐܪܥܐ</quote><desc>.</desc>
+                    <p>Brief notes, which occasionally explain Greek words; e. g. fol. 10b:</p>
+                    <p><foreign xml:lang="syr"> ܗܪܟܐ ܠܚܒܝܨܐ ܝܘܢܐܝܬܼ ܐܢܩܪܝܣ</foreign>(ch. xi. 8, <foreign xml:lang="grc">ἐγκρὶς</foreign>)</p>
+                    <p><foreign xml:lang="syr">  ܫܡܗ. ܐܝܬܘܗܝ ܕܝܢ ܚܕ ܡܢ ܐܕ̈ܫܐ ܕܦܠܩܘܢܬܪ̈ܐ  </foreign>(<foreign xml:lang="grc">πλακουντάρια</foreign>)
+                    <foreign xml:lang="syr"> ܗܟܢܐ ܘܗܿܘ ܕܦܝܠ ܒܡܫܚܐ.</foreign>;</p> <p>
+                    and fol. 16a:<foreign xml:lang="syr">ܓܝܓܘ̈ܢܛܣ̣</foreign>(ch. xiii. 34, 
+                    <foreign xml:lang="grc">γίγαντας</foreign>) <foreign xml:lang="syr">ܓܢܒܪ̈ܐ ܝ̈ܠܝܕܝ ܐܪܥܐ</foreign>.</p>
                   </item>
                   <item n="2" xml:id="p1addition2"><locus from="41b" to="41b"/><ref target="#p1a1 #p1handNote3"/>
                     <desc>On ch, xxiv. 7 there is the following scholion, fol. 41b.</desc>
