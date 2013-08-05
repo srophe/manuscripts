@@ -205,7 +205,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">XLVIII</citedRange>
-                  <citedRange unit="pp">1:28-29</citedRange>
+                  <citedRange unit="pp">I:28-29</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -327,7 +327,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">XXIII</citedRange>
-                  <citedRange unit="pp">1:15</citedRange>
+                  <citedRange unit="pp">I:15</citedRange>
                 </bibl>
               </listBibl>
             </additional>

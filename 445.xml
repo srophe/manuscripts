@@ -145,7 +145,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">XVIII</citedRange>
-                  <citedRange unit="pp">1:17</citedRange>
+                  <citedRange unit="pp">I:17</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -234,7 +234,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">XXVII</citedRange>
-                  <citedRange unit="pp">1:17</citedRange>
+                  <citedRange unit="pp">I:17</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -325,7 +325,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">XX</citedRange>
-                  <citedRange unit="pp">1:13</citedRange>
+                  <citedRange unit="pp">I:13</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -1197,7 +1197,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">XLV</citedRange>
-                  <citedRange unit="pp">1:27</citedRange>
+                  <citedRange unit="pp">I:27</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -1305,7 +1305,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">XLIII</citedRange>
-                  <citedRange unit="pp">1:27</citedRange>
+                  <citedRange unit="pp">I:27</citedRange>
                 </bibl>
               </listBibl>
             </additional>
