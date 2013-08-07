@@ -1177,6 +1177,7 @@
               <msItem n="2" xml:id="p8a2" defective="true">
                 <locus from="55" to="57"/>
                 <title ref="http://syriaca.org/work/75" type="suppled">Fragments of the Gospel of S. John, according to the Peshitta version</title>
+                <explicit xml:lang="syr"><locus from="57"/>ܫܠ̣ܡ ܝܘܚܢ ܫܠܝ̣ܚܐ</explicit>
                 <note>Contains ch. xx. 25—xxi. 25.</note>
               </msItem>
             </msContents>
@@ -1218,15 +1219,16 @@
                   <desc><ref target="#p8addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
+              <decoDesc>
+                <decoNote xml:id="p8decoNote1" type="rubrication"><ref target="#p8a2"/><locus from="57"/><p>The words <foreign xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢ ܫܠܝ̣ܚܐ</foreign> are written in blue, bordered with red, and the word
+                  <foreign xml:lang="syr">ܫܠ̣ܡ</foreign> is gilded.</p></decoNote>
+              </decoDesc>
               <additions>
                 <p/>
                 <list>
                   <item n="1" xml:id="p8addition1"><locus from="57" to="57"/><ref target="#p8handNote2"/>
                     <p>At the end there is a note, giving the date and the name of the scribe,<persName> David</persName>:</p>
-                    <p><quote xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢܢ ܫܠܝ̣ܚܐ. ܒܪܟܡܪܝ. ܝ̣ܨܦ ܘܚܲܕܬ ܐܘܼܢܓܠܝܘܢ̇ ܗܢܐ. ܕܘܝܕ ܏ܕܒܫܡ ܕܝܪܝܐ ܫܢܬ ܏ܐ ܐܠܦ ܏ܘܬ  </quote></p>
-                    <p><quote xml:lang="syr">ܘ܏ܦܕ ܕܝܘܢ̈ܝܐ.</quote></p>
-                    <p>The words <foreign xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢ ܫܠܝ̣ܚܐ</foreign> are written in blue, bordered with red, and the word
-                      <foreign xml:lang="syr">ܫܠ̣ܡ</foreign> is gilded.</p>                    
+                    <p><quote xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢܢ ܫܠܝ̣ܚܐ. ܒܪܟܡܪܝ. ܝ̣ܨܦ ܘܚܲܕܬ ܐܘܼܢܓܠܝܘܢ̇ ܗܢܐ. ܕܘܝܕ ܏ܕܒܫܡ ܕܝܪܝܐ ܫܢܬ ܏ܐ ܐܠܦ ܏ܘܬ ܘ܏ܦܕ ܕܝܘܢ̈ܝܐ.</quote></p>                 
                   </item>
                   </list>
               </additions>
