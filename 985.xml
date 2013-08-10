@@ -1174,7 +1174,7 @@
                 <title ref="http://syriaca.org/work/72" type="suppled">Fragments of the Gospel of S. Matthew, according to the Peshitta version</title>
                 <note>Contains ch. i. 7—vi. 25.</note>
               </msItem>
-              <msItem n="2" xml:id="p8a2" defective="true">
+              <msItem n="2" xml:id="p8a3" defective="true">
                 <locus from="55" to="57"/>
                 <title ref="http://syriaca.org/work/75" type="suppled">Fragments of the Gospel of S. John, according to the Peshitta version</title>
                 <explicit xml:lang="syr"><locus from="57"/>ܫܠ̣ܡ ܝܘܚܢ ܫܠܝ̣ܚܐ</explicit>
@@ -1228,7 +1228,13 @@
                 <list>
                   <item n="1" xml:id="p8addition1"><locus from="57" to="57"/><ref target="#p8handNote2"/>
                     <p>At the end there is a note, giving the date and the name of the scribe,<persName> David</persName>:</p>
+<<<<<<< HEAD
                     <p><quote xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢܢ ܫܠܝ̣ܚܐ. ܒܪܟܡܪܝ. ܝ̣ܨܦ ܘܚܲܕܬ ܐܘܼܢܓܠܝܘܢ̇ ܗܢܐ. ܕܘܝܕ ܏ܕܒܫܡ ܕܝܪܝܐ ܫܢܬ ܏ܐ ܐܠܦ ܏ܘܬ ܘ܏ܦܕ ܕܝܘܢ̈ܝܐ.</quote></p>                 
+=======
+                    <p><quote xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢܢ ܫܠܝ̣ܚܐ. ܒܪܟܡܪܝ. ܝ̣ܨܦ ܘܚܲܕܬ ܐܘܼܢܓܠܝܘܢ̇ ܗܢܐ. ܕܘܝܕ ܏ܕܒܫܡ ܕܝܪܝܐ ܫܢܬ ܏ܐ ܐܠܦ ܏ܘܬ ܘ܏ܦܕ ܕܝܘܢ̈ܝܐ.</quote></p>
+                    <p>The words <foreign xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢ ܫܠܝ̣ܚܐ</foreign> are written in blue, bordered with red, and the word
+                      <foreign xml:lang="syr">ܫܠ̣ܡ</foreign> is gilded.</p>                    
+>>>>>>> Greeson-Work-Space
                   </item>
                   </list>
               </additions>
@@ -1283,13 +1289,27 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p9a1" defective="true">
                 <locus from="58" to="59"/>
-                <title ref="" type="supplied">Fragments of the Gospel of S. Matthew in Syriac, according to the Peshitta version, with an Arabic translation, in parallel columns.</title>
-                <note>Contains ch. v. 10—19, ch. vi. 13—24.</note>
+                <title ref="http://syriaca.org/work/73" type="supplied">Fragments of the Gospel of S. Matthew in Syriac, according to the Peshitta version.</title>
+                <note><p>Contains ch. v. 10—19, ch. vi. 13—24.</p>
+                  <p>With an <ref target="#p9a2">Arabic translation</ref>, in parallel columns.</p></note>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective="true">
+              <msItem n="2" xml:id="p9a2" defective="true">
+                <locus from="58" to="59"/>
+                <title ref="http://syriaca.org/work/204" type="supplied">Fragments of the Gospel of S. Matthew, according to the Peshitta version, in Arabic translation.</title>
+                <note><p>Contains ch. v. 10—19, ch. vi. 13—24.</p>
+                  <p>Parallel column to <ref target="#p9a1"/>Syriac translation</p></note>
+              </msItem>
+              <msItem n="3" xml:id="p9a3" defective="true">
                 <locus from="60" to="65"/>
-                <title ref="" type="supplied">Fragments of the Gospel of S. Mark in Syriac, according to the Peshitta version, with an Arabic translation, in parallel columns.</title>
-                <note>Contains ch. xii. 14 and 20, xii. 39—xiv. 13, and xiv. 28—40.</note>
+                <title ref="http://syriaca.org/work/74" type="supplied">Fragments of the Gospel of S. Mark in Syriac, according to the Peshitta version.</title>
+                <note><p>Contains ch. xii. 14 and 20, xii. 39—xiv. 13, and xiv. 28—40.</p>
+                  <p>With an <ref target="#p9a4">Arabic translation</ref>, in parallel columns</p></note>
+              </msItem>
+              <msItem n="4" xml:id="p9a4" defective="true">
+                <locus from="60" to="65"/>
+                <title ref="http://syriaca.org/work/205" type="supplied">Fragments of the Gospel of S. Mark, according to the Peshitta version, in Arabic translation.</title>
+                <note><p>Contains ch. xii. 14 and 20, xii. 39—xiv. 13, and xiv. 28—40.</p>
+                  <p>Parallel column to <ref target="#p9a3"/>Syriac translation</p>.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -1431,14 +1451,11 @@
                   <item n="1" xml:id="p10addition1"><locus from="66" to="66"/><ref target="#p10handNote2"/>
                     <p>On the lower margin there is a note, written by one <persName>Yeshūa’</persName>, the disciple of <persName>Joel</persName> (?), stating that the manuscript, of which this leaf formed part, belonged to a monk and priest named <persName>Rabban Běrīchā</persName> of <placeName>Jerusalem</placeName>. 
                     </p>
-                    <quote xml:lang="syr"><p>ܗܢܐ ܟܘܪܣܐ. . . ܒܐ ܠܪܒܢ ܒܪܝܟܐ ܕܝܪܝܐ ܢܟܦܐ. ܏ܘܩܫܝ ܙܗܝܐ. ܕܡܬܝܕܥ ܐܘܪܫܠܡܝܐ. ܘܡܪܝܐ </p>
-                      <p>ܢܢܛܪܝܘܗܝ ܐܡܝܢ. ܘܡ̇ܢܛܪ ܠܢ ܡܪܝܐ ܒܨ̈ܠܘܬܗ ܐܡܝܢ. (ܟـ)ܬܒ̣ ܣܘܪ̈ܛܐ ܗܠܝܢ ܝܫܘܥ ܐܟܣܢܝܐ.</p>
-                      <p>ܕܡܬܝܕܥ ܬܪܒܝܬܐ ܕܝܝܐܝܠ (sic) ܐܠܗܐ ܚܘܢ̣ܝܗܝ.</p></quote>
-                    ></item>
+                    <p><quote xml:lang="syr">ܗܢܐ ܟܘܪܣܐ. . . ܒܐ ܠܪܒܢ ܒܪܝܟܐ ܕܝܪܝܐ ܢܟܦܐ. ܏ܘܩܫܝ ܙܗܝܐ. ܕܡܬܝܕܥ ܐܘܪܫܠܡܝܐ. ܘܡܪܝܐ ܢܢܛܪܝܘܗܝ ܐܡܝܢ. ܘܡ̇ܢܛܪ ܠܢ ܡܪܝܐ ܒܨ̈ܠܘܬܗ ܐܡܝܢ. (ܟـ)ܬܒ̣ ܣܘܪ̈ܛܐ ܗܠܝܢ ܝܫܘܥ ܐܟܣܢܝܐ. ܕܡܬܝܕܥ ܬܪܒܝܬܐ ܕܝܝܐܝܠ (sic) ܐܠܗܐ ܚܘܢ̣ܝܗܝ.</quote></p>
+                    </item>
                   <item n="2" xml:id="p10addition2"><locus from="66" to="66"/><ref target="#p10handNote2"/>
                     <p>Another note, on the outer margin of the same page, and in the same handwriting, refers to the assumption of the monastic garb by the disciple, of one <persName>Thomas</persName>.</p>
-                    <quote xml:lang="syr"><p>ܗ̈ܘܝ ܗܠܝܢ ܒܝܘܡ ܚܕܒܫܒܐ ܒ܏ܝܙ ܒܬܫܪܝܢ ܐܚܪܝ. ܘܒܗ̇ܘ ܝܘܡܐ ܠܒ̣ܫ ܬܠܡܝܕܗ ܕܬܐܘܡܐ ܐܣܟܝܡܐ</p>
-                      <p>ܕܕܝܪܝܘܬܐ. ܡܢ ܕܝܪܐ ܕܒܡܘܙܐܘܒܙ (?)</p></quote></item>
+                    <p><quote xml:lang="syr">ܗ̈ܘܝ ܗܠܝܢ ܒܝܘܡ ܚܕܒܫܒܐ ܒ܏ܝܙ ܒܬܫܪܝܢ ܐܚܪܝ. ܘܒܗ̇ܘ ܝܘܡܐ ܠܒ̣ܫ ܬܠܡܝܕܗ ܕܬܐܘܡܐ ܐܣܟܝܡܐ ܕܕܝܪܝܘܬܐ. ܡܢ ܕܝܪܐ ܕܒܡܘܙܐܘܒܙ (?)</quote></p></item>
                 </list>
               </additions>
             </physDesc>

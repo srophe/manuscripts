@@ -234,7 +234,7 @@
               <decoDesc>
                 <decoNote xml:id="p1decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "p1decoNote1", "p1decoNote2", etc. If there is only one <msPart>, then the "p1" need not be included.-->
                   <!-- There are many valid entries for @type. See manual for a complete list. -->
-                  <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
+                  <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
                 </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
               </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
               <additions>
@@ -557,6 +557,7 @@
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
       <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
       <change type="planned" subtype="table">Table to be revised.</change>
+      <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
