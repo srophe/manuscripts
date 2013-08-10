@@ -79,19 +79,40 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="8"/>
-                <title ref="" type="supplied">Fragments of the Gospel of S. Matthew, according to the Peshitta version, with an Arabic translation, written in parallel columns</title>
+                <title ref="http://syriaca.org/work/72" type="supplied">Fragments of the Gospel of S. Matthew, according to the Peshitta version.</title>
                 <note>
                   <p>The manuscript of which these leaves once formed part, is now deposited in the <placeName>University Library of Leipzig</placeName>, having been brought from the convent of <placeName>S. Mary Deipara</placeName>, along with other fragments, by <persName>Dr. Tischendorf</persName>. See his <bibl>Tischendorf, “Anecdota Sacra et Profana” (Leipzg, 1861), p. 65</bibl>. It has been carefully described and examined by <persName>Dr. Gildemeister</persName> in his treatise <bibl>Gildemeister, "de Evangeliis in Arabicum e Simplici Syriaca translatis Commentatio Academica," Bonn, 1865</bibl>.</p>
                   <p>Contains ch. vii. 22—xi. 1, xi. 22— xii. 10, and xvi. 21—xvii. 13.</p>
-                  <p>The larger sections are marked both in the Syriac and Arabic texts (see in particular foll. <locus>5a</locus> and <locus>10a</locus>).</p></note>
+                  <p>The larger sections are marked both in the Syriac and Arabic texts (see in particular foll. <locus>5a</locus> and <locus>10a</locus>).</p>
+                  <p>With an <ref target="#a2">Arabic translation</ref>, in parallel columns.</p>
+                </note>
                 </msItem>
               <msItem n="2" xml:id="a2" defective="true">
+                <locus from="1" to="8"/>
+                <title ref="http://syriaca.org/work/204" type="supplied">Fragments of the Gospel of S. Matthew, according to the Peshitta version, in Arabic translation.</title>
+                <note>
+                  <p>The manuscript of which these leaves once formed part, is now deposited in the <placeName>University Library of Leipzig</placeName>, having been brought from the convent of <placeName>S. Mary Deipara</placeName>, along with other fragments, by <persName>Dr. Tischendorf</persName>. See his <bibl>Tischendorf, “Anecdota Sacra et Profana” (Leipzg, 1861), p. 65</bibl>. It has been carefully described and examined by <persName>Dr. Gildemeister</persName> in his treatise <bibl>Gildemeister, "de Evangeliis in Arabicum e Simplici Syriaca translatis Commentatio Academica," Bonn, 1865</bibl>.</p>
+                  <p>Contains ch. vii. 22—xi. 1, xi. 22— xii. 10, and xvi. 21—xvii. 13.</p>
+                  <p>The larger sections are marked both in the Syriac and Arabic texts (see in particular foll. <locus>5a</locus> and <locus>10a</locus>).</p>
+                  <p>Parallel column to <ref target="#a1"/>Syriac translation</p></note>
+              </msItem>
+              <msItem n="3" xml:id="a3" defective="true">
                 <locus from="9" to="15"/>
-                <title ref="" type="supplied">Fragments of the Gospel of S. John, according to the Peshitta version, with an Arabic translation, written in parallel columns</title>
+                <title ref="http://syriaca.org/work/75" type="supplied">Fragments of the Gospel of S. John, according to the Peshitta version.</title>
                 <note>
                   <p>The manuscript of which these leaves once formed part, is now deposited in the <placeName>University Library of Leipzig</placeName>, having been brought from the convent of <placeName>S. Mary Deipara</placeName>, along with other fragments, by <persName>Dr. Tischendorf</persName>. See his <bibl>Tischendorf, “Anecdota Sacra et Profana” (Leipzg, 1861), p. 65</bibl>. It has been carefully described and examined by <persName>Dr. Gildemeister</persName> in his treatise <bibl>Gildemeister, "de Evangeliis in Arabicum e Simplici Syriaca translatis Commentatio Academica," Bonn, 1865</bibl>.</p>
                   <p>Contains ch. viii. 59—x. 18, xvi. 13—xviii. 3, and xix. 27—xx. 25.</p>
-                  <p>The larger sections are marked both in the Syriac and Arabic texts (see in particular foll. <locus>5a</locus> and <locus>10a</locus>).</p></note>
+                  <p>The larger sections are marked both in the Syriac and Arabic texts (see in particular foll. <locus>5a</locus> and <locus>10a</locus>).</p>
+                  <p>With an <ref target="#a4">Arabic translation</ref>, in parallel columns.</p></note>
+              </msItem>
+              <msItem n="4" xml:id="a4" defective="true">
+                <locus from="9" to="15"/>
+                <title ref="http://syriaca.org/work/207" type="supplied">Fragments of the Gospel of S. John, according to the Peshitta version, in Arabic translation.</title>
+                <note>
+                  <p>The manuscript of which these leaves once formed part, is now deposited in the <placeName>University Library of Leipzig</placeName>, having been brought from the convent of <placeName>S. Mary Deipara</placeName>, along with other fragments, by <persName>Dr. Tischendorf</persName>. See his <bibl>Tischendorf, “Anecdota Sacra et Profana” (Leipzg, 1861), p. 65</bibl>. It has been carefully described and examined by <persName>Dr. Gildemeister</persName> in his treatise <bibl>Gildemeister, "de Evangeliis in Arabicum e Simplici Syriaca translatis Commentatio Academica," Bonn, 1865</bibl>.</p>
+                  <p>Contains ch. viii. 59—x. 18, xvi. 13—xviii. 3, and xix. 27—xx. 25.</p>
+                  <p>The larger sections are marked both in the Syriac and Arabic texts (see in particular foll. <locus>5a</locus> and <locus>10a</locus>).</p>
+                  <p>Parallel column to <ref target="#a3"/>Syriac translation</p></note>
               </msItem>
             </msContents>
             <physDesc>
