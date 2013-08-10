@@ -1330,115 +1330,50 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p11a1" defective="">
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="p11a2" defective="">
-                <!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p11a1">
+                <locus from="47" to="47"/>
+                <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, ch. i. 1—11, according to the Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="8.75" unit="in">8 3/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="5.75" unit="in">5 3/4</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>Leaf slightly torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="1" writtenLines="">
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p11handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc/>
+              <handDesc hands="1">
+                <handNote xml:id="p11handNote1" scope="major" script="syr" medium="unknown">
+                  <desc>Written in a current hand of the <origDate from="1100" to="1200">xiith cent.</origDate></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc/>
-                </decoNote>
-              </decoDesc>
-              <additions>
-                <p/>
-                <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                </list>
-              </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace/>
+                <origDate from="1100" to="1200">xiith cent.</origDate>
               </origin>
-              <provenance/>
-              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -1447,12 +1382,6 @@
                         Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
-                <note/>
               </adminInfo>
               <listBibl>
                 <bibl xml:id="Wrightpart11">
@@ -1488,59 +1417,26 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p12a1" defective="">
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="p12a2" defective="">
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p12a1">
+                <locus from="48" to="48"/>
+                <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, ch. i. 1—16, according to the Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="8.75" unit="in">8 3/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="5.75" unit="in">5 3/4</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
                   <condition>
                     <list>
                       <item>
@@ -1550,51 +1446,31 @@
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="1" writtenLines="">
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p12handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc/>
+              <handDesc hands="2">
+                <handNote xml:id="p12handNote1" scope="major" script="syr-Syrn" medium="unknown">
+                  <desc>Written in a Nestorian hand of the <origDate from="0900" to="1000">xth cent.</origDate>, with occasional Syriac vowels.</desc>
+                </handNote>
+                <handNote xml:id="p12handNote2" scope="minor" script="ar" medium="unknown">
+                  <desc><ref target="#p12addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc/>
-                </decoNote>
-              </decoDesc>
               <additions>
                 <p/>
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p12addition1"><locus from="48b" to="48b"/><ref target="#p12handNote2"/>
+                    <p>Of the ancient Arabic writing on the recto scarcely anything is legible.</p></item>
                 </list>
               </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace/>
+                <origDate from="0900" to="1000">xth cent.</origDate>
               </origin>
-              <provenance/>
-              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -1603,12 +1479,6 @@
                         Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
-                <note/>
               </adminInfo>
               <listBibl>
                 <bibl xml:id="Wrightpart12">
@@ -1644,110 +1514,49 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p13a1" defective="">
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="p13a2" defective="">
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p13a1">
+                <locus from="3" to="6"/>
+                <title ref="" type="supplied">The Gospel of S. John, according to the Peshitta version, ch. xviii. 6—xix. 5.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="2">2 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="7.125" unit="in">7 1/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="4.875" unit="in">4 7/8</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>Two leaves much stained and torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="1" writtenLines="">
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p13handNote1" scope="" script="" medium="">
-                  <desc/>
+              <handDesc hands="1">
+                <handNote xml:id="p13handNote1" scope="major" script="syr" medium="unknown">
+                  <desc>The writing is good and regular, of the <origDate from="0900" to="1100">xth or xith cent.</origDate></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc/>
-                </decoNote>
-              </decoDesc>
-              <additions>
-                <p/>
-                <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                </list>
-              </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace/>
+                <origDate from="0900" to="1100">xth or xith cent.</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -1759,12 +1568,6 @@
                         Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
-                <note/>
               </adminInfo>
               <listBibl>
                 <bibl xml:id="Wrightpart13">
@@ -1800,116 +1603,61 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p14a1" defective="">
-                <!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="p14a2" defective="">
-                <!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p14a1">
+                <locus from="51" to="55"/>
+                <title ref="http://syriaca.org/work/79" type="supplied">The 2nd Epistle to the Corinthians, ch. vi. 2-16, and viii. 5—x. 15, according to the Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="5">5 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="8.875" unit="in">8 7/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="6" unit="in">6</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>Leaves slightly soiled and torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="1" writtenLines="">
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p14handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc/>
+              <handDesc hands="2">
+                <handNote xml:id="p14handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a fine, regular Estrangela of the <origDate from="0600" to="0800">viith or viiith cent.</origDate></desc>
+                </handNote>
+                <handNote xml:id="p14handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#p14addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc/>
-                </decoNote>
-              </decoDesc>
               <additions>
                 <p/>
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p14addition1"><locus from="52"/><ref target="#p14handNote2"/>
+                    <p>Fol. 52 has been used as a flyleaf for a volume, of discourses of <persName>Jacob of Batnae</persName>, as appears from the list of contents on the margin:</p>
+                    <quote xml:lang="syr"> ܡܐܡܪ̈ܐ ܥܠ ܣܘܠܩܐ. ܘܥܠ ܒܬܘܠܘܬܐ. ܘܥܠ ܡܪܬܝܢܘܬܐ. ܘܥܠ ܒܪܐ ܕܦ̇ܪܚ ܢܟܣ̈ܘܗܝ. ܘܥܠ ܡܓܕܦܢܐ. ܘܥܠ ܪ̈ܐܙܐ ܩܕܝ̈ܫܐ. ܘܥܠ ܐܒܘܢ ܕܒܫܡܝܐ. ܘܥܠ ܪܚ̇ܡܥܠܝ ܐܝܟ ܛܝܒܘܬܟ. ܘܥܠ ܝܘܣܦ.</quote></item>
                 </list>
               </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace/>
+                <origDate from="0600" to="0800">viith or viiith cent.</origDate>
               </origin>
-              <provenance/>
-              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -1954,112 +1702,61 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p15a1" defective="">
-                <!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="p15a2" defective="">
-                <!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p15a1">
+                <locus from="56" to="56"/>
+                <title ref="http://syriaca.org/work/90" type="supplied">The Epistle to the Hebrews, ch. xii. 28 to the end, according to the Peshitta version.</title>
+                <colophon><ref target="#p14addition1"/>See below.</colophon>
+                <note>It is the last leaf of a Nestorian manuscript of the New Testament, dated <origDate when-custom="0993” datingMethod="Seleucid”>A.Gr. 993</date>, <origDate when-custom="0063" datingMethod="Hijri-qamari">A.H. 63</origDate>, <origDate when="0682">A.D. 682</origDate>.</note>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="7.75" unit="in">7 3/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="4.875" unit="in">4 7/8</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>Leaf much torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="1" writtenLines="">
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p15handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc/>
+              <handDesc hands="1">
+                <handNote xml:id="p15handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a small, neat Estrangela.</desc>
                 </handNote>
-              </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc/>
-                </decoNote>
-              </decoDesc>
+                </handDesc>
               <additions>
                 <p/>
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p14addition1"><locus from="56" to="56"/><ref target="p15handNote1"/>
+                    <p>The colophon, which is unfortunately much mutilated, runs as follows:</p>
+                    <p><quote xml:lang="syr"> ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܕܚܕܬܐ ܒܫܢܬ ܬܫܥܡܐܐ ܘܬܫܥܝܢ ܘܬܠܬ ܒܕܝܘ̈ܢܝܐ ܕܐܝܬܝܗ ܒܕܡܗܓܪ̈ܝܐ ܒ̈ܢܝ ܐܝܫـ[ܡܥܐܝܠ] ܒܪ ܗܓܪ ܒܪ ܐܒܪܗܡ ܫܢܬ ܫܬܝܢ ܘܬܠܬ ܒ . . .  ܕܪܥܝܐ ܥܝܪܐ ܘܚܦܝܛܐ ܡܕ . . . ܡܫܝܚܐ ܡܪܝ ܓܝܘܪܓܝܣ . . . ܒܐܣܟܘܠܐ ܕܕܝܪܐ ܩܕܝܫܐ . . . ܢܨܝܚܐ ܕܨܠܘܬܗ ܬܥܕܪ ܠܢ ܐܒܐ.......ܡܛܪܦܘܠܝܛܣ ܕܥܕܬܐ ܩܕܝܫܐܬ.......ܡܪܝ ܩܪܚܐ (؟) ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ . . . 
+                      ܡܩܪܝܢܐ ܕܝܠܗ̇ ܕܐܣܟܘܠܐ . . . ܕܐ . . . ܘܘ ܒܗ̇ ܒܐܣـ[ܟܘܠܐ] . . . ܐ . . ܐ ܫ̈ܡܗܐ ܐ . . . ܐܦܪܝ ܘܓܘܫܢܘܝ ܘܝܫ . . .ܘܩܛܝܢܝ . ܘܓܝܘܪܓܝ . . . ܘܕܫܪܟܐ ܕܐܚܘܬܐ . . . ܟܝܢܐ ܕܟܣܸܐ ܡـ . . . </quote></p></item>
                   <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
                 </list>
               </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
+                <origDate when-custom="0993” datingMethod="Seleucid”>A.Gr. 993</date>, <origDate when-custom="0063" datingMethod="Hijri-qamari">A.H. 63</origDate>, <origDate when="0682">A.D. 682</origDate>
                 <origPlace/>
               </origin>
               <provenance/>
