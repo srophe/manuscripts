@@ -92,9 +92,12 @@
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="perg">
+                <supportDesc material="mixed">
                   <support>
                     <material>Vellum</material>
+                  </support>
+                  <support>
+                    <material>Paper</material>
                   </support>
                   <extent>
                     <measure type="composition" unit="leaf" quantity="83">83 ff.</measure>
@@ -144,6 +147,9 @@
                   <item n="1" xml:id="addition1"><locus from="83b"/><ref target="#handNote3"/>
                     <p>According to the notes on the same page, this manuscript was written by a person named <persName>George</persName>, and belonged to the <placeName>convent of Silvanus</placeName>, near <placeName>Damascus</placeName>, having been purchased for it by the abbat.</p>
                     <p><quote xml:lang="syr">ܨܠܘ ܡܪܝ ܥܠ ܓܘܪܓܝܣ ܒܨܝܪܐ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ ܐܡܝܢ.܀ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܣܝܠܘܢܐ̣. ܕܫܘܠܛܢܐ ܕܕܡܣܩܘܣ ܡܕܝܢܬܐ. ܐܠܐ ܟܠ ܕܫ̇ܩܠ ܠܗ ܒܚܕ ܡܢ ܙܢ̈ܝܢ: ܘܠܐ ܡ̇ܦܢܐ ܠܗ ܠܥܘܡܪܐ[ܐ ܕܐܡܝܪ:] ܥܠ ܡܠܬܐ ܕܚܝܠ̣ܬܐ ܘܙܝܥ̣ܬܐ ܕ[ܐܠܗܐ] ܥ̇ܒܪ܀܀ܙܒ̣ܝܢ ܕܝܢ ܟܬܒܐ ܗܢܐ̣ . . . ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܥܘܡܪ[ܐ] . . . ܠܝܘܬܪܢܐ ܕܚ̈ܝܘܗܝ ܘܠ . . . ܕܥܢ̣ܕܘ ܒܗ . . .  ܕܫܪ. . . </quote></p></item>
+                  <item n="2" xml:id="addition2"><ref target="#handNote3"/>
+                    <p>Foll. <locus>1</locus>, <locus>2</locus>, <locus>63</locus>, and <locus>66</locus> are paper leaves of the <date from="1100" to="1200">xiith cent.</date></p>
+                  </item>
                 </list>
               </additions></physDesc>
             <history>
