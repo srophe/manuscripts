@@ -128,7 +128,7 @@
                   <desc>This volume is written in a good, regular Estrangela of the <origDate from="0500" to="0700">vith or viith cent.</origDate>, with an <ref target="#handNote2">exception</ref>.</desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-<desc>With the exception of foll. <locus>1</locus>, <locus>2</locus>, <locus>63</locus>, and <locus>66</locus>, which are paper leaves of the <date from="1100" to="1200">xiith cent.</date></desc> 
+                  <desc><ref target="#addition2">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition1">See additions.</ref></desc>
