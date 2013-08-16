@@ -3838,6 +3838,8 @@ tei_persName =
   element persName {
     tei_macro.phraseSeq,
     tei_quote*,
+    tei_model.placeLike*,
+    tei_listPlace*,
     att.global.attributes,
     att.datable.attributes,
     att.editLike.attribute.cert,
