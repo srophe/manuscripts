@@ -150,7 +150,7 @@
                      <ref target="#p1handNote1"/>
                      <p>The following <ref target="#p1addition1 #p1addition2 #p1addition3">notes</ref> are similar to those of <bibl><ptr target="http://syriaca.org/manuscript/84"/>MS Add 14428</bibl> and <bibl><ptr target="http://syriaca.org/manuscript/86"/>MS Add 14430</bibl></p>
                      <p><quote xml:lang="syr">ܐܫܬ݁ܠܡ ܟܬܒܐ ܗܢܐ ܕܚܙܩܝܐܝܠ ܘܚܒܪ̈ܘܗܝ ܟܠܗܘܢ: ܗ̣ܘܐ ܕܝܢ ܗ̣ܘ ܐܚܪܝܐ ܕܕܝܼܬܩܐ ܟܠܗ̣̇. ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܐܣܦܩܠܝܣ ܕܨܝܕ ܪܝܫܥܝܢܐ ܡܕܝܢܬܐ. ܝܘܡ ܚܕ ܒܢܝܣܢ. ܫܢܬ ܐܠܦܐ ܘܬܠܬܝܢ ܘܫܒܥ. ܒܩܘܡܐ ܘܒܡܕܒܪܢܘܬܐ̣. ܕܡܪܝ ܩܘ݊ܣܛܢܛܝܢܐ ܐܦܝܣܩܘܦܐ ܕܝܠܗ ܕܥܘܡܪܐ. ܘܕܡܪܝ ܫܡܥܘܢ ܪܝܫܕܝܪܐ̣. ܘܡܪܝ ܬܝܕܣܝ ܦܪܢܣܐ. ܕܒܨ̈ܠܘܬܗܘܢ ܢܬܚ̣ܢܢ ܚܛ̇ܝܐ ܣܒܐ ܡܫܡܫܢܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ ܕܟܬ̣ܒ܇ ܘܬܘ ܛܡܝܡܐ ܒܟܠܗ̇ ܕܝܬܩܐ ܠܐ ܥܒ̣ܕ܀ ܐܡܝܢ ܘܐܡܝܢ܀ ܀</quote></p>
-                     <p>"This book of Ezekiel and all its companion volumes, for it was the last of the whole Testament, were finished in the <placeName ref="">holy convent of the Specula (or Watchtower)</placeName>, which is near the city of <placeName ref="">Rās’ain</placeName>, on the 1st of Nīsān, in the year <origDate when-custom="1037" calendar="Seleucid">1037</origDate> (<origDate when="0726" calendar="Gregorian">A.D. 726</origDate>), during the time of office and administration of  <persName ref="">Mār Constantine</persName>, the bishop of that convent, and of <persName ref="">Mār Simeon</persName> the abbat, and of <persName ref="">Mār Theodosius</persName> the steward; through whose prayers may the sinner <persName ref="" resp="scribe">Sābā</persName> obtain mercy, the deacon (and) scribe of Rās’ain, who wrote, and did not make a single blotted tau in the whole Testament. Amen and Amen."</p>
+                     <p>"This book of Ezekiel and all its companion volumes, for it was the last of the whole Testament, were finished in the <placeName ref="">holy convent of the Specula (or Watchtower)</placeName>, which is near the city of <placeName ref="">Rās’ain</placeName>, on the 1st of Nīsān, in the year <origDate when-custom="1037" calendar="Seleucid">1037</origDate> (<origDate when="0726" calendar="Gregorian">A.D. 726</origDate>), during the time of office and administration of <persName ref="">Mār Constantine</persName>, the bishop of that convent, and of <persName ref="">Mār Simeon</persName> the abbat, and of <persName ref="">Mār Theodosius</persName> the steward; through whose prayers may the sinner <persName ref="" resp="scribe">Sābā</persName> obtain mercy, the deacon (and) scribe of <placeName>Rās’ain</placeName>, who wrote, and did not make a single blotted tau in the whole Testament. Amen and Amen."</p>
                   </item>
                    <item n="2" xml:id="p1addition2">
                       <locus from="42b" to="42b"/>
@@ -192,7 +192,7 @@
               <bindingDesc/>
               <sealDesc/>
               <accMat>
-                 <p><ref target="#p1addition6">A marginal note</ref> on <locus from="1b" to="1b">fol. 1 b</locus>, informs us that the <bibl>Thesaurus of Cyril</bibl> was bound up with this book, which is still the fact:</p>
+                 <p><ref target="#p1addition6">A marginal note</ref> on <locus from="1b" to="1b">fol. 1 b</locus>, informs us that the <bibl>Thesaurus of Cyril</bibl> was bound up with this book, which is still the fact.</p>
               </accMat>
             </physDesc>
             <history>
@@ -498,4 +498,3 @@
     </body>
   </text>
 </TEI>
-
