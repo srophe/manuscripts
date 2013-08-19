@@ -79,7 +79,7 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1">
                 <locus from="1a" to="1a">Fol. 1a</locus>
-                <title type="supplied">Index of reading lessons</title><!-- Should we mint a URI for indices? -->
+                <title type="supplied">Index of reading lessons.</title><!-- Should we mint a URI for indices? -->
                  <quote xml:lang="syr"><p>ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܥܐ̈ܕܐ ܕܡܬܩܪܝܢ ܒܛܟܣܐ ܒܥܕܬܐ</p>.
                     <p>ܕܒܝܬ ܝܠܕܐ   ܒܟܘܪܣܐ ܕ   ܒܕܦܐ ܙ</p>
                     <p>ܕܒܝܬ ܕܢܚܐ   ܒܟܘܪܣܐ ܐ   ܒܕܦܐ ܐ</p>
@@ -90,7 +90,7 @@
               </msItem>
                <msItem n="2" xml:id="a2" defective="true">
                 <locus from="1" to="100">Foll. 1-100</locus>
-                <title ref="http://syriaca.org/work/26" type="supplied">Ezekiel, accordingto the Peshitta version</title>
+                <title ref="http://syriaca.org/work/26" type="supplied">Ezekiel, according to the Peshitta version.</title>
                   <rubric xml:lang="syr">ܢܒܝܘܬܗ̣ ܕܚܙܩܝܐܝ
                   <locus from="1" to="1"/>
                 </rubric>
@@ -156,7 +156,7 @@
               </handDesc>
               <decoDesc>
                 <decoNote xml:id="decoNote1" type="illustration">
-                   <desc>At the foot of foll. <locus from="80b" to="80b">80 b</locus>, <locus from="93b" to="93b">93 b</locus>, and <locus from="99b" to="99b">99 b</locus>, there are drawings, of a later date than the manuscript, representing a peacock, and birds feeding their young in the nest</desc>
+                   <desc>At the foot of foll. <locus from="80b" to="80b">80 b</locus>, <locus from="93b" to="93b">93 b</locus>, and <locus from="99b" to="99b">99 b</locus>, there are drawings, of a later date than the manuscript, representing a peacock, and birds feeding their young in the nest.</desc>
                 </decoNote>
               </decoDesc>
                <additions>
