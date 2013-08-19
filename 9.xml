@@ -131,21 +131,21 @@
                   <locus from="2b" to="177b">Foll. 2b-177b</locus>
                   <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
                   <msItem n="2" xml:id="p1b1">
-                     <locus from="2b" to="61">Foll. 2b-61</locus>
+                     <locus from="2b" to="61b">Foll. 2b-61b</locus>
                      <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
                   </msItem>
                   <msItem n="3" xml:id="p1b2">
-                     <locus from="61b" to="99">Foll. 61b-99</locus>
+                     <locus from="61b" to="99a">Foll. 61b-99a</locus>
                      <title ref="http://syriaca.org/work/73" type="supplied">Mark</title>
                   </msItem>
                   <msItem n="4" xml:id="p1b3">
-                     <locus from="99a" to="163">Foll. 99a-163</locus>
+                     <locus from="99a" to="163b">Foll. 99a-163b</locus>
                      <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
                   </msItem>
                   <msItem n="5" xml:id="p1b4" defective="true">
                      <locus from="163b" to="177b">Foll. 163b-177b</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
-                    <note>As far as ch. vi. 52</note>
+                    <note>As far as ch. vi. 52.</note>
                   </msItem>
                  <note>The lessons are indicated by <foreign xml:lang="syr">ܩ</foreign> on the margins, with the appropriate rubric at the top of the column, and <foreign xml:lang="syr">ܫ</foreign> at the end.</note>
                </msItem>
@@ -181,7 +181,7 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="2" writtenLines="22 25">
-                    <p>Each page is divided into two columns, of from 22 to 25 lines. </p>
+                    <p>Each page is divided into two columns, of from 22 to 25 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
@@ -209,7 +209,7 @@
                     <p>Vowels have been added in <locus from="1" to="61">the first 61 leaves</locus> by a much later hand (<foreign xml:lang="syr">ܰ, ܶ, ܺ, ܳ</foreign>, , or, , , ,). </p><!-- NEED VOWELS -->
                   </item>
                   <item n="3" xml:id="p1addition3">
-                    <p>Many lessons have been noted by two later hands, one of which has introduced a marginal division of the Gospels into sections. Of these there are 22 in <ref target="#p1b1">S. Matthew</ref>, 13 in <ref target="#p1b2">S. Mark</ref>, 23 in <ref target="#p1b3">S. Luke</ref>, and 6 in <ref target="#p1b4">the remaining portion of S. John</ref>.</p>
+                    <p>Many lessons have been noted by two later hands, one of which has introduced a marginal division of the Gospels into sections. Of these there are 22 in <ref target="#p1b1">S. Matthew</ref>, 13 in <ref target="#p1b2">S. Mark</ref>, 23 in <ref target="#p1b3">S. Luke</ref>, and 6 in the remaining portion of <ref target="#p1b4">S. John</ref>.</p>
                   </item>
                 </list>
               </additions>
@@ -505,7 +505,7 @@
                     <locus from="213a" to="213a"/>
                     <p>After the usual doxology, there follow two notes, but both have been erased, so as to be now almost illegible. The first begins:</p>
                     <p><quote xml:lang="syr">ܐܬܚܦܛ ܕܝܢ . . . ܟܬܒܐ ܗܢܐ ܡܪܝ ܝܘܚܢܢ ܩܫܝܫܐ ܡܢ ܥܘܡܪܐ ܩܕܝܫܐ ܕܡܪܝ ܗܒܝܠ ܛܘܒܢܐ. . .</quote></p>
-                    <p><quote>"<persName ref="">Mār John the priest</persName>, from the holy <placeName ref="">convent of the blessed Mār Abel</placeName>, [probably the convent of Mār Abel in <listPlace><place ref=""><placeName>Ma’dān,</placeName> <placeName xml:lang="syr">ܡܥܪܢ</placeName></place></listPlace>, mentioned by <bibl>Assemani, Bibl. Orient., t. ii. Dissert. de Monophys., art. ix.</bibl>] used diligence and . . . this book . . .”</quote></p>
+                    <p><quote>"<persName ref="">Mār John the priest</persName>, from the holy <placeName ref="">convent of the blessed Mār Abel</placeName>, [probably the <placeName>convent of Mār Abel</placeName> in <listPlace><place ref=""><placeName>Ma’dān,</placeName> <placeName xml:lang="syr">ܡܥܪܢ</placeName></place></listPlace>, mentioned by <bibl>Assemani, Bibl. Orient., t. ii. Dissert. de Monophys., art. ix.</bibl>] used diligence and . . . this book . . .”</quote></p>
                   </item>
                   <item n="4" xml:id="p4addition4">
                     <locus from="213a" to="213a"/>
@@ -513,7 +513,7 @@
                   </item>
                   <item n="5" xml:id="p4addition5">
                     <locus from="213b" to="213b"/>
-                    <p>On fol. 213b are two notes, the one stating that this book belonged to the <placeName ref="">convent of S. Mary Deipara</placeName>, the other that it was bound by one <persName ref="">Ephraim</persName>, a stranger or guest (<foreign xml:lang="syr">ܐܟܣܢܝܐ</foreign>, <foreign xml:lang="grc">ξένος</foreign>) in that convent, from the <placeName ref="">convent of Sergius</placeName> near <placeName ref="">Balad</placeName> (<foreign xml:lang="syr">ܒܠܕ</foreign>, <foreign xml:lang="ar"><!-- NEEDS ARABIC --></foreign>). See <bibl>Assemani, Bibl. Orient. t. ii. Dissert. de Monophys., art. ix., Balada and Monasterium S. Sergii.</bibl></p>
+                    <p>On fol. 213b are two notes, the one stating that this book belonged to the <placeName ref="">convent of S. Mary Deipara</placeName>, the other that it was bound by one <persName ref="">Ephraim</persName>, a stranger or guest (<foreign xml:lang="syr">ܐܟܣܢܝܐ</foreign>, <foreign xml:lang="grc">ξένος</foreign>) in that convent, from the <placeName ref="">convent of Sergius</placeName> near <placeName ref="">Balad</placeName> (<foreign xml:lang="syr">ܒܠܕ</foreign>, <foreign xml:lang="ar"><!-- NEEDS ARABIC --></foreign>). See <bibl>Assemani, Bibl. Orient. t. ii. Dissert. de Monophys., art. ix., Balada and Monasterium S. Sergii</bibl>.</p>
                     <p><quote xml:lang="syr">ܕܒܩ ܘܨܒܬ ܠܟܬܒܐ ܗܢܐ ܐܦܪܝܡ ܐܟܣܢܝܐ ܡܢ ܥܘܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܣܐܪܓܝܣ ܕܒܐܬܪ ܕܥܪ̈ܒܝܐ ܘܒܠܕ ܡܪܝܐ ܢܚܣܐ ܠܗ ܘܠܟܠ ܕܐܫܬܘܬܦ. ܐܡܝܢ..</quote></p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܐܘܢܓܠܝܘܢ ܕܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܡܨܪܝܢ ܘܠܐ ܐܢܫ ܫܠܝܛ ܒܡܠܬܐ ܕܐܠܗܐ ܕܢܘܒܕܝܘܗܝ ܒܚܕ ܡܢ ܙܢܝ̈ܢ ܡܢܗ̇ ܕܕܝܪܐ ܕܐܡܝܪܐ ܚܘܣ ܐܚܘܢ ܥܠ ܢܦܫܟ ܘܠܐ ܬܣܥܐ.</quote></p>
                   </item>
@@ -780,4 +780,3 @@
     </body>
   </text>
 </TEI>
-
