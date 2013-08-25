@@ -85,40 +85,40 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
-                <locus from="1a" to="1a"/>
-                <title type="supplied">Imperfect extract of a fragment of Hippolytus.</title>
+                <locus from="1a" to="1a">Fol. 1a</locus>
+                <title type="supplied" ref="">Imperfect extract of a fragment of Hippolytus.</title>
                 <incipit xml:lang="syr">ܩܪ̈ܨܐ ܕܕܘܝܕ ܏ܣܒ̣ ܟܕ ܒܡܕܒܪܐ ܕܐܕܘܡ ܥ̣ܪܩ ܕܘܝܕ. ܢ܏ܓ̣ ܟܕ ܐ̇ܟܠܝܢ ܩܪ̈ܨܘܗܝ ܕܕܘܝܕ ܙܝ̈ܦܝܐ ܒܡܥܪܬܐ. ܘ܏ܫ.
                   <locus from="1a" to="1a"/>
                 </incipit>
                 <note>Imperfect extract, part of which corresponds very closely to the fragment of Hippolytus edited by Dr. de Lagarde in his <bibl>de Lagarde, Analecta Syriaca, p. 87, lines 26—30</bibl>.</note>
               </msItem>
               <msItem n="2" xml:id="p1a2" defective="true">
-                <locus from="1b" to="1b"/>
-                <title type="supplied">Imperfect extract from Hippolytus.</title>
+                <locus from="1b" to="1b">Fol. 1b</locus>
+                <title type="supplied" ref="">Imperfect extract from Hippolytus.</title>
                 <incipit xml:lang="syr"> ܕܐܝܦܘܠܝܛܘܣ ܐܦܣܩܦܐ ܕܪܗܘܡܐ̣. ܫܪܒܐ ܕܬܫܥܝܬܐ ܕܥܠ ܡܙܡܘܪ̈ܐ. 
                   <locus from="1b" to="1b"/>
                 </incipit>
                 <note>See <bibl>de Lagarde's Analecta Syriaca, p. 83, line 29—p. 85, line 1.</bibl></note>
               </msItem>
               <msItem n="3" xml:id="p1a3" defective="true">
-                <locus from="3a" to="3a"/>
-                <title type="supplied">Imperfect extract from Basil on Ps. I.</title>
+                <locus from="3a" to="3a">Fol. 3a</locus>
+                <title type="supplied" ref="">Imperfect extract from Basil on <ref target="#p1a9">Ps.</ref> I.</title>
                 <incipit xml:lang="syr">ܩ̇ܪܐ ܠܕܡܥܬܐ. ܡܢܐ ܓܪܝ ܠܐ ܝ̇ܠܦ ܐܢܬ ܡܢ ܗܪܟܐ. ܠܘ ܪܒ̇ܘܬ ܦܐܝܘܬܐ ܕܓܢ̱ܒܪܘܬܐ. ܘ܏ܫ.. 
                   <locus from="3a" to="3a"/>
                 </incipit>
                 <note>Imperfect extract from Basil on Ps. I. (<bibl>Opera, ed. 1839, t. i. pp. 128-9</bibl>).</note>
               </msItem>
               <msItem n="4" xml:id="p1a4" defective="true">
-                <locus from="3a" to="3a"/>
-                <title type="supplied">Extract from Basil on Ps. I.</title>
-                <incipit xml:lang="syr">ܠܩܝܬܪܐ ܡ̇ܢ ܓܝܼܪ ܘ݊ܠܠܘ̣ܿܪܐ̣ (marg. <foreign xml:lang="grc">λγρα</foreign>) ܢܚܫܐ ܡܢ ܠܬܚܬ ܙܐ̇ܡ ܠܘ݊ܪܐ ܐܝܬܝܗ̣̇(marg. ܠܘܬ ܢܩܘܫܐ. ܘ܏ܫ. ܡܐܢܐ ܕܡܘܣܝܩܪܘܬܐ) 
+                <locus from="3a" to="3a">Fol. 3a</locus>
+                <title type="supplied" ref="">Extract from Basil on <ref target="#p1a9">Ps.</ref> I.</title>
+                <incipit xml:lang="syr">ܠܩܝܬܪܐ ܡ̇ܢ ܓܝܼܪ ܘ݊ܠܠܘ̣ܿܪܐ̣ ܢܚܫܐ ܡܢ ܠܬܚܬ ܙܐ̇ܡ ܠܘ݊ܪܐ (marg. <quote xml:lang="grc">λγρα</quote>) ܐܝܬܝܗ̣̇ (marg.  ܠܘܬ ܢܩܘܫܐ. ܘ܏ܫ. ܡܐܢܐ ܕܡܘܣܝܩܪܘܬܐ) 
                   <locus from="3a" to="3a"/>
                 </incipit>
                 <note>See note <ref target="#p1a3">above</ref>. <bibl>Opera, ed. 1839, t. i. pp. 129</bibl></note>
               </msItem>
               <msItem n="5" xml:id="p1a5" defective="true">
-                <locus from="3b" to="3b"/>
-                <title type="supplied">Imperfect extract from Eusebius</title>
+                <locus from="3b" to="3b">Fol. 3b</locus>
+                <title type="supplied" ref="">Imperfect extract from Eusebius</title>
                 <rubric xml:lang="syr"><locus from="3b" to="3b"/>ܕܐܘܣܒܝܣ ܕܦܡܦܘܠܘܣ̣ ܫܪܒܐ ܕܥܠ ܡܙܡܘܪ̈ܐ,</rubric>
                 <incipit xml:lang="syr">܏ܐ. ܩܕܡܝܐ̣. ܚܘܦܿܛܐ ܕܕܚܠܬ ܐܠܗܐ̣ ܘܡܬܟܠܝܢܘܬܐ ܕܡܢ ܗ̇ܝ ܕܠܩܘܒܠܐ. 
                   <locus from="3b" to="3b"/>
@@ -126,21 +126,21 @@
                 <note>See <bibl>Montfaucon, Collectio Nova Patrum et Scriptt. Graecc., t. i. p. 2</bibl>.</note>
               </msItem>
               <msItem n="6" xml:id="p1a6" defective="true">
-                <locus from="4a" to="4a"/>
-                <title type="supplied">Imperfect extract from the letter of Athanasius to Marcellinus.</title>
+                <locus from="4a" to="4a">Fol. 4a</locus>
+                <title type="supplied" ref="">Imperfect extract from the letter of Athanasius to Marcellinus.</title>
                 <incipit xml:lang="syr">ܛܪܘܢܐ ܩܡ ܥܠ ܥܡܐ ܘܥܠܝܟ: ܐܝܟܢܐ ܕܓܘܠܝܕ ܥܠ ܕܘܝܕ̣. ܠܐ ܬܕܚ̣ܠ ܘ܏ܫ. 
                   <locus from="4a" to="4a"/>
                 </incipit>
                 <note>See <bibl>Opera, ed. 1698, t. i., pars 2, p. 998</bibl>.</note>
               </msItem>
               <msItem n="7" xml:id="p1a7" defective="true">
-                <locus from="5a" to="5a"/>
-                <title type="supplied">Imperfect extract, containing explanations of Hebrew names and words</title>
-                <note>Such as: <foreign xml:lang="syr">ܙܡܪܝ, ܦܪܥܘܢ, ܦܝܢܚܣ, ܚܡ, ܟܐܪܘܒ, ܚܘܫܝ, ܚܘܪܝܒ</foreign>, etc.</note>
+                <locus from="5a" to="5a">Fol. 5a</locus>
+                <title type="supplied" ref="">Imperfect extract, containing explanations of Hebrew names and words</title>
+                <note>Such as: <quote xml:lang="syr">ܙܡܪܝ, ܦܪܥܘܢ, ܦܝܢܚܣ, ܚܡ, ܟܐܪܘܒ, ܚܘܫܝ, ܚܘܪܝܒ</quote>, etc.</note>
               </msItem>
               <msItem n="8" xml:id="p1a8" defective="true">
-                <locus from="5a" to="5a"/>
-                <title type="supplied">Imperfect extract from Origen</title>
+                <locus from="5a" to="5a">Fol. 5a</locus>
+                <title type="supplied" ref="">Imperfect extract from Origen</title>
                 <rubric xml:lang="syr"><locus from="5a" to="5a"/>
                   ܕܐܘܪܝܓܢܝܣ̣. ܫܪܒܐ̣ ܕܡܛܠ ܡܙܡܘܪ̈ܐ,
                 </rubric>
@@ -151,32 +151,40 @@
     <!-- Question about Syriac in Word doc -->
               </msItem>
               <msItem n="9" xml:id="p1a9">
-                <locus from="5a" to="79b"/>
-                <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
-                <title ref="http://syriaca.org/work/158" type="supplied">The Psalms, translated from the Septuagint by Paul of Tellā</title>
+                <locus from="5a" to="79b">Foll. 5a-79b</locus>
+                <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></editor>
+                <title ref="http://syriaca.org/work/158" type="supplied">The Psalms, translated from the Septuagint by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></persName></title>
                 <rubric xml:lang="syr">ܕܘܝܕ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ 
                   <locus from="14b" to="14b"/><locus from="15a" to="15a"/>
                 </rubric>
                 <note>
                   <p>This manuscript has been used by the Rev. F. Field in his edition of the <bibl><ptr target="http://syriaca.org/work/187"/>Hexapla of Origen</bibl>; <bibl>Origenis Hexaplorum quae supersunt, etc., tomi ii fasciculus i, Oxon. 1867 See in particular p. 86</bibl></p>
                   <p>Each psalm has its appropriate heading, according to the LXX., and a marginal note specifies the number of <foreign xml:lang="syr">ܦ̈ܬܓܡܐ</foreign> or <foreign xml:lang="grc">στίχοι</foreign>; 
-                    for example, Ps. iii., fol. <locus>8b</locus>, <foreign xml:lang="syr">ܡܙܡܘܪܐ ܕܕܘܝܕ̣ ܐܡܬܝ ܕܥ̇ܪܩ ܗܘܐ ܡܢ ܩܕܡ ܦܪܨܘܦܐ ܕܒܫܠܘܡ ܒܪܐ ܕܝܠܗ</foreign>; margin, <foreign xml:lang="syr">ܓ. ܦ̈ܬ. . ܝܙ. . .</foreign> The word <foreign xml:lang="grc">διάψαλμα</foreign> is always retained in the form <foreign xml:lang="syr"> ܕܝܐܦܐܣܠܡܐ </foreign>(e.g. fol. <locus>9a</locus>). </p>
-                  <p>The longer psalms are divided into <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign>, for example, Ps. xvii. (xviii.), fol. <locus>13b</locus>, <foreign xml:lang="syr">ܡܪܡܝܬܐ. ܐ. ܦܬ̈. ܢܗ.</foreign>, fol. 15a, <foreign xml:lang="syr">ܡܪܡܝܬܐ. ܒ. ܦܬ̈. ܢܚ</foreign>.</p>    
-                  <p>The margins are thickly covered with notes, consisting chiefly of the various readings of <bibl><ptr target="http://syriaca.org/work/188"/>Aquila</bibl>, <bibl><ptr target="http://syriaca.org/work/189"/>Symmachus</bibl>,<bibl><ptr target="http://syriaca.org/work/190"/>Theodotion</bibl>, the <bibl><ptr target="http://syriaca.org/work/191"/>Quinta</bibl> and the <bibl><ptr target="http://syriaca.org/work/192"/>Sexta</bibl>, <foreign xml:lang="syr">ܐ. ܣ. ܬ. ܗ. ܘ.</foreign> (e.g. foll. <locus>21b</locus> and <locus>22a</locus>). </p>
+                    for example, Ps. iii., fol. <locus>8b</locus>, <quote xml:lang="syr">ܡܙܡܘܪܐ ܕܕܘܝܕ̣ ܐܡܬܝ ܕܥ̇ܪܩ ܗܘܐ ܡܢ ܩܕܡ ܦܪܨܘܦܐ ܕܒܫܠܘܡ ܒܪܐ ܕܝܠܗ</quote>; margin, <quote xml:lang="syr">ܓ. ܦ̈ܬ. . ܝܙ. . .</quote> The word <foreign xml:lang="grc">διάψαλμα</foreign> is always retained in the form <foreign xml:lang="syr"> ܕܝܐܦܐܣܠܡܐ </foreign>(e.g. fol. <locus>9a</locus>). </p>
+                  <p>The longer psalms are divided into <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign>, for example, Ps. xvii. (xviii.), fol. <locus>13b</locus>, <quote xml:lang="syr">ܡܪܡܝܬܐ. ܐ. ܦܬ̈. ܢܗ.</quote>, fol. 15a, <quote xml:lang="syr">ܡܪܡܝܬܐ. ܒ. ܦܬ̈. ܢܚ</quote>.</p>    
+                  <p>The margins are thickly covered with notes, consisting chiefly of the various readings of <bibl><ptr target="http://syriaca.org/work/188"/><choice><expan>Aquila</expan><abbr xml:lang="syr">ܐ.</abbr></choice></bibl>, <bibl><ptr target="http://syriaca.org/work/189"/><choice><expan>Symmachus</expan><abbr xml:lang="syr">ܣ.</abbr></choice></bibl>,<bibl><ptr target="http://syriaca.org/work/190"/><choice><expan>Theodotion</expan><abbr xml:lang="syr">ܬ.</abbr></choice></bibl>, the <bibl><ptr target="http://syriaca.org/work/191"/><choice><expan>Quinta</expan><abbr xml:lang="syr">ܗ.</abbr></choice></bibl> and the <bibl><ptr target="http://syriaca.org/work/192"/><choice><expan>Sexta</expan><abbr xml:lang="syr">ܘ.</abbr></choice></bibl> (e.g. foll. <locus>21b</locus> and <locus>22a</locus>). </p>
                   <p>Compare, in general, the edition of <bibl>Bugati, Psalmi secundum editionem LXX interpretum etc., Milan, 1820.</bibl> </p>
                 </note>
-                <msItem n="9" xml:id="p1b1"><title ref="http://syriaca.org/work/188">Marginal notes of the book of Psalms according to Aquila</title>
-                  <msItem n="10" xml:id="p1b2"><title ref="http://syriaca.org/work/189">Marginal notes of the book of Psalms according to Symmachus</title>
-                    <msItem n="11" xml:id="p1b3"><title ref="http://syriaca.org/work/190">Marginal notes of the book of Psalms according to Theodotion</title>
-                      <msItem n="12" xml:id="p1b4"><title ref="http://syriaca.org/work/191">Marginal notes of the book of Psalms according to Quinta</title>
-                        <msItem n="13" xml:id="p1b5"><title ref="http://syriaca.org/work/192">Marginal notes of the book of Psalms according to Sexta</title>
-                       </msItem></msItem></msItem></msItem></msItem></msItem>
-                <msItem n="13" xml:id="p1a10">
-                  <locus from="79b" to="79b"/>
+                <finalRubric xml:lang="syr"><locus from="79b" to="79b"/>ܫܠ̣ܡ ܠܡܟܬܒ ܬܫ̈ܒܚܬܐ ܕܡܙܡܘܪ̈ܐ ܕܕܘܝܕ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ.</finalRubric>
+              </msItem>
+              <msItem n="10" xml:id="p1a10">
+                <title ref="http://syriaca.org/work/188">Marginal notes of the book of Psalms according to Aquila</title>
+              </msItem>
+              <msItem n="11" xml:id="p1a11">
+                <title ref="http://syriaca.org/work/189">Marginal notes of the book of Psalms according to Symmachus</title>
+              </msItem>
+              <msItem n="12" xml:id="p1a12">
+                <title ref="http://syriaca.org/work/190">Marginal notes of the book of Psalms according to Theodotion</title>
+              </msItem>
+              <msItem n="13" xml:id="p1a13">
+                <title ref="http://syriaca.org/work/191">Marginal notes of the book of Psalms according to Quinta</title>
+              </msItem>
+              <msItem n="14" xml:id="p1a14">
+                <title ref="http://syriaca.org/work/192">Marginal notes of the book of Psalms according to Sexta</title>
+              </msItem>
+                <msItem n="15" xml:id="p1a15">
+                  <locus from="79b" to="79b">Fol. 79b</locus>
                   <title ref="http://syriaca.org/work/186" type="supplied">The Apocryphal Psalm 151</title>
-                  <incipit xml:lang="syr">ܫܠ̣ܡ ܠܡܟܬܒ ܬܫ̈ܒܚܬܐ ܕܡܙܡܘܪ̈ܐ ܕܕܘܝܕ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ. 
-                    <locus from="79b" to="79b"/>
-                  </incipit>
                   <note>The apocryphal Ps. cli. is placed after the subscription (fol. <locus>79b</locus>).</note>
                 </msItem>
             </msContents>
@@ -198,13 +206,15 @@
                     </dimensions>
                   </extent>
                   <collation>
-                    <p>The quires, 20 in number, are signed with letters, but not more than two or three of them are complete, leaves being missing at the beginning and end, as well as after foll. <locus>2</locus>, <locus>3</locus>, <locus>4</locus>, <locus>7</locus>, <locus>9</locus>, <locus>10</locus>, <locus>11</locus>, <locus>15</locus>, <locus>28</locus>, <locus>29</locus>, <locus>30</locus>, <locus>41</locus>, <locus>50</locus>, <locus>54</locus>, <locus>55</locus>, <locus>56</locus>, <locus>58</locus>, <locus>69</locus>, <locus>71</locus>, <locus>74</locus>,
-                      <locus>75</locus>, <locus>77</locus> and <locus>78</locus>. </p>
+                    <p>The quires, 20 in number, are signed with letters.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
                         <p>79 leaves, many of which are much stained and torn, especially foll. <locus>1</locus>, <locus>5</locus>, <locus>6</locus>, <locus>8—14</locus>, <locus>17</locus>, <locus>27</locus>, <locus>48</locus>, <locus>51</locus>, <locus>52</locus>, <locus>55</locus>, <locus>65</locus>, <locus>67</locus>, <locus>70—72</locus>, <locus>75</locus>, and <locus>76</locus>. </p>
+                      </item>
+                      <item>
+                        <p> Not more than two or three of the quires are complete, leaves being missing at the beginning and end, as well as after foll. <locus>2</locus>, <locus>3</locus>, <locus>4</locus>, <locus>7</locus>, <locus>9</locus>, <locus>10</locus>, <locus>11</locus>, <locus>15</locus>, <locus>28</locus>, <locus>29</locus>, <locus>30</locus>, <locus>41</locus>, <locus>50</locus>, <locus>54</locus>, <locus>55</locus>, <locus>56</locus>, <locus>58</locus>, <locus>69</locus>, <locus>71</locus>, <locus>74</locus>, <locus>75</locus>, <locus>77</locus> and <locus>78</locus>. </p>
                       </item>
                     </list>
                   </condition>
@@ -244,22 +254,27 @@
                     <p>There are also many Greek words written on the margins in elegant slanting uncials, for instance, foll. <locus>14a</locus>, <locus>21a</locus>, <locus>22b</locus>, <locus>23a</locus>, <locus>24a</locus>, <locus>36b</locus>, <locus>37a</locus>, <locus>42a</locus>, <locus>44b</locus>, etc.</p>
                     </item>
                   <item n="2" xml:id="p1addition2"><ref target="#p1handNote3"/>
-                    <p>Annotations from Athanasius; foll. <locus>8a</locus>, <locus>13a</locus>, <locus>40b</locus>, <locus>45a</locus> and <locus>45b</locus>. </p><quote/></item>
+                    <p>Annotations from <persName ref="">Athanasius</persName>; foll. <locus>8a</locus>, <locus>13a</locus>, <locus>40b</locus>, <locus>45a</locus> and <locus>45b</locus>. </p><quote/></item>
                   <item n="3" xml:id="p1addition3"><locus from="29a" to="29a"/><ref target="#p1handNote4"/>
-                    <p>Annotations from Cyril; fol. 29a.</p><quote/></item>
+                    <p>Annotations from <persName ref="">Cyril</persName>; fol. 29a.</p><quote/></item>
                   <item n="4" xml:id="p1addition4"><ref target="#p1handNote5"/>
-                    <p>Annotations from Hesychius, the priest, of Jerusalem, <foreign xml:lang="syr">ܗܘܣܝܟܝܣ ܩܫܝܫܐ ܕܐܘܪܫܠܡ</foreign>; foll. <locus>17a</locus>, <locus>19b</locus>,
-                      <locus>20b</locus>, <locus>23b</locus>, <locus>33b</locus>, <locus>34b</locus>, <locus>41a</locus>.
-                    </p></item>
+                    <p>Annotations from <listPerson><person ref=""><persName>Hesychius, the priest, of <placeName ref="">Jerusalem</placeName>,</persName> <persName xml:lang="syr">ܗܘܣܝܟܝܣ ܩܫܝܫܐ ܕܐܘܪܫܠܡ</persName></person></listPerson>; foll. <locus>17a</locus>, <locus>19b</locus>, <locus>20b</locus>, <locus>23b</locus>, <locus>33b</locus>, <locus>34b</locus>, <locus>41a</locus>.</p>
+                  </item>
                   <item n="4" xml:id="p1addition5"><locus from="29b" to="29b"/><ref target="#p1handNote6"/>
-                    <p>On fol. 29 b there is a quotation from the Latin translation of Ps. xl. (xli.), 1, 2, one of the very rare instances of a Latin note in the volumes forming the Nitrian collection: </p>
-                    <p><quote xml:lang="lat">Beatvs qui intelligit fup egenum er pauperem. In die mala liberabt (sic) eum dnf. dnf conferur (sic) eum er uiuificet eum* er bearu faciar eum m rerra. </quote></p>
-                    <p>These words seem to be of considerably later date than the manuscript itself, though probably anterior to the <date>xiith cent</date>.</p></item>
-     <!--WORD DOCUMENT QUESTION ABOUT LATIN-->
+                    <p>On fol. 29 b there is a quotation from the Latin translation of <ref target="#p1a9">Ps.</ref> xl. (xli.), 1, 2, one of the very rare instances of a Latin note in the volumes forming the Nitrian collection: </p>
+                    <p><quote xml:lang="la"><seg type="word">Beat<g ref="#v-u">v</g>s</seg> qui intelligit <seg type="word"><g ref="#sup"><g ref="#longS">s</g>up</g></seg> egenum et pauperem. In die mala <sic>liberabt</sic> eum <seg type="word"><g ref="#dns">dn<g ref="#longS">s</g></g></seg>. <seg type="word"><g ref="#dns">dn<g ref="#longS">s</g></g></seg> <sic>conferut</sic> eum et <seg type="word"><g ref="#u-v">u</g>i<g ref="#u-v">u</g>ificet</seg> eum et <seg type="word">beat<g ref="#u-abbr">u</g></seg> faciat eum in terra.</quote></p>
+                    <p>These words seem to be of <date notBefore="0750" notAfter="1100">considerably later date than the manuscript itself, though probably anterior to the xiith cent</date>.</p>
+                  </item>
                   <item n="4" xml:id="p1addition6"><locus from="79b" to="79b"/><ref target="#p1handNote7"/>
-                    <p>On the margin of fol. 79b there is a note, in a hand of the <date>xiith</date> or <date>xiiith cent.</date>, stating that the book was repaired and bound by the scribe <persName>Yeshūa'</persName>:</p><foreign xml:lang="syr">ܚ̣̇ܕܬ ܘܕܒ̣̇ܩ ܝܫܘܥ ܟܬܘܒܐ ܕܦ̇ܓܥ̇ ܨ̇ܠܐ̣ ܦܪܘܫܐܝܬ܀</foreign></item>
+                    <p>On the margin of fol. 79b there is a note, in a hand of the <date notBefore="1100" notAfter="1200">xiith</date> or <date>xiiith cent.</date>, stating that the book was repaired and bound by the scribe <persName ref="">Yeshūa'</persName>:</p>
+                    <p><quote xml:lang="syr">ܚ̣̇ܕܬ ܘܕܒ̣̇ܩ ܝܫܘܥ ܟܬܘܒܐ ܕܦ̇ܓܥ̇ ܨ̇ܠܐ̣ ܦܪܘܫܐܝܬ܀</quote></p></item>
                 </list>
               </additions>
+              <bindingDesc>
+                <binding xml:id="p1binding1">
+                  <p><ref target="#p1addition6">See additions.</ref></p>
+                </binding>
+              </bindingDesc>
              </physDesc>
             <history>
               <origin>
@@ -305,29 +320,29 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1">
-                <locus from="82a" to="127"/>
-                <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
-                <title ref="http://syriaca.org/work/158" type="supplied">The Psalms, translated from the Septuagint by Paul of Tellā</title>
+                <locus from="82a" to="127">Foll. 82a-127</locus>
+                <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></editor>
+                <title ref="http://syriaca.org/work/158" type="supplied">The Psalms, translated from the Septuagint by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tellā</placeName></persName></title>
                 <finalRubric xml:lang="syr"><locus from="128b" to="128b"/>[ܫ̈ܠܡـܝ]ܬܫ̈ܒܚܬܐ ܕܕܘܝܕ ܐܝܟ [ܡـ]ܦܩܬܐ ܕܫܒܥܝܢ ܘܬܪ̈ܝܢ. . 
-                </finalRubric>
+                </finalRubric><!-- Does the finalRubric go here? -->
                 <note>
-                  <p>In every respect this is very similar to no. <ref target="http://syriaca.org/manuscript/91">LIV</ref>.</p>
+                  <p>In every respect this is very similar to no. <bibl><ref target="#Part1">LIV</ref><ptr target="http://syriaca.org/manuscript/91"/></bibl>.</p><!-- Which way should this be targeted? As the in-document xml:id, or as a URI? -->
                   <p>This manuscript has also been used by Mr. Field in his edition (<bibl>Origenis Hexaplorum quae supersunt, etc., tomi ii fasciculus i, Oxon. 1867 </bibl> of the <bibl><ptr target="http://syriaca.org/work/187"/>Hexapla of Origen</bibl>.</p>
                 </note>
               </msItem>
               <msItem n="2" xml:id="p2a2">
-                <locus from="127a" to="127a"/>
-                <title ref="http://syriaca.org/work/54" type="supplied">The Song of the three holy Children, from the book of Daniel, vv. 29—66.</title>
+                <locus from="127a" to="128b">Foll. 127a-128b</locus>
+                <title ref="http://syriaca.org/work/54" type="supplied">The Song of the three holy Children, from <title type="supplied" ref="http://syriaca.org/work/53">the book of Daniel</title>, vv. 29—66.</title>
                 <note>This is appended to the <ref target="#p2a1">Psalms</ref></note>
               </msItem>
               <msItem n="3" xml:id="p2a3">
-                <locus from="80" to="81"/>
-                <title>Extract from Basil on Ps. I</title>
+                <locus from="80" to="81">Foll. 80-81</locus>
+                <title type="supplied" ref="">Extract from Basil on Ps. I</title>
                 <note>Same extracts from Basil mentioned in no. <ref target="#p1a4">LIV</ref>. They are less mutilated here than there.</note>
               </msItem>
               <msItem n="4" xml:id="p2a4">
-                <locus from="80" to="81"/>
-                <title>Extract from Eusebius.</title>
+                <locus from="80" to="81">Foll. 80-81</locus>
+                <title type="supplied" ref="">Extract from Eusebius.</title>
                 <note>Same extracts from Eusebius mentioned in no. <ref target="#p1a5">LIV</ref>. They are less mutilated here than there.</note>
               </msItem>
             </msContents>
@@ -366,9 +381,9 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="7">
+              <handDesc hands="8">
                 <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a good, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate></desc>
+                  <desc>The writing is a good, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate>. <persName ref="">Simeon</persName></desc>
                 </handNote>
                 <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>See <ref target="#p21addition1">additions</ref>.</desc>
@@ -383,12 +398,13 @@
                   <desc>See <ref target="#p21addition4">additions</ref>.</desc>
                 </handNote>
                 <handNote xml:id="p2handNote6" scope="minor" script="syr" medium="unknown">
-                  <desc>Manuscript written by scribe named Simeon. <ref target="#p21addition5">additions</ref>.</desc>
+                  <desc>See <ref target="#p2addition5">additions</ref>.</desc>
                 </handNote>
                 <handNote xml:id="p2handNote7" scope="minor" script="syr" medium="unknown">
                   <desc>See <ref target="#p21addition6">additions</ref>.</desc>
                 </handNote>
-                <handNote xml:id="p2handNote8" scope="minor" script="syr" medium="unknown"><locus from="80" to="81"/><ref target="#p2a3 #p2a4"/>
+                <handNote xml:id="p2handNote8" scope="minor" script="syr" medium="unknown"><locus from="80" to="81"/>
+                  <ref target="#p2a3 #p2a4"/>
                 </handNote>
               </handDesc>
               <additions>
@@ -397,16 +413,16 @@
                   <item n="1" xml:id="p2addition1"><ref target="#p2handNote2"/>
                     <desc>Greek words are written on the margins of foll. <locus>82a</locus>, <locus>89b</locus>, <locus>96a</locus>, <locus>100a</locus>, <locus>101a</locus>, <locus>103a</locus>, and <locus>127b</locus>.</desc></item>
                   <item n="2" xml:id="p2addition2"><ref target="#p2handNote3"/>
-                    <desc>Annotations from Athanasius: foll. <locus>85b</locus>, <locus>106a</locus>, <locus>117b</locus>, <locus>118b</locus>, <locus>121b</locus>, <locus>122a</locus>.</desc><quote/></item>
+                    <desc>Annotations from <persName ref="">Athanasius</persName>: foll. <locus>85b</locus>, <locus>106a</locus>, <locus>117b</locus>, <locus>118b</locus>, <locus>121b</locus>, <locus>122a</locus>.</desc><quote/></item>
                   <item n="3" xml:id="p2addition3"><ref target="#p2handNote4"/>
-                    <desc>Annotations from Cyril: foll. <locus>84b</locus>, <locus>103a</locus>.</desc><quote/></item>
+                    <desc>Annotations from <persName ref="">Cyril</persName>: foll. <locus>84b</locus>, <locus>103a</locus>.</desc><quote/></item>
                   <item n="4" xml:id="p2addition4"><ref target="#p2handNote5"/>
-                    <desc>Annotations from Hesychius of Jerusalem; foll. <locus>93b</locus>, <locus>95a</locus>, <locus>96a</locus>, <locus>97b</locus>, <locus>100b</locus>, <locus>106a</locus>, <locus>113b</locus>, <locus>114b</locus>, <locus>118a</locus>.</desc><quote/></item>
+                    <desc>Annotations from <persName ref="">Hesychius of <placeName ref="">Jerusalem</placeName></persName>; foll. <locus>93b</locus>, <locus>95a</locus>, <locus>96a</locus>, <locus>97b</locus>, <locus>100b</locus>, <locus>106a</locus>, <locus>113b</locus>, <locus>114b</locus>, <locus>118a</locus>.</desc><quote/></item>
                   <item n="5" xml:id="p2addition5"><ref target="#p2handNote6"/>
-                    <desc>This manuscript was written by a scribe from the city of Amid, whose name appears to have been Simeon:</desc>
+                    <desc>This manuscript was written by a scribe from the <placeName ref="">city of Amid</placeName>, whose name appears to have been <persName ref="">Simeon</persName>:</desc>
                     <quote xml:lang="syr">[ܐ̇ܢܐ ܫܡܥ]ܘܢ ܩܫܝܫܐ ܡܢ ܐܡܕ ܡܕܝܢܬܐ [ܟܬ̇ܒ]ܬ ܐܝܟ ܚܝܠܝ. ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܝ ܡܛܠ ܡܪܢ̇ ܕܐ̇ܬܚܢܢ ܐܝܟ ܓܝܿܣܐ ܕܡܢ ܝܡܝܢܐ ܐܡܝܢ ܘܐܡܝܢ܀</quote></item>
                   <item n="6" xml:id="p2addition6"><ref target="#p2handNote7"/>
-                    <desc>Of the later notes on the same page one mentions the name of a reader also called Simeon:</desc>
+                    <desc>Of the later notes on the same page one mentions the name of a reader also called <persName ref="">Simeon</persName>:</desc>
                     <quote xml:lang="syr">ܚܪ ܒܟܬܒܐ ܗܢܐ ܕܕܘܝܕ ܢܒܝܐ ܫܡܥܘܢ ܚܲܛܝܐ ܘܡܠܸܐ ܡܘ̈ܡܐ ܒ̇ܥܐ ܐܢ̣ܐ ܡܢ ܟܠ ܕܦ̇ܓܥ ܒܗܠܝܢ ܣܘܪ̈ܛܐ ܢܨܠܐ ܥܠܘܗܝ ܘܥܠ ܐܒܗ̈ܘܗܝ ܘܨܠܘܬܗ ܠܦܠܓܐ ܬܗܘܐ ܐܝܢ ܘܐܡܝܢ.</quote></item>
                 </list>
               </additions>
@@ -415,7 +431,7 @@
               <summary/>
               <origin>
                 <origDate from="0700" to="0800">viiith cent.</origDate>
-                <origPlace>city of Amid.</origPlace>
+                <origPlace><placeName ref="">city of Amid</placeName></origPlace>
               </origin>
               <provenance/>
               <acquisition/>
@@ -507,6 +523,29 @@
             </category>
           </taxonomy>
         </classDecl>
+      <charDecl>
+        <glyph xml:id="v-u">
+          <glyphName>Latin letter V for a U</glyphName>
+          <mapping type="standard">U</mapping>
+        </glyph>
+        <glyph xml:id="sup">
+          <glyphName>Abbreviation SUP with a bar above it</glyphName>
+        </glyph>
+        <glyph xml:id="longS">
+          <glyphName>Elongated S character</glyphName>
+          <mapping type="standard">S</mapping>
+        </glyph>
+        <glyph xml:id="dns">
+          <glyphName>Abbreviation DNS with a bar above it, likely for DOMINUS</glyphName>
+        </glyph>
+        <glyph xml:id="u-v">
+          <glyphName>Latin letter U for a V</glyphName>
+          <mapping type="standard">V</mapping>
+        </glyph>
+        <glyph xml:id="u-abbr">
+          <glyphName>Abbreviated U ending with a bar above it, likely for ending -US</glyphName>
+        </glyph>
+      </charDecl>
     </encodingDesc>
       <profileDesc>
         <langUsage>
@@ -543,9 +582,11 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-29" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-07-29" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-08-23" who="http://syriaca.org/editors.xml#thannah">Initial edit: Marked up Latin text</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+      <change type="planned" subtype="uri">Work URIs needed.</change>
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
