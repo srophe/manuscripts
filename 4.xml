@@ -331,6 +331,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-12" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arabic">Add in missing Arabic characters.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>

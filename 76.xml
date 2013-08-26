@@ -106,8 +106,8 @@
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="perg">
-                  <support><material>Vellum</material></support>
+                <supportDesc material="chart">
+                  <support><material>Paper</material></support>
                   <extent>
                     <measure type="composition" unit="leaf" quantity="291">291 ff.</measure>
                     <dimensions type="leaf" unit="in">
@@ -174,6 +174,7 @@
                   </item>
                    <item n="2" xml:id="addition2">
                       <p>Sometimes Greek vowel-points have been added(<foreign xml:lang="syr">ܰ, ܶ, ܺ, ܳ, , , , , </foreign>; see foll. <locus from="1b" to="2a">1 b, 2 a</locus>, and <locus from="49a" to="49a">49 a</locus>).</p>
+               <!-- Add Greek -->
                    </item>
                    <item n="3" xml:id="addition3">
                       <locus from="1a" to="1a"/>
@@ -356,7 +357,9 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-04" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -372,4 +375,3 @@
     </body>
   </text>
 </TEI>
-

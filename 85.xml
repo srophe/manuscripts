@@ -84,6 +84,7 @@
               <msItem n="2" xml:id="a2" defective="true">
                 <locus from="3" to="161">Foll. 3-161</locus>
                  <title ref="http://syriaca.org/work/151" type="supplied">The two books of Samuel and a portion of the first book of Kings according to the recension of <persName ref="http://syriaca.org/person/113">Jacob of <placeName ref="">Edessa</placeName></persName></title>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii. p. 335-36</bibl>; <bibl>Ceriani, Monumenta Sacra et Profana, t. ii. fasc. i., pp. x., xi.</bibl>; and his memoir, <bibl>Le Edizioni e i Manoscritti etc., p. 27.</bibl></note>
                  <msItem n="3" xml:id="b1" defective="unknown">
                   <locus from="3b" to="3b">Fol. 3b</locus>
                   <title type="supplied" ref="">Summary of the contents of the first book of Samuel</title>
@@ -149,7 +150,7 @@
                   </extent>
                   <foliation/>
                   <collation>
-                     <p>The quires, signed with letters, are 18 in number</p>
+                     <p>The quires, signed with letters, are 18 in number.</p>
                   </collation>
                   <condition>
                     <list>
@@ -200,6 +201,7 @@
                    <item n="1" xml:id="addition1">
                       <ref target="#handNote2"/>
                       <p>Greek vowels are rarely added; for example, <locus from="5a" to="5a">fol. 5 a</locus>, <foreign xml:lang="syr">ܦܶܐܢܰܐܢܰܐ</foreign>, <locus from="88b" to="88b">fol. 88 b</locus>, <foreign xml:lang="syr">ܕܒܣܐܦܝܡܘܬ</foreign>, <foreign xml:lang="syr">ܕܒܐܪܝܩܐܢ</foreign> ,and <foreign xml:lang="syr">ܕܒܢܘܳܢܬܘܳܡ</foreign>.</p>
+ <!-- Missing some vowels on top of these syriac words -->
                    </item>
                   <item n="2" xml:id="addition2">
                      <ref target="#a1 #handNote3"/>
@@ -217,7 +219,7 @@
                       <locus from="1a" to="1a"/>
                       <ref target="#handNote1"/>
                       <quote xml:lang="syr">ܫܢܬ ܏ܐܠ ܏ܒܝ ܒܢܝܣܢ ܫ̇ܪܝ ܒܟܬܒܐ ܗܢܐ ܠܥܙܪ ܘܥܐܕܝ ܒ. . </quote>
-                      <p>"in the year <date when-custom="1030" datingMethod="Seleucid">1030</date> (<date when="0719" calendar="Gregorian">A.D. 719</date>), on the tenth of Nīsān, <persName ref="">Lazarus</persName> and <persName ref="">‘Adī</persName> began in this book . . . ."</p>
+                      <quote>"in the year <date when-custom="1030" datingMethod="Seleucid">1030</date> (<date when="0719" calendar="Gregorian">A.D. 719</date>), on the tenth of Nīsān, <persName ref="">Lazarus</persName> and <persName ref="">‘Adī</persName> began in this book . . . ."</quote>
                    </item>
                    <item n="6" xml:id="addition6">
                       <locus from="1a" to="1a"/>
@@ -246,7 +248,8 @@
                       <locus from="90a" to="90a"/>
                       <ref target="#b2 #handNote1"/>
                       <p><quote xml:lang="syr">ܐܬܬ݁ܪܨ ܟܬܒܐ ܗܢܐ ܩܕܡܝܐ ܕܡ̈ܠܟܘܬܐ: ܐܝܟ ܕܡܨܝܐ ܘܗܘܬ݀ ܘܣ̇ܓܝ ܥܣܩܐܝܬ: ܡܢ ܡܫܠܡ̈ܢܘܬܐ ܡܫܚ̈ܠܦܬܐ: ܡܢ ܗ̇ܝ ܟܝܬ ܕܠܘܬ ܣܘܪ̈ܝܝܐ̇ ܘܡܢ ܗܠܝܢ ܕܠܘܬ ܝܘ̈ܢܝܐ̣. ܒܐܝ̈ܕܝ ܚܣܝܐ ܝܥܩܘܒ ܐܦܝܣܩܦܐ ܕܐܘܪܗܝ: ܒܫܢܬ ܏ܐܝܘ ܕܡܢܝܢܐ ܕܝ̈ܘܢܝܐ ܐܘ ܟܝܬ ܕܣܠܘܩܘܣ ܡ̇ܠܟܐ: ܐܝܢܕܩܛܝܘܢܐ ܕܬܠܬܐ ܒܕܝܪܐ ܪܒܬܐ ܕܬܠܥܕܐ.</quote></p>
-                      <p>“This first book of Kings was corrected, so far as possible and with much labour, from the different versions, viz. from that of the Syrians and from those of the Greeks, by the hands of the pious <persName ref="http://syriaca.org/person/113">Jacob, bishop of <placeName>Edessa</placeName></persName>, in <date when-custom="1016" datingMethod="Seleucid">the year 1016 of the Greeks or of <persName>king Seleucus</persName></date> (<date when="0705" calendar="Gregorian">A.D. 705</date>), third indiction, in the great <placeName ref="">convent of Tel-'Adā.</placeName>"</p>
+          <!-- The dots on top of syriac word ܝܥܩܘܒ are missing  -->
+                     <quote>“This first book of Kings was corrected, so far as possible and with much labour, from the different versions, viz. from that of the Syrians and from those of the Greeks, by the hands of the pious <persName ref="http://syriaca.org/person/113">Jacob, bishop of <placeName>Edessa</placeName></persName>, in <date when-custom="1016" datingMethod="Seleucid">the year 1016 of the Greeks or of <persName>king Seleucus</persName></date> (<date when="0705" calendar="Gregorian">A.D. 705</date>), third indiction, in the great <placeName ref="">convent of Tel-'Adā.</placeName>"</quote>
                    </item>
                    <item n="11" xml:id="addition11">
                       <locus from="166" to="166"/>
@@ -387,6 +390,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-16" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
        <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
