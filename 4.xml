@@ -88,7 +88,7 @@
                   <ref target="#addition4 #addition5 #addition6">See below.
                   </ref>
                 </colophon>
-                 <note>The text is divided into ten capitula (<foreign xml:lang="syr">ܩ̈ܦܠܐܐ</foreign>), a summary of the contents of which is prefixed, <locus from="2b" to="2b">fol. 2 b</locus> (See <bibl>Chrysostom, Synopsis Scripturae Sacrae; Opera, t. vi., p. 382</bibl>; <bibl>Migne, Patrol. Gr., t. lvi. col. 325</bibl>). There are also other marginal sub-divisions into 42 (<foreign xml:lang="syr">ܡܒ</foreign>) sections, and upwards of 3300 versicles (<locus from="132a" to="132a">fol. 132 a</locus>, <foreign xml:lang="syr">ܦܬܓ̈ܡܐ ܐ̈ܠܦܐ. ܓ. ܫ</foreign>). The lessons are rubricated in the text, and the end of each is usually marked by the letter <foreign xml:lang="syr">ܫ</foreign>. An index to these lessons was once prefixed to the volume, but the greater part of it is lost, only one page (<locus from="2a" to="2a">fol. 2 a</locus>) being left.</note>
+                 <note>The text is divided into ten capitula (<foreign xml:lang="syr">ܩ̈ܦܠܐܐ</foreign>), a summary of the contents of which is prefixed, <locus from="2b" to="2b">fol. 2 b</locus> (See <bibl>Chrysostom, Synopsis Scripturae Sacrae; Opera, t. vi., p. 382</bibl>; <bibl>Migne, Patrol. Gr., t. lvi. col. 325</bibl>). There are also other marginal sub-divisions into 42 (<foreign xml:lang="syr">ܡܒ</foreign>) sections, and upwards of 3300 versicles (<locus from="132a" to="132a">fol. 132 a</locus>, <foreign xml:lang="syr">ܦܬܓ̈ܡܐ ܐ̈ܠܦܐ. ܓ. ܫ</foreign>). The lessons are rubricated in the text, and the end of each is usually marked by the letter <foreign xml:lang="syr">ܫ</foreign>. An index to these lessons was once prefixed to the volume, but the greater part of it is lost, only <ref target="#decoNote1">one page</ref> (<locus from="2a" to="2a">fol. 2 a</locus>) being left.</note>
                 <note>The text is that of the <bibl>Hexapla of Origen<ptr target="http://syriaca.org/work/147"/></bibl>, with the critical marks and the various readings of <bibl>Aquila<ptr target="http://syriaca.org/work/148"/></bibl>, <bibl>Symmachus<ptr target="http://syriaca.org/work/149"/></bibl> and <bibl>Theodotion<ptr target="http://syriaca.org/work/150"/></bibl>, respectively indicated by <foreign xml:lang="syr">ܐ</foreign>, <foreign xml:lang="syr">ܣ</foreign>, <foreign xml:lang="syr">ܬ</foreign>, <!-- These may have just gotten out of the order Wright had them in --> or in cases where they coincide, by <foreign xml:lang="syr">ܓ</foreign> (e.g. <locus from="8b" to="8b">fol. 8 b</locus>, marg. <foreign xml:lang="syr">ܓ. ܚ̣̃ܕܬܐ</foreign>; <locus from="69a" to="69a">fol. 69 a</locus>, line 5, <foreign xml:lang="syr">ܕܝܠܗ</foreign>)  or <foreign xml:lang="syr">ܗܠܝܢ ܓ</foreign> (e.g. <locus from="99a" to="99a">fol. 99 a</locus>, margin). The additional passages of <bibl>the Samaritan codex</bibl> (<foreign xml:lang="syr">ܡܫܠܡܢܘܬܐ ܫܡܪܝܬܐ ܥܒܪܝܬܐ ܗ̇ ܝ ܕܫܡܪ̈ܝܐ</foreign> or <foreign xml:lang="syr">ܥܒܪ̈ܝܐ ܕܫܡܪ̈ܝܐ</foreign>) are also given; e.g. foll. <locus from="27a" to="27b">27 a and b</locus>, <locus from="29b" to="29b">29 b</locus>, <locus from="31a" to="31a">31 a</locus>, <locus from="33a" to="33a">33 a</locus>, <locus from="35a" to="35a">35 a</locus>, <locus from="39a" to="39a">39 a</locus>, <locus from="61b" to="61b">61 b</locus>, <locus from="66a" to="66b">66 a and b</locus>, and <locus from="84b" to="84b">84 b</locus>.</note>
                  <note>The tetragrammaton is denoted by ܦܝܦܝ <!-- Need a URI for God -->on the margin.</note>
               </msItem>
@@ -131,7 +131,7 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="4">
+              <handDesc hands="5">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                    <desc>The writing is a fine, regular Estrangela.<ref target="#addition3 #addition4 #addition5 #addition6"/></desc>
                 </handNote>
@@ -144,12 +144,12 @@
                 <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition7">See additions.</ref></desc>
                 </handNote>
-                <handNote xml:id="handNote5" scope="minor" script="syr" medium="red green">
-                  <desc><ref target="#p1decoNote1">See below.</ref></desc>
+                <handNote xml:id="handNote5" scope="minor" script="syr" medium="colored">
+                  <desc><ref target="#decoNote1">See below.</ref></desc>
                 </handNote>
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="p1decoNote1" type="illustration"><ref target="#a1"/>
+                <decoNote xml:id="decoNote1" type="illustration"><ref target="#a1"/>
                   <p><locus from="2a" to="2a">Fol. 2 a</locus> contains 18 circles, arranged in three columns of 6 each, and surrounded by a double border of green and red. Each circle contains the indication of one lesson, as in the <!--NEED TO INSERT FIGURE --> accompanying figure, the text of which is: <foreign xml:lang="syr">ܡܛ ܕܚܕܒܫܒܐ ܕܠܐ ܟـ . . . ܚ ܦ ܗ</foreign>; which means that the lesson specified is to be found in the eighth quire (<foreign xml:lang="syr">ܟܘܪܣܐ</foreign>, <!-- NEED ARABIC -->), at the fifth opening (<foreign xml:lang="syr">ܦܬܚܐ</foreign>), or, in this case, on the recto of the sixth leaf, <locus from="72" to="72">fol. 72</locus>. See the edition of <bibl>Ceriani; Monumenta, t. ii. fasc. ii. p. 114, etc.</bibl></p>
                   <p>Circle insert: <quote xml:lang="syr">ܡܛ ܕܚܕܒܫܒܐ ܕܠܐ ܟـ . . . ܚ ܦ ܗ</quote></p>
                 </decoNote>
