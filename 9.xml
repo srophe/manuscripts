@@ -132,19 +132,19 @@
                   <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
                   <msItem n="2" xml:id="p1b1">
                      <locus from="2b" to="61b">Foll. 2b-61b</locus>
-                     <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
+                    <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, according to the Peshitta version</title>
                   </msItem>
                   <msItem n="3" xml:id="p1b2">
                      <locus from="61b" to="99a">Foll. 61b-99a</locus>
-                     <title ref="http://syriaca.org/work/73" type="supplied">Mark</title>
+                    <title ref="http://syriaca.org/work/73" type="supplied">The Gospel of S. Mark, according to the Peshitta version</title>
                   </msItem>
                   <msItem n="4" xml:id="p1b3">
                      <locus from="99a" to="163b">Foll. 99a-163b</locus>
-                     <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
+                    <title ref="http://syriaca.org/work/74" type="supplied">The Gospel of S. Luke, according to the Peshitta version</title>
                   </msItem>
                   <msItem n="5" xml:id="p1b4" defective="true">
                      <locus from="163b" to="177b">Foll. 163b-177b</locus>
-                     <title ref="http://syriaca.org/work/75" type="supplied">John</title>
+                    <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
                     <note>As far as ch. vi. 52.</note>
                   </msItem>
                  <note>The lessons are indicated by <foreign xml:lang="syr">ܩ</foreign> on the margins, with the appropriate rubric at the top of the column, and <foreign xml:lang="syr">ܫ</foreign> at the end.</note>
@@ -258,7 +258,7 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1" defective="true">
                 <locus from="178" to="179">Foll. 178-179, </locus><locus from="186" to="186">and 186.</locus>
-                <title ref="http://syriaca.org/work/75" type="supplied">John, according to the Peshitta version</title>
+                <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
                 <note>ch. vi. 35 — ch. vii. 2, and ch. x. 3—20.</note>
               </msItem>
             </msContents>
@@ -350,7 +350,7 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p3a1" defective="true">
                 <locus from="187" to="207">Foll. 187-207</locus>
-                <title ref="http://syriaca.org/work/75" type="supplied">John, according to the Peshitta version</title>
+                <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
                 <note>ch. x. 20—xix. 29</note>
                 <note>The end of one lesson is marked in the text by the word <foreign xml:lang="syr">ܫܠܡ</foreign> (<locus from="187a" to="187a">fol. 187 a</locus>).</note>
               </msItem>
@@ -442,7 +442,7 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p4a1" defective="true">
                 <locus from="212" to="213">Foll. 212-213</locus>
-                <title ref="http://syriaca.org/work/75" type="supplied">John, according to the Peshitta version</title>
+                <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
                 <note>ch. xxi. 12 to the end</note>
                 <colophon><ref target="#p4addition1">See additions.</ref></colophon>
               </msItem>
@@ -520,7 +520,7 @@
                 </list>
               </additions>
               <bindingDesc>
-                <binding xml:id="p2binding1" contemporary="unknown"><p><ref target="#p4addition5">See additions.</ref></p></binding>
+                <binding xml:id="p4binding1" contemporary="unknown"><p><ref target="#p4addition5">See additions.</ref></p></binding>
               </bindingDesc>
               <sealDesc/>
               <accMat/>
@@ -569,12 +569,12 @@
               <textLang mainLang="syr">Syriac</textLang>
                 <msItem n="1" xml:id="p5a1" defective="true">
                 <locus from="19" to="19">Fol. 19</locus>
-                <title ref="http://syriaca.org/work/72" type="supplied">Matthew, according to the Peshitta version</title>
+                <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, according to the Peshitta version</title>
                 <note>ch. x. 10—26</note>
               </msItem>
               <msItem n="2" xml:id="p5a2" defective="true">
                 <locus from="180" to="185">Foll. 180-185 and </locus><locus from="208" to="211">208-211.</locus>
-                <title ref="http://syriaca.org/work/75" type="supplied">John, according to the Peshitta version</title>
+                <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
                 <note>ch. vii. 2 — x. 3 ; ch. xix. 29—xxi. 12</note>
               </msItem>
             </msContents>
@@ -761,6 +761,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-23" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
+      <change when="2013-08-26" who="http://syriaca.org/editors.xml#dgreeson">Title edits</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>

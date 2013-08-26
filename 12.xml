@@ -82,24 +82,24 @@
                   <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
                   <msItem n="2" xml:id="b1" defective="true">
                      <locus from="1a" to="50">Foll. 2b-57</locus>
-                     <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
+                    <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, according to the Peshitta version</title>
                     <note>Missing portion: ch. xx vi. 7—28. </note>
-                    <note>On <locus from="3b" to="3b">fol. 3 b</locus> <ref target="#handNote2">the later scribe</ref> has written more than was necessary to connect it with <locus from="4" to="4">fol. 4</locus>, so that ch. ii. 4—6, from <quote xml:lang="syr">ܗܘܐ ܠܗܘܢ ܕܐܝܟܐ ܡܬܝܠܕ ܒܨܝܪܐ</quote> to <quote xml:lang="syr">ܠܐ ܗܘܬ</quote> is repeated.</note>
+                    <note>On <locus from="3b" to="3b">fol. 3 b</locus> the <ref target="#handNote2">later scribe</ref> has written more than was necessary to connect it with <locus from="4" to="4">fol. 4</locus>, so that ch. ii. 4—6, from <quote xml:lang="syr">ܗܘܐ ܠܗܘܢ ܕܐܝܟܐ ܡܬܝܠܕ ܒܨܝܪܐ</quote> to <quote xml:lang="syr">ܠܐ ܗܘܬ</quote> is repeated.</note>
                   </msItem>
                   <msItem n="3" xml:id="b2" defective="true">
                      <locus from="57a" to="90">Foll. 57a-90</locus>
-                     <title ref="http://syriaca.org/work/73" type="supplied">Mark</title>
+                    <title ref="http://syriaca.org/work/73" type="supplied">The Gospel of S. Mark, according to the Peshitta version</title>
                     <note>Missing portion: ch. x. 45—xi. 1.</note>
                   </msItem>
                   <msItem n="4" xml:id="b3">
                      <locus from="90b" to="151">Foll. 90b-151</locus>
-                     <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
+                    <title ref="http://syriaca.org/work/74" type="supplied">The Gospel of S. Luke, according to the Peshitta version</title>
                   </msItem>
                   <msItem n="5" xml:id="b4">
                      <locus from="151a" to="196b">Foll. 151a-196b</locus>
-                     <title ref="http://syriaca.org/work/75" type="supplied">John</title>
+                    <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
                   </msItem>
-                 <note>The lessons are marked in the usual wav, the rubrics being occasionally placed in the text, but more commonly on the upper margin.</note>
+                 <note>The lessons are marked in the usual way, the rubrics being occasionally placed in the text, but more commonly on the upper margin.</note>
                  <note>The note on <locus from="196b" to="196b">fol. 196 b</locus>, after the final rubric, has been thoroughly effaced.</note>
                </msItem>
             </msContents>
@@ -122,7 +122,7 @@
                   </extent>
                   <foliation/>
                   <collation>
-                    <p>The quires, 20 in number, were originally signed with arithmetical figures (e.g. <locus from="167" to="167">fol. 167</locus>, <!-- NEED ARABIC -->; <locus from="177" to="177">fol. 177</locus>, <!-- NEED ARABIC -->; and <locus from="187" to="187">fol. 187</locus>, <foreign xml:lang="ar"><!-- NEED ARABIC --></foreign>).</p>
+                    <p>The quires, 20 in number, were originally signed with arithmetical figures (e.g. <locus from="167" to="167">fol. 167</locus>, <!-- NEED ARABIC -->; <locus from="177" to="177">fol. 177</locus>, <!-- NEED ARABIC -->; and <locus from="187" to="187">fol. 187</locus>, <foreign xml:lang="ar"><!-- NEED ARABIC --></foreign>); but another hand has marked them with letters on the last leaf of each quire.</p>
                   </collation>
                   <condition>
                     <list>
@@ -137,7 +137,7 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="2" writtenLines="23 26">
-                    <p>Each page is divided into two columns, of from 23 to 26 lines. </p>
+                    <p>Each page is divided into two columns, of from 23 to 26 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
@@ -206,7 +206,7 @@
                   <item n="8" xml:id="addition8">
                     <locus from="15a" to="15a"/>
                     <ref target="#handNote8"/>
-                    <p>On fol. 15 a, at the foot of the page, is written in Karshūnī, </p>
+                    <p>On fol. 15 a, at the foot of the page, is written in Karshūnī,</p>
                     <p><quote xml:lang="ar-Syrc">ܝܐ ܪܒ ܬܪܚܡ ܥܠܝ ܥܒܝܕܟ ܐܘܠܕܝ ܠܟܢܝܣܗ ܠܡܩܕܣܗ</quote>,</p>
                     <p>i.e.,</p>
                     <p><quote xml:lang="ar"><!-- NEED ARABIC --></quote></p>
@@ -348,6 +348,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-23" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
+      <change when="2013-08-26" who="http://syriaca.org/editors.xml#dgreeson">Title edits</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
@@ -365,4 +367,3 @@
     </body>
   </text>
 </TEI>
-

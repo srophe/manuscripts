@@ -82,23 +82,23 @@
                   <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
                   <msItem n="2" xml:id="b1" defective="true">
                      <locus from="1b" to="79">Foll. 1b-79</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
+                    <title type="supplied" ref="http://syriaca.org/work/72">The Gospel of S. Matthew, according to the Peshitta version</title>
                      <note>Divided into 22 sections (<foreign xml:lang="syr">ܨܟܒ</foreign>).</note>
                      <note>Missing portion, ch. xxvii. 52—64.</note>
                   </msItem>
                   <msItem n="3" xml:id="b2">
                      <locus from="79b" to="132">Foll. 79b-132</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/73">Mark</title>
+                    <title type="supplied" ref="http://syriaca.org/work/73">The Gospel of S. Mark, according to the Peshitta version</title>
                      <note>Divided into 13 sections (<foreign xml:lang="syr">ܨܝܓ</foreign>).</note>
                   </msItem>
                   <msItem n="4" xml:id="b3">
                      <locus from="132a" to="222">Foll. 132a-222</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/74">Luke</title>
+                    <title type="supplied" ref="http://syriaca.org/work/74">The Gospel of S. Luke, according to the Peshitta version</title>
                      <note>Divided into 23 sections (<foreign xml:lang="syr">ܨܟܓ</foreign>).</note>
                   </msItem>
                   <msItem n="5" xml:id="b4">
                      <locus from="222a" to="290a">Foll. 222a-290a</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/75">John</title>
+                    <title type="supplied" ref="http://syriaca.org/work/75">The Gospel of S. John, according to the Peshitta version</title>
                      <note>Divided into 20 sections (<foreign xml:lang="syr">ܨܟܟ</foreign>).</note>
                   </msItem>
                   <colophon><ref target="#addition4">See additions.</ref></colophon>
@@ -106,8 +106,8 @@
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="perg">
-                  <support><material>Vellum</material></support>
+                <supportDesc material="chart">
+                  <support><material>Paper</material></support>
                   <extent>
                     <measure type="composition" unit="leaf" quantity="291">291 ff.</measure>
                     <dimensions type="leaf" unit="in">
@@ -174,6 +174,7 @@
                   </item>
                    <item n="2" xml:id="addition2">
                       <p>Sometimes Greek vowel-points have been added(<foreign xml:lang="syr">ܰ, ܶ, ܺ, ܳ, , , , , </foreign>; see foll. <locus from="1b" to="2a">1 b, 2 a</locus>, and <locus from="49a" to="49a">49 a</locus>).</p>
+               <!-- Add Greek -->
                    </item>
                    <item n="3" xml:id="addition3">
                       <locus from="1a" to="1a"/>
@@ -356,7 +357,10 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-04" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
+      <change when="2013-08-26" who="http://syriaca.org/editors.xml#dgreeson">Title edits</change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -372,4 +376,3 @@
     </body>
   </text>
 </TEI>
-

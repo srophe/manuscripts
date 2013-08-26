@@ -102,8 +102,8 @@
                <msItem n="1" xml:id="p1a1" defective="true">
                      <locus from="1a" to="49">Foll. 1a-49</locus>
                   <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, according to the Peshitta version</title>
-                  <note>beginning with ch. i. 13. The only other portion missing is ch. vi. 19—vii. 5.</note>
-                  <note>The lessons are indicated in the usual way, the rubrics being sometimes placed in the text, at other times at the top of the page. </note>
+                  <note>Beginning with ch. i. 13. The only other portion missing is ch. vi. 19—vii. 5.</note>
+                  <note>The lessons are indicated in the usual way, the rubrics being sometimes placed in the text, at other times at the top of the page.</note>
                   <note>The Gospel of S. Matthew is divided on the margin into 22 sections.</note>
                   </msItem>
                   <msItem n="2" xml:id="p1a2" defective="true">
@@ -112,7 +112,7 @@
                      <note>It ends with ch. xxi. 12.</note>
                      <note>Title merely:</note>
                      <rubric xml:lang="syr"><locus from="49b" to="49b"/>ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ</rubric>
-                     <note>The lessons are indicated in the usual way, the rubrics being sometimes placed in the text, at other times at the top of the page. </note>
+                     <note>The lessons are indicated in the usual way, the rubrics being sometimes placed in the text, at other times at the top of the page.</note>
                      <note>The Gospel of S. John is divided into 16 sections.</note>
                   </msItem>
             </msContents>
@@ -135,7 +135,8 @@
                   </extent>
                   <foliation/>
                   <collation>
-                     <p>The quires, which are nine in number, were originally signed with arithmetical figures (e. g. <locus from="28" to="28">fol. 28</locus>, <foreign xml:lang="ar"></foreign>; <locus from="58" to="58">fol. 58</locus>, <foreign xml:lang="ar"></foreign>; <locus from="78" to="78">fol. 78</locus>, <foreign xml:lang="ar"></foreign>), but afterwards with letters.</p><!-- NEEDS ARABIC -->
+                     <p>The quires, which are nine in number, were originally signed with arithmetical figures (e. g. <locus from="28" to="28">fol. 28</locus>, <foreign xml:lang="ar"></foreign>; <locus from="58" to="58">fol. 58</locus>, <foreign xml:lang="ar"></foreign>; <locus from="78" to="78">fol. 78</locus>, <foreign xml:lang="ar"></foreign>), but afterwards with letters.</p>
+         <!-- NEEDS ARABIC - Arithmetical figures-->
                   </collation>
                   <condition>
                     <list>
@@ -219,7 +220,7 @@
                <msItem n="1" xml:id="p2a1" defective="true">
                   <locus from="88" to="88">Foll. 88 </locus><locus from="94" to="94">and 94</locus>
                   <title type="supplied" ref="http://syriaca.org/work/74">The Gospel of S. Luke</title>
-                  <note>ch. i. 1—19 and ch. iv. 22—40.</note>
+                  <note>Contains: ch. i. 1—19 and ch. iv. 22—40.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -303,8 +304,8 @@
               <msItem n="1" xml:id="p3a1" defective="true">
                  <locus from="95" to="144">Foll. 95-144 </locus><locus from="146" to="148">and 146-148</locus>
                 <title ref="http://syriaca.org/work/74" type="supplied">The Gospel of S. Luke</title>
-                 <note>ch. iv. 40—xxiii. 34, and ch. xxiii. 51—xxiv. 53, as far as the words <quote xml:lang="syr">ܟܕ. ܒܗܝܟܠܐ̣</quote>.</note>
-                 <note>The leaf which is missing after fol. 110, contained ch. ix. 58—x. 13.</note>
+                 <note>Contains: ch. iv. 40—xxiii. 34, and ch. xxiii. 51—xxiv. 53, as far as the words <quote xml:lang="syr">ܟܕ. ܒܗܝܟܠܐ̣</quote>.</note>
+                 <note>The leaf which is missing after <locus from="110" to="110">fol. 110</locus>, contained ch. ix. 58—x. 13.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -324,7 +325,7 @@
                   </extent>
                   <foliation/>
                   <collation>
-                     <p>Five vellum quires and three leaves</p>
+                     <p>Five vellum quires and three leaves.</p>
                   </collation>
                   <condition>
                      <list>
@@ -490,7 +491,7 @@
               <textLang mainLang="ar">Arabic</textLang>
                 <msItem n="1" xml:id="p5a1" defective="true">
                 <locus from="149" to="149">Fol. 149</locus>
-                   <title ref="" type="supplied">a fragment of an old Arabic document</title>
+                   <title ref="" type="supplied">A fragment of an old Arabic document</title>
                    <note>Of the contents nothing can be deciphered but a few proper names, such as <!-- NEED ARABIC -->, <!-- NEED ARABIC -->, <!-- NEED ARABIC -->, and <!-- NEED ARABIC -->.</note>
               </msItem>
             </msContents>
@@ -670,8 +671,10 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-01" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
