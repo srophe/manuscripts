@@ -80,11 +80,22 @@
               <msItem n="1" xml:id="a1">
                 <locus from="1a" to="1a">Fol. 1a</locus>
                 <title type="supplied">Index of reading lessons</title><!-- Should we mint a URI for indices? -->
-                 <quote xml:lang="syr"><p>ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܥܐ̈ܕܐ ܕܡܬܩܪܝܢ ܒܛܟܣܐ ܒܥܕܬܐ</p>.
-                    <p>ܕܒܝܬ ܝܠܕܐ   ܒܟܘܪܣܐ ܕ   ܒܕܦܐ ܙ</p>
-                    <p>ܕܒܝܬ ܕܢܚܐ   ܒܟܘܪܣܐ ܐ   ܒܕܦܐ ܐ</p>
-                    <p>ܕܡ̈ܥܠܝ ܨܘܡܐ  ܒܟܘܪܣܐ ܐ  ܒܕܦܐ</p> 
-                  <locus from="1a" to="1a"/>
+                 <quote xml:lang="syr">
+                   <table>
+                     <row>
+                       <cell>ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܥܐ̈ܕܐ ܕܡܬܩܪܝܢ ܒܛܟܣܐ ܒܥܕܬܐ</cell>
+                     </row>
+                    <row>
+                      <cell>ܕܒܝܬ ܝܠܕܐ   ܒܟܘܪܣܐ ܕ   ܒܕܦܐ ܙ</cell>
+                    </row>
+                    <row>
+                      <cell>ܕܒܝܬ ܕܢܚܐ   ܒܟܘܪܣܐ ܐ   ܒܕܦܐ ܐ</cell>
+                    </row>
+                    <row>
+                      <cell>ܕܡ̈ܥܠܝ ܨܘܡܐ  ܒܟܘܪܣܐ ܐ  ܒܕܦܐ</cell>
+                    </row> 
+                   </table>
+                   <locus from="1a" to="1a"/>
                 </quote>
                  <colophon><ref target="#addition3">See below.</ref></colophon>
               </msItem>
@@ -326,7 +337,9 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-10" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-10" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-08-28" who="http://syriaca.org/editors.xml#thannah">Added table.</change>
+      <change type="planned" subtype="consult-ms">Consultation of the manuscript needed to clarify manuscript contents</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

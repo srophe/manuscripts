@@ -2549,6 +2549,12 @@ tei_change =
     |
     ## Work URIs needed
     "uri"
+    |
+    ## Consultation of the manuscript needed to clarify physical description
+    "consult-phys"
+    |
+    ## Consultation of the manuscript needed to clarify manuscript contents
+    "consult-ms"
     }?,
     
     ## supplies the date of the change in standard form, i.e. YYYY-MM-DD.
