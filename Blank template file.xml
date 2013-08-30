@@ -20,6 +20,7 @@
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
         </respStmt>
+        <respStmt>
         <resp>Based on the work of</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
