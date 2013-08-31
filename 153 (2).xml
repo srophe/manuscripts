@@ -1,0 +1,726 @@
+<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>BL Egerton 704</title>
+                <funder>National Endowment for the Humanities</funder>
+                <principal>David Michelson</principal>
+                <respStmt>
+                    <resp></resp>
+                    <persName>David Michelson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp></resp>
+                    <persName>Daniel Greeson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp></resp>
+                    <persName>Tucker Hannah</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date calendar="Gregorian"/>
+                <!-- Date of our publication -->
+                <publisher>Syriaca.org</publisher>
+                <pubPlace>
+                    <address>
+                <addrLine/>
+                <addrLine><!--we need to work this out further--></addrLine>
+               <street/>
+                <settlement/>
+                <postCode/>
+                <addrLine><!--<ref target=""/>--></addrLine>
+                <addrLine><email/></addrLine>
+                </address>
+                </pubPlace>
+                <idno>Syriaca.org</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <collection>Egerton MSS</collection>
+                        <idno>BL MS. Add 14,470</idno>
+                        <altIdentifier type="other">
+                            <!-- Probably won't be using this -->
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Biblical Manuscripts: New Testament</summary>
+                        <textLang mainLang="syr">Syriac</textLang>
+                      <msItem n="1" xml:id="a1" class="#translation">
+                        <locus from="1b">f. 1b</locus>
+                        <author key=""/>
+                        <title ref="http://lccn.loc.gov/">Gospel of John, according to the Harklensian version</title>
+                        
+                        <listBibl>
+                          <bibl>
+                            <ref target="#r1">LXIII</ref>
+                          </bibl>
+                          <bibl>
+                            <ref target="#r2">40</ref>
+                          </bibl>
+                        </listBibl>
+                        <textLang mainLang="syr">Syriac</textLang>
+                      </msItem>
+                        <msItem n="2" xml:id="a2" class="#translation">
+                            <locus from="2b" to="176b">ff. 2b-176b</locus>
+                            <author key=""/>
+                            <title ref="http://lccn.loc.gov/">The New Testament, according to the Peshitta version</title>
+                            
+                            <listBibl>
+                                <bibl>
+                                    <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                    <ref target="#r2">40</ref>
+                                </bibl>
+                            </listBibl>
+                            <textLang mainLang="syr">Syriac</textLang>
+                          <msItem n="3" xml:id="b1" class="#translation">
+                            <locus from="2b" to="88">ff. 2b-88</locus>
+                            <author key=""/>
+                            <title ref="http://lccn.loc.gov/">The four Gospels</title>
+                            
+                            <listBibl>
+                              <bibl>
+                                <ref target="#r1">LXIII</ref>
+                              </bibl>
+                              <bibl>
+                                <ref target="#r2">40</ref>
+                              </bibl>
+                            </listBibl>
+                            <textLang mainLang="syr">Syriac</textLang>
+                            <msItem n="4" xml:id="c1" class="#translation">
+                              <locus from="2b" to="25">ff. 2b-25</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Gospel according to Matthew</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="5" xml:id="c2" class="#translation">
+                              <locus from="25b" to="40">ff. 25b-40</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Gospel according to Mark</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="6" xml:id="c3" class="#translation">
+                              <locus from="40b" to="68">ff. 40b-68</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Gospel according to Luke</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="7" xml:id="c4" class="#translation">
+                              <locus from="68a" to="88">ff. 68a-88</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Gospel according to John</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                          </msItem>
+                          <msItem n="8" xml:id="b2" class="#translation">
+                            <locus from="88a" to="143">ff. 88a-143</locus>
+                            <author key=""/>
+                            <title ref="http://lccn.loc.gov/">Pauline Epistles</title>
+                            
+                            <listBibl>
+                              <bibl>
+                                <ref target="#r1">LXIII</ref>
+                              </bibl>
+                              <bibl>
+                                <ref target="#r2">40</ref>
+                              </bibl>
+                            </listBibl>
+                            <textLang mainLang="syr">Syriac</textLang>
+                            <msItem n="9" xml:id="c5" class="#translation">
+                              <locus from="88a" to="98">ff. 88a-98</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Romans</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="10" xml:id="c6" class="#translation">
+                              <locus from="98a" to="108">ff. 98a-108</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">1 Corinthians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="11" xml:id="c7" class="#translation">
+                              <locus from="108a" to="114">ff. 108a-114</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">2 Corinthians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="12" xml:id="c8" class="#translation">
+                              <locus from="114b" to="118">ff. 114b-118</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Galatians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="13" xml:id="c9" class="#translation">
+                              <locus from="118a" to="121">ff. 118a-121</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Ephesians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="14" xml:id="c10" class="#translation">
+                              <locus from="121a" to="123">ff. 121a-123</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Philippians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="15" xml:id="c11" class="#translation">
+                              <locus from="123b" to="125">ff. 123b-125</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Colossians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="16" xml:id="c12" class="#translation">
+                              <locus from="125b" to="128">ff. 125b-128</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">1 Thessalonians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="17" xml:id="c13" class="#translation">
+                              <locus from="128a" to="129">ff. 128a-129</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">2 Thessalonians</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="18" xml:id="c14" class="#translation">
+                              <locus from="129a" to="132">ff. 129a-132</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">1 Timothy</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="19" xml:id="c15" class="#translation">
+                              <locus from="132a" to="133">ff. 132a-133</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">2 Timothy</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="20" xml:id="c16" class="#translation">
+                              <locus from="133b" to="135">ff. 133b-135</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Titus</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="21" xml:id="c17" class="#translation">
+                              <locus from="135a" to="135b">ff. 135a-135b</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Philemon</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="22" xml:id="c18" class="#translation">
+                              <locus from="135b" to="143">ff. 135b-143</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">Hebrews</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                          </msItem>
+                          <msItem n="23" xml:id="b3" class="#translation">
+                            <locus from="143a" to="168">ff. 143a-168</locus>
+                            <author key=""/>
+                            <title ref="http://lccn.loc.gov/">Acts of the Apostles</title>
+                            
+                            <listBibl>
+                              <bibl>
+                                <ref target="#r1">LXIII</ref>
+                              </bibl>
+                              <bibl>
+                                <ref target="#r2">40</ref>
+                              </bibl>
+                            </listBibl>
+                            <textLang mainLang="syr">Syriac</textLang>
+                          </msItem>
+                          <msItem n="24" xml:id="b4" class="#translation">
+                            <locus from="168b" to="176">ff. 168b-176</locus>
+                            <author key=""/>
+                            <title ref="http://lccn.loc.gov/">Catholic Epistles</title>
+                            
+                            <listBibl>
+                              <bibl>
+                                <ref target="#r1">LXIII</ref>
+                              </bibl>
+                              <bibl>
+                                <ref target="#r2">40</ref>
+                              </bibl>
+                            </listBibl>
+                            <textLang mainLang="syr">Syriac</textLang>
+                            <msItem n="25" xml:id="c19" class="#translation">
+                              <locus from="168b" to="171">ff. 168b-171</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">James</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="26" xml:id="c20" class="#translation">
+                              <locus from="171a" to="174">ff. 171a-174</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">1 Peter</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                            <msItem n="27" xml:id="c21" class="#translation">
+                              <locus from="174a" to="176">ff. 174a-176</locus>
+                              <author key=""/>
+                              <title ref="http://lccn.loc.gov/">1 John</title>
+                              
+                              <listBibl>
+                                <bibl>
+                                  <ref target="#r1">LXIII</ref>
+                                </bibl>
+                                <bibl>
+                                  <ref target="#r2">40</ref>
+                                </bibl>
+                              </listBibl>
+                              <textLang mainLang="syr">Syriac</textLang>
+                            </msItem>
+                          </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="mixed">
+                                <support>
+                                    <p><material type="paper">Paper</material> at <locus from="1"
+                                            to="1">Fol. 1</locus> and <locus from="3" to="372">Fol.
+                                            3-372</locus></p>
+                                    <p><material type="perg">Vellum</material> at <locus from="2"
+                                            to="2">Fol. 2</locus> and <locus from="373" to="376"
+                                            >Fol. 373-376</locus></p>
+                                </support>
+                                <extent> ff. 376 <dimensions type="leaf" unit="in">
+                                        <height>12</height>
+                                        <width>8</width>
+                                    </dimensions>
+                                    <dimensions type="written" unit="in">
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                                <foliation type="ancient">
+                                    <locus from="1" to="376">ff. 1-376</locus>
+                                    <p/>
+                                </foliation>
+                                <foliation type="modern">
+                                    <locus/>
+                                    <p/>
+                                </foliation>
+                                <collation>
+                                    <p>The quires, 40 in number, are signed with letters</p>
+                                    <seg n="1" type="gathering">
+                                        <locus from="1" to="376">ff. 1-376</locus>
+                                        <formula/><!-- No clear formula is given for how many leaves are in each quire -->
+                                    </seg>
+                                </collation>
+                                <condition>
+                                    <p>
+                                        <locus from="2" to="2">Foll. 2</locus>, <locus from="199"
+                                            to="199">199</locus>, <locus from="200" to="200"
+                                            >200</locus>, <locus from="201" to="201">201</locus>,
+                                        and <locus from="373" to="376">373-376</locus> are more
+                                        modern than the rest. </p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2" writtenLines="56">
+                                    <p>Each page is divided into two columns of about 56 lines</p>
+                                    <locus from="1" to="376">ff. 1-376</locus>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="4">
+                            <handNote scope="major" script="unknown"><p>The writing is small and
+                                    inelegant, with occasional Syriac and Greek vowels and other
+                                    points, of the <origDate notBefore="1600" notAfter="1700">xviith
+                                        century</origDate>. </p></handNote>
+                            <!-- We need an an attibute for vocalization, yes, non, types+ East Syriac, Serto, Greek, Other. -->
+                            <handNote xml:id="handnote1" scope="major" script="unknown" medium="unknown">
+                                <locus from="3" to="198">ff. 3-198</locus>
+                                <listPerson>
+                                    <person role="scribe" xml:id="Abr_b_Yesh" corresp="">
+                                        <persName xml:lang="eng">Abraham bar Yeshua'</persName>
+                                        <persName xml:lang="syr">ܕܚܛܝܐ ܘܡܚܝܼܠܐ ܐܒܪܗܡ ܕܘ̇ܝܐ ܒܪ ܡܲܩܕܫܝܐ ܡܢܚܐ ܝܫܘܥ̇ ܕܐܬܩܪܝ ܓ݂ܙܘܝ</persName>
+                                        <persName xml:lang="syr">ܓ݂ܙܘܝ,</persName>
+                                        <p>
+                                            from the village of
+                                            <placeName xml:lang="eng" type="supplied" ref="">Kosūr</placeName>, near
+                                            <placeName xml:lang="eng" type="supplied" ref="" >Māridīn</placeName>; 
+                                            and he wrote the volume in the 
+                                            <listPlace>
+                                                <place type="convent" xml:id="Beth_Marcus" corresp="">
+                                                    <placeName xml:lang="eng" type="supplied">convent of S. Mary Deipara</placeName>
+                                                    <placeName xml:lang="eng" type="supplied">Beth Marcus</placeName>
+                                                </place>
+                                            </listPlace>, 
+                                            at <placeName xml:lang="eng" type="supplied" ref="">Jerusalem</placeName>. 
+                                        </p>
+                                    </person>
+                                </listPerson>
+                                </handNote>
+                            <handNote xml:id="handnote2" scope="major" script="unknown" medium="unknown">
+                                <locus from="199" to="200">Foll. 199 and 200</locus>
+                                <listPerson>
+                                        <person role="scribe" xml:id="Ant_Jerus" corresp="">
+                                            <persName xml:lang="eng">Antonius of Jerusalem</persName>
+                                            <persName xml:lang="syr">ܐܢܛܘܢܝܘܣ ܨܗܝܘܢܝܐ</persName>
+                                        </person>
+                                    </listPerson>
+                            </handNote>
+                            <handNote xml:id="handnote3" scope="major" script="unknown" medium="unknown">
+                                <locus from="201" to="201">Foll. 201</locus>
+                                <listPerson>
+                                    <person role="scribe" xml:id="Serg_al-Jub" corresp="">
+                                        <persName>Sergius al-Jubaili</persName>
+                                    </person>
+                                </listPerson>
+                                <p>
+                                    <locus from="201" to="201">Fo. 201</locus> is in the handwriting of one <persName xml:lang="eng" ref="#Serg_al-Jub">Sergius al-Jubaili</persName>, who name appears in the following Arabic notes.
+                                </p>
+                            </handNote>
+                            <handNote xml:id="handnote4" scope="major" script="unknown" medium="unknown">
+                                <locus from="2" to="2">Foll. 2</locus>
+                                <locus from="373" to="376">373-376</locus>
+                                <p>
+                                    <locus from="2" to="2">Foll. 2</locus> and <locus from="373" to="376">373-376</locus> (which are in <material>vellum</material>) are in a different hand from any of the above, but the writer has not recorded his name.
+                                </p>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>To several of the books short notes are prefixed, giving some account
+                                of the writer, date, etc. As in the Bodleian and Vatican MMS.
+                                mentioned in Dr. Payne Smith's Catalogue of the Syriac MSS. in the
+                                Bodleian Library
+                                <!-- <ref target="[external URI for this document]"> -->(Oxford,
+                                1864)<!-- </ref> -->, nos. 1 and 2; and also Assemani,
+                                Manuscriptorum Codd. Bibl. Apost. Vat. Catalogus (Rom. 1756-58), t.
+                                ii. p. 14, no. vii.</p>
+                            <list>
+                                <item n="1" xml:id="m1">
+                                    <label/>
+                                    <locus from="47b">Fol. 47b</locus>
+                                    <quote xml:lang="syr">ܘܐܬܟ̣ܬܒ ܥܠ ܐܝܼܕܘ̈ܗܝ <persName ref="#s1"
+                                            >ܕܚܛܝܐ ܘܡܚܝܼܠܐ ܐܒܪܗܡ ܕܘ̇ܝܐ ܒܪ ܡܲܩܕܫܝܐ ܡܢܚܐ
+                                            ܝܫܘܥ̇</persName> ܕܐܬܩܪܝ <persName ref="#s1"
+                                            >ܓ݂ܙܘܝ</persName> ܡܢ <placeName ref="#p1">ܩܨܘܪ</placeName> ܐܬܪܐ
+                                        ܕܡܪܕܐ ܐܘܟܝܬ ܡܐܪܕܝܢ ܡܕܝܢܬܐ. </quote>
+                                </item>
+                                <item n="2" xml:id="m2">
+                                    <label/>
+                                    <locus from="77a">Fol. 77a</locus>
+                                    <quote xml:lang="syr"><ref target="#s1"/> ܘܨܠܘ ܥܠ ܐܒܪܗܡ ܚܲܛܝܐ ܒܪ
+                                        ܡܩܕܫܝܐ ܝܫܘܥ ܡܢ ܡܕܢܚܐ ܐܬܪܐ ܕܡܪܕܝܢ ܡܕܝܢܬܐ ܡܢ ܩܪܝܬܐ ܡܒܪܟܬܐ ܩܨܘܪ
+                                        ܟ̣ܬܒܬܗ ܠܟܬܒܐ ܗܢܐ ܒܐܘܪܫܠܡ ܡܕܝܢܬܗ ܕܡܟܠܐ ܪܒܐ ܒܕܝܪܐ ܩܕܝܫܬܐ
+                                        ܕܝܿܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ ܕܡܬܟܲܢܐ ܕܒܝܬ ܡܪܩܘܣ.. </quote>
+                                </item>
+                                <item n="3" xml:id="m3">
+                                    <label/>
+                                    <p>See also <locus from="165b">Foll. 165b</locus> and <locus
+                                            from="320a">320a</locus>.</p>
+                                </item>
+                                <item n="4" xml:id="m4">
+                                    <label/>
+                                    <locus from="199-200">Foll. 199-200</locus>
+                                    <quote xml:lang="syr"><ref target="#s2"/> ܘܨܰܠܰܘ ܥܰܠ ܐܠܺܝܠܐ
+                                        ܐܢܛܘܢܝܘܣ ܨܗܝܘܢܝܐ ܕܟܬ݂ܒ ܡܛܠ ܡܪܢ ܘܗܼܘ ܢܚܣܐ ܠܟܘܢ ܐܰܡܺܝܢ.
+                                    </quote>
+                                </item>
+                                <item n="5" xml:id="m5">
+                                    <label/>
+                                    <locus from="77a">Fol. 77a</locus>
+                                    <quote xml:lang="ara-syrc"><ref target="#s3"/> ܝܩܘܠ ܐܠܚܩܝܪ ܣܪܓܝܣ
+                                        ܘܐܛܥ ܐܣܡܗ ܐܠܓܒܝܠܝ ܐܢܢܝ ܐܣܬܒܕܠܬ ܗܕܐ ܟܬܐܒ ܐܠܥܬܝܩܗ ܟܠܗ ܟ݂ܛ
+                                        ܣܪܝܐܢܝ ܦܝ ܢܨܟܬܗ ܟ݂ܛ ܝܕܝ ܡܦܣܪ ܟ݂ܛ ܐܟܪܫܘܢܝ ܘܐܠܠܗ ܥܠܝ ܡܐ ܢܩܘܠ
+                                        ܘܟܝܠ ܫܐܗܕ ܚܩ ܒܚܛܪܗ̈ ܐܟ݂ܘܬܝ ܡܛܪܢ ܝܘܢܢ ܘܡܛܪܐܢ ܝܘܣܦ ܟ݂ܘܪܝ ܝܚܢܐ
+                                        ܟ݂ܘܪܝ ܐܢܛܘܢܝܘܣ ܘܒܐܩܝ ܐܠܐܟ݂ܘܗ ܐܠܠܗ ܝܟ݂ܠܨܗܡ ܐܡܝܢ:
+                                    </quote><!-- Need to tag the name of Sergius al-Jubaili in the Garshuni -->
+                                </item>
+                                <item n="6" xml:id="m6">
+                                    <label/>
+                                    <locus from="105a">Fol. 105a</locus>
+                                    <quote xml:lang="ara-syrc"><ref target="#s3"/> ܝܘܩܠ ܐܠܚܩܝܪ ܣܪܓܝܣ
+                                        ܐܠܓܒܝܠܝ ܘܐܛܥ ܐܣܡܗ ܐ܏ܠܟ
+                                    </quote><!-- Need to tag the name of Sergius al-Jubaili in the Garshuni -->
+                                </item>
+                                <item n="7" xml:id="m7">
+                                    <label/>
+                                    <locus from="219a">Fol. 219a</locus>
+                                    <quote xml:lang="ara-syrc"><ref target="#s3"/> ܝܘܐܠܟܬܐܒ ܒܪܣܡ
+                                        ܐܠܚܩܝܪ ܣܪܓܝܣ ܘܐܟܘܬܗ ܡܛܪܐܢ ܝܘܢܢ ܡܛܪܐܢ ܝܘܣܦ: ܘܐܘܠܐܕ ܐܟ݂ܝ ܟ݂ܘܪܝ
+                                        ܝܚܢܐ ܫܡܐܣ ܒܘܠܨ ܫܡܐܣ ܣܡܥܐܢ ܐܠܠܗ ܝܚܦܛܗܡ ܐܡܝܢ܀
+                                    </quote><!-- Need to tag the name of Sergius al-Jubaili in the Garshuni -->
+                                </item>
+                            </list>
+                            <catchwords/>
+                        </additions>
+                        <bindingDesc>
+                            <p>
+                                <date calendar="gregorian"/>
+                                <material/>
+                            </p>
+                            <decoNote type="illustration"> </decoNote>
+                            <condition/>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <summary/>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1600" notAfter="1700">xviith
+                                century</origDate>
+                        </origin>
+                        <provenance> On <locus from="1">fol. 1</locus> stands the following note:
+                            "This MS. is the property of <persName>Dr. Adam Clarke, of Millbrook,
+                                Lanch</persName>.” See the <ref>Catalogue of the European and
+                                Asiatic Manuscripts in the Library of the late Dr. Adam Clarke, by
+                                J.B.B. Clarke (Lond. 1835), p. 203, no. 249</ref>. </provenance>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Manuscript description based on<list>
+                                        <item><ref xml:id="r1">Numeral citation is based on William
+                                                Wright, Catalogue of Syriac Manuscripts in the
+                                                British Museum Acquired since the Year 1838, Part I
+                                                (London, 1870)</ref></item>
+                                        <item><ref xml:id="r2">Pagination refers to William Wright,
+                                                Catalogue of Syriac Manuscripts in the British
+                                                Museum Acquired since the Year 1838, Part I (London,
+                                                1870)</ref></item>
+                                    </list>abbreviated by the Syriaca.org project team.</source>
+                            </recordHist>
+                            <availability status="restricted">
+                                <p/>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+          <editorialDecl>
+            <interpretation>
+              <p>Description is based on Wright's Catalogue without consultation of physical manuscripts. Foliation is approximate. Wright often does not indicate ending folia so those have been assumed based on beginning folia.</p>
+              <p>Scribal notes which could not be more clearly classified based on Wright's descriptions have been identified as &lt;additions&gt; whether they occur in the margins or the body of the manuscript.</p>
+              <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents as possible, including tables of contents and indices.</p>
+            </interpretation>
+          </editorialDecl>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2010-05-06">
+                <persName/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- facsimile information about the manuscript -->
+        <graphic/>
+        <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
+            elements to give coordinates for any special areas of interest -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- If you had a transcription of the manuscript you would put it here -->
+            <p/>
+        </body>
+    </text>
+</TEI>
