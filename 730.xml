@@ -4,12 +4,13 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add Ms 17103</title>
+        <title xml:lang="en">BL Add MS 17103</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -17,6 +18,10 @@
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
@@ -78,7 +83,7 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1a" to="3b"/>
+                <locus from="1a" to="3b">Foll. 1a-3b</locus>
                 <title type="supplied">Summary of the contents</title>
                 <title xml:lang="syr">ܩ̈ܦܠܐܐ
                   <locus from="1a" to="1a"/>
@@ -89,21 +94,21 @@
                 <finalRubric xml:lang="syr">ܫܠܡܘ ܩ̈ܦܠܐܐ ܕܕܝ̇ܢܐ̣ ܫܒܥܐ
                   <locus from="3b" to="3b"/>
                 </finalRubric>
-                <note>It is imperfect at the beginning, commencing with the words: <quote xml:lang="syr">ܫܪܒܬܐ ܐܝܬܝܗ̇ ܗܘܐ. ܟܕ ܕܝܢ ܚ̣ܙܘ ܕܣ̣ܝܡ̣. ܠܐ ܗܘ̣ܘ ܕܠܩܘܒܠܐ</quote>
-                  (see the <bibl>Synopsis Scripturae Sacrae of John Chrysostom; Opera, t. vi. p. 400, E, <foreign xml:lang="grc">διὰ τὸ ἀλλόφυλον εἶναι· ὡς δὲ εἶδον ἐπικείμενον, οὐκ ἠναντιώθησαν</foreign></bibl>).</note>
+                <note>It is imperfect at the beginning.</note>
+                  <note>See the <bibl>Synopsis Scripturae Sacrae of John Chrysostom; Opera, t. vi. p. 400, E, <foreign xml:lang="grc">διὰ τὸ ἀλλόφυλον εἶναι· ὡς δὲ εἶδον ἐπικείμενον, οὐκ ἠναντιώθησαν</foreign></bibl>.</note>
               </msItem>
               <msItem n="2" xml:id="a2">
-                <locus from="4a" to="70b"/>
-                <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
-                <title ref="http://syriaca.org/work/165" type="supplied">The books of Judges and Ruth, translated from the Septuagint version by Paul of Tellā</title>
+                <locus from="4a" to="70b">Foll. 4a-70b</locus>
+                <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></editor>
+                <title ref="http://syriaca.org/work/165" type="supplied">The books of Judges and Ruth, translated from the Septuagint version by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></persName></title>
                 <note>
                    <p>The text of these two books has been carefully edited from this manuscript by <bibl>Dr. T. Skat Rőrdam, Copenhagen, 1861.</bibl></p>                
-                  <p>The lessons are usually indicated on the margins by the word <foreign xml:lang="syr">ܩܪܝ (ܩܪܝܢܐ)</foreign> at the beginning, and the letter <foreign xml:lang="syr">ܫ (ܫܠܡ)</foreign> at the end of each.
+                  <p>The lessons are usually indicated on the margins by the word <foreign xml:lang="syr"><choice><abbr>ܩܪܝ </abbr><expan>ܩܪܝܢܐ</expan></choice></foreign> at the beginning, and the letter <foreign xml:lang="syr"><choice><abbr>ܫ </abbr><expan>ܫܠܡ</expan></choice></foreign> at the end of each.
                   </p>
                   <p>The margins contain the chapters, sections and versicles (e.g. fol. <locus>61a</locus>, <foreign xml:lang="syr">ܦܬ ܐܠܦ </foreign>, but no various readings.</p>
                 </note>
                 <msItem n="3" xml:id="b1">
-                <locus from="4a" to="61b"/>
+                <locus from="4a" to="61b">Foll. 4a-61b</locus>
                 <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
                 <title ref="http://syriaca.org/work/166" type="supplied">The book of Judges, translated from the Septuagint version by Paul of Tellā</title>
                 <rubric xml:lang="syr">ܟܬܒܐ ܕܕܝ̈ܢܐ
@@ -112,25 +117,25 @@
                 <finalRubric xml:lang="syr">ܫܠܡ ܟܬܒܐ ܕܕܝܢܐ ܐܬܟܬܒ ܕܝܢ ܘܐܬܦܚܡ̣ ܡܢ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ                  
                   <locus from="61b" to="61b"/>
                 </finalRubric>
+              </msItem>
                <msItem n="4" xml:id="b2">
-                  <locus from="62b" to="70b"/>
+                  <locus from="62b" to="70b">Foll. 62b-70b</locus>
                   <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
-                  <title ref="http://syriaca.org/work/167" type="supplied">The book of Ruth, translated from the Septuagint version by Paul of Tellā</title>
+                 <title ref="http://syriaca.org/work/167" type="supplied">The book of Ruth, translated from the Septuagint version by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></persName></title>
                   <rubric xml:lang="syr">ܟܬܒܐ ܕܐܪܥܘܬ ܒܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ 
                     <locus from="62b" to="62b"/>
                   </rubric>
                   <finalRubric xml:lang="syr">ܫܠܡܬ ܐܪܥܘܬ
                     <locus from="70b" to="70b"/>
                   </finalRubric>
+                </msItem>
                   <colophon>
                     <ref target="addition1">See below.
                     </ref>
                   </colophon>
-                </msItem>
-              </msItem>
               </msItem>
             <msItem n="5" xml:id="a3">
-                <locus from="62a" to="62a"/>
+                <locus from="62a" to="62a">Fol. 62a</locus>
                 <title type="supplied">Summary of the contents</title>
               <title xml:lang="syr">ܩ̈ܦܠܐܐ ܕܐܪܥܘܬ 
                   <locus from="62a" to="62a"/>
@@ -177,7 +182,7 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript is written in a fine, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate></desc>
+                  <desc>This manuscript is written in a fine, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate>. <ref target="#addition1 #addition2">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>See <ref target="#addition3">additions</ref>.</desc>                
@@ -185,14 +190,15 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="70b" to="70b"/><ref target="#b2"/>
-                    <p>Colophon :</p><p><quote xml:lang="syr">ܨܚܚܐ ܕܝܢ ܕܐܬ̣ܟܬܒ ܗܿܘ ܕܐܬ̇ܦܫܩ ܗܢ ܡܢܗ̣. ܪܫ̣ܝܡ ܗܘܐ ܥܠܘܗܝ ܗܟܢܐ. ܐܬܟܬܒ ܡܢ ܐܪ̈ܒܝܥܝ ܦܨ̈ܐ̣ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ.</quote></p>
+                  <item n="1" xml:id="addition1"><locus from="70b" to="70b"/>
+                    <p>Colophon :</p>
+                    <p><quote xml:lang="syr">ܨܚܚܐ ܕܝܢ ܕܐܬ̣ܟܬܒ ܗܿܘ ܕܐܬ̇ܦܫܩ ܗܢ ܡܢܗ̣. ܪܫ̣ܝܡ ܗܘܐ ܥܠܘܗܝ ܗܟܢܐ. ܐܬܟܬܒ ܡܢ ܐܪ̈ܒܝܥܝ ܦܨ̈ܐ̣ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ.</quote></p>
                     <p><quote>"On the manuscript exemplar, from which this (copy) was translated, there was written thus: copied from the Tetrapla, according to the version of the LXX."</quote></p></item>
-                  <item n="2" xml:id="addition2"><locus from="70b" to="70b"/><ref target="#b2"/>
-                    <p>On fol. 70b there is a note, in the handwriting of the scribe, but in a more cursive character, informing us that this manuscript (like the second portion of <bibl>Add. 14,437<ptr target="http://syriaca.org/manuscript/99"/></bibl>) belonged to the <placeName>convent of Mār Cyriacus</placeName> at <placeName>Tellā Hăphīkhā</placeName>.</p>
+                  <item n="2" xml:id="addition2"><locus from="70b" to="70b"/>
+                    <p>On fol. 70b there is a note, in the handwriting of the scribe, but in a more cursive character, informing us that this manuscript (like the second portion of <bibl>Add. 14,437<ptr target="http://syriaca.org/manuscript/99"/></bibl>) belonged to the <placeName ref="">convent of Mār Cyriacus</placeName> at <placeName ref="">Tellā Hăphīkhā</placeName>.</p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܩܘܪܝܩܘܣ ܕܬܠܐ ܗܦܝܟܐ. ܟܠ ܕܝܢ ܕܫܩܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ. ܐܘ ܕܢܟܬܘܒ ܡܢܗ. ܐܘ ܕܢܦܚܡ ܡܢܗ. ܘܠܐ ܡܦܢܐ ܠܗ ܠܥܘܡܪܐ ܕܐܡܝܪ ܗܘܐ ܝܕܥ ܕܬܚܝܬ ܡܠܬܐ ܕܚܝܠܬܐ ܕܐܠܗܐ ܐܝܬܘܗܝ ܥܕܡܐ ܕܡܦܢܐ ܠܗ ܠܡܪ̈ܘܗܝ. ܘܬܬܚܫܒ ܡܢܬܗ ܥܡ ܡܚܠܨܝ ܒܝܬ ܡܩܕܫܐ. ܘܢܐܪܬ ܓܪܒܗ ܕܓܚܙܝ ܘܡܚܢܘܩܝܬܗ ܕܝܗܘܕܐ ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܩ̈ܕܝܫܐ ܐܡܝܢ ܘܥܠ ܚܛܝܐ ܕܣܪܛ ܢܗܘܘܢ ܪ̈ܚܡܐ ܒܝܘܡ ܕܝܢܐ ܐܡܝܢ.</quote></p></item>
-                  <item n="3" xml:id="addition3"><ref target="#handNote2"/>
-                    <p>There are a few notes and corrections, made by a reader named <persName>Zākhē</persName>; e.g. foll. <locus>17a</locus>, <locus>21a</locus>, <locus>51a</locus>, and <locus>65b</locus> (Ruth ii. 14. <foreign xml:lang="syr">ܒܚܠܐ</foreign>, marg.<foreign xml:lang="syr">ܙܟ̇ܐ. ܒܚܠܒܐ. ܚܛܝܐ</foreign>).</p>
+                  <item n="3" xml:id="addition3">
+                    <p>There are a few notes and corrections, made by a reader named <persName ref="">Zākhē</persName>; e.g. foll. <locus>17a</locus>, <locus>21a</locus>, <locus>51a</locus>, and <locus>65b</locus> (Ruth ii. 14. <foreign xml:lang="syr">ܒܚܠܐ</foreign>, marg.<foreign xml:lang="syr">ܙܟ̇ܐ. ܒܚܠܒܐ. ܚܛܝܐ</foreign>).</p>
       <!-- Arabic to be added -->
                   </item>
                 </list>
@@ -203,7 +209,7 @@
                 <origDate from="0700" to="0800">viiith cent.</origDate>
               </origin>
               <provenance>
-                <p>This manuscript belonged to the <placeName>convent of Mār Cyriacus</placeName> at <placeName>Tellā Hăphīkhā</placeName>.</p>
+                <p><ref target="#addition2">See additions.</ref></p>
               </provenance>
             </history>
             <additional>
@@ -324,7 +330,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-18" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-07-18" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-09-04" who="http://syriaca.org/editors.xml#thannah">Initial edit: arranged msItems, made loci human-readable</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
