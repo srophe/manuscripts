@@ -83,27 +83,29 @@
                   <note>This volume is made up of two parts, foll. 1—54 and foll. 55—131</note>
                   <msItem n="2" xml:id="b1">
                      <locus from="1b" to="55">Foll. 1b-55</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
+                    <title type="supplied" ref="http://syriaca.org/work/72">The Gospel of S. Matthew, according to the Peshitta version</title>
                   </msItem>
                   <msItem n="3" xml:id="b2">
                      <locus from="55a" to="79">Foll. 55a-79</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/73">Mark</title>
+                    <title type="supplied" ref="http://syriaca.org/work/73">The Gospel of S. Mark, according to the Peshitta version</title>
                      <note>Beginning with ch. iv. 37. One leaf, containing ch. viii. 8—30, is also missing.</note>
                   </msItem>
                   <msItem n="4" xml:id="b3">
                      <locus from="79a" to="131">Foll. 79a-131</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/74">Luke</title>
+                    <title type="supplied" ref="http://syriaca.org/work/74">The Gospel of S. Luke, according to the Peshitta version</title>
                      <note>Ending with ch. xxiii. 55.</note>
                   </msItem>
                   <note>Of the lessons, some are noted with red ink in the text throughout the volume.</note>
                </msItem>
                <msItem n="5" xml:id="a2">
                   <locus from="1" to="54">Foll. 1-54</locus>
-                  <title type="supplied" ref="http://syriaca.org/work/180">In the first part of the manuscript, foll. 1—54, the Ammonian sections and Eusebian canons are rubricated in the text</title>
+                  <title type="supplied" ref="http://syriaca.org/work/180">The Ammonian sections and Eusebian canons</title>
+                 <note>In the first part of the manuscript, foll. 1—54, the Ammonian sections and Eusebian canons are rubricated in the text.</note>
                </msItem>
                <msItem n="6" xml:id="a3">
                   <locus from="1" to="54">Foll. 1-54</locus>
-                  <title type="supplied" ref="http://syriaca.org/work/181">In the first part of the manuscript, foll. 1—54, there is a harmony of the four Gospels at the foot of each page.</title>
+                  <title type="supplied" ref="http://syriaca.org/work/181">Harmony of the four Gospels</title>
+                  <note>In the first part of the manuscript, foll. 1—54, there is a harmony of the four Gospels at the foot of each page.</note>
                </msItem>
             </msContents>
             <physDesc>
@@ -142,7 +144,7 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="2" writtenLines="22 27">
-                     <p>Each page is divided into two columns, of from 22 to 27 lines. </p>
+                     <p>Each page is divided into two columns, of from 22 to 27 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
@@ -177,8 +179,7 @@
                       <locus from="1a" to="1a"/>
                       <p>On fol. 1 a there are two notes, one of which is so much effaced that only a word here and there is legible, amongst others</p>
                       <p><quote xml:lang="syr">ܕܛܘܒܢܐ ܓܝܘܪܓܝܣ,</quote></p>
-                      <p><quote>"of S. George,"</quote></p>
-                      <p>in the third line.</p>
+                      <p><quote>"of S. George,"</quote> in the third line.</p>
                    </item>
                    <item n="4" xml:id="addition4">
                       <locus from="1a" to="1a"/>
@@ -318,7 +319,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-07" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-09-04" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>

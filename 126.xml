@@ -82,23 +82,23 @@
                  <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels, according to the Peshitta version</title>
                  <msItem n="2" xml:id="b1" defective="true">
                     <locus from="1a" to="49">Foll. 1a-49</locus>
-                    <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
-                    <note>Beginning with ch. 6:25</note>
+                    <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, according to the Peshitta version</title>
+                    <note>Beginning with ch. 6:25.</note>
                  </msItem>
                  <msItem n="3" xml:id="b2">
-                    <locus from="49a" to="85">Foll. 49a-85</locus>
-                    <title ref="http://syriaca.org/work/73" type="supplied">Mark</title>
+                    <locus from="49b" to="85">Foll. 49b-85</locus>
+                   <title ref="http://syriaca.org/work/73" type="supplied">The Gospel of S. Mark, according to the Peshitta version</title>
                     <note></note>
                  </msItem>
                  <msItem n="4" xml:id="b3">
                     <locus from="85b" to="142">Foll. 85b-142</locus>
-                    <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
+                   <title ref="http://syriaca.org/work/74" type="supplied">The Gospel of S. Luke, according to the Peshitta version</title>
                     <note></note>
                  </msItem>
                  <msItem n="5" xml:id="b4" defective="true">
                     <locus from="142b" to="182">Foll. 142b-182</locus>
-                    <title ref="http://syriaca.org/work/75" type="supplied">John</title>
-                    <note>Ending with ch. 20:25</note>
+                   <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
+                    <note>Ending with ch. 20:25.</note>
                  </msItem>
                  <note>The lessons are indicated on the margins by <ref target="#handNote2">several hands</ref>, none of them so old as the text.</note>
               </msItem>
@@ -293,6 +293,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-19" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-09-04" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -308,4 +309,3 @@
     </body>
   </text>
 </TEI>
-
