@@ -82,99 +82,100 @@
                  <title type="supplied" ref="http://syriaca.org/work/70">The New Testament, according to the Peshitta version</title>
                  <msItem n="2" xml:id="b1" defective="true">
                     <locus from="1a" to="116">Foll. 1a-116</locus>
-                    <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels</title>
+                   <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
                     <msItem n="3" xml:id="c1" defective="true">
                        <locus from="1a" to="31">Foll. 1a-31</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
-                       <note>In 22 sections</note>
+                      <title type="supplied" ref="http://syriaca.org/work/72">The Gospel of S. Matthew, according to the Peshitta version</title>
+                       <note>In 22 sections.</note>
                        <note>The portions missing are: ch. i. 1—ii. 13, iii.14—v. 24, and viii.26— ix. 19.</note>
                     </msItem>
                     <msItem n="4" xml:id="c2">
                        <locus from="31a" to="51">Foll. 31a-51</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/73">Mark</title>
-                       <note>In 13 sections</note>
+                      <title type="supplied" ref="http://syriaca.org/work/73">The Gospel of S. Mark, according to the Peshitta version</title>
+                       <note>In 13 sections.</note>
                     </msItem>
                     <msItem n="5" xml:id="c3">
                        <locus from="51b" to="87">Foll. 51b-87</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/74">Luke</title>
-                       <note>In 23 sections</note>
+                      <title type="supplied" ref="http://syriaca.org/work/74">The Gospel of S. Luke, according to the Peshitta version</title>
+                       <note>In 23 sections.</note>
                     </msItem>
                     <msItem n="6" xml:id="c4">
                        <locus from="87b" to="116">Foll. 87b-116</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/75">John</title>
-                       <note>In 20 sections</note>
+                      <title type="supplied" ref="http://syriaca.org/work/75">The Gospel of S. John, according to the Peshitta version</title>
+                       <note>In 20 sections.</note>
                     </msItem>
                  </msItem>
                  <msItem n="7" xml:id="b2">
                     <locus from="116a" to="153">Foll. 116a-153</locus>
-                    <title type="supplied" ref="http://syriaca.org/work/76">Acts of the Apostles</title>
-                    <note>To which is added:</note>
+                   <title type="supplied" ref="http://syriaca.org/work/76">The Acts of the Apostles, according to the Peshitta version</title>
+                    <note>To which are added:</note>
                     <msItem n="8" xml:id="c5">
                        <locus from="153b" to="164">Foll. 153b-164</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/160">The three Catholic Epistles</title>
+                      <title type="supplied" ref="http://syriaca.org/work/160">Three Catholic Epistles, according to the Peshitta version</title>
                     <msItem n="9" xml:id="d1">
                        <locus from="153b" to="157">Foll. 153b-157</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/91">James</title>
+                      <title type="supplied" ref="http://syriaca.org/work/91">The Epistle of S. James, according to the Peshitta version</title>
                     </msItem>
                     <msItem n="10" xml:id="d2">
                        <locus from="157a" to="160">Foll. 157a=160</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/92">1 Peter</title>
+                      <title type="supplied" ref="http://syriaca.org/work/92">The first Epistle of S. Peter, according to the Peshitta version</title>
                     </msItem>
                     <msItem n="11" xml:id="d3">
                        <locus from="160b" to="164">Foll. 160b-164</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/94">1 John</title>
+                      <title type="supplied" ref="http://syriaca.org/work/94">The first Epistle of S. John, according to the Peshitta version</title>
                     </msItem>
                     </msItem>
-                    <note>Totale number of sections, 32.</note>
+                    <note>Total number of sections, 32.</note>
                  </msItem>
                  <msItem n="12" xml:id="b3" defective="true">
                     <locus from="164a" to="209b">Foll. 164a-209b</locus>
-                    <title type="supplied" ref="http://syriaca.org/work/159">The fourteen Epistles of Paul</title>
+                   <title type="supplied" ref="http://syriaca.org/work/159">The fourteen Epistles of Paul, according to the Peshitta version</title>
                     <msItem n="13" xml:id="c6">
                        <locus from="164a" to="177">Foll. 164a-177</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/77">Romans</title>
+                      <title type="supplied" ref="http://syriaca.org/work/77">Romans, according to the Peshitta version</title>
                     </msItem>
                     <msItem n="14" xml:id="c7">
                        <locus from="177b" to="191">Foll. 177b-191</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/78">1 Corinthians</title>
+                      <title type="supplied" ref="http://syriaca.org/work/78">1 Corinthians, according to the Peshitta version</title>
                     </msItem>
                     <msItem n="15" xml:id="c8" defective="true">
                        <locus from="191a" to="195">Foll. 191a-195</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/79">2 Corinthians</title>
-                       <note>Ending with ch. 6:15</note>
+                      <title type="supplied" ref="http://syriaca.org/work/79">2 Corinthians, according to the Peshitta version</title>
+                       <note>Ending with ch. 6:15.</note>
                     </msItem>
                     <msItem n="16" xml:id="c9" defective="unknown">
                        <locus from="195a" to="196">Foll. 195a-196</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/80">Galatians</title>
-                       <note>Beginning with ch. 4:22</note>
+                      <title type="supplied" ref="http://syriaca.org/work/80">Galatians, according to the Peshitta version</title>
+                       <note>Beginning with ch. 4:22.</note>
                     </msItem>
                     <msItem n="17" xml:id="c10" defective="unknown">
                        <locus from="196b" to="196b">Fol. 196b</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/81">Ephesians</title>
-                       <note>Ending with ch. 1:17</note>
+                      <title type="supplied" ref="http://syriaca.org/work/81">Ephesians, according to the Peshitta version</title>
+                       <note>Ending with ch. 1:17.</note>
                     </msItem>
-                    <note>Philippians, Colossians, 1 and 2 Thessalonians, and 1 Timothy are lost.</note><!-- Should these titles be tagged? -->
+                    <note>Philippians, Colossians, 1 and 2 Thessalonians, and 1 Timothy are lost.</note>
+          <!-- Should these titles be tagged? -->
                     <msItem n="18" xml:id="c11" defective="unknown">
                        <locus from="197a" to="199">Foll. 197a-199</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/87">2 Timothy</title>
-                       <note>Beginning with ch. 1:4</note>
+                      <title type="supplied" ref="http://syriaca.org/work/87">2 Timothy, according to the Peshitta version</title>
+                       <note>Beginning with ch. 1:4.</note>
                     </msItem>
                     <msItem n="19" xml:id="c12">
                        <locus from="199a" to="201">Foll. 199a-201</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/88">Titus</title>
+                      <title type="supplied" ref="http://syriaca.org/work/88">Titus, according to the Peshitta version</title>
                     </msItem>
                     <msItem n="20" xml:id="c13">
                        <locus from="201a" to="201b">Foll. 201a-201b</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/89">Philemon</title>
+                      <title type="supplied" ref="http://syriaca.org/work/89">Philemon, according to the Peshitta version</title>
                     </msItem>
                     <msItem n="21" xml:id="c14" defective="true">
                        <locus from="201b" to="209b">Foll. 201b-209b</locus>
-                       <title type="supplied" ref="http://syriaca.org/work/90">Hebrews</title>
+                      <title type="supplied" ref="http://syriaca.org/work/90">Hebrews, according to the Peshitta version</title>
                        <note>From ch. 7:4-9:21 is missing.</note>
                     </msItem>
                     <note>Number of sections in the Pauline epistles, 55.</note>
                  </msItem>
-                 <note>Totale number of sections in the whole New Testament, 165.</note>
+                 <note>Total number of sections in the whole New Testament, 165.</note>
                  <finalRubric xml:lang="syr">.ܫܘܒܚܐ ܠܚܕ ܟܝܢܐ ܐܠܗܝܐ ܕܠܐ ܥܒܝܕ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. ܕܟܝܪܝܢ ܟܠܗܘܢ ܐܝܠܝܢ ܕܕܡܫܝܚܐ ܐܢܘܢ ܘܚܢܢ ܢܬܥܕܪ ܒܨܠܘܬܗܘܢ ܐܝܢ ܘܐܡܢ (SIC). ܫܘܒܫܚܐ ܠܗ̇ܘ ܕܥܠ ܚܝܠܗ ܫܪܝܢ ܘܒܥܘܕܪܢܗ ܫܠܡܢ.
                   <locus from="209b" to="209b"/>
                </finalRubric>
@@ -203,7 +204,7 @@
                   </extent>
                   <foliation/>
                   <collation>
-                     <p>The quires, originally 25 in number, were signed with letters, but have been subse¬quently re-numbered, though incorrectly, with Coptic arithmetical figures and Arabic letters.</p>
+                     <p>The quires, originally 25 in number, were signed with letters, but have been subsequently re-numbered, though incorrectly, with Coptic arithmetical figures and Arabic letters.</p>
                   </collation>
                   <condition>
                     <list>
@@ -227,7 +228,7 @@
               </objectDesc>
               <handDesc hands="4">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syrn" medium="unknown">
-                   <desc>The writing is a small, elegant, Nestorian Estrangela, with numerous vowel-points and other marks</desc>
+                   <desc>The writing is a small, elegant, Nestorian Estrangela, with numerous vowel-points and other marks.</desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="mixed" medium="unknown">
                     <desc><ref target="#addition2">See additions.</ref></desc>
@@ -397,6 +398,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-18" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-09-06" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -412,4 +414,3 @@
     </body>
   </text>
 </TEI>
-

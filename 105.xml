@@ -112,7 +112,7 @@
                           <p>Some leaves are much stained and torn, especially foll. <locus>2</locus>, <locus>21</locus>, <locus>22</locus>, <locus>40</locus>, and <locus>60—62</locus>.</p>
                        </item>
                       <item>
-                         <p>Of the quires, only <foreign xml:lang="syr">ܘ</foreign> and <foreign xml:lang="syr">ܝܒ</foreign> are complete</p>
+                         <p>Of the quires, only <foreign xml:lang="syr">ܘ</foreign> and <foreign xml:lang="syr">ܝܒ</foreign> are complete.</p>
                       </item>
                        <item>
                           <p>Leaves have been lost both at the beginning and end, as well as after foll. <locus>1</locus>, <locus>2</locus>, <locus>3</locus>, <locus>4</locus>, <locus>12</locus>, <locus>40</locus>, <locus>41</locus>, <locus>42</locus>, <locus>50</locus> and <locus>61</locus>.</p>
@@ -144,7 +144,7 @@
               <additions>
                 <list>
                    <item n="1" xml:id="addition1"><ref target="#a1 #handNote2"/><p>The lessons are indicated on the margins in red ink, the end of each being marked by the letter <foreign xml:lang="syr">ܫ</foreign>.</p></item>
-                   <item n="2" xml:id="addition2"><locus from="14b" to="14b"/><ref target="#handNote3"/><p>On the margin of fol. 14 b the words <foreign xml:lang="grc">ΔΑΙΔΑΝ</foreign> and <foreign xml:lang="grc">ΔΑΙΔΑΝΙΜ</foreign> are written.</p></item>
+                   <item n="2" xml:id="addition2"><locus from="14b" to="14b"/><ref target="#handNote3"/><p>On the margin of fol. 14b the words <foreign xml:lang="grc">ΔΑΙΔΑΝ</foreign> and <foreign xml:lang="grc">ΔΑΙΔΑΝΙΜ</foreign> are written.</p></item>
                    <item n="3" xml:id="addition3"><ref target="#handNote4"/><p>There are many various readings and notes throughout the volume.</p></item>
                 </list>
               </additions>
@@ -279,6 +279,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-16" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-09-06" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -294,4 +295,3 @@
     </body>
   </text>
 </TEI>
-
