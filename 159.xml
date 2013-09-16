@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add Ms 14474</title>
+        <title xml:lang="en">BL Add MS 14474</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -78,6 +78,108 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1">
+                <locus from="1a" to="62">Foll. 1a-62</locus>
+                <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta version.</title>
+                <msItem n="2" xml:id="b1" defective="true">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/77" type="supplied">Romans, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b2" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/78" type="supplied">1st Corinthians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b3" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/79" type="supplied">2nd Corinthians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b4" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/80" type="supplied">Galatians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/81" type="supplied">Ephesians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/82" type="supplied">Philippians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/83" type="supplied">Colossians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/84" type="supplied">1st Thessalonians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/85" type="supplied">2nd Thessalonians, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/86" type="supplied">1st Timothy, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/87" type="supplied">2nd Timothy, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/88" type="supplied">Titus, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/89" type="supplied">Philemon, according to the Peshitta version.</title>
+                </msItem>
+                <msItem n="3" xml:id="b1" defective="">
+                  <locus from="" to=""/>
+                  <author ref=""/>
+                  <title ref="http://syriaca.org/work/90" type="supplied">Hebrews, according to the Peshitta version.</title>
+                </msItem>
+              </msItem>
+              <msItem n="" xml:id="a2">
+                <locus from="62a" to="98">Foll. 62a-98</locus>
+                <title ref="http://syriaca.org/work/76" type="supplied">The Acts of the Apostles, according to the Peshitta version</title>
+                <rubric xml:lang="syr">ܬܘܒ ܟܬܒܐ ܕܦܪܟܣܝܣ ܕܬܪ̈ܥܣܪ ܫ̈ܠܝܚܐ. ܕܡܬܦܫܩ̣ ܬܫܥܝܬܐ
+                  <locus from="62a" to="62a"/></rubric>
+              </msItem>
+              
+              <msItem n="" xml:id="a3">
+                <locus from="" to=""/>
+                <title ref="" type="supplied">The Apostolic Epistles</title>
+                <msItem n="" xml:id="">
+                  <locus from="98b" to="b">Foll. 98b-102</locus>
+                  <title ref="" type="supplied">The Epistle of S. James, according to the Harklensian version</title>
+                  <rubric xml:lang="syr">
+                    <locus from="98b" to="98b"/> ܐܓܪܬܐ ܩܬܘܠܝܩܝ ܕܝܥܩܘܒ ܫܠܝܚܐ. ܐܝܟ ܬܘܿܪܨܐ ܕܡܪܝ ܬܐܘܡܐ ܚܪܩܠܝܐ</rubric>
+                  <finalRubric xml:lang="syr">
+                    <locus from="98b" to="98b"/> ܫܠ̣ܡܬ ܐܓܪܬܐ ܩܬܘܠܝܩܝ ܕܝܥܩܘܒ ܫܠܝܚܐ. ܦܬ ܏ܪܡܒ</finalRubric>
+                </msItem>
+                <msItem n="" xml:id="" defective="">
+                  <locus from="" to="b"/>
+                  <author ref=""/>
+                  <title ref="" type="supplied">The second Epistle of S. Peter, according to the Harklensian version</title>
+                </msItem>
+                
+              </msItem>
+             
+              
+              
+              <msItem n="1" xml:id="a1">
                 <locus from="" to=""/>
                 <author ref="">Jacob of Batanae</author>
                 <title ref="" type="supplied">A collection of festal discourses</title>
@@ -113,33 +215,10 @@
                 <listBibl>
                   <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
                 </listBibl>
-                <msItem n="3" xml:id="p1b1" defective=""><!-- Note how the @xml:id changes here to indicate a nested msItem within item number 2. @n shows <msItem> #3. @xml:id shows the first b-level <msItem> in part 1. Note also that <msItem n="2"...> has not closed yet.-->
+                <msItem n="3" xml:id="p1b1" defective="">
                   <locus from="" to=""/>
-                  <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-                  <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                  <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/>
-                  </rubric>
-                  <incipit xml:lang="syr"><!-- If the opening lines of the text proper of the msItem are given put it here, Wright may call this "it begins" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/>
-                  </incipit>
-                  <quote xml:lang="syr"><!-- If Wright gives any other quote from the original that does not fit into one of the above or below categories, put it here (otherwise this element may be deleted) -->
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr"><!-- If the closing lines of the text proper of the msItem are given put it here. Wright appears not to give many explicits. (otherwise this element may be deleted) -->
-                    <locus from="" to=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr"><!-- Put here any additional prose original to the manuscript that denotes the end or division of this msItem from the next, Wright may call this a "subscription" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/>
-                  </finalRubric>
-                  <colophon>
-                    <ref target="">See below.<!-- The colophon is distinguished from the final rubric in that it is not necessarily about the end of the text. It may be a note about the original scribe or patron. The text of the colophon is NOT included here but below as an addition, the ref target provides the link -->
-                    </ref>
-                  </colophon>
-                  <note><!-- Any additional notation supplied by Wright (otherwise this element may be deleted) --></note>
-                  <listBibl>
-                    <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
-                  </listBibl>
+                  <author ref=""/>
+                  <title ref="" type="supplied"></title>
                 </msItem>
               </msItem><!-- <msItem n="2" xml:id="p1a2"> closes here after its subordinated item(s). -->
             </msContents>
