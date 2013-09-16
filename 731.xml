@@ -9,8 +9,8 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">
-          David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -18,6 +18,10 @@
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
@@ -46,8 +50,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI"
-          >http://syriaca.org/manuscript/731/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/731/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -80,18 +83,22 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
           <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1" to="49b"/>
+            <locus from="1" to="104">Foll. 1-104</locus>
+            <title type="supplied" ref="http://syriaca.org/work/46">The two books of Chronicles, according to the Peshitta version</title>
+            <msItem n="2" xml:id="b1" defective="true">
+                <locus from="1" to="49">Foll. 1-49</locus>
             <title ref="http://syriaca.org/work/13" type="supplied">The first book of Chronicles, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܣܦܪ ܕܘܒܪ ܝܘܡ̈ܬܐ ܕܡ̈ܠܟܐ ܕܝܗܘܕܐ ܕܡܬܩܪܐ ܣܦܪ  ܕܒܪܝܡܝܢ.<locus from="1b" to="1b"/></rubric>
-      <!-- ARABIC NEEDED ^^^-->
+      <!-- Hebrew NEEDED ^^^-->
                 <note>The missing portions are : ch. xiv. 12—xvii. 27, and xxii. 8 to the end.</note>
               </msItem>
-              <msItem n="2" xml:id="a2" defective="true">
-                <locus from="49b" to="104b"/>
+              <msItem n="3" xml:id="b2" defective="true">
+                <locus from="49b" to="104">Foll. 49b-104</locus>
                 <title ref="http://syriaca.org/work/14" type="supplied">The second book of Chronicles, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܦܠܓܘܬܐ ܐܚܪܝܬܐ ܕܣܦܪ ܕܒܪܝܡܝܢ<locus from="49b" to="49b"/></rubric>
                 <note>It commences with ch. vi. 1 of the Hebrew text. The missing portions are: ch. xviii. 19—29, xx. 24—32, and ch. xxix. 5 to the end.</note>
                </msItem>
+          </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -110,12 +117,14 @@
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"/>
+                  <foliation/>
                   <collation>
-                    <p>The quires are at present 11 in number, but <foreign xml:lang="syr"> ܚ</foreign>,<foreign xml:lang="syr">ܗ</foreign>, <foreign xml:lang="syr">ܙ</foreign> , and <foreign xml:lang="syr">ܛ</foreign> have been lost, as well as several at the end. What the original signatures of the quires were, does not appear; they are now signed with letters.</p>
+                    <p>The quires are at present 11 in number.  What the original signatures of the quires were, does not appear.</p>
                   </collation>
                   <condition>
-                    <p>Some of the leaves are much stained and torn, especially fol. <locus>1</locus>, <locus>2</locus>, <locus>8</locus>, <locus>28</locus>, <locus>39</locus>, <locus>47</locus>, <locus>48</locus>, <locus>55</locus>, <locus>77</locus>, <locus>78</locus>, <locus>103</locus> and <locus>104</locus>. Leaves are also missing after <locus>foll. 79 and 84</locus></p>
+                    <p>Quires <foreign xml:lang="syr"> ܚ</foreign>,<foreign xml:lang="syr">ܗ</foreign>, <foreign xml:lang="syr">ܙ</foreign> , and <foreign xml:lang="syr">ܛ</foreign> have been lost, as well as several at the end.</p>
+                    <p>Some of the leaves are much stained and torn, especially fol. <locus>1</locus>, <locus>2</locus>, <locus>8</locus>, <locus>28</locus>, <locus>39</locus>, <locus>47</locus>, <locus>48</locus>, <locus>55</locus>, <locus>77</locus>, <locus>78</locus>, <locus>103</locus> and <locus>104</locus>.</p>
+                    <p>Leaves are also missing after <locus>foll. 79</locus> and <locus>84</locus></p>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
@@ -128,37 +137,36 @@
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>The writing is a small, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
                 </handNote>
-                <handNote xml:id="handnote2" scope="minor" script="syr-Syrj" medium="uknown">
-                  <desc>Numerous Greek vowels have been added by a later hand (<foreign xml:lang="grc">α</foreign>, <foreign xml:lang="grc">ε</foreign>, ⲏ, <foreign xml:lang="grc">ω</foreign>, <foreign xml:lang="grc">ὄ</foreign> and <foreign xml:lang="grc">αυ</foreign>; e.g. <foreign xml:lang="syr">ܘܢܺܬܢܺܐܝܶܠ, ܘܐܘܨܡ, ܘܝܘܐܒ, ܝܬ, ܠܡ̇ܢܘ</foreign>). The same hand that added the vowel-points has divided the books into sections, marked by Greek letters on the margins. The last of these in 1 Chronicles is <foreign xml:lang="grc">ϊθ</foreign> (ch. xxii. 2), fol. <locus>48a</locus>; and in 2 Chronicles (commencing with <foreign xml:lang="grc">Δ</foreign>) ΚΓ (ch. xxix. 1), fol. <locus>104b</locus>.</desc>
+                <handNote xml:id="handnote2" scope="minor" script="syr-Syrj grc" medium="uknown">
+                  <desc><ref target="#addition1 #addition2">See additions.</ref></desc>
                 </handNote>
-   <!-- Missing other vowels on top of these syriac words!!! -->
                 <handNote xml:id="handnote3" scope="minor" script="syr grc" medium="uknown">
-                  <locus from="3a" to="3a"/><desc>See below.</desc>
+                  <desc><ref target="#addition3">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handnote4" scope="minor" script="syr grc" medium="uknown">
-                  <locus from="11b" to="11b"/><desc>See below.</desc>
-                </handNote>
-                <handNote xml:id="handnote5" scope="minor" script="syr grc" medium="uknown">
-                  <locus from="30a" to="30a"/><desc>See below.</desc>
-                </handNote>
-                <handNote xml:id="handnote6" scope="minor" script="syr" medium="uknown">
-                  <locus from="36a" to="36a"/><desc>See below.</desc>
+                  <desc><ref target="#addition4">See additions.</ref></desc>
                 </handNote>
               </handDesc>
               <additions>
-                <p>There are also a few marginal notes and glosses</p>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="3a" to="3a"/><ref target="#a1 #handnote3"/>
-                    <p><foreign xml:lang="syr">ܘܐܺܘܝܡ,</foreign>marg.<foreign xml:lang="grc">ηαμ</foreign></p></item>
-                  <item n="2" xml:id="addition2"><locus from="11b" to="11b"/><ref target="#a1 #handnote4"/>
-                    <p><foreign xml:lang="syr">ܣܩܐ̣</foreign>,marg.<foreign xml:lang="grc">ⲤⲔⲰ</foreign></p></item>
-    <!-- GREEK not showing ^^^ -->
-                  <item n="3" xml:id="addition3"><locus from="30a" to="30a"/><ref target="#a1 #handnote5"/>
-                    <p><foreign xml:lang="syr">ܕܩܒܨܝܐܝܠ</foreign>, marg. <foreign xml:lang="grc">ΚΑΒⲤΗΛ</foreign>
-                    <foreign xml:lang="syr">ܢܘܠܐ ܕܓܪ̈ܕܚܐ</foreign>, marg. <foreign xml:lang="syr">ܚܘ̈ܟܶܐ</foreign></p></item>
-    <!-- GREEK not showing ^^^ -->
-                  <item n="4" xml:id="addition4"><locus from="36a" to="36a"/><ref target="#a1 #handnote6"/><p>
-                    <foreign xml:lang="syr">ܘܕܒ̈ܠܐ. ܘܩܪ̈ܬܠܘܬܐ ܕܥ̈ܢܒܐ</foreign>(1 Chron. xii. 40),marg.<foreign xml:lang="syr">ܥ̈ܠܘܗܝ ܕܚܡܪܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܥܒܪ̈ܝܐ</foreign> and <foreign xml:lang="syr">ܪ̈ܠܝܬܐ ܕܥ̈ܢܒܐ </foreign></p></item>
+                  <item n="1" xml:id="addition1">
+                    <p>Numerous Greek vowels have been added by a later hand (<foreign xml:lang="grc">α</foreign>, <foreign xml:lang="grc">ε</foreign>, ⲏ, <foreign xml:lang="grc">ω</foreign>, <foreign xml:lang="grc">ὄ</foreign> and <foreign xml:lang="grc">αυ</foreign>; e.g. <foreign xml:lang="syr">ܘܢܺܬܢܺܐܝܶܠ, ܘܐܘܨܡ, ܘܝܘܐܒ, ܝܬ, ܠܡ̇ܢܘ</foreign>).</p>
+                  </item>
+   <!-- Missing other vowels on top of these syriac words!!! -->
+                  <item n="2" xml:id="addition2">
+                    <p>The same hand that added the vowel-points has divided the books into sections, marked by Greek letters on the margins. The last of these in 1 Chronicles is <foreign xml:lang="grc">ϊθ</foreign> (ch. xxii. 2), fol. <locus>48a</locus>; and in 2 Chronicles (commencing with <foreign xml:lang="grc">Δ</foreign>) ΚΓ (ch. xxix. 1), fol. <locus>104b</locus>.</p>
+                  </item>
+                  <item n="3" xml:id="addition3">
+                    <p>There are also a few marginal notes and glosses; e.g.</p>
+                    <p><table><row><cell>fol. <locus from="3a" to="3a">3a</locus>, </cell><cell><foreign xml:lang="syr">ܘܐܺܘܝܡ,</foreign>, </cell><cell>marg.<foreign xml:lang="grc">ηαμ</foreign></cell></row>
+                    <row><cell>fol. <locus from="11b" to="11b">11b</locus>, </cell><cell><foreign xml:lang="syr">ܣܩܐ̣</foreign>, </cell><cell>marg.<foreign xml:lang="grc">ⲤⲔⲰ</foreign></cell></row>
+                    <row><cell>fol. <locus from="30a" to="30a">30a</locus>, </cell><cell><foreign xml:lang="syr">ܕܩܒܨܝܐܝܠ</foreign>, </cell><cell>marg. <foreign xml:lang="grc">ΚΑΒⲤΗΛ</foreign></cell></row>
+                      <row><cell/><cell><foreign xml:lang="syr">ܢܘܠܐ ܕܓܪ̈ܕܚܐ</foreign>, </cell><cell>marg. <foreign xml:lang="syr">ܚܘ̈ܟܶܐ</foreign></cell></row>
+                    <row><cell>fol. <locus from="36a" to="36a">36a</locus>, </cell><cell><foreign xml:lang="syr">ܘܕܒ̈ܠܐ. ܘܩܪ̈ܬܠܘܬܐ ܕܥ̈ܢܒܐ</foreign>(<ref target="#b1">1 Chron. xii. 40</ref>),</cell><cell>marg.<foreign xml:lang="syr">ܥ̈ܠܘܗܝ ܕܚܡܪܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܥܒܪ̈ܝܐ</foreign> and <foreign xml:lang="syr">ܪ̈ܠܝܬܐ ܕܥ̈ܢܒܐ </foreign></cell></row></table></p>
+                  </item>
+                  <item n="4" xml:id="addition4">
+                    <p>The quires are now signed with letters.</p>
+                  </item>
                 </list>
               </additions>
             </physDesc>
@@ -285,10 +293,12 @@
         </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-09-06" who="http://syriaca.org/editors.xml#thannah">Initial edit: rearranged msItems, handNotes, and additions.</change>
+      <change type="planned" subtype="hebrew">Add missing Hebrew text.</change>
       <change type="planned" subtype="missing">Add in missing Syriac characters</change>
       <change type="planned" subtype="missing">Add in missing Greek characters</change>
+      <change type="planned" subtype="table">Table to be revised</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
