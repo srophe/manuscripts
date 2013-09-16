@@ -1684,6 +1684,84 @@
           </msPart>
           <msPart n="15" xml:id="Part15">
             <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/1178</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14666 foll. 52</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British
+                  Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">144</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British
+                  Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">CXLIV</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p15a1">
+                <locus from="52" to="52"/>
+                <title ref="" type="supplied">Flyleaf for a volume, of discourses of Jacob of Batnae.</title>
+                <note>Fol. 52 has been used as a flyleaf for a volume, of discourses of Jacob of Batnae, as appears from the list of contents on the margin:</note>
+                <note><quote xml:lang="syr"> ܡܐܡܪ̈ܐ ܥܠ ܣܘܠܩܐ. ܘܥܠ ܒܬܘܠܘܬܐ. ܘܥܠ ܡܪܬܝܢܘܬܐ. ܘܥܠ ܒܪܐ ܕܦ̇ܪܚ ܢܟܣ̈ܘܗܝ. ܘܥܠ ܡܓܕܦܢܐ. ܘܥܠ ܪ̈ܐܙܐ ܩܕܝ̈ܫܐ. ܘܥܠ ܐܒܘܢ ܕܒܫܡܝܐ. ܘܥܠ ܪܚ̇ܡܥܠܝ ܐܝܟ ܛܝܒܘܬܟ. ܘܥܠ ܝܘܣܦ.</quote></note>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="5">5 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="8.875" unit="in">8 7/8</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="6" unit="in">6</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <condition/>
+                </supportDesc>
+                <layoutDesc/>
+              </objectDesc>
+              <handDesc/>
+              <additions/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate from="0600" to="0800">viith or viiith cent.</origDate>
+              </origin>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart15">Wright's
+                    Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart15">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum
+                    Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">CXLIV</citedRange>
+                  <citedRange unit="pp">1:93</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="16" xml:id="Part16">
+            <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/460</idno>
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 14666 fol. 56</idno>
@@ -1702,10 +1780,10 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p15a1">
+              <msItem n="1" xml:id="p16a1">
                 <locus from="56" to="56"/>
                 <title ref="http://syriaca.org/work/90" type="supplied">The Epistle to the Hebrews, ch. xii. 28 to the end, according to the Peshitta version.</title>
-                <colophon><ref target="#p14addition1"/>See below.</colophon>
+                <colophon><ref target="#p16addition1"/>See below.</colophon>
                 <note>It is the last leaf of a Nestorian manuscript of the New Testament, dated <origDate when-custom="0993” datingMethod="Seleucid”>A.Gr. 993</date>, <origDate when-custom="0063" datingMethod="Hijri-qamari">A.H. 63</origDate>, <origDate when="0682">A.D. 682</origDate>.</note>
               </msItem>
             </msContents>
@@ -1738,14 +1816,14 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p15handNote1" scope="major" script="syr-Syre" medium="unknown">
+                <handNote xml:id="p16handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>The writing is a small, neat Estrangela.</desc>
                 </handNote>
                 </handDesc>
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p14addition1"><locus from="56" to="56"/><ref target="p15handNote1"/>
+                  <item n="1" xml:id="p16addition1"><locus from="56" to="56"/><ref target="p16handNote1"/>
                     <p>The colophon, which is unfortunately much mutilated, runs as follows:</p>
                     <p><quote xml:lang="syr"> ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܕܚܕܬܐ ܒܫܢܬ ܬܫܥܡܐܐ ܘܬܫܥܝܢ ܘܬܠܬ ܒܕܝܘ̈ܢܝܐ ܕܐܝܬܝܗ ܒܕܡܗܓܪ̈ܝܐ ܒ̈ܢܝ ܐܝܫـ[ܡܥܐܝܠ] ܒܪ ܗܓܪ ܒܪ ܐܒܪܗܡ ܫܢܬ ܫܬܝܢ ܘܬܠܬ ܒ . . .  ܕܪܥܝܐ ܥܝܪܐ ܘܚܦܝܛܐ ܡܕ . . . ܡܫܝܚܐ ܡܪܝ ܓܝܘܪܓܝܣ . . . ܒܐܣܟܘܠܐ ܕܕܝܪܐ ܩܕܝܫܐ . . . ܢܨܝܚܐ ܕܨܠܘܬܗ ܬܥܕܪ ܠܢ ܐܒܐ.......ܡܛܪܦܘܠܝܛܣ ܕܥܕܬܐ ܩܕܝܫܐܬ.......ܡܪܝ ܩܪܚܐ (؟) ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ . . . 
                       ܡܩܪܝܢܐ ܕܝܠܗ̇ ܕܐܣܟܘܠܐ . . . ܕܐ . . . ܘܘ ܒܗ̇ ܒܐܣـ[ܟܘܠܐ] . . . ܐ . . ܐ ܫ̈ܡܗܐ ܐ . . . ܐܦܪܝ ܘܓܘܫܢܘܝ ܘܝܫ . . .ܘܩܛܝܢܝ . ܘܓܝܘܪܓܝ . . . ܘܕܫܪܟܐ ܕܐܚܘܬܐ . . . ܟܝܢܐ ܕܟܣܸܐ ܡـ . . . </quote></p></item>
@@ -1765,14 +1843,14 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart15">Wright's
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart16">Wright's
                         Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart15">
+                <bibl xml:id="Wrightpart16">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum
                     Acquired since the Year 1838</title>
@@ -1785,7 +1863,7 @@
               </listBibl>
             </additional>
           </msPart>
-          <msPart n="16" xml:id="Part16">
+          <msPart n="17" xml:id="Part17">
             <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/461</idno>
               <altIdentifier>
@@ -1805,7 +1883,7 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p16a1" defective="">
+              <msItem n="1" xml:id="p17a1" defective="">
                 <locus from="" to=""/>
                 <author ref=""/>
                 <title ref=""/>
@@ -1820,7 +1898,7 @@
                   <bibl/>
                 </listBibl>
               </msItem>
-              <msItem n="2" xml:id="p16a2" defective="">
+              <msItem n="2" xml:id="p17a2" defective="">
                 <locus from="" to=""/>
                 <author ref=""/>
                 <title ref=""/>
@@ -1874,12 +1952,12 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="">
-                <handNote xml:id="p16handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
+                <handNote xml:id="p17handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
                   <desc/>
                 </handNote>
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
+                <decoNote xml:id="p17decoNote1" type="" medium="">
                   <desc/>
                 </decoNote>
               </decoDesc>
@@ -1891,12 +1969,12 @@
                 </list>
               </additions>
               <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
+                <binding xml:id="p17binding1" contemporary=""/>
+                <decoNote xml:id="p17bindingdeco1"/>
                 <condition/>
               </bindingDesc>
               <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
+                <seal xml:id="p17seal1" contemporary="">
                   <p/>
                 </seal>
               </sealDesc>
@@ -1916,7 +1994,7 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart16">Wright's
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart17">Wright's
                         Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
@@ -1928,7 +2006,7 @@
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart16">
+                <bibl xml:id="Wrightpart17">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum
                     Acquired since the Year 1838</title>

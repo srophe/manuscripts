@@ -125,9 +125,11 @@
                 <handNote xml:id="p1handNote2" scope="minor" script="syr-Syrj" medium="unknown">
                   <desc>A very few Greek vowels on foll. <locus>4b</locus> and <locus>5a</locus>.</desc>
                 </handNote>
+                <handNote xml:id="p1handNote3" scope="minor" script="syr" medium="coloured"><ref target="#p1decoNote1"/><locus from="1a" to="1a"/>
+                </handNote>
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="p1decoNote1" type="illustration" medium="coloured"><locus from="1a" to="1a"/>
+                <decoNote xml:id="p1decoNote1" type="illustration"><locus from="1a" to="1a"/>
                   <desc>On fol. 1a there is a coloured figure of the Cross, with the words <foreign xml:lang="syr">ܝܫܘܥ ܡܫܝܚܐ</foreign>.</desc>
                 </decoNote>
               </decoDesc>
@@ -628,7 +630,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change></revisionDesc>
+      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <!-- facsimile information about the manuscript -->
