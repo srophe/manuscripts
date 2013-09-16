@@ -90,21 +90,21 @@
                   <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
                   <msItem n="4" xml:id="b1" defective="true">
                      <locus from="3a" to="42">Foll. 3a-42</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
+                    <title type="supplied" ref="http://syriaca.org/work/72">The Gospel of S. Matthew, according to the Peshitta version</title>
                      <note>Commencing with: ch. ii. v. 5.</note>
                      <note>The following portions of the text are likewise wanting: ch. ii. 16—v. 20, vi. 3—x. 22 (with the exception of a few words on <locus from="6" to="7">foll. 6 and 7</locus>), xii. 43 — xiii. 28, xix. 23—xxi. 9, xxi. 25—xxii. 37, and xxiii. 14—xxiv. 11.</note>
                   </msItem>
                   <msItem n="5" xml:id="b2">
                      <locus from="42b" to="79">Foll. 42b-79</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/73">Mark</title>
+                    <title type="supplied" ref="http://syriaca.org/work/73">The Gospel of S. Mark, according to the Peshitta version</title>
                   </msItem>
                   <msItem n="6" xml:id="b3">
                      <locus from="79b" to="145">Foll. 79b-145</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/74">Luke</title>
+                    <title type="supplied" ref="http://syriaca.org/work/74">The Gospel of S. Luke, according to the Peshitta version</title>
                   </msItem>
                   <msItem n="7" xml:id="b4">
                      <locus from="145a" to="195b">Foll. 145a-195b</locus>
-                     <title type="supplied" ref="http://syriaca.org/work/75">John</title>
+                    <title type="supplied" ref="http://syriaca.org/work/75">The Gospel of S. John, according to the Peshitta version</title>
                   </msItem>
                   <note>Of the lessons some are rubricated in the text.</note>
                   <colophon><ref target="#addition7">See additions.</ref></colophon>
@@ -128,7 +128,8 @@
                   <foliation/>
                   <collation>
                      <p>The quires are 23 in number.</p>
-                     <p>They were signed with both arithmetical figures and letters (e. g. <locus from="9a" to="9a">fol. 9 a</locus>, <foreign xml:lang="syr">ܓ</foreign>; <locus from="31a" to="31a">fol. 31 a</locus>, <foreign xml:lang="syr">ܘ</foreign>; <locus from="41a" to="41a">fol. 41 a</locus>, <foreign xml:lang="syr">ܙ</foreign>; <locus from="121a" to="121a">fol. 121a</locus>, <foreign xml:lang="syr">ܝܗ</foreign>).</p><!-- MISSING CHARACTERS ON TOP -->
+                     <p>They were signed with both arithmetical figures and letters (e. g. <locus from="9a" to="9a">fol. 9 a</locus>, <foreign xml:lang="syr">ܓ</foreign>; <locus from="31a" to="31a">fol. 31 a</locus>, <foreign xml:lang="syr">ܘ</foreign>; <locus from="41a" to="41a">fol. 41 a</locus>, <foreign xml:lang="syr">ܙ</foreign>; <locus from="121a" to="121a">fol. 121a</locus>, <foreign xml:lang="syr">ܝܗ</foreign>).</p>
+    <!-- MISSING CHARACTERS ON TOP OF SYRIAC/ARABIC -->
                   </collation>
                   <condition>
                     <list>
@@ -200,7 +201,8 @@
                    </item>
                    <item n="4" xml:id="addition4">
                       <locus from="14" to="14"/>
-                      <p>Fol. 14 is an addition of considerably later date and palimpsest. It contains <ref target="#b1">S. Matthew, ch. xxvi. 48—64</ref>, elegantly written in the Palestinian character, and perhaps of not much later date than the rest of the volume.</p><!-- What to do with Wright's self-contradiction here about the dating of this folio? -->
+                      <p>Fol. 14 is an addition of considerably later date and palimpsest. It contains <ref target="#b1">S. Matthew, ch. xxvi. 48—64</ref>, elegantly written in the Palestinian character, and perhaps of not much later date than the rest of the volume.</p>
+    <!-- What to do with Wright's self-contradiction here about the dating of this folio? -->
                    </item>
                    <item n="5" xml:id="addition5">
                       <locus from="18" to="30"/>
@@ -354,6 +356,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-31" who="http://syriaca.org/editors.xml#?">CREATED: file</change>
+      <change when="2013-09-07" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>

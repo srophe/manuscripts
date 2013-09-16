@@ -77,34 +77,44 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-               <msItem n="1" xml:id="a1" defective="true">
+              <msItem n="1" xml:id="a1">
+                <locus from="1a" to="197a">Foll. 1a-197a</locus>
+                <title type="supplied" ref="http://syriaca.org/work/180">The Ammonian sections and Eusebian canons</title>
+                <note>They are marked in the ordinary way.</note>
+              </msItem>
+              <msItem n="2" xml:id="a2">
+                <locus from="1a" to="197a">Foll. 1a-197a</locus>
+                <title type="supplied" ref="http://syriaca.org/work/181">Gospel harmony</title>
+                <note>They are marked at the foot of each page.</note>
+              </msItem>
+               <msItem n="3" xml:id="a3" defective="true">
                   <locus from="1a" to="197a">Foll. 1a-197a</locus>
-                  <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
-                  <msItem n="2" xml:id="b1" defective="true">
+                  <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels, according to the Peshitta version</title>
+                  <msItem n="4" xml:id="b1" defective="true">
                      <locus from="1a" to="50b">Foll. 1a-50b</locus>
-                     <title ref="http://syriaca.org/work/72" type="supplied">Matthew, commencing with ch. v. 46</title>
+                    <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, commencing with ch. v. 46, according to the Peshitta version</title>
                      <finalRubric xml:lang="syr"><locus from="50b" to="50b"/>ܫܠܡܬ ܟܪܘܙܘܬܐ ܕܡܬܝ ܫܠܝܚܐ ܕܡܠܠ ܥܒܪܐܝܬ ܒܦܠܝܣܛܝܢܐ.</finalRubric>
                   </msItem>
-                  <msItem n="3" xml:id="b2">
+                  <msItem n="5" xml:id="b2">
                      <locus from="50b" to="86b">Foll. 50b-86b</locus>
-                     <title ref="http://syriaca.org/work/73" type="supplied">Mark</title>
+                    <title ref="http://syriaca.org/work/73" type="supplied">The Gospel of S. Mark, according to the Peshitta version</title>
                      <rubric xml:lang="syr"><locus from="50b" to="50b"/>ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ</rubric>
                      <finalRubric xml:lang="syr"><locus from="86b" to="86b"/>ܫܠܡ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ ܕܡܠܠ ܪܗܘܡܐܝܬ ܒܪܗܘܡܐ.</finalRubric>
                   </msItem>
-                  <msItem n="4" xml:id="b3">
+                  <msItem n="6" xml:id="b3">
                      <locus from="87b" to="150a">Foll. 87b-150a</locus>
-                     <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
+                    <title ref="http://syriaca.org/work/74" type="supplied">The Gospel of Luke, according to the Peshitta version</title>
                      <rubric xml:lang="syr"><locus from="87b" to="87b"/>ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܠܘܩܐ ܡܣܒܪܢܐ</rubric>
                      <finalRubric xml:lang="syr"><locus from="150a" to="150a"/>ܫܠܡ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܠܘܩܐ ܡܣܒܪܢܐ ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܠܟܣܢܕܪܝܐ ܪܒܬܐ</finalRubric>
                   </msItem>
-                  <msItem n="5" xml:id="b4">
+                  <msItem n="7" xml:id="b4">
                      <locus from="150a" to="197a">Foll. 150a-197a</locus>
-                     <title ref="http://syriaca.org/work/75" type="supplied">John</title>
+                    <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of John, according to the Peshitta version</title>
                      <rubric xml:lang="syr"><locus from="150a" to="150a"/>ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܝܘܚܢܢ</rubric>
                      <finalRubric xml:lang="syr"><locus from="197a" to="197a"/>ܫܠܡ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܝܘܚܢܢ ܫܠܝܚܐ ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܣ.</finalRubric>
                   </msItem>
                   <colophon><ref target="#addition4">See additions.</ref></colophon>
-                  <note>The Ammonian sections and Eusebian canons are marked in the ordinary way; and at the foot of each page there is a harmony of the Gospels. Some lessons are rubricated in the text</note>
+                 <note>Some lessons are rubricated in the text.</note>
                </msItem>
             </msContents>
             <physDesc>
@@ -167,7 +177,7 @@
                 <list>
                   <item n="1" xml:id="addition1">
                      <ref target="#handNote2"/>
-                     <p>Many Syriac vowels and other points have been subsequently added. </p>
+                     <p>Many Syriac vowels and other points have been subsequently added.</p>
                   </item>
                    <item n="2" xml:id="addition2">
                       <ref target="#handNote3"/>
@@ -176,17 +186,18 @@
                    <item n="3" xml:id="addition3">
                       <ref target="#handNote4"/>
                       <p>In two places the headings of the lessons are written in Greek, viz. <locus from="9a" to="9a">fol. 9a</locus>, <foreign xml:lang="grc">ΤΟΝ ΑΓΙΟΝ</foreign> (Syr. <foreign xml:lang="syr">ܩܪܝ ܕܣܗ̈ܕܐ</foreign>,) and <locus from="88b" to="88b">fol. 88 b</locus>, <foreign xml:lang="grc">της αγιας μαριασ</foreign> (Syr. <foreign xml:lang="syr">ܕܣܘܒܪܐ ܕܝܠܕܬ ܐܠܗܐ</foreign>).</p>
+      <!-- MISSING CROSSES AT BEGINNING AND END OF GREEK -->
                    </item>
                    <item n="4" xml:id="addition4">
                       <locus from="197a" to="197a"/>
                       <ref target="#a1 #handNote1"/>
-                      <quote xml:lang="syr">ܫܠܡ [ܠܡܟܬܒ] ܒ[ܟܬܒܐ ܗܢܐ] ܛܛ[ܪܐܘܢܓܠܝܘܢ] ܩܕܝܫܐ [ܡܬܝ] ܡܪܩܘܣ ܠܘ[ܩܐ] ܝܘܚܢܢ ܕܐܟܪܙܘ[ܗܝ] ܘܣܒܪܘܗܝ ܒܟܠ ܐܬܪ ܘܡܕ[ܝܢܐ.]</quote>
+                     <quote xml:lang="syr"> ܫܠܡ [ܠܡܟܬܒ] ܒ[ܟܬܒܐ ܗܢܐ] ܛܛ[ܪܐܘܢܓܠܝܘܢ] ܩܕܝܫܐ [ܡܬܝ] ܡܪܩܘܣ ܠܘ[ܩܐ] ܝܘܚܢܢ ܕܐܟܪܙܘ[ܗܝ] ܘܣܒܪܘܗܝ ܒܟܠ ܐܬܪ ܘܡܕ[ܝܢܐ.]</quote>
+                     <p>This is followed by the usual doxology.</p>
                    </item>
                    <item n="5" xml:id="addition5">
                       <locus from="197b" to="197b"/>
                       <ref target="#handNote5"/>
-                      <p>On fol. 197 b there is a note in a com¬paratively modern hand, much torn and effaced, containing the name of </p>
-                      <p><persName xml:lang="syr">ܐܒܘ ܥܠܝ ܚܣܢ ܒܪ . . .</persName></p>
+                     <p>On fol. 197 b there is a note in a comparatively modern hand, much torn and effaced, containing the name of <persName xml:lang="syr">ܐܒܘ ܥܠܝ ܚܣܢ ܒܪ . . .</persName></p>
                    </item>
                 </list>
               </additions>
@@ -321,7 +332,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-19" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
-       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
+      <change when="2013-09-07" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -87,18 +87,17 @@
               </msItem>
               <msItem n="2" xml:id="a2" defective="true">
                 <locus from="3b" to="48">Foll. 3b-48</locus>
-                <title ref="http://syriaca.org/work/53" type="supplied">Daniel, according to the Peshitta version</title>
-                <note>Including Apocryphal portions</note>
+                <title ref="http://syriaca.org/work/53" type="supplied">The book of Daniel, according to the Peshitta version, including all the Apocryphal portions</title>
                 <msItem n="3" xml:id="b1" defective="true">
                   <locus from="3b" to="12">Foll. 3b-12</locus>
-                  <title ref="http://syriaca.org/work/27" type="supplied">Daniel</title>
+                  <title ref="http://syriaca.org/work/27" type="supplied">The book of Daniel, according to the Peshitta version.</title>
                    <rubric xml:lang="syr">ܢܒܝܘܬܗ ܕܕܢܝܐܝܠ                    
                     <locus from="3b" to="3b"/>
                   </rubric>
                 </msItem>
                  <msItem n="4" xml:id="b2" defective="true">
                     <locus from="12a" to="38">Foll. 12a-38</locus>
-                    <title ref="http://syriaca.org/work/54" type="supplied">Song of the three holy children</title>
+                    <title ref="http://syriaca.org/work/54" type="supplied">The Song of the Three Holy Children</title>
                     <rubric xml:lang="syr">ܨܠܘܬܐ ܕܚܢܢܝܐ ܘܕܚܒܪ̈ܘܗܝ                    
                        <locus from="12a" to="12a"/>
                     </rubric>
@@ -188,13 +187,13 @@
                   <item n="1" xml:id="addition1">
                      <locus from="3a" to="3a"/>
                      <ref target="#a1 #handNote3"/>
-                     <p>A note on the margin of fol. 3 a states that <ref target="#a1">this index</ref> was drawn up by one <persName ref="">Severus</persName>, with the aid of the priest <persName ref="">John</persName> and the deacon and steward <persName ref="">Romanus</persName>: </p>
+                     <p>A note on the margin of fol. 3 a states that <ref target="#a1">this index</ref> was drawn up by one <persName ref="">Severus</persName>, with the aid of the priest <persName ref="">John</persName> and the deacon and steward <persName ref="">Romanus</persName>:</p>
                      <p><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟܬܒܐ ܗܢܐ ܡܛܠ ܚܘܒܗ ܕܡܪܢ̣. ܢ̇ܨܠܐ ܥܠ ܣܐܘܪܐ ܚܛܝܐ ܘܡܚܝܠܐ ܕܣ̣ܡ ܦܘܪܫ ܩܪ̈ܝܢܐ ܗܠܝܢ ܕܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ ܐܬܬܪܨܘ.♱ ܘܥܠ ܩܫܝܫܐ ܡܪܝ ܝܘܚܢܢ ܘܫܡ̇ܫܐ ܡܪܝ ܪܘܡܢܐ ܪܒܝܬܐ̇. ܕܐܝܟ ܚܝܠܐ ܕܝܠܗܘܢ ܥܿܕܪܘܢ♱</quote></p>
                   </item>
                    <item n="2" xml:id="addition2">
                       <locus from="48a" to="48a"/>
                       <ref target="#a2 #handNote1"/>
-                      <p>On fol. 48 a there is the following note, in the handwriting of the scribe, saying that the manuscript was written in the year <origDate when-custom="0843" calendar="Seleucid">843</origDate>, <origDate when="0532" calendar="Gregorian">A.D. 532</origDate>, and collated with care in the <origPlace ref="">convent of the Orientals (at Edcssa?)</origPlace>. Part of it has been intentionally erased.</p>
+                      <p>On fol. 48 a there is the following note, in the handwriting of the scribe, saying that the manuscript was written in the year <origDate when-custom="0843" calendar="Seleucid">843</origDate>, <origDate when="0532" calendar="Gregorian">A.D. 532</origDate>, and collated with care in the <origPlace ref="">convent of the Orientals (at Edessa?)</origPlace>. Part of it has been intentionally erased.</p>
                       <p><quote xml:lang="syr">ܐܬܟܬܒ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܝܘܡܝ ܩܕܝܫܐ ܘܪܚܡ ܐܠܗܐ ܡܪܝ [ܣܒܝ . . ܪܝܫ ܕܝܪܐ ܘܩܫܝܫܐ ܢܘܗܪܐ ܕܕܝܪܐ ܕܒܝܬ. . . ] ܘܫܪܟܐ ܕܟܠܗܘܢ ܕܒܝܬ ܡܪܝ. ܘ. ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܝܪܚ ܐܝܪ ܒܥܣܪ̈ܝܢ ܘܬܡ̈ܢܝܐ ܒܗ. ܕܫܢܬ ܬܡܢܡ̈ܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܗܢܕܩܛܝܘܢܐ ܕܕܩܛܐ. ܡܦܚܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܕܝܪܐ ܕܡ̈ܕܢܚܝܐ ܒܫܩܠ ܛܥܢܐ.</quote></p>
                    </item>
                 </list>
@@ -207,7 +206,7 @@
               <origin>
                  <origDate when-custom="0843" calendar="Seleucid">843</origDate>
                  <origDate when="0532" calendar="Gregorian">A.D. 532</origDate>
-                 <origPlace ref="">convent of the Orientals (at Edcssa?)</origPlace>
+                 <origPlace ref="">convent of the Orientals (at Edessa?)</origPlace>
               </origin>
               <provenance>
                  <p>A note on <locus from="48b" to="48b">fol. 48 b</locus> informs us that this was one of the 250 volumes brought to <placeName ref="">the convent of St. Mary Deipara</placeName> by the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, in the year <date when-custom="1243" calendar="Seleucid">1243</date>, <date when="0932" calendar="Gregorian">A.D. 932</date>.</p>
@@ -334,6 +333,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-11" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-09-06" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -349,4 +349,3 @@
     </body>
   </text>
 </TEI>
-
