@@ -1383,8 +1383,73 @@ tei_date =
     (text | tei_model.gLike | tei_model.phrase | tei_model.global)*,
     
     ## indicates the system or calendar to which the date represented by the content of this
-    ##         element belongs.
-    ## : 1] Gregorian; 2] Julian; 3] AM; 4] Hijri-shamsi; 5] Hijri-qamari; 6] Coptic-EoM; 7] Alexandrian; 8] Iranian-Yazdigird; 9] Iranian-Jalali; 10] Spanish; 11] Ilahi; 12] Hindu; 13] unknown; 14] other
+    ##         element belongs.text
+    att.global.attributes,
+    att.datable.w3c.attribute.period,
+  att.datable.w3c.attribute.notBefore,
+  att.datable.w3c.attribute.notAfter,
+  att.datable.w3c.attribute.from,
+  att.datable.w3c.attribute.to,
+att.datable.custom.attribute.notBefore-custom,
+att.datable.custom.attribute.notAfter-custom,
+att.datable.custom.attribute.from-custom,
+att.datable.custom.attribute.to-custom,
+    att.editLike.attribute.cert,
+    att.editLike.attribute.resp,
+    att.editLike.attribute.evidence,
+    att.editLike.attribute.source,
+    att.dimensions.attributes,
+    att.typed.attributes,
+    ((att.datable.custom.attribute.when-custom,
+attribute datingMethod {
+      
+      ## Gregorian calendar
+      "Gregorian"
+      | 
+        ## Julian calendar
+        "Julian"
+      | 
+        ## Anno Mundi
+        "AM"
+      | 
+        ## Hijri solar calendar (Mughal Indian revenue era)
+        "Hijri-shamsi"
+      | 
+        ## Hijiri lunar calendar
+        "Hijri-qamari"
+      | 
+        ## Coptic (Era of Martyrs)
+        "Coptic-EoM"
+      | 
+        ## Alexandrian (Era of Alexander I)
+        "Alexandrian"
+      | 
+        ## Era of Yazdigird (Iranian)
+        "Iranian-Yazdigird"
+      | 
+        ## Jalali (Iranian)
+        "Iranian-Jalali"
+      | 
+        ## Spanish calendar
+        "Spanish"
+      | 
+        ## Ilahi (Mughal)
+        "Ilahi"
+      | 
+        ## Hindu calendar
+        "Hindu"
+      |
+        ##Seleucid calendar
+        "Seleucid"
+      | 
+        ##
+        "unknown"
+      | 
+        ##
+        "other"
+      | xsd:Name
+    }) | 
+    (att.datable.w3c.attribute.when,
     attribute calendar {
       
       ## Gregorian calendar
@@ -1422,7 +1487,7 @@ tei_date =
       | 
         ## Hindu calendar
         "Hindu"
-        |
+      |
         ##Seleucid calendar
         "Seleucid"
       | 
@@ -1432,16 +1497,7 @@ tei_date =
         ##
         "other"
       | xsd:Name
-    }?,
-    att.global.attributes,
-    att.datable.attributes,
-    att.datable.custom.attributes,
-    att.editLike.attribute.cert,
-    att.editLike.attribute.resp,
-    att.editLike.attribute.evidence,
-    att.editLike.attribute.source,
-    att.dimensions.attributes,
-    att.typed.attributes,
+    }))?,
     empty
   }
 tei_abbr =
@@ -2984,14 +3040,71 @@ tei_origDate =
   element origDate {
     text,
     att.global.attributes,
-    att.datable.attributes,
-    att.datable.custom.attributes,
+    att.datable.w3c.attribute.period,
+  att.datable.w3c.attribute.notBefore,
+  att.datable.w3c.attribute.notAfter,
+  att.datable.w3c.attribute.from,
+  att.datable.w3c.attribute.to,
+att.datable.custom.attribute.notBefore-custom,
+att.datable.custom.attribute.notAfter-custom,
+att.datable.custom.attribute.from-custom,
+att.datable.custom.attribute.to-custom,
     att.editLike.attribute.cert,
     att.editLike.attribute.resp,
     att.editLike.attribute.evidence,
     att.editLike.attribute.source,
     att.dimensions.attributes,
     att.typed.attributes,
+    ((att.datable.custom.attribute.when-custom,
+attribute datingMethod {
+      
+      ## Gregorian calendar
+      "Gregorian"
+      | 
+        ## Julian calendar
+        "Julian"
+      | 
+        ## Anno Mundi
+        "AM"
+      | 
+        ## Hijri solar calendar (Mughal Indian revenue era)
+        "Hijri-shamsi"
+      | 
+        ## Hijiri lunar calendar
+        "Hijri-qamari"
+      | 
+        ## Coptic (Era of Martyrs)
+        "Coptic-EoM"
+      | 
+        ## Alexandrian (Era of Alexander I)
+        "Alexandrian"
+      | 
+        ## Era of Yazdigird (Iranian)
+        "Iranian-Yazdigird"
+      | 
+        ## Jalali (Iranian)
+        "Iranian-Jalali"
+      | 
+        ## Spanish calendar
+        "Spanish"
+      | 
+        ## Ilahi (Mughal)
+        "Ilahi"
+      | 
+        ## Hindu calendar
+        "Hindu"
+      |
+        ##Seleucid calendar
+        "Seleucid"
+      | 
+        ##
+        "unknown"
+      | 
+        ##
+        "other"
+      | xsd:Name
+    }) | 
+    (att.datable.w3c.attribute.when,
     attribute calendar {
       
       ## Gregorian calendar
@@ -3039,7 +3152,7 @@ tei_origDate =
         ##
         "other"
       | xsd:Name
-    }?,
+    }))?,
     empty
   }
 tei_origPlace =
