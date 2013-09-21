@@ -274,7 +274,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change></revisionDesc>
+      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change></revisionDesc>
   </teiHeader>
   <facsimile>
     <!-- facsimile information about the manuscript -->

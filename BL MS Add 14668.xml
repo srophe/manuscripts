@@ -1596,7 +1596,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-03" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-03" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change type="planned" subtype="missing">Add in missing entries.</change>
     </revisionDesc>
   </teiHeader>

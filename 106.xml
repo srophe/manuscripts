@@ -435,7 +435,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-12" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-07-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>

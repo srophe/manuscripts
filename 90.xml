@@ -543,7 +543,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-29" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-07-29" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->

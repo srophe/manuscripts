@@ -373,7 +373,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
+      <change when="2013-07-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
       <change type="planned" subtype="missing">Add missing vowels.</change>
       </revisionDesc>
   </teiHeader>
