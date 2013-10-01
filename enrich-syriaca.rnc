@@ -3333,6 +3333,8 @@ tei_finalRubric =
     att.typed.attributes,
     att.canonical.attributes,
     (tei_fw*),
+    (tei_p*),
+    tei_locus,
     empty
   }
 tei_incipit =
