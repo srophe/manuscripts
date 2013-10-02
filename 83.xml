@@ -9,7 +9,7 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -19,8 +19,8 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
-          <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -73,22 +73,22 @@
           <msContents class="Biblical Manuscripts: Old Testament">
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
-            <msItem n="1" xml:id="a1">
-              <locus from="1a" to="95b">foll. 1a-95b</locus>
+            <msItem n="1" xml:id="a1" defective="true">
+              <locus from="1a" to="95b">Foll. 1a-95b</locus>
               <title ref="http://syriaca.org/work/68" type="supplied">Part of the Pentateuch, according to the Peshitta version</title>
-              <msItem n="2" xml:id="b1">
-                <locus from="1a" to="28">fol. 1a. to 28</locus>
+              <msItem n="2" xml:id="b1" defective="true">
+                <locus from="1a" to="28">Foll. 1a-28</locus>
                 <title ref="http://syriaca.org/work/3" type="supplied">Leviticus</title>
-                <finalRubric xml:lang="syr"><locus from="28" to="28"/>. ܕܟܗ̈ܢܐ . ܣܦܪܐ . ܕܬܠܬܐ . ܕܐܘܪܝܬܐ </finalRubric>
+                <finalRubric xml:lang="syr">. ܕܟܗ̈ܢܐ . ܣܦܪܐ . ܕܬܠܬܐ . ܕܐܘܪܝܬܐ <locus from="28" to="28"/></finalRubric>
               </msItem>
               <msItem n="3" xml:id="b2">
-                <locus from="28b" to="67">fol. 28b. to 67</locus>
+                <locus from="28b" to="67">Foll. 28b-67</locus>
                 <title ref="http://syriaca.org/work/4" type="supplied">Numbers</title>
                 <rubric xml:lang="syr"><locus from="28b" to="28b"/>ܡܢܝܢܐ . ܣܦܪܐ . ܕܐܪ̈ܒܥܐ . ܕܐܘܪܝܬܐ</rubric>
-                <finalRubric xml:lang="syr"><locus from="67" to="67"/>ܕܐܪܒܥܐ . ܕܐܘܪܝܬܐ.. ܡܢܝܢܐ . ܣܦܪܐ</finalRubric>
+                <finalRubric xml:lang="syr">ܕܐܪܒܥܐ . ܕܐܘܪܝܬܐ.. ܡܢܝܢܐ . ܣܦܪܐ<locus from="67" to="67"/></finalRubric>
               </msItem>
-              <msItem n="4" xml:id="b3">
-                <locus from="67b" to="95">fol. 67b. to 95</locus>
+              <msItem n="4" xml:id="b3" defective="true">
+                <locus from="67b" to="95">Foll. 67b-95</locus>
                 <title ref="http://syriaca.org/work/5" type="supplied">Deuteronomy</title>
                 <rubric xml:lang="syr"><locus from="67b" to="67b"/>ܬܢܝܢܐ . ܕܢܡܘܣܐ . ܣܦܪܐ . ܕܚܡܫܐ . ܕܐܘܪܝܬܐ.</rubric>
               </msItem>
@@ -97,7 +97,7 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
-                <support><material>vellum</material></support>
+                <support><material>Vellum</material></support>
                 <extent> 
                   <measure type="composition" unit="leaf" quantity="95">95 ff.</measure> 
                   <dimensions type="leaf" unit="in">
@@ -105,7 +105,7 @@
                     <width><measure type="width" quantity="10.25" unit="in">10 1/4</measure></width>
                   </dimensions>
                 </extent>
-                <foliation xml:id="ancient"/>
+                <foliation/>
                 <collation>
                   <p>The quires are signed with the Syriac arithmetical figures (see <locus from="10" to="10">foll. 10</locus>, <locus from="20" to="20">20</locus>, etc.).</p>
                 </collation>
@@ -137,15 +137,14 @@
               <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                 <desc>The character is a large and beautiful Estrangela of the <origDate notBefore="0500" notAfter="0600">6th cent.</origDate></desc>
               </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr-Syrn" medium="unknown">
-                <desc>Vowels  have been added in a few cases by later hands.</desc>
+              <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
+                <desc><ref target="#addition1">See additions.</ref></desc>
               </handNote>
             </handDesc>
             <decoDesc/>
             <additions>
               <list>
                 <item n="1" xml:id="addition1">
-                  <ref target="#handNote2"/>
                   <p>Vowels have been added in a few cases by later hands.</p>
                 </item>
               </list>
@@ -226,7 +225,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-02-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-02-26" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-10-01" who="http://syriaca.org/editors.xml#thannah">Initial edit: corrected loci format, addressed handnote issue</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
