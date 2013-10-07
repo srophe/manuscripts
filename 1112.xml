@@ -166,7 +166,7 @@
                  </handNote>
               </handDesc>
               <decoDesc>
-                 <decoNote xml:id="decoNote1" type="unspecified">
+                 <decoNote xml:id="decoNote1" type="ornamentation">
                     <desc>Considerable pains have been bestowed upon the ornamentation of this volume; see foll. <locus from="1b" to="4a">1 b—4 a</locus>, <locus from="13b" to="13b">13 b</locus>, <locus from="23b" to="23b">23 b</locus>, <locus from="33b" to="33b">33 b</locus>, etc., <locus from="248a" to="248a">248 a</locus>, and <locus from="316b" to="316b">316 b</locus>.</desc>
                  </decoNote>
               </decoDesc>
@@ -333,7 +333,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-06" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>

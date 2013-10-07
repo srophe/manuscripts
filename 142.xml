@@ -147,7 +147,7 @@
                  </handNote>
               </handDesc>
               <decoDesc>
-                 <decoNote xml:id="decoNote1" type="unspecified">There are rude attempts at ornamentation in gold and colors on foll. <locus from="36a" to="36a">36 a</locus> and <locus from="79a" to="79a">79 a</locus>.</decoNote>
+                 <decoNote xml:id="decoNote1" type="ornamentation">There are rude attempts at ornamentation in gold and colors on foll. <locus from="36a" to="36a">36 a</locus> and <locus from="79a" to="79a">79 a</locus>.</decoNote>
               </decoDesc>
               <additions/>
               <bindingDesc/>
@@ -281,7 +281,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-05" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

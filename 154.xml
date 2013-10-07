@@ -166,7 +166,7 @@
                  </handNote>
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="decoNote1" type="other">
+                <decoNote xml:id="decoNote1" type="ornamentation">
                    <desc>There is some attempt made at ornamenting the running titles, signatures, etc.</desc>
                 </decoNote>
               </decoDesc>
@@ -336,7 +336,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-28" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-28" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

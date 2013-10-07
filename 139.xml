@@ -149,7 +149,7 @@
                  </handNote>
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="decoNote1" type="illustration">
+                <decoNote xml:id="decoNote1" type="ornamentation">
                    <desc><ref target="#addition3">See additions.</ref></desc>
                 </decoNote>
               </decoDesc>
@@ -307,7 +307,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-09" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-08-09" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

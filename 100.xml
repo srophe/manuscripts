@@ -145,7 +145,7 @@
                   <locus from="1a" to="1a"/>
                   <desc>On<locus from="1a" to="1a">fol. 1a</locus> the commencement of a hymn is arranged so as to form a cross. <ref target="#p1addition1">See below.</ref></desc>
                 </decoNote>
-                <decoNote xml:id="p1decoNote2" type="border">
+                <decoNote xml:id="p1decoNote2" type="ornamentation">
                   <locus from="1a" to="1a"/>
                   <desc>An ornamental nimbus, coloured with black, red, green, and yellow. <ref target="#p1addition2">See below.</ref></desc>
                 </decoNote>
@@ -407,7 +407,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-02" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-02" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>

@@ -394,7 +394,7 @@
                 <decoNote xml:id="p3decoNote1" type="illustration">
                    <desc>On <locus from="67a" to="67a">fol. 67 a</locus> there is an ornamental Cross, containing the words <quote xml:lang="syr">ܚܘܪ ܠܘܬܗ ܘܣܒܪ ܒܗ ܨܠܝܒܐ ܚܝܐ</quote> in a comparatively modern hand.</desc>
                 </decoNote>
-                 <decoNote xml:id="p3decoNote2" type="illustration">
+                 <decoNote xml:id="p3decoNote2" type="ornamentation">
                     <desc>Coloured ornament on <locus from="169b" to="169b">fol. 169b</locus>.</desc>
                  </decoNote>
               </decoDesc>
@@ -670,6 +670,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-18" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
