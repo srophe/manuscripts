@@ -320,7 +320,7 @@
               <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
                 <locus from="" to=""/>
                 <author ref=""/>
-                <title ref=""/>
+                <title ref="" type="supplied"/>
                 <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
                 <incipit xml:lang="syr"><locus from="" to=""/></incipit>
                 <quote xml:lang="syr"><locus from="" to=""/></quote>
@@ -335,7 +335,7 @@
               <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
                 <locus from="" to=""/>
                 <author ref=""/>
-                <title ref=""/>
+                <title ref="" type="supplied"/>
                 <rubric xml:lang="syr"><locus from="" to=""/></rubric>
                 <incipit xml:lang="syr"><locus from="" to=""/></incipit>
                 <quote xml:lang="syr"><locus from="" to=""/></quote>
