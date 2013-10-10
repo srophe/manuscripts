@@ -150,7 +150,7 @@
                      <locus from="95a" to="98">Foll. 95a-98</locus>
                      <title ref="http://syriaca.org/work/85" type="supplied">2 Thessalonians</title>
                      <finalRubric xml:lang="syr">ܫܠܡܬ. ܐܓܪܬܐ. ܕܠܘܬ. ܬܣܠܘ̈ܢܝܩܝܐ. ܕܬܪܬܝܢ. ܕܐܬܟܬܒܬ. ܡܢ ܪܗܘܡܐ. ܘܗܘܝܐ. ܡܐܐ. ܘܬܡܢܬܥܣܪ ܦܬܓ̈ܡܝܢ.
-                        <locus from="95a" to="98"/>
+                        <locus from="98" to="98"/>
                      </finalRubric>
                   </msItem>
                   <msItem n="11" xml:id="p1b10">
@@ -287,7 +287,7 @@
                    </item>
                    <item n="9" xml:id="p1addition9">
                       <locus from="1b" to="1b"/>
-                      <p>On the margin of fol. 1 b there is written <listPerson><person ref=""><persName xml:lang="grc">ΠΙ ΑΓΙΟⲤ ΠΑΥΛ[ΟⲤ], </persName><persName>“the holy Paul."</persName></person></listPerson></p>
+                     <p>On the margin of fol. 1 b there is written <listPerson><person ref=""><persName xml:lang="cop">ΠΙ ΑΓΙΟⲤ <choice><orig>ΠΑΥΛ</orig><reg>ΠΑΥΛΟⲤ</reg></choice>, </persName><persName>“the holy Paul."</persName></person></listPerson></p>
                    </item>
                 </list>
               </additions>
