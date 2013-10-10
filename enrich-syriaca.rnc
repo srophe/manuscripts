@@ -552,6 +552,7 @@ att.handFeatures.attribute.medium =
   
   ## describes the tint or type of ink, e.g. brown, or other
   ## writing medium, e.g. pencil
+  [ a:defaultValue = "unknown" ]
   attribute medium { xsd:Name }?
 att.handFeatures.attribute.scope =
   
