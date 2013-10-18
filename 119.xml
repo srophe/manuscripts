@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14446</title>
+        <title xml:lang="en">BL Add MS 14447</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -49,7 +49,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/118/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/119/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,47 +59,66 @@
         <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-118" xml:lang="en">
+        <msDesc xml:id="manuscript-119" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/118</idno>
+            <idno type="URI">http://syriaca.org/manuscript/119</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14446</idno>
+              <idno type="BL-Shelfmark">Add MS 14447</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">155</idno>
+              <idno type="Wright-BL-Arabic">156</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">CLV</idno>
+              <idno type="Wright-BL-Roman">CLVI</idno>
             </altIdentifier>
           </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1">
-                <locus from="1b" to="127">Foll. 1b-127</locus>
-                <title ref="http://syriaca.org/work/213" type="supplied">The first and second books of the Maccabees</title>
-                <msItem n="2" xml:id="b1">
-                  <locus from="1b" to="70">Foll. 1b-70</locus>
-                  <title ref="http://syriaca.org/work/60" type="supplied">1 Maccabees.</title>
-                  <rubric xml:lang="syr">ܣܦ̣ܪܐ ܩܕܡܝܐ ܕܡ̈ܩܒܝܐ̣. ܕܡܬܩܪܝܢ ܠܘܬ ܥܒܪܝܐ ܣܪܒܣܬ ܣܒܥܐܐܝܠ.
-                    <locus from="1b" to="1b"/>
+               <msItem n="1" xml:id="a1" defective="true">
+                  <locus from="1b" to="32b">Foll. 1b-32b</locus>
+                  <title ref="http://syriaca.org/work/211" type="supplied">The Book of Women</title>
+                  <rubric xml:lang="syr">ܟܬܒܐ ܕܢܫ̈ܐ
+                     <locus from="1b" to="1b"/>
                   </rubric>
-                </msItem>
-                <msItem n="3" xml:id="b2">
-                  <locus from="70a" to="127">Foll. 70a-127</locus>
-                  <title ref="http://syriaca.org/work/61" type="supplied">2 Maccabees.</title>
-                  <rubric xml:lang="syr">ܣܦ̣ܪܐ ܕܬܪ̈ܝܢ ܕܡܩܒܝ̈ܐ
-                    <locus from="70a" to="70a"/>
-                  </rubric>
-                </msItem>
-                <note>This manuscript has been used by <persName ref="">Dr. de Lagarde</persName> in his edition of <bibl>the Apocrypha, Leipzig, 1861</bibl>.</note>
-              </msItem>
+                  <msItem n="2" xml:id="b1">
+                     <locus from="1b" to="5">Foll. 1b-5</locus>
+                     <title ref="http://syriaca.org/work/49" type="supplied">The story of Susanna</title>
+                     <rubric xml:lang="syr">ܕܥܠ ܫܘܫܢ ܢܟܦܬܐ
+                        <locus from="1b" to="1b"/>
+                     </rubric>
+                  </msItem>
+                  <msItem n="3" xml:id="b2">
+                     <locus from="5b" to="15">Foll. 5b-15</locus>
+                     <title ref="http://syriaca.org/work/17" type="supplied">The book of Esther</title>
+                     <rubric xml:lang="syr">ܢܨܚ̈ܢܐ ܕܐܣܬܝܪ.
+                        <locus from="5b" to="5b"/>
+                     </rubric>
+                  </msItem>
+                  <msItem n="4" xml:id="b3">
+                     <locus from="15a" to="32">Foll. 15a-32</locus>
+                     <title ref="http://syriaca.org/work/57" type="supplied">The book of Judith</title>
+                     <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܝܗܘܕܝܬ.
+                        <locus from="15a" to="15a"/>
+                     </rubric>
+                  </msItem>
+                  <msItem n="5" xml:id="b4" defective="true">
+                     <locus from="32b" to="32b">Fol. 32b</locus>
+                     <title ref="http://syriaca.org/work/212" type="supplied">The history of Thecla the martyr</title>
+                     <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܬܩܠܐ ܣܗܕܬܐ.
+                        <locus from="32b" to="32b"/>
+                     </rubric>
+                     <note>Very imperfect.</note>
+                  </msItem>
+                  <note>See <bibl><ptr target="http://syriaca.org/manuscript/420"/>Add. 14,652, <citedRange unit="pp" from="1b" to="1b">fol. 1b</citedRange></bibl>, and <bibl><ptr target="http://syriaca.org/manuscript/1153"/>Egerton 704, foll. <citedRange unit="pp" from="197a" to="197a">197 a</citedRange> and <citedRange unit="pp" from="287a" to="287a">287 a</citedRange></bibl>.</note>
+                  <note>This manuscript has been used by <persName ref="">Dr. de Lagarde</persName> in <bibl>his edition of the Apocrypha</bibl>.</note>
+               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -108,10 +127,10 @@
                     <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="127">127 ff.</measure>
+                    <measure type="composition" unit="leaf" quantity="32">32 ff.</measure>
                     <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="7.625" unit="in">7 5/8</measure>
+                        <measure type="height" quantity="7.375" unit="in">7 3/8</measure>
                       </height>
                       <width>
                         <measure type="width" quantity="5.25" unit="in">5 1/4</measure>
@@ -120,48 +139,40 @@
                   </extent>
                   <foliation/>
                   <collation>
-                    <p>The quires, 13 in number, are signed with both letters and arithmetical figures (see foll. <locus from="29a" to="29a">29 a</locus>, <locus from="59a" to="59a">59 a</locus>, <locus from="99a" to="99a">99 a</locus>, <locus from="109a" to="109a">109 a</locus>, and <locus from="199a" to="119a">119 a</locus>).</p>
+                     <p>The quires, four in number, are signed with letters.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p>Many of the leaves are much stained and soiled, especially near the beginning and end.</p>
+                         <p>The <locus from="1" to="1">first</locus> of the leaves is slightly torn.</p>
                       </item>
+                       <item>
+                          <p>The last of the quires is imperfect.</p>
+                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="1" writtenLines="21 25">
-                    <p>Each page has from 21 to 25 lines.</p>
+                  <layout columns="1" writtenLines="26 30">
+                     <p>Each page has from 26 to 30 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="3">
-                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>.</desc>
+              <handDesc hands="2">
+                <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
+                   <desc>This manuscript is written in a neat, regular hand of about the <origDate notBefore="0900" notAfter="1000">10th century</origDate>.</desc>
                 </handNote>
-                <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="#addition1">See additions.</ref></desc>
-                </handNote>
-                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="#addition2">See additions.</ref></desc>
-                </handNote>
-                <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="#addition3">See additions.</ref></desc>
-                </handNote>
+                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                    <desc><ref target="#addition1">See additions.</ref></desc>
+                 </handNote>
               </handDesc>
               <decoDesc/>
               <additions>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <p>The quires have been twice renumbered, in part incorrectly, by later hands.</p>
-                  </item>
-                  <item n="2" xml:id="addition2">
-                    <locus from="6a" to="6a"/>
-                    <p>A single lesson, <foreign xml:lang="syr">ܩܪܝܢܐ ܕܥܢܝ̈ܕܐ</foreign>, is marked on fol. 6 a.</p>
-                  </item>
-                  <item n="3" xml:id="addition3">
-                    <p>A more modern hand has called attention to the history of Shamūnī and her seven sons and Eleazar, by writing at the beginning (<locus from="90a" to="90a">fol. 90 a</locus>) <quote xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܫܡܘܢܝ ܘܒܢ̈ܝܗ̇ ܘܐܠܝܥܙܪ ܣܒܐ ܘܟܗܢܐ</quote>, and at the end (<locus from="96b" to="96b">fol. 96 b</locus>) <quote xml:lang="syr">ܫܠܡܬ ܬܫܥܝܬܐ</quote></p>
+                    <locus from="1a" to="1a"/>
+                     <p>On fol. 1 a there is a note stating that this volume belonged to <placeName ref="">the convent of S. Mary Deipara</placeName>.</p>
+                     <p><quote xml:lang="syr">ܟܬܒܐ ܕܢ̈ܫܐ ܕܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ. ܐܠܐ ܟܠ ܡܢ ܕܫܩܠ ܠܗ ܠܐ ܫܠܝܛ ܠܗ ܡܢ ܐܠܗܐ ܕܢܗܘܐ ܠܘܬܗ. ܐܠܐ ܫܬܐ ܝܪ̈ܚܝܢ. ܘܐܢ ܡܡܪܚ ܘܠܐ ܡܗܦܟ. ܬܚܝܬ ܚܪܡܐ ܐܝܬܘܗܝ.</quote></p>
                   </item>
                 </list>
               </additions>
@@ -171,9 +182,11 @@
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>
+                 <origDate notBefore="0900" notAfter="1000">10th century</origDate>
               </origin>
-              <provenance/>
+              <provenance>
+                <p><ref target="#addition1">See additions.</ref></p>
+              </provenance>
               <acquisition/>
             </history>
             <additional>
@@ -192,7 +205,7 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry">CLV</citedRange>
+                  <citedRange unit="entry">CLVI</citedRange>
                   <citedRange unit="pp">I:98</citedRange>
                 </bibl>
               </listBibl>
