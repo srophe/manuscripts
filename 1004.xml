@@ -380,18 +380,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-16" who="http://syriaca.org/editors.xml#emjohnson http://syriaca.org/editors.xml#jarnwine">Created: file</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
-      <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an
-        historical reconstruction of a no longer extant manuscript..</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
