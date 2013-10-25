@@ -507,29 +507,29 @@
                  </listBibl>
               </additional>
            </msPart>
-           <msPart n="2" xml:id="Part2"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+           <msPart n="5" xml:id="Part5">
               <msIdentifier>
-                 <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+                 <idno type="URI">http://syriaca.org/manuscript/173</idno>
                  <altIdentifier>
-                    <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                    <idno type="BL-Shelfmark">Add MS 14484 foll. 48-133</idno>
                  </altIdentifier>
                  <altIdentifier>
                     <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                    <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                    <idno type="Wright-BL-Arabic">982</idno>
                  </altIdentifier>
                  <altIdentifier>
                     <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                    <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                    <idno type="Wright-BL-Roman">DCCCCLXXXII</idno>
                  </altIdentifier>
               </msIdentifier>
               <msContents>
                  <summary/>
                  <textLang mainLang="syr">Syriac</textLang>
-                 <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
+                 <msItem n="1" xml:id="p5a1" defective="">
                     <locus from="" to=""/>
                     <author ref=""/>
                     <title ref="" type="supplied"/>
-                    <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
+                    <rubric xml:lang="syr"><locus from="" to=""/></rubric>
                     <incipit xml:lang="syr"><locus from="" to=""/></incipit>
                     <quote xml:lang="syr"><locus from="" to=""/></quote>
                     <explicit xml:lang="syr"><locus from="" to=""/></explicit>
@@ -540,7 +540,7 @@
                        <bibl/>
                     </listBibl>
                  </msItem>
-                 <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
+                 <msItem n="2" xml:id="p5a2" defective="">
                     <locus from="" to=""/>
                     <author ref=""/>
                     <title ref="" type="supplied"/>
@@ -557,11 +557,11 @@
                  </msItem>
               </msContents>
               <physDesc>
-                 <objectDesc form="">
+                 <objectDesc form="codex">
                     <supportDesc material="">
-                       <support><material/></support>
+                       <support><material></material></support>
                        <extent>
-                          <measure type="composition" unit="leaf" quantity=""/>
+                          <measure type="composition" unit="leaf" quantity="86">86 ff.</measure>
                           <dimensions type="" unit="in">
                              <height>
                                 <measure type="height" quantity="" unit="in"/>
@@ -594,29 +594,28 @@
                     </layoutDesc>
                  </objectDesc>
                  <handDesc hands="">
-                    <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
+                    <handNote xml:id="p5handNote1" scope="" script="" medium="">
                        <desc></desc>
                     </handNote>
                  </handDesc>
                  <decoDesc>
-                    <decoNote xml:id="p2decoNote1" type="" medium="">
+                    <decoNote xml:id="p5decoNote1" type="" medium="">
                        <desc></desc>
                     </decoNote>
                  </decoDesc>
                  <additions>
                     <p/>
                     <list>
-                       <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                       <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                       <item n="1" xml:id="p5addition1"><locus from="" to=""/><p/><p><quote/></p></item>
                     </list>
                  </additions>
                  <bindingDesc>
-                    <binding xml:id="p2binding1" contemporary=""/>
-                    <decoNote xml:id="p2bindingdeco1"/>
+                    <binding xml:id="p5binding1" contemporary=""/>
+                    <decoNote xml:id="p5bindingdeco1"/>
                     <condition/>
                  </bindingDesc>
                  <sealDesc>
-                    <seal xml:id="p2seal1" contemporary="">
+                    <seal xml:id="p5seal1" contemporary="">
                        <p/>
                     </seal>
                  </sealDesc>
@@ -627,7 +626,7 @@
               <history>
                  <summary/>
                  <origin>
-                    <origDate notBefore="" notAfter=""/>
+                    <origDate notBefore="0500" notAfter="0600">6th century</origDate>
                     <origPlace></origPlace>
                  </origin>
                  <provenance/>
@@ -636,7 +635,7 @@
               <additional>
                  <adminInfo>
                     <recordHist>
-                       <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                       <source>Manuscript description based on <bibl><ref target="#Wrightpart5">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                     </recordHist>
                     <availability status="restricted"/>
                     <custodialHist>
@@ -647,41 +646,41 @@
                     <note/>
                  </adminInfo>
                  <listBibl>
-                    <bibl xml:id="Wrightpart2"><!-- In this manuscript part the references and the xml:id reflect that a different cited range of Wright is of concern than in Part 1 -->
+                    <bibl xml:id="Wrightpart5">
                        <author>William Wright</author>
                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                        <pubPlace>London</pubPlace>
                        <date>1870</date>
                        <ptr target="http://syriaca.org/bibl/8"/>
-                       <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                       <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                       <citedRange unit="entry">DCCCCLXXXII</citedRange>
+                       <citedRange unit="pp">III:1152</citedRange>
                     </bibl>
                  </listBibl>
               </additional>
            </msPart>
-           <msPart n="2" xml:id="Part2"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+           <msPart n="6" xml:id="Part6">
               <msIdentifier>
-                 <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+                 <idno type="URI">http://syriaca.org/manuscript/174</idno>
                  <altIdentifier>
-                    <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                    <idno type="BL-Shelfmark">Add MS 14484 foll. 134-152</idno>
                  </altIdentifier>
                  <altIdentifier>
                     <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                    <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                    <idno type="Wright-BL-Arabic">983</idno>
                  </altIdentifier>
                  <altIdentifier>
                     <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                    <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                    <idno type="Wright-BL-Roman">DCCCCLXXXIII</idno>
                  </altIdentifier>
               </msIdentifier>
               <msContents>
                  <summary/>
                  <textLang mainLang="syr">Syriac</textLang>
-                 <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
+                 <msItem n="1" xml:id="p6a1" defective="">
                     <locus from="" to=""/>
                     <author ref=""/>
                     <title ref="" type="supplied"/>
-                    <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
+                    <rubric xml:lang="syr"><locus from="" to=""/></rubric>
                     <incipit xml:lang="syr"><locus from="" to=""/></incipit>
                     <quote xml:lang="syr"><locus from="" to=""/></quote>
                     <explicit xml:lang="syr"><locus from="" to=""/></explicit>
@@ -692,7 +691,7 @@
                        <bibl/>
                     </listBibl>
                  </msItem>
-                 <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
+                 <msItem n="2" xml:id="p6a2" defective="">
                     <locus from="" to=""/>
                     <author ref=""/>
                     <title ref="" type="supplied"/>
@@ -709,11 +708,11 @@
                  </msItem>
               </msContents>
               <physDesc>
-                 <objectDesc form="">
+                 <objectDesc form="codex">
                     <supportDesc material="">
-                       <support><material/></support>
+                       <support><material></material></support>
                        <extent>
-                          <measure type="composition" unit="leaf" quantity=""/>
+                          <measure type="composition" unit="leaf" quantity="19">19 ff.</measure>
                           <dimensions type="" unit="in">
                              <height>
                                 <measure type="height" quantity="" unit="in"/>
@@ -746,29 +745,28 @@
                     </layoutDesc>
                  </objectDesc>
                  <handDesc hands="">
-                    <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
+                    <handNote xml:id="p6handNote1" scope="" script="" medium="">
                        <desc></desc>
                     </handNote>
                  </handDesc>
                  <decoDesc>
-                    <decoNote xml:id="p2decoNote1" type="" medium="">
+                    <decoNote xml:id="p6decoNote1" type="" medium="">
                        <desc></desc>
                     </decoNote>
                  </decoDesc>
                  <additions>
                     <p/>
                     <list>
-                       <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                       <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                       <item n="1" xml:id="p6addition1"><locus from="" to=""/><p/><p><quote/></p></item>
                     </list>
                  </additions>
                  <bindingDesc>
-                    <binding xml:id="p2binding1" contemporary=""/>
-                    <decoNote xml:id="p2bindingdeco1"/>
+                    <binding xml:id="p6binding1" contemporary=""/>
+                    <decoNote xml:id="p6bindingdeco1"/>
                     <condition/>
                  </bindingDesc>
                  <sealDesc>
-                    <seal xml:id="p2seal1" contemporary="">
+                    <seal xml:id="p6seal1" contemporary="">
                        <p/>
                     </seal>
                  </sealDesc>
@@ -779,7 +777,7 @@
               <history>
                  <summary/>
                  <origin>
-                    <origDate notBefore="" notAfter=""/>
+                    <origDate notBefore="0500" notAfter="0600">6th century</origDate>
                     <origPlace></origPlace>
                  </origin>
                  <provenance/>
@@ -788,7 +786,7 @@
               <additional>
                  <adminInfo>
                     <recordHist>
-                       <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                       <source>Manuscript description based on <bibl><ref target="#Wrightpart6">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                     </recordHist>
                     <availability status="restricted"/>
                     <custodialHist>
@@ -799,14 +797,14 @@
                     <note/>
                  </adminInfo>
                  <listBibl>
-                    <bibl xml:id="Wrightpart2"><!-- In this manuscript part the references and the xml:id reflect that a different cited range of Wright is of concern than in Part 1 -->
+                    <bibl xml:id="Wrightpart6">
                        <author>William Wright</author>
                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                        <pubPlace>London</pubPlace>
                        <date>1870</date>
                        <ptr target="http://syriaca.org/bibl/8"/>
-                       <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                       <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                       <citedRange unit="entry">DCCCCLXXXIII</citedRange>
+                       <citedRange unit="pp">III:1152-1153</citedRange>
                     </bibl>
                  </listBibl>
               </additional>
@@ -903,30 +901,35 @@
         <list>
           <item>
             <ref target="#Part1"/>  
-            <ref target=""/>       
+            <ref target="#bible-apocrypha"/>       
           </item>
           <item>
             <ref target="#Part2"/>  
+            <ref target="#bible-apocrypha"/>       
+          </item>
+          <item>
+            <ref target="#Part3"/>  
             <ref target=""/>       
-          </item><!-- Repeat <item> block as necessary -->
+          </item>
+          <item>
+            <ref target="#Part4"/>  
+            <ref target="#bible-apocrypha"/>       
+          </item>
+          <item>
+            <ref target="#Part5"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part6"/>  
+            <ref target=""/>       
+          </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
+      <change when="2013-10-25" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
-      <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
   <facsimile>
