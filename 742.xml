@@ -97,89 +97,84 @@
                      <locus from="158a" to="211a">Foll. 158a-211a</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
                   </msItem>
-                  <colophon><ref target="#addition4 #addition5">See additions.</ref></colophon>
-                  <note>The Ammonian canons are marked in the text in the usual way, and there is a harmony at the foot of each page. The larger sections are indicated by the letter <foreign xml:lang="syr">ܡܬܝ܀ ܡܪܩܘܣ ܠܘܩܐ܀ ܝܘܚܢܢ. .</foreign> on the margins or between the columns. Many of the lessons are rubricated in the text.</note><!-- Not sure what has happened in the Syriac here, since it's supposed to be just one letter -->
+                 <finalRubric xml:lang="syr">..ܫܠ̣ܡ ܛܛܪܐܘܢܓܠܝܘܢ ܡܬܝ܀ ܡܪܩܘܣ ܠܘܩܐ܀ ܝܘܚܢܢ</finalRubric>
+                 <note>The Ammonian canons are marked in the text in the usual way, and there is a harmony at the foot of each page. The larger sections are indicated by the letter <foreign xml:lang="syr">ܨ</foreign> on the margins or between the columns. Many of the lessons are rubricated in the text.</note>
                </msItem>
             </msContents>
-            <physDesc>
-              <objectDesc form="codex">
-                <supportDesc material="perg">
-                  <support>
-                    <material>Vellum</material>
-                  </support>
-                  <extent>
-                    <measure type="composition" unit="leaf" quantity="211">211 ff.</measure>
-                    <dimensions type="leaf" unit="in">
-                      <height>
-                        <measure type="height" quantity="12.875" unit="in">12 7/8 in.</measure>
-                      </height>
-                      <width>
-                        <measure type="width" quantity="9.75" unit="in">9 3/4 in.</measure>
-                      </width>
-                    </dimensions>
-                  </extent>
-                  <foliation/>
-                  <collation>
-                     <p>The quires are 24 in number. They were originally signed with both letters and arithmetical figures (e.g. foll. <locus from="14a" to="14a">14 a</locus>,<foreign xml:lang="syr">ܕ</foreign>; <locus from="24a" to="24a">24 a</locus>, <foreign xml:lang="syr">ܗ</foreign>; <locus from="50a" to="50a">50a</locus>, <foreign xml:lang="syr">ܚ</foreign>; <locus from="60a" to="60a">60a</locus>, <foreign xml:lang="syr">ܛ</foreign>; <locus from="100a" to="100a">100a</locus>, <foreign xml:lang="syr">ܝܓ</foreign>; <locus from="140a" to="140a">140 a</locus>, <foreign xml:lang="syr">ܝܙ</foreign>; <locus from="158a" to="158a">158 a</locus>, <foreign xml:lang="syr">ܝܛ</foreign>; <locus from="178a" to="178a">178 a</locus>, <foreign xml:lang="syr">ܟܐ</foreign>).</p>
-                  </collation>
-                  <condition>
-                    <list>
-                      <item>
-                         <p>A few leaves are stained and torn, especially foll. <locus from="1" to="1">1</locus>, <locus from="11" to="11">11</locus>, <locus from="120" to="120">120</locus>, <locus from="210" to="211">210, and 211</locus>.</p>
-                      </item>
-                       <item>
-                          <p>Only one leaf now remains of the first quire, and two leaves of the third.</p>
-                       </item>
-                    </list>
-                  </condition>
-                </supportDesc>
-                <layoutDesc>
-                  <layout columns="2" writtenLines="19 24">
-                     <p>Each page is divided into two columns, of from 19 to 24 lines.</p>
-                  </layout>
-                </layoutDesc>
-              </objectDesc>
-              <handDesc hands="4">
-                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                   <desc>The writing is a large, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>.</desc>
-                </handNote>
-                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                    <desc>Of the <date notBefore="0800" notAfter="0900">9th century</date>. <ref target="#addition2">See additions.</ref></desc>
-                 </handNote>
-                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
-                    <desc><ref target="#addition1">See additions.</ref></desc>
-                 </handNote>
-                 <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
-                    <desc><ref target="#addition3">See additions.</ref></desc>
-                 </handNote>
-              </handDesc>
-              <decoDesc/>
-              <additions>
-                <list>
-                  <item n="1" xml:id="addition1">
-                     <ref target="#handNote3"/>
-                     <p>The quires have since been incorrectly renumbered with letters only.</p>
-                  </item>
-                   <item n="2" xml:id="addition2">
-                      <locus from="211" to="211"/>
-                      <ref target="#handNote2"/>
-                      <p>Fol. 211 is written by a hand of the <date notBefore="0800" notAfter="0900">9th century</date>, and was probably added by the same person who retouched many portions of the older text.</p>
-                   </item>
-                   <item n="3" xml:id="addition3">
-                      <ref target="#handNote4"/>
-                      <p>Other lessons have been noted by different hands on the margins.</p>
-                   </item>
-                   <item n="4" xml:id="addition4">
-                      <locus from="211a" to="211a"/>
-                      <ref target="#handNote2 #a1"/>
-                      <quote xml:lang="syr">ܫܠ̣ܡ ܛܛܪܐܘܢܓܠܝܘܢ</quote>
-                   </item>
-                   <item n="5" xml:id="addition5">
-                      <locus from="211a" to="211a"/>
-                      <ref target="#handNote2 #a1"/>
-                      <p>On fol. 211 a, after the doxology, there stands a note, informing us that the manuscript belonged to the <placeName ref="">convent of S. Mary Deipara</placeName> in the <placeName ref="">desert of Scete</placeName>. </p>
-                      <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܐܘܢܓܠܝܘܢ ܗܢܐ ܩܕܝܫܐ .. ܕܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܒܡܨܪܝܢ ܕܗ̣ܘ ܐܝܬܘܗܝ ܡܕܒܪܐ ܕܐܣܩ̈ܛܝܣ ܕܝܪܐ ܕܝܠܗܘܢ ܐܝܬܝܗ̇ ܥܠ ܫܡܐ ܩܕܝܫܐ ܕܒܬܘܠܬܐ ܝܠܕܬ ܐܠܗܐ ܡܪܝܡ ܕܒܨ̈ܠܘܗ̇ ܩܕܝܫ̈ܬܐ ܢܫܟ݁ܢ ܠܢ ܪ̈ܚܡܐ ܘܚܢܢܐ ܒܝܘܡܐ ܕܡܬܓܠܝܢܘܬܗ ܫܒܝܚܬܐ ܕܡܫܝܚܐ ܐܠܗܐ ܣܒܪܐ ܕܟܪ̈ܣܛܝܢܐ. ܏ܘܫ</quote></p>
-                   </item>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support>
+                  <material>Vellum</material>
+                </support>
+                <extent>
+                  <measure type="composition" unit="leaf" quantity="211">211 ff.</measure>
+                  <dimensions type="leaf" unit="in">
+                    <height>
+                      <measure type="height" quantity="12.875" unit="in">12 7/8 in.</measure>
+                    </height>
+                    <width>
+                      <measure type="width" quantity="9.75" unit="in">9 3/4 in.</measure>
+                    </width>
+                  </dimensions>
+                </extent>
+                <foliation/>
+                <collation>
+                  <p>The quires are 24 in number. They were originally signed with both letters and arithmetical figures (e.g. foll. <locus from="14a" to="14a">14 a</locus>,<foreign xml:lang="syr">ܕ</foreign>; <locus from="24a" to="24a">24 a</locus>, <foreign xml:lang="syr">ܗ</foreign>; <locus from="50a" to="50a">50a</locus>, <foreign xml:lang="syr">ܚ</foreign>; <locus from="60a" to="60a">60a</locus>, <foreign xml:lang="syr">ܛ</foreign>; <locus from="100a" to="100a">100a</locus>, <foreign xml:lang="syr">ܝܓ</foreign>; <locus from="140a" to="140a">140 a</locus>, <foreign xml:lang="syr">ܝܙ</foreign>; <locus from="158a" to="158a">158 a</locus>, <foreign xml:lang="syr">ܝܛ</foreign>; <locus from="178a" to="178a">178 a</locus>, <foreign xml:lang="syr">ܟܐ</foreign>).</p>
+                </collation>
+                <condition>
+                  <list>
+                    <item>
+                      <p>A few leaves are stained and torn, especially foll. <locus from="1" to="1">1</locus>, <locus from="11" to="11">11</locus>, <locus from="120" to="120">120</locus>, <locus from="210" to="211">210, and 211</locus>.</p>
+                    </item>
+                    <item>
+                      <p>Only one leaf now remains of the first quire, and two leaves of the third.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2" writtenLines="19 24">
+                  <p>Each page is divided into two columns, of from 19 to 24 lines.</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="4">
+              <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+                <desc>The writing is a large, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>.</desc>
+              </handNote>
+              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                <desc>Of the <date notBefore="0800" notAfter="0900">9th century</date>. <ref target="#addition2">See additions.</ref></desc>
+              </handNote>
+              <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
+                <desc><ref target="#addition1">See additions.</ref></desc>
+              </handNote>
+              <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
+                <desc><ref target="#addition3">See additions.</ref></desc>
+              </handNote>
+            </handDesc>
+            <decoDesc/>
+            <additions>
+              <list>
+                <item n="1" xml:id="addition1">
+                  <ref target="#handNote3"/>
+                  <p>The quires have since been incorrectly renumbered with letters only.</p>
+                </item>
+                <item n="2" xml:id="addition2">
+                  <locus from="211" to="211"/>
+                  <ref target="#handNote2"/>
+                  <p>Fol. 211 is written by a hand of the <date notBefore="0800" notAfter="0900">9th century</date>, and was probably added by the same person who retouched many portions of the older text.</p>
+                </item>
+                <item n="3" xml:id="addition3">
+                  <ref target="#handNote4"/>
+                  <p>Other lessons have been noted by different hands on the margins.</p>
+                </item>
+                <item n="4" xml:id="addition4">
+                  <locus from="211a" to="211a"/>
+                  <ref target="#handNote2 #a1"/>
+                  <p>On fol. 211 a, after the doxology, there stands a note, informing us that the manuscript belonged to the <placeName ref="">convent of S. Mary Deipara</placeName> in the <placeName ref="">desert of Scete</placeName>. </p>
+                  <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܐܘܢܓܠܝܘܢ ܗܢܐ ܩܕܝܫܐ .. ܕܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܒܡܨܪܝܢ ܕܗ̣ܘ ܐܝܬܘܗܝ ܡܕܒܪܐ ܕܐܣܩ̈ܛܝܣ ܕܝܪܐ ܕܝܠܗܘܢ ܐܝܬܝܗ̇ ܥܠ ܫܡܐ ܩܕܝܫܐ ܕܒܬܘܠܬܐ ܝܠܕܬ ܐܠܗܐ ܡܪܝܡ ܕܒܨ̈ܠܘܗ̇ ܩܕܝܫ̈ܬܐ ܢܫܟ݁ܢ ܠܢ ܪ̈ܚܡܐ ܘܚܢܢܐ ܒܝܘܡܐ ܕܡܬܓܠܝܢܘܬܗ ܫܒܝܚܬܐ ܕܡܫܝܚܐ ܐܠܗܐ ܣܒܪܐ ܕܟܪ̈ܣܛܝܢܐ. ܏ܘܫ</quote></p>
+                </item>
                 </list>
               </additions>
               <bindingDesc/>
