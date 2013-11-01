@@ -109,10 +109,11 @@
                      <locus from="248a" to="315b">Foll. 248a-315b</locus>
                      <title type="supplied" ref="http://syriaca.org/work/75">John, according to the Peshitta version</title>
                      <title type="supplied" ref="http://syriaca.org/work/200">John, in Arabic translation with Syriac characters</title>
-                     <note></note>
                   </msItem>
+                 <finalRubric xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܡܪܢ ܛܛܪܐ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ. ܕܐܟ݂ܪܙܘܗܝ ܘܣ̣ܒܪܘܗܝ ܐܪ̈ܒܥܬܝܗܘܢ ܐܘܢ̈ܓܠܝܣܛܐ. ܡܐܬܝ. ܡܪܩܘܣ. ܠܘܩܐ. ܝܘܚܢܢ. ܕܒܨ̈ܠܘܬܗܘܢ ܢܬܚܲܣܸܐ ܟܠ ܡܢ ܕܐܫܬܘܬܦ ܐܡܝܢ ܐܡܝܢ ܐܡܝܢ. ܫܘܒ̣ܚܐ ܠܐܒܐ ܕܚܲܝܠ. ܘ܏ܫ. ܕܟܝ̣ܪܐ ܝ̇ܠܕܬ݂݀ ܐܠܗܐ. ܒܬܘܠܬܐ ܩܕܝܫܬܐ ܡܪܝܡ. ܘܟܠܗܘܢ ܢܒܝ̈ܐ ܘܫ̈ܠܝܚܐ ܘ܏ܫ. ܘܒܝܕ ܨ̈ܠܘܬܗܘܢ ܢܬܚܲܣܐ ܚ̇ܛܝܐ ܘܡܚܝ̣ܠܐ ܕܟܬ̣ܒ. ܘܩܲܢܵܝܵܐ ܒܪܝܟ݂ܐ ܕܝ̣ܨܦ. ܐܡܝܢ.
+                   <locus from="315b" to="315b"/>
+                 </finalRubric>
                   <note>The lessons are rubricated in the text, and <ref target="#a1">an index is prefixed.</ref></note>
-                  <colophon><ref target="#addition2">See additions.</ref></colophon>
                </msItem>
             </msContents>
             <physDesc>
@@ -153,7 +154,7 @@
               </objectDesc>
               <handDesc hands="4">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syrj" medium="unknown">
-                   <desc>This volume is written in a good, regular hand, with numerous Greek vowels (<!-- MISSING VOWELS -->) and other marks; dated <origDate when-custom="1719" datingMethod="Seleucid">A. Gr. 1719</origDate>, <origDate when="1438" calendar="Gregorian">A.D. 1438</origDate>. A priest named <persName ref="">Theodore</persName>. <ref target="#addition2 #addition3 #addition4">See additions.</ref></desc>
+                   <desc>This volume is written in a good, regular hand, with numerous Greek vowels (<!-- MISSING VOWELS -->) and other marks; dated <origDate when-custom="1719" datingMethod="Seleucid">A. Gr. 1719</origDate>, <origDate when="1438" calendar="Gregorian">A.D. 1438</origDate>. A priest named <persName ref="">Theodore</persName>. <ref target="#addition3 #addition4">See additions.</ref></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="unknown" medium="unknown">
                     <desc>The work of the priest <persName ref="">Kamar</persName> from the village of <placeName ref="">Dair Balī</placeName>. <ref target="#decoNote1">See decoration description.</ref></desc>
@@ -177,11 +178,6 @@
                      <locus from="1a" to="1a"/>
                      <p>On fol. 1 a there are notes in Syriac, Arabic, and Karshūnī, but all more or less stained and effaced.</p>
                   </item>
-                   <item n="2" xml:id="addition2">
-                      <locus from="315b" to="315b"/>
-                      <p>Colophon, fol. 315 b: </p>
-                      <p><quote xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܡܪܢ ܛܛܪܐ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ. ܕܐܟ݂ܪܙܘܗܝ ܘܣ̣ܒܪܘܗܝ ܐܪ̈ܒܥܬܝܗܘܢ ܐܘܢ̈ܓܠܝܣܛܐ. ܡܐܬܝ. ܡܪܩܘܣ. ܠܘܩܐ. ܝܘܚܢܢ. ܕܒܨ̈ܠܘܬܗܘܢ ܢܬܚܲܣܸܐ ܟܠ ܡܢ ܕܐܫܬܘܬܦ ܐܡܝܢ ܐܡܝܢ ܐܡܝܢ. ܫܘܒ̣ܚܐ ܠܐܒܐ ܕܚܲܝܠ. ܘ܏ܫ. ܕܟܝ̣ܪܐ ܝ̇ܠܕܬ݂݀ ܐܠܗܐ. ܒܬܘܠܬܐ ܩܕܝܫܬܐ ܡܪܝܡ. ܘܟܠܗܘܢ ܢܒܝ̈ܐ ܘܫ̈ܠܝܚܐ ܘ܏ܫ. ܘܒܝܕ ܨ̈ܠܘܬܗܘܢ ܢܬܚܲܣܐ ܚ̇ܛܝܐ ܘܡܚܝ̣ܠܐ ܕܟܬ̣ܒ. ܘܩܲܢܵܝܵܐ ܒܪܝܟ݂ܐ ܕܝ̣ܨܦ. ܐܡܝܢ.</quote></p>
-                   </item>
                    <item n="3" xml:id="addition3">
                       <locus from="316a" to="316a"/>
                       <p>On fol. 316 a there is a note, stating that this volume was written <origDate when-custom="1719" datingMethod="Seleucid">A. Gr. 1719</origDate> (<origDate when="1438" calendar="Gregorian">A.D. 1438</origDate>), in the <placeName ref="">village of ‘Akūrtā</placeName> on <placeName ref="">Mount Lebanon</placeName>, by a priest named <persName ref="">Theodore</persName>, for the archdeacon <persName ref="">Abraham bar Theodore</persName>.</p>
@@ -335,6 +331,7 @@
     <revisionDesc>
       <change when="2013-08-06" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
+      <change when="2013-11-01" who="http://syriaca.org/editors.xml#thannah http://syriaca.org/editors.xml#jarnwine">Updated finalRubric.</change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
