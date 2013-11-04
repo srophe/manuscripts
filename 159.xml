@@ -9,7 +9,8 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -80,259 +81,289 @@
               <msItem n="1" xml:id="a1">
                 <locus from="1a" to="62">Foll. 1a-62</locus>
                 <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta version.</title>
-                <msItem n="2" xml:id="b1" defective="true">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/77" type="supplied">Romans, according to the Peshitta version.</title>
+                <msItem n="2" xml:id="b1">
+                  <locus from="1" to="2">Foll. 1-2</locus>
+                  <title ref="http://syriaca.org/work/77" type="supplied">The Epistle of Romans, according to the Peshitta version</title>
+                  <note>Contains ch. ix. 9—x. 8.</note>
                 </msItem>
-                <msItem n="3" xml:id="b2" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/78" type="supplied">1st Corinthians, according to the Peshitta version.</title>
+                <msItem n="3" xml:id="b2">
+                  <locus from="2a" to="12">Foll. 2a-12</locus>
+                  <title ref="http://syriaca.org/work/78" type="supplied">The Epistle of 1 Corinthians, according to the Peshitta version</title>
+                  <note>Begins with ch. vi. 11.</note>
                 </msItem>
-                <msItem n="3" xml:id="b3" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/79" type="supplied">2nd Corinthians, according to the Peshitta version.</title>
+                <msItem n="4" xml:id="b3">
+                  <locus from="12b" to="22">Foll. 12b-22</locus>
+                  <title ref="http://syriaca.org/work/79" type="supplied">The Epistle of 2 Corinthians, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b4" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/80" type="supplied">Galatians, according to the Peshitta version.</title>
+                <msItem n="5" xml:id="b4">
+                  <locus from="22b" to="27">Foll. 22b-27</locus>
+                  <title ref="http://syriaca.org/work/80" type="supplied">The Epistle of Galatians, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/81" type="supplied">Ephesians, according to the Peshitta version.</title>
+                <msItem n="6" xml:id="b5">
+                  <locus from="27b" to="32">Foll. 27b-32</locus>
+                  <title ref="http://syriaca.org/work/81" type="supplied">The Epistle of Ephesians, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/82" type="supplied">Philippians, according to the Peshitta version.</title>
+                <msItem n="7" xml:id="b6">
+                  <locus from="32b" to="26">Foll. 32b-36</locus>
+                  <title ref="http://syriaca.org/work/82" type="supplied">The Epistle of Philippians, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/83" type="supplied">Colossians, according to the Peshitta version.</title>
+                <msItem n="8" xml:id="b7">
+                  <locus from="36b" to="39">Foll. 36b-39</locus>
+                  <title ref="http://syriaca.org/work/83" type="supplied">The Epistle of Colossians, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/84" type="supplied">1st Thessalonians, according to the Peshitta version.</title>
+                <msItem n="9" xml:id="b8">
+                  <locus from="39b" to="42">Foll. 39b-42</locus>
+                  <title ref="http://syriaca.org/work/84" type="supplied">The Epistle of 1 Thessalonians, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/85" type="supplied">2nd Thessalonians, according to the Peshitta version.</title>
+                <msItem n="10" xml:id="b9">
+                  <locus from="42b" to="44">Foll. 42b-44</locus>
+                  <title ref="http://syriaca.org/work/85" type="supplied">The Epistle of 2 Thessalonians, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/86" type="supplied">1st Timothy, according to the Peshitta version.</title>
+                <msItem n="11" xml:id="b10">
+                  <locus from="44a" to="48">Foll. 44a-48</locus>
+                  <title ref="http://syriaca.org/work/86" type="supplied">The Epistle of 1 Timothy, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/87" type="supplied">2nd Timothy, according to the Peshitta version.</title>
+                <msItem n="12" xml:id="b11">
+                  <locus from="48a" to="50">Foll. 48a-50</locus>
+                  <title ref="http://syriaca.org/work/87" type="supplied">The Epistle of 2 Timothy, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/88" type="supplied">Titus, according to the Peshitta version.</title>
+                <msItem n="13" xml:id="b12">
+                  <locus from="50b" to="52">Foll. 50b-52</locus>
+                  <title ref="http://syriaca.org/work/88" type="supplied">The Epistle of Titus, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/89" type="supplied">Philemon, according to the Peshitta version.</title>
+                <msItem n="14" xml:id="b13">
+                  <locus from="52b" to="53">Foll. 52b-53</locus>
+                  <title ref="http://syriaca.org/work/89" type="supplied">The Epistle of Philemon, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="3" xml:id="b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="http://syriaca.org/work/90" type="supplied">Hebrews, according to the Peshitta version.</title>
+                <msItem n="15" xml:id="b14">
+                  <locus from="53a" to="62">Foll. 53a-62</locus>
+                  <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews, according to the Peshitta version</title>
+                  <note>Ends with ch. xii. 2.</note>
                 </msItem>
               </msItem>
-              <msItem n="" xml:id="a2">
+              <msItem n="16" xml:id="a2">
                 <locus from="62a" to="98">Foll. 62a-98</locus>
                 <title ref="http://syriaca.org/work/76" type="supplied">The Acts of the Apostles, according to the Peshitta version</title>
                 <rubric xml:lang="syr">ܬܘܒ ܟܬܒܐ ܕܦܪܟܣܝܣ ܕܬܪ̈ܥܣܪ ܫ̈ܠܝܚܐ. ܕܡܬܦܫܩ̣ ܬܫܥܝܬܐ
                   <locus from="62a" to="62a"/></rubric>
               </msItem>
-              
-              <msItem n="" xml:id="a3">
-                <locus from="" to=""/>
+              <msItem n="17" xml:id="a3">
+                <locus from="98b" to="116">Foll. 98b-116</locus>
                 <title ref="" type="supplied">The Apostolic Epistles</title>
-                <msItem n="" xml:id="">
+               <msItem n="18" xml:id="b15">
                   <locus from="98b" to="b">Foll. 98b-102</locus>
                   <title ref="" type="supplied">The Epistle of S. James, according to the Harklensian version</title>
                   <rubric xml:lang="syr">
                     <locus from="98b" to="98b"/> ܐܓܪܬܐ ܩܬܘܠܝܩܝ ܕܝܥܩܘܒ ܫܠܝܚܐ. ܐܝܟ ܬܘܿܪܨܐ ܕܡܪܝ ܬܐܘܡܐ ܚܪܩܠܝܐ</rubric>
-                  <finalRubric xml:lang="syr">
-                    <locus from="98b" to="98b"/> ܫܠ̣ܡܬ ܐܓܪܬܐ ܩܬܘܠܝܩܝ ܕܝܥܩܘܒ ܫܠܝܚܐ. ܦܬ ܏ܪܡܒ</finalRubric>
+                  <finalRubric xml:lang="syr">ܫܠ̣ܡܬ ܐܓܪܬܐ ܩܬܘܠܝܩܝ ܕܝܥܩܘܒ ܫܠܝܚܐ. ܦܬ ܏ܪܡܒ
+                    <locus from="102" to="102"/>
+                  </finalRubric>
                 </msItem>
-                <msItem n="" xml:id="" defective="">
-                  <locus from="" to="b"/>
-                  <author ref=""/>
+               <msItem n="19" xml:id="b16">
+                  <locus from="102b" to="105">Foll. 102b-105</locus>
                   <title ref="" type="supplied">The second Epistle of S. Peter, according to the Harklensian version</title>
+                  <rubric xml:lang="syr">
+                    <locus from="102b" to="102b"/>ܬܘܒ ܐܓܪܬܐ ܩܐܬܘܠܝܩܝ ܕܦܛܪܘܣ ܫܠܝܚܐ ܕܬܪ̈ܬܝܢ</rubric>
+                  <finalRubric xml:lang="syr">ܫܠ̣ܡܬ ܐܓܪܬܐ ܕܬܪ̈ܬܝܢ ܕܦܛܪܘܣ ܫܠܝܚܐ.
+                    <locus from="105" to="105"/></finalRubric>
                 </msItem>
-                
+                <msItem n="20" xml:id="b17">
+                  <locus from="105a" to="109">Foll. 105a-109</locus>
+                  <title ref="" type="supplied">The first Epistle of S. Peter, according to the Peshitta version</title>
+                  <note>Ends with ch. iii. 9.</note>
+                </msItem>
+                <msItem n="21" xml:id="b18">
+                  <locus from="109a" to="110">Foll. 109a-110</locus>
+                  <title ref="" type="supplied">The second Epistle of S. John, according to the Peshitta version</title>
+                </msItem>
+                <msItem n="22" xml:id="b19">
+                  <locus from="110a" to="111">Foll. 110a-111</locus>
+                  <title ref="" type="supplied">The third Epistle of S. John, according to the Peshitta version</title>
+                </msItem>
+                <msItem n="23" xml:id="b20">
+                  <locus from="111a" to="113">Foll. 111a-113</locus>
+                  <title ref="" type="supplied">The Epistle of S. Jude, according to the Peshitta version</title>
+                </msItem>
+                <msItem n="24" xml:id="b21">
+                  <locus from="113a" to="116">Foll. 113a-116</locus>
+                  <title ref="" type="supplied">The first Epistle of S. John, according to the Harklensian version</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܐܓܪܬܐ ܩܐܬܘܠܝܩܝ ܩܕܡܝܬܐ ܕܝܘܚܢܢ ܫܠܝܚܐ
+                    <locus from="113a" to="113a"/></rubric>
+                  <finalRubric xml:lang="syr">ܫܠ̣ܡܬ݁ ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܝܘܚܢܢ ܐܘܐܢܓܠܝܣܛܐ. ܐܝܟ ܬܘܿܪܨܐ ܕܡܪܝ ܬܐܘܡܐ ܚܪܩܠܝܐ. 
+                    <locus from="116" to="116"/></finalRubric>
+                </msItem>
+                <note>Throughout the whole of the above portions of this manuscript the larger sections are marked on the, margins.</note>
+                <note>In these parts that are taken from the Harklensian version (<ref target="#b15">Epistle of S. James</ref>, <ref target="#b16">second Epistle of S. Peter</ref>, and <ref target="#b21">first Epistle of S. John</ref>), there are a considerable number of marginal annotations, consisting chiefly of various readings and Greek words;
+                  e.g. fol. <locus>99a</locus>, S. James, ch. i. 8, <foreign xml:lang="syr">ܬܪܝܢܝ ܢܦܫܐ</foreign> marg. <foreign xml:lang="grc">ΔΙΨΥΧΟⲤ</foreign>; 15, <foreign xml:lang="syr">ܒܬܪܟܢ ܗ̣ܝ ܪܓܬܐ</foreign> marg. <foreign xml:lang="grc">ΕΙΤΑ</foreign>;
+                  fol. <locus>99b</locus>, ch. i. 21 <foreign xml:lang="syr">ܡܠܬܐ ܕܢܨܝܒܐ ܒܢ </foreign> marg. <foreign xml:lang="syr">ܒܝܘܢܝܐ ܠܝܬ ܒܢ ܐܠܐ ܒܐ </foreign> 24, <foreign xml:lang="syr">ܕܒ̣ܪܝܬܐ</foreign> marg. <foreign xml:lang="grc">ΓΕⲚΕⲤΕⲰⲤ</foreign>; <foreign xml:lang="syr">ܘܡܚܕܐ̣ ܛܥ̣ܐ ♰ ܐܝܢܐ ܕܐܝܬܘܗܝ ܗܘܐ </foreign>
+                  marg. <foreign xml:lang="syr">ܕܐܝܟ</foreign>.</note>
+    <!-- Different shape of Cross.-->
               </msItem>
-             
-              
-              
-              <msItem n="1" xml:id="a1">
-                <locus from="" to=""/>
+              <msItem n="25" xml:id="a4">
+                <locus from="116b" to="140">Foll. 116-140</locus>
                 <author ref="">Jacob of Batanae</author>
                 <title ref="" type="supplied">A collection of festal discourses</title>
                 <rubric xml:lang="syr"><locus from="116b"/>ܬܘܪ̈ܓܡܐ ܕܥܐܕ̈ܐ ܡܐܪ̈ܢܝܐ.</rubric>
                 <note>Six prose homilies of Jacob of Batnae, <foreign xml:lang="syr">ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ</foreign></note>
                 <note>See <bibl>Assemani, Bibl. Orient., t. i. p. 304, no. 8—13</bibl>, and also <bibl>Assemani, Bibl. Orient., t. i. p. 304, no. 23</bibl>.</note>
                 <note>These homilies have been translated into German by the <bibl>Rev. P. Pius Zingerle, “Sechs Homilien des heiligen Jacob von Sarug” (Bonn, 1867)</bibl>; and Syriac text of the sixth has been published in his <bibl>Rev. P. Pius Zingerle, Monumenta Syriaca, vol. i., p. 91 (1869)</bibl>.</note>
-              </msItem>
-              <msItem n="2" xml:id="b2">
-                <locus from="" to=""/>
+              <msItem n="26" xml:id="b22">
+                <locus from="116b" to="119">Foll. 116b-119</locus>
                 <author ref="">Jacob of Batanae</author>
-                <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/>
+                <title ref="" type="supplied">On the Nativity</title>
+                <rubric>ܩܕܡܝܐ̣ ܥܠ ܝܠܕܗ ܕܡܪܢ ܕܒܒܣܪ<locus from="116b" to="116b"/>
                 </rubric>
-                <incipit xml:lang="syr"><!-- If the opening lines of the text proper of the msItem are given put it here, Wright may call this "it begins" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/>
-                </incipit>
-                <quote xml:lang="syr"><!-- If Wright gives any other quote from the original that does not fit into one of the above or below categories, put it here (otherwise this element may be deleted) -->
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr"><!-- If the closing lines of the text proper of the msItem are given put it here. Wright appears not to give many explicits. (otherwise this element may be deleted) -->
-                  <locus from="" to=""/>
-                </explicit>
-                <finalRubric xml:lang="syr"> ܫܠ̣ܡܬ ܐܓܪܬܐ ܕܬܪ̈ܬܝܢ ܕܦܛܪܘܣ ܫܠܝܚܐ.
-                  <locus from="" to=""/>
-                </finalRubric>
-                <colophon>
-                  <ref target="">See below.<!-- The colophon is distinguished from the final rubric in that it is not necessarily about the end of the text. It may be a note about the original scribe or patron. The text of the colophon is NOT included here but below as an addition, the ref target provides the link -->
-                  </ref>
-                </colophon>
-                <note><!-- Any additional notation supplied by Wright (otherwise this element may be deleted) --></note>
-                <listBibl>
-                  <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
-                </listBibl>
-                <msItem n="3" xml:id="p1b1" defective="">
-                  <locus from="" to=""/>
-                  <author ref=""/>
-                  <title ref="" type="supplied"></title>
+              </msItem>
+              <msItem n="27" xml:id="b23">
+                <locus from="119a" to="123">Foll. 119a-123</locus>
+                <author ref="">Jacob of Batanae</author>
+                <title ref="" type="supplied">On the Epiphany</title>
+                <rubric>ܬܘܒ ܬܘܪܓܡܐ ܕܥܠ ܕܢܚܗ ܕܡܪܢ<locus from="119a" to="119a"/>
+                </rubric>
+                <note>Imperfect.</note>
+              </msItem>
+              <msItem n="28" xml:id="b24">
+                  <locus from="123a" to="128">Foll. 123a-128</locus>
+                  <author ref="">Jacob of Batanae</author>
+                  <title ref="" type="supplied">On Lent</title>
+                  <rubric>ܬܘܒ ܬܘܪܓܡܐ ܥܠ ܨܘܡܐ ܩܕܝܫܐ ܕܐܪܒܥܝܢ<locus from="123a" to="123a"/>
+                  </rubric>
+                <note>Slightly imperfect at the end. </note>
                 </msItem>
-              </msItem><!-- <msItem n="2" xml:id="p1a2"> closes here after its subordinated item(s). -->
+                <msItem n="29" xml:id="b25">
+                  <locus from="128a" to="130">Foll. 128a-130</locus>
+                  <author ref="">Jacob of Batanae</author>
+                  <title ref="" type="supplied">On Palm Sunday</title>
+                  <rubric> ܬܘܪܓܡܐ ܕܥܠ ܚܕܒܫܒܐ ܕܐܘܫ̈ܥܢܐ<locus from="128a" to="128a"/>
+                  </rubric>
+                  <note>Very imperfect at the beginning and in the middle.</note>
+                </msItem>
+                <msItem n="30" xml:id="b26">
+                  <locus from="130b" to="133">Foll. 130b-133</locus>
+                  <author ref="">Jacob of Batanae</author>
+                  <title ref="" type="supplied">On the Friday of the Passion (Good Friday)</title>
+                  <rubric> ܬܘܒ ܬܘܪܓܡܐ ܕܥܠ ܥܪܘܒܬܐ ܕܚܫܗ ܕܡܪܢ <locus from="130b" to="130b"/>
+                  </rubric>
+                  <note>Imperfect</note>
+                </msItem>
+                <msItem n="31" xml:id="b27">
+                  <locus from="133a" to="134">Foll. 133a-134</locus>
+                  <author ref="">Jacob of Batanae</author>
+                  <title ref="" type="supplied">On Easter Sunday</title>
+                  <rubric>ܬܘܒ ܬܘܪܓܡܐ ܕܚܕܒܫܒܐ ܕܦܛܝܪ̈ܐ <locus from="133a" to="133a"/>
+                  </rubric>
+                </msItem>
+              </msItem>
+              <msItem n="25" xml:id="a5">
+                <locus from="116b" to="140">Foll. 116-140</locus>
+                <author ref="">Severus of Antioch</author>
+                <title ref="" type="supplied">Discourses</title>
+               <msItem n="32" xml:id="b28">
+                  <locus from="116b" to="119">Foll. 116b-119</locus>
+                 <author ref="">Severus of Antioch</author>
+                 <title ref="" type="supplied">On the Ascension, hom. epithron. xlvii.</title>
+                 <rubric>ܕܥܠ ܣܘܠܩܐ <locus from="134a" to="134a"/>
+                  </rubric>
+                 <note>Very imperfect.</note>
+                </msItem>
+                <msItem n="33" xml:id="b29">
+                  <locus from="134b" to="140">Foll. 134b-140</locus>
+                  <author ref="">Severus of Antioch</author>
+                  <title ref="" type="supplied">On Pentecost, hom, epithron. xlviii.</title>
+                  <rubric><locus from="134b" to="134b"/>ܕܝܠܗ ܟܕ ܕܝܠܗ. ܡܐܡܪܐ ܕܐܪ̈ܒܥܝܢ ܘܬܡܢܝܐ̣. ܡܛܠ ܦܢܛܩܘܣܛܐ .. ܐܬܐܡ̣ܪ ܕܝܢ ܒܫܒܬܐ ܕܬܪ̈ܬܝܢ ܒܥܪܘܒܬܐ̣. ܟܕ ܩܲܕ݁ܡ ܐܬܟ݂ܪܙ ܨܘܡܐ ܐܝܟ ܥܝ̇ܕܐ. 
+                  </rubric>
+                  <incipit xml:lang="syr">ܐܫܥܝܐ ܗ̇ܘ ܕܛܒ ܐܝܬܘܗܝ ܡܥܠܝܐ ܘܡܢܗܪܢܐ ܒܢܒ̈ܝܐ̣. ܏ܘܫ. 
+                    <locus from="134b" to="134b"/>
+                  </incipit>
+                  <note>Imperfect at the end.</note>
+                </msItem>
+              </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
-                <supportDesc material=""><!-- @material can be "chart" (paper), "mixed", "perg" (parchment/vellum), or "unknown" -->
+              <objectDesc form="codex">
+                <supportDesc material="perg">
                   <support>
-                    <material><!-- Use Wright's vocabulary for material here --></material>
+                    <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""><!-- Enter the number of folia here (followed by "f." if a single folio and by "ff." if more than one folia) and in @quantity (e.g., ...quantity="25"> 25 ff. </measure>) --></measure>
-                    <dimensions type="" unit="in">
-                      <!-- @type can be "binding", "boxed", "leaf", "line-height", "slip", "unknown" or "written". Will usually be "leaf". -->
-                      <!-- @unit can be "chars", "cm", "in", "lines" or "mm". Will usually be "in". -->
+                    <measure type="composition" unit="leaf" quantity="140">140 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="9.25" unit="in">9 1/4</measure><!-- Change @quantity and the human-readable text as necessary -->
+                        <measure type="height" quantity="8.375" unit="in">8 3/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="5.375" unit="in">5 3/8</measure><!-- Change @quantity and the human-readable text as necessary -->
+                        <measure type="width" quantity="6.25" unit="in">6 1/4</measure>
                       </width>
                     </dimensions>
-                    <!-- Repeat the <dimensions> block as needed to record all types of measurements that Wright supplies
-                      e.g., <dimensions type="written" unit="in">
-                      <height></height>
-                      <width></width>
-                    </dimensions>, etc. -->
                   </extent>
-                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
                   <collation>
-                    <p/><!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.-->
+                    <p>The number of the quires, which are signed with letters, was probably 19 or 20.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any , persons, places, foreign words, etc. as necessary taggging loci is optional --></p>
-                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
+                        <p>Quires <foreign xml:lang="syr">ܐ</foreign>, <foreign xml:lang="syr">ܛ</foreign> and <foreign xml:lang="syr">ܝـ</foreign> are lost; of <foreign xml:lang="syr">ܒ</foreign> there remains only the first leaf.</p>
+                      </item>
+                      <item>
+                        <p>Leaves are also missing after foll. <locus>108</locus>, <locus>128</locus>, <locus>129</locus>, <locus>131</locus>, <locus>133</locus>, and <locus>140</locus>.</p>
+                      </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines=""><!-- @writtenLines should not contain anything but numbers and whitespaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
-                    <locus from="" to=""/><!-- Only use locus if there is more than one layout in the MS, eg if the number of columns changes half of the way through -->
-                    <p><!-- Include Wright's prose here --></p>
-                  </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
+                  <layout columns="1" writtenLines="24 30">
+                    <p>Each page has from 24-30 lines.</p>
+                  </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands=""><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
-                <handNote xml:id="p1handNote1" scope="" script="" medium=""><!-- @xml:id should be sequentially assigned as "p1handNote1", "p1handNote2", and so on. If there is only one <msPart>, then the "p1" need not be included. -->
-                  <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                  <!-- @script please use the ISO code combinations cited here: ___ -->
-                  <!-- @medium may contain any phrasing Wright may mention (using hyphens between words, not white space), or "unknown" if he does not -->
-                  <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
-                </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
+              <handDesc hands="4">
+                <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
+                  <desc>This volume is written in a good, regular hand of the <origDate notBefore="0900" notAfter="1000">ixth cent.</origDate></desc>
+                </handNote>
+                <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition1">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc>Foll. <locus>105—112</locus>,  are paper leaves, written apparently by a hand of the <date notBefore="1000" notAfter="1200">xith or xiith cent.</date></desc>
+                </handNote>
+                <handNote xml:id="handNote4" scope="minor" script="syr-Syrj" medium="unknown">
+                  <desc><ref target="#addition2">See additions.</ref></desc>
+                </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p1decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "p1decoNote1", "p1decoNote2", etc. If there is only one <msPart>, then the "p1" need not be included.-->
-                  <!-- There are many valid entries for @type. See manual for a complete list. -->
-                  <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
-                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
-              </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item><!-- Include in the <quote> any marginalia or colophons to the manuscript.  Add more <item> blocks as necessary. -->
-                  <!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="addition1"><locus from="69a" to="69a"/><ref target="#a3"/>
+                    <p>The lessons are also indicated on the margins, often by later hands,— red, green, and blue (fol. 69a) paint being employed for this purpose, as well as common ink.</p>
+                    <quote/></item>
+                  <item n="2" xml:id="addition2"><ref target="#handNote4"/>
+                    <p>Greek vowels, and the points rukkākh and kushshāi, have been added on two different occasions, one punctuator having employed red, the other black ink (ܰ, ܶ, ܺ, ܳ, ܽ, , , , , , , ). </p>
+                  </item>
+        <!-- Vowels to be added -->          
                 </list>
-              </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
-              <bindingDesc>
-                <binding xml:id="p1binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
-                <decoNote xml:id="p1bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
-                <condition/><!-- Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. -->
-              </bindingDesc><!-- IF <bindingDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <sealDesc>
-                <seal xml:id="p1seal1" contemporary="">
-                  <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-                </seal><!-- <seal> block may be repeated as necessary for each seal. -->
-              </sealDesc><!-- IF <sealDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <accMat><!-- Use this for any mention of closely-related accompanying material (documents, artifacts, letters) which are associated with the <msPart> -->
-                <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-              </accMat><!-- IF <accMat> IS NOT USED, delete nested elements and make it an empty element.-->
+              </additions>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="" notAfter=""><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origPlace><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
+                <origDate notBefore="0900" notAfter="1000">ixth cent.</origDate>
               </origin>
-              <provenance>
-                <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
-              </provenance><!-- IF <provenance> IS NOT USED, delete nested elements and make it an empty element.-->
-              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
             </history>
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
-                  <custEvent type="">
-                    <p/>
-                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
-                </custodialHist><!-- IF <custodialHist> IS NOT USED, delete nested elements and make it an empty element.-->
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart1"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. If there is only one msPart, then this @xml:id and all tags referring to it should simply be: "Wright" -->
+                <bibl xml:id="Wright">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                  <citedRange unit="entry">CXXI</citedRange>
+                  <citedRange unit="pp">I:76-77</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -427,7 +458,6 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target="#Part1"/><!-- This target will be used for each msPart or not used if only one part -->  
             <ref target="#bible-nt"/>       
           </item>
         </list>
@@ -435,19 +465,10 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
+      <change when="2013-10-11" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
-      <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
-    </revisionDesc>
+      </revisionDesc>
   </teiHeader>
   <facsimile>
     <!-- facsimile information about the manuscript -->
@@ -462,4 +483,3 @@
     </body>
   </text>
 </TEI>
-
