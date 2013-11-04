@@ -86,7 +86,7 @@
                 <locus from="1" to="148">Foll. 1-148</locus>
                 <author ref="">Severus of Antioch</author>
                 <title ref="" type="supplied">The sixth book of the select epistles of Severus of Antioch</title>
-                <note>The sixth book of the select epistles of Severus of Antioch, in the same translation as <ptr target="http://syriaca.org/work/80"/>Add. 12,181.</note>
+                <filiation>The sixth book of the select epistles of Severus of Antioch, in the same translation as <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/80</idno><altIdentifier><idno>Add. 12,181</idno></altIdentifier></msIdentifier></bibl>.</filiation>
                 <note>The Index of the eleven <foreign xml:lang="grc">τίτλοι</foreign>, or heads, under which the epistles are arranged, is lost.</note>
                 <msItem n="2" xml:id="b1" defective="true">
                   <locus from="1" to="64b">Foll. 1-64b</locus>
@@ -103,17 +103,17 @@
                 <msItem n="4" xml:id="c2" defective="true">
                   <locus from="1b" to="3a">Foll. 1b-3a</locus>
                   <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Solon, bishop and metropolitan of Seleucia in Isauria.</title>
+                  <title ref="" type="supplied">To <persName ref="">Solon, bishop and metropolitan of <placeName ref="">Seleucia</placeName> in <placeName ref="">Isauria</placeName></persName>.</title>
                 </msItem>
                 <msItem n="5" xml:id="c3">
                   <locus from="3a" to="6a">Foll. 3a-6a</locus>
                   <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the same.</title>
+                  <title ref="" type="supplied">To the same (<persName ref="">Solon, bishop and metropolitan of <placeName ref="">Seleucia</placeName> in <placeName ref="">Isauria</placeName></persName>).</title>
                 </msItem>
                 <msItem n="6" xml:id="c4">
                   <locus from="6a" to="12">Foll. 6a-12a</locus>
                   <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the same.</title>
+                  <title ref="" type="supplied">To the same (<persName ref="">Solon, bishop and metropolitan of <placeName ref="">Seleucia</placeName> in <placeName ref="">Isauria</placeName></persName>).</title>
                 </msItem>
                 <msItem n="7" xml:id="c5">
                   <locus from="12a" to="14">Foll. 12a-14a</locus>
