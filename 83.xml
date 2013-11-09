@@ -9,7 +9,8 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -19,8 +20,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -70,25 +75,25 @@
               <idno type="Wright-BL-Roman">IV</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents class="Biblical Manuscripts: Old Testament">
+          <msContents>
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
             <msItem n="1" xml:id="a1">
-              <locus from="1a" to="95b">foll. 1a-95b</locus>
+              <locus from="1a" to="95b">Foll. 1a-95b</locus>
               <title ref="http://syriaca.org/work/68" type="supplied">Part of the Pentateuch, according to the Peshitta version</title>
               <msItem n="2" xml:id="b1">
-                <locus from="1a" to="28">fol. 1a. to 28</locus>
+                <locus from="1a" to="28">Foll. 1a to 28</locus>
                 <title ref="http://syriaca.org/work/3" type="supplied">Leviticus</title>
                 <finalRubric xml:lang="syr"><locus from="28" to="28"/>. ܕܟܗ̈ܢܐ . ܣܦܪܐ . ܕܬܠܬܐ . ܕܐܘܪܝܬܐ </finalRubric>
               </msItem>
               <msItem n="3" xml:id="b2">
-                <locus from="28b" to="67">fol. 28b. to 67</locus>
+                <locus from="28b" to="67">Foll. 28b to 67</locus>
                 <title ref="http://syriaca.org/work/4" type="supplied">Numbers</title>
                 <rubric xml:lang="syr"><locus from="28b" to="28b"/>ܡܢܝܢܐ . ܣܦܪܐ . ܕܐܪ̈ܒܥܐ . ܕܐܘܪܝܬܐ</rubric>
                 <finalRubric xml:lang="syr"><locus from="67" to="67"/>ܕܐܪܒܥܐ . ܕܐܘܪܝܬܐ.. ܡܢܝܢܐ . ܣܦܪܐ</finalRubric>
               </msItem>
               <msItem n="4" xml:id="b3">
-                <locus from="67b" to="95">fol. 67b. to 95</locus>
+                <locus from="67b" to="95">Foll. 67b to 95</locus>
                 <title ref="http://syriaca.org/work/5" type="supplied">Deuteronomy</title>
                 <rubric xml:lang="syr"><locus from="67b" to="67b"/>ܬܢܝܢܐ . ܕܢܡܘܣܐ . ܣܦܪܐ . ܕܚܡܫܐ . ܕܐܘܪܝܬܐ.</rubric>
               </msItem>
@@ -97,7 +102,7 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
-                <support><material>vellum</material></support>
+                <support><material>Vellum</material></support>
                 <extent> 
                   <measure type="composition" unit="leaf" quantity="95">95 ff.</measure> 
                   <dimensions type="leaf" unit="in">
@@ -105,7 +110,7 @@
                     <width><measure type="width" quantity="10.25" unit="in">10 1/4</measure></width>
                   </dimensions>
                 </extent>
-                <foliation xml:id="ancient"/>
+                <foliation/>
                 <collation>
                   <p>The quires are signed with the Syriac arithmetical figures (see <locus from="10" to="10">foll. 10</locus>, <locus from="20" to="20">20</locus>, etc.).</p>
                 </collation>
@@ -119,10 +124,10 @@
                         foll. <locus from="88" to="89">88, 89</locus>, and <locus from="95" to="95">95</locus>. </p>
                     </item>
                     <item>
-                      <p> The following portions of the text are wanting. At the beginning, besides the books of <title ref="http://syriaca.org/work/1">Genesis</title> and <title ref="http://syriaca.org/work/2">Exodus</title>, 
-                        <title ref="http://syriaca.org/work/3">Levit.</title> 1:1— 3:6; after <locus from="88" to="88">fol. 88</locus>, <title ref="http://syriaca.org/work/5">Deut.</title> 22:19—27:19; 
-                        after <locus from="89" to="89">fol. 89</locus>, <title ref="http://syriaca.org/work/5">Deut.</title> 28:26—29:13; and after <locus from="95" to="95">fol. 95</locus>, 
-                        <title ref="http://syriaca.org/work/5">Deut.</title> 34:9 to the end. </p>
+                      <p> The following portions of the text are wanting. At the beginning, besides the books of Genesis and Exodus, 
+                        <ref target="#b1">Levit.</ref> 1:1— 3:6; after <locus from="88" to="88">fol. 88</locus>, <ref target="#b3">Deut.</ref> 22:19—27:19; 
+                        after <locus from="89" to="89">fol. 89</locus>, <ref target="#b3">Deut.</ref> 28:26—29:13; and after <locus from="95" to="95">fol. 95</locus>, 
+                        <ref target="#b3">Deut.</ref> 34:9 to the end. </p>
                     </item>
                   </list>
                 </condition>
@@ -137,15 +142,14 @@
               <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                 <desc>The character is a large and beautiful Estrangela of the <origDate notBefore="0500" notAfter="0600">6th cent.</origDate></desc>
               </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr-Syrn" medium="unknown">
-                <desc>Vowels  have been added in a few cases by later hands.</desc>
+              <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
+                <desc><ref target="#addition1">See additions</ref>.</desc>
               </handNote>
             </handDesc>
             <decoDesc/>
             <additions>
               <list>
                 <item n="1" xml:id="addition1">
-                  <ref target="#handNote2"/>
                   <p>Vowels have been added in a few cases by later hands.</p>
                 </item>
               </list>
@@ -193,7 +197,55 @@
         </interpretation>
       </editorialDecl>
       <classDecl>
-        <taxonomy> </taxonomy>
+        <taxonomy xml:id="Wright-BL-Taxonomy">
+          <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/></bibl>
+          <category xml:id="biblical-manuscripts">
+            <category xml:id="bible-ot"/>
+            <category xml:id="bible-nt"/>
+            <category xml:id="bible-apocrypha"/>
+            <category xml:id="bible-punctuation"/>
+          </category>
+          <category xml:id="service-books">
+            <category xml:id="psalter"/>
+            <category xml:id="lectionaries"/>
+            <category xml:id="missals"/>
+            <category xml:id="sacerdotals"/>
+            <category xml:id="choral"/>
+            <category xml:id="hymns"/>
+            <category xml:id="prayers"/>
+            <category xml:id="funerals"/>
+          </category>
+          <category xml:id="theology">
+            <category xml:id="theo-single"/>
+            <category xml:id="theo-collected"/>
+            <category xml:id="theo-catenae"/>
+            <category xml:id="theo-anonymous"/>
+            <category xml:id="theo-council"/>
+          </category>
+          <category xml:id="wright-history">
+            <category xml:id="history"/>
+          </category>
+          <category xml:id="lives">
+            <category xml:id="lives-collect"/>
+            <category xml:id="lives-single"/>
+          </category>
+          <category xml:id="scientific-lit">
+            <category xml:id="sci-logic"/>
+            <category xml:id="sci-grammar"/>
+            <category xml:id="sci-ethics"/>
+            <category xml:id="sci-medicine"/>
+            <category xml:id="sci-agriculture"/>
+            <category xml:id="sci-chemistry"/>
+            <category xml:id="sci-natural-history"/>
+          </category>
+          <category xml:id="wright-fly-leaves">
+            <category xml:id="fly-leaves"/>
+          </category>
+          <category xml:id="appendices">
+            <category xml:id="appendix-a"/>
+            <category xml:id="appendix-b"/>
+          </category>
+        </taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -226,7 +278,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-02-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-02-26" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-11-09" who="http://syriaca.org/editors.xml#thannah">Initial edit: Cleaned up internal references, added class declaration</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
