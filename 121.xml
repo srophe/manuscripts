@@ -115,7 +115,7 @@
                   </msItem>
                  <finalRubric xml:lang="syr"> ܫܠܡ [ܠܡܟܬܒ] ܒ[ܟܬܒܐ ܗܢܐ] ܛܛ[ܪܐܘܢܓܠܝܘܢ] ܩܕܝܫܐ [ܡܬܝ] ܡܪܩܘܣ ܠܘ[ܩܐ] ܝܘܚܢܢ ܕܐܟܪܙܘ[ܗܝ] ܘܣܒܪܘܗܝ ܒܟܠ ܐܬܪ ܘܡܕ[ܝܢܐ.]
                    <locus from="197a" to="197a"/></finalRubric>
-                 <note>This is followed by the usual doxology</note> <!-- Is this how we should show that the doxology follows? -->
+                 <finalRubric type="doxology">The usual doxology follows.<locus from="197a" to="197a"/></finalRubric> 
                  <note>Some lessons are rubricated in the text.</note>
                </msItem>
             </msContents>
@@ -330,6 +330,7 @@
       <change when="2013-07-19" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-09-07" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change when="2013-11-08" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
+      <change when="2013-11-12" who="http://syriaca.org/editors.xml#jarnwine">Added new type of finalRubric to incorporate doxology</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
     </revisionDesc>
   </teiHeader>

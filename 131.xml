@@ -98,7 +98,7 @@
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
                      <note>A leaf is wanting, containing ch. xvi. 31—xvii. 21.</note>
                   </msItem>
-                  <colophon><ref target="#addition5 #addition6 #addition7">See additions.</ref></colophon>
+                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܛܛܪܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܡܠܠܘܗܝ ܘܣܒܪܘܗ ܝ ܐܪ̈ܒܥܐ ܐܘ̈ܢܓܠܣܛܐ ܢܨܝ̈ܚܐ ܡܬܝ ܡܪܩܘܣ ܠܘܩܐ ܝܘܚܢܢ.<locus from="157b" to="157b"/></finalRubric>
                   <note>The Ammonian sections and Eusebian canons are marked in the usual way, and there is a harmony of the Gospels at the foot of each page. The lessons are rubricated in the text</note>
                </msItem>
             </msContents>
@@ -142,7 +142,7 @@
               </objectDesc>
               <handDesc hands="5">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                   <desc>The writing is a small, neat Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>. The name of the scribe appears to have been <persName ref="">David</persName>. <ref target="#addition5 #addition6 #addition7">See additions.</ref></desc>
+                   <desc>The writing is a small, neat Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>. The name of the scribe appears to have been <persName ref="">David</persName>. <ref target="#addition6 #addition7">See additions.</ref></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr-Syre" medium="unknown">
                     <desc><ref target="#addition4">See additions.</ref></desc>
@@ -176,11 +176,6 @@
                    <item n="4" xml:id="addition4">
                       <ref target="#handNote2"/>
                       <p>Foll. <locus from="154b" to="154b">154 b</locus> and <locus from="156a" to="156a">156 a</locus> have been retouched at a later date, and one half of <locus from="155" to="155">fol. 155</locus> has been supplied on <material>paper</material> about the end of the <date notBefore="1000" notAfter="1100">11th century</date>.</p>
-                   </item>
-                   <item n="5" xml:id="addition5">
-                      <locus from="157b" to="157b"/>
-                      <ref target="#a1 #handNote1"/>
-                      <quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܛܛܪܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܡܠܠܘܗܝ ܘܣܒܪܘܗ ܝ ܐܪ̈ܒܥܐ ܐܘ̈ܢܓܠܣܛܐ ܢܨܝ̈ܚܐ ܡܬܝ ܡܪܩܘܣ ܠܘܩܐ ܝܘܚܢܢ.</quote>
                    </item>
                    <item n="6" xml:id="addition6">
                       <locus from="157b" to="157b"/>
@@ -327,6 +322,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-22" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-11-12" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
