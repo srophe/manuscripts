@@ -9,11 +9,13 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#emjohnson">Erin Minta Johnson</editor>
+         <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</editor>
+         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
@@ -21,8 +23,12 @@
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
-        </respStmt>
-        <respStmt>
+       </respStmt>
+         <respStmt>
+            <resp>Created by</resp>
+            <name type="person" ref="http://syriaca.org/editors.xml#jarnwine http://syriaca.org/editors.xml#emjohnson">Justin A. Arnwine and Erin Minta Johnson</name>
+         </respStmt>
+         <respStmt>
           <resp>Syriac text entered by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
@@ -278,51 +284,38 @@
                  </altIdentifier>
               </msIdentifier>
               <msContents>
-                 <summary/>
+                 <summary/><!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
                  <textLang mainLang="syr">Syriac</textLang>
-                 <msItem n="1" xml:id="p3a1" defective="">
-                    <locus from="" to=""/>
-                    <author ref=""/>
-                    <title ref=""/>
-                    <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                    <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                    <quote xml:lang="syr"><locus from="" to=""/></quote>
-                    <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                    <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
-                    <note/>
-                    <listBibl>
-                       <bibl/>
-                    </listBibl>
+                 <msItem n="1" xml:id="p3a1" defective="true">
+                    <locus from="4" to="5">foll. 4, 5</locus>
+                    <author ref="http://syriaca.org/person/480">Eusebius of Caesarea</author>
+                    <title ref="" type="supplied">Part of the Epistle of <persName>Eusebius of Caesarea</persName> to <persName>Carpianus</persName></title>
+                    <!-- needs work URI -->
+                    <finalRubric xml:lang="syr"> ܫܠ̣ܡܬ ܐܓܪܬܐ ܕܟܬ̣ܒ ܐܘܣܒܝܣ̣ ܠܩܪܦܝܢܘܣ̣. ܥܠ ܦܘܫܩܐ
+                       ܕܩ̈ܢܘܢܐ.                   
+                       <locus from="4" to="5"/>
+                    </finalRubric>
                  </msItem>
-                 <msItem n="2" xml:id="p3a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                    <locus from="" to=""/>
-                    <author ref=""/>
-                    <title ref=""/>
-                    <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                    <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                    <quote xml:lang="syr"><locus from="" to=""/></quote>
-                    <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                    <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
-                    <note/>
-                    <listBibl>
-                       <bibl/>
-                    </listBibl>
+                 <msItem n="2" xml:id="p3a2" defective="true">
+                    <locus from="4" to="5">foll. 4, 5</locus>
+                    <author ref="http://syriaca.org/person/480">Eusebius of Caesarea</author>
+                    <title ref="http://syriaca.org/work/180" type="supplied">Fragments of the Eusebian Canons</title>
                  </msItem>
               </msContents>
               <physDesc>
-                 <objectDesc form="">
-                    <supportDesc material="">
-                       <support><material/></support>
+                 <objectDesc form="leaf">
+                    <supportDesc material="perg">
+                       <support>
+                          <material>Vellum</material>
+                       </support>
                        <extent>
                           <measure type="composition" unit="leaf" quantity="2">2 ff.</measure>
-                          <dimensions type="" unit="in">
+                          <dimensions type="unknown" unit="in">
                              <height>
-                                <measure type="height" quantity="" unit="in"/>
+                                <measure type="height" quantity="" unit="in"></measure>
                              </height>
                              <width>
-                                <measure type="width" quantity="" unit="in"/>
+                                <measure type="width" quantity="" unit="in"></measure>
                              </width>
                           </dimensions>
                        </extent>
@@ -331,34 +324,25 @@
                        <condition>
                           <list>
                              <item>
-                                <p/>
+                                <p>They are both much mutilated.</p>
                              </item>
                           </list>
                        </condition>
                     </supportDesc>
                     <layoutDesc>
-                       <layout columns="" writtenLines="">
+                       <layout columns="1" writtenLines="1">
                           <locus from="" to=""/>
-                          <p/>
+                          <p>The writing is a line.</p>
                        </layout>
                     </layoutDesc>
                  </objectDesc>
-                 <handDesc hands="">
-                    <handNote xml:id="p3handNote1" scope="" script="" medium="">
-                       <desc></desc>
+                 <handDesc hands="1">
+                    <handNote xml:id="p3handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                       <desc>The writing is a fine regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
                     </handNote>
                  </handDesc>
                  <decoDesc/>
-                 <additions>
-                    <p/>
-                    <list>
-                       <item n="" xml:id="">
-                          <locus from="" to=""/>
-                          <ref target=""/>
-                          <quote/>
-                       </item>
-                    </list>
-                 </additions>
+                 <additions/>
                  <bindingDesc/>
                  <sealDesc/>
                  <accMat/>
@@ -366,7 +350,7 @@
               <history>
                  <summary/>
                  <origin>
-                    <origDate notBefore="" notAfter=""/>
+                    <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
                     <origPlace></origPlace>
                  </origin>
                  <provenance/>
