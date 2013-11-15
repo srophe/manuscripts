@@ -107,33 +107,110 @@
                 <title ref="" type="supplied">The Letter of a Disciple to the Author</title>
                 <note>The title of this letter, which is ascribed in the Armenian version to Gregory the Illuminator, has been torn away. <ref target="#addition1">See additions</ref></note>
               </msItem>
-                <msItem n="3" xml:id="b2" defective="true"><!-- Note how the @xml:id changes here to indicate a nested msItem within item number 2. @n shows <msItem> #3. @xml:id shows the first b-level <msItem>. Note also that <msItem n="2"...> has not closed yet.-->
+                <msItem n="3" xml:id="b2" defective="true">
                   <locus from="1b" to="154b">Foll. 1b-154b</locus>
-                  <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-                  <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                  <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </rubric>
-                  <incipit xml:lang="syr"><!-- If the opening lines of the text proper of the msItem are given put it here, Wright may call this "it begins" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </incipit>
-                  <quote xml:lang="syr"><!-- If Wright gives any other quote from the original that does not fit into one of the above or below categories, put it here (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </quote>
-                  <explicit xml:lang="syr"><!-- If the closing lines of the text proper of the msItem are given put it here. Wright appears not to give many explicits. (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </explicit>
-                  <finalRubric xml:lang="syr"><!-- Put here any additional prose original to the manuscript that denotes the end or division of this msItem from the next, Wright may call this a "subscription" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                  <author ref="http://syriaca.org/person/10">Aphrahat</author>
+                  <title ref="" type="supplied">The Alphabetical Discourses</title>
+                  <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܥܣܪ̈ܝܢ ܘܬܪ̈ܬܝܢ ܕܚܟܝܡܐ ܦܪܣܝܐ.
+                    <locus from="154b" to="154b"/>
                   </finalRubric>
-                  <colophon>
-                    <ref target="">See below.<!-- The colophon is distinguished from the final rubric in that it is not necessarily about the end of the text. It may be a note about the original scribe or patron. The text of the colophon is NOT included here but below as an addition, the ref target provides the link -->
-                    </ref>
-                  </colophon>
-                  <note><!-- Any additional notation supplied by Wright (otherwise this element may be deleted) --></note>
-                  <listBibl>
-                    <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
-                  </listBibl>
+                  <msItem n="4" xml:id="c1" defective="true">
+                    <locus from="1b" to="7">Foll. 1b-7</locus>
+                    <title ref="" type="main">Discourse of Faith</title>
+                    <title type="sub">Arm. serm. i.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ
+                      <locus from="1b" to="1b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="5" xml:id="c2" defective="unknown">
+                    <locus from="7b" to="15">Foll. 7b-15</locus>
+                    <title ref="" type="main">Discourse of Love</title>
+                    <title type="sub">Arm. serm. ii.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܚܘܒܐ
+                      <locus from="7b" to="7b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="6" xml:id="c3" defective="unknown">
+                    <locus from="15a" to="20">Foll. 15a-20</locus>
+                    <title ref="" type="main">Discourse of Fasting</title>
+                    <title type="sub">Arm. serm. iii.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܨܘܡܐ
+                      <locus from="15a" to="15a"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="7" xml:id="c4" defective="true">
+                    <locus from="20b" to="26">Foll. 20b-26</locus>
+                    <title ref="" type="main">Discourse of Prayer</title>
+                    <title type="sub">Arm. serm. iv.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܨܠܘܬܐ
+                      <locus from="20b" to="20b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="8" xml:id="c5" defective="unknown">
+                    <locus from="26b" to="35">Foll. 26b-35</locus>
+                    <title ref="" type="main">Discourse of Wars</title>
+                    <title type="sub">Arm. serm. v.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܩܪ̈ܒܐ
+                      <locus from="26b" to="26b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="9" xml:id="c6" defective="true">
+                    <locus from="35a" to="46">Foll. 35a-46</locus>
+                    <title ref="" type="main">Discourse of the Relgious, or of Monks</title>
+                    <title type="sub">Arm. serm. vi.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܒ̈ܢܝ ܩܝܡܐ
+                      <locus from="35a" to="35a"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="10" xml:id="c7" defective="unknown">
+                    <locus from="46b" to="53">Foll. 46b-53</locus>
+                    <title ref="" type="main">Discourse of Repentance</title>
+                    <title type="sub">Arm. serm. vii.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܬܝܒܘܬܐ
+                      <locus from="46b" to="46b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="11" xml:id="c8" defective="unknown">
+                    <locus from="53b" to="61">Foll. 53b-61</locus>
+                    <title ref="" type="main">Discourse of Resurrection of the Dead</title>
+                    <title type="sub">Arm. serm. viii.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܚܝܬ ܡ̈ܝܬܐ
+                      <locus from="53b" to="53b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="12" xml:id="c9" defective="unknown">
+                    <locus from="61a" to="66">Foll. 61a-66</locus>
+                    <title ref="" type="main">Discourse of Humility</title>
+                    <title type="sub">Arm. serm. ix.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܡܟܝܟܘܬܐ
+                      <locus from="61a" to="61a"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="13" xml:id="c10" defective="unknown">
+                    <locus from="66b" to="70">Foll. 66b-70</locus>
+                    <title ref="" type="main">Discourse of Shepherds or Pastors</title>
+                    <title type="sub">Arm. serm. x.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܪ̈ܥܘܬܐ
+                      <locus from="66b" to="66b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="14" xml:id="c11" defective="unknown">
+                    <locus from="70b" to="76">Foll. 70b-76</locus>
+                    <title ref="" type="main">Discourse of the Circumcision</title>
+                    <title type="sub">Arm. serm. xi.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܓܙܘܪܬܐ
+                      <locus from="70b" to="70b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="15" xml:id="c12" defective="unknown">
+                    <locus from="76b" to="82">Foll. 76b-82</locus>
+                    <title ref="" type="main">Discourse of the Passover</title>
+                    <title type="sub">Arm. serm. xiv.</title>
+                      <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܦܨܚܐ
+                      <locus from="76b" to="76b"/>
+                    </rubric>
+                  </msItem>
+                  
                 </msItem>
 <!-- <msItem n="2" xml:id="a2"> closes here after its subordinated item(s). -->
               </msItem>
