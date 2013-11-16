@@ -3513,6 +3513,9 @@ tei_decoNote =
       | 
         ##
         "mixed"
+        |
+        ##
+        "ornament"
       | 
         ##
         "paratext"

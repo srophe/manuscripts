@@ -9,9 +9,9 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -19,8 +19,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -85,35 +89,38 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
-                <locus from="1-24b">foll. 1-24b</locus>
-                <author key=""/> 
+                <locus from="1" to="24b">Foll. 1-24b</locus>
                 <title type="supplied" ref="http://syriaca.org/work/1">Fragments of the book of Genesis, according to the Peshitta version</title>
-                <rubric xml:lang="syr">[ܒܪܝܬܐ ܣ̣ܦܪܐ ܩܕܡܝܐ [ܕܐܘܪܝܬܐ</rubric>
+                <rubric xml:lang="syr">[ܒܪܝܬܐ ܣ̣ܦܪܐ ܩܕܡܝܐ [ܕܐܘܪܝܬܐ<locus from="1" to="1"/></rubric>
                 <note> Contains 1:1-2:9; 3:15-6:3; 19:38-21:29; and 23:3-29:10</note>
+                <note>Some of the lessons are rubricated in the text.</note>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="perg">
-                  <support><material>vellum</material></support>
+                  <support><material>Vellum</material></support>
                   <extent> 
                     <measure type="composition" unit="leaf" quantity="24">24 ff.</measure> 
                     <dimensions type="leaf" unit="in">
-                      <height><measure type="height" quantity="9" unit="in">9 in.</measure></height>
-                      <width><measure type="width" quantity="6" unit="in">6 in.</measure></width>
+                      <height><measure type="height" quantity="9" unit="in">9</measure></height>
+                      <width><measure type="width" quantity="6" unit="in">6</measure></width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"/>
+                  <foliation/>
                   <collation>
-                    <p>The quires are signed with letters, but only <foreign xml:lang="syr">ܗ</foreign> is complete.</p>
+                    <p>The quires are signed with letters.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p> Some leaves are very stained and torn, especially <locus from="1" to="2">foll. 1, 2</locus>, <locus from="5" to="7">5—7</locus>, <locus from="14" to="15">14 and 15</locus>. </p>
+                        <p>Only quire <foreign xml:lang="syr">ܗ</foreign> is complete.</p>
                       </item>
                       <item>
-                        <p> Leaves are wanting after foll. <locus from="3">3</locus>, <locus from="7">7</locus>, <locus from="10">10</locus> and <locus from="24">24</locus>.</p>
+                        <p>Some leaves are very stained and torn, especially <locus from="1" to="2">foll. 1, 2</locus>, <locus from="5" to="7">5—7</locus>, <locus from="14" to="15">14 and 15</locus>. </p>
+                      </item>
+                      <item>
+                        <p>Leaves are wanting after foll. <locus from="3" to="3">3</locus>, <locus from="7" to="7">7</locus>, <locus from="10" to="10">10</locus> and <locus from="24" to="24">24</locus>.</p>
                       </item>
                     </list>
                   </condition>
@@ -126,17 +133,17 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript is written in a good, regular Estrangela.</desc>
+                  <desc>This manuscript is written in a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>.</desc>
                 </handNote>
-                <handNote xml:id="p1handNote2" scope="minor" script="unknown" medium="unknown">
-                  <desc><ref target="#p1addition1">See below.</ref></desc>
+                <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#p1addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="p1addition1"><ref target="#p1a1 #p1handNote2"/>
-                    <p>Of the lessons, some are rubricated in the text, whilst others have beenadded on the margin by a much later hand</p>
+                  <item n="1" xml:id="p1addition1">
+                    <p>Some of the lessons have beenadded on the margin by a much later hand.</p>
                   </item>
                 </list>
               </additions>
@@ -147,7 +154,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="0500" notAfter="0700">6th-7th century</origDate>
+                <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -191,34 +198,32 @@
                 <idno type="Wright-BL-Roman">X</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents class="Biblical Manuscripts: Old Testament">
+            <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1">
-                <locus from="25" to="25">fol. 25</locus>
-                <author key=""/> 
-                <title>Index to the lessons in the books of <title type="supplied" ref="http://syriaca.org/work/3">Leviticus</title> and <title type="supplied" ref="http://syriaca.org/work/18">Job</title></title>
+                <locus from="25" to="25">Fol. 25</locus>
+                <title type="supplied" ref="">Index to the lessons in the books of <title type="supplied" ref="http://syriaca.org/work/3">Leviticus</title> and <title type="supplied" ref="http://syriaca.org/work/18">Job</title></title>
               </msItem>
               <msItem n="2" xml:id="p2a2" defective="true">
-                <locus from="25" to="38">foll. 25-38</locus>
-                <author key=""/> 
+                <locus from="26" to="38">foll. 26-38</locus>
                 <title type="supplied" ref="http://syriaca.org/work/3">Fragments of the book of Leviticus, according to the Peshitta version</title>
-                <rubric xml:lang="syr">ܣ̣ܦܪܐ ܕܟܗ̈ܢܐ</rubric>
+                <rubric xml:lang="syr">ܣ̣ܦܪܐ ܕܟܗ̈ܢܐ<locus from="26" to="26"/></rubric>
                 <note> viz. ch. 6:28—7:24, 8:14— 10:18, 13:42—14:47, 15:15—16: 2, 17:7 —19:8, 20:18—21:14, 23:4-24, and 26:41—27:14.</note>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="perg">
-                  <support><material>vellum</material></support>
+                  <support><material>Vellum</material></support>
                   <extent> 
                     <measure type="composition" unit="leaf" quantity="14">14 ff.</measure> 
                     <dimensions type="leaf" unit="in">
-                      <height><measure type="height" quantity="9.125" unit="in">9 1/8 in.</measure></height>
-                      <width><measure type="width" quantity="6" unit="in">6 in.</measure></width>
+                      <height><measure type="height" quantity="9.125" unit="in">9 1/8</measure></height>
+                      <width><measure type="width" quantity="6" unit="in">6</measure></width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"/>
+                  <foliation/>
                   <collation>
                     <p>The quires are signed with letters (e.g. fol. <locus from="27" to="27">27</locus>, <foreign xml:lang="syr">ܒ</foreign>)</p>
                   </collation>
@@ -241,17 +246,17 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th cent.</origDate>.</desc>
+                  <desc>The writing is a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th cent.</origDate></desc>
                 </handNote>
-                <handNote xml:id="p2handNote2" scope="minor" script="unknown" medium="unknown">
-                  <desc><ref target="#p2addition1">See additions</ref></desc>
+                <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc>Responsible for the <ref target="#p2a1">index of lessons</ref>. Also <ref target="#p2addition1">see additions.</ref></desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
               <additions>
                 <list>
                   <item n="1" xml:id="p2addition1">
-                    <p><ref target="#p2a2 #p2handNote2"/> The lessons appear to have been marked on the margins (e.g. foll. <locus from="33b" to="33b">33b</locus>)</p>
+                    <p>The lessons appear to have been marked on the margins (e.g. foll. <locus from="33b" to="33b">33b</locus>) by a later hand.</p>
                   </item>
                 </list>              
               </additions>
@@ -303,7 +308,55 @@
         </interpretation>
       </editorialDecl>
       <classDecl>
-        <taxonomy> </taxonomy>
+        <taxonomy xml:id="Wright-BL-Taxonomy">
+          <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/></bibl>
+          <category xml:id="biblical-manuscripts">
+            <category xml:id="bible-ot"/>
+            <category xml:id="bible-nt"/>
+            <category xml:id="bible-apocrypha"/>
+            <category xml:id="bible-punctuation"/>
+          </category>
+          <category xml:id="service-books">
+            <category xml:id="psalter"/>
+            <category xml:id="lectionaries"/>
+            <category xml:id="missals"/>
+            <category xml:id="sacerdotals"/>
+            <category xml:id="choral"/>
+            <category xml:id="hymns"/>
+            <category xml:id="prayers"/>
+            <category xml:id="funerals"/>
+          </category>
+          <category xml:id="theology">
+            <category xml:id="theo-single"/>
+            <category xml:id="theo-collected"/>
+            <category xml:id="theo-catenae"/>
+            <category xml:id="theo-anonymous"/>
+            <category xml:id="theo-council"/>
+          </category>
+          <category xml:id="wright-history">
+            <category xml:id="history"/>
+          </category>
+          <category xml:id="lives">
+            <category xml:id="lives-collect"/>
+            <category xml:id="lives-single"/>
+          </category>
+          <category xml:id="scientific-lit">
+            <category xml:id="sci-logic"/>
+            <category xml:id="sci-grammar"/>
+            <category xml:id="sci-ethics"/>
+            <category xml:id="sci-medicine"/>
+            <category xml:id="sci-agriculture"/>
+            <category xml:id="sci-chemistry"/>
+            <category xml:id="sci-natural-history"/>
+          </category>
+          <category xml:id="wright-fly-leaves">
+            <category xml:id="fly-leaves"/>
+          </category>
+          <category xml:id="appendices">
+            <category xml:id="appendix-a"/>
+            <category xml:id="appendix-b"/>
+          </category>
+        </taxonomy>
       </classDecl>
     </encodingDesc>
     <profileDesc>
@@ -341,7 +394,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-02-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-02-26" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-11-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: re-entered additions, cleaned up manuscript item listings.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
