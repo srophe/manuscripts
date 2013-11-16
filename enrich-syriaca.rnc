@@ -3631,7 +3631,11 @@ tei_decoNote =
         "mixed"
         |
         ##
+<<<<<<< HEAD
         "ornamentation"
+=======
+        "ornament"
+>>>>>>> origin/Tucker's-Editing
       | 
         ##
         "paratext"

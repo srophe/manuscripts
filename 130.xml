@@ -9,9 +9,9 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -19,8 +19,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,8 +85,8 @@
                   <locus from="1a" to="1a">Fol. 1a</locus>
                   <title ref="" type="supplied">Index to the lessons</title>
                   <rubric xml:lang="syr"><locus from="1a" to="1a"/>ܦܘܪܫ ܩܪ̈ܝܢܐ</rubric>
-                  <note>One reader has pre¬fixed to the volume an index. It is drawn up in the ordinary form, <foreign xml:lang="syr">ܟـ</foreign> standing for <foreign xml:lang="syr">ܟܘܪܣܐ</foreign>, quire, and <foreign xml:lang="syr">ܦ</foreign> for <foreign xml:lang="syr">ܦܬܚܐ</foreign>, opening or interstice; e.g.</note>
-                  <quote xml:lang="syr"><locus from="1a" to="1a"/>
+                 <note>One reader has prefixed to the volume an index. It is drawn up in the ordinary form, <choice><abbr><foreign xml:lang="syr">ܟـ</foreign> standing for </abbr><expan><foreign xml:lang="syr">ܟܘܪܣܐ</foreign></expan></choice>, quire, and <choice><abbr><foreign xml:lang="syr">ܦ</foreign> for </abbr><expan><foreign xml:lang="syr">ܦܬܚܐ</foreign></expan></choice>, opening or interstice; e.g.</note>
+                  <note><quote xml:lang="syr"><locus from="1a" to="1a"/>
                      <table>
                         <row>
                            <cell>܀ܩ܀ ܕܚܕܒܫܒܐ: ܟܚ : ܟـ : ܕ : ܦ : ܛ :</cell>
@@ -97,7 +101,7 @@
                            <cell>܀ܩ܀ ܕܚܕܒܫܒܐ : ܠܐ : ܟـ : ܘ : ܦ : ܗ : ܘ܏ܫ. </cell>
                         </row>
                      </table>
-                  </quote>
+                  </quote></note>
                </msItem>
                <msItem n="2" xml:id="a2">
                   <locus from="2b" to="200b">Foll. 2b-200b</locus>
@@ -114,15 +118,16 @@
                   <msItem n="5" xml:id="b3">
                      <locus from="94a" to="154b">Foll. 94a-154b</locus>
                      <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
-                     <finalRubric xml:lang="syr"><locus from="154b" to="154b"/>ܫܠܡ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ. ܟܪܘܙܘܬܐ ܕܠܘܩܐ.ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܘܣ(sic)</finalRubric>
-                     <note>The letters  <foreign xml:lang="syr">ܦܣܘܣ</foreign> have, however, been partially erased.</note>
+                     <finalRubric xml:lang="syr"><locus from="154b" to="154b"/><sic>ܫܠܡ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ. ܟܪܘܙܘܬܐ ܕܠܘܩܐ.ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܘܣ</sic></finalRubric>
+                     <note>The letters  <quote xml:lang="syr">ܦܣܘܣ</quote> have, however, been partially erased.</note>
                   </msItem>
                   <msItem n="6" xml:id="b4">
                      <locus from="154b" to="200b">Foll. 154b-200b</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
                      <colophon><ref target="#addition4">See additions.</ref></colophon>
                   </msItem>
-                  <note>The Ammonian sections and Eusebian canons are marked in the text, and there is a harmony at the foot of each page. The lessons are rubricated in the text in the usual way.</note>
+                  <note>The Ammonian sections and Eusebian canons are marked in the text, and there is a harmony at the foot of each page.</note>
+                 <note>The lessons are rubricated in the text in the usual way.</note>
                </msItem>
             </msContents>
             <physDesc>
@@ -135,10 +140,10 @@
                     <measure type="composition" unit="leaf" quantity="200">200 ff.</measure>
                     <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="9.5" unit="in">9 1/2 in.</measure>
+                        <measure type="height" quantity="9.5" unit="in">9 1/2</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="6.125" unit="in">6 1/8 in.</measure>
+                        <measure type="width" quantity="6.125" unit="in">6 1/8</measure>
                       </width>
                     </dimensions>
                   </extent>
@@ -171,7 +176,7 @@
                     <desc><ref target="#a1">See above.</ref></desc>
                  </handNote>
                  <handNote xml:id="handNote4" scope="minor" script="mixed" medium="unknown">
-                    <desc>A later hand has renumbered the quires with letters, and placed Coptic ciphers. <ref target="#addition1">See additions.</ref></desc>
+                    <desc><ref target="#addition1">See additions.</ref></desc>
                  </handNote>
                  <handNote xml:id="handNote5" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition2">See additions.</ref></desc>
@@ -184,24 +189,20 @@
               <additions>
                 <list>
                   <item n="1" xml:id="addition1">
-                     <ref target="#handNote4"/>
                      <p>A later hand has renumbered the quires with letters, and placed Coptic ciphers at the top of the first and last leaves of each quire.</p>
                   </item>
                    <item n="2" xml:id="addition2">
-                      <ref target="#handNote5"/>
                       <p>Later hands have noted many lessons on the margins.</p>
                    </item>
                    <item n="3" xml:id="addition3">
                       <locus from="94a" to="94a"/>
-                      <ref target="#handNote6 #b3"/>
                       <p>There is a note, at the foot of fol. 94 a, which has been purposely effaced, and is consequently barely legible. It begins:</p>
                       <p><quote xml:lang="syr">ܐܝܬ܏ܘ ܐܘܢܓܠܝܘܢ ܗܢܐ ܕܪܒܢ ܓܒܪܐܝܠ ܩܫܝܫܐ ܕܡܢ ܐܬܪܐ ܕܡܘܨܠ ܕܫܟܢܗ (؟) ܠܗ ܪܒܢ ܠܥܙܪ(؟) ܕܡܢ ܐܬܪܐ ܕܛܘܪ ܥܒܕܝܢ ܏ܘܫ.</quote></p>
                       <p>"This Gospel belongs to <persName ref="">Rabban Gabriel</persName>, a priest, from the region of <placeName ref="">Mosul</placeName>, having been presented (?) To him by <persName ref="">Rabban Lazarus</persName> (?), from the district of <placeName ref="">Tūr-'Abdīn</placeName>," etc.</p>
                    </item>
                    <item n="4" xml:id="addition4">
                       <locus from="200b" to="200b"/>
-                      <ref target="#handNote2 #b4"/>
-                      <p>On fol. 200 b, at the end of the Gospel of S. John, there is a note, unfortunately mutilated, stating that the last two leaves were written by one <persName ref="">Gabriel of Edessa</persName>: </p>
+                      <p>On fol. 200 b, at the end of <ref target="#b4">the Gospel of S. John</ref>, there is a note, unfortunately mutilated, stating that the last two leaves were written by one <persName ref="">Gabriel of Edessa</persName>: </p>
                       <p><quote xml:lang="syr">ܨܠܘ ܥܠ ܚܛܝܐ . . . ܓܒܪܝܠ ܒܪ ܡـ . . . ܐ ܩܝܢܝܐ ܡܢ ܐܘܪܗܝ ܡـ[ܕܝܢܬܐ ܪܚܡܬ] ܠܡܫܝܚܐ ܕܢܚܣܐ ܠܗ ܡܪܝܐ ܘ . . . ܘܝܐ ܘܠܟܬܘܒܐ ܘ܏ܫ.</quote></p>
                    </item>
                 </list>
@@ -338,7 +339,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-19" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-19" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-11-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: updated manuscript items, additions, and hand notes</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
