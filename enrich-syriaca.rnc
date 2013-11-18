@@ -2604,13 +2604,12 @@ tei_change =
     ## Table to be revised.
     "table"
     |
-<<<<<<< HEAD
     ## Needs addition of work URIs
     "uri"
     |
     ## One or more msParts need to be encoded into an historical reconstruction of a no longer extant manuscript.
     "reconstruction"
-=======
+    |
     ## Work URIs needed
     "uri"
     |
@@ -2619,7 +2618,6 @@ tei_change =
     |
     ## Consultation of the manuscript needed to clarify manuscript contents
     "consult-ms"
->>>>>>> origin/Edit-session-8-14
     }?,
     
     ## supplies the date of the change in standard form, i.e. YYYY-MM-DD.
@@ -3347,12 +3345,9 @@ tei_finalRubric =
     att.global.attributes,
     att.typed.attributes,
     att.canonical.attributes,
-<<<<<<< HEAD
     (tei_fw*),
     (tei_p*),
     tei_locus,
-=======
->>>>>>> origin/Edit-session-8-14
     empty
   }
 tei_incipit =
@@ -3650,11 +3645,7 @@ tei_decoNote =
         "mixed"
         |
         ##
-<<<<<<< HEAD
         "ornamentation"
-=======
-        "ornament"
->>>>>>> origin/Tucker's-Editing
       | 
         ##
         "paratext"
