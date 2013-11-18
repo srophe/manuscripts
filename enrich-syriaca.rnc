@@ -2604,11 +2604,22 @@ tei_change =
     ## Table to be revised.
     "table"
     |
+<<<<<<< HEAD
     ## Needs addition of work URIs
     "uri"
     |
     ## One or more msParts need to be encoded into an historical reconstruction of a no longer extant manuscript.
     "reconstruction"
+=======
+    ## Work URIs needed
+    "uri"
+    |
+    ## Consultation of the manuscript needed to clarify physical description
+    "consult-phys"
+    |
+    ## Consultation of the manuscript needed to clarify manuscript contents
+    "consult-ms"
+>>>>>>> origin/Edit-session-8-14
     }?,
     
     ## supplies the date of the change in standard form, i.e. YYYY-MM-DD.
@@ -3308,8 +3319,9 @@ tei_explicit =
   ## exclusive of any rubric or colophon which might follow it.
   ##   
   element explicit {
-    tei_macro.phraseSeq,
-    (tei_fw*),
+    (tei_macro.phraseSeq|
+    tei_quote|
+    tei_fw)*,
     att.global.attributes,
     att.typed.attributes,
     att.msExcerpt.attributes,
@@ -3329,21 +3341,27 @@ tei_finalRubric =
   
   ## contains the string of words that denotes the end of a text division, often with an assertion as to its author and title, usually set off from the text itself by red ink, by a different size or type of script, or by some other such visual device.
   element finalRubric {
-    tei_macro.phraseSeq,
+    (tei_macro.phraseSeq|
+    tei_quote|
+    tei_fw)*,
     att.global.attributes,
     att.typed.attributes,
     att.canonical.attributes,
+<<<<<<< HEAD
     (tei_fw*),
     (tei_p*),
     tei_locus,
+=======
+>>>>>>> origin/Edit-session-8-14
     empty
   }
 tei_incipit =
   
   ## contains the incipit of a manuscript item, that is the opening words of the text proper, exclusive of any rubric which might precede it, of sufficient length to identify the work uniquely; such incipts were, in fomer times, frequently used a means of reference to a work, in place of a title.
   element incipit {
-    tei_macro.phraseSeq,
-    (tei_fw*),
+    (tei_macro.phraseSeq|
+    tei_quote|
+    tei_fw)*,
     att.global.attributes,
     att.typed.attributes,
     att.msExcerpt.attributes,
@@ -3401,11 +3419,12 @@ tei_rubric =
   ## contains the text of any rubric or heading attached to a particular manuscript item, that is, a string of words through which a
   ## manuscript signals the beginning of a text division, often with an assertion as to its author and title, which is in some way set off from the text itself, usually in red ink, or by use of different size or type of script, or some other such visual device.
   element rubric {
-    tei_macro.phraseSeq,
+    (tei_macro.phraseSeq|
+    tei_quote|
+    tei_fw)*,
     att.global.attributes,
     att.typed.attributes,
     att.canonical.attributes,
-    (tei_fw*),
     empty
   }
 tei_summary =
@@ -5177,6 +5196,7 @@ tei_g =
   
   ## (character or glyph) represents a non-standard character or glyph.
   element g {
+    (tei_g | text)*,
     text,
     att.global.attributes,
     att.typed.attributes,

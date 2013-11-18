@@ -79,12 +79,12 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
                 <title ref="http://syriaca.org/work/20" type="supplied">The Proverbs of Solomon, according to the Peshitta version</title>
-                <fw type="header"><rubric xml:lang="syr">ܚܟܡܬܐ</rubric></fw>
+                <rubric xml:lang="syr"><fw type="header">ܚܟܡܬܐ</fw></rubric>
                 <finalRubric xml:lang="syr">ܫܠܡܬ. ܚܟܡܬܐ. ܕܫܠܝܡܘܢ̇ ܒܪ  ܕܘܝܕ
                   <locus from="39a" to="39a"/>
                 </finalRubric>
-                <note>The missing portions are: ch. i. 1—v. 9 and ch. xii. 13—xiii. 4. Of the lessons, some are rubricated in the text, whilst others have been noted on the margins by a later hand.
-                </note>
+                <note>The missing portions are: ch. i. 1—v. 9 and ch. xii. 13—xiii. 4.</note>
+                <note>Of the lessons, some are rubricated in the text, whilst others have been noted on the margins by a later hand.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -128,9 +128,16 @@
                   <desc>The writing is a fine, clear Estrangela of the <origDate from="0500" to="0600">vith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>Of the lessons, some are rubricated in the text, whilst others have been noted on the margins by a later hand.</desc>
+                  <desc><ref target="#addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
+              <additions>
+                <list>
+                  <item n="1" xml:id="addition1">
+                    <p>Of the lessons, some are rubricated in the text, whilst others have been noted on the margins by a later hand.</p>
+                  </item>
+                </list>
+              </additions>
             </physDesc>
             <history>
               <origin>
@@ -254,7 +261,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-10" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-07-10" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-08-29" who="http://syriaca.org/editors.xml#thannah">Initial edits: rearranged mark-up for running title, added addition mark-up.</change>
       </revisionDesc>
   </teiHeader>
   <facsimile>
