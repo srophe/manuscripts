@@ -161,9 +161,6 @@
                     <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܒ̈ܢܝ ܩܝܡܐ
                       <locus from="35a" to="35a"/>
                     </rubric>
-                  </msItem>
-                  <msItem n="10" xml:id="c7" defective="unknown">
-                    <locus from="46b" to="53">Foll. 46b-53</locus>
                     <title ref="" type="main">Discourse of Repentance</title>
                     <title type="sub">Arm. serm. vii.</title>
                     <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܬܝܒܘܬܐ
@@ -208,6 +205,90 @@
                     <title type="sub">Arm. serm. xiv.</title>
                       <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܦܨܚܐ
                       <locus from="76b" to="76b"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="16" xml:id="c13" defective="unknown">
+                    <locus from="82a" to="87">Foll. 82a-87</locus>
+                    <title ref="" type="main">Discourse of the Sabbath</title>
+                    <title type="sub">Arm. serm. xii.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܫܒܬܐ
+                      <locus from="82a" to="82a"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="17" xml:id="c14" defective="unknown">
+                    <locus from="87a" to="109">Foll. 87a-109</locus>
+                    <title ref="" type="main">Discourse of the Deprecation of Dissensions</title>
+                    <title type="sub">Arm., sermonicus, ed. Rom., p. 403.</title>
+                    <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܫܒܬܐ
+                      <locus from="87a" to="87a"/>
+                    <origDate notbefore="344" notafter="344" calendar="gregorian">This discourse is dated, fol. 109 a, A. Gr. 655, A.D. 344.
+                      <rubric xml:lang="syr"> ܟܬܝܒܐ ܐܓܪܬܐ ܗܕܐ ܒܐܝܪܚ ܫܒܛ ܕܫܢܬ ܫܬܡܐܐ ܘܚܡܫܝܢ ܘܚܡܫ. ܕܡܠܘܬܗ ܕܐܠܟܣܢܕܪܘܣ ܒܪ ܦܝܠܝܦܘܣ ܡܩܕܘܢܝܐ. ܘܒܫܢܬ ܬܠܬܝܢ ܘܚܡܫ ܕܫܒܘܪ ܡܠܟܐ ܦܪܣܝܐ. 
+                        <locus from="109a" to="109a"></locus>
+                      </rubric>
+                    </origDate>
+                      <msItem n="18" xml:id="c15" defective="unknown">
+                        <locus from="109b" to="114">Foll. 109b-114</locus>
+                        <title ref="" type="main">Discourse of the Distinctionof Meats</title>
+                        <title type="sub">Arm. serm. xiii.</title>
+                        <rubric xml:lang="syr">ܬܘܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ   
+                          <locus from="109b" to="109b"/>
+                        </rubric>
+                      </msItem>  
+                      <msItem n="19" xml:id="c16" defective="unknown">
+                        <locus from="114b" to="118">Foll. 114b-118</locus>
+                        <title ref="" type="main">Discourse of the Substitution of the Gentiles for the one People</title>
+                        <title type="sub">Arm. serm. xv.</title>
+                        <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܥܠ ܥܡ̈ܡܐ ܕܗܘܘ ܚܠܦ ܥܡܐ  
+                          <locus from="114b" to="114b"/>
+                        </rubric>
+                      </msItem>
+                      <msItem n="20" xml:id="c17" defective="unknown">
+                        <locus from="118b" to="123">Foll. 118b-123</locus>
+                        <title ref="" type="main">Discourse that the Messiah is the Son of God</title>
+                        <title type="sub">Arm. serm. xvi.</title>
+                        <rubric xml:lang="syr">ܥܠ ܡܫܝܚܐ ܕܢܚܘܐ ܕܒܪܗ ܗܘ ܕܐܠܗܐ
+                          <locus from="118b" to="118b"/>
+                        </rubric>
+                      </msItem>
+                      <msItem n="21" xml:id="c18" defective="unknown">
+                        <locus from="123b" to="127">Foll. 123b-127</locus>
+                        <title ref="" type="main">Discourse against the Jews, on Virginity and Holiness</title>
+                        <title type="sub">Arm. serm. xvii.</title>
+                        <rubric xml:lang="syr">ܕܠܘܩܒܠ ܝܗܘ̈ܕܝܐ. ܥܠ ܒܬܘܠܘܬܐ ܘܩܕܝܫܘܬܐ
+                          <locus from="123b" to="123b"/>
+                        </rubric>
+                      </msItem>
+                      <msItem n="22" xml:id="c19" defective="unknown">
+                        <locus from="127b" to="134">Foll. 127b-134</locus>
+                        <title ref="" type="main">Discourse against the Jews, becuase of their saying that it is appointed for them to be assembled unto Jerusalem</title>
+                        <title type="sub">Arm. serm. xviii.</title>
+                        <rubric xml:lang="syr">ܕܠܘܩܒܠ ܝܗܘ̈ܕܝܐ. ܥܠ ܕܐܡܪܝܢ ܕܩܝܡ ܗܘ ܠܢ ܠܡܬܟܢܫܘ
+                          <locus from="127b" to="127b"/>
+                        </rubric>
+                      </msItem>   
+                      <msItem n="23" xml:id="c20" defective="unknown">
+                        <locus from="134a" to="139">Foll. 134a-139</locus>
+                        <title ref="" type="main">Discourse of the Supporting of the Poor</title>
+                        <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܢܣܐ ܕܡܣ̈ܟܢܐ
+                          <locus from="134a" to="134a"/>
+                          <bibl>This and the following discourses are no longer extant in the Armenian translation.</bibl>
+                        </rubric>
+                      </msItem>   
+                      <msItem n="24" xml:id="c21" defective="unknown">
+                        <locus from="139a" to="146">Foll. 139a-146</locus>
+                        <title ref="" type="main">Discourse of the Persecuted</title>
+                        <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܪ̈ܕܝܦܐ
+                          <locus from="139a" to="139a"/>
+                        </rubric>
+                      </msItem>
+                      <msItem n="25" xml:id="c22" defective="unknown">
+                        <locus from="146a" to="154">Foll. 146a-154</locus>
+                        <title ref="" type="main">Discourse of Death and of the Last Times</title>
+                        <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܡܘܬܐ ܘܕܙܒ̈ܢܐ ܐܚܪ̈ܝܐ
+                          <locus from="146a" to="146a"/>
+                        </rubric>
+                      </msItem>
+                    
                     </rubric>
                   </msItem>
                   
