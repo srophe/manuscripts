@@ -105,7 +105,7 @@
                 <locus from="1a" to="1b">Foll. 1a-1b</locus>
                 <author ref=""/>
                 <title ref="" type="supplied">The Letter of a Disciple to the Author</title>
-                <note>The title of this letter, which is ascribed in the Armenian version to Gregory the Illuminator, has been torn away. <ref target="#addition1">See additions</ref></note>
+                <note>The title of this letter, which is ascribed in the Armenian version to <persName>Gregory the Illuminator</persName>, has been torn away. <ref target="#addition1">See additions</ref>.</note>
               </msItem>
                 <msItem n="3" xml:id="b2" defective="true">
                   <locus from="1b" to="154b">Foll. 1b-154b</locus>
@@ -113,6 +113,7 @@
                   <title ref="" type="supplied">The Alphabetical Discourses</title>
                   <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܥܣܪ̈ܝܢ ܘܬܪ̈ܬܝܢ ܕܚܟܝܡܐ ܦܪܣܝܐ.
                     <locus from="154b" to="154b"/>
+                    <note><ref target="#addition2">See additions.</ref></note>
                   </finalRubric>
                   <msItem n="4" xml:id="c1" defective="true">
                     <locus from="1b" to="7">Foll. 1b-7</locus>
@@ -218,17 +219,15 @@
                   <msItem n="17" xml:id="c14" defective="unknown">
                     <locus from="87a" to="109">Foll. 87a-109</locus>
                     <title ref="" type="main">Discourse of the Deprecation of Dissensions</title>
-                    <title type="sub">Arm., sermonicus, ed. Rom., p. 403.</title>
+                    <title type="sub">Arm., sermo unicus, ed. Rom., p. 403.</title> <!-- What is ed. Rom., p. 403? A bibl entry? -->
                     <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܫܒܬܐ
-                      <locus from="87a" to="87a"/>
-                    <origDate notbefore="344" notafter="344" calendar="gregorian">This discourse is dated, fol. 109 a, A. Gr. 655, A.D. 344.
-                      <rubric xml:lang="syr"> ܟܬܝܒܐ ܐܓܪܬܐ ܗܕܐ ܒܐܝܪܚ ܫܒܛ ܕܫܢܬ ܫܬܡܐܐ ܘܚܡܫܝܢ ܘܚܡܫ. ܕܡܠܘܬܗ ܕܐܠܟܣܢܕܪܘܣ ܒܪ ܦܝܠܝܦܘܣ ܡܩܕܘܢܝܐ. ܘܒܫܢܬ ܬܠܬܝܢ ܘܚܡܫ ܕܫܒܘܪ ܡܠܟܐ ܦܪܣܝܐ. 
-                        <locus from="109a" to="109a"></locus>
-                      </rubric>
-                    </origDate>
-                      <msItem n="18" xml:id="c15" defective="unknown">
+                      <locus from="87a" to="87a"/></rubric>
+                    <note>This discourse is dated, <locus from="109a" to="109a">fol. 109 a</locus>, <date when="0655" calendar="Seleucid">A. Gr. 655</date>, <date when="0344" calendar="Gregorian">A.D. 344</date>.
+                      <foreign xml:lang="syr">ܟܬܝܒܐ ܐܓܪܬܐ ܗܕܐ ܒܐܝܪܚ ܫܒܛ ܕܫܢܬ ܫܬܡܐܐ ܘܚܡܫܝܢ ܘܚܡܫ. ܕܡܠܘܬܗ ܕܐܠܟܣܢܕܪܘܣ ܒܪ ܦܝܠܝܦܘܣ ܡܩܕܘܢܝܐ. ܘܒܫܢܬ ܬܠܬܝܢ ܘܚܡܫ ܕܫܒܘܪ ܡܠܟܐ ܦܪܣܝܐ</foreign>.</note> 
+                        <!-- Is this the way to capture this particular discourse? --></msItem>
+                        <msItem n="18" xml:id="c15" defective="unknown">
                         <locus from="109b" to="114">Foll. 109b-114</locus>
-                        <title ref="" type="main">Discourse of the Distinctionof Meats</title>
+                        <title ref="" type="main">Discourse of the Distinction of Meats</title>
                         <title type="sub">Arm. serm. xiii.</title>
                         <rubric xml:lang="syr">ܬܘܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ   
                           <locus from="109b" to="109b"/>
@@ -270,9 +269,8 @@
                         <locus from="134a" to="139">Foll. 134a-139</locus>
                         <title ref="" type="main">Discourse of the Supporting of the Poor</title>
                         <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܢܣܐ ܕܡܣ̈ܟܢܐ
-                          <locus from="134a" to="134a"/>
-                          <bibl>This and the following discourses are no longer extant in the Armenian translation.</bibl>
-                        </rubric>
+                          <locus from="134a" to="134a"/></rubric>
+                        <note>This and the following discourses are no longer extant in the Armenian translation.</note>
                       </msItem>   
                       <msItem n="24" xml:id="c21" defective="unknown">
                         <locus from="139a" to="146">Foll. 139a-146</locus>
@@ -288,12 +286,14 @@
                           <locus from="146a" to="146a"/>
                         </rubric>
                       </msItem>
-                    
-                    </rubric>
-                  </msItem>
-                  
+                    </msItem>                 
+                <msItem n="26" xml:id="b3" defective="unknown">
+                  <locus from="154b" to="173">Foll. 154b-173</locus>
+                  <author ref="http://syriaca.org/person/10">Aphrahat</author>
+                  <title ref="" type="supplied">The treatise on "the Cluster" (Isaiah, chap. lxv. 8)</title>
+                  <rubric xml:lang="syr"> ܬܚܘܝܬܐ ܕܛܘܛܝܬܐ ܕܒܘܪܟܬܐ ܕܪܕܬ ܒܙܕܝ̈ܩܐ ܕܕܪ̈ܐ ܩܕܡ̈ܝܐ. </rubric>
+                  <note>It was written, according to the author's own statement, <locus from="173b" to="173b">fol. 173 b</locus>, in the 36th year of the reign of <persName>Shabūr, king of Persia</persName>, <date when="0656" calendar="Seleucid">A.Gr. 656</date>, <date when="0345" calendar="Gregorian">A.D. 345</date>, subsequently to the composition of the 22 alphabetical discourses: <foreign xml:lang="syr">ܟܬܒܬ ܠܟ ܐܓܪܬܐ ܗܕܐ ܚܒܝܒܝ. ܒܝܪܚ ܐܒܝ ܕܫܢܬ ܫܬܡܐܐ ܘܚܡܫܝܢ ܘܫܬ. ܕܡܠܟܘܬܗ ܕܐܠܟܣܢܕܪܣ ܒܪ ܦܝܠܝܦܘܣ ܡܩܕܘܢܝܐ. ܘܒܫܢܬ ܬܠܬܝܢ ܘܫܬ ܕܫܒܘܪ ܡܠܟܐ ܦܪܣܝܐ ܕܗܘ ܥܒܕ ܪܕܘܦܝܐ ܟܕ ܐܬܥܩܪ ܥ̈ܕܬܢ̇ ܒܫܢܬ ܚܡܫ ܒܫܢܬܐ ܕܗܘܬ ܚܪܒܐ ܪܒܬܐ ܒܣܗ̈ܕܐ ܒܐܪܥܐ ܕܡܕܢܚܐ. ܡܢ ܒܬܪ ܕܟܬܒܬ ܗܠܝܢ ܥܣܪ̈ܝܢ ܘܬܪ̈ܝܢ ܪ̈ܫܝܢ ܩܕܡ̈ܝܐ ܕܣܝܡܝܢ ܥܠ ܐܬܘ̈ܬܐ ܚܕ ܒܬܪ ܚܕ. ܩܪܝ ܘܝܠܦ ܘܐܬܕܟܪ ܠܚܒܝܒܟ</foreign>. <ref target="#addition3">See additions.</ref></note>
                 </msItem>
-<!-- <msItem n="2" xml:id="a2"> closes here after its subordinated item(s). -->
               </msItem>
             </msContents>
             <physDesc>
@@ -327,8 +327,8 @@
                   <condition>
                     <list>
                       <item>
-                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any  persons, places, foreign words, etc. as necessary. Tagging loci is necessary, but adding @from and @to is optional. --></p>
-                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
+                        <p>The notes on <locus from="1a" to="1a">fol. 1 a</locus> are much stained and mutilated, and some portions of them have been designedly erased.</p>
+                      </item>
                     </list>
                   </condition>
                 </supportDesc>
@@ -354,17 +354,22 @@
                 </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
               </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <p/>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="" to=""/><!-- locus may be deleted if addition applies throughout entire document. Does NOT need to be human-readable -->
-                    <p></p><!-- Enter English prose here -->
-                    <p><quote xml:lang="syr"><!-- Enter the Syriac quote here if applicable --></quote></p>
-                  </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                    <locus from="1b" to="1b"/>
+                    <p>The title of this letter, which is ascribed in the Armenian version to <persName>Gregory the Illuminator</persName>, has been torn away; but on fol. 1 b, between the columns, a later hand has written:</p><!-- Needs author URI -->
+                    <p><quote xml:lang="syr">ܩܕ [ܐܓܪ]ܬܐ ܕܗܝܡܢܘܬܐ ܕܚܟܝܡܐ ܦܪܣܝܐ ܓܒܪܐ ܓܡܝܪܐ ܘܡܠܦܢܐ ܏ܨ ܥܡܢ. [ܟܕ ܒ]ܥܐ ܡܢܗ ܬܠܡܝܕܗ ܕܢܚܘܝܘܗܝ ܪ̈ܐܙܐ ܟܣ̈ܝܐ ܕܪ̈ܫܝܡܝܢ ܒܟ̈ܬܒܐ ܩ̈ܕܝܫܐ ܕܥܕܬܐ ܏ܩܕ.</quote>.</p>
+                  </item>
                   <item n="2" xml:id="addition2">
-                    <locus from="" to=""/>
-                    <p></p>
-                    <p><quote xml:lang="syr"></quote></p>
+                    <locus from="154b" to="154b"/>
+                    <p>To this a reader named <persName>Zākhē</persName>, or <persName>Nicolaus</persName>, has added:</p><!-- Needs author URI -->
+                    <p><quote xml:lang="syr">ܗܢܐ ܚܟܝܡܐ ܦܪܣܝܐ ܓܒܪܐ ܓܡܝܪܐ ܗܘ̣ܐ ܘܡ̈ܠܘܗܝ ܘܡ̈ܠܦܢܘܬܗ ܗ̈ܢܝܢ ܣܗ̈ܕܢ ܥܠܘܗܝ. ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ. ܙܟ̇ܐ ܚܛܝܐ</quote>.</p>
+                  </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                  <item n="3" xml:id="addition3">
+                    <locus from="173b" to="173b"/>
+                    <p>After the doxology, fol. 173 b, the above mentioned <persName>Zākhē</persName> has written:</p>
+                    <p><quote xml:lang="syr">ܗܢܐ ܦܪܣܝܐ ܚ̇ܟܝܡܐ ܐܠܗܝܐ ܗ̣ܘܐ ܘܓܡܝܪܐ. ܘܟ̈ܬܒܐ ܣ̈ܓܝܐܐ ܣܡ ܒܥܕܬܐ. ܏ܨ ܥܡܢ. ܗ̇ܝ ܐܓܪܬܐ ܕܫܕܪ ܠܪܝܫܕܝܪܐ ܦܠܢ ܕܝܠܗ ܐܝܬܝܗ̇.</quote></p>
                   </item>
                 </list>
               </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
