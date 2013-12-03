@@ -124,7 +124,7 @@
                      </msItem>
                   </msItem>
                   <note>Of the lessons some are rubricated in the text.</note>
-                  <colophon><ref target="#addition1">See additions.</ref></colophon>
+                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟ̣ܬܒ ܦܪܟܣܣ. ܕܬܪܥܣܪ̈. ܫ̈ܠܝܚܐ. ܛܘܒ̈ܢܐ. ܥܡ. ܐܓܪ̈ܬܐ. ܩ̈ܬܠܝܩܘܣ. ܬ̈ܠܬ. ܕܝܥܩܘܒ. ܚܕܐ. ܘܕܦܛܪܣ. ܚܕܐ. ܘܕܝܘܚܢܢ. ܚܕܐ.<locus from="72b" to="72b"/></finalRubric>
                </msItem>
                <msItem n="6" xml:id="a3">
                   <locus from="73a" to="73a">Fol. 73a</locus>
@@ -174,7 +174,7 @@
               </objectDesc>
               <handDesc hands="9">
                 <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                   <desc>This volume is written in a fine, clear Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate> <ref target="#addition1">See additions.</ref></desc>
+                   <desc>This volume is written in a fine, clear Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition2">See additions.</ref></desc>
@@ -204,11 +204,6 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1">
-                    <locus from="72b" to="72b"/>
-                    <p>Colophon:</p>
-                     <p><quote xml:lang="syr">ܫܠܡ ܠܡܟ̣ܬܒ ܦܪܟܣܣ. ܕܬܪܥܣܪ̈. ܫ̈ܠܝܚܐ. ܛܘܒ̈ܢܐ. ܥܡ. ܐܓܪ̈ܬܐ. ܩ̈ܬܠܝܩܘܣ. ܬ̈ܠܬ. ܕܝܥܩܘܒ. ܚܕܐ. ܘܕܦܛܪܣ. ܚܕܐ. ܘܕܝܘܚܢܢ. ܚܕܐ.</quote></p>
-                  </item>
                   <item n="2" xml:id="addition2">
                      <p>The same person who wrote, fol. <locus from="71" to="71">71</locus> has repaired foll. <locus from="1" to="1">1</locus>, <locus from="6" to="6">6</locus>, <locus from="55" to="55">55</locus>, and <locus from="67" to="67">67</locus>, and retouched several other leaves.</p>
                   </item>
@@ -376,6 +371,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwineh">Changed colophon to finalRubric</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
   </teiHeader>

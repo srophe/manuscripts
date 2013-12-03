@@ -111,10 +111,7 @@
                   <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܘܢܓܐܠܝܘܢ ܩܕܝܫܐ ܕܝܘܚܢܢ. ܕܐܝܬ ܒܗ ܩ̈ܦܠܐ̣ܐ ܬܫܬܥܣܪ̈. ܡ̈ܢܝܢܐ̣ ܡܐܬܝܢ ܘܬܠܬܝܢ ܘܬܪ̈ܝܢ ܕܩ̈ܢܘܢܐ. ܐܬܘ̈ܬܐ̣ ܬܡ̈ܢܐ. ܦ̈ܠܐܬܐ̣ ܚ̈ܡܫ. ܣ̈ܗܕܘܬܐ̣ ܚܡܫܥܣܪ̈ܐ. ܡ̇ܠܠ ܕܝܢ ܘܟ̇ܬܒ (sic) ܝܘܢܐܝܬ ܒܐܦܐܣܣ.
                     <locus from="205" to="205"/>
                   </finalRubric>
-                  <colophon>
-                    <ref target="#addition1">See below.
-                    </ref>
-                  </colophon>                  
+                  <finalRubric type="doxology">At the end of the Gospel of S. John, after the subscription, stands the following doxology: <quote xml:lang="syr">ܫܘܒܐ  (sic) ܠܐܒܐ: ܕܥܕܪ ; ܘܠܒܪܐ: ܕܣܝ̇ܥ ܘܠܪܘܚܐ. ܩܕܝܫܐ. ܕܫ̇ܡܠ̣ܝ</quote> which is followed by the words: <quote xml:lang="syr">ܐܝܬܘܗܝ ܕܝܢ. ܟܬܒܐ. ܗܢܐ. ܕܐܪ̈ܒܥܐ ܐܘܢ̈ܓܠܣܛܐ ܩ̈ܕܝܫܐ. ܕܐܬܦܫܩܘ. ܡܢ. ܠܫܢܐ ܝܘܢܝܐ. ܠܣܘܪܝܝܐ. ܒܚܬܝܬܘܬܐ. ܣܓܝܐܬܐ. ܘܒܫܩܠ ܛܥܢܐ. ܪܒܐ.</quote><locus from="205" to="205"/></finalRubric>                  
                 </msItem>
                 <note>Each Gospel is divided into <foreign xml:lang="syr">ܩ̈ܦܠܐܐ</foreign> or chapters, of which there are 68 in S. Matthew, 48 in S. Mark, 83 in S. Luke, and 19 in S. John.</note>
                 <note>An index of these chapters is prefixed to each Gospel, viz. S. Mark, fol. <locus>44a</locus>; S. Luke, fol. <locus>84b</locus>; and S. John, fol. <locus>153b</locus>. That to S. Matthew is lost (but see <bibl>Add. 14,456, foll. 1 and 2<ptr target="http://syriaca.org/manuscript/129"/></bibl>).</note>
@@ -177,12 +174,6 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="205" to="205"/><ref target="#b4"/>
-                    <p>At the end of the Gospel of S. John, after the subscription, stands the following doxology:</p>
-                    <p><quote xml:lang="syr">ܫܘܒܐ  (sic) ܠܐܒܐ: ܕܥܕܪ ; ܘܠܒܪܐ: ܕܣܝ̇ܥ ܘܠܪܘܚܐ. ܩܕܝܫܐ. ܕܫ̇ܡܠ̣ܝ</quote></p>
-                    <p>which is followed by the words:</p>
-                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܕܝܢ. ܟܬܒܐ. ܗܢܐ. ܕܐܪ̈ܒܥܐ ܐܘܢ̈ܓܠܣܛܐ ܩ̈ܕܝܫܐ. ܕܐܬܦܫܩܘ. ܡܢ. ܠܫܢܐ ܝܘܢܝܐ. ܠܣܘܪܝܝܐ. ܒܚܬܝܬܘܬܐ. ܣܓܝܐܬܐ. ܘܒܫܩܠ ܛܥܢܐ. ܪܒܐ.</quote></p>
-                  </item>
                   <item n="2" xml:id="addition2"><locus from="205" to="205"/><ref target="#b4"/>
                     <p><ref target="#addition1">Below</ref>, in the same handwriting, there is a note, informing us that this volume was written in the <placeName>desert of Scete</placeName>, <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate> (<origDate when="0936" calendar="Gregorian">A.D. 936</origDate>), by a priest named <persName>John</persName>, for the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>.</p>
                     <quote xml:lang="syr">ܫܩ̣ܠ ܕܝܢ ܫ̇ܘܠܡܐ ܟܬܒܐ ܗܢܐ ܫ̣ܢܬ ܐܠܦܐ ܘܡ̈ܐܬܝܢ ܘܐܪ̈ܒܥܝܢ ܘܫܒܥ ܒܕܝܘ̈ܢܝܐ ܐܬܟܬܒ ܕܝܢ ܒܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܒܡܕܒܪܐ ܕܐܣܩܝܛܐ ܟܬܒܗ ܕܝܢ ܝܘܚܢܢ ܐܟܣܢܝܐ ܘܒܫܡܐ ܕܝܪܝܐ ܘܒܕܪܓܐ ܬܘܒ ܩܫܝܫܐ ܟܕ ܫ̇ܘܐ ܟܬܒܗ ܕܝܢ ܠܡܘܫܐ ܪܝܫܕܝܪܐ ܕܝܠܗ̇ ܕܕܘܟܬܐ ܕܡܬܝܕܥ ܢܨܝܒܝܢܐ܇ ܟܠ ܕܝܢ ܕܩ̇ܪܐ ܒܗ ܒܟܬܒܐ ܗܢܐ ܕܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܕܣܪܛ ܕܢܬܚܢܢ ܗ̣ܘ ܘܥܢ̈ܝܕܘܗܝ ܘܟܠܗ ܝܠ̣ܕܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܐܝܟ ܓܝ̇ܣܐ ܕܡܢ ܝܡܝܢ ܘܟܠ ܕܝܢ ܕܗܘ̣ܐ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥ̇ܒܕܐ ܐܘ ܒܥܠ̣ܬܐ ܐ̇ܝܕܐ ܕܗܝ ܐܝܢ ܘܐܡܝܢ܀</quote></item>
@@ -314,6 +305,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-09-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric "doxology"</change>
        </revisionDesc>
   </teiHeader>
   <facsimile>

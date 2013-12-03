@@ -101,7 +101,7 @@
                   <msItem n="6" xml:id="b4">
                      <locus from="78a" to="104a">Foll. 78a-104a</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
-                  <colophon><ref target="#addition3">See additions.</ref></colophon>
+                    <finalRubric type="doxology">At the end of the subscription to the last Gospel, fol. 104 a, we have the doxology: <quote xml:lang="syr">ܫܘܒܚܐ ܡܢ ܟܠ ܥܠ ܟܠ ܠܡܪܝܐ ܟܠ ܡܫܡܠܐ ܟܠ ܒܫܘܡܠܝܗ ܐܡܝܢ.</quote><locus from="104a" to="104a"/></finalRubric>
                   </msItem>
                   <note>The larger sections are marked on the margins.</note>
                </msItem>
@@ -146,7 +146,7 @@
               </objectDesc>
               <handDesc hands="4">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syrn" medium="unknown">
-                   <desc>This manuscript is written in a small and beautiful Nestorian Estrangela, and dated <origDate when-custom="0911" datingMethod="Seleucid">A. Gr. 911</origDate>, <origDate when="0600" calendar="Gregorian">A.D. 600</origDate>. <ref target="#addition3">See additions.</ref></desc>
+                   <desc>This manuscript is written in a small and beautiful Nestorian Estrangela, and dated <origDate when-custom="0911" datingMethod="Seleucid">A. Gr. 911</origDate>, <origDate when="0600" calendar="Gregorian">A.D. 600</origDate>.</desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                     <desc>A modern hand. Responsible for <ref target="#a1">writing on <locus from="1a" to="1a">fol. 1a</locus></ref>. <ref target="#addition2 #addition5">See additions also.</ref></desc>
@@ -166,11 +166,6 @@
                   </item>
                    <item n="2" xml:id="addition2">
                       <p>Several pages have been re-touched by a modern hand, especially <locus from="29a" to="29a">fol. 29 a</locus>.</p>
-                   </item>
-                   <item n="3" xml:id="addition3">
-                      <locus from="104a" to="104a"/>
-                      <p>At the end of the subscription to <ref target="#b4">the last Gospel</ref>, fol. 104 a, we have the doxology: </p>
-                      <p><quote xml:lang="syr">ܫܘܒܚܐ ܡܢ ܟܠ ܥܠ ܟܠ ܠܡܪܝܐ ܟܠ ܡܫܡܠܐ ܟܠ ܒܫܘܡܠܝܗ ܐܡܝܢ.</quote></p>
                    </item>
                    <item n="4" xml:id="addition4">
                       <locus from="104a" to="104a"/>
@@ -324,6 +319,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
