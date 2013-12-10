@@ -90,7 +90,7 @@
                 <title ref="" type="supplied">The works of <listPerson><person ref="http://syriaca.org/person/10"><persName>Aphraates</persName>, <persName xml:lang="syr">ܐܦܪܗܛ</persName> or <persName>Farhād</persName>, <persName xml:lang="syr">ܦܪܗܐܕ</persName>, “<persName>the Persian Sage</persName>," <persName xml:lang="syr">ܚܟܝܡܐ ܦܪܣܝܐ</persName></person></listPerson></title>
                 <!-- need work URI -->
                 <note>Aphraates was a contemporary of Jacob of Nisibis and Ephraim, and bishop of the convent of Măr Matthew near Mosul (according to a note in <bibl>Orient. 1017, fol. 160 a</bibl>,<foreign xml:lang="syr"> ܚܲܟܝܡܳܐ ܐܦܪܗܛ ܏ܗ ܝܥܩܘܒ ܚܣܝܐ ܕܡ̇ܳܪܝ ܡܰܬܝ</foreign>). He flourished about <date>A.D. 337—345</date>. At some period of his life, perhaps when he was made bishop, he took the name of Jacob, and hence his writings have been ascribed from a very early period to his more widely known namesake <persName>Jacob of Nisibis</persName>. His works consist of 22 homilies, in the form of Epistles, each commencing with a letter of the alphabet in the usual sequence, and a separate treatise entitled <foreign xml:lang="syr">ܛܘܛܝܬܐ</foreign> or "the Cluster of Grapes." They were very soon translated into Armenian, and this translation has been published by <bibl>N. Antonelli (Rome, 1756)</bibl>, and reprinted in <bibl>Gallandii Bibliotheca Veterum Patrum, t. v.,</bibl> as also at <placeName>Venice</placeName> in 1765, and at <placeName>Constantinople</placeName> in 1824. The Syriac text has been edited by <bibl>Wright (London, 1869)</bibl>. For further information regarding Aphraates, see <bibl>Assemani, Bibl, Or., t. i., p. 189 </bibl>; <bibl>the letter of George, bishop of the Arabs, in de Lagarde’s Analecta Syriaca, p. 108</bibl>; <bibl>Cowper's Syriac Miscellanies (London, 1861), p. 61</bibl>; the <bibl>preface to Wright's edition</bibl>; and <bibl>Noeldeke's review in the Gott. gel. Anzeigen for 1869 p. 1521</bibl>.</note>
-              <msItem n="2" xml:id="b1" defective="true"><!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem>. -->
+              <msItem n="2" xml:id="b1" defective="true">
                 <locus from="1a" to="1b">Foll. 1a-1b</locus>
                 <author ref=""/>
                 <title ref="" type="supplied">The Letter of a Disciple to the Author</title>
@@ -102,7 +102,6 @@
                   <title ref="" type="supplied">The Alphabetical Discourses</title>
                   <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܥܣܪ̈ܝܢ ܘܬܪ̈ܬܝܢ ܕܚܟܝܡܐ ܦܪܣܝܐ.
                     <locus from="154b" to="154b"/>
-                    <note><ref target="#addition2">See additions.</ref></note>
                   </finalRubric>
                   <msItem n="4" xml:id="c1" defective="true">
                     <locus from="1b" to="7">Foll. 1b-7</locus>
@@ -351,8 +350,8 @@
                   </item>
                   <item n="2" xml:id="addition2">
                     <locus from="154b" to="154b"/>
-                    <p>To this a reader named <persName>Zākhē</persName>, or <persName>Nicolaus</persName>, has added:</p><!-- Needs author URI -->
-                    <p><quote xml:lang="syr">ܗܢܐ ܚܟܝܡܐ ܦܪܣܝܐ ܓܒܪܐ ܓܡܝܪܐ ܗܘ̣ܐ ܘܡ̈ܠܘܗܝ ܘܡ̈ܠܦܢܘܬܗ ܗ̈ܢܝܢ ܣܗ̈ܕܢ ܥܠܘܗܝ. ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ. ܙܟ̇ܐ ܚܛܝܐ</quote>.</p>
+                    <p>To <ref target="#b2">this</ref> a reader named <listPerson><person><persName>Zākhē</persName>, or <persName>Nicolaus</persName></person></listPerson>, has added:</p><!-- Needs author URI -->
+                    <p><quote xml:lang="syr">ܗܢܐ ܚܟܝܡܐ ܦܪܣܝܐ ܓܒܪܐ ܓܡܝܪܐ ܗܘ̣ܐ ܘܡ̈ܠܘܗܝ ܘܡ̈ܠܦܢܘܬܗ ܗ̈ܢܝܢ ܣܗ̈ܕܢ ܥܠܘܗܝ. ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ. <persName>ܙܟ̇ܐ ܚܛܝܐ</persName></quote>.</p>
                   </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
                   <item n="3" xml:id="addition3">
                     <locus from="173b" to="173b"/>
