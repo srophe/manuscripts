@@ -1803,13 +1803,11 @@ tei_author =
     att.global.attributes,
     att.canonical.attributes,
     attribute type {
-    ##
-    "universal"
+    ## Name is taken from an external authority file
+    "uniform"
     |
-    ##
+    ## Name is taken from the source being encoded
     "supplied"
-    |
-    empty
     }?,
     empty
   }
@@ -1885,7 +1883,13 @@ tei_title =
     
     ## classifies the title according to some convenient typology.
     ## : 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
-    attribute type { xsd:Name }?,
+    attribute type {
+    ## Title is taken from an external authority file. Corresponds to Fihrist's "standard".
+    "uniform"
+    |
+    ## Title is taken from the source being encoded
+    "supplied"
+    }?,
     empty
   }
 tei_publisher =
