@@ -1802,6 +1802,15 @@ tei_author =
     tei_macro.phraseSeq,
     att.global.attributes,
     att.canonical.attributes,
+    attribute type {
+    ##
+    "universal"
+    |
+    ##
+    "supplied"
+    |
+    empty
+    }?,
     empty
   }
 tei_editor =
