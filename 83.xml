@@ -10,10 +10,7 @@
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
         <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-<<<<<<< HEAD
-=======
         <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
->>>>>>> origin/Tucker's-Editing
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -25,13 +22,10 @@
         <respStmt>
           <resp>Based on the work of</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
-<<<<<<< HEAD
-=======
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
->>>>>>> origin/Tucker's-Editing
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -84,39 +78,22 @@
           <msContents>
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
-<<<<<<< HEAD
             <msItem n="1" xml:id="a1" defective="true">
               <locus from="1a" to="95b">Foll. 1a-95b</locus>
               <title ref="http://syriaca.org/work/68" type="supplied">Part of the Pentateuch, according to the Peshitta version</title>
               <msItem n="2" xml:id="b1" defective="true">
                 <locus from="1a" to="28">Foll. 1a-28</locus>
-=======
-            <msItem n="1" xml:id="a1">
-              <locus from="1a" to="95b">Foll. 1a-95b</locus>
-              <title ref="http://syriaca.org/work/68" type="supplied">Part of the Pentateuch, according to the Peshitta version</title>
-              <msItem n="2" xml:id="b1">
-                <locus from="1a" to="28">Foll. 1a to 28</locus>
->>>>>>> origin/Tucker's-Editing
                 <title ref="http://syriaca.org/work/3" type="supplied">Leviticus</title>
                 <finalRubric xml:lang="syr">. ܕܟܗ̈ܢܐ . ܣܦܪܐ . ܕܬܠܬܐ . ܕܐܘܪܝܬܐ <locus from="28" to="28"/></finalRubric>
               </msItem>
               <msItem n="3" xml:id="b2">
-<<<<<<< HEAD
                 <locus from="28b" to="67">Foll. 28b-67</locus>
-=======
-                <locus from="28b" to="67">Foll. 28b to 67</locus>
->>>>>>> origin/Tucker's-Editing
                 <title ref="http://syriaca.org/work/4" type="supplied">Numbers</title>
                 <rubric xml:lang="syr"><locus from="28b" to="28b"/>ܡܢܝܢܐ . ܣܦܪܐ . ܕܐܪ̈ܒܥܐ . ܕܐܘܪܝܬܐ</rubric>
                 <finalRubric xml:lang="syr">ܕܐܪܒܥܐ . ܕܐܘܪܝܬܐ.. ܡܢܝܢܐ . ܣܦܪܐ<locus from="67" to="67"/></finalRubric>
               </msItem>
-<<<<<<< HEAD
               <msItem n="4" xml:id="b3" defective="true">
                 <locus from="67b" to="95">Foll. 67b-95</locus>
-=======
-              <msItem n="4" xml:id="b3">
-                <locus from="67b" to="95">Foll. 67b to 95</locus>
->>>>>>> origin/Tucker's-Editing
                 <title ref="http://syriaca.org/work/5" type="supplied">Deuteronomy</title>
                 <rubric xml:lang="syr"><locus from="67b" to="67b"/>ܬܢܝܢܐ . ܕܢܡܘܣܐ . ܣܦܪܐ . ܕܚܡܫܐ . ܕܐܘܪܝܬܐ.</rubric>
               </msItem>
@@ -166,11 +143,7 @@
                 <desc>The character is a large and beautiful Estrangela of the <origDate notBefore="0500" notAfter="0600">6th cent.</origDate></desc>
               </handNote>
               <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
-<<<<<<< HEAD
                 <desc><ref target="#addition1">See additions.</ref></desc>
-=======
-                <desc><ref target="#addition1">See additions</ref>.</desc>
->>>>>>> origin/Tucker's-Editing
               </handNote>
             </handDesc>
             <decoDesc/>
@@ -306,11 +279,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-02-26" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
-<<<<<<< HEAD
       <change when="2013-10-01" who="http://syriaca.org/editors.xml#thannah">Initial edit: corrected loci format, addressed handnote issue</change>
-=======
       <change when="2013-11-09" who="http://syriaca.org/editors.xml#thannah">Initial edit: Cleaned up internal references, added class declaration</change>
->>>>>>> origin/Tucker's-Editing
     </revisionDesc>
   </teiHeader>
   <facsimile>

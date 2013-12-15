@@ -1228,13 +1228,9 @@
                 <list>
                   <item n="1" xml:id="p8addition1"><locus from="57" to="57"/><ref target="#p8handNote2"/>
                     <p>At the end there is a note, giving the date and the name of the scribe,<persName> David</persName>:</p>
-<<<<<<< HEAD
-                    <p><quote xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢܢ ܫܠܝ̣ܚܐ. ܒܪܟܡܪܝ. ܝ̣ܨܦ ܘܚܲܕܬ ܐܘܼܢܓܠܝܘܢ̇ ܗܢܐ. ܕܘܝܕ ܏ܕܒܫܡ ܕܝܪܝܐ ܫܢܬ ܏ܐ ܐܠܦ ܏ܘܬ ܘ܏ܦܕ ܕܝܘܢ̈ܝܐ.</quote></p>                 
-=======
                     <p><quote xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢܢ ܫܠܝ̣ܚܐ. ܒܪܟܡܪܝ. ܝ̣ܨܦ ܘܚܲܕܬ ܐܘܼܢܓܠܝܘܢ̇ ܗܢܐ. ܕܘܝܕ ܏ܕܒܫܡ ܕܝܪܝܐ ܫܢܬ ܏ܐ ܐܠܦ ܏ܘܬ ܘ܏ܦܕ ܕܝܘܢ̈ܝܐ.</quote></p>
                     <p>The words <foreign xml:lang="syr">ܫܠ̣ܡ ܝܘܚܢ ܫܠܝ̣ܚܐ</foreign> are written in blue, bordered with red, and the word
-                      <foreign xml:lang="syr">ܫܠ̣ܡ</foreign> is gilded.</p>                    
->>>>>>> Greeson-Work-Space
+                      <foreign xml:lang="syr">ܫܠ̣ܡ</foreign> is gilded.</p>
                   </item>
                   </list>
               </additions>
