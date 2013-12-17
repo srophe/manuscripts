@@ -9,7 +9,8 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -17,6 +18,10 @@
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
@@ -78,7 +83,7 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1">
-                <locus from="1" to="63a"/>
+                <locus from="1" to="63a">Foll. 1-63a</locus>
                 <title ref="http://syriaca.org/work/73" type="supplied">The Gospel of S. Mark, according to the Peshitta version.</title>
                 <finalRubric xml:lang="syr">ܫܠܡܬܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ ܕܡܠܠ ܪܗܘܡܐܝܬ ܒܪܗܘܡܐ
                   <locus from="63a" to="63a"/>
@@ -112,7 +117,10 @@
                   <condition>
                     <list>
                       <item>
-                        <p>Many leaves are stained by water, and a few slightly torn, especially foll. <locus>1</locus>, <locus>55</locus>, and <locus>64</locus>.</p>
+                        <p>Many leaves are stained by water.</p>
+                      </item>
+                      <item>
+                        <p>A few leaves are slightly torn, especially foll. <locus from="1" to="1">1</locus>, <locus from="55" to="55">55</locus>, and <locus from="64" to="64">64</locus>.</p>
                       </item>
                     </list>
                   </condition>
@@ -125,10 +133,10 @@
               </objectDesc>
               <handDesc hands="9">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This volume is written in a neat, regular Estrangela of the <origDate from="0500" to="0600">vith cent.</origDate>, certainly previous to the year 894, A.D. 583, </desc>
+                  <desc>This volume is written in a neat, regular Estrangela of the <origDate notBefore="0500" notAfter="0583" notAfter-custom="0894" datingMethod="Seleucid">vith cent., certainly previous to the year 894, A.D. 583</origDate>. <ref target="#addition1">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>Some of the lessons have been marked by the scribe, others by later hands.</desc>
+                  <desc><ref target="#addition9">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition2">See additions.</ref></desc>
@@ -154,45 +162,47 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="63a"/><ref target="#handNote1"/>
-                    <p>On fol. 63a, between the last line of the text and the subscription, the scribe <persName>Constantine</persName> has recorded his name:</p>
+                  <item n="1" xml:id="addition1"><locus from="63a" to="63a"/>
+                    <p>On fol. 63a, between the last line of the text and the subscription, the scribe <persName ref="">Constantine</persName> has recorded his name:</p>
                     <p><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠ ܩܘܣܛܢܛܝܢܐ ܟܬܘܒܐ.</quote></p></item>
-                  <item n="2" xml:id="addition2"><locus from="63b"/><ref target="#handNote3"/>
-                    <p>On fol. 63b there is an ancient note, written by a priest named <persName>Sābā</persName>, stating that, this and some, other volumes were collated in the <placeName>convent of Mār Zacchæus</placeName>.</p>
-                    <p><quote xml:lang="syr">ܐܬܦܚܡ ܟ̈ܬܒܐ ܗ̈ܠܝܢ ܒܕܝܪܐ ܕܡܪܝ ܙܟܝ ܟܠ ܡ̇ܢ ܕܩܪܐ ܢܨܠܐ ܡܛܠ ܡܪܢ ܥܠ ܟܠ ܡܢ ܕܠܐܝ ܒܦܘܚܡܐ ܕܟ̈ܬܒܐ ܗ̈ܠܝܢ ܐܢܐ ܣܒܐ ܩܫܝܫܐ ܟܬܒܝܬ (sic) ܨܠܘ ܥܠܝ܀܀܀</quote></p></item>
-                  <item n="3" xml:id="addition3"><locus from="63b"/><ref target="#handNote4"/>
-                    <p>Just below <ref target="#addition2">this</ref> there stands a note of more recent date, which informs us that the book belonged at one time to a deacon named <persName>Sa'īd bar Cyrus of Nisibis</persName>. </p>
-                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܡܪܩܣ ܣܥܝܕ (ܕܣܥܝܕ (read ܒܪ ܩܘܪܝܣ ܡܫܡܫܢܐ ܟܠ ܡܢ ܕܫܩܠ ܠܗ ܠܟܬܒܐ ܗܢܐ: ܐܝܟ ܕܢܩܪܐ ܒܗ: ܐܘ ܕܢܟܬܘܒ ܡܢܗ: ܏ܘܫ.</quote></p></item>
-                  <item n="4" xml:id="addition4"><locus from="64a"/><ref target="#handNote5"/>
-                    <p>On fol. 64a we find a contemporary record of the death of <persName>Isaac</persName>, abbat of the convent called <foreign xml:lang="syr">ܕܝܪܐ ܕܐܘܪ̈ܛܝܐ</foreign> or the <placeName>Convent of the Iberians</placeName>, dated 1st Ilūl, A.G. 894, A.D.583. See <bibl>Assemani, Bibl. Orient., t. i. p. 274, note.</bibl>:</p>
-                    <p><quote xml:lang="syr"> ܒܫܢܬ ܬܡ̈ܢܡܐܐ ܘܬܫ̈ܥܝܢ ܘܐܪ̈ܒܥ. ܐܝܟ ܡܢܝܢܐ ܕܝ̈ܘܢܝܐ. ܒܐܝܪܚ ܐܠܘܠ (sic.) ܒܪܝܫܗ. ܢܦ̣ܩ ܡܢ ܥܠܡܐ ܗܢܐ ܕܥ̈ܩܬܐ̣ ܠܥܠܡܐ ܕܚܕ̈ܘܬܐ̣ ܫ̇ܘܐ ܠܕܘܟܪܢܐ ܛܒܐ ܡܪܝ ܐܝܣܚܩ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܩܕܝܫܬܐ ܕܐܘܪ̈ܛܝܐ. ܕܐܠܗܐ ܕܦܠܚ ܩܕܡܘܗܝ ܡܢ ܛܠܝܘܬܗ ܥܕܡܐ ܠܣܝܒܘܬܗ. ܗ̣ܘ ܢܫܘܝܘܗܝ ܒܪ̈ܚܡܘܗܝ ܠܗ̇ܝ ܒܪܬ ܩܠܐ ܕܐܡܪܐ̇. ܕܬܘ ܒܪ̈ܝܟܘܗܝ ܕܐܒܝ. ܐܝܪܬܘ ܡܠܟܘܬܐ ܏ܘܫ.</quote></p></item>
-                  <item n="5" xml:id="addition5"><locus from="64a"/><ref target="#handNote6"/>
-                    <p>Under <ref target="#addition4">this</ref> there was a note, now almost obliterated, identical in purport with the second note on fol. 63b. It begins: </p>
-                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ [ܕܡܪܩܘܣ] ܕܣܝܥܝܕ (sic) ܒܨܝܪܐ ܕܒܫܡ ܡܫܡܫܢܐ ܕܡܢ ܢܨܝܒܝܢ ܡܕܝܢܬܐ. ܏ܘܫ.</quote></p></item>
-                  <item n="6" xml:id="addition6"><locus from="64b"/><ref target="#handNote7"/>
-                    <p>On fol. 64 b there is a note, apparently of the <date from="0800" to="0900">ixth cent.</date>, written by a priest named <persName>Abraham</persName>, stating that he gave this volume to a congregation <foreign xml:lang="syr">ܟܢܘܫܝܐ</foreign> of monks, the name of which has been purposely effaced.</p>
+                  <item n="2" xml:id="addition2"><locus from="63b" to="63b"/>
+                    <p>On fol. 63b there is an ancient note, written by a priest named <persName ref="">Sābā</persName>, stating that this and some, other volumes were collated in the <placeName ref="">convent of Mār Zacchæus</placeName>.</p>
+                    <p><quote xml:lang="syr"><sic>ܐܬܦܚܡ ܟ̈ܬܒܐ ܗ̈ܠܝܢ ܒܕܝܪܐ ܕܡܪܝ ܙܟܝ ܟܠ ܡ̇ܢ ܕܩܪܐ ܢܨܠܐ ܡܛܠ ܡܪܢ ܥܠ ܟܠ ܡܢ ܕܠܐܝ ܒܦܘܚܡܐ ܕܟ̈ܬܒܐ ܗ̈ܠܝܢ ܐܢܐ ܣܒܐ ܩܫܝܫܐ ܟܬܒܝܬ ܨܠܘ ܥܠܝ܀܀܀</sic></quote></p></item>
+                  <item n="3" xml:id="addition3"><locus from="63b" to="63b"/>
+                    <p>Just below <ref target="#addition2">this</ref> there stands a note of more recent date, which informs us that the book belonged at one time to a deacon named <persName ref="">Sa'īd bar Cyrus of <placeName ref="">Nisibis</placeName></persName>. </p>
+                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܡܪܩܣ <choice><orig>ܣܥܝܕ</orig> <reg>ܕܣܥܝܕ</reg></choice> ܒܪ ܩܘܪܝܣ ܡܫܡܫܢܐ ܟܠ ܡܢ ܕܫܩܠ ܠܗ ܠܟܬܒܐ ܗܢܐ: ܐܝܟ ܕܢܩܪܐ ܒܗ: ܐܘ ܕܢܟܬܘܒ ܡܢܗ: ܏ܘܫ.</quote></p></item>
+                  <item n="4" xml:id="addition4"><locus from="64a" to="64a"/>
+                    <p>On fol. 64a we find a contemporary record of the death of <persName ref="">Isaac</persName>, abbat of the convent called <listPlace><place ref=""><placeName xml:lang="syr">ܕܝܪܐ ܕܐܘܪ̈ܛܝܐ</placeName><placeName> or the Convent of the Iberians</placeName></place></listPlace>, <date when-custom="0894" datingMethod="Seleucid">dated 1st Ilūl, A.G. 894</date>, <date when="0583" calendar="Gregorian">A.D.583</date>. See <bibl>Assemani, Bibl. Orient., t. i. p. 274, note.</bibl>:</p>
+                    <p><quote xml:lang="syr"> <sic>ܒܫܢܬ ܬܡ̈ܢܡܐܐ ܘܬܫ̈ܥܝܢ ܘܐܪ̈ܒܥ. ܐܝܟ ܡܢܝܢܐ ܕܝ̈ܘܢܝܐ. ܒܐܝܪܚ ܐܠܘܠ ܒܪܝܫܗ. ܢܦ̣ܩ ܡܢ ܥܠܡܐ ܗܢܐ ܕܥ̈ܩܬܐ̣ ܠܥܠܡܐ ܕܚܕ̈ܘܬܐ̣ ܫ̇ܘܐ ܠܕܘܟܪܢܐ ܛܒܐ ܡܪܝ ܐܝܣܚܩ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܩܕܝܫܬܐ ܕܐܘܪ̈ܛܝܐ. ܕܐܠܗܐ ܕܦܠܚ ܩܕܡܘܗܝ ܡܢ ܛܠܝܘܬܗ ܥܕܡܐ ܠܣܝܒܘܬܗ. ܗ̣ܘ ܢܫܘܝܘܗܝ ܒܪ̈ܚܡܘܗܝ ܠܗ̇ܝ ܒܪܬ ܩܠܐ ܕܐܡܪܐ̇. ܕܬܘ ܒܪ̈ܝܟܘܗܝ ܕܐܒܝ. ܐܝܪܬܘ ܡܠܟܘܬܐ ܏ܘܫ.</sic></quote></p></item>
+                  <item n="5" xml:id="addition5"><locus from="64a" to="64a"/>
+                    <p>Under <ref target="#addition4">this</ref> there was a note, now almost obliterated, identical in purport with <ref target="#addition3">the second note on fol. 63b</ref>. It begins: </p>
+                    <p><quote xml:lang="syr"><sic>ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ [ܕܡܪܩܘܣ] ܕܣܝܥܝܕ ܒܨܝܪܐ ܕܒܫܡ ܡܫܡܫܢܐ ܕܡܢ ܢܨܝܒܝܢ ܡܕܝܢܬܐ. ܏ܘܫ.</sic></quote></p></item>
+                  <item n="6" xml:id="addition6"><locus from="64b" to="64b"/>
+                    <p>On fol. 64 b there is a note, apparently of the <date from="0800" to="0900">ixth cent.</date>, written by a priest named <persName ref="">Abraham</persName>, stating that he gave this volume to a congregation <foreign xml:lang="syr">ܟܢܘܫܝܐ</foreign> of monks, the name of which has been purposely effaced.</p>
                     <p><quote xml:lang="syr">ܐܬܚܦܛ ܘܝܗ̣ܒ ܟܬܒܐ ܗܢܐ ܕܡܪܩܘܣ. . . ܐܒܪܗܡ ܩܫܝܫܐ. ܚܠܦ ܦܘܪܩܢܐ ܕܚ̈ܝܘܗܝ̣ ܘܕܘܟܪܢܐ ܕܐܒܗ̈ܘܗܝ ܘܕܟܠ ܥܢܝ̈ܕܘܗܝ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܩܕܝܫܐ: ܘܡܛܠ ܦܘܪܩܢܐ ܕܥܬܝܕ̣. ܝܨܦ ܘܣܡ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܠܩܪܝܢܐ ܘܠܗܓܝܢܐ ܕܐܚ̈ܐ̣. ܗ̣ܘ ܢܬܠ ܠܗ ܕܢܫܟܚ ܪ̈ܚܡܐ ܘܦܘܪܩܢܐ܇ ܡܐ ܕܡܬܓܠܐ ܡܫܝܚܐ ܐܠܗܢ ܒܫܘܒܚܗ.. ܥܡ ܟܠܗܘܢ ܩܕܝܫ̈ܐ. ܘܠܥܢܝ̈ܕܘܗܝ ܢܥܒܕ ܕܘܟܪܢܗܘܢ ܒܐܘܪܫܠܡ ܕܒܫܡܝܐ.. ܐܢ ܘܐܡܝܢ.. ܘܟܠ ܡ̇ܢ ܕܫܩ̇ܠ ܠܗ ܠܟܬܒܐ ܗܢܐ: ܐܝܟ ܕܢܩܪܐ ܒܗ: ܐܘ ܕܢܟܬܘܒ ܡܢܗ: ܐܘ ܒܚܕ ܡܢ ܦܘܪ̈ܣܝܢ: ܘܟܐܡ ܥܠܘܗܝ ܘܠܐ ܡܦܢܐ ܠܗ ܠܟܢܘܫܝܐ. . . ܬܚܝܬ ܡܠܬܐ ܕܚܝܠܬܐ ܕܐܠܗܐ ܐܝܬܘܗܝ܀</quote></p></item>
-                  <item n="7" xml:id="addition7"><locus from="64b"/><ref target="#handNote8"/>
+                  <item n="7" xml:id="addition7"><locus from="64b" to="64b"/>
                     <p>Above <ref target="#addition6">this</ref> there is written in a ruder and more modern hand: </p>
-                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܠܒܬ (sic) ܝܠܕܬ ܐܠܗܐ ܕܣܘܪܪܝܝܐ (sic) ܢܣܒ (?)ܠܗ ܡܢ ܕܝܪܐ ܬܚܬ (sic) ܦܣܩ ܐܝܬܘ.</quote></p></item>
-                  <item n="8" xml:id="addition8"><locus from="60b"/><ref target="#handNote9 #a1"/>
-                    <p>On the margin of fol. 60b someone has written Ps. liv. 1 and Ps. xxvii. 9.</p></item>
+                    <p><quote xml:lang="syr"><sic>ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܠܒܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪܪܝܝܐ ܢܣܒ (?)ܠܗ ܡܢ ܕܝܪܐ ܬܚܬ ܦܣܩ ܐܝܬܘ.</sic></quote></p></item>
+                  <item n="8" xml:id="addition8"><locus from="60b" to="60b"/>
+                    <p>On the margin of fol. 60b someone has written <title ref="http://syriaca.org/work/19" type="supplied">Ps. liv. 1 and Ps. xxvii. 9</title>.</p></item>
+                  <item n="9" xml:id="addition9">
+                    <p>Some of the lessons have been marked by later hands.</p>
+                  </item>
                 </list>
               </additions>
              </physDesc>
             <history>
               <origin>
-                <origDate from="0500" to="0600">vith cent.</origDate>
+                <origDate notBefore="0500" notAfter="0583" notAfter-custom="0894" datingMethod="Seleucid">vith cent., certainly previous to the year 894, A.D. 583</origDate>
               </origin>
               <provenance>
-                <p>There is an <ref target="#addition2">ancient note</ref>, written by a priest named Sābā, stating that, this and some, other volumes were collated in the convent of Mār Zacchæus.</p>
-                <p>Just below <ref target="#addition2">this</ref> there stands a <ref target="#addition3">note</ref> of more recent date, which informs us that the book belonged at one time to a deacon named Sa'īd bar Cyrus of Nisibis. </p>
+                <p><ref target="#addition2 #addition3 #addition6">See additions.</ref></p>
               </provenance>
             </history>
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
               </adminInfo>
@@ -306,7 +316,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-10" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-08-10" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-12-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: small clean up and tightening up handNotes and additions</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
