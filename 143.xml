@@ -9,7 +9,8 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -17,6 +18,10 @@
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
@@ -118,21 +123,29 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="2">
+              <handDesc hands="3">
                 <handNote xml:id="p1handNote1" scope="major" script="syr" medium="unknown">
                   <desc>The writing is good and regular, of the <origDate from="1100" to="1200">xiith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr-Syrj" medium="unknown">
-                  <desc>A very few Greek vowels on foll. <locus>4b</locus> and <locus>5a</locus>.</desc>
+                  <desc><ref target="#p1addition1">See additions.</ref></desc>
                 </handNote>
-                <handNote xml:id="p1handNote3" scope="minor" script="syr" medium="coloured"><ref target="#p1decoNote1"/><locus from="1a" to="1a"/>
+                <handNote xml:id="p1handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#p1decoNote1"/>See decoration notes.</desc>
                 </handNote>
               </handDesc>
               <decoDesc>
                 <decoNote xml:id="p1decoNote1" type="illustration"><locus from="1a" to="1a"/>
-                  <desc>On fol. 1a there is a coloured figure of the Cross, with the words <foreign xml:lang="syr">ܝܫܘܥ ܡܫܝܚܐ</foreign>.</desc>
+                  <desc>On fol. 1a there is a coloured figure of the Cross, with the words <quote xml:lang="syr">ܝܫܘܥ ܡܫܝܚܐ</quote>.</desc>
                 </decoNote>
               </decoDesc>
+              <additions>
+                <list>
+                  <item n="1" xml:id="p1addition1">
+                    <p>A very few Greek vowels on foll. 4b and 5a.</p>
+                  </item>
+                </list>
+              </additions>
             </physDesc>
             <history>
               <origin>
@@ -177,15 +190,15 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1" defective="true">
-                <locus from="12" to="13"/>
+                <locus from="12" to="13">Foll. 12-13</locus>
                 <title ref="http://syriaca.org/work/73" type="supplied">Fragments of the Gospel of S. Mark, according to the Peshitta version</title>
                 <note><p>Contains ch. vi. 18—33, fol. 11; ch. ix. 31 —x. 19.</p>
                   <p>The lessons are rubricated on the margins by the hand of the scribe.</p></note>
               </msItem>
               <msItem n="2" xml:id="p2a2" defective="true">
-                <locus from="16" to="17"/>
+                <locus from="14" to="17">Foll. 14-17</locus>
                 <title ref="http://syriaca.org/work/74" type="supplied">Fragments of the Gospel of S. Luke, according to the Peshitta version</title>
-                <note><p>Contains ch. i. 61—ii. 22, foll. 14,15; ch. iv. 2—38.</p>
+                <note><p>Contains ch. i. 61—ii. 22, foll. 14, 15; ch. iv. 2—38, foll. 16, 17.</p>
                   <p>The lessons are rubricated on the margins by the hand of the scribe.</p></note>
               </msItem>
             </msContents>
@@ -217,16 +230,25 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="21 23">
-                    <locus from="11" to="17"/>
                     <p>There are from 21 to 23 lines in each page. </p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="1">
-                <handNote xml:id="p2handNote1" scope="major" script="syr-Syrj" medium="unknown">
-                  <desc>The writing is neat and regular, of the <origDate from="0900" to="1100">xth or xith cent.</origDate>, with occasional Syriac and Greek vowel-points. </desc>
+              <handDesc hands="2">
+                <handNote xml:id="p2handNote1" scope="major" script="syr" medium="unknown">
+                  <desc>The writing is neat and regular, of the <origDate from="0900" to="1100">xth or xith cent.</origDate>. </desc>
+                </handNote>
+                <handNote xml:id="p2handNote2" scope="minor" script="syr-Syrj" medium="unknown">
+                  <desc><ref target="#p2addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
+              <additions>
+                <list>
+                  <item n="1" xml:id="p2addition1">
+                    <p>Occasional Syriac and Greek vowel-points.</p>
+                  </item>
+                </list>
+              </additions>
             </physDesc>
             <history>
               <origin>
@@ -274,21 +296,21 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p3a1" defective="true">
-                <locus from="18a" to="24a"/>
+                <locus from="18a" to="24a">Foll. 18a-24a</locus>
                 <title ref="http://syriaca.org/work/75" type="supplied">Fragments of the Gospel of S. John, according to the Peshitta version</title>
-                <finalRubric xml:lang="syr"><locus from="24b" to="24b"/>ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܝܘܚܢܢ ܫܠܝܚܐ: ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܘܣ</finalRubric>
+                <finalRubric xml:lang="syr">ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܝܘܚܢܢ ܫܠܝܚܐ: ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܘܣ<locus from="24b" to="24b"/></finalRubric>
                 <note>Contains ch. xvii.1—16, xviii. 6—22, xix. 11—24, xix. 38—xx.10, and xx. 25 to the end.</note>
               </msItem>
               <msItem n="2" xml:id="p3a2">
-                <locus from="24b" to="30b"/>
-                <title ref="" type="supplied">The Commandments of our Lord, extracted from the four gospels.</title>
+                <locus from="24b" to="30">Foll. 24b-30</locus>
+                <title ref="" type="supplied">The Commandments of our Lord, extracted from the four gospels, 99 in number.</title>
                 <rubric xml:lang="syr">ܬܘܒ ܟ̇ܬܒܝܢܢ ܦܘ̈ܩܕܢܐ ܩܕ̈ܝܫܐ: ܕܡܪܢ ܕܒܐ̈ܘܢܓܠܝܐ ܣ̈ܓܝܕܐ ܘܩ̈ܕܝܫܐ:<locus from="24b" to="24b"/></rubric>
                </msItem>
               <msItem n="3" xml:id="p3a3" defective="true">
-                <locus from="30b" to="42"/>
+                <locus from="30b" to="42b">Foll. 30b-42b</locus>
                 <title ref="" type="supplied">Extracts from the Epistles of S. Paul, according to the Peshitta version, ending with 2nd Timothy, ch. iii. 5.</title>
                 <rubric xml:lang="syr"><locus from="30b" to="30b"/>ܬܘܒ ܒܥܘܕܪܢ ܡܪܢ ܟ̇ܬܒܝܢܢ ܡ̈ܠܐ ܡ̈ܓܒܝܬܐ ܡܢ ܦܘܠܘܣ ܩ̇ܪܝܐ ܘܫܠܝܚܐ</rubric>
-                <finalRubric xml:lang="syr"><locus from="42b" to="42b"/>ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܟܬܒܘܢܐ ܗܢܐ ܒܥܘܕܪܢ ܡܪܢ </finalRubric>
+                <finalRubric xml:lang="syr">ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܟܬܒܘܢܐ ܗܢܐ ܒܥܘܕܪܢ ܡܪܢ <locus from="42b" to="42b"/></finalRubric>
                 <colophon><ref target="#p3addition1">See below.</ref></colophon>
                 <note><p>They are very imperfect, as leaves as wanting after foll. <locus>31</locus>, <locus>35</locus>, <locus>36</locus>, and <locus>40</locus>.</p></note>
               </msItem>
@@ -321,23 +343,30 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="20 25">
-                    <locus from="18" to="42"/>
                     <p>Each page has from 20-25 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="2">
+              <handDesc hands="3">
                 <handNote xml:id="p3handNote1" scope="major" script="syr" medium="unknown">
-                  <desc>The writing seems to of the <origDate from="1000" to="1200">xith or xiith cent.</origDate>, with occasional Syriac vowel-points. </desc>
+                  <desc>The writing seems to of the <origDate from="1000" to="1200">xith or xiith cent.</origDate>. </desc>
                 </handNote>
                 <handNote xml:id="p3handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#p3addition1">See additions.</ref></desc>
                 </handNote>
+                <handNote xml:id="p3handNote3" scope="minor" script="syr-Syrn" medium="unknown">
+                  <desc><ref target="#p3addition2">See additions.</ref></desc>
+                </handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="p3addition1"><locus from="42b" to="42b"/><ref target="#p3a3"/>
-                    <p>The subscription was followed by a note, now erased, the first line of which contained a date, as is clear from the single legible word <foreign xml:base="syr">ܕܝܘ̈ܢܝܐ</foreign>.</p></item>
+                  <item n="1" xml:id="p3addition1"><locus from="42b" to="42b"/>
+                    <p>The subscription was followed by a note, now erased, the first line of which contained a date, as is clear from the single legible word</p>
+                    <p><quote xml:base="syr">ܕܝܘ̈ܢܝܐ</quote>.</p>
+                  </item>
+                  <item n="2" xml:id="p3addition2">
+                    <p>Occasional Syriac vowel points.</p>
+                  </item>
                 </list>
               </additions>
             </physDesc>
@@ -454,12 +483,12 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="">
-                <handNote xml:id="p4handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
+                <handNote xml:id="p4handNote1" scope="" script="" medium="">
                   <desc></desc>
                 </handNote>
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
+                <decoNote xml:id="p4decoNote1" type="" medium="">
                   <desc></desc>
                 </decoNote>
               </decoDesc>
@@ -471,12 +500,12 @@
                 </list>
               </additions>
               <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
+                <binding xml:id="p4binding1" contemporary=""/>
+                <decoNote xml:id="p4bindingdeco1"/>
                 <condition/>
               </bindingDesc>
               <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
+                <seal xml:id="p4seal1" contemporary="">
                   <p/>
                 </seal>
               </sealDesc>
@@ -630,7 +659,9 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change></revisionDesc>
+      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-12-12" who="http://syriaca.org/editors.xml#thannah">Initial edit: Cleaned up loci and additions in first three msParts.</change>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
     <!-- facsimile information about the manuscript -->
