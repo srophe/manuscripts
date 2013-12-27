@@ -9,7 +9,8 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -17,6 +18,10 @@
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
@@ -78,31 +83,34 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1">
-                <locus from="1b" to="48b"/>
-                <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, according to the Peshitta version</title>
+                <locus from="1b" to="87">Foll. 1b-87</locus>
+                <title ref="http://syriaca.org/work/216" type="supplied">The Gospels of S. Matthew and S. John, according to the Peshitta version</title>
+                <msItem n="2" xml:id="b1">
+                <locus from="1b" to="48">Foll. 1b-48</locus>
+                <title ref="http://syriaca.org/work/72" type="supplied">S. Matthew</title>
+              </msItem>
+              <msItem n="3" xml:id="b2">
+                <locus from="48b" to="87">Foll. 48b-87</locus>
+                <title ref="http://syriaca.org/work/75" type="supplied">S. John</title>
+              </msItem>
                 <note>The lessons are rubricated in the text of the Gospels.</note>
               </msItem>
-              <msItem n="2" xml:id="a2">
-                <locus from="48b" to="87a"/>
-                <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
-                <note>The lessons are rubricated in the text of the Gospels.</note>
-              </msItem>
-              <msItem n="3" xml:id="a3">
-                  <locus from="87a" to="87b"/>
+              <msItem n="4" xml:id="a2" defective="unknown">
+                  <locus from="87a" to="87b">Fol. 87a</locus>
                 <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of S. Paul to the Hebrews, ch. i. 13—ii. 13, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܥܒܪ̈ܝܐ܀ ܩܪܝܢܐ ܒܕܘܟܪܢܐ ܕܡܝܟܝܐܝܠ ܦܘܠܘܣ ܫܠܝܚܐ ܐܓܪܬܐ ܕܠܘܬ 
                     <locus from="87a" to="87a"/>
                   </rubric>
                 </msItem>
-              <msItem n="4" xml:id="a4">
-                <locus from="87b" to="88b"/>
+              <msItem n="5" xml:id="a3" defective="unknown">
+                <locus from="87b" to="88">Foll. 87b-88</locus>
                 <title ref="http://syriaca.org/work/97" type="supplied">The Epistle of S. Jude, vv. 1—13, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܩܬܠܝܩܘܢ ܐܓܪܬܐ ܕܝܗܘܕܐ. ܫܠܝܚܐ. ܩܪܝܢܐ ܕܡܝܟܝܐܝܠ ܡܠܐܟܐ 
                   <locus from="87b" to="87b"/>
                 </rubric>
               </msItem>
-              <msItem n="5" xml:id="a5">
-                <locus from="88b" to="88b"/>
+              <msItem n="6" xml:id="a4" defective="unknown">
+                <locus from="88b" to="88b">Foll. 88b</locus>
                 <title ref="http://syriaca.org/work/76" type="supplied">The Acts of the Apostles, ch. vii. 30— 39, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܦܪܟܣܝܣ ܕܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ. ܩܪܝܢܐ ܕܡܝܟܝܐܝܠ ܡܠܐܟܐ 
                   <locus from="88b" to="88b"/>
@@ -132,7 +140,7 @@
                   <condition>
                     <list>
                       <item>
-                        <p>Foll. <locus>86-88</locus> are slightly stained and torn.</p>
+                        <p>Foll. <locus>1</locus>, <locus>21</locus>, and <locus>86-88</locus> are slightly stained and torn.</p>
                       </item>
                     </list>
                   </condition>
@@ -145,10 +153,10 @@
               </objectDesc>
               <handDesc hands="5">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a fine, large Estrangela, of the <origDate from="0500" to="0600">vith cent.</origDate>, with the exception of foll. 87 and 88, which are in a hand of the <date from="0800" to="1000">ixth or xth cent</date></desc>
+                  <desc>The writing is a fine, large Estrangela, of the <origDate from="0500" to="0600">vith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>The <ref target="#handNote1">exception</ref> of foll. <locus>87</locus> and <locus>88</locus>, which are in a hand of the <date from="0800" to="1000">ixth or xth cent.</date></desc>
+                  <desc>Foll. <locus>87 and 88</locus> are in a hand of the <date from="0800" to="1000">ixth or xth cent.</date></desc>
                 </handNote>
                 <handNote xml:id="handNote3" scope="minor" script="syr-Syrj" medium="unknown">
                   <desc><ref target="#addition1">See additions.</ref></desc>
@@ -162,13 +170,13 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="2b" to="3a"/><ref target="#handNote3"/>
-                    <p>Greek vowels have been occasionally added, e.g. on foll. <locus>2b</locus> and <locus>3a</locus>.
-                    </p><quote/></item>
-                  <item n="2" xml:id="addition2"><locus from="1a" to="1a"/><ref target="#handNote4"/>
+                  <item n="1" xml:id="addition1">
+                    <p>Greek vowels have been occasionally added, e.g. on foll. <locus from="2b" to="3a">2b and 3a</locus>.
+                    </p></item>
+                  <item n="2" xml:id="addition2"><locus from="1a" to="1a"/>
                     <p>The writing on fol. 1a  has been almost wholly effaced.</p></item>
-                  <item n="2" xml:id="addition3"><ref target="#handNote5"/>
-                    <p>The lessons are rubricated in the text of the Gospels, and a few have been noted on the margins by later hands.</p></item>
+                  <item n="2" xml:id="addition3">
+                    <p>A few lessons have been noted on the margins by later hands.</p></item>
                 </list>
               </additions>
             </physDesc>
@@ -293,7 +301,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-12-27" who="http://syriaca.org/editors.xml#thannah">Initial edit: rearranged msItems, condition, and handNotes</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

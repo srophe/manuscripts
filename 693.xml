@@ -20,6 +20,10 @@
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
@@ -71,7 +75,7 @@
             <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/694</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS 4738 fol. 1</idno>
+                <idno type="BL-Shelfmark">Add MS 14738 fol. 1</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -86,12 +90,12 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="unknown">
-                <locus from="1a" to="1b"/>
+                <locus from="1a" to="1b">Fol. 1</locus>
                 <title ref="http://syriaca.org/work/1" type="supplied">Genesis, ch. i. v. 7—18, according to the Peshitta version</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="chart">
                   <support>
                     <material>Paper</material>
@@ -110,13 +114,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p1handNote1" scope="major" script="syr" medium="unknown">
+                <handNote xml:id="p1handNote1" scope="sole" script="syr" medium="unknown">
+                  <desc>Written in a hand of the <origDate notBefore="1300" notAfter="1400">xivth cent.</origDate></desc>
                 </handNote>
               </handDesc>
               </physDesc>
             <history>
               <origin>
-                <origDate notBefore="1400" notAfter="1500">xivth cent.</origDate>
+                <origDate notBefore="1300" notAfter="1400">xivth cent.</origDate>
               </origin>
              </history>
             <additional>
@@ -190,7 +195,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -306,12 +311,12 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p3a1">
-                <locus from="6" to="7">ff. 6-7</locus>
-                <title ref="http://syriaca.org/work/76">The Acts of the Apostles, ch. xii. 20— xiii. 5, according to the Peshitta version.</title>
+                <locus from="6" to="7">Foll. 6-7</locus>
+                <title ref="http://syriaca.org/work/76" type="supplied">The Acts of the Apostles, ch. xii. 20— xiii. 5, according to the Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="chart">
                   <support><material>Paper</material></support>
                   <extent>
@@ -328,12 +333,12 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="13 14">
-                    <locus from="6" to="7"/>
+                    <p>13 or 14 lines in each page.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p3handNote1" scope="major" script="syr-Syre" medium="unknown">
+                <handNote xml:id="p3handNote1" scope="sole" script="syr-Syre" medium="unknown">
                   <desc>The writing is a large. Estrangela of the <origDate from="1200" to="1300">xiiith cent.</origDate></desc>
                 </handNote>
               </handDesc>
@@ -386,13 +391,13 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p4a1">
-                <locus from="8" to="9"/>
-                <title ref="http://syriaca.org/work/90">The Epistle to the Hebrews, according to the Peshitta version</title>
+                <locus from="8" to="9">Foll. 8-9</locus>
+                <title ref="http://syriaca.org/work/90" type="supplied">The Epistle to the Hebrews, according to the Peshitta version</title>
                 <note>Contains ch. xii. 13— xiii. 19.</note>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="chart">
                   <support><material>Paper</material></support>
                   <extent>
@@ -409,12 +414,12 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="19 21">
-                    <locus from="8" to="9"/>
+                    <p>From 19 to 21 lines in each page.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p4handNote1" scope="major" script="syr" medium="unknown">
+                <handNote xml:id="p4handNote1" scope="sole" script="syr" medium="unknown">
                   <desc>Written in a rather inelegant hand of the <origDate from="1200" to="1400">xiiith or xivth cent.</origDate></desc>
                 </handNote>
               </handDesc>
@@ -498,7 +503,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -651,7 +656,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -804,7 +809,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -957,7 +962,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -1110,7 +1115,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -1263,7 +1268,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -1416,7 +1421,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -1569,7 +1574,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -1722,7 +1727,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -1875,7 +1880,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -2028,7 +2033,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -2181,7 +2186,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -2334,7 +2339,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -2487,7 +2492,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -2640,7 +2645,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -2793,7 +2798,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -2946,7 +2951,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -3099,7 +3104,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -3252,7 +3257,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -3405,7 +3410,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -3558,7 +3563,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -3711,7 +3716,7 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
+              <objectDesc form="codex">
                 <supportDesc material="">
                   <support><material/></support>
                   <extent>
@@ -3905,19 +3910,119 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target="#Part4"/><!-- This target will be used for each msPart or not used if only one part -->  
-            <ref target="#bible-0t"/>       
+            <ref target="#Part1"/>  
+            <ref target="#bible-ot"/>       
+          </item>
+          <item>
+            <ref target="#Part2"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part3"/>  
+            <ref target="#bible-nt"/>       
+          </item>
+          <item>
+            <ref target="#Part4"/>  
+            <ref target="#bible-nt"/>       
+          </item>
+          <item>
+            <ref target="#Part5"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part6"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part7"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part8"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part9"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part10"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part11"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part12"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part13"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part14"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part15"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part16"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part17"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part18"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part19"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part20"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part21"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part22"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part23"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part24"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part25"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part26"/>  
+            <ref target=""/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">CREATED: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
+      <change when="2013-07-08" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-12-27" who="http://syriaca.org/editors.xml#thannah">Initial edit: updating loci, object descriptions, layout descriptions, adding text classifications</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
   <facsimile>

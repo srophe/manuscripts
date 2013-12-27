@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,35 +83,35 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1" to="91">Foll. 1-91</locus>
+                <locus from="1a" to="91">Foll. 1a-91</locus>
                 <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta version</title>
               <msItem n="2" xml:id="b1" defective="true">
-                <locus from="1" to="13">Foll. 1-13</locus>
+                <locus from="1a" to="13">Foll. 1a-13</locus>
                 <title ref="http://syriaca.org/work/77" type="supplied">The Epistle of Romans, according to the Peshitta version</title>
-                <note></note>
+                <note>Missing portions: ch. i. 1-13, v. 13-vii. 19, viii. 11-27, and xi. 30 to the end.</note>
               </msItem>
                 <msItem n="3" xml:id="b2" defective="true">
-                  <locus from="13" to="24">Foll. 13-24</locus>
+                  <locus from="13a" to="24">Foll. 13a-24</locus>
                   <title ref="http://syriaca.org/work/78" type="supplied">The Epistle of 1 Corinthians, according to the Peshitta version</title>
                   <note>Missing portions: ch. i. 1—iii. 17, v. 10—vi. 15, vii. 14—xi. 20, and xii. 5—25.</note>
                 </msItem>
                 <msItem n="4" xml:id="b3" defective="true">
-                  <locus from="24" to="36">Foll. 24-36</locus>
+                  <locus from="24a" to="36">Foll. 24a-36</locus>
                   <title ref="http://syriaca.org/work/79" type="supplied">The Epistle of 2 Corinthians, according to the Peshitta version</title>
                   <note>Missing portions: ch. viii. 7—x. 2 and xii. 19 to the end.</note>
                 </msItem>
                 <msItem n="5" xml:id="b4" defective="true">
-                  <locus from="36" to="37">Foll. 36-37</locus>
+                  <locus from="36a" to="37">Foll. 36a-37</locus>
                   <title ref="http://syriaca.org/work/80" type="supplied">The Epistle of Galatians, according to the Peshitta version</title>
                   <note>Beginning with ch. v. 22.</note>
                 </msItem>
                 <msItem n="6" xml:id="b5" defective="true">
-                  <locus from="37" to="42">Foll. 37-42</locus>
+                  <locus from="37a" to="42">Foll. 37a-42</locus>
                   <title ref="http://syriaca.org/work/81" type="supplied">The Epistle of Ephesians, according to the Peshitta version</title>
                   <note>Beginning with ch. ii. 19.</note>
                 </msItem>
                 <msItem n="7" xml:id="b6" defective="true">
-                  <locus from="42" to="46">Foll. 42-46</locus>
+                  <locus from="42a" to="46">Foll. 42a-46</locus>
                   <title ref="http://syriaca.org/work/82" type="supplied">The Epistle of Philippians, according to the Peshitta version</title>
                   <note>Missing portion : ch. ii. 25—iii. 11.</note>
                 </msItem>
@@ -120,12 +120,12 @@
                   <title ref="http://syriaca.org/work/83" type="supplied">The Epistle of Colossians, according to the Peshitta version</title>
                 </msItem>
                 <msItem n="9" xml:id="b8">
-                  <locus from="52" to="57">Foll. 52-57</locus>
+                  <locus from="52a" to="57">Foll. 52a-57</locus>
                   <title ref="http://syriaca.org/work/84" type="supplied">The Epistle of 1 Thessalonians, according to the Peshitta version</title>
                   <note></note>
                 </msItem>
                 <msItem n="10" xml:id="b9">
-                  <locus from="57" to="59b">Foll. 57-59b</locus>
+                  <locus from="57a" to="59">Foll. 57a-59</locus>
                   <title ref="http://syriaca.org/work/85" type="supplied">The Epistle of 2 Thessalonians, according to the Peshitta version</title>
                   <note></note>
                 </msItem>
@@ -135,17 +135,17 @@
                   <note></note>
                 </msItem>
                 <msItem n="12" xml:id="b11">
-                  <locus from="66" to="70b">Foll. 66-70b</locus>
+                  <locus from="66a" to="70">Foll. 66a-70</locus>
                   <title ref="http://syriaca.org/work/87" type="supplied">The Epistle of 2 Timothy, according to the Peshitta version</title>
                   <note></note>
                 </msItem>
                 <msItem n="13" xml:id="b12">
-                  <locus from="70b" to="73b">Foll. 70b-73b</locus>
+                  <locus from="70b" to="73">Foll. 70b-73</locus>
                   <title ref="http://syriaca.org/work/88" type="supplied">The Epistle of Titus, according to the Peshitta version</title>
                   <note></note>
                 </msItem>
                 <msItem n="14" xml:id="b13">
-                  <locus from="73b" to="74b">Foll. 73b-74b</locus>
+                  <locus from="73b" to="74">Foll. 73b-74</locus>
                   <title ref="http://syriaca.org/work/89" type="supplied">The Epistle of Philemon, according to the Peshitta version</title>
                   <note></note>
                 </msItem>
@@ -154,10 +154,8 @@
                   <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews, according to the Peshitta version</title>
                   <note>Missing portion : ch. i. 1—ii. 4.</note>
                 </msItem>  
-                <colophon>
-                  <ref target="#addition1">See below.
-                  </ref>
-                </colophon>
+                <finalRubric xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܐܓܪ̈ܬܐ:  ; ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ: ܫܠܝܚܐ: ܛܘܒܢܐ<locus from="91" to="91"/></finalRubric>
+                <note>Followed by the usual doxology.</note>
                 <note>Of the lessons, some are rubricated in the text.</note>
               </msItem>
             </msContents>
@@ -184,7 +182,7 @@
                   <condition>
                     <list>
                       <item>
-                        <p>Some leaves are, much stained and torn, especially foll. <locus>1</locus>, <locus>12</locus>, <locus>20</locus>, <locus>21</locus>, <locus>23</locus>, <locus>26</locus>, <locus>27</locus>, <locus>34—36</locus>, <locus>44</locus>, and <locus>91</locus>.</p>
+                        <p>Some leaves are much stained and torn, especially foll. <locus>1</locus>, <locus>12</locus>, <locus>20, 21</locus>, <locus>23</locus>, <locus>26, 27</locus>, <locus>34—36</locus>, <locus>44</locus>, and <locus>91</locus>.</p>
                       </item>
                       <item>
                         <p>Leaves are wanting at the beginning, and after foll. <locus>6</locus>, <locus>7</locus>, <locus>12</locus>, <locus>14</locus>, <locus>15</locus>, <locus>16</locus>, <locus>31</locus>, <locus>35</locus>,<locus>36</locus>, <locus>44</locus>, and <locus>74</locus>.</p>
@@ -203,7 +201,7 @@
                   <desc>This volume is written in a small, neat Estrangela of the <origDate from="0500" to="0700">vith or viith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
-                  <desc>Greek vowels have, been added in a few places by a later hand.</desc>
+                  <desc><ref target="#addition1">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition2">See additions</ref></desc>
@@ -212,10 +210,7 @@
               <additions>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="91" to="91"/>
-                    <p>Colophon:</p>
-                    <p><quote xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܐܓܪ̈ܬܐ:  ; ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ: ܫܠܝܚܐ: ܛܘܒܢܐ</quote></p>
-                    <p>followed by the usual doxology.</p>
+                    <p>Greek vowels have, been added in a few places by a later hand.</p>
                   </item>
                   <item n="2" xml:id="addition2">
                     <p>Some lessons rubricated in the text were noted by later hands on the margins.</p>
@@ -348,6 +343,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-02" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-12-26" who="http://syriaca.org/editors.xml#thannah">Initial edit: formatting loci, final rubric, and additions</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

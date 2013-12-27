@@ -9,18 +9,19 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J.
-          Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D.
-          Hannah</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
@@ -92,13 +93,13 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1">
-                <locus from="1" to="1"/>
+                <locus from="1a" to="1b">Fol. 1</locus>
                 <title ref="http://syriaca.org/work/18" type="supplied">Job, ch. i. 5—14, according
                   to the Peshitta version</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support>
                     <material>Vellum</material>
@@ -117,14 +118,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p1handNote1" scope="major" script="syr" medium="unknown">
-                  <desc>Written in a current hand of the <origDate notBefore="1000" notAfter="1200">xth or xith cent.</origDate></desc>
+                <handNote xml:id="p1handNote1" scope="sole" script="syr" medium="unknown">
+                  <desc>Written in a current hand of the <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate></desc>
                 </handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="1000" notAfter="1200">xth or xith cent.</origDate>
+                <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
               </origin>
             </history>
             <additional>
@@ -171,18 +172,18 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1">
-                <locus from="2a" to="2a"/>
-                <title ref="http://syriaca.org/work/18">Job, ch. xii. 8—14, according to the
+                <locus from="2a" to="2a">Fol. 2a</locus>
+                <title ref="http://syriaca.org/work/18" type="supplied">Job, ch. xli. 8—14, according to the
                   Peshitta version</title>
               </msItem>
               <msItem n="2" xml:id="p2a2">
-                <locus from="2b" to="2b"/>
-                <title ref="http://syriaca.org/work/18">Job, ch. xli. 18—xlii. 2, according to the
+                <locus from="2b" to="2b">Fol. 2b</locus>
+                <title ref="http://syriaca.org/work/18" type="supplied">Job, ch. xli. 18—xlii. 2, according to the
                   Peshitta version</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
@@ -202,7 +203,7 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
+                <handNote xml:id="p2handNote1" scope="sole" script="syr-Syre" medium="unknown">
                   <desc>Written in a regular Estrangela of the  <origDate notBefore="0700" notAfter="0800">viiith cent</origDate>.</desc>
                 </handNote>
               </handDesc>
@@ -260,13 +261,13 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p3a1">
-                <locus from="3" to="3"/>
-                <title ref="http://syriaca.org/work/6">Joshua, ch. xxi. 10—25, according to the
+                <locus from="3a" to="3b">Fol. 3</locus>
+                <title ref="http://syriaca.org/work/6" type="supplied">Joshua, ch. xxi. 10—25, according to the
                   Peshitta version</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material/>Vellum</support>
                   <extent>
@@ -284,15 +285,15 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="p3handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>Written in a small, regular Estrangela of the <origDate notBefore="0500" notAfter="0800">vith or viith cent.</origDate></desc>
+                  <desc>Written in a small, regular Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="p3handNote2" scope="minor" script="syr-Syrn" medium="unknown">
-                  <desc>Syriac vowels and diacritical points have been added by a later hand.</desc>
+                  <desc><ref target="#p3addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="p3addition1"><ref target="#p2handNote2"/>
+                  <item n="1" xml:id="p3addition1">
                     <p>Syriac vowels and diacritical points have been added by a later hand.</p>
                   </item>
                  </list>
@@ -301,7 +302,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="0500" notAfter="0800">vith or viith cent.</origDate>
+                <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>
@@ -1123,13 +1124,13 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p9a1" defective="">
-                <locus from="37a" to="37b"/>
-                <title ref="http://syriaca.org/work/28">Hosea, ch. x. 14 — xi. 8, according to the
+                <locus from="37a" to="37b">Fol. 37</locus>
+                <title ref="http://syriaca.org/work/28" type="supplied">Hosea, ch. x. 14 — xi. 8, according to the
                   Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material/>Vellum</support>
                   <extent>
@@ -1151,20 +1152,21 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="19"> 
+                    <p>There are 19 lines on each page.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="p9handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is an elegant Estrangela of the vith or viith cent.</desc>
+                  <desc>The writing is an elegant Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="p9handNote2" scope="minor" script="syr-Syrj" medium="">
-                  <desc>Some Greek vowels have been added by a later hand.</desc>
+                  <desc><ref target="#p9addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="p9addition1"><ref target="#p9handNote2"/>
+                  <item n="1" xml:id="p9addition1">
                     <p>Some Greek vowels have been added by a later hand.</p>
                   </item>
                 </list>
@@ -1223,32 +1225,32 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p10a1" defective="true">
-                <locus from="38a" to="46b"/>
-                <title ref="http://syriaca.org/work/50">Fragments of the twelve minor Prophets,
+                <locus from="38a" to="46b">Foll. 38a-46b</locus>
+                <title ref="http://syriaca.org/work/50" type="supplied">Fragments of the twelve minor Prophets,
                   according to the Peshitta version</title>
-              </msItem>
               <msItem n="2" xml:id="p10b1">
-                <locus from="38a" to="38a"/>
-                <title ref="http://syriaca.org/work/36">Haggai, ch. i. 1—11, according to the
+                <locus from="38a" to="39">Foll. 38a-39</locus>
+                <title ref="http://syriaca.org/work/36" type="supplied">Haggai, ch. i. 1—11, according to the
                   Peshitta version</title>
               </msItem>
               <msItem n="3" xml:id="p10b2">
-                <locus from="39a" to="46b"/>
-                <title ref="http://syriaca.org/work/37">Zechariah, ch. i. 6—iii. 2, v. 9—vi. 9, and
+                <locus from="39a" to="46">Foll. 39a-46</locus>
+                <title ref="http://syriaca.org/work/37" type="supplied">Zechariah, ch. i. 6—iii. 2, v. 9—vi. 9, and
                   xiii. 3 to the end, according to the Peshitta version</title>
               </msItem>
               <msItem n="4" xml:id="p10b3">
-                <locus from="46b" to="46b"/>
-                <title ref="http://syriaca.org/work/38">Malachi, ch. i. 1—4, according to the
+                <locus from="46b" to="46b">Fol. 46b</locus>
+                <title ref="http://syriaca.org/work/38" type="supplied">Malachi, ch. i. 1—4, according to the
                   Peshitta version</title>
+              </msItem>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
-                  <support><material/></support>
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
+                    <measure type="composition" unit="leaf" quantity="9">9 ff.</measure>
                     <dimensions type="leaf" unit="in">
                       <height>
                         <measure type="height" quantity="9.125" unit="in"/>9 1/8 </height>
@@ -1259,21 +1261,20 @@
                   <condition>
                     <list>
                       <item>
-                        <p>Nine vellum leaves of which the first is much mutilated.</p>
+                        <p>The first leaf is much mutilated.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="19 20">
-                    <locus from="38a" to="46b"/>
-                    <p/>
+                    <p>There are 19 or 20 lines on each page.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p10handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is an elegant Estrangela of the <origDate notBefore="0500" notAfter="0800">vith or viith cent.</origDate>
+                <handNote xml:id="p10handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing is an elegant Estrangela of the <origDate notBefore="0500" notAfter="7800">vith or viith cent.</origDate>
                   </desc>
                 </handNote>
               </handDesc>
@@ -1281,7 +1282,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="0500" notAfter="0800">vith or viith cent.</origDate>
+                <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>
@@ -1331,12 +1332,12 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p11a1">
-                <locus from="47" to="47"/>
+                <locus from="47a" to="47b">Fol. 47</locus>
                 <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, ch. i. 1—11, according to the Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
@@ -1353,18 +1354,19 @@
                   <condition>
                     <list>
                       <item>
-                        <p>Leaf slightly torn.</p>
+                        <p>This leaf is slightly torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="">
+                    <p/>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p11handNote1" scope="major" script="syr" medium="unknown">
+                <handNote xml:id="p11handNote1" scope="sole" script="syr" medium="unknown">
                   <desc>Written in a current hand of the <origDate from="1100" to="1200">xiith cent.</origDate></desc>
                 </handNote>
               </handDesc>
@@ -1418,12 +1420,12 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p12a1">
-                <locus from="48" to="48"/>
+                <locus from="48a" to="48b">Fol. 48</locus>
                 <title ref="http://syriaca.org/work/72" type="supplied">The Gospel of S. Matthew, ch. i. 1—16, according to the Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
@@ -1447,6 +1449,7 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="">
+                    <p/>
                   </layout>
                 </layoutDesc>
               </objectDesc>
@@ -1461,8 +1464,10 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p12addition1"><locus from="48b" to="48b"/><ref target="#p12handNote2"/>
-                    <p>Of the ancient Arabic writing on the recto scarcely anything is legible.</p></item>
+                  <item n="1" xml:id="p12addition1">
+                    <locus from="48b" to="48b"/>
+                    <p>Of the ancient Arabic writing on the recto scarcely anything is legible.</p>
+                  </item>
                 </list>
               </additions>
             </physDesc>
@@ -1515,12 +1520,12 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p13a1">
-                <locus from="3" to="6"/>
+                <locus from="49" to="50">Foll. 49-50</locus>
                 <title ref="" type="supplied">The Gospel of S. John, according to the Peshitta version, ch. xviii. 6—xix. 5.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
@@ -1537,18 +1542,19 @@
                   <condition>
                     <list>
                       <item>
-                        <p>Two leaves much stained and torn.</p>
+                        <p>The leaves are much stained and torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="">
+                    <p/>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p13handNote1" scope="major" script="syr" medium="unknown">
+                <handNote xml:id="p13handNote1" scope="sole" script="syr" medium="unknown">
                   <desc>The writing is good and regular, of the <origDate from="0900" to="1100">xth or xith cent.</origDate></desc>
                 </handNote>
               </handDesc>
@@ -1604,12 +1610,12 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p14a1">
-                <locus from="51" to="55"/>
+                <locus from="51" to="55">Foll. 51-55</locus>
                 <title ref="http://syriaca.org/work/79" type="supplied">The 2nd Epistle to the Corinthians, ch. vi. 2-16, and viii. 5—x. 15, according to the Peshitta version.</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
@@ -1633,25 +1639,16 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="">
+                    <p/>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="2">
-                <handNote xml:id="p14handNote1" scope="major" script="syr-Syre" medium="unknown">
+              <handDesc hands="1">
+                <handNote xml:id="p14handNote1" scope="sole" script="syr-Syre" medium="unknown">
                   <desc>The writing is a fine, regular Estrangela of the <origDate from="0600" to="0800">viith or viiith cent.</origDate></desc>
                 </handNote>
-                <handNote xml:id="p14handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="#p14addition1">See additions.</ref></desc>
-                </handNote>
               </handDesc>
-              <additions>
-                <p/>
-                <list>
-                  <item n="1" xml:id="p14addition1"><locus from="52"/><ref target="#p14handNote2"/>
-                    <p>Fol. 52 has been used as a flyleaf for a volume, of discourses of <persName>Jacob of Batnae</persName>, as appears from the list of contents on the margin:</p>
-                    <quote xml:lang="syr"> ܡܐܡܪ̈ܐ ܥܠ ܣܘܠܩܐ. ܘܥܠ ܒܬܘܠܘܬܐ. ܘܥܠ ܡܪܬܝܢܘܬܐ. ܘܥܠ ܒܪܐ ܕܦ̇ܪܚ ܢܟܣ̈ܘܗܝ. ܘܥܠ ܡܓܕܦܢܐ. ܘܥܠ ܪ̈ܐܙܐ ܩܕܝ̈ܫܐ. ܘܥܠ ܐܒܘܢ ܕܒܫܡܝܐ. ܘܥܠ ܪܚ̇ܡܥܠܝ ܐܝܟ ܛܝܒܘܬܟ. ܘܥܠ ܝܘܣܦ.</quote></item>
-                </list>
-              </additions>
+              <additions/>
             </physDesc>
             <history>
               <summary/>
@@ -1703,18 +1700,18 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p15a1">
-                <locus from="52" to="52"/>
-                <title ref="" type="supplied">Flyleaf for a volume, of discourses of Jacob of Batnae.</title>
-                <note>Fol. 52 has been used as a flyleaf for a volume, of discourses of Jacob of Batnae, as appears from the list of contents on the margin:</note>
-                <note><quote xml:lang="syr"> ܡܐܡܪ̈ܐ ܥܠ ܣܘܠܩܐ. ܘܥܠ ܒܬܘܠܘܬܐ. ܘܥܠ ܡܪܬܝܢܘܬܐ. ܘܥܠ ܒܪܐ ܕܦ̇ܪܚ ܢܟܣ̈ܘܗܝ. ܘܥܠ ܡܓܕܦܢܐ. ܘܥܠ ܪ̈ܐܙܐ ܩܕܝ̈ܫܐ. ܘܥܠ ܐܒܘܢ ܕܒܫܡܝܐ. ܘܥܠ ܪܚ̇ܡܥܠܝ ܐܝܟ ܛܝܒܘܬܟ. ܘܥܠ ܝܘܣܦ.</quote></note>
+                <locus from="52" to="52">Fol. 52</locus>
+                <title ref="" type="supplied">Flyleaf for a volume, of discourses of <persName ref="">Jacob of Batnae</persName>.</title>
+                <note>Fol. 52 has been used as a flyleaf for a volume, of discourses of <persName ref="">Jacob of Batnae</persName>, as appears from the list of contents on the margin:</note>
+                <note><quote xml:lang="syr"><locus from="52" to="52"/> ܡܐܡܪ̈ܐ ܥܠ ܣܘܠܩܐ. ܘܥܠ ܒܬܘܠܘܬܐ. ܘܥܠ ܡܪܬܝܢܘܬܐ. ܘܥܠ ܒܪܐ ܕܦ̇ܪܚ ܢܟܣ̈ܘܗܝ. ܘܥܠ ܡܓܕܦܢܐ. ܘܥܠ ܪ̈ܐܙܐ ܩܕܝ̈ܫܐ. ܘܥܠ ܐܒܘܢ ܕܒܫܡܝܐ. ܘܥܠ ܪܚ̇ܡܥܠܝ ܐܝܟ ܛܝܒܘܬܟ. ܘܥܠ ܝܘܣܦ.</quote></note>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="5">5 ff.</measure>
+                    <measure type="composition" unit="leaf" quantity="5">1 f.</measure>
                     <dimensions type="leaf" unit="in">
                       <height>
                         <measure type="height" quantity="8.875" unit="in">8 7/8</measure>
@@ -1728,15 +1725,12 @@
                 </supportDesc>
                 <layoutDesc/>
               </objectDesc>
-              <handDesc/>
+              <handDesc hands="1">
+                <handNote xml:id="p15handNote1" scope="sole" script="syr" medium="unknown"/>
+              </handDesc>
               <additions/>
             </physDesc>
-            <history>
-              <summary/>
-              <origin>
-                <origDate from="0600" to="0800">viith or viiith cent.</origDate>
-              </origin>
-            </history>
+            <history/>
             <additional>
               <adminInfo>
                 <recordHist>
@@ -1784,11 +1778,11 @@
                 <locus from="56" to="56"/>
                 <title ref="http://syriaca.org/work/90" type="supplied">The Epistle to the Hebrews, ch. xii. 28 to the end, according to the Peshitta version.</title>
                 <colophon><ref target="#p16addition1"/>See below.</colophon>
-                <note>It is the last leaf of a Nestorian manuscript of the New Testament, dated <origDate when-custom="0993” datingMethod="Seleucid”>A.Gr. 993</date>, <origDate when-custom="0063" datingMethod="Hijri-qamari">A.H. 63</origDate>, <origDate when="0682">A.D. 682</origDate>.</note>
+                <note>It is the last leaf of a Nestorian manuscript of the New Testament, dated <origDate when-custom="0993" datingMethod="Seleucid">A.Gr. 993</date>, <origDate when-custom="0063" datingMethod="Hijri-qamari">A.H. 63</origDate>, <origDate when="0682" calendar="Gregorian">A.D. 682</origDate>.</note>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="leaf">
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support><material>Vellum</material></support>
                   <extent>
@@ -1812,29 +1806,31 @@
                 </supportDesc>
                 <layoutDesc>
                   <layout columns="1" writtenLines="">
+                    <p/>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p16handNote1" scope="major" script="syr-Syre" medium="unknown">
+                <handNote xml:id="p16handNote1" scope="sole" script="syr-Syre" medium="unknown">
                   <desc>The writing is a small, neat Estrangela.</desc>
                 </handNote>
                 </handDesc>
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p16addition1"><locus from="56" to="56"/><ref target="p16handNote1"/>
+                  <item n="1" xml:id="p16addition1"><locus from="56" to="56"/>
                     <p>The colophon, which is unfortunately much mutilated, runs as follows:</p>
                     <p><quote xml:lang="syr"> ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܕܚܕܬܐ ܒܫܢܬ ܬܫܥܡܐܐ ܘܬܫܥܝܢ ܘܬܠܬ ܒܕܝܘ̈ܢܝܐ ܕܐܝܬܝܗ ܒܕܡܗܓܪ̈ܝܐ ܒ̈ܢܝ ܐܝܫـ[ܡܥܐܝܠ] ܒܪ ܗܓܪ ܒܪ ܐܒܪܗܡ ܫܢܬ ܫܬܝܢ ܘܬܠܬ ܒ . . .  ܕܪܥܝܐ ܥܝܪܐ ܘܚܦܝܛܐ ܡܕ . . . ܡܫܝܚܐ ܡܪܝ ܓܝܘܪܓܝܣ . . . ܒܐܣܟܘܠܐ ܕܕܝܪܐ ܩܕܝܫܐ . . . ܢܨܝܚܐ ܕܨܠܘܬܗ ܬܥܕܪ ܠܢ ܐܒܐ.......ܡܛܪܦܘܠܝܛܣ ܕܥܕܬܐ ܩܕܝܫܐܬ.......ܡܪܝ ܩܪܚܐ (؟) ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ . . . 
                       ܡܩܪܝܢܐ ܕܝܠܗ̇ ܕܐܣܟܘܠܐ . . . ܕܐ . . . ܘܘ ܒܗ̇ ܒܐܣـ[ܟܘܠܐ] . . . ܐ . . ܐ ܫ̈ܡܗܐ ܐ . . . ܐܦܪܝ ܘܓܘܫܢܘܝ ܘܝܫ . . .ܘܩܛܝܢܝ . ܘܓܝܘܪܓܝ . . . ܘܕܫܪܟܐ ܕܐܚܘܬܐ . . . ܟܝܢܐ ܕܟܣܸܐ ܡـ . . . </quote></p></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
                 </list>
               </additions>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate when-custom="0993” datingMethod="Seleucid”>A.Gr. 993</date>, <origDate when-custom="0063" datingMethod="Hijri-qamari">A.H. 63</origDate>, <origDate when="0682">A.D. 682</origDate>
+                <origDate when-custom="0993" datingMethod="Seleucid">A.Gr. 993</origDate>
+                  <origDate when-custom="0063" datingMethod="Hijri-qamari">A.H. 63</origDate>
+                  <origDate when="0682" calendar="Gregorian">A.D. 682</origDate>
                 <origPlace/>
               </origin>
               <provenance/>
@@ -2170,12 +2166,17 @@
                 <ref target="#Part16"/>
                 <ref target=""/>       
               </item>
+              <item>
+                <ref target="#Part17"/>
+                <ref target=""/>
+              </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-07-06" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-07-06" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-12-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: formatting dates, loci, additions, handNotes, condition, object description form, etc.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>

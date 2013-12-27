@@ -2623,9 +2623,6 @@ tei_change =
     ## One or more msParts need to be encoded into an historical reconstruction of a no longer extant manuscript.
     "reconstruction"
     |
-    ## Work URIs needed
-    "uri"
-    |
     ## Consultation of the manuscript needed to clarify physical description
     "consult-phys"
     |
