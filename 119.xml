@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -309,6 +309,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-17" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2013-12-31" who="http://syriaca.org/editors.xml#thannah">Initial edit: no updates required at this time</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
