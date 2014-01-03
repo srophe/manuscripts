@@ -9,9 +9,9 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -19,8 +19,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -147,7 +151,9 @@
                  </handNote>
               </handDesc>
               <decoDesc>
-                 <decoNote xml:id="decoNote1" type="ornamentation">There are rude attempts at ornamentation in gold and colors on foll. <locus from="36a" to="36a">36 a</locus> and <locus from="79a" to="79a">79 a</locus>.</decoNote>
+                 <decoNote xml:id="decoNote1" type="ornamentation">
+                   <desc>There are rude attempts at ornamentation in gold and colors on foll. <locus from="36a" to="36a">36 a</locus> and <locus from="79a" to="79a">79 a</locus>.</desc>
+                 </decoNote>
               </decoDesc>
               <additions/>
               <bindingDesc/>
@@ -282,6 +288,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-05" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: added missing element in decoration note</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
     </revisionDesc>
   </teiHeader>

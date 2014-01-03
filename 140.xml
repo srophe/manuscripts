@@ -9,9 +9,9 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -19,8 +19,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -151,17 +155,20 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="3">
+              <handDesc hands="5">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                    <desc>The writing is a good, regular Estrangela of the <origDate notBefore="0600" notAfter="0700">7th century</origDate>.</desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                    <desc><ref target="#addition1 #addition2">See additions.</ref></desc>
+                    <desc><ref target="#addition1">See additions.</ref></desc>
                  </handNote>
-                 <handNote xml:id="handNote3" scope="minor" script="syr-Syrj" medium="unknown">
+                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition2">See additions.</ref></desc>
+                </handNote>
+                 <handNote xml:id="handNote4" scope="minor" script="syr-Syrj" medium="unknown">
                     <desc><ref target="#addition3 #addition5">See additions.</ref></desc>
                  </handNote>
-                 <handNote xml:id="handNote4" scope="minor" script="grc" medium="unknown">
+                 <handNote xml:id="handNote5" scope="minor" script="grc" medium="unknown">
                     <desc>A later Greek hand. <ref target="#addition4">See additions.</ref></desc>
                  </handNote>
               </handDesc>
@@ -181,7 +188,7 @@
                       <p>Another marginal division, by means of Greek letters, is carried through part of the volume. Of these latter sections there are 72 (<foreign xml:lang="grc">ΟΒ</foreign>) in <ref target="#b1">S. Matthew</ref>; but in <ref target="#b2">S. Mark</ref> the numeration seems to stop with <foreign xml:lang="grc">ΚΓ</foreign> (<locus from="53b" to="53b">fol. 53b</locus>), and in <ref target="#b3">S. Luke</ref> with <foreign xml:lang="grc">Θ</foreign> (<locus from="73b" to="73b">fol. 73b</locus>), whilst in <ref target="#b4">S. John</ref> it does not appear at all.</p>
                    </item>
                    <item n="5" xml:id="addition5">
-                      <p>The same person, apparently, who added the Greek vowels, has inserted, chiefly in <ref target="#b1">the Gospel of S. Matthew</ref>, some various readings from <bibl>the Harklensian version<ptr target="http://syriaca.org/work/162"/></bibl> (<foreign xml:lang="syr">ܚܪܩܠܝܐ</foreign>, abbreviated <foreign xml:lang="syr">ܚܪܩ</foreign> and <foreign xml:lang="syr">ܚܪ</foreign>), e.g.foll. <locus from="5a" to="5b">5 a and b</locus>, <locus from="7b" to="7b">7b</locus>, <locus from="12a" to="12a">12 a</locus>, <locus from="17a" to="17a">17 a</locus>, <locus from="19a" to="19b">19 a and b</locus>, <locus from="22b" to="23a">22b, 23 a</locus>, <locus from="24b" to="24b">24 b</locus>, etc.; more rarely from other sources (<foreign xml:lang="syr">ܐܚܪܢܐ</foreign> or <foreign xml:lang="syr">ܐܚܪ̈ܢܐ</foreign>), e.g. foll. <locus from="26b" to="26b">26b</locus>, <locus from="32b" to="32b">32b</locus>, <locus from="33b" to="33b">33b</locus>, <locus from="35b" to="35b">35b</locus>, etc. Occasional attempts have been made to represent Syriac words by Greek letters; e.g. fol. <locus from="18b" to="18b">18b</locus>, <quote xml:lang="syr">ܡܶܣܳܪ̈ܝܴܬܳܐ</quote>, <quote xml:lang="grc">ΜΑⲤΑ</quote>; fol. <locus from="30a" to="30a">30 a</locus>, <quote xml:lang="syr">ܢܰܛܥ̇ܝܟܘܢ</quote>, <quote xml:lang="grc">ΝΑΤΕ</quote>; fol. <locus from="31a" to="31a">31 a</locus>, <quote xml:lang="syr">ܪ̈ܘܚܐ</quote>, <quote xml:lang="grc">ΡΟΥΞΕ</quote>; fol. <locus from="66b" to="66b">66b</locus>, <quote xml:lang="syr">ܐܶܣܛܰܣܝܻܢ</quote>, <quote xml:lang="grc">ΑⲤΤΑⲤΗⲤ</quote>; fol. <locus from="132a" to="132a">132a</locus>, <quote xml:lang="syr">ܣܪܝ ܠܗ</quote>, <quote xml:lang="grc">ⲤΗΡΙ ΛΕ</quote>.</p>
+                      <p>The same person, apparently, who added the Greek vowels, has inserted, chiefly in <ref target="#b1">the Gospel of S. Matthew</ref>, some various readings from <bibl>the Harklensian version<ptr target="http://syriaca.org/work/162"/></bibl> (<foreign xml:lang="syr">ܚܪܩܠܝܐ</foreign>, abbreviated <foreign xml:lang="syr">ܚܪܩ</foreign> and <foreign xml:lang="syr">ܚܪ</foreign>), e.g.foll. <locus from="5a" to="5b">5 a and b</locus>, <locus from="7b" to="7b">7b</locus>, <locus from="12a" to="12a">12 a</locus>, <locus from="17a" to="17a">17 a</locus>, <locus from="19a" to="19b">19 a and b</locus>, <locus from="22b" to="23a">22b, 23 a</locus>, <locus from="24b" to="24b">24 b</locus>, etc.; more rarely from other sources (<foreign xml:lang="syr">ܐܚܪܢܐ</foreign> or <foreign xml:lang="syr">ܐܚܪ̈ܢܐ</foreign>), e.g. foll. <locus from="26b" to="26b">26b</locus>, <locus from="32b" to="32b">32b</locus>, <locus from="33b" to="33b">33b</locus>, <locus from="35b" to="35b">35b</locus>, etc. Occasional attempts have been made to represent Syriac words by Greek letters; e.g. fol. <locus from="18b" to="18b">18b</locus>, <quote xml:lang="syr">ܡܶܣܳܪ̈ܝܴܬܳܐ</quote>, <quote xml:lang="grc">ΜΑⲤΑ</quote>; fol. <locus from="30a" to="30a">30 a</locus>, <quote xml:lang="syr">ܢܰܛܥ̇ܝܟܘܢ</quote>, <quote xml:lang="grc">ΝΑΤΕ</quote>; fol. <locus from="31a" to="31a">31 a</locus>, <quote xml:lang="syr">ܪ̈ܘܚܐ</quote>, <quote xml:lang="grc">ΡΟΥΞΕ</quote>; fol. <locus from="66b" to="66b">66b</locus>, <quote xml:lang="syr">ܐܶܣܛܰܣܝܻܢ</quote>, <quote xml:lang="grc">ΑⲤΤΑⲤΗⲤ</quote>; fol. <locus from="132a" to="132a">132a</locus>, <quote xml:lang="syr">ܣܪܝ ܠܗ</quote>, <quote xml:lang="grc">ⲤΗΡΙ ΛΕ</quote>.</p><!-- Enter vocalizations -->
                    </item>
                 </list>
               </additions>
@@ -315,7 +322,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-31" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-31" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: rearranged hand note links to additions</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
     </revisionDesc>
   </teiHeader>

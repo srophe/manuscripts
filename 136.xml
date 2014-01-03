@@ -9,18 +9,19 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J.
-          Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D.
-          Hannah</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
@@ -40,8 +41,7 @@
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac
-            Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -78,13 +78,11 @@
                 <idno type="BL-Shelfmark">Add MS 14461 foll. 1-107</idno>
               </altIdentifier>
               <altIdentifier>
-                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British
-                  Museum Acquired since the Year 1838</collection>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
                 <idno type="Wright-BL-Arabic">94</idno>
               </altIdentifier>
               <altIdentifier>
-                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British
-                  Museum Acquired since the Year 1838</collection>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
                 <idno type="Wright-BL-Roman">XCIV</idno>
               </altIdentifier>
             </msIdentifier>
@@ -92,20 +90,18 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
-                <locus from="1b" to="65b"/>
-                <title ref="http://syriaca.org/work/72" type="supplied">S. Matthew, according to the
-                  Peshitta version.</title>
-                <note><p>The only portion missing is ch. vi. 3—20.</p>
-                  <p>The lessons are rubricated in the text.</p>
-                </note>
+                <locus from="1b" to="107">Foll. 1b-107</locus>
+                <title type="supplied" ref="http://syriaca.org/work/203">The first two Gospels, according to the Peshitta version</title>
+                <msItem n="2" xml:id="p1b1" defective="true">
+                <locus from="1b" to="65">Foll. 1b-65</locus>
+                <title ref="http://syriaca.org/work/72" type="supplied">S. Matthew</title>
+                <note>The only portion missing is ch. vi. 3—20.</note>
               </msItem>
-              <msItem n="2" xml:id="p1a2">
-                <locus from="65b" to="107"/>
-                <title ref="http://syriaca.org/work/73" type="supplied">S. Mark, according to the
-                  Peshitta version.</title>
-                <note><p>The lessons are rubricated in the text, one or two being marked on the
-                    margins by a later hand, e.g. fol. <locus>104b</locus>.</p>
-                </note>
+              <msItem n="3" xml:id="p1b2">
+                <locus from="65b" to="107">Foll. 65b-107</locus>
+                <title ref="http://syriaca.org/work/73" type="supplied">S. Mark</title>
+              </msItem>
+                <note>The lessons are rubricated in the text.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -131,8 +127,7 @@
                   <condition>
                     <list>
                       <item>
-                        <p>107 leaves, some of which are slightly stained and torn, especially foll.
-                            <locus>8</locus> and <locus>9</locus>.</p>
+                        <p>Some of the leaves are slightly stained and torn, especially foll. <locus>8 and 9</locus>.</p>
                       </item>
                       <item>
                         <p>A leaf is wanting after fol. <locus>9</locus>.</p>
@@ -149,8 +144,7 @@
               <handDesc hands="5">
                 <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>This manuscript is written in a small, regular Estrangela of the <origDate
-                      from="0500" to="0600">vith cent.</origDate> with the <ref
-                      target="#p1handNote2">exception</ref> of foll. <locus>58—67</locus>.</desc>
+                      from="0500" to="0600">vith cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>Foll. <locus>58—67</locus>, which are in a more current hand of the <date
@@ -169,21 +163,12 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p1addition1"><locus from="104b" to="104b"/><ref
-                      target="#p1handNote3"/>
-                    <p>The lessons are rubricated in the text, one or two being marked on the
-                      margins by a later hand, e.g. fol. 104b.</p></item>
-                  <item n="2" xml:id="p1addition2"><locus from="107b" to="107b"/><ref
-                      target="#p1handNote4"/>
-                    <p>On fol. 107b, between the subscription of the Gospel of S. Mark and the
-                      doxology, there was a rubric of two lines, which has been carefully
-                      erased.</p></item>
-                  <item n="3" xml:id="p1addition3"><locus from="1a" to="1a"/><ref
-                      target="#p1handNote5"/>
-                    <p>Of the writing on fol. 1a but little is now distinctly legible, which is to
-                      be regretted, as it seems to be a nearly contemporary notice of the taking of
-                      Damascus by the Arabs,<date from="0634" to="0635"> A.D. 634-5</date>. The two
-                      most important passages read as follows.</p>
+                  <item n="1" xml:id="p1addition1"><locus from="104b" to="104b"/>
+                    <p>One or two lessons are marked on the margins by a later hand, e.g. fol. 104b.</p></item>
+                  <item n="2" xml:id="p1addition2"><locus from="107b" to="107b"/>
+                    <p>On fol. 107b, between the subscription of the Gospel of S. Mark and the doxology, there was a rubric of two lines, which has been carefully erased.</p></item>
+                  <item n="3" xml:id="p1addition3"><locus from="1a" to="1a"/>
+                    <p>Of the writing on fol. 1a but little is now distinctly legible, which is to be regretted, as it seems to be a nearly contemporary notice of the taking of <placeName ref="">Damascus</placeName> by the Arabs,<date from="0634" to="0635" calendar="Gregorian"> A.D. 634-5</date>. The two most important passages read as follows.</p>
                     <p>Line 8—12:</p>
                     <p><quote xml:lang="syr">. . . ܘܒܟܢܘܢ ܚܪܝ ܫܩܠ ܡܠܬܐ ܠܚܝ̈ܝܗܘܢ</quote></p>
                     <p><quote xml:lang="syr">. . . ܘܩ̈ܘܪܝܣ ܣ̈ܓܝܬܐ ܐܚܪܒ ܒܩܛܠܐ ܡܢ</quote></p>
@@ -199,13 +184,11 @@
                     <p><quote xml:lang="syr">. . . ܢ ܘܫܒܥ ܐܬܟܢܫ ܒܓܒܝܬܐ. . . </quote></p>
                     <p><quote xml:lang="syr">ܕܪ̈ܘܡܝܐ ܘܥܡܐ ܣܓܝܐܐ ܐܬܩ[ܛܠ]. . </quote></p>
                     <p><quote xml:lang="syr">. . . ܒܫܢܬ ܬܫܥܡܐ ܘܐ . . . </quote></p>
-                    <p>The place called here <foreign xml:lang="syr">ܓܒܝܬܐ </foreign>is known to the
-                      Arab historians as (see <bibl>Abulfedae Annales Muslemici, ed. Reiske and
-                        Adler, t. i. p. 223</bibl>). The date in lines 20—21 should probably be read
-                        <foreign xml:lang="syr">ܒܫܢܬ ܬܫܥܡܐܐ ܘܐܪܒܥܝܢ</foreign> " in the year <date
-                        when-custom="0947" datingMethod="Seleucid">947</date>," which, deducting
-                      312, gives <date when="0635" calendar="Gregorian">A.D. 635</date>.</p>
-   <!-- Needs Arabic --></item>
+                    <p>The place called here <listPlace><place ref=""><placeName xml:lang="syr">ܓܒܝܬܐ </placeName><placeName xml:lang="ar">(<!-- Needs Arabic --></placeName></place></listPlace> as it is known to the Arab historians). See <bibl>Abulfedae Annales Muslemici, ed. Reiske andAdler, t. i. p. 223</bibl>.</p>
+                    <p>The date in lines 20—21 should probably be read:</p>
+                    <p><quote xml:lang="syr">ܒܫܢܬ ܬܫܥܡܐܐ ܘܐܪܒܥܝܢ</quote></p>
+                    <p><quote>"in the year <date when-custom="0947" datingMethod="Seleucid">947</date>,"</quote> which, deducting 312, gives <date when="0635" calendar="Gregorian">A.D. 635</date>.</p>
+                  </item>
                 </list>
               </additions>
             </physDesc>
@@ -217,16 +200,14 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's
-                        Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
               </adminInfo>
               <listBibl>
                 <bibl xml:id="Wrightpart1">
                   <author>William Wright</author>
-                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum
-                    Acquired since the Year 1838</title>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
@@ -243,36 +224,30 @@
                 <idno type="BL-Shelfmark">Add MS 14461 foll. 108—212.</idno>
               </altIdentifier>
               <altIdentifier>
-                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British
-                  Museum Acquired since the Year 1838</collection>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
                 <idno type="Wright-BL-Arabic">102</idno>
               </altIdentifier>
               <altIdentifier>
-                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British
-                  Museum Acquired since the Year 1838</collection>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
                 <idno type="Wright-BL-Roman">CII</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p2a1">
-                <locus from="108" to="168b"/>
-                <title ref="http://syriaca.org/work/74" type="supplied">S. Luke, according to the
-                  Peshitta version.</title>
-                <note>
-                  <p>The lessons are rubricated in the text.</p>
-                </note>
+              <msItem n="1" xml:id="p2a1" defective="true">
+                <locus from="108a" to="212">Foll. 108a-212</locus>
+                <title type="supplied" ref="http://syriaca.org/work/208">The last two Gospels, according to the Peshitta version</title>
+                <msItem n="2" xml:id="p2b1">
+                <locus from="108a" to="168b">Foll. 108a-168a</locus>
+                <title ref="http://syriaca.org/work/74" type="supplied">S. Luke</title>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective="true">
-                <locus from="169a" to="212"/>
-                <title ref="http://syriaca.org/work/75" type="supplied">S. John, according to the
-                  Peshitta version.</title>
-                <note>
-                  <p> Missing portions : ch. xvi. 16—xvii. 4, xvii. 11—13; xix. 19— xxi. 8, and xxi.
-                    18 to the end. </p>
-                  <p>The lessons are rubricated in the text.</p>
-                </note>
+              <msItem n="3" xml:id="p2b2" defective="true">
+                <locus from="169a" to="212">Foll. 169a-212</locus>
+                <title ref="http://syriaca.org/work/75" type="supplied">S. John</title>
+                <note>Missing portions : ch. xvi. 16—xvii. 4, xvii. 11—13; xix. 19— xxi. 8, and xxi. 18 to the end.</note>
+              </msItem>
+                <note>The lessons are rubricated in the text.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -312,22 +287,19 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="p2handNote1" scope="major" script="syr" medium="unknown">
-                  <desc>This manuscript is written in a good, regular hand of the <origDate from="0800" to="1000">ixth or xth cent.</origDate>, but has been unskillfully retouched in many places.</desc>
+                  <desc>This manuscript is written in a good, regular hand of the <origDate from="0800" to="1000">ixth or xth cent.</origDate></desc>
                 </handNote>
                 <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="#p2addition1 #p2addition2">See additions.</ref></desc>
+                  <desc>This manuscript has been unskillfully retouched in many places.<ref target="#p2addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
               <additions>
-                <p/>
                 <list>
-                  <item n="1" xml:id="p2addition1"><locus from="168b" to="168b"/><ref target="#p2a1 #p2handNote2"/>
-                    <p>At the end, fol. 168b, the following words are written over an erasure, alluding to the unskillful retouching of many of the pages.</p>
+                  <item n="1" xml:id="p2addition1"><locus from="168b" to="168b"/>
+                    <p>At the end of the <ref target="#p2b1">Gospel of S. Luke</ref>, fol. 168b, the following words are written over an erasure, alluding to the unskillful retouching of many of the pages.</p>
                     <p><quote xml:lang="syr">ܐܝܟܢ ܙܕܩ ܠܡ̇ܢ ܕܠܐ ܡܦ̣ܣ ܒܟܬܝܒܬܐ̣. ܕܢܡܪܚ ܘܢܣܪܘܚ ܠܐܘܢܓܠܝܘܢ ܗܢܐ. ܚܠܦ ܕܢܢܗܪܗ ܣ̇ܪܚܗ.</quote></p>
+                    <p>The culprit of the unskillful retouching was an Arab, as some of his corrections have the word <!-- Needs Arabic -->appended; e.g. foll. <locus>163</locus>, <locus>199b</locus>.</p>
                     </item>
-                  <item n="2" xml:id="p2addition2"><ref target="#p2handNote2"/>
-                    <p>The culprit of the <ref target="#p2addition1">unskillful retouching</ref> was an Arab, as some of his corrections have the word appended; e.g. foll. <locus>163</locus>, <locus>199b</locus>.</p>
-   <!-- NEED ARABIC --><quote/></item>
                 </list>
               </additions>
             </physDesc>
@@ -343,16 +315,14 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's
-                        Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
               </adminInfo>
               <listBibl>
                 <bibl xml:id="Wrightpart2">
                   <author>William Wright</author>
-                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum
-                    Acquired since the Year 1838</title>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
@@ -466,7 +436,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2013-08-02" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-08-02" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: reorganizing msItems and additions</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>

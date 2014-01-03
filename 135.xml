@@ -9,9 +9,9 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -19,8 +19,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -96,13 +100,13 @@
                   <msItem n="5" xml:id="b3">
                      <locus from="46a" to="78">Foll. 46a-78</locus>
                      <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
-                     <rubric xml:lang="syr">ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܝܫܘܥ ܡܫܝܚܐ ܟܪܘܙܘܬܐ ܕܛܘܒܢܐ ܠܘܩܐ ܚ[ܕ] ܡܢ ܫܒܥܝܢ ܫܠܝ̈ـ[ܚܐ.]<locus from="46a" to="46a"/></rubric>
+                    <rubric xml:lang="syr">ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܝܫܘܥ ܡܫܝܚܐ ܟܪܘܙܘܬܐ ܕܛܘܒܢܐ ܠܘܩܐ <choice><orig>ܚ</orig><reg>ܚܕ</reg></choice> ܡܢ ܫܒܥܝܢ <choice><orig>ܫܠܝ̈</orig><reg>ܫܠܝ̈ܚܐ</reg></choice>.<locus from="46a" to="46a"/></rubric>
                   </msItem>
                   <msItem n="6" xml:id="b4">
                      <locus from="78a" to="104a">Foll. 78a-104a</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
-                  <colophon><ref target="#addition3">See additions.</ref></colophon>
                   </msItem>
+                 <colophon><ref target="#addition3">See additions.</ref></colophon>
                   <note>The larger sections are marked on the margins.</note>
                </msItem>
             </msContents>
@@ -323,7 +327,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: retagged some Syriac quotes, moved doxology to more appropriate place in msItems</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

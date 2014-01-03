@@ -3355,9 +3355,6 @@ tei_finalRubric =
     att.global.attributes,
     att.typed.attributes,
     att.canonical.attributes,
-    (tei_fw*),
-    (tei_p*),
-    tei_locus,
     empty
   }
 tei_incipit =
@@ -3695,7 +3692,7 @@ tei_decoNote =
       | 
         ##
         "unspecified"
-    }?,
+    },
     att.typed.attribute.subtype,
     empty
   }

@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -124,7 +124,8 @@
                      </msItem>
                   </msItem>
                   <note>Of the lessons some are rubricated in the text.</note>
-                  <colophon><ref target="#addition1">See additions.</ref></colophon>
+                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟ̣ܬܒ ܦܪܟܣܣ. ܕܬܪܥܣܪ̈. ܫ̈ܠܝܚܐ. ܛܘܒ̈ܢܐ. ܥܡ. ܐܓܪ̈ܬܐ. ܩ̈ܬܠܝܩܘܣ. ܬ̈ܠܬ. ܕܝܥܩܘܒ. ܚܕܐ. ܘܕܦܛܪܣ. ܚܕܐ. ܘܕܝܘܚܢܢ. ܚܕܐ.
+                   <locus from="72b" to="72b"/></finalRubric>
                </msItem>
                <msItem n="6" xml:id="a3">
                   <locus from="73a" to="73a">Fol. 73a</locus>
@@ -173,8 +174,8 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="9">
-                <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                   <desc>This volume is written in a fine, clear Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate> <ref target="#addition1">See additions.</ref></desc>
+                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+                   <desc>This volume is written in a fine, clear Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition2">See additions.</ref></desc>
@@ -204,11 +205,6 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1">
-                    <locus from="72b" to="72b"/>
-                    <p>Colophon:</p>
-                     <p><quote xml:lang="syr">ܫܠܡ ܠܡܟ̣ܬܒ ܦܪܟܣܣ. ܕܬܪܥܣܪ̈. ܫ̈ܠܝܚܐ. ܛܘܒ̈ܢܐ. ܥܡ. ܐܓܪ̈ܬܐ. ܩ̈ܬܠܝܩܘܣ. ܬ̈ܠܬ. ܕܝܥܩܘܒ. ܚܕܐ. ܘܕܦܛܪܣ. ܚܕܐ. ܘܕܝܘܚܢܢ. ܚܕܐ.</quote></p>
-                  </item>
                   <item n="2" xml:id="addition2">
                      <p>The same person who wrote, fol. <locus from="71" to="71">71</locus> has repaired foll. <locus from="1" to="1">1</locus>, <locus from="6" to="6">6</locus>, <locus from="55" to="55">55</locus>, and <locus from="67" to="67">67</locus>, and retouched several other leaves.</p>
                   </item>
@@ -229,7 +225,7 @@
                    </item>
                    <item n="7" xml:id="addition7">
                       <locus from="72b" to="72b"/>
-                      <p>On fol. 72 b, there is note a note in a more modern hand, informing us that the book belonged to a deacon named <persName ref="">George bar <choice><orig>Ahūdemmeh </orig><reg>(Aehudemes)</reg></choice> of <placeName ref="">Tagrit</placeName></persName>.</p>
+                      <p>On fol. 72 b, there is a note in a more modern hand, informing us that the book belonged to a deacon named <persName ref="">George bar <choice><orig>Ahūdemmeh </orig><reg>(Aehudemes)</reg></choice> of <placeName ref="">Tagrit</placeName></persName>.</p>
                       <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܓܝܘܪܓܝܣ ܡܫܡܫܢܐ ܒܪ ܐܚܘܕܝܡܗ ܬܓܪܝܬܢܝܐ ܕܩܢܝܗܝ ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ. ܐܠܐ ܟܠ ܕܫܩܠ ܘܠܐ ܡܗܦܟ ܠܗ ܢܗܘܐ ܚܪܡ.</quote></p>
                    </item>
                    <item n="8" xml:id="addition8">
@@ -376,6 +372,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-01-03" who="http://syriaca.org/editors.xml#thannah">Initial edit: fixed minor typos, corrected @script of lead hand note, retagged final rubric</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
   </teiHeader>

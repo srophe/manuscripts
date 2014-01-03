@@ -9,9 +9,9 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -19,8 +19,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,22 +87,25 @@
                  <msItem n="2" xml:id="b1" defective="true">
                     <locus from="1a" to="68a">Foll. 1a-68a</locus>
                     <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
-                    <finalRubric xml:lang="syr"><locus from="68a" to="68a"/>ܫܠܡ. ܠܡܟܬܒ. ܐܘܢܓܠܝܘܢ̇ ܩܕܝܫܐ. ܟܪܘܙܘܬܐ.. ܕܡܬܝ .. ܫܠܝܚܐ. ܕܡܠܠ .. ܝܘܢܐܝܬ .. ܒܪܗܘܡܐ (sic).</finalRubric>
-                    <colophon><ref target="#addition3"/>See below.</colophon>
-                    <note>commencing with ch. i. 11.</note>
+                    <finalRubric xml:lang="syr"><locus from="68a" to="68a"/><sic>ܫܠܡ. ܠܡܟܬܒ. ܐܘܢܓܠܝܘܢ̇ ܩܕܝܫܐ. ܟܪܘܙܘܬܐ.. ܕܡܬܝ .. ܫܠܝܚܐ. ܕܡܠܠ .. ܝܘܢܐܝܬ .. ܒܪܗܘܡܐ.</sic></finalRubric>
+                   <colophon><ref target="#addition3">See below.</ref></colophon>
+                    <note>Commencing with ch. i. 11.</note>
                  </msItem>
-                 <msItem n="3" xml:id="b2">
+                 <msItem n="3" xml:id="b2" defective="unknown">
                     <locus from="68b" to="106">Foll. 68b-106</locus>
                     <title type="supplied" ref="http://syriaca.org/work/73">Mark</title>
-                    <note/>
+                   <note>The old text is complete, with subscription; the later one reaches only as far as the words <quote xml:lang="syr">ܕܡܠܠ ܥܡܗܘܢ</quote> in ch. xvi. 19.</note>
+                   <note>Of the lessons some are rubricated in the text, but only in the Gospel of S. Mark</note>
                  </msItem>
-                 <note>Of the lessons some are rubricated in the text, but only in <ref target="#b2">the Gospel of S. Mark</ref></note>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="perg">
-                  <support><material>Vellum</material></support>
+                <supportDesc material="mixed">
+                  <support>
+                    <material>Vellum</material>
+                    <material>Paper</material>
+                  </support>
                   <extent>
                     <measure type="composition" unit="leaf" quantity="106">106 ff.</measure>
                     <dimensions type="leaf" unit="in">
@@ -117,7 +124,7 @@
                   <condition>
                     <list>
                       <item>
-                         <p>Some of the leaves arc slightly stained and torn, especially foll. <locus from="1" to="1">1</locus>, <locus from="8" to="8">8</locus>, <locus from="73" to="75">73—75</locus>, <locus from="105" to="106">105, and 106</locus>. </p>
+                         <p>Some of the leaves are slightly stained and torn, especially foll. <locus from="1" to="1">1</locus>, <locus from="8" to="8">8</locus>, <locus from="73" to="75">73—75</locus>, <locus from="105" to="106">105, and 106</locus>. </p>
                       </item>
                        <item>
                           <p>A leaf is wanting at the beginning.</p>
@@ -133,10 +140,10 @@
               </objectDesc>
               <handDesc hands="5">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                   <desc>This manuscript is written by two hands (<ref target="#b1">foll. 1—68 a</ref>, and fol. 68 b—106), in a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>. <persName ref="#addition3">Nonnus</persName>. <ref target="">See additions.</ref></desc>
+                   <desc>This manuscript is written by two hands (<ref target="#b1">foll. 1—68 a</ref>, and fol. 68 b—106), in a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>. <persName ref="">Nonnus</persName>. <ref target="#decoNote1 #addition3">See decoration notes and additions.</ref></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="major" script="syr-Syre" medium="unknown">
-                    <desc>This manuscript is written by two hands (foll. 1—68 a, and <ref target="#b2">fol. 68 b—10</ref>6), in a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>.</desc>
+                    <desc>This manuscript is written by two hands (foll. 1—68 a, and <ref target="#b2">fol. 68 b—106</ref>), in a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>.</desc>
                  </handNote>
                  <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition1">See additions.</ref></desc>
@@ -150,7 +157,7 @@
               </handDesc>
               <decoDesc>
                 <decoNote xml:id="decoNote1" type="ornamentation">
-                   <desc><ref target="#addition3">See additions.</ref></desc>
+                   <desc>An ornament separates the doxology after <ref target="#a1">the Gospel of S. Matthew</ref> from the <ref target="#addition3">scribe identification</ref>.</desc>
                 </decoNote>
               </decoDesc>
               <additions>
@@ -165,14 +172,14 @@
                    </item>
                    <item n="3" xml:id="addition3">
                       <locus from="68a" to="68a"/>
-                      <p>At the foot of the page, after the doxology, stand the words</p>
+                      <p>At the foot of fol. 68a, after the doxology, stand the words</p>
                       <p><quote xml:lang="syr">ܢܘܢܐ ܟܬ݁[ܒܬ]</quote>,</p>
-                      <p><quote>“I Nonnus, have written,"</quote></p>
+                      <p><quote>“I <persName ref="">Nonnus</persName>, have written,"</quote></p>
                       <p>separated by an ornament.</p>
                    </item>
                    <item n="4" xml:id="addition4">
                       <locus from="106" to="106"/>
-                      <p>The last page has been entirely rewritten by a modern hand, which has also retouched several other pages. The old text is complete, with subscription; the later one reaches only as far as the words <quote xml:lang="syr">ܕܡܠܠ ܥܡܗܘܢ</quote> in ch. xvi. 19.</p>
+                      <p>The last page has been entirely rewritten by a modern hand, which has also retouched several other pages.</p>
                    </item>
                 </list>
               </additions>
@@ -308,7 +315,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-09" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
-      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
+      <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoration note type</change>
+      <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: rearranged additions, rewrote decoration note</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
