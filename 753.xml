@@ -111,11 +111,7 @@
                    <finalRubric xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܡܪܢ ܐܘܐܢܓܠܝܘܢ ܕܝܘܚܢܢ ܫܠܝܚܐ ܩܕܝܫܐ̣. ܥܡ ܫܪܟܐ ܕܬ̈ܠܬܐ ܐܚܪ̈ܢܐ ܐܘܐܢ̈ܓܠܝܣܛܐ ܚܒܪ̈ܘܗܝ܇ ܡܲܐܬܝ̇ ܡܐܪܩܘܣ̣ ܠܘܩܐ܀ ܐܝܟ ܡܲܦܩܬܐ ܫܪܝܪܬܐ ܘܚܲܬܝܬܬܐ ܕܬܐܘܡܐ ܚܲܪܩܠܝܐ. ܕܡܢ ܐܪ̈ܒܥܐ ܨܚ̈ܚܐ ܒܚܝ̣ܪ̈ܐ ܡܦ̣ܚܡ̣ ܘܐܦ ܥܠ ܐ̈ܝܕܝ ܢܝ̣ܚ ܥܡ ܟܐ̈ܢܐ̣ ܡܪܝ ܕܝܘܢܢܘܣܝܘܣ ܐ݊ܦܝ݊ܣܩܘ݊ܦܐ ܕܐܡ̣ܝܕ ܕܗ̣ܘ ܝ݊ܥܩ݊ܘܒ݊ ܒܪ ܨܲܠܝܒܲܝ ܡܫܲܪܪ ܘܚܬ݂ܝܡ. ܫܘܼܒܚܐ ܠܐܠܗܐ ܕܝ̇ܗܒ ܚ̇ܝ̣ܠܐ ܠܥܒ݂ܕܘ̈ܗܝ. ܘܚܟ݂ܡܬܐ ܠܬܠܡܝܕ̈ܘܗܝ܇ ܕܣ̈ܝܡܬܐ ܪ̈ܘܚܢܝܬܐ ܣ̇ܝܡܝܢ ܒܥܕܬܗ ܩܕܝܫܬܐ̇ ܠܬܫܒܘܚܬܐ ܕܫܡܗ̣. ܠܥܠܡ̇ ܥܠܡܝܢ ܐܡܝܢ. ܀ . ܘܥܠܝܢ ܨܲܠܘ ܒܒ̣ܥܘ ܦܪ̈ܘܫܐ
                       <locus from="67b" to="67b"/>
                    </finalRubric>
-                   <colophon>
-                      <ref target="#addition4">See below.
-                      </ref>
-                   </colophon>
-                </msItem>
+                  </msItem>
                  <msItem n="8" xml:id="b2">
                     <locus from="68b" to="98">Foll. 68b-98</locus>
                     <title ref="http://syriaca.org/work/76" type="supplied">Acts of the Apostles, according to the Peshitta version</title>
@@ -413,6 +409,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-07-18" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted colophon element which described @addition4</change>
       <change type="planned" subtype="question">Question in Word Doc to be addressed.</change>
        <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>

@@ -141,10 +141,7 @@
                   <locus from="69b" to="82">Foll. 69b-82</locus>
                   <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews, according to the Peshitta version</title>
                 </msItem>  
-                <colophon>
-                  <ref target="#addition1">See below.
-                  </ref>
-                </colophon>
+                <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬ݂ܒ ܐܪܒܥܣܪ̈ܐ ܐܓܪ̈ܬܐ ܕܛܘܒܢܐ ܦܘܠܘܣ ܫܠܝܚܐ ܘܐܝܙܓܕܐ ܘܣܗܕܐ ܕܚܠܦ ܥܡܐ ܘܥܡ̈ܡܐ ܨܠܘ̈ܬܗ ܥܠ ܟܠܗ̇ ܡܪܥܝܬܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܩܬܘ̈ܠܝܩܐ ܘܚܢܢ ܢܬܥܕܪ ܒܨܠܘ̈ܬܗ ܐܡܝܢ܀<locus from="82b"/></finalRubric>
                 <note>Only a very few lessons are marked in the text, e.g. fol. <locus from="23a">23a</locus>, <foreign xml:lang="syr">ܩܪܝ ܕܫ̈ܠܝܚܐ ܘܕܣܗ̈ܕܐ</foreign>.</note>
               </msItem>
             </msContents>
@@ -187,15 +184,7 @@
                   <desc>This volume is written in a rather inelegant hand of the <origDate notBefore="0900" notAfter="1100">ixth or xth cent.</origDate></desc>
                 </handNote>
               </handDesc>
-              <additions>
-                <list>
-                  <item n="1" xml:id="addition1">
-                    <locus from="82b"/>
-                    <p>Colophon:</p>
-                    <p><quote xml:lang="syr"> ܫܠܡ ܠܡܟܬ݂ܒ ܐܪܒܥܣܪ̈ܐ ܐܓܪ̈ܬܐ ܕܛܘܒܢܐ ܦܘܠܘܣ ܫܠܝܚܐ ܘܐܝܙܓܕܐ ܘܣܗܕܐ ܕܚܠܦ ܥܡܐ ܘܥܡ̈ܡܐ ܨܠܘ̈ܬܗ ܥܠ ܟܠܗ̇ ܡܪܥܝܬܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܩܬܘ̈ܠܝܩܐ ܘܚܢܢ ܢܬܥܕܪ ܒܨܠܘ̈ܬܗ ܐܡܝܢ܀</quote></p>
-                  </item>
-                </list>
-              </additions>
+              <additions/>
             </physDesc>
             <history>
               <origin>
@@ -321,6 +310,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-11" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
