@@ -284,35 +284,30 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
-                <supportDesc material=""><!-- @material can be "chart" (paper), "mixed", "perg" (parchment/vellum), or "unknown" -->
+              <objectDesc form="codex">
+                <supportDesc material="perg">
                   <support>
-                    <material><!-- Use Wright's vocabulary for material here --></material>
+                    <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""><!-- Enter the number of folia here (followed by "f." if a single folio and by "ff." if more than one folia) and in @quantity (e.g., ...quantity="25"> 25 ff. </measure>) --></measure>
-                    <dimensions type="" unit="in">
-                      <!-- @type can be "binding", "boxed", "leaf", "line-height", "slip", "unknown" or "written". Will usually be "leaf". -->
-                      <!-- @unit can be "chars", "cm", "in", "lines" or "mm". Will usually be "in". -->
+                    <measure type="composition" unit="leaf" quantity="173">173 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="height" quantity="12.75" unit="in">12 3/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="width" quantity="10" unit="in">10</measure>
                       </width>
                     </dimensions>
-                    <!-- Repeat the <dimensions> block as needed to record all types of measurements that Wright supplies
-                      e.g., <dimensions type="written" unit="in">
-                      <height></height>
-                      <width></width>
-                    </dimensions>, etc. -->
                   </extent>
-                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
+                  <foliation type="ancient"/>
                   <collation>
-                    <p><!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.--></p>
+                    <p>The quires are 22 in number.</p>
                   </collation>
                   <condition>
                     <list>
+                      <item><p>It does not appear what the original quire signatures were.</p></item>
+                      <item><p>Leaves are now wanting after foll. <locus from="6">6</locus>, <locus from="21">21</locus>, and <locus from="167">167</locus>.</p></item>
                       <item>
                         <p>The notes on <locus from="1a" to="1a">fol. 1 a</locus> are much stained and mutilated, and some portions of them have been designedly erased.</p>
                       </item>
