@@ -101,111 +101,208 @@
                   <ref target="#p1addition1">See below.</ref>
                 </colophon>
                 <note/>
-              </msItem>
               <msItem n="2" xml:id="p1b1" defective="true">
                 <locus from="1" to="2a">Foll. 1-2a</locus>
                 <author ref="http://syriaca.org/person/10"/>
                 <title ref="" type="supplied">An Introductory Letter</title>
                 <note>Of the introductory letter only a very small portion remains.</note>
-                <msItem n="3" xml:id="p1b2" defective="unknown"><!-- Note how the @xml:id changes here to indicate a nested msItem within item number 2. @n shows <msItem> #3. @xml:id shows the first b-level <msItem> in part 1. Note also that <msItem n="2"...> has not closed yet.-->
+              </msItem>
+                <msItem n="3" xml:id="p1b2" defective="unknown">
                   <locus from="2a" to="11">Foll. 2a-11</locus>
                   <author ref="http://syriaca.org/person/10"/>
                   <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ
-                    <locus from="2a" to="2a"/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                    <locus from="2a" to="2a"/>
                   </rubric>
                   <note><locus from="7" to="7">Fol. 7</locus> is a later insertion, of about the <date from="0800" to="0900" calendar="Gregorian">ixth cent</date>.</note>
-                  <listBibl>
-                    <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
-                  </listBibl>
                 </msItem>
-              </msItem><!-- <msItem n="2" xml:id="p1a2"> closes here after its subordinated item(s). -->
+                <msItem n="4" xml:id="p1b3" defective="unknown">
+                  <locus from="11b" to="23">Foll. 11b-23</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܚܘܒܐ
+                    <locus from="11b" to="11b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="5" xml:id="p1b4" defective="unknown">
+                  <locus from="23a" to="31">Foll. 23a-31</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܨܘܡܐ
+                    <locus from="23a" to="23a"/>
+                  </rubric>
+                </msItem>
+                <msItem n="6" xml:id="p1b5" defective="true">
+                  <locus from="31b" to="42">Foll. 31b-42</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܨܠܘܬܐ
+                    <locus from="31b" to="31b"/>
+                  </rubric>
+                  <note>Imperfect.</note>
+                </msItem>
+                <msItem n="7" xml:id="p1b6" defective="true">
+                  <locus from="42a" to="50">Foll. 42a-50</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܩܪ̈ܒܐ
+                    <locus from="42a" to="42a"/>
+                  </rubric>
+                  <note>Imperfect.</note>
+                </msItem>
+                <msItem n="8" xml:id="p1b7" defective="true">
+                  <locus from="50a" to="66">Foll. 50a-66</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܒ̈ܢܝ ܩܝܡܐ
+                    <locus from="50a" to="50a"/>
+                  </rubric>
+                  <note>Imperfect.</note>
+                </msItem>
+                <msItem n="9" xml:id="p1b8" defective="true">
+                  <locus from="66a" to="75">Foll. 66a-75</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܬ̈ܝܒܐ
+                    <locus from="66a" to="66a"/>
+                  </rubric>
+                  <note>Imperfect.</note>
+                </msItem>
+                <msItem n="10" xml:id="p1b9" defective="unknown">
+                  <locus from="75a" to="85">Foll. 75a-85</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܚܝܬ ܡܝ̈ܬܐ
+                    <locus from="75a" to="75a"/>
+                  </rubric>
+                </msItem>
+                <msItem n="11" xml:id="p1b10" defective="unknown">
+                  <locus from="85b" to="93">Foll. 85b-93</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܡܟܝܟܘܬܐ
+                    <locus from="85b" to="85b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="12" xml:id="p1b11" defective="unknown">
+                  <locus from="93b" to="99">Foll. 93b-99</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܪ̈ܥܘܬܐ
+                    <locus from="93b" to="93b"/>
+                  </rubric>
+                </msItem>
+              </msItem> 
             </msContents>
             <physDesc>
               <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
-                <supportDesc material=""><!-- @material can be "chart" (paper), "mixed", "perg" (parchment/vellum), or "unknown" -->
+                <supportDesc material="perg">
                   <support>
-                    <material><!-- Use Wright's vocabulary for material here --></material>
+                    <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""><!-- Enter the number of folia here (followed by "f." if a single folio and by "ff." if more than one folia) and in @quantity (e.g., ...quantity="25"> 25 ff. </measure>) --></measure>
-                    <dimensions type="" unit="in">
-                      <!-- @type can be "binding", "boxed", "leaf", "line-height", "slip", "unknown" or "written". Will usually be "leaf". -->
-                      <!-- @unit can be "chars", "cm", "in", "lines" or "mm". Will usually be "in". -->
+                    <measure type="composition" unit="leaf" quantity="99">99 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="height" quantity="10.25" unit="in">10 1/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="width" quantity="8.125" unit="in">8 1/8</measure>
                       </width>
                     </dimensions>
-                    <!-- Repeat the <dimensions> block as needed to record all types of measurements that Wright supplies
-                      e.g., <dimensions type="written" unit="in">
-                      <height></height>
-                      <width></width>
-                    </dimensions>, etc. -->
                   </extent>
-                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
+                  <foliation type="ancient"/>
                   <collation>
-                    <p><!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.--></p>
+                    <p>The quires, 13 in number, were originally signed with both letters and arithmetical figures (e.g. fol. <locus from="16a">16a</locus>, <foreign xml:lang="syr">ܓ</foreign> and <!-- Need Arabic figures here! -->), but in most cases either one, or the other, or both have disappeared.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any  persons, places, foreign words, etc. as necessary. Tagging loci is necessary, but adding @from and @to is optional. --></p>
-                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
+                        <p>Some of the leaves are much stained and torn, especially foll. <locus from="1" to="2">1, 2</locus>, <locus from="8">8</locus>, <locus from="40" to="42">40-42</locus>, and <locus from="99">99</locus>.</p>
+                      </item>
+                      <item>
+                        <p>Leaves are wanting after foll. <locus from="1">1</locus>, <locus from="42">42</locus>, <locus from="43">43</locus>, <locus from="51">51</locus>, and <locus from="73">73</locus>.</p>
+                      </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines=""><!-- @writtenLines should not contain anything but numbers and whitespaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
-                    <locus from="" to=""/><!-- Only use locus if there is more than one layout in the MS, eg if the number of columns changes half of the way through -->
-                    <p><!-- Include Wright's prose here --></p>
-                  </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
+                  <layout columns="2" writtenLines="23 26">
+                    <locus from="" to=""/>
+                    <p>Each page is divided into two columns, of from 23 to 26 lines.</p>
+                  </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="6"><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
-                <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown"><!-- @xml:id should be sequentially assigned as "p1handNote1", "p1handNote2", and so on. -->
-                  <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                  <!-- @script please use the ISO code combinations cited here: ___ -->
-                  <!-- @medium may contain any phrasing Wright may mention (using hyphens between words, not white space), or "unknown" if he does not -->
+              <handDesc hands="7"><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
+                <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <desc>This manuscript is written in a good, regular, though by no means elegant Estrangela, and dated A. Gr. <origDate when-custom="0785" calendar="Seleucid">785</origDate>, A.D. <origDate when="0474" calendar="Gregorian">474</origDate>.</desc>
-                </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
+                </handNote>
+                <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc>See additions. <ref target="#p1addition2"></ref></desc>
+                </handNote>
+                <handNote xml:id="p1handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc>See additions. <ref target="#p1addition3"></ref></desc>
+                </handNote>
+                <handNote xml:id="p1handNote4" scope="minor" script="syr" medium="unknown">
+                  <desc>See additions. <ref target="#p1addition4"></ref></desc>
+                </handNote>
+                <handNote xml:id="p1handNote5" scope="minor" script="ar" medium="unknown">
+                  <desc>See additions. <ref target="#p1addition5 #p1addition6"></ref></desc>
+                </handNote>
+                <handNote xml:id="p1handNote6" scope="minor" script="cop" medium="unknown">
+                  <desc>See additions. <ref target="#p1addition7"></ref></desc>
+                </handNote>
+                <handNote xml:id="p1handNote7" scope="minor" script="syr" medium="unknown">
+                  <desc>See additions. <ref target="#p1addition8"></ref></desc>
+                </handNote>
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="p1decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "p1decoNote1", "p1decoNote2", etc. -->
-                  <!-- There are many valid entries for @type. See manual for a complete list. -->
-                  <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
-                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
-              </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+                <decoNote xml:id="p1decoNote1" type="ornamentation" medium="black-ink">
+                  <p>Fol. <locus from="1b">1b</locus> contains one or two ornamental designs in black ink.</p>
+                </decoNote>
+              </decoDesc>
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <p/>
                 <list>
                   <item n="1" xml:id="p1addition1">
                     <locus from="99b" to="99b"/>
                     <ref target="#p1handNote1"/>
-                    <p>There is a note, written by the scribe in a more cursive character, which states that this book was purchased by <persName ref=""><foreign xml:lang="syr">ܡܪܝ ܡܢܝܡ</foreign> (<foreign xml:lang="grk">Μόνιμος</foreign>?)</persName>, priest of the church in the village of <foreign xml:lang="syr">ܚܪܝܫܬܐ</foreign> (perhaps <placeName ref=""><!-- Need Arabic here --></placeName>, near <placeName ref="">Damascus</placeName>, on the road to <placeName ref="">Ḥimṣ</placeName>), in the year <origDate when-custom="0785" calendar="Seleucid">785</origDate> (<origDate when="0474" calendar="Gregorian">A.D. 474</origDate>), when <persName ref="">Timotheus</persName> was bishop of that place and <persName ref="">Monimus</persName> was periodeutes. The book itself was written in <placeName ref="">Edessa</placeName></p>
+                    <p>On fol. 99b, there is a note, written by the scribe in a more cursive character, which states that this book was purchased by <persName ref=""><foreign xml:lang="syr">ܡܪܝ ܡܢܝܡ</foreign> (<foreign xml:lang="grk">Μόνιμος</foreign>?)</persName>, priest of the church in the village of <foreign xml:lang="syr">ܚܪܝܫܬܐ</foreign> (perhaps <placeName ref=""><!-- Need Arabic here --></placeName>, near <placeName ref="">Damascus</placeName>, on the road to <placeName ref="">Ḥimṣ</placeName>), in the year <origDate when-custom="0785" calendar="Seleucid">785</origDate> (<origDate when="0474" calendar="Gregorian">A.D. 474</origDate>), when <persName ref="">Timotheus</persName> was bishop of that place and <persName ref="">Monimus</persName> was periodeutes. The book itself was written in <placeName ref="">Edessa</placeName></p>
                     <p><quote xml:lang="syr"> ܙܒܢ ܟܬܒܐ ܗܢܐ ܓܒܝܐ ܕܐܠܗܐ ܡܪܝ ܡܢܝܡ ܩܫܝܫܐ ܕܥܕܬܐ ܕܚܪܝܫܬܐ ܩܪܝܬܐ ܕܡܢ . . . ܕܩܕܫ . . ܐ ܠܢܝܚܐ ܘܩܪܝܢܐ ܕܟܠܗܘܢ ܚܒܝܒ̈ܘܗܝ. ܒܝܘ̈ܡܝ ܡܝܬܪܐ ܘܪܚܡ ܠܡܫܝܚܐ ܡܪܝ ܛܝܡܬܐܐ ܐܦܝܣܩܘܦܐ ܘܡܪܝ ܡܘܢܡܐ ܦܪܝܗܕܘܛܐ. ܕܡܫܝܚܐ ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܩܕ̈ܝܫܘܗܝ ܢܥܒܕ ܪ̈ܚܡܐ ܥܠ ܥܘܡܪܗ ܘܥܠ ܩܢܝܢܗ ܘܒܥܠܡܐ ܕܥܬܝܕ ܢܬܠ ܠܗ ܫܘܒܩܢܐ ܕܚ̈ܛܗܐ ܠܥܠܡܝܢ. ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܝܪܚ ܐܝܠܘܠ ܕܫܢܬ ܫܒܥܡܐܐ ܘܬܡܢܐܝܢ ܘܚܡܫ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܕܒܝܬ ܢܗܪܝܢ.</quote></p>
-                  </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                  </item>
                   <item n="2" xml:id="p1addition2">
                     <locus from="" to=""/>
-                    <p></p>
+                    <ref target="#p1handNote2"></ref>
+                    <p>A later hand has erroneously numbered the quires from <foreign xml:lang="syr">ܐ</foreign> to <foreign xml:lang="syr">ܝܒ</foreign>.</p>
                     <p><quote xml:lang="syr"></quote></p>
+                  </item>
+                  <item n="3" xml:id="p1addition3">
+                    <locus from="99b" to="99b"/>
+                    <ref target="#p1handNote3"></ref>
+                    <p>Another note on the fol. <locus from="99b">99b</locus>, now partially effaced, records that it once belonged to a person named Yeshūa</p>
+                    <p><quote xml:lang="syr">ܗܢܐ ܟܬܒܐ ܐܝܬܘܗܝ ܕܝܫܘܥ ܒܪ ܡܪܝ . . . ܟܠ ܕܩܪܐ ܒܗ ܢܨܠܐ ܥܠܘܗܝ</quote></p>
+                  </item>
+                  <item n="4" xml:id="p1addition4">
+                    <locus from="99a" to="99a"/>
+                    <ref target="#p1handNote4"></ref>
+                    <p>On fol. <locus from="99a">99a</locus>, after the doxology, we find a note, which mentions that the abbat Moses of Nisibis purchased this book at Rās-'ain, for the convent of S. Mary Deipara</p>
+                    <p><quote xml:lang="syr">ܙܒܢ ܠܟܬܒܐ ܗܢܐ ܒܪܝܫܥܝܢܐ ܡܘܫܐ ܚܛܝܐ ܪܝܫܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣ̈ܩܝܛܐ ܠܗ̇ ܠܕܝܪܐ. ܕܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܟܠ ܕܐܫܬܘܬܦ ܒܗ. ܘܠܐ ܫܠܝܛ ܠܐܢܫ ܣܟ ܠܥܘܗܕܢܐ ܗܢܐ. ܡܢܗ̇ ܕܕܝܪܐ ܘܠܐ ܕܢܥܛܐ ܠܥܘܗܕܢܐ ܗܢܐ ܘܟܠ ܕܣ̇ܥܐ ܚܪܡܐ ܢܗܘܐ ܥܠܘܗܝ ܥܕܡܐ ܕܡܗܦܟ ܠܗ܀</quote></p>
+                  </item>
+                  <item n="5" xml:id="p1addition5">
+                    <locus from="59b" to="59b"/>
+                    <ref target="#p1handNote5"></ref>
+                    <p>On the upper margin of fol. 59b we read in an old hand the Arabic words <!-- Need Arabic here! --></p>
+                  </item>
+                  <item n="6" xml:id="p1addition6">
+                    <locus from="59b" to="59b"/>
+                    <ref target="#p1handNote5"></ref>
+                    <p>The same hand has numbered the discourses, <!-- Need Arabic here! -->, etc.</p>
+                  </item>
+                  <item n="7" xml:id="p1addition7">
+                    <locus from="1b" to="1b"/>
+                    <ref target="#p1handNote6"></ref>
+                    <p>Fol. 1b contains some Coptic letters.</p>
+                  </item>
+                  <item n="8" xml:id="p1addition8">
+                    <locus from="1b" to="1b"/>
+                    <ref target="#p1handNote7"></ref>
+                    <p>Fol. 1b contains an illegible Syriac note of comparatively modern date.</p>
                   </item>
                 </list>
               </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
-              <bindingDesc>
-                <binding xml:id="p1binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
-                <decoNote xml:id="p1bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
-                <condition/><!-- Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. -->
-              </bindingDesc><!-- IF <bindingDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <sealDesc>
-                <seal xml:id="p1seal1" contemporary="">
-                  <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-                </seal><!-- <seal> block may be repeated as necessary for each seal. -->
-              </sealDesc><!-- IF <sealDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <accMat><!-- Use this for any mention of closely-related accompanying material (documents, artifacts, letters) which are associated with the <msPart> -->
-                <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-              </accMat><!-- IF <accMat> IS NOT USED, delete nested elements and make it an empty element.-->
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
             </physDesc>
             <history>
               <origin>
