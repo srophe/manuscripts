@@ -92,13 +92,13 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
                 <locus from="1a" to="99b">Foll. 1a-99b</locus>
-                <author ref="http://syriaca.org/person/10"/>
+                <author ref="http://syriaca.org/person/10">Aphraates</author>
                 <title ref="" type="supplied">The first part of the works of Aphraates</title>
                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܐܓܪ̈ܬܐ ܩܕܡ̈ܝܬܐ ܕܚܟܝܡܐ ܦܪܣܝܐ. ܕܗܘܝܢ ܒܡܢܝܢܐ ܥܣܪ. ܫܘܒܚܐ ܠܐܒܐ. ܏ܘܫ.
                   <locus from="99a" to="99a"/>
                 </finalRubric>
                 <colophon>
-                  <ref target="#p1addition1">See below.</ref>
+                  <ref target="#p1addition1 #p1handNote1">See below.</ref>
                 </colophon>
                 <note/>
               <msItem n="2" xml:id="p1b1" defective="true">
@@ -185,7 +185,7 @@
               </msItem> 
             </msContents>
             <physDesc>
-              <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
+              <objectDesc form="codex">
                 <supportDesc material="perg">
                   <support>
                     <material>Vellum</material>
@@ -223,9 +223,9 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="7"><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
+              <handDesc hands="7">
                 <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript is written in a good, regular, though by no means elegant Estrangela, and dated A. Gr. <origDate when-custom="0785" calendar="Seleucid">785</origDate>, A.D. <origDate when="0474" calendar="Gregorian">474</origDate>.</desc>
+                  <desc>This manuscript is written in a good, regular, though by no means elegant Estrangela.</desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>See additions. <ref target="#p1addition2"></ref></desc>
@@ -299,136 +299,208 @@
                     <p>Fol. 1b contains an illegible Syriac note of comparatively modern date.</p>
                   </item>
                 </list>
-              </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
+              </additions>
               <bindingDesc/>
               <sealDesc/>
               <accMat/>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="" notAfter=""><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origPlace><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
+                <origDate when="0474" calendar="Gregorian">A.D. 474</origDate>
+                <origDate when-custom="0785" datingMethod="Seleucid">A. Gr. 785</origDate>
+                <origPlace>Edessa</origPlace>
               </origin>
               <provenance>
-                <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
-              </provenance><!-- IF <provenance> IS NOT USED, delete nested elements and make it an empty element.-->
-              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
+                <p><ref target="#p1addition3 #p1addition4">See additions</ref></p>
+              </provenance>
+              <acquisition/>
             </history>
             <additional>
               <adminInfo>
                 <recordHist>
                   <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
-                <availability status="restricted"/>
-                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
-                  <custEvent type="">
-                    <p/>
-                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
-                </custodialHist><!-- IF <custodialHist> IS NOT USED, delete nested elements and make it an empty element.-->
+                <availability/>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart1"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. -->
+                <bibl xml:id="Wrightpart1">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                  <citedRange unit="entry">DXXIX</citedRange>
+                  <citedRange unit="pp">II:403-404</citedRange>
                 </bibl>
               </listBibl>
             </additional>
           </msPart>
-          <msPart n="2" xml:id="Part2"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+          <msPart n="2" xml:id="Part2">
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/836</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 17182 foll. 100-175</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">530</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">DXXX</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
+              <msItem n="1" xml:id="p2a1" defective="true">
+                <locus from="100a" to="174b">Foll. 100a-174b</locus>
+                <author ref="http://syriaca.org/person/10">Aphraates</author>
+                <title ref="" type="supplied">The second part of the works of Aphraates; viz. homilies ii-xxii, and the treatise on "the Cluster."</title>
+                <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܐܓܪ̈ܬܐ ܟܘܠܗܝܢ . . . ܘܡܪܝ ܝܥܩܘܒ ܚܟܝܡܐ ܦܪܣܝܐ. ܕܗܘܝܢ ܒܡܢܝܢܐ ܥܣܪܝܐ ܘܬܪ̈ܬܝܢ ܥܠ ܐܠܦ ܒܝܬ ܘܚܕܐ ܕܥܠ ܛܘܛܝܬܐ . ܘ . ܘ . ܫܘܒܚܐ ܠܐܒܐ. ܏ܘܫ.
+                  <note>The scribe wrote the words <foreign xml:lang="syr">ܕܡܪܝ ܝܥܩܘܒ</foreign> by mistake twice, and then erased them. The letters <foreign xml:lang="syr">ܘܒ</foreign> are still quite distinct.</note><locus from="174a" to="174a"/></finalRubric>
+                <colophon><ref target="#p2addition1"/>See additions.</colophon>
+                <note>The <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܓܙܘܪܬܐ</foreign> and <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܦܨܚܐ</foreign> are entirely lost.</note>
                 <listBibl>
-                  <bibl/>
-                </listBibl>
+                  <bibl>Land, Aneed. Syr., t. i., plate v., no. 12</bibl>
+                </listBibl>              
+              <msItem n="2" xml:id="p2b1" defective="true">
+                <locus from="100a" to="102">Foll. 100a-102</locus>
+                <author ref="http://syriaca.org/person/10"/>
+                <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܫܒܬܐ
+                  <locus from="100a" to="100a"/>
+                </rubric>
+                <note>Imperfect at the beginning.</note>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+                <msItem n="3" xml:id="p2b2" defective="true">
+                  <locus from="102b" to="118">Foll. 102b-118</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܝܕ ܕܦܝܣܐ
+                    <locus from="102b" to="102b"/>
+                  </rubric>
+                  <note>Imperfect.</note>
+                </msItem>
+                <msItem n="4" xml:id="p2b3" defective="unknown">
+                  <locus from="118a" to="122">Foll. 118a-122</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ
+                    <locus from="118a" to="118a"/>
+                  </rubric>
+                </msItem>
+                <msItem n="5" xml:id="p2b4" defective="unknown">
+                  <locus from="122a" to="125">Foll. 122a-125</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܫܬܥܣܪ̈ܐ ܕܥܠ ܥܡܡ̈ܐ ܕܗܘܘ ܚܠܦ ܥܡܐ
+                    <locus from="122a" to="122a"/>
+                  </rubric>
+                </msItem>
+                <msItem n="6" xml:id="p2b5" defective="unknown">
+                  <locus from="125a" to="128">Foll. 125a-128</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ  ܕܢܚܘܐ ܥܠ ܡܫܝܚܐ ܕܒܪܗ ܗ̣ܘ ܕܐܠܗܐ
+                    <locus from="125a" to="125a"/>
+                  </rubric>
+                </msItem>
+                <msItem n="7" xml:id="p2b6" defective="unknown">
+                  <locus from="128b" to="131">Foll. 128b-131</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܝܚ ܕܠܘܩܒܠ ܝܗ̈ܘܕܝܐ ܘܥܠ ܒܬܘܠܘܬܐ ܘܩܕܝܫܘܬܐ
+                    <locus from="128b" to="128b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="8" xml:id="p2b7" defective="unknown">
+                  <locus from="131b" to="136">Foll. 131b-136</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܐܓܪܬܐ ܕܠܘܩܒܠ ܝܗܘ̈ܕܝܐ ܥܠ ܕܐܡܪܝܢ ܕܩܝܡ ܗ̣ܘ ܠܗܘܢ ܠܡܬܟܢܫܘ 
+                    <locus from="131b" to="131b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="9" xml:id="p2b8" defective="unknown">
+                  <locus from="136b" to="141">Foll. 136b-141</locus>
+                  <author ref="http://syriaa.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܢܣܐ ܕܡ̈ܣܟܢܐ
+                    <locus from="136b" to="136b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="10" xml:id="p2b9" defective="unknown">
+                  <locus from="141a" to="147">Foll. 141a-147</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܪܕܘܦܝܐ
+                    <locus from="141a" to="141a"/>
+                  </rubric>
+                </msItem>
+                <msItem n="11" xml:id="p2b10" defective="unknown">
+                  <locus from="147b" to="155">Foll. 147b-155</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܡܘܬܐ ܘܕܙܒ̈ܢܐ ܐܚܪ̈ܝܐ 
+                    <locus from="147b" to="147b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="12" xml:id="p2b11" defective="unknown">
+                  <locus from="155a" to="174">Foll. 155a-174</locus>
+                  <author ref="http://syriaca.org/person/10"/>
+                  <rubric xml:lang="syr">ܬܚܘܝܬܐ ܕܛܘܛܝܬܐ
+                    <locus from="155a" to="155a"/>
+                  </rubric>
+                </msItem>
+              </msItem>
+              <msItem n="1" xml:id="p2a2" defective="true">
+                <locus from="175a" to="175b">Foll. 175a-175b</locus>
+                <author/>
+                <title/>
+                <quote>Fol.175 is a small piece of vellum, 4 3/8 in. by 2 1/4 , unfortunately  torn in the middle and saturated with oil.  Each side contains three lines of writing and part of a fourth, in ancient Latin characters, not later than the <date notAfter="0600" calendar="Gregorian">vith</date> cent.  On the one side are legible the words, S. Luke xii. 23, 24: <foreign xml:lang="la">ESCA ET CORPUS/ QUAM VESTIME/[NTUM] CONSI</foreign> On the other, S. Luke xii. 32: <foreign xml:lang="la">QUIA COMPLACU/IT PATRI VESTRO/ DARE [VOBIS REG]</foreign></quote>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="75">75 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="9.875" unit="in">9 7/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="8.25" unit="in">8 1/4</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
+                  <foliation type="ancient"/>
                   <collation>
-                    <p/>
+                    <p>The quires were once probably 12 in number.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>A few leaves are slightly stained and torn, especially foll. <locus from="100" to="102">100-102</locus> and <locus from="173" to="175">173-175</locus>.</p>
+                      </item>
+                      <item>
+                        <p>Of the quires, the first two are lost, and the third is imperfect, a leaf being missing after fol. <locus from="105">105</locus></p>
+                      </item>
+                      <item>
+                        <p>The margins have been so closely cut that the original signatures are no longer extant.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="2" writtenLines="30 40">
+                    <locus from="100" to="174"/>
+                    <p>Each page is divided into two columns, of from 30 to 40 lines.</p>
+                  </layout>
+                  <layout columns="1" writtenLines="3 4">
+                    <p>Each side of Fol. 175 contains three lines of writing and part of a fourth.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="">
-                <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc></desc>
+                <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>This manuscript is written in a fine, regular Estrangela.</desc>
                 </handNote>
               </handDesc>
               <decoDesc>
@@ -439,7 +511,12 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                  <item n="1" xml:id="p2addition1">
+                    <locus from="174b" to="174b"/>
+                    <ref target="#p2handNote1"/>
+                    <p>On fol. 174 b there is a long note written by the scribe in a more cursive character. See <bibl>Land, Aneed. Syr., t. i., plate v., no. 12</bibl>. It contained the date A. Gr. <origDate when-custom="0823" datingMethod="Seleucid">823</origDate>, A.D. <origDate when="0512" calendar="Gregorian">512</origDate>, as well as the name of the owner of the manuscript and of his convent; but these latter particulars have been erased.</p>
+                    <p><quote xml:lang="syr">ܕܘܟܪܢܐ ܛܒܐ ܘܥܘܗܕܢܐ ܫܦܝܪܐ ܩܕܡ . . ܐ ܡܫܒܐܚ ܕܬܠܝܬܝܘܬܐ ܢܗܘܐ ܠܒܪܚܐܪ̈ܐ ܘܪܚܡ ܐܠܗܐ . . . ܘܥܒܕܐ . . . ܘܐܬܚܦܛ ܘܣܡ ܠܗ ܣܝܡܬܐ ܗܕܐ ܡܝܬܪܬܐ ܕܡܪܝ ܝܥܩܘܒ ܚܟܝܡܐ ܦܪܣܝܐ ܒܝܬ ܣܒ . . . ܕܕܝܪܐ ܒܝܬ ܡܪܝ . . . ܕܐܝܬ ܒܗ̇ ܒܩܪܝܬܐ . . . ܝܫܘܥ ܡܫܝܚܐ ܢܩܒܠ ܩܘܪܒܢܗ ܢܫܦܪ ܩܕܡܘܗܝ ܢܕܪܗ ܐܝܟ ܕܗܒܝܠ ܩܕܝܫܐ ܘܐܝܟ ܕܟܠܗܘܢ ܐܒܘ̈ܬܐ ܕܫܦܪܘ ܩܕܡܘܗܝ. ܏ܘܫ. ܟܬܝܒ ܒܫܢܬ ܬܡܢܡܐܐ ܘܥܣܪܝܢ ܘܬܠܬ ܒܕܝܘ̈ܢܝܐ ܒܝܪܚ ܟܢܘܢ ܐܚܪܝ.</quote></p>
+                  </item>
                   <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
                 </list>
               </additions>
