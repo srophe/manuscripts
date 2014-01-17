@@ -445,13 +445,7 @@
                     <locus from="155a" to="155a"/>
                   </rubric>
                 </msItem>
-              </msItem>
-              <msItem n="1" xml:id="p2a2" defective="true">
-                <locus from="175a" to="175b">Foll. 175a-175b</locus>
-                <author/>
-                <title/>
-                <quote> <ref target="#p2handNote3"></ref>Fol.175 is a small piece of vellum, 4 3/8 in. by 2 1/4 , unfortunately  torn in the middle and saturated with oil.  Each side contains three lines of writing and part of a fourth, in ancient Latin characters, not later than the <date notAfter="0600" calendar="Gregorian">vith</date> cent.  On the one side are legible the words, S. Luke xii. 23, 24: <foreign xml:lang="la">ESCA ET CORPUS/ QUAM VESTIME/[NTUM] CONSI</foreign> On the other, S. Luke xii. 32: <foreign xml:lang="la">QUIA COMPLACU/IT PATRI VESTRO/ DARE [VOBIS REG]</foreign></quote>
-              </msItem>
+              </msItem>   
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -563,7 +557,148 @@
               </listBibl>
             </additional>
           </msPart>
-        </msDesc>
+          <msPart n="3" xml:id="Part3">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/1184</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 17182 foll. 175</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">530</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DXXX</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="la">Latin</textLang>
+              <msItem n="1" xml:id="p3a1" defective="true">
+                <locus from="175a" to="175b">Foll. 175a</locus>
+                <author/>
+                <title ref="http://syriaca.org/work/218" type="supplied">The Gospel of S. Luke, xii. 23, 24</title>
+                <quote xml:lang="la"><p>ESCA ET CORPUS</p><p>QUAM VESTIME</p><p>NTUM CONSI</p></quote>
+              </msItem>
+              <msItem n="2" xml:id="p3a2" defective="true">
+                <!-- Please clean up like item 1 above -->
+                <locus from="175a" to="175b">Foll. 175a-175b</locus>
+                <author/>
+                <title/>
+                <ref target="#p2handNote3"></ref>Fol.175 is a small piece of vellum, 4 3/8 in. by 2 1/4 , unfortunately  torn in the middle and saturated with oil.  Each side contains three lines of writing and part of a fourth, in ancient Latin characters, not later than the <date notAfter="0600" calendar="Gregorian">vith</date> cent.  On the one side are legible the words, S. Luke xii. 23, 24: <foreign xml:lang="la">ESCA ET CORPUS/ QUAM VESTIME/[NTUM] CONSI</foreign> On the other, S. Luke xii. 32: <quote xml:lang="la">QUIA COMPLACU/IT PATRI VESTRO/ DARE [VOBIS REG]</quote>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="75">75 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="9.875" unit="in">9 7/8</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="8.25" unit="in">8 1/4</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation type="ancient"/>
+                  <collation>
+                    <p>The quires were once probably 12 in number.</p>
+                  </collation>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>A few leaves are slightly stained and torn, especially foll. <locus from="100" to="102">100-102</locus> and <locus from="173" to="175">173-175</locus>.</p>
+                      </item>
+                      <item>
+                        <p>Of the quires, the first two are lost, and the third is imperfect, a leaf being missing after fol. <locus from="105">105</locus></p>
+                      </item>
+                      <item>
+                        <p>The margins have been so closely cut that the original signatures are no longer extant.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2" writtenLines="30 40">
+                    <locus from="100" to="174"/>
+                    <p>Each page is divided into two columns, of from 30 to 40 lines.</p>
+                  </layout>
+                  <layout columns="1" writtenLines="3 4">
+                    <p>Each side of Fol. 175 contains three lines of writing and part of a fourth.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="3">
+                <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>This manuscript is written in a fine, regular Estrangela.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc>One Abraham bar Nonnus has recorded his name.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote3" scope="sole" script="la" medium="unknown">
+                  <desc>Each side of fol. <locus from="175a" to="175b">175</locus> is in ancient Latin characters, not later than the <date notAfter="0600" calendar="Gregorian">vith</date> cent.</desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions>
+                <p/>
+                <list>
+                  <item n="1" xml:id="p2addition1">
+                    <locus from="174b" to="174b"/>
+                    <ref target="#p2handNote1"/>
+                    <p>On fol. 174 b there is a long note written by the scribe in a more cursive character. See <bibl>Land, Aneed. Syr., t. i., plate v., no. 12</bibl>. It contained the date A. Gr. <origDate when-custom="0823" datingMethod="Seleucid">823</origDate>, A.D. <origDate when="0512" calendar="Gregorian">512</origDate>, as well as the name of the owner of the manuscript and of his convent; but these latter particulars have been erased.</p>
+                    <p><quote xml:lang="syr">ܕܘܟܪܢܐ ܛܒܐ ܘܥܘܗܕܢܐ ܫܦܝܪܐ ܩܕܡ . . ܐ ܡܫܒܐܚ ܕܬܠܝܬܝܘܬܐ ܢܗܘܐ ܠܒܪܚܐܪ̈ܐ ܘܪܚܡ ܐܠܗܐ . . . ܘܥܒܕܐ . . . ܘܐܬܚܦܛ ܘܣܡ ܠܗ ܣܝܡܬܐ ܗܕܐ ܡܝܬܪܬܐ ܕܡܪܝ ܝܥܩܘܒ ܚܟܝܡܐ ܦܪܣܝܐ ܒܝܬ ܣܒ . . . ܕܕܝܪܐ ܒܝܬ ܡܪܝ . . . ܕܐܝܬ ܒܗ̇ ܒܩܪܝܬܐ . . . ܝܫܘܥ ܡܫܝܚܐ ܢܩܒܠ ܩܘܪܒܢܗ ܢܫܦܪ ܩܕܡܘܗܝ ܢܕܪܗ ܐܝܟ ܕܗܒܝܠ ܩܕܝܫܐ ܘܐܝܟ ܕܟܠܗܘܢ ܐܒܘ̈ܬܐ ܕܫܦܪܘ ܩܕܡܘܗܝ. ܏ܘܫ. ܟܬܝܒ ܒܫܢܬ ܬܡܢܡܐܐ ܘܥܣܪܝܢ ܘܬܠܬ ܒܕܝܘ̈ܢܝܐ ܒܝܪܚ ܟܢܘܢ ܐܚܪܝ.</quote></p>
+                  </item>
+                  <item n="2" xml:id="p2addition2">
+                    <locus from="174a" to="174a"/>
+                    <ref target="#p2handNote2"></ref>
+                    <p>On fol. 174a, between the columns, one Abraham bar Nonnus has recorded his name,</p>
+                    <p><quote xml:lang="syr">ܐܒܪܗܡ ܒܪ ܢܘܢܣ.</quote></p>
+                  </item>
+                </list>
+              </additions>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate when="0512" calendar="Gregorian">This manuscript is dated A.D. 512.</origDate>
+                <origDate when-custom="0823" datingMethod="Seleucid">A. Gr. 823</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart2">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DXXX</citedRange>
+                  <citedRange unit="pp">II:404-405</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart></msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
