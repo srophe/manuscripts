@@ -579,14 +579,14 @@
                 <locus from="175a" to="175b">Foll. 175a</locus>
                 <author/>
                 <title ref="http://syriaca.org/work/218" type="supplied">The Gospel of S. Luke, xii. 23, 24</title>
-                <quote xml:lang="la"><p>ESCA ET CORPUS</p><p>QUAM VESTIME</p><p>NTUM CONSI</p></quote>
+                <quote xml:lang="la"><p>ESCA ET CORPUS</p><p>QUAM VESTIME</p><p><supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">NTUM</supplied> CONSI</p></quote>
               </msItem>
               <msItem n="2" xml:id="p3a2" defective="true">
                 <!-- Please clean up like item 1 above -->
                 <locus from="175a" to="175b">Foll. 175a-175b</locus>
                 <author/>
                 <title/>
-                <ref target="#p2handNote3"></ref>Fol.175 is a small piece of vellum, 4 3/8 in. by 2 1/4 , unfortunately  torn in the middle and saturated with oil.  Each side contains three lines of writing and part of a fourth, in ancient Latin characters, not later than the <date notAfter="0600" calendar="Gregorian">vith</date> cent.  On the one side are legible the words, S. Luke xii. 23, 24: <foreign xml:lang="la">ESCA ET CORPUS/ QUAM VESTIME/[NTUM] CONSI</foreign> On the other, S. Luke xii. 32: <quote xml:lang="la">QUIA COMPLACU/IT PATRI VESTRO/ DARE [VOBIS REG]</quote>
+                <ref target="#p2handNote3"></ref>Fol.175 is a small piece of vellum, 4 3/8 in. by 2 1/4 , unfortunately  torn in the middle and saturated with oil.  Each side contains three lines of writing and part of a fourth, in ancient Latin characters, not later than the <date notAfter="0600" calendar="Gregorian">vith</date> cent.  On the one side are legible the words, S. Luke xii. 23, 24: <foreign xml:lang="la">ESCA ET CORPUS/ QUAM VESTIME/[NTUM] CONSI</foreign> On the other, S. Luke xii. 32: <quote xml:lang="la"><p>QUIA COMPLACU</p><p>IT PATRI VESTRO</p><p>DARE <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">VOBIS REG</supplied></p></quote>
               </msItem>
             </msContents>
             <physDesc>
