@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 17189</title>
+        <title xml:lang="en">BL Add MS 14574</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -50,7 +50,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/843/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/307/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,103 +60,72 @@
         <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-843" xml:lang="en">
+        <msDesc xml:id="manuscript-307" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/843</idno>
+            <idno type="URI">http://syriaca.org/manuscript/307</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17189</idno>
+              <idno type="BL-Shelfmark">Add MS 14574</idno>
             </altIdentifier>
           </msIdentifier>
           <msPart n="1" xml:id="Part1">
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/844</idno>
+              <idno type="URI">http://syriaca.org/manuscript/308</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS 17189 foll. 1-16</idno>
+                <idno type="BL-Shelfmark">Add MS 14574 foll. 1-19</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic">534</idno>
+                <idno type="Wright-BL-Arabic">535</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman">DXXXIV</idno>
+                <idno type="Wright-BL-Roman">DXXXV</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
-                <locus from="1a" to="16">Foll. 1a-16</locus>
-                <author ref="http://syriaca.org/person/13">St. Ephraim the Syrian</author>
-                <title ref="" type="supplied">Homilies on different subjects by Ephraim</title>
-                <rubric xml:lang="syr"><ref target="#p1addition1">See additions.</ref><locus from="1b" to="1b"/></rubric>
-                <listBibl>
-                  <bibl>S. Ephraemi Syri etc. Opera Selecta, ed. Overbeck, p. 74.</bibl>
-                  <bibl>Overbeck, p. 81.</bibl>
-                  <bibl>Overbeck, p. 88.</bibl>
-                  <bibl>Overbeck, p. 95.</bibl>
-                  <bibl>Overbeck, p. 99.</bibl>
-                </listBibl>
-              <msItem n="2" xml:id="p1b1" defective="unknown">
-                <locus from="1b" to="4">Foll. 1b-4</locus>
+                <locus from="1a" to="19">Foll. 1a-19</locus>
                 <author ref="http://syriaca.org/person/13"/>
-                <title ref="" type="supplied">On the Miracles wrought by Moses in Egypt.</title>
-                <rubric xml:lang="syr"> ܡܐܡܪܐ ܩܕܡܝܐ ܥܠ ܐܬ̈ܘܬܐ ܕܥܒ̣ܕ ܡܘܫܐ ܒܡܨܪܝܢ
+                <title ref="" type="supplied">A portion of the discourses of Ephraim against false doctrines, addressed to Hypatius.</title>
+                <rubric xml:lang="syr"><supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">[ܐܓ]</supplied>ܪ̈ܬܐ ܕܡܪܝ ܐܦܪܝܡ̣ ܕܠܘܬ ܗܘܦܛܝܣ ܕܣܝ̈ܡܢ ܥܠ ܐܬ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">[ܘ̈ܬܐ]</supplied> ܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛ̈ܥܝܐ. 
                   <locus from="1b" to="1b"/>
                 </rubric>
-                <note>See <bibl>S. Ephraemi Syri etc. Opera Selecta, ed. Overbeck, p. 88</bibl>.</note>
+                <note>The words <foreign xml:lang="syr">ܕܣܝ̈ܡܢ ܥܠ ܐܬܘ̈ܬܐ</foreign> would appear to imply that there were 22 of these discourses, each commencing with a letter of the alphabet, in the usual order, like those of <persName>Aphraates</persName> (<ref target="http://syriaca.org/manuscript/359">Add. 14,619</ref> and <ref target="http://syriaca.org/manuscript/834">17,182</ref>); but this seems unlikely, as the second discourse begins with the letter <foreign xml:lang="syr">ܦ</foreign> (<foreign xml:lang="syr">ܦܪܘܫܐܝܬ</foreign>). Besides, there is no mention of alphabetical arrangement in <ref target="http://syriaca.org/manuscript/303">Add. 14,570</ref>. The running title, e.g. fol. <locus from="4b">4b</locus>, is simply <foreign xml:lang="syr">ܕܗܘܦܛܝܣ</foreign></note>
+                <note>The rest of this manuscript still exists as a palimpsest in <ref target="http://syriaca.org/manuscript/363">Add. 14,623</ref></note>
                 <listBibl>
-                  <bibl>S. Ephraemi Syri etc. Opera Selecta, ed. Overbeck, p. 88.</bibl>
+                  <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, p. 21.</bibl>
+                  <bibl>Overbeck, p. 59.</bibl>
+                </listBibl>
+              <msItem n="2" xml:id="p1b1" defective="unknown">
+                <locus from="1b" to="14">Foll. 1b-15</locus>
+                <author ref="http://syriaca.org/person/13"/>
+                <incipit xml:lang="syr"> ܏ܐ ܐܦܪܝܡ ܠܗܘܦܛܝܣ ܐܚܝ ܒܡܪܢ̣ ܫܠܡ
+                  <locus from="1b" to="1b"/>
+                </incipit>
+                <finalRubric xml:lang="syr">ܫܠܡ ܩܕܡܝܐ ܕܠܘܬ ܗܘܦܛܝܣ
+                  <locus from="14b" to="14b"/>
+                </finalRubric>
+                <note>See <ref target="http://syriaca.org/manuscript/303">Add. 14,570</ref>, fol. 1b, and Overbeck, S. Ephraemi Syri etc. Opera Selecta, p. 21.</note>
+                <listBibl>
+                  <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, p. 21.</bibl>
                 </listBibl>
               </msItem>
-                <msItem n="3" xml:id="p1b2" defective="unknown">
-                  <locus from="4b" to="6">Foll. 4b-6</locus>
+                <msItem n="3" xml:id="p1b2" defective="true">
+                  <locus from="15a" to="19">Foll. 15a-19</locus>
                   <author ref="http://syriaca.org/person/13"/>
-                  <title ref="" type="supplied">On the coming of the Spirit and the Dividing of the Tongues in the Upper Chamber (Acts ch. ii.)</title>
-                  <rubric xml:lang="syr"> ܥܠ ܡܐܬܝܐ ܕܪܘܚܐ ܘܦܘܠܓܐ ܕܠܫ̈ܢܐ ܒܥܠܝܬܐ
-                    <locus from="4b" to="4b"/>
-                  </rubric>
-                  <note>See <bibl>Overbeck, p. 95</bibl>.</note>
+                  <rubric xml:lang="syr">ܕܬܪ̈ܝܢ ܕܠܘܬ ܗܘܦܛܝܣ ܘܡ̇ܢܝ ܘܡܪܩܝܘܢ ܘܒܪܕܝܨܢ
+                    <locus from="15a" to="15a"/>
+                  </rubric> <!-- Wright gives no indication whether this is a rubric or an incipit. -->
+                  <note>Imperfect. See <bibl>Overbeck, p. 59.</bibl></note>
                   <listBibl>
-                    <bibl>Overbeck, p. 95.</bibl>
+                    <bibl>Overbeck, p. 59.</bibl>
                   </listBibl>
-                </msItem>
-                <msItem n="4" xml:id="p1b3" defective="true">
-                  <locus from="6a" to="9">Foll. 6a-9</locus>
-                  <author ref="http://syriaca.org/person/13"/>
-                  <title ref="" type="supplied">On Lent</title>
-                  <rubric xml:lang="syr"> ܕܥܠ ܨܘܡܐ
-                    <locus from="6a" to="6a"/>
-                  </rubric>
-                  <note>Imperfect. See <bibl>Overbeck, p. 99</bibl>.</note>
-                  <listBibl>
-                    <bibl>Overbeck, p. 99.</bibl>
-                  </listBibl>
-                </msItem>
-                <msItem n="5" xml:id="p1b4" defective="true">
-                  <locus from="9a" to="12">Foll. 9a-12</locus>
-                  <author ref="http://syriaca.org/person/13"/>
-                  <title ref="" type="supplied">On the Creation of the World (Genesis, ch. i. and ii.)</title>
-                  <note>Imperfect at the beginning and elsewhere. See <bibl>Overbeck, p. 74</bibl>.</note>
-                  <listBibl>
-                    <bibl>Overbeck, p. 74.</bibl>
-                  </listBibl>
-                </msItem>
-                  <msItem n="6" xml:id="p1b5" defective="true">
-                    <locus from="12b" to="16">Foll. 12b-16</locus>
-                    <author ref="http://syriaca.org/person/13"/>
-                    <title ref="" type="supplied">On the transgression of Adam, and that Satan was not created evil by God.</title>
-                    <rubric xml:lang="syr"> ܡܐܡܪܐ ܕܥܠ ܥܒܪ ܦܘܩܕܢܗ ܕܐܕܡ. ܘܥܠ ܗ̇ܝ ܕܡܝܘܬܐ ܐܬܒܪܝ. ܘܥܠ ܗܕ ܕܣܛܢܐ ܠܐ ܐܬܒܪܝ ܒܝܫܐ ܡܢ ܐܠܗܐ.  
-                      <locus from="12b" to="12b"/>
-                    </rubric>
-                    <note>Imperfect. See <bibl>Overbeck, p. 81</bibl>.</note>
-                    <listBibl>
-                      <bibl>Overbeck, p. 81.</bibl>
-                    </listBibl>
                 </msItem>
               </msItem>
             </msContents>
@@ -167,41 +136,40 @@
                     <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="16">16 ff.</measure>
+                    <measure type="composition" unit="leaf" quantity="19">19 ff.</measure>
                     <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="9.625" unit="in">9 5/8</measure>
+                        <measure type="height" quantity="10.5" unit="in">10 1/2</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="5.875" unit="in">5 7/8</measure>
+                        <measure type="width" quantity="8" unit="in">8</measure>
                       </width>
                     </dimensions>
                   </extent>
                   <foliation/>
                   <collation>
-                    <p>The number and signatures of the quires cannot now be ascertained</p>
+                    <p>Consists of two quires.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p>Several of the leaves are much stained and torn, especially foll. <locus from="1">1</locus>, <locus from="7">7</locus>, and <locus from="16">16</locus></p>
+                        <p>The <locus from="1" to="2">first two leaves</locus> are slightly torn.</p>
                       </item>
                       <item>
-                        <p>Leaves are wanting after foll. 6, 7, 8, 9, 14, 15, and 16.</p>
+                        <p>The original signatures of the quires are no longer visible.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="1" writtenLines="29 33">
-                    <locus from="1" to="16"/>
-                    <p>There are from 29 to 33 lines in each page.</p>
+                  <layout columns="3" writtenLines="34 38">
+                    <p>Each page is divided into three columns, of from 34 to 38 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="3">
-                <handNote xml:id="p1handNote1" scope="major" script="" medium="unknown"><!-- How to code fine, Edessene hand? -->
-                  <desc>This manuscript is written in a fine, Edessene hand.</desc>
+                <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>This manuscript is written in a fine, regular Estrangela.</desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#p1addition1">See additions.</ref></desc>
@@ -210,18 +178,25 @@
                   <desc><ref target="#p1addition2">See additions.</ref></desc>
                 </handNote>
               </handDesc>
-              <decoDesc/>
+              <decoDesc>
+                <decoNote xml:id="p1decoNote1" type="illustration">
+                  <p>Below <ref target="#p1addition1">this</ref> there is the figure of a peacock.</p>
+                </decoNote>
+              </decoDesc>
               <additions>
                 <p/>
                 <list>
                   <item n="1" xml:id="p1addition1">
-                    <ref target="#p1handNote2"/>
-                    <p>The title, fol. <locus from="1b">1b</locus>, has been effaced, and in its place we now read the following mutilated words, written by a later hand: <foreign xml:lang="syr">ܕܡـ[ܪܝ ܐ]ܦܪܝܡ . . . ܫܪܝܖ</foreign> (sic) <foreign xml:lang="syr">ܐܠܐ ܠܒܣܝܠܠܝܣ ܐ̣ܘ ܠܝܘܐܢܢܝܣ</foreign>; which seem to imply that the writer ascribed these homilies, not to <persName>Ephraim</persName>, but to <persName>Basil</persName> or <persName>John Chrysostom</persName>. However, on fol. <locus from="9a">9a</locus> we can still read the partially effaced running title <foreign xml:lang="syr">ܕܡܪܝ ܐܦܪܝܡ</foreign> ; and again, on foll. <locus from="12b">12b</locus> and <locus from="13a">13a</locus>, <foreign xml:lang="syr">ܬܘܪ̈ܓܡܐ ܕܡܪܝ ܐܦܪܝܡ</foreign> ; besides (sic) <foreign xml:lang="syr">ܕܡܪܝ  ܦܪܝܡ</foreign> on the margin of fol. <locus from="2a">2a</locus> in a later hand.</p>
+                    <locus from="1a" to="1a"/>
+                    <ref target="p1handNote2"/>
+                    <p>Of the notes on fol. 1a, the upper one has been erased, and the other merely contains one of the usual anathemas:</p>
+                    <p><quote xml:lang="syr">ܟܠ ܕܝܢ ܕܫܩ̇ܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܟܘ̈ܢܫܐ ܕܢܩܪܐ ܒܗ ܐܘ ܒܥܠܬܐ ܐܝܕܐ ܕܗܝ̣. ܠܝܬ ܠܗ ܫܘܠܛܢܐ ܡܢ ܐܠܗܐ ܏ܘܫ.</quote></p>
                   </item>
                   <item n="2" xml:id="p1addition2">
-                    <locus from="1a" to="1a"/>
-                    <ref target="#p1handNote3"></ref>
-                    <p>On fol. 1a. there is a long note in the usual form, stating that this was one of the 250 volumes, which were brought to the <placeName>convent of <persName>S. Mary Deipara</persName></placeName> by the abbat <persName>Moses of Nisibis</persName>, <date when-custom="1243" datingMethod="Seleucid">A Gr. 1243</date>, <date when="0932" calendar="Gregorian">A.D. 932</date>.</p>
+                    <locus from="2a" to="2a"/>
+                    <ref target="p1handNote3"/>
+                    <p>The marginal note on fol. 2 a mentions some other works that were once bound with this manuscript.</p>
+                    <p><quote xml:lang="syr">܀ ܡܐܡܪܐ ܥܠ ܝܘܢܢ ܢܒܝܐ܀ ܘܝܘܚܢܢ ܝܚܝܕܝܐ܀ ܘܬܘܒ ܡ̈ܠܦܢܐ܀</quote></p>
                   </item>
                 </list>
               </additions>
@@ -231,7 +206,7 @@
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="0400" notAfter="0600" calendar="Gregorian">This manuscript is of the vth or vith cent.</origDate>
+                <origDate notBefore="0500" notAfter="0600">This manuscript is of the vith cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>
@@ -253,8 +228,8 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry">DXXXIV</citedRange>
-                  <citedRange unit="pp">II:407</citedRange>
+                  <citedRange unit="entry">DXXXV</citedRange>
+                  <citedRange unit="pp">II:407-408</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -503,18 +478,18 @@
         <list>
           <item>
             <ref target="#Part1"/>  
-            <ref target=""/> <!-- Would homilies constitute #theology or #service-books? -->       
+            <ref target="#theology"/>       
           </item>
           <item>
             <ref target="#Part2"/>  
             <ref target=""/>       
-          </item><!-- Repeat <item> block as necessary -->
+          </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-01-22" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-01-23" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>
   </teiHeader>
