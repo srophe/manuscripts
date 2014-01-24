@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,10 +81,10 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-               <msItem n="1" xml:id="a1" defective="unknown">
+               <msItem n="1" xml:id="a1" defective="true">
                   <locus from="1a" to="110">Foll. 1a-110</locus>
                   <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta ver¬sion </title>
-                  <msItem n="2" xml:id="b1" defective="unknown">
+                  <msItem n="2" xml:id="b1" defective="true">
                      <locus from="1a" to="14">Foll. 1a-14</locus>
                      <title type="supplied" ref="http://syriaca.org/work/77">Romans</title>
                      <note>Commencing with ch. vi. 22.</note>
@@ -151,9 +151,10 @@
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="perg">
+                <supportDesc material="mixed">
                   <support>
                     <material>Vellum</material>
+                    <material>Paper</material>
                   </support>
                   <extent>
                     <measure type="composition" unit="leaf" quantity="110">110 ff.</measure>
@@ -178,6 +179,7 @@
                        <item>
                           <p>The first of the quires is now lost.</p>
                        </item>
+                      <item><p><ref target="#addition4">See additions</ref></p></item>
                     </list>
                   </condition>
                 </supportDesc>
@@ -364,6 +366,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-02" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-01-24" who="http://syriaca.org/editors.xml#thannah">Initial edit: changed value of @defective, linked to repair addition in condition</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
