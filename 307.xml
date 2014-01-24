@@ -93,21 +93,22 @@
                 <locus from="1a" to="19">Foll. 1a-19</locus>
                 <author ref="http://syriaca.org/person/13"/>
                 <title ref="" type="supplied">A portion of the discourses of Ephraim against false doctrines, addressed to Hypatius.</title>
-                <rubric xml:lang="syr"><supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">[ܐܓ]</supplied>ܪ̈ܬܐ ܕܡܪܝ ܐܦܪܝܡ̣ ܕܠܘܬ ܗܘܦܛܝܣ ܕܣܝ̈ܡܢ ܥܠ ܐܬ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">[ܘ̈ܬܐ]</supplied> ܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛ̈ܥܝܐ. 
+                <rubric xml:lang="syr"><supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܐܓ</supplied>ܪ̈ܬܐ ܕܡܪܝ ܐܦܪܝܡ̣ ܕܠܘܬ ܗܘܦܛܝܣ ܕܣܝ̈ܡܢ ܥܠ ܐܬ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܘ̈ܬܐ</supplied> ܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛ̈ܥܝܐ. 
                   <locus from="1b" to="1b"/>
                 </rubric>
-                <note>The words <foreign xml:lang="syr">ܕܣܝ̈ܡܢ ܥܠ ܐܬܘ̈ܬܐ</foreign> would appear to imply that there were 22 of these discourses, each commencing with a letter of the alphabet, in the usual order, like those of <persName>Aphraates</persName> (<ref target="http://syriaca.org/manuscript/359">Add. 14,619</ref> and <ref target="http://syriaca.org/manuscript/834">17,182</ref>); but this seems unlikely, as the second discourse begins with the letter <foreign xml:lang="syr">ܦ</foreign> (<foreign xml:lang="syr">ܦܪܘܫܐܝܬ</foreign>). Besides, there is no mention of alphabetical arrangement in <ref target="http://syriaca.org/manuscript/303">Add. 14,570</ref>. The running title, e.g. fol. <locus from="4b">4b</locus>, is simply <foreign xml:lang="syr">ܕܗܘܦܛܝܣ</foreign></note>
+                <rubric xml:lang="syr"><fw type="header">ܕܗܘܦܛܝܣ</fw><locus from="4b"/></rubric>
+                <note>The words <foreign xml:lang="syr">ܕܣܝ̈ܡܢ ܥܠ ܐܬܘ̈ܬܐ</foreign> would appear to imply that there were 22 of these discourses, each commencing with a letter of the alphabet, in the usual order, like those of <persName>Aphraates</persName> (<ref target="http://syriaca.org/manuscript/359">Add. 14,619</ref> and <ref target="http://syriaca.org/manuscript/834">17,182</ref>); but this seems unlikely, as the second discourse begins with the letter <foreign xml:lang="syr">ܦ</foreign> (<foreign xml:lang="syr">ܦܪܘܫܐܝܬ</foreign>). Besides, there is no mention of alphabetical arrangement in <ref target="http://syriaca.org/manuscript/303">Add. 14,570</ref>.</note>
                 <note>The rest of this manuscript still exists as a palimpsest in <ref target="http://syriaca.org/manuscript/363">Add. 14,623</ref></note>
                 <listBibl>
                   <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, p. 21.</bibl>
                   <bibl>Overbeck, p. 59.</bibl>
                 </listBibl>
-              <msItem n="2" xml:id="p1b1" defective="unknown">
+              <msItem n="2" xml:id="p1b1">
                 <locus from="1b" to="14">Foll. 1b-15</locus>
                 <author ref="http://syriaca.org/person/13"/>
-                <incipit xml:lang="syr"> ܏ܐ ܐܦܪܝܡ ܠܗܘܦܛܝܣ ܐܚܝ ܒܡܪܢ̣ ܫܠܡ
+                <rubric xml:lang="syr"> ܏ܐ ܐܦܪܝܡ ܠܗܘܦܛܝܣ ܐܚܝ ܒܡܪܢ̣ ܫܠܡ
                   <locus from="1b" to="1b"/>
-                </incipit>
+                </rubric>
                 <finalRubric xml:lang="syr">ܫܠܡ ܩܕܡܝܐ ܕܠܘܬ ܗܘܦܛܝܣ
                   <locus from="14b" to="14b"/>
                 </finalRubric>
@@ -121,8 +122,7 @@
                   <author ref="http://syriaca.org/person/13"/>
                   <rubric xml:lang="syr">ܕܬܪ̈ܝܢ ܕܠܘܬ ܗܘܦܛܝܣ ܘܡ̇ܢܝ ܘܡܪܩܝܘܢ ܘܒܪܕܝܨܢ
                     <locus from="15a" to="15a"/>
-                  </rubric> <!-- Wright gives no indication whether this is a rubric or an incipit. -->
-                  <note>Imperfect. See <bibl>Overbeck, p. 59.</bibl></note>
+                  </rubric>
                   <listBibl>
                     <bibl>Overbeck, p. 59.</bibl>
                   </listBibl>
