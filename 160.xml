@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -141,7 +141,7 @@
                      <locus from="179a" to="208b">Foll. 179a-208b</locus>
                      <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
                   </msItem>
-                  <colophon><ref target="#addition6">See additions.</ref></colophon>
+                 <finalRubric xml:lang="syr"><locus from="208b" to="208b"/>ܫܠܡ ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ: ܐܪ̈ܒܥܣܪܐ̇. ܕܦܐܘܠܘܣ: ܫܠܝܚܐ ܛܘܒܢܐ: ܐܪܕܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥ̈ܕܬܐ: ܘܡܩܝܡܢܐ: ܕܗܝܡܢܘܬܐ:</finalRubric>
                   <note>The lessons are marked in the usual way on the margins, some by the scribe.</note>
                </msItem>
             </msContents>
@@ -182,7 +182,7 @@
               </objectDesc>
               <handDesc hands="9">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                   <desc>This volume is written in a large Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>. <ref target="#addition6">See additions.</ref></desc>
+                   <desc>This volume is written in a large Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>.</desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="grc" medium="unknown">
                     <desc><ref target="#addition1">See additions.</ref></desc>
@@ -226,10 +226,6 @@
                    </item>
                    <item n="5" xml:id="addition5">
                       <p>Greek vowels have been occasionally added (<foreign xml:lang="syr">ܰ, ܶ, ܺ, ܳ, ܽ, e.g. ܘܕܶܐܣܛܱܟܾܘܣ , , <!-- ADD MISSING GREEK VOWELS -->    </foreign>).</p>
-                   </item>
-                   <item n="6" xml:id="addition6">
-                      <locus from="208b" to="208b"/>
-                      <p><quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ: ܐܪ̈ܒܥܣܪܐ̇. ܕܦܐܘܠܘܣ: ܫܠܝܚܐ ܛܘܒܢܐ: ܐܪܕܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥ̈ܕܬܐ: ܘܡܩܝܡܢܐ: ܕܗܝܡܢܘܬܐ:</quote></p>
                    </item>
                    <item n="7" xml:id="addition7">
                       <p>Other lessons are marked by a later reader, who evidently drew up an index (<foreign xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ</foreign> ), which is now lost, and also indicated certain chapters or sections by the word <foreign xml:lang="syr">ܦܣܘܩܐ</foreign> (e.g. foll. <locus from="16a" to="16a">16 a</locus>, <locus from="32a" to="32a">32 a</locus>, <locus from="37b" to="37b">37 b</locus>, <locus from="41a" to="41a">41 a</locus>, <locus from="53a" to="53a">53 a</locus>, etc.</p>
@@ -385,6 +381,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-08" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-01-23" who="http://syriaca.org/editors.xml#thannah">Initial edit: reclassified colophon as a final rubric</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>

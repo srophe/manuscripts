@@ -78,15 +78,15 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1">
+              <msItem n="1" xml:id="a1" defective="unknown">
                 <locus from="1a" to="62">Foll. 1a-62</locus>
                 <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta version.</title>
-                <msItem n="2" xml:id="b1">
-                  <locus from="1" to="2">Foll. 1-2</locus>
+                <msItem n="2" xml:id="b1" defective="unknown">
+                  <locus from="1a" to="2">Foll. 1a-2</locus>
                   <title ref="http://syriaca.org/work/77" type="supplied">The Epistle of Romans, according to the Peshitta version</title>
                   <note>Contains ch. ix. 9—x. 8.</note>
                 </msItem>
-                <msItem n="3" xml:id="b2">
+                <msItem n="3" xml:id="b2" defective="unknown">
                   <locus from="2a" to="12">Foll. 2a-12</locus>
                   <title ref="http://syriaca.org/work/78" type="supplied">The Epistle of 1 Corinthians, according to the Peshitta version</title>
                   <note>Begins with ch. vi. 11.</note>
@@ -135,7 +135,7 @@
                   <locus from="52b" to="53">Foll. 52b-53</locus>
                   <title ref="http://syriaca.org/work/89" type="supplied">The Epistle of Philemon, according to the Peshitta version</title>
                 </msItem>
-                <msItem n="15" xml:id="b14">
+                <msItem n="15" xml:id="b14" defective="true">
                   <locus from="53a" to="62">Foll. 53a-62</locus>
                   <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews, according to the Peshitta version</title>
                   <note>Ends with ch. xii. 2.</note>
@@ -149,10 +149,10 @@
               </msItem>
               <msItem n="17" xml:id="a3">
                 <locus from="98b" to="116">Foll. 98b-116</locus>
-                <title ref="" type="supplied">The Apostolic Epistles</title>
+                <title ref="http://syriaca.org/work/210" type="supplied">The Apostolic Epistles</title>
                <msItem n="18" xml:id="b15">
                   <locus from="98b" to="b">Foll. 98b-102</locus>
-                  <title ref="" type="supplied">The Epistle of S. James, according to the Harklensian version</title>
+                 <title ref="http://syriaca.org/work/219" type="supplied">The Epistle of S. James, according to the Harklensian version</title>
                   <rubric xml:lang="syr">
                     <locus from="98b" to="98b"/> ܐܓܪܬܐ ܩܬܘܠܝܩܝ ܕܝܥܩܘܒ ܫܠܝܚܐ. ܐܝܟ ܬܘܿܪܨܐ ܕܡܪܝ ܬܐܘܡܐ ܚܪܩܠܝܐ</rubric>
                   <finalRubric xml:lang="syr">ܫܠ̣ܡܬ ܐܓܪܬܐ ܩܬܘܠܝܩܝ ܕܝܥܩܘܒ ܫܠܝܚܐ. ܦܬ ܏ܪܡܒ
@@ -161,7 +161,7 @@
                 </msItem>
                <msItem n="19" xml:id="b16">
                   <locus from="102b" to="105">Foll. 102b-105</locus>
-                  <title ref="" type="supplied">The second Epistle of S. Peter, according to the Harklensian version</title>
+                 <title ref="http://syriaca.org/work/220" type="supplied">The second Epistle of S. Peter, according to the Harklensian version</title>
                   <rubric xml:lang="syr">
                     <locus from="102b" to="102b"/>ܬܘܒ ܐܓܪܬܐ ܩܐܬܘܠܝܩܝ ܕܦܛܪܘܣ ܫܠܝܚܐ ܕܬܪ̈ܬܝܢ</rubric>
                   <finalRubric xml:lang="syr">ܫܠ̣ܡܬ ܐܓܪܬܐ ܕܬܪ̈ܬܝܢ ܕܦܛܪܘܣ ܫܠܝܚܐ.
@@ -169,37 +169,33 @@
                 </msItem>
                 <msItem n="20" xml:id="b17">
                   <locus from="105a" to="109">Foll. 105a-109</locus>
-                  <title ref="" type="supplied">The first Epistle of S. Peter, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/92" type="supplied">The first Epistle of S. Peter, according to the Peshitta version</title>
                   <note>Ends with ch. iii. 9.</note>
                 </msItem>
                 <msItem n="21" xml:id="b18">
                   <locus from="109a" to="110">Foll. 109a-110</locus>
-                  <title ref="" type="supplied">The second Epistle of S. John, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/95" type="supplied">The second Epistle of S. John, according to the Peshitta version</title>
                 </msItem>
                 <msItem n="22" xml:id="b19">
                   <locus from="110a" to="111">Foll. 110a-111</locus>
-                  <title ref="" type="supplied">The third Epistle of S. John, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/96" type="supplied">The third Epistle of S. John, according to the Peshitta version</title>
                 </msItem>
                 <msItem n="23" xml:id="b20">
                   <locus from="111a" to="113">Foll. 111a-113</locus>
-                  <title ref="" type="supplied">The Epistle of S. Jude, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/97" type="supplied">The Epistle of S. Jude, according to the Peshitta version</title>
                 </msItem>
                 <msItem n="24" xml:id="b21">
                   <locus from="113a" to="116">Foll. 113a-116</locus>
-                  <title ref="" type="supplied">The first Epistle of S. John, according to the Harklensian version</title>
+                  <title ref="http://syriaca.org/work/157" type="supplied">The first Epistle of S. John, according to the Harklensian version</title>
                   <rubric xml:lang="syr">ܬܘܒ ܐܓܪܬܐ ܩܐܬܘܠܝܩܝ ܩܕܡܝܬܐ ܕܝܘܚܢܢ ܫܠܝܚܐ
                     <locus from="113a" to="113a"/></rubric>
                   <finalRubric xml:lang="syr">ܫܠ̣ܡܬ݁ ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܝܘܚܢܢ ܐܘܐܢܓܠܝܣܛܐ. ܐܝܟ ܬܘܿܪܨܐ ܕܡܪܝ ܬܐܘܡܐ ܚܪܩܠܝܐ. 
                     <locus from="116" to="116"/></finalRubric>
                 </msItem>
                 <note>Throughout the whole of the above portions of this manuscript the larger sections are marked on the, margins.</note>
-                <note>In these parts that are taken from the Harklensian version (<ref target="#b15">Epistle of S. James</ref>, <ref target="#b16">second Epistle of S. Peter</ref>, and <ref target="#b21">first Epistle of S. John</ref>), there are a considerable number of marginal annotations, consisting chiefly of various readings and Greek words;
-                  e.g. fol. <locus>99a</locus>, S. James, ch. i. 8, <foreign xml:lang="syr">ܬܪܝܢܝ ܢܦܫܐ</foreign> marg. <foreign xml:lang="grc">ΔΙΨΥΧΟⲤ</foreign>; 15, <foreign xml:lang="syr">ܒܬܪܟܢ ܗ̣ܝ ܪܓܬܐ</foreign> marg. <foreign xml:lang="grc">ΕΙΤΑ</foreign>;
-                  fol. <locus>99b</locus>, ch. i. 21 <foreign xml:lang="syr">ܡܠܬܐ ܕܢܨܝܒܐ ܒܢ </foreign> marg. <foreign xml:lang="syr">ܒܝܘܢܝܐ ܠܝܬ ܒܢ ܐܠܐ ܒܐ </foreign> 24, <foreign xml:lang="syr">ܕܒ̣ܪܝܬܐ</foreign> marg. <foreign xml:lang="grc">ΓΕⲚΕⲤΕⲰⲤ</foreign>; <foreign xml:lang="syr">ܘܡܚܕܐ̣ ܛܥ̣ܐ ♰ ܐܝܢܐ ܕܐܝܬܘܗܝ ܗܘܐ </foreign>
-                  marg. <foreign xml:lang="syr">ܕܐܝܟ</foreign>.</note>
     <!-- Different shape of Cross.-->
               </msItem>
-              <msItem n="25" xml:id="a4">
+              <msItem n="25" xml:id="a4" defective="true">
                 <locus from="116b" to="140">Foll. 116-140</locus>
                 <author ref="">Jacob of Batanae</author>
                 <title ref="" type="supplied">A collection of festal discourses</title>
@@ -214,7 +210,7 @@
                 <rubric>ܩܕܡܝܐ̣ ܥܠ ܝܠܕܗ ܕܡܪܢ ܕܒܒܣܪ<locus from="116b" to="116b"/>
                 </rubric>
               </msItem>
-              <msItem n="27" xml:id="b23">
+              <msItem n="27" xml:id="b23" defective="true">
                 <locus from="119a" to="123">Foll. 119a-123</locus>
                 <author ref="">Jacob of Batanae</author>
                 <title ref="" type="supplied">On the Epiphany</title>
@@ -222,7 +218,7 @@
                 </rubric>
                 <note>Imperfect.</note>
               </msItem>
-              <msItem n="28" xml:id="b24">
+              <msItem n="28" xml:id="b24" defective="true">
                   <locus from="123a" to="128">Foll. 123a-128</locus>
                   <author ref="">Jacob of Batanae</author>
                   <title ref="" type="supplied">On Lent</title>
@@ -230,7 +226,7 @@
                   </rubric>
                 <note>Slightly imperfect at the end. </note>
                 </msItem>
-                <msItem n="29" xml:id="b25">
+                <msItem n="29" xml:id="b25" defective="true">
                   <locus from="128a" to="130">Foll. 128a-130</locus>
                   <author ref="">Jacob of Batanae</author>
                   <title ref="" type="supplied">On Palm Sunday</title>
@@ -238,7 +234,7 @@
                   </rubric>
                   <note>Very imperfect at the beginning and in the middle.</note>
                 </msItem>
-                <msItem n="30" xml:id="b26">
+                <msItem n="30" xml:id="b26" defective="true">
                   <locus from="130b" to="133">Foll. 130b-133</locus>
                   <author ref="">Jacob of Batanae</author>
                   <title ref="" type="supplied">On the Friday of the Passion (Good Friday)</title>
@@ -258,7 +254,7 @@
                 <locus from="116b" to="140">Foll. 116-140</locus>
                 <author ref="">Severus of Antioch</author>
                 <title ref="" type="supplied">Discourses</title>
-               <msItem n="32" xml:id="b28">
+               <msItem n="32" xml:id="b28" defective="true">
                   <locus from="116b" to="119">Foll. 116b-119</locus>
                  <author ref="">Severus of Antioch</author>
                  <title ref="" type="supplied">On the Ascension, hom. epithron. xlvii.</title>
@@ -266,7 +262,7 @@
                   </rubric>
                  <note>Very imperfect.</note>
                 </msItem>
-                <msItem n="33" xml:id="b29">
+                <msItem n="33" xml:id="b29" defective="true">
                   <locus from="134b" to="140">Foll. 134b-140</locus>
                   <author ref="">Severus of Antioch</author>
                   <title ref="" type="supplied">On Pentecost, hom, epithron. xlviii.</title>
@@ -318,9 +314,9 @@
               </objectDesc>
               <handDesc hands="4">
                 <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                  <desc>This volume is written in a good, regular hand of the <origDate notBefore="0900" notAfter="1000">ixth cent.</origDate></desc>
+                  <desc>This volume is written in a good, regular hand of the <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate></desc>
                 </handNote>
-                <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                <handNote xml:id="handNote2" scope="minor" script="syr" medium="red-green-and-blue-paint">
                   <desc><ref target="#addition1">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
@@ -329,14 +325,23 @@
                 <handNote xml:id="handNote4" scope="minor" script="syr-Syrj" medium="unknown">
                   <desc><ref target="#addition2">See additions.</ref></desc>
                 </handNote>
+                <handNote xml:id="handNote5" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition3">See additions.</ref></desc>
+                </handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="69a" to="69a"/><ref target="#a3"/>
-                    <p>The lessons are also indicated on the margins, often by later hands,— red, green, and blue (fol. 69a) paint being employed for this purpose, as well as common ink.</p>
+                  <item n="1" xml:id="addition1"><ref target="#a3"/>
+                    <p>The lessons are also indicated on the margins, often by later hands,— red, green, and blue (<locus from="69a" to="69a">fol. 69a</locus>) paint being employed for this purpose, as well as common ink.</p>
                     <quote/></item>
-                  <item n="2" xml:id="addition2"><ref target="#handNote4"/>
+                  <item n="2" xml:id="addition2">
                     <p>Greek vowels, and the points rukkākh and kushshāi, have been added on two different occasions, one punctuator having employed red, the other black ink (ܰ, ܶ, ܺ, ܳ, ܽ, , , , , , , ). </p>
+                  </item>
+                  <item n="3" xml:id="addition3">
+                    <p>In these parts that are taken from the Harklensian version (<ref target="#b15">Epistle of S. James</ref>, <ref target="#b16">second Epistle of S. Peter</ref>, and <ref target="#b21">first Epistle of S. John</ref>), there are a considerable number of marginal annotations, consisting chiefly of various readings and Greek words;
+                      e.g. fol. <locus>99a</locus>, S. James, ch. i. 8, <foreign xml:lang="syr">ܬܪܝܢܝ ܢܦܫܐ</foreign> marg. <foreign xml:lang="grc">ΔΙΨΥΧΟⲤ</foreign>; 15, <foreign xml:lang="syr">ܒܬܪܟܢ ܗ̣ܝ ܪܓܬܐ</foreign> marg. <foreign xml:lang="grc">ΕΙΤΑ</foreign>;
+                      fol. <locus>99b</locus>, ch. i. 21 <foreign xml:lang="syr">ܡܠܬܐ ܕܢܨܝܒܐ ܒܢ </foreign> marg. <foreign xml:lang="syr">ܒܝܘܢܝܐ ܠܝܬ ܒܢ ܐܠܐ ܒܐ </foreign> 24, <foreign xml:lang="syr">ܕܒ̣ܪܝܬܐ</foreign> marg. <foreign xml:lang="grc">ΓΕⲚΕⲤΕⲰⲤ</foreign>; <foreign xml:lang="syr">ܘܡܚܕܐ̣ ܛܥ̣ܐ ♰ ܐܝܢܐ ܕܐܝܬܘܗܝ ܗܘܐ </foreign>
+                      marg. <foreign xml:lang="syr">ܕܐܝܟ</foreign>.</p>                    
                   </item>
         <!-- Vowels to be added -->          
                 </list>
@@ -344,7 +349,7 @@
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="0900" notAfter="1000">ixth cent.</origDate>
+                <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
               </origin>
             </history>
             <additional>
@@ -465,7 +470,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-10-11" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2013-10-11" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2014-01-23" who="http://syriaca.org/editors.xml#thannah">Initial edit: Encoded @defective on items, corrected date, rearranged additions.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
       </revisionDesc>
