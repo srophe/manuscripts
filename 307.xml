@@ -234,53 +234,102 @@
               </listBibl>
             </additional>
           </msPart>
-          <msPart n="2" xml:id="Part2"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+          <msPart n="2" xml:id="Part2">
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/309</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 14574 foll. 20-33</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">536</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">DXXXVI</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
+              <msItem n="1" xml:id="p2a1" defective="true">
+                <locus from="20" to="33"/>
+                <author ref="http://syriaca.org/person/13"/>
+                <title ref="" type="supplied">The metrical works of Ephraim, containing 160 discourses on the Church, the Mysteries of our Lord, Virginity, and against Heresies</title>
+                <rubric xml:lang="syr">
+                  <fw type="header">ܕܥܠ ܥܕܬܐ</fw>
+                  <locus from="23b"/>
+                </rubric>
+                <finalRubric xml:lang="syr">ܫܠܡܘ ܡܕܪ̈ܫܐ ܕܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛ̈ܥܝܐ܇ ܕܣܝܡܝܢ ܠܛܘܒܢܐ ܡܪܝ ܐܦܪܝܡ. ܕܗܘܝܢ ܒܡ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܢܝܢܐ ܚܡ</supplied>ܫܝܢ <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܘܫܬܐ</supplied>.<locus from="33b"/></finalRubric>
+                <colophon><ref target="#p2addition1"/>See additions.</colophon>
+                <note><locus from="20" to="33">These leaves</locus> are all that remain of a volume which once comprised a great part of the metrical works of Ephraim, and in which the madrāshē were numbered with arithmetical figures. From the mutilated colophon and the running title <foreign xml:lang="syr">ܕܥܠ ܥܕܬܐ</foreign>(fol. <locus from="23b">23 b</locus>), it appears that the manuscript originally contained <title>160 discourses on the Church, the Mysteries of our Lord, Virginity, and against Heresies</title></note>
                 <listBibl>
-                  <bibl/>
+                  <bibl>Assemani, Bibl. Orient., t. i., pp. 86, 92 and 118</bibl>
                 </listBibl>
+              <msItem n="2" xml:id="p2b1" defective="true">
+                <locus from="20a" to="29b"/>
+                <author ref="http://syriaca.org/person/13"/>
+                <title ref="" type="supplied">Discourses on the Church</title>
+                <rubric xml:lang="syr">ܕܥܠ ܥܕܬܐ
+                  <locus from="20a"/>
+                </rubric>
+                <msItem n="3" xml:id="p2c1" defective="true">
+                  <locus from="" to=""></locus>
+                  <author ref=""/>
+                  <title ref="" type="supplied"></title>
+                  <rubric xml:lang="syr">
+                    <locus from="" to=""/>
+                  </rubric>
+                  <incipit xml:lang="syr">
+                    <locus from="" to=""/>
+                  </incipit>
+                  <quote xml:lang="syr">
+                    <locus from="" to=""/>
+                  </quote>
+                  <explicit xml:lang="syr">
+                    <locus from="" to=""/>
+                  </explicit>
+                  <finalRubric xml:lang="syr">
+                    <locus from="" to=""/>
+                  </finalRubric>
+                  <colophon>
+                    <ref target="">See below.
+                    </ref>
+                  </colophon>
+                  <note></note>
+                  <listBibl>
+                    <bibl></bibl>
+                  </listBibl>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+                <msItem n="4" xml:id="p2c2" defective="true">
+                  <locus from="" to=""></locus>
+                  <author ref=""/>
+                  <title ref="" type="supplied"></title>
+                  <rubric xml:lang="syr">
+                    <locus from="" to=""/>
+                  </rubric>
+                  <incipit xml:lang="syr">
+                    <locus from="" to=""/>
+                  </incipit>
+                  <quote xml:lang="syr">
+                    <locus from="" to=""/>
+                  </quote>
+                  <explicit xml:lang="syr">
+                    <locus from="" to=""/>
+                  </explicit>
+                  <finalRubric xml:lang="syr">
+                    <locus from="" to=""/>
+                  </finalRubric>
+                  <colophon>
+                    <ref target="">See below.
+                    </ref>
+                  </colophon>
+                  <note></note>
+                  <listBibl>
+                    <bibl></bibl>
+                  </listBibl>
+                </msItem>
+              </msItem>
               </msItem>
             </msContents>
             <physDesc>
@@ -321,7 +370,10 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="">
-                <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
+                <handNote xml:id="p2handNote1" scope="" script="" medium="">
+                  <desc></desc>
+                </handNote>
+                <handNote xml:id="p2handNote2" scope="" script="" medium="">
                   <desc></desc>
                 </handNote>
               </handDesc>
@@ -333,8 +385,21 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                  <item n="1" xml:id="p2addition1">
+                    <locus from="33b"/>
+                    <ref target="p2handNote1"/>
+                    <p>The colophon follows the subscription, with an index to the contents of the volume, of which the commencement is unfortunately torn away.</p>
+                    <p>
+                      <quote xml:lang="syr">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+                      ܘܕܐܪ̈ܙܝ ܡܪܢ ܘܥܠ ܒܬܘܠܘܬܐ. ܚܡܫܝܢ ܘܬܪܝܢ. ܘܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛܥ̈ܝܐ ܚܡܫܝܢ ܘܫܬܐ. ܗܘܝܢ ܕܝܢ ܟܠܗܘܢ ܡܕܪ̈ܫܐ ܗܠܝܢ ܒܡܢܝܢܐ: ܡܐܐ ܘܫܬܝܢ.
+                    </quote>
+                    </p>
+                  </item>
+                  <item n="2" xml:id="p2addition2">
+                    <locus from="33b"/>
+                    <ref target="p2handNote2"/>
+                    <p>Of a note in cursive characters, which followed the doxology, only a few letters are left.</p>
+                  </item>
                 </list>
               </additions>
               <bindingDesc>
