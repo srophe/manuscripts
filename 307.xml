@@ -253,7 +253,7 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1" defective="true">
-                <locus from="20" to="33"/>
+                <locus from="20" to="33">Foll. 20-33</locus>
                 <author ref="http://syriaca.org/person/13"/>
                 <title ref="" type="supplied">The metrical works of Ephraim, containing 160 discourses on the Church, the Mysteries of our Lord, Virginity, and against Heresies</title>
                 <rubric xml:lang="syr">
@@ -267,69 +267,381 @@
                   <bibl>Assemani, Bibl. Orient., t. i., pp. 86, 92 and 118</bibl>
                 </listBibl>
               <msItem n="2" xml:id="p2b1" defective="true">
-                <locus from="20a" to="29b"/>
+                <locus from="20a" to="29b">Foll. 20a-29b</locus>
                 <author ref="http://syriaca.org/person/13"/>
                 <title ref="" type="supplied">Discourses on the Church</title>
                 <rubric xml:lang="syr">ܕܥܠ ܥܕܬܐ
                   <locus from="20a"/>
                 </rubric>
                 <msItem n="3" xml:id="p2c1" defective="true">
-                  <locus from="" to=""></locus>
-                  <author ref=""/>
-                  <title ref="" type="supplied"></title>
-                  <rubric xml:lang="syr">
-                    <locus from="" to=""/>
-                  </rubric>
-                  <incipit xml:lang="syr">
-                    <locus from="" to=""/>
-                  </incipit>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus from="" to=""/>
+                  <locus from="20a" to="20b">Foll. 20a-20b</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 11</title>
+                  <explicit xml:lang="syr">ܡܘܬܐ ܟܕ ܥܝܪ ܐܬܚܠܨ. ܕܡܪܢ ܣ̇ܪܩ ܣܝܡ̈ܬܗ.
+                    <locus from="20b"/>
                   </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus from="" to=""/>
-                  </finalRubric>
-                  <colophon>
-                    <ref target="">See below.
-                    </ref>
-                  </colophon>
-                  <note></note>
-                  <listBibl>
-                    <bibl></bibl>
-                  </listBibl>
               </msItem>
-                <msItem n="4" xml:id="p2c2" defective="true">
-                  <locus from="" to=""></locus>
-                  <author ref=""/>
-                  <title ref="" type="supplied"></title>
-                  <rubric xml:lang="syr">
-                    <locus from="" to=""/>
+                <msItem n="4" xml:id="p2c2">
+                  <locus from="20b" to="21">Foll. 20b-21</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 12</title>
+                  <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                    <locus from="20b"/>
                   </rubric>
-                  <incipit xml:lang="syr">
-                    <locus from="" to=""/>
+                  <incipit xml:lang="syr"> ܐܠܗܐ ܗܘܼ ܕܡ̣ܦܣ ܒܫܐ̈ܠܬܢ. 
+                    <locus from="20b"/>
                   </incipit>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus from="" to=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus from="" to=""/>
-                  </finalRubric>
-                  <colophon>
-                    <ref target="">See below.
-                    </ref>
-                  </colophon>
-                  <note></note>
                   <listBibl>
-                    <bibl></bibl>
+                    <bibl>Bibl. Or., t.i.p 88, no. 18.</bibl>
                   </listBibl>
                 </msItem>
+                <msItem n="5" xml:id="p2c3">
+                  <locus from="21a" to="21b">Foll. 21a-21b</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 13</title>
+                  <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                    <locus from="21a"/>
+                  </rubric>
+                  <incipit xml:lang="syr"> ܐܡܛܪ ܡܪܝ ܠܬܪܥܝܬܝ. ܫ̈ܦܥܐ ܕܡܛܪܟ ܒܪܝܟܐ.  
+                    <locus from="21a"/>
+                  </incipit>
+                  <listBibl>
+                    <bibl>Bibl. Or., t.i.p 88, no. 19.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="6" xml:id="p2c4" defective="true">
+                  <locus from="21b" to="22">Foll. 21b-22</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 14</title>
+                  <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                    <locus from="21b"/>
+                  </rubric>
+                  <incipit xml:lang="syr"> ܐܡܛܪ ܡܪܝ ܠܬܪܥܝܬܝ ܫ̈ܦܥܐ ܕܡܛܪܟ ܒܪܝܟܐ .  
+                    <locus from="21b"/>
+                  </incipit>
+                </msItem>
+                <msItem n="7" xml:id="p2c5" defective="true">
+                  <locus from="22a" to="22b">Foll. 22a-22b</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 24</title>
+                  <explicit xml:lang="syr"> ܕܫܟܠܠܘ ܓܡܪܘܗܝ ܟܠ ܫܪ̈ܒܝܢ.  
+                    <locus from="22b"/>
+                  </explicit>
+                </msItem>
+                <msItem n="8" xml:id="p2c6">
+                  <locus from="22b" to="24">Foll. 22b-24</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 25</title>
+                  <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                    <locus from="22b"/>
+                  </rubric>
+                  <incipit xml:lang="syr"> ܬܡܗܘ ܕܝܢ ܕܩܪܒܘ ܒ̈ܢܝ ܙܒܕܝ.  
+                    <locus from="21b"/>
+                  </incipit>
+                  <listBibl>
+                    <bibl>Opera, t. iii. p. 615</bibl>
+                    <bibl>Bibl. Or., t. i. p. 89, no. 25.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="9" xml:id="p2c7">
+                  <locus from="24a" to="24b">Foll. 24a-24b</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 26</title>
+                  <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                    <locus from="24a"/>
+                  </rubric>
+                  <incipit xml:lang="syr"> ܐܫܩܢܝ ܡܪܝ ܡܢ ܡܒܘܥܟ .   
+                    <locus from="24a"/>
+                  </incipit>
+                  <listBibl>
+                    <bibl>Opera, t. iii. p. 608</bibl>
+                    <bibl>Bibl. Or., t. i. p. 89, no. 26.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="10" xml:id="p2c8" defective="true">
+                  <locus from="24b" to="25">Foll. 24b-25</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 27</title>
+                  <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                    <locus from="24b"/>
+                  </rubric>
+                  <incipit xml:lang="syr"> ܒܫܡܟ ܝܫܘܥ ܐܫܬܒܗܪ.    
+                    <locus from="24b"/>
+                  </incipit>
+                  <listBibl>
+                    <bibl>Opera, t. iii. p. 610</bibl>
+                    <bibl>Bibl. Or., t. i. p. 89, no. 27.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="11" xml:id="p2c9" defective="true">
+                  <locus from="25b" to="26">Foll. 25b-26</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 28</title>
+                  <listBibl>
+                    <bibl>Opera, t. iii. p. 624</bibl>
+                    <bibl>Bibl. Or., t. i. p. 89, no. 28.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="12" xml:id="p2c10" defective="true">
+                  <locus from="26b" to="27">Foll. 26b-27</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Number 29</title>
+                  <listBibl>
+                    <bibl>Opera, t. iii. p. 555</bibl>
+                    <bibl>Bibl. Or., t. i. p. 89, no. 29.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="13" xml:id="p2c11">
+                  <locus from="27">Foll. 27</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">A fragment</title>
+                </msItem>
+                <msItem n="14" xml:id="p2c12">
+                  <locus from="27">Foll. 28</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">A small fragment</title>
+                </msItem>
+                <msItem n="15" xml:id="p2c13" defective="true">
+                  <locus from="29b">Foll. 29b</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <explicit xml:lang="syr"> ܙܥܘܪ ܡܢ ܡ̈ܠܟܐ. ܘܪܒ ܡܢ ܡ̈ܠܟܐ. ܒܥܝܠܐ ܘܝܡܐ .   
+                    <locus from="29b"/>
+                  </explicit>
+                  <listBibl>
+                    <bibl>Bibl. Or., t. i. p. 90, no. 38, 2.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="16" xml:id="p2c14" defective="true">
+                  <locus from="29b">Foll. 29b</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <incipit xml:lang="syr"> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܡܬ</supplied>ܥܝܦ ܕܐܬܦܫܥ <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܣܒܟ</supplied> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܠܗ</supplied> ܣܛܢܐ .ܟܕ.   
+                    <locus from="29b"/>
+                  </incipit>
+                  <listBibl>
+                    <bibl>Bibl. Or., t. i. p. 90, no. 38, 3.</bibl>
+                  </listBibl>
+                </msItem>
+                </msItem>
+                <msItem n="17" xml:id="p2b2" defective="true">
+                  <locus from="30a" to="33b">Foll. 30a-33b</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">Discourses against Heresies</title>
+                  <rubric xml:lang="syr">ܕܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛ̈ܥܝܐ
+                    <locus from="30a"/>
+                  </rubric>
+                  <msItem n="18" xml:id="p2c15" defective="true">
+                    <locus from="30a">Foll. 30a</locus>
+                    <author ref="http://syriaca.org/person/13"/>
+                    <title ref="" type="supplied">Number 1</title>
+                    <listBibl>
+                      <bibl>Opera, t. ii. p. 439, D.</bibl>
+                    </listBibl>
+                  </msItem>
+                  <msItem n="19" xml:id="p2c16" defective="true">
+                    <locus from="30a" to="31">Foll. 30a-31</locus>
+                    <author ref="http://syriaca.org/person/13"/>
+                    <title ref="" type="supplied">Number 2</title>
+                    <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                      <locus from="30a"/>
+                    </rubric>
+                    <listBibl>
+                      <bibl>Opera, t. ii. p. 439.</bibl>
+                    </listBibl>
+                  </msItem>
+                  <msItem n="20" xml:id="p2c17" defective="true">
+                    <locus from="31a" to="31">Foll. 31a-31</locus>
+                    <author ref="http://syriaca.org/person/13"/>
+                    <title ref="" type="supplied">Number 40</title>
+                    <listBibl>
+                      <bibl>Opera, t. ii. p. 530, C.</bibl>
+                    </listBibl>
+                  </msItem>
+                  <msItem n="21" xml:id="p2c18" defective="true">
+                    <locus from="31b" to="32">Foll. 31b-32</locus>
+                    <author ref="http://syriaca.org/person/13"/>
+                    <title ref="" type="supplied">Number 41</title>
+                    <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                      <locus from="31b"/>
+                    </rubric>
+                    <listBibl>
+                      <bibl>Opera, t. ii. p. 532.</bibl>
+                    </listBibl>
+                  </msItem>
+                  <msItem n="22" xml:id="p2c19" defective="true">
+                    <locus from="32a">Foll. 32a</locus>
+                    <author ref="http://syriaca.org/person/13"/>
+                    <title ref="" type="supplied">Number 54</title>
+                    <listBibl>
+                      <bibl>Opera, t. ii. p. 555, E.</bibl>
+                    </listBibl>
+                  </msItem>
+                  <msItem n="23" xml:id="p2c20">
+                    <locus from="32a" to="32">Foll. 32a-32</locus>
+                    <author ref="http://syriaca.org/person/13"/>
+                    <title ref="" type="supplied">Number 55</title>
+                    <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                      <locus from="32a"/>
+                    </rubric>
+                    <listBibl>
+                      <bibl>Opera, t. ii. p. 557.</bibl>
+                    </listBibl>
+                  </msItem>
+                  <msItem n="24" xml:id="p2c21">
+                    <locus from="32b" to="33">Foll. 32b-33</locus>
+                    <author ref="http://syriaca.org/person/13"/>
+                    <title ref="" type="supplied">Number 56</title>
+                    <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                      <locus from="32b"/>
+                    </rubric>
+                    <listBibl>
+                      <bibl>Opera, t. ii. p. 559.</bibl>
+                    </listBibl>
+                  </msItem>
+                </msItem>
               </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="14">14 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="11.75" unit="in">11 3/4</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="8.75" unit="in">8 3/4</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>All of the leaves are more or less stained and torn.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="3" writtenLines="32 38">
+                    <p>Each page is divided into three columns, of from 32 to 38 lines. </p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="2">
+                <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a good, regular Estrangela.</desc>
+                </handNote>
+                <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="p2addition2">See additions.</ref></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions>
+                <p/>
+                <list>
+                  <item n="1" xml:id="p2addition1">
+                    <locus from="33b"/>
+                    <ref target="p2handNote1"/>
+                    <p>The colophon follows the subscription, with an index to the contents of the volume, of which the commencement is unfortunately torn away.</p>
+                    <p>
+                      <quote xml:lang="syr">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+                      ܘܕܐܪ̈ܙܝ ܡܪܢ ܘܥܠ ܒܬܘܠܘܬܐ. ܚܡܫܝܢ ܘܬܪܝܢ. ܘܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛܥ̈ܝܐ ܚܡܫܝܢ ܘܫܬܐ. ܗܘܝܢ ܕܝܢ ܟܠܗܘܢ ܡܕܪ̈ܫܐ ܗܠܝܢ ܒܡܢܝܢܐ: ܡܐܐ ܘܫܬܝܢ.
+                    </quote>
+                    </p>
+                  </item>
+                  <item n="2" xml:id="p2addition2">
+                    <locus from="33b"/>
+                    <ref target="p2handNote2"/>
+                    <p>Of a note in cursive characters, which followed the doxology, only a few letters are left.</p>
+                  </item>
+                </list>
+              </additions>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0400" notAfter="0600" calendar="Gregorian">The writing is of the vth or vith cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart2">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DXXXVI</citedRange>
+                  <citedRange unit="pp">II:408-409</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="3" xml:id="Part3"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
+                <locus from="" to=""/>
+                <author ref=""/>
+                <title ref="" type="supplied"/>
+                <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
+                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
+                <quote xml:lang="syr"><locus from="" to=""/></quote>
+                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
+                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
+                <colophon><ref target=""/>See below.</colophon>
+                <note/>
+                <listBibl>
+                  <bibl/>
+                </listBibl>
+              </msItem>
+              <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
+                <locus from="" to=""/>
+                <author ref=""/>
+                <title ref="" type="supplied"/>
+                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
+                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
+                <quote xml:lang="syr"><locus from="" to=""/></quote>
+                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
+                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
+                <colophon><ref target=""/>See below.</colophon>
+                <note/>
+                <listBibl>
+                  <bibl/>
+                </listBibl>
               </msItem>
             </msContents>
             <physDesc>
@@ -370,10 +682,7 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="">
-                <handNote xml:id="p2handNote1" scope="" script="" medium="">
-                  <desc></desc>
-                </handNote>
-                <handNote xml:id="p2handNote2" scope="" script="" medium="">
+                <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
                   <desc></desc>
                 </handNote>
               </handDesc>
@@ -385,21 +694,8 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p2addition1">
-                    <locus from="33b"/>
-                    <ref target="p2handNote1"/>
-                    <p>The colophon follows the subscription, with an index to the contents of the volume, of which the commencement is unfortunately torn away.</p>
-                    <p>
-                      <quote xml:lang="syr">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
-                      ܘܕܐܪ̈ܙܝ ܡܪܢ ܘܥܠ ܒܬܘܠܘܬܐ. ܚܡܫܝܢ ܘܬܪܝܢ. ܘܠܘܩܒܠ ܝܘ̈ܠܦܢܐ ܛܥ̈ܝܐ ܚܡܫܝܢ ܘܫܬܐ. ܗܘܝܢ ܕܝܢ ܟܠܗܘܢ ܡܕܪ̈ܫܐ ܗܠܝܢ ܒܡܢܝܢܐ: ܡܐܐ ܘܫܬܝܢ.
-                    </quote>
-                    </p>
-                  </item>
-                  <item n="2" xml:id="p2addition2">
-                    <locus from="33b"/>
-                    <ref target="p2handNote2"/>
-                    <p>Of a note in cursive characters, which followed the doxology, only a few letters are left.</p>
-                  </item>
+                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
                 </list>
               </additions>
               <bindingDesc>
@@ -547,7 +843,7 @@
           </item>
           <item>
             <ref target="#Part2"/>  
-            <ref target=""/>       
+            <ref target="#theology"/>       
           </item>
         </list>
         </keywords>
@@ -556,6 +852,7 @@
     <revisionDesc>
       <change when="2014-01-23" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
