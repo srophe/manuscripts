@@ -285,7 +285,7 @@
                   <locus from="20b" to="21">Foll. 20b-21</locus>
                   <author ref="http://syriaca.org/person/13"/>
                   <title ref="" type="supplied">Number 12</title>
-                  <rubric xml:lang=""><!-- Need symbols here (xml:lang unknown by creator) -->
+                  <rubric xml:lang="unknown"><!-- Need arithmetic figures here -->
                     <locus from="20b"/>
                   </rubric>
                   <incipit xml:lang="syr"> ܐܠܗܐ ܗܘܼ ܕܡ̣ܦܣ ܒܫܐ̈ܠܬܢ. 
@@ -852,7 +852,7 @@
     <revisionDesc>
       <change when="2014-01-23" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
