@@ -93,9 +93,8 @@
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܟܣܢܘܬܐ
                     <locus from="1a"/>
                   </rubric>
-                  <incipit xml:lang="syr"> ܕܚܠ ܒܪ ܐܢܫܐ ܡܢ ܥܘܼܠܐ. ܕܥܘܼܠܐ ܡܚܪܒ ܐܪ̈ܥܬܐ. ܕܡܒܘܥܐ ܗܘ ܕܒܝ̈ܫܬܐ. ܕܪܪܐ (ܕܪܕ̇ܐ read ) ܘܡܪܘܐ ܣܓ̈ܝܐܐ. 
-                    <locus from="1a"/>
-                  </incipit> <!-- Formatting errors in the Word Doc. What to do about the parenthetical "read"?  -->
+                  <incipit xml:lang="syr">ܕܚܠ ܒܪ ܐܢܫܐ ܡܢ ܥܘܼܠܐ. ܕܥܘܼܠܐ ܡܚܪܒ ܐܪ̈ܥܬܐ. ܕܡܒܘܥܐ ܗܘ ܕܒܝ̈ܫܬܐ. <choice><sic>ܕܪܪܐ</sic><corr resp="http://syriaca.org/editors.xml#wwright">ܕܪܕ̇ܐ</corr></choice> ܘܡܪܘܐ ܣܓ̈ܝܐܐ.<locus from="1a"/>
+                  </incipit>
                 </msItem>
                 <msItem n="3" xml:id="b2" defective="true">
                   <locus from="2b" to="31">Foll. 2b-31</locus>
