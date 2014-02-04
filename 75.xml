@@ -192,7 +192,7 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing, which is small and neat, though not very regular, is evidently that of an Edessene scribe.</desc>
+                  <desc>The writing, which is small and neat, though not very regular, is evidently that of an Edessene scribe of the vth or vith cent.</desc>
                 </handNote> <!--Is this how to encode Edessene scribe?  -->
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition1">See additions.</ref></desc>
@@ -214,7 +214,7 @@
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="0400" notAfter="0600" calendar="Gregorian">The writing is of the vth or vith cent.</origDate>
+                <origDate notBefore="0400" notAfter="0600" calendar="Gregorian">vth or vith cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>

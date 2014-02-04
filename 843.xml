@@ -201,7 +201,7 @@
               </objectDesc>
               <handDesc hands="3">
                 <handNote xml:id="p1handNote1" scope="major" script="" medium="unknown"><!-- How to code fine, Edessene hand? -->
-                  <desc>This manuscript is written in a fine, Edessene hand.</desc>
+                  <desc>This manuscript is written in a fine, Edessene hand of the vth or vith cent.</desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#p1addition1">See additions.</ref></desc>
@@ -231,7 +231,7 @@
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="0400" notAfter="0600" calendar="Gregorian">This manuscript is of the vth or vith cent.</origDate>
+                <origDate notBefore="0400" notAfter="0600" calendar="Gregorian">vth or vith cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>

@@ -225,7 +225,7 @@
               </objectDesc>
               <handDesc hands="7">
                 <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript is written in a good, regular, though by no means elegant Estrangela.</desc>
+                  <desc>This manuscript is written in a good, regular, though by no means elegant Estrangela, and dated A. Gr. 785, A.D. 474.</desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>See additions. <ref target="#p1addition2"></ref></desc>
@@ -494,7 +494,7 @@
               </objectDesc>
               <handDesc hands="3">
                 <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript is written in a fine, regular Estrangela.</desc>
+                  <desc>This manuscript is written in a fine, regular Estrangela, and dated A. Gr. 823, A. D. 512.</desc>
                 </handNote>
                 <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>One Abraham bar Nonnus has recorded his name.</desc>
@@ -528,7 +528,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate when="0512" calendar="Gregorian">This manuscript is dated A.D. 512.</origDate>
+                <origDate when="0512" calendar="Gregorian">A.D. 512.</origDate>
                 <origDate when-custom="0823" datingMethod="Seleucid">A. Gr. 823</origDate>
                 <origPlace/>
               </origin>
@@ -636,7 +636,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate notAfter="0600" calendar="Gregorian">This folio is not later than the vith cent.</origDate>
+                <origDate notAfter="0600" calendar="Gregorian">Not later than the vith cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>

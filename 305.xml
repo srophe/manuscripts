@@ -143,7 +143,7 @@
               </objectDesc>
               <handDesc hands="3">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This volume is written in a fine, regular Estrangela.</desc>
+                  <desc>This volume is written in a fine, regular Estrangela of the vith cent.</desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition1">See additions.</ref></desc>
@@ -174,7 +174,7 @@
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="0500" notAfter="0600">This volume is of the vith cent.</origDate>
+                <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>
