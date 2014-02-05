@@ -150,7 +150,23 @@
                   </listBibl>
                 </msItem>
                 <msItem n="8" xml:id="b7">
-                  
+                  <locus from="31b" to="39">Foll. 31b-39</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">On Adam and Eve</title>
+                  <note>Six in number. The lst begins, <foreign xml:lang="syr">ܐܕܡ ܐܝܪܒ ܘܐܬܡܟܟ</foreign> , <bibl>Opera, t. ii. p. 318</bibl>; the 2nd, <foreign xml:lang="syr">ܒܝܫܐ ܗܘ ܡܓܪܐ ܠܢ</foreign>  , <bibl>p. 320, D</bibl> ; the 3d,<foreign xml:lang="syr">ܐ̈ܚܝ ܒ̈ܢܝ ܚܘܐ ܢܫܡܥ ܠܬܫܥܝܬܗ</foreign> ̇ , <bibl>p. 321, E</bibl>; the 4th, <foreign xml:lang="syr">ܒܗܬܬܐ ܗܝ ܕܒܪܬ ܐܢܫܐ</foreign>,<bibl> p. 323, </bibl>A; the 5th, <foreign xml:lang="syr">ܐܬܪܟܢܬ ܙܟܝܐ. ܨܝܕ ܚܘܒܬܗ ܕܐܕܡ</foreign>,<bibl> p. 324, </bibl>B; and the 6th, <foreign xml:lang="syr">ܐܕܡ ܚܙ̣ܐ ܠܚܢܘܟ</foreign>,<bibl> p. 325, F</bibl>. </note>
+                  <listBibl>
+                    <bibl>Assemani, Bibl. Orient., t. i. p. 91, nos. 45 and 50.</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="9" xml:id="b8">
+                  <locus from="39a" to="42">Foll. 39a-42</locus>
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">On Longsuffering, Freewill, Grace and Justice</title>
+                  <rubric xml:lang="syr">ܕܥܠ ܡܓܪܬ ܪܘܚܐ ܘܚܐܪܘܬܐ ܘܛܝܒܘܬܐ ܘܟܐܢܘܬܐ<locus from="39a"/></rubric>
+                  <note>3 in number, the last imperfect. The 1st begins, <foreign xml:lang="syr">ܐܝܢܘ ܕܢܓܝܪܐ ܪܘܚܗ</foreign> , Opera, t. iii. p. 359; the 2nd, <foreign xml:lang="syr">ܟܠܗܘܢ ܒ̈ܢܝ ܐܢܫܐ. ܪܡܝܢ ܐܢܘܢ ܒܐܝܓܘܢܐ</foreign>, p. 362; and the 3d, <foreign xml:lang="syr">ܥܪܝܡܐ ܗܝ ܡܪܘܬܐܢ <sic>ܡܢܗ̇ ܕܐܢܫܘܬܢ</sic>.</foreign>.</note>
+                  <listBibl>
+                    <bibl>Assemani, Bibl. Orient., t. i. pp. 86, 87, nos. 8—10.</bibl>
+                  </listBibl>
                 </msItem>
              </msItem>
             </msContents>
