@@ -164,6 +164,9 @@
                        <item>
                           <p>Foll. <locus from="7" to="8">7, 8</locus>, and <locus from="16" to="16">16</locus> seem to be of the <date notBefore="0700" notAfter="0900">viiith or ixth cent.</date>; fol. <locus from="15" to="15">15</locus> is of the <date notBefore="0800" notAfter="1000">ixth or xth cent.</date>; and fol. <locus from="71" to="71">71</locus> is a <material>paper</material> leaf of the <date notBefore="1200" notAfter="1300">xiiith cent.</date></p>
                        </item>
+                      <item>
+                        <p><ref target="#addition2">See additions.</ref></p>
+                      </item>
                     </list>
                   </condition>
                 </supportDesc>
