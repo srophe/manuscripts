@@ -154,8 +154,12 @@
                   <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews, according to the Peshitta version</title>
                   <note>Missing portion : ch. i. 1—ii. 4.</note>
                 </msItem>  
+<<<<<<< HEAD
                 <finalRubric xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܐܓܪ̈ܬܐ:  ; ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ: ܫܠܝܚܐ: ܛܘܒܢܐ<locus from="91" to="91"/></finalRubric>
                 <note>Followed by the usual doxology.</note>
+=======
+                <finalRubric xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܐܓܪ̈ܬܐ: ; ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ: ܫܠܝܚܐ: ܛܘܒܢܐ<locus from="91" to="91"/></finalRubric>
+>>>>>>> Justin-Editing
                 <note>Of the lessons, some are rubricated in the text.</note>
               </msItem>
             </msContents>
@@ -343,7 +347,11 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-02" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+<<<<<<< HEAD
       <change when="2013-12-26" who="http://syriaca.org/editors.xml#thannah">Initial edit: formatting loci, final rubric, and additions</change>
+=======
+      <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
+>>>>>>> Justin-Editing
     </revisionDesc>
   </teiHeader>
   <facsimile>
