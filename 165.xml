@@ -522,6 +522,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-04" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-02-07" who="http://syriaca.org/editors.xml#thannah">Added link to additions in condition</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -407,6 +407,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-10" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-02-07" who="http://syriaca.org/editors.xml#thannah">Added link to additions in condition</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
