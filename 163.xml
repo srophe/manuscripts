@@ -146,10 +146,7 @@
                   <locus from="122" to="142">Foll. 122-142</locus>
                   <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews, according to the Peshitta version</title>
                 </msItem>  
-                <colophon>
-                  <ref target="#addition1">See below.
-                  </ref>
-                </colophon>
+                <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܐܪܒܥܣܪܐ ܕܦܘܠܘܣ ܫܠܝܚܐ ܛܘܒܢܐ .ܘ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ.<locus from="142b" to="142b"/></finalRubric>
                 <note>The margins contain many annotations, chiefly indicating the passages of Scripture cited by the Apostle, but also referring occasionally to other matters. The following may serve as specimens:</note>
                 <note><ref target="#b2"/><p><locus from="39a"/>1 Corinth, ix. 5, marg. <quote xml:lang="syr"> ܒ̈ܢܝ ܝܘܣܦ. ܝܥܩܘܒ ܪܝܫܐ ܕܐܦܣ̈ܩܦܐ . ܒ. ܝܘܣܐ .ܓ . ܣܝܡܘܢ. ܕ . ܝܗܘܕܐ.</quote></p></note>
                 <note><ref target="#b2"/><p><locus from="52a"/>1 Corinth, xv. 32, marg. <quote xml:lang="syr">ܡܬܠܐ ܕܥܡܐ ܕܠܩܕܡ̈ܘܢܝܐ. ܥܗܝܕ ܠܗ ܕܝܢ ܐܦ ܐܫܥܝܐ.</quote>1 Corinth, xv. 33, marg. <quote xml:lang="syr"> ܪܥܝܢܐ ܕܡܢܢܕܪܘܣ ܩܘܡܝܩܘܣ ܒܬܐܝܣ.</quote></p></note>
@@ -223,11 +220,6 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1">
-                    <locus from="142b" to="142b"/>
-                    <p>Colphon:</p>
-                    <p><quote xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܐܪܒܥܣܪܐ ܕܦܘܠܘܣ ܫܠܝܚܐ ܛܘܒܢܐ .ܘ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ.</quote></p>
-                  </item>
                   <item n="2" xml:id="addition2">
                     <p>Some lessons are indicated in the margins with a later hand.</p>
                   </item>
