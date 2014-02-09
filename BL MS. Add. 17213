@@ -279,7 +279,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="20140202" who="http://syriaca.org/editors.xml#emjohnson">Created: file</change>
+      <change when="2014-02-02" who="http://syriaca.org/editors.xml#emjohnson">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
       </revisionDesc>
   </teiHeader>
