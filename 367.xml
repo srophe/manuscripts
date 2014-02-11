@@ -96,6 +96,24 @@
                   </finalRubric>
                   <note>Originally 10 in number, of which only the last two are complete. See <ref target="http://syriaca.org/manuscript/304">Add. 14,571, no. 2</ref>.</note>
                 </msItem>
+                <msItem n="3" xml:id="b2" defective="true">
+                  <locus from="7a" to="17b">Foll. 7a-17b</locus>                 
+                  <author ref="http://syriaca.org/person/13"/>
+                  <title ref="" type="supplied">On the Lord's Supper</title>
+                  <rubric xml:lang="syr">ܕܦܛܝܪ̈ܐ<locus from="7a"/>
+                  </rubric>
+                  <finalRubric xml:lang="syr">ܫܠܡ ܥܣܪ̈ܝܢ ܘܚܕ ܡܕܪ̈ܫܝܢ ܕܥܠ ܦܛܝܪ̈ܐ ܕܛܘܒܢܐ ܡܪܝ ܐܦܪܝܡ.<locus from="17b"/>
+                  </finalRubric>
+                  <note>Originally 21 in number. The first two are the same as in <ref target="http://syriaca.org/manuscript/304">Add. 14,571, no. 3</ref>.</note>
+                  <msItem n="4" xml:id="c1">
+                    <author ref="http://syriaca.org/person/13"/>
+                    <incipit xml:lang="syr">ܗܐ ܩܛܝܠ ܒܡܨܪܝܢ ܐܡܪ ܦܨܚܐ</incipit>
+                  </msItem>
+                  <msItem n="5" xml:id="c2">
+                    <author ref="http://syriaca.org/person/13"/>
+                    <incipit xml:lang="syr">ܫܡ̣ܥܘ ܛܘܦܣܐ ܓܠܝܐ ܕܒܓܘ ܡܨܪܝܢ</incipit>
+                  </msItem>
+                </msItem>
                 
               </msItem>
             </msContents>
