@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -143,7 +143,8 @@
                      <locus from="89b" to="101a">Foll. 89b-101a</locus>
                      <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
                   </msItem>
-                  <colophon><ref target="#addition6 #addition7">See additions.</ref></colophon>
+                 <finalRubric  xml:lang="syr"><locus from="101a" to="101a"/>ܫܠܡ: ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ ܫܠܝܚܐ: ܛܘܒܢܐ ܐܪܕܝܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥܕ̈ܬܐ ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬܒ ܕܡܪܢ ܢܥܕܪܝܘܗܝ ܘܢܚܝܠܝܘܗܝ ܒܨܠܘܬ ܣܗ̈ܕܐ ܐܡܝܢ ܘܐܡܝܢ܀</finalRubric>
+                  <colophon><ref target="#addition7">See additions.</ref></colophon>
                </msItem>
             </msContents>
             <physDesc>
@@ -183,7 +184,7 @@
               </objectDesc>
               <handDesc hands="8">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                   <desc>This volume is written in a small, elegant, Edessene Estrangela, and dated <origDate when-custom="0845" datingMethod="Seleucid">A.Gr. 845</origDate>, <origDate when="0534" calendar="Gregorian">A.D. 534</origDate>. <ref target="#addition6 #addition7">See additions.</ref></desc>
+                   <desc>This volume is written in a small, elegant, Edessene Estrangela, and dated <origDate when-custom="0845" datingMethod="Seleucid">A.Gr. 845</origDate>, <origDate when="0534" calendar="Gregorian">A.D. 534</origDate>. <ref target="#addition7">See additions.</ref></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition1">See additions.</ref></desc>
@@ -224,11 +225,6 @@
                    </item>
                    <item n="5" xml:id="addition5">
                       <p>A few Greek vowels have been added by another reader.</p>
-                   </item>
-                   <item n="6" xml:id="addition6">
-                      <locus from="101a" to="101a"/>
-                      <p>Colophon: </p>
-                      <p><quote xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ ܫܠܝܚܐ: ܛܘܒܢܐ ܐܪܕܝܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥܕ̈ܬܐ ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬܒ ܕܡܪܢ ܢܥܕܪܝܘܗܝ ܘܢܚܝܠܝܘܗܝ ܒܨܠܘܬ ܣܗ̈ܕܐ ܐܡܝܢ ܘܐܡܝܢ܀</quote></p>
                    </item>
                    <item n="7" xml:id="addition7">
                       <locus from="101b" to="101b"/>
@@ -382,6 +378,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-08" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-02-14" who="http://syriaca.org/editors.xml#thannah">Initial edit: reclassifying colophon as finalRubric</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

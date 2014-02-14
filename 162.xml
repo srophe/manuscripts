@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -187,9 +187,10 @@
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="perg">
+                <supportDesc material="mixed">
                   <support>
                     <material>Vellum</material>
+                    <material>Paper</material>
                   </support>
                   <extent>
                     <measure type="composition" unit="leaf" quantity="116">116 ff.</measure>
@@ -408,6 +409,7 @@
     <revisionDesc>
       <change when="2013-10-10" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2014-02-07" who="http://syriaca.org/editors.xml#thannah">Added link to additions in condition</change>
+      <change when="2014-02-14" who="http://syriaca.org/editors.xml#thannah">Initial edit: corrected materials encoding</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>

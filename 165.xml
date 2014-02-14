@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -181,7 +181,7 @@
                         <locus from="113" to="113"/>
                      </finalRubric>
                   </msItem>
-                  <msItem n="15" xml:id="p1b14" defective="true">
+                  <msItem n="15" xml:id="p1b14" defective="unknown">
                      <locus from="113b" to="128">Foll. 113b-128</locus>
                      <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
                      <note>Ending with ch. xii. 5.</note>
@@ -272,7 +272,7 @@
                       <p>Foll. <locus from="1" to="10">1—10</locus>, <locus from="12" to="13">12, 13</locus>, and <locus from="47" to="47">47</locus> are from a manuscript of nearly <date notBefore="0500" notAfter="0600">the same date</date>.</p>
                    </item>
                    <item n="4" xml:id="p1addition4">
-                      <p><locus from="62" to="62">Fol. 62</locus> is a <ref target="#Part2 http://syriaca.org/manuscript/1180">palimpsest</ref> leaf of the <date notBefore="0800" notAfter="1000">ixth or xth cent.</date>, written by the same hand that repaired fol. <locus from="121" to="121">121</locus> (which is also partly palimpsest).</p>
+                      <p><locus from="62" to="62">Fol. 62</locus> is a <ref target="#Part2 #http://syriaca.org/manuscript/1180">palimpsest</ref> leaf of the <date notBefore="0800" notAfter="1000">ixth or xth cent.</date>, written by the same hand that repaired fol. <locus from="121" to="121">121</locus> (which is also partly palimpsest).</p>
                    </item>
                    <item n="5" xml:id="p1addition5">
                       <p>Foll. <locus from="11" to="11">11</locus>, <locus from="14" to="14">14</locus>, <locus from="29" to="30">29, 30</locus>, <locus from="40" to="46">40-46</locus>, and <locus from="55" to="55">55</locus> are paper leaves of the <date notBefore="1200" to="1300">xiiith cent.</date></p>
@@ -523,6 +523,7 @@
     <revisionDesc>
       <change when="2013-10-04" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2014-02-07" who="http://syriaca.org/editors.xml#thannah">Added link to additions in condition</change>
+      <change when="2014-02-14" who="http://syriaca.org/editors.xml#thannah">Initial edit: correcting @defective coding on Part 1, correcting internal referencing on @target</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

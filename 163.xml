@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -85,88 +85,88 @@
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="143">Foll. 1-143</locus>
                 <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta version</title>
-                <msItem n="2" xml:id="b1">
+                <msItem n="2" xml:id="b1" defective="unknown">
                   <locus from="1b" to="27b">Foll. 1b-27b</locus>
-                  <title ref="http://syriaca.org/work/77" type="supplied">The Epistle of Romans, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/77" type="supplied">The Epistle of Romans</title>
                   <note>The more recent portions are: ch. i. 1—9 and xii. 8—xiii. 7.</note>
                 </msItem>
                 <msItem n="3" xml:id="b2" defective="true">
                   <locus from="27b" to="54">Foll. 27b-54</locus>
-                  <title ref="http://syriaca.org/work/78" type="supplied">The Epistle of 1 Corinthians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/78" type="supplied">The Epistle of 1 Corinthians</title>
                   <note>Missing portions: ch. xv. 48 xvi. 6 and xvi. 22—24.</note>
                 </msItem>
                 <msItem n="4" xml:id="b3" defective="true">
                   <locus from="54" to="68">Foll. 54-68</locus>
-                  <title ref="http://syriaca.org/work/79" type="supplied">The Epistle of 2 Corinthians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/79" type="supplied">The Epistle of 2 Corinthians</title>
                   <note>Missing portions: ch. i. 1—9, ii. 17—iii. 13, and iv. 11 —vi. 2.</note>
                 </msItem>
                 <msItem n="5" xml:id="b4">
                   <locus from="68" to="77b">Foll. 68-77b</locus>
-                  <title ref="http://syriaca.org/work/80" type="supplied">The Epistle of Galatians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/80" type="supplied">The Epistle of Galatians</title>
                 </msItem>
-                <msItem n="6" xml:id="b5" defective="true">
+                <msItem n="6" xml:id="b5">
                   <locus from="77b" to="86">Foll. 77b-86</locus>
-                  <title ref="http://syriaca.org/work/81" type="supplied">The Epistle of Ephesians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/81" type="supplied">The Epistle of Ephesians</title>
                 </msItem>
-                <msItem n="7" xml:id="b6" defective="true">
+                <msItem n="7" xml:id="b6">
                   <locus from="86" to="91b">Foll. 86-91b</locus>
-                  <title ref="http://syriaca.org/work/82" type="supplied">The Epistle of Philippians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/82" type="supplied">The Epistle of Philippians</title>
                 </msItem>
-                <msItem n="8" xml:id="b7">
+                <msItem n="8" xml:id="b7" defective="true">
                   <locus from="91b" to="96b">Foll. 91b-96b</locus>
-                  <title ref="http://syriaca.org/work/83" type="supplied">The Epistle of Colossians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/83" type="supplied">The Epistle of Colossians</title>
                   <note>Missing portion: ch. iii. 4—20.</note>
                 </msItem>
                 <msItem n="9" xml:id="b8">
                   <locus from="96b" to="101b">Foll. 96b-101b</locus>
-                  <title ref="http://syriaca.org/work/84" type="supplied">The Epistle of 1 Thessalonians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/84" type="supplied">The Epistle of 1 Thessalonians</title>
                 </msItem>
                 <msItem n="10" xml:id="b9">
                   <locus from="101b" to="104b">Foll. 101b-104b</locus>
-                  <title ref="http://syriaca.org/work/85" type="supplied">The Epistle of 2 Thessalonians, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/85" type="supplied">The Epistle of 2 Thessalonians</title>
                 </msItem>
                 <msItem n="11" xml:id="b10">
                   <locus from="104b" to="112">Foll. 104b-112</locus>
-                  <title ref="http://syriaca.org/work/86" type="supplied">The Epistle of 1 Timothy, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/86" type="supplied">The Epistle of 1 Timothy</title>
                 </msItem>
                 <msItem n="12" xml:id="b11">
                   <locus from="112" to="117b">Foll. 112-117b</locus>
-                  <title ref="http://syriaca.org/work/87" type="supplied">The Epistle of 2 Timothy, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/87" type="supplied">The Epistle of 2 Timothy</title>
                 </msItem>
                 <msItem n="13" xml:id="b12">
                   <locus from="117b" to="120b">Foll. 117b-120b</locus>
-                  <title ref="http://syriaca.org/work/88" type="supplied">The Epistle of Titus, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/88" type="supplied">The Epistle of Titus</title>
                 </msItem>
                 <msItem n="14" xml:id="b13">
                   <locus from="120b" to="122">Foll. 120b-122</locus>
-                  <title ref="http://syriaca.org/work/89" type="supplied">The Epistle of Philemon, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/89" type="supplied">The Epistle of Philemon</title>
                   <note></note>
                 </msItem>
                 <msItem n="15" xml:id="b14" defective="true">
                   <locus from="122" to="142">Foll. 122-142</locus>
-                  <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews, according to the Peshitta version</title>
+                  <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews</title>
                 </msItem>  
-                <colophon>
-                  <ref target="#addition1">See below.
-                  </ref>
-                </colophon>
-                <note>The margins contain many annotations, chiefly indicating the passages of Scripture cited by the Apostle, but also referring occasionally to other matters. The following may serve as specimens:</note>
-                <note><ref target="#b2"/><p><locus from="39a"/>1 Corinth, ix. 5, marg. <quote xml:lang="syr"> ܒ̈ܢܝ ܝܘܣܦ. ܝܥܩܘܒ ܪܝܫܐ ܕܐܦܣ̈ܩܦܐ . ܒ. ܝܘܣܐ .ܓ . ܣܝܡܘܢ. ܕ . ܝܗܘܕܐ.</quote></p></note>
-                <note><ref target="#b2"/><p><locus from="52a"/>1 Corinth, xv. 32, marg. <quote xml:lang="syr">ܡܬܠܐ ܕܥܡܐ ܕܠܩܕܡ̈ܘܢܝܐ. ܥܗܝܕ ܠܗ ܕܝܢ ܐܦ ܐܫܥܝܐ.</quote>1 Corinth, xv. 33, marg. <quote xml:lang="syr"> ܪܥܝܢܐ ܕܡܢܢܕܪܘܣ ܩܘܡܝܩܘܣ ܒܬܐܝܣ.</quote></p></note>
-                <note><ref target="b3"/><p><locus from="65b"/>2 Corinth, xi. 32, marg. <quote xml:lang="syr">ܗܢܐ ܐܪܛܘܣ܆  ܚܡܘܗܝ ܗܘܐ ܕܗܪܘܕܣ.</quote></p></note>
-                <note><ref target="b4"/><p><locus from="72b"/>Galat. iii. 17, marg <quote xml:lang="syr"> ܕܐܒܪܗܡ ܡܢ ܫܢܬ ܥܗ ܥܕܡܐ ܠܫܢܬ ܩ܆ ܫܢ̈ܝܐ ܟܗ. ܕܐܝܣܚܩ ܫ̈ܢܝܐ̣. ܣ . ܕܝܥܩܘܒ܆ ܫܢ̈ܝܐ̣ ܨܐ. ܕܝܘܣܦ܆ ܫܢ̈ܝܐ̣ ܩܝ . ܒܡܨܪܝ̣ܢ. ܫܢ̈ܝܐ̇ ܩܕܡܕ . ܐܟܚܕܐ̣ . ܫܢ̈ܝܐ ܐܪ̈ܒܥܡܐܐ̣ ܠ.</quote></p></note>
-                <note><ref target="b4"/><p><locus from="77a"/>Galat. vi. 14, marg <quote xml:lang="syr">ܡܢ ܟܬܒܐ ܕܠܐ ܝܕܝܥ.</quote></p></note>
-                <note><ref target="b5"/><p><locus from="83b"/>Ephes. v. 14, marg <quote xml:lang="syr">ܡܢ ܢܒܝܘܬܗ</quote></p></note>
-                <note><ref target="b11"/><p><locus from="116b"/>2 Timothy iv. 13, marg. <quote xml:lang="syr">ܠܟܪܟܐ ܝܗܘܕܐ ܕܢܡܘܣܐ ܐܡ̇ܪ.</quote></p></note>
-                <note><ref target="b12"/><p><locus from="118b"/>Titus, i. 12, marg. <quote xml:lang="syr">ܩ̣ܨܡܐ ܕܐܦܝܩܪܘܣ ܩܨ̇ܘܡܐ ܕܡܢ ܩܪܛܐ.</quote></p></note>
-                <note>The lessons are indicated on the margins in the same handwriting as the notes</note>
+                <finalRubric xml:lang="syr"><locus from="142b" to="142b"/>
+                   ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܐܪܒܥܣܪܐ ܕܦܘܠܘܣ ܫܠܝܚܐ ܛܘܒܢܐ .ܘ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ.
+                </finalRubric>
+                <note>The margins contain many annotations, chiefly indicating the passages of Scripture cited by the Apostle, but also referring occasionally to other matters. The following may serve as specimens:
+                <p><ref target="#b2"/><locus from="39a"/>1 Corinth, ix. 5, marg. <quote xml:lang="syr"> ܒ̈ܢܝ ܝܘܣܦ. ܝܥܩܘܒ ܪܝܫܐ ܕܐܦܣ̈ܩܦܐ . ܒ. ܝܘܣܐ .ܓ . ܣܝܡܘܢ. ܕ . ܝܗܘܕܐ.</quote></p>
+                <p><ref target="#b2"/><locus from="52a"/>1 Corinth, xv. 32, marg. <quote xml:lang="syr">ܡܬܠܐ ܕܥܡܐ ܕܠܩܕܡ̈ܘܢܝܐ. ܥܗܝܕ ܠܗ ܕܝܢ ܐܦ ܐܫܥܝܐ.</quote>1 Corinth, xv. 33, marg. <quote xml:lang="syr"> ܪܥܝܢܐ ܕܡܢܢܕܪܘܣ ܩܘܡܝܩܘܣ ܒܬܐܝܣ.</quote></p>
+                <p><ref target="#b3"/><locus from="65b"/>2 Corinth, xi. 32, marg. <quote xml:lang="syr">ܗܢܐ ܐܪܛܘܣ܆  ܚܡܘܗܝ ܗܘܐ ܕܗܪܘܕܣ.</quote></p>
+                <p><ref target="#b4"/><locus from="72b"/>Galat. iii. 17, marg <quote xml:lang="syr"> ܕܐܒܪܗܡ ܡܢ ܫܢܬ ܥܗ ܥܕܡܐ ܠܫܢܬ ܩ܆ ܫܢ̈ܝܐ ܟܗ. ܕܐܝܣܚܩ ܫ̈ܢܝܐ̣. ܣ . ܕܝܥܩܘܒ܆ ܫܢ̈ܝܐ̣ ܨܐ. ܕܝܘܣܦ܆ ܫܢ̈ܝܐ̣ ܩܝ . ܒܡܨܪܝ̣ܢ. ܫܢ̈ܝܐ̇ ܩܕܡܕ . ܐܟܚܕܐ̣ . ܫܢ̈ܝܐ ܐܪ̈ܒܥܡܐܐ̣ ܠ.</quote></p>
+                <p><ref target="#b4"/><locus from="77a"/>Galat. vi. 14, marg <quote xml:lang="syr">ܡܢ ܟܬܒܐ ܕܠܐ ܝܕܝܥ.</quote></p>
+                <p><ref target="#b5"/><locus from="83b"/>Ephes. v. 14, marg <quote xml:lang="syr">ܡܢ ܢܒܝܘܬܗ</quote></p>
+                <p><ref target="#b11"/><locus from="116b"/>2 Timothy iv. 13, marg. <quote xml:lang="syr">ܠܟܪܟܐ ܝܗܘܕܐ ܕܢܡܘܣܐ ܐܡ̇ܪ.</quote></p>
+                <p><ref target="#b12"/><locus from="118b"/>Titus, i. 12, marg. <quote xml:lang="syr">ܩ̣ܨܡܐ ܕܐܦܝܩܪܘܣ ܩܨ̇ܘܡܐ ܕܡܢ ܩܪܛܐ.</quote></p></note>
+                <note>The lessons are indicated on the margins in the same handwriting as the notes.</note>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="perg">
+                <supportDesc material="mixed">
                   <support>
                     <material>Vellum</material>
+                    <material>Paper</material>
                   </support>
                   <extent>
                     <measure type="composition" unit="leaf" quantity="143">143 ff.</measure>
@@ -191,6 +191,9 @@
                       <item>
                         <p>Leaves are wanting after foll. <locus>52</locus>, <locus>53</locus>, <locus>55</locus>, <locus>56</locus>, and <locus>94</locus>.</p>
                       </item>
+                      <item>
+                        <p><ref target="#addition1">See additions.</ref></p>
+                      </item>
                     </list>
                   </condition>
                 </supportDesc>
@@ -202,7 +205,7 @@
               </objectDesc>
               <handDesc hands="6">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript, is written in a beautiful, regular Estrangela, and dated <origDate when-custom="0933" datingMethod="Seleucid">A. Gr. 933</origDate>, <origDate when-custom="0622" datingMethod="Gregorian">A.D. 622</origDate>; but foll. <locus>1</locus>, <locus>2</locus>, <locus>20</locus>, and <locus>21</locus> are paper leaves of the <date from="1200" to="1300">xiiith cent</date></desc>
+                  <desc>This manuscript, is written in a beautiful, regular Estrangela, and dated <origDate when-custom="0933" datingMethod="Seleucid">A. Gr. 933</origDate>, <origDate when-custom="0622" datingMethod="Gregorian">A.D. 622</origDate>.</desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="major" script="syr-Syrj" medium="unknown">
                   <desc>Greek vowels have been occasionally added (ܰ, ܶ, ܺ, ܳ, , orܽ ).</desc>
@@ -224,9 +227,7 @@
               <additions>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="142b" to="142b"/>
-                    <p>Colphon:</p>
-                    <p><quote xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܐܪܒܥܣܪܐ ܕܦܘܠܘܣ ܫܠܝܚܐ ܛܘܒܢܐ .ܘ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ.</quote></p>
+                    <p>Foll. <locus>1</locus>, <locus>2</locus>, <locus>20</locus>, and <locus>21</locus> are paper leaves of the <date from="1200" to="1300">xiiith cent</date>.</p>
                   </item>
                   <item n="2" xml:id="addition2">
                     <p>Some lessons are indicated in the margins with a later hand.</p>
@@ -263,8 +264,8 @@
               </physDesc>
             <history>
               <origin>
-                <origDate when-custom="0933" datingMethod="Seleucid">year of the Greeks 933</origDate>
-                <origDate when-custom="0622" datingMethod="Gregorian">A.D. 622</origDate>
+                <origDate when-custom="0933" datingMethod="Seleucid">A. Gr. 933</origDate>
+                <origDate when-custom="0622" datingMethod="Gregorian">A. D. 622</origDate>
               </origin>
               <provenance>
                 <p><ref target="#addition4">See additions.</ref></p>
@@ -389,6 +390,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-03" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2014-02-14" who="http://syriaca.org/editors.xml#thannah">Initial edit: correcting material encoding, added link to additions from condition, added @defective notation to msItems</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
