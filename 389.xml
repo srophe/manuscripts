@@ -526,7 +526,7 @@
                     <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="3"/>
+                    <measure type="composition" unit="leaf" quantity="3">3 ff.</measure>
                     <dimensions type="leaf" unit="in">
                       <height>
                         <measure type="height" quantity="13.25" unit="in">13 1/4</measure>
@@ -634,6 +634,105 @@
               </listBibl>
             </additional>
           </msPart>
+          <msPart n="4" xml:id="Part4">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/393</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14635 foll. 19-20</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">549</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DXLIX</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p4a1" defective="true">
+                <locus from="19" to="20">Foll. 19-20</locus>
+                <author ref="http://syriaca.org/person/376">Basil of Caesarea</author>
+                <title ref="" type="supplied">Part of the second book of the treatise of Basil against <persName>Eunomius</persName></title>
+                <note>See <bibl>Opera (Paris, 1839), t. i., p. 353, line 2</bibl>, <foreign xml:lang="grc">τῆς ἀρχῆς ταύτης• Οὖ γὰρ τὴν ἀπὸ χρόνου ὕπαρξιν τὸ ἦν ὐποφαίνει, κ.τ.λ.</foreign>, as far as <bibl>p. 357, line 38</bibl>, <foreign xml:lang="grc">Ως γὰρ ἐκεῖ ἀνόητον τὸ ἐρώτημα, ἐπὶ τοῦ ἀνάρχου καὶ ἀγεννήτου ζητεῖν τὸ ἀνώτερον</foreign>; and <bibl>p. 367, line 23</bibl>, <foreign xml:lang="grc">τοῦ κατὰ φύσιν Τιοῦ, κ.τ.λ.</foreign>, as far as <bibl>page 372, line 3</bibl>, <foreign xml:lang="grc">τὸ σκότος πάντως• Εἰ τοίνυν ὄσον</foreign>.</note>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="2">2 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="13.25" unit="in">13 1/4</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="10" unit="in">10</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Both of the leaves are much torn.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2" writtenLines="45 48">
+                    <p>Each page is divided into two columns, of from 45 to 48 lines.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p4handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing is good and regular, of the <origDate notBefore="0700" notAfter="0900" calendar="Gregorian">viiith or ixth cent.</origDate></desc>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0700" notAfter="0900" calendar="Gregorian">viiith or ixth cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart4">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart4">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DXLIX</citedRange>
+                  <citedRange unit="pp">II:419</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
         </msDesc>
       </sourceDesc>
     </fileDesc>
@@ -734,6 +833,10 @@
           </item>
           <item>
             <ref target="#Part3"/>
+            <ref target="#theology"/>
+          </item>
+          <item>
+            <ref target="#Part4"/>
             <ref target="#theology"/>
           </item>
         </list>
