@@ -206,98 +206,153 @@
                   <locus from="1b" to="20">Foll. 1b-20</locus>
                   <author ref="http://syriaca.org/person/376"/>
                   <title ref="" type="supplied">On Deuteron. xv. 9</title>
-                  <rubric xml:lang="syr">[ܡـ]ـܐܡܪܐ ܕܡܪܝ ܒܣܝܠܝܣ ܐܦܣܩܘܦܐ [ܕ]ܐܬܡܠܠ ܥܠ ܦܬ̈ܓܡܐ ܕܡܢ ܬܢܝܢ ܢܡܘܣܐ ܕܐܡܝܪ ܕܐܙܕܗܪ ܕܠܡܐ ܢܗܘܐ ܦܬܓܡܐ ܕܥܘܠܐ  , ,  ܒܠܒܟ ܠܡܚܙܐ ܢܦܫܟ ܘܠܡܬܒܝܢܘ ܒܩܢܘܡܟ</rubric> <!-- Oxygen will not allow me to wrap <supplied> for an unknown reason -->
+                  <rubric xml:lang="syr">[ܡـ]ـܐܡܪܐ ܕܡܪܝ ܒܣܝܠܝܣ ܐܦܣܩܘܦܐ [ܕ]ܐܬܡܠܠ ܥܠ ܦܬ̈ܓܡܐ ܕܡܢ ܬܢܝܢ ܢܡܘܣܐ ܕܐܡܝܪ ܕܐܙܕܗܪ ܕܠܡܐ ܢܗܘܐ ܦܬܓܡܐ ܕܥܘܠܐ  , ,  ܒܠܒܟ ܠܡܚܙܐ ܢܦܫܟ ܘܠܡܬܒܝܢܘ ܒܩܢܘܡܟ<locus from="1b"/></rubric> <!-- oXygen will not allow me to wrap <supplied> for an unknown reason -->
+                  <rubric xml:lang="syr">ܥܠ ܕܐܬܒܩܐ ܒܩܢܘܡܟ<locus from="1b"/></rubric>
+                  <note>It is imperfect, a leaf being lost after fol. <locus from="7">7</locus>, which contained from <bibl>p. 27, A, of the Greek text, to p. 28, B</bibl>.</note>
+                  <listBibl>
+                    <bibl>Opera (Paris, 1839), t. ii. p. 22</bibl>
+                    <bibl>Migne, Patrol. Gr., t. xxxi., col. 197</bibl>
+                  </listBibl>
                 </msItem>
-              </msItem>
-              <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+                <msItem n="3" xml:id="p2b2">
+                  <locus from="20a" to="36">Foll. 20a-36</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">On Baptism</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܡܥܡܘܕܝܬܐ<locus from="20a"/></rubric>
+                  <listBibl>
+                    <bibl>Opera, t. ii. p. 158</bibl>
+                    <bibl>Migne, t. xxxi., col. 423</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="4" xml:id="p2b3">
+                  <locus from="36b" to="50">Foll. 36b-50</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">On the Study of the writings of the <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">Greek</supplied> Philosophers</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܥܠ ܬܩ̈ܢܬܐ ܕܦܝܠܣ̈ܦܐ<locus from="36b"/></rubric>
+                  <listBibl>
+                    <bibl>Opera, t. ii., p. 243 <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><title>ad Adolescentes</title>, etc.</supplied></bibl>
+                    <bibl>Migne, t. xxxi., col. 563</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="5" xml:id="p2b4" defective="true">
+                  <locus from="50b" to="107a">Foll. 50b-107a</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">On the Holy Spirit</title>
+                  <rubric xml:lang="syr">ܠܘܩܒܠ ܐܝܠܝܢ ܕܡܒܨܪܝܢ ܬܫܡܫܬܗ ܕܒܪܐ ܕܐܠܗܐ ܡܢ ܕܐܒܘܗܝ ܘܡܬܚܬܝܢ ܠܪܘܚܐ ܕܩܘܕܫܐ ܠܫܘܥܒܕܐ.<locus from="50b"/></rubric>
+                  <finalRubric xml:lang="syr">ܫܠܡ ܡܐܡܪܐ ܕܥܠ ܫܘܡܠܝܐ ܕܬܠܝܬܝܘܬܐ ܕܚܕ ܟܝܢܐ ܕܚܕܐ ܬܫܒܘܚܬܐ ܕܚܕ ܨܒܝܢܐ ܒܩ̈ܢܘܡܐ ܬܠܬܐ.<locus from="107a"/></finalRubric>
+                  <note>It is imperfect, as two quires are wanting after fol. <locus from="87">87</locus>, which contained from <bibl>p. 40, D, to p. 61, E</bibl>; and another after fol. <locus from="97">97</locus>, containing from <bibl>p. 74, E, to p. 85, B, of the Paris edition</bibl>.</note>
+                  <listBibl>
+                    <bibl>Opera, t. iii., p. 1</bibl>
+                    <bibl>Migne, t. xxxii., col. 67</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="6" xml:id="p2b5">
+                  <locus from="107b" to="116">Foll. 107b-116</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">The first homily on Lent</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܨܘܡܐ<locus from="107b"/></rubric>
+                  <listBibl>
+                    <bibl>Opera, t. ii., p. 1</bibl>
+                    <bibl>Migne, t. xxxi., col. 163</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="7" xml:id="p2b6">
+                  <locus from="116b" to="127">Foll. 116b-127</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">On Anger and Wrath</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܚܡܬܐ ܘܪܘܓܙܐ<locus from="116b"/></rubric>
+                  <listBibl>
+                    <bibl>Opera, t. ii., p. 116</bibl>
+                    <bibl>Migne, t. xxxi., col. 353</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="8" xml:id="p2b7">
+                  <locus from="127b" to="134">Foll. 127b-134</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">The first homily on Faith</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܗܝܡܢܘܬܐ<locus from="127b"/></rubric>
+                  <listBibl>
+                    <bibl>Opera, t. ii., p. 182</bibl>
+                    <bibl>Migne, t. xxxi., col. 463</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="9" xml:id="p2b8">
+                  <locus from="134a" to="141">Foll. 134a-141</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">The second homily on Faith</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܥܠ ܗܝܡܢܘܬܐ<locus from="134a"/></rubric>
+                  <listBibl>
+                    <bibl>Opera, t. ii., p. 867</bibl>
+                    <bibl>Migne, t. xxxi., col. 1487</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="10" xml:id="p2b9" defective="true">
+                  <locus from="141a" to="147">Foll. 141a-147</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">Homily on Psalm I</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܥܠ ܬܠܬܐ ܦܬ̈ܓܡܝܢ ܩܕܡܝܐ ܕܛܘܒܘܗܝ ܠܓܒܪܐ ܕܒܐܘܪܚܐ ܕܥܘ̈ܠܐ ܠܐ ܗܠܟ<locus from="141a"/></rubric>
+                  <note>It is imperfect, ending at <bibl>p. 133, A, of the Paris edition</bibl>.</note>
+                  <listBibl>
+                    <bibl>Opera, t. i., p. 127</bibl>
+                    <bibl>Migne, t. xxix., col. 209</bibl>
+                  </listBibl>
+                </msItem>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="1">146 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="9.875" unit="in">9 7/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="6.25" unit="in">6 1/4</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
+                  <foliation/>
                   <collation>
-                    <p/>
+                    <p>The quires, now signed with letters, are 15 in number.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>A few of the leaves are slightly stained and torn.</p>
+                      </item>
+                      <item>
+                        <p>A leaf is wanting after fol. <locus from="7">7</locus>; two quires after fol. <locus from="87">87</locus>; another quire after fol. <locus from="97">97</locus>; and at least one quire at the end of the volume.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="2" writtenLines="30 38">
+                    <p>Each page is divided into two columns, of from 30 to 38 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc></desc>
+              <handDesc hands="1">
+                <handNote xml:id="p2handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a neat, regular Estrangela of the <origDate notBefore="0500" notAfter="0600" calendar="Gregorian">vith cent</origDate>. </desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc></desc>
-                </decoNote>
-              </decoDesc>
-              <additions>
-                <p/>
-                <list>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                </list>
-              </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace></origPlace>
+                <origDate notBefore="0500" notAfter="0600" calendar="Gregorian">vith cent</origDate>
+                <origPlace/>
               </origin>
               <provenance/>
               <acquisition/>
@@ -308,22 +363,18 @@
                   <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart2"><!-- In this manuscript part the references and the xml:id reflect that a different cited range of Wright is of concern than in Part 1 -->
+                <bibl xml:id="Wrightpart2">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                  <citedRange unit="entry">DL</citedRange>
+                  <citedRange unit="pp">II:419-420</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -420,41 +471,27 @@
         <list>
           <item>
             <ref target="#Part1"/>  
-            <ref target=""/>       
+            <ref target="#hymns"/>       
           </item>
           <item>
             <ref target="#Part2"/>  
-            <ref target=""/>       
-          </item><!-- Repeat <item> block as necessary -->
+            <ref target="#theology"/>       
+          </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
+      <change when="2014-02-17" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
+      <change type="planned" subtype="uri"><ref target="#Part1">msPart1</ref> needs URI.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <!-- facsimile information about the manuscript -->
     <graphic/>
-    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-      elements to give coordinates for any special areas of interest -->
   </facsimile>
   <text>
     <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
       <p/>
     </body>
   </text>
