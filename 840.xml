@@ -92,111 +92,130 @@
                   <title ref="" type="supplied">In principium Proverbiorum</title>
                   <rubric xml:lang="syr">ܥܠ ܫܘܪܝ ܡܬ̈ܠܘܗܝ ܕܫܠܝܡܘܢ<locus from="1b"/></rubric>
                   <incipit xml:lang="syr"> ܪܒ ܗܘ ܐܓܪܐ ܕܡܢ ܐܠܗܐ ܡܬܝܗܒ ܠܐܝܠܝܢ ܕܠܦܝܣܐ ܕܫܦܝܪ̈ܬܐ ܡܫܬܡܥܝܢ̇ ܘܥܠ ܡܕܡ ܕܡܬܐܡܪ ܠܗܘܢ ܡܬܛܦܝܣܝܢ ܡܛܠ ܥܘܕܪܢܐ ܕܓܘܢܐ. ܢܫܬܡܥ ܗܫܐ ܐܦ ܚܢܢ ܠܐܒܐ ܒܣܝܡܐ ܕܡܓܪܓ ܠܢ̇. ܕܢܕܥ ܟܡܐ ܗܘ ܕܘܪܫܢ ܒܡܠܬܐ ܡܥܕܪܢܝܬܐ ܕܐܠܗܐ<locus from="1b"/></incipit>
-                  <note></note>
+                  <explicit xml:lang="syr">ܘܐܝܟ ܡܐ ܕܡܥܝܪ ܡܫܒܐ ܕܪ̈ܘܚܐ ܓ̈ܠܠܝ ܝܡܐ ܥܠ ܫܠܝܗ</explicit>
+                  <note>The ending corresponds with the passage <foreign xml:lang="grc">οὐκ ἀεὶ κατὰ πρύμναν ἰσταμένου τοῦ πνεύματος• κ.τ.λ.</foreign>, <bibl>p. 155, line 21, of the Paris edition</bibl>. There is also a lacuna after fol. <locus from="9">9</locus>, extending from <bibl>p. 143, line 12</bibl>, <foreign xml:lang="grc">'Επεὶ οὖν πολλοὶ κ.τ.λ.</foreign>, to <bibl>p. 148, line 30</bibl>, <foreign xml:lang="grc">'Επεὶ οὖν, κατ' αὐτὸν τὸν Σολομῶντα, κ.τ.λ.</foreign></note>
                   <listBibl>
-                    <bibl></bibl>
-                    <bibl></bibl>
+                    <bibl>Opera (Paris, 1839), t. ii., p. 136</bibl>
+                    <bibl>Migne, t. xxxi., col. 385</bibl>
                   </listBibl>
                 </msItem>
-                <msItem></msItem>
-                <msItem></msItem>
+                <msItem n="3" xml:id="b2" defective="unknown">
+                  <locus from="20a" to="21">Foll. 20a-21</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">On sporting with women</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܫܥܝܐ ܕܢܫܐ<locus from="20a"/></rubric>
+                  <incipit xml:lang="syr">ܗܘܐ. ܡܕܝܢ ܐܝܟ ܕܡܢ ܡܠܬܗ ܕܡܪܢ ܚܝ̈ܒܝ ܡܘܬܐ ܐܢܘܢ ܕܚܙܬܗܘܢ ܕܘܟܬ ܓܘܪܐ ܡܠܝܬ ܒܪܓܬܗܘܢ ܕܫܠܡ ܠܗ̇ ܨܒܝܢܗܘܢ <locus from="20a"/></incipit>
+                  <note>This is a fragment from the end of the homily <title ref="" type="supplied" xml:lang="la"><quote>in Ebriosos</quote></title>; the beginning corresponds with <bibl>p. 181, line 16, of the Paris edition</bibl>, <foreign xml:lang="grc">Οὐκοῦν ὐπόδικοί εἰσι κατὰ τὴν ἀπαραίτητον ἀπόφασιν τοῦ Κυρίου, τῷ κρίματι τῆς μοιχείας</foreign>.</note>
+                  <listBibl>
+                    <bibl>Opera, t. ii. p. 171</bibl>
+                    <bibl>Migne, t. xxxi., col. 443</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="4" xml:id="b3">
+                  <locus from="21b" to="43b">Foll. 21b-43b</locus>
+                  <author ref="http://syriaca.org/person/376"/>
+                  <title ref="" type="supplied">On Usury</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܪܒܝܬܐ ܕܡܪܝ ܒܣܝܠܝܣ<locus from="21b"/></rubric>
+                  <incipit xml:lang="syr">ܐܬܡܠܝ ܥܠ ܡܙܡܘܪܐ ܕܚܡܫܬܥܣܪ ܡܠܬܐ ܕܓܘܐ ܡܢܗ ܠܥܘܕܪܢܐ ܕܟܠܢ ܪܡܝܐ ܗܘܬ. ܡܦܩܢܐ ܕܝܢ ܠܫܘܠܡܗ ܕܡܙܡܘܪܐ ܠܐ ܗܘܐ ܡܢ ܡܠܬܢ. ܕܫܥܬܐ ܒܙܥܘܪܘܬܗܲ ܠܐ ܝܗܒܬ ܠܢ ܕܢܦܩܝܗ̇ ܠܬܫܥܝܬܗ. ܝܘܡܢܐ ܕܝܢ ܐܬܝܢܢ ܐܝܟ ܚܝ̈ܒܐ ܒܨܒܝܢܐ ܛܒܐ ܕܢܦܪܘܥܟܘܢ ܫܪܟܢܐ ܕܐܬܐ ܡܢ ܚܘܒܬܐܢ. ܏ܘܫ.<locus from="21b"/></incipit>
+                  <listBibl>
+                    <bibl>Opera, t. i. p. 151, <title ref="" type="supplied"><foreign xml:lang="la">in partem Psalmi xivth, et contra foneratores</foreign></title></bibl>
+                    <bibl>Migne, t. xxix., col. 263</bibl>
+                  </listBibl>
+                </msItem>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
-                <supportDesc material=""><!-- @material can be "chart" (paper), "mixed", "perg" (parchment/vellum), or "unknown" -->
+              <objectDesc form="codex">
+                <supportDesc material="perg">
                   <support>
-                    <material><!-- Use Wright's vocabulary for material here --></material>
+                    <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""><!-- Enter the number of folia here (followed by "f." if a single folio and by "ff." if more than one folia) and in @quantity (e.g., ...quantity="25"> 25 ff. </measure>) --></measure>
-                    <dimensions type="" unit="in">
-                      <!-- @type can be "binding", "boxed", "leaf", "line-height", "slip", "unknown" or "written". Will usually be "leaf". -->
-                      <!-- @unit can be "chars", "cm", "in", "lines" or "mm". Will usually be "in". -->
+                    <measure type="composition" unit="leaf" quantity="43">43 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="height" quantity="9.125" unit="in">9 1/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="width" quantity="5.875" unit="in">5 7/8</measure>
                       </width>
                     </dimensions>
-                    <!-- Repeat the <dimensions> block as needed to record all types of measurements that Wright supplies
-                      e.g., <dimensions type="written" unit="in">
-                      <height></height>
-                      <width></width>
-                    </dimensions>, etc. -->
                   </extent>
-                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
+                  <foliation/>
                   <collation>
-                    <p><!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.--></p>
+                    <p>The quires, signed with letters, were originally at least 8 in number.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any  persons, places, foreign words, etc. as necessary. Tagging loci is necessary, but adding @from and @to is optional. --></p>
-                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
+                        <p>Some of the leaves are much stained and torn, especially foll. <locus from="1" to="4">1—4</locus>, <locus from="9">9</locus>, and <locus from="30">30</locus>. </p>
+                      </item>
+                      <item>
+                        <p>Of the quires <foreign xml:lang="syr">ܕ</foreign> and <foreign xml:lang="syr">ܗ</foreign> are missing, <foreign xml:lang="syr">ܒ</foreign>,<foreign xml:lang="syr">ܓ</foreign>, and <foreign xml:lang="syr">ܚ</foreign> are imperfect; so that there are lacunae after foll. <locus from="9">9</locus> and <locus from="19">19</locus>.</p>
+                      </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines=""><!-- @writtenLines should not contain anything but numbers and whitespaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
-                    <locus from="" to=""/><!-- Only use locus if there is more than one layout in the MS, eg if the number of columns changes half of the way through -->
-                    <p><!-- Include Wright's prose here --></p>
-                  </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
+                  <layout columns="1" writtenLines="25 29">
+                    <p>The number of lines in each page varies from 25 to 29.</p>
+                  </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands=""><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
-                <handNote xml:id="handNote1" scope="" script="" medium=""><!-- @xml:id should be sequentially assigned as "handNote1", "handNote2", and so on. -->
-                  <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                  <!-- @script please use the ISO code combinations cited here: ___ -->
-                  <!-- @medium may contain any phrasing Wright may mention (using hyphens between words, not white space), or "unknown" if he does not -->
-                  <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
-                </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
+              <handDesc hands="5">
+                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>This manuscript is written in a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0600" calendar="Gregorian">vith cent</origDate>.</desc>
+                </handNote>
+                <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition1">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition2">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition3">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="handNote5" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition4">See additions.</ref></desc>
+                </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "decoNote1", "decoNote2", etc. -->
-                  <!-- There are many valid entries for @type. See manual for a complete list. -->
-                  <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
-                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
-              </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+              <decoDesc/>
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <p/>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="" to=""/><!-- locus may be deleted if addition applies throughout entire document. Does NOT need to be human-readable -->
-                    <p></p><!-- Enter English prose here -->
-                    <p><quote xml:lang="syr"><!-- Enter the Syriac quote here if applicable --></quote></p>
-                  </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                    <locus from="43b"/>
+                    <p>At the foot of fol. 43b, but in a different hand, we read the rubric:</p>
+                    <p><quote xml:lang="syr"> ܬܘܒ ܒ̈ܬܐ ܕܣܘ̈ܓܝܬܐ ܕܩܕܝܫܐ ܡܪܝ ܝܥ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܩܘܒ</supplied> ܡܠܦܢܐ ܒܩܠܐ ܕܦܪܕܝܣܐ</quote></p>
+                    <p>This sūgīthā of <persName ref="">Jacob of <placeName>Batnae</placeName></persName> has been lost.</p>
+                  </item>
                   <item n="2" xml:id="addition2">
-                    <locus from="" to=""/>
-                    <p></p>
-                    <p><quote xml:lang="syr"></quote></p>
+                    <locus from="2a"/>
+                    <p>From the marginal note on fol. 2a we learn that the volume also once contained extracts from <title ref="" type="supplied">the Fathers</title>, and a discourse of <persName ref="http://syriaca.org/person/13">Ephraim</persName> <title ref="" type="supplied">on the Dead</title>:</p>
+                    <p><quote xml:lang="syr">ܡܐܡܪܐ ܥܠ ܪܒܝܬܐ ـ ܘܕܐܒ̈ܗܬܐ ـ ܘܡܐܡܪܐ ܕܡܪܝ ܐܦܪܝܡ ܥܠ ܥܢܝ̣̈ܕܐ.</quote></p>
+                  </item>
+                  <item n="3" xml:id="addition3">
+                    <locus from="1a"/>
+                    <p>On fol. 1a are written, in a hand of the <date notBefore="0800" notAfter="1000" calendar="Gregorian">ixth or xth cent.</date>, rules for finding the <foreign xml:lang="syr">ܫܬܐܣܬܐ ܕܣܗܪܐ</foreign>, <quote><foreign xml:lang="la">fundamentum lunae</foreign></quote> or golden number.</p>
+                  </item>
+                  <item n="4" xml:id="addition4">
+                    <locus from="1a"/>
+                    <p>At the foot of the same page stands a note, in which the name of <persName>Peter of <placeName>Hisn Kīfā</placeName></persName>, the nephew of <persName>John of <placeName>Hisn Kīfā</placeName></persName>, has been substituted for that of a former possessor, who intended to leave it to a neighbouring church. The words that underlie <foreign xml:lang="syr">ܕܝܘܚܢܢ ܚܣܢܝܐ</foreign> are <foreign xml:lang="syr">ܟܘܪܐ ܕܐܘܪܗܝ</foreign> <quote>district of <placeName>Edessa</placeName></quote>.</p>
+                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܐ ܗܢܐ̣ ܏ܕܦܛܪܘܣ ܏ܚܛܝܐ . . . ܚ܏ܣܢܝܐ ܏ܒܪ ܏ܚܬܗ ܏ܕܝܘܚܢܢ ܏ܚܣܢܝܐ ܏ܕܩܢܝܗܝ ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ ܘ܏ܡܢ ܏ܕܝܠܗ. ܠܐܢܫ ܕܝܢ ܠܝܬ ܠܗ ܫܘܠܛܢܐ ܡܢ ܐܠܗܐ ܕܢܫܓܢܝܘܗܝ ܡܢ ܡܪܗ ܕܐܡܝܪ ܒܚܕ ܡܢ ܙܢܝ̈ܢ ܠܐ ܐܢ ܐܝܬܘܗܝ ܟܪܣܛܝܢܐ ܘܠܐ ܐܢ ܚܢܦܐ. ܡܛܠ ܕܒܬܪ ܡܘܬܝ ܕܥܕܬܐ ܗܝ ܕܩܪܝܒ ܐܢܐ ܠܗ̇ ܢܗܘܐ̣ ܘܕܟܠ ܕܒܥܐ ܫ̈ܟܚܬܐ ܕܝܘܬܪܢܐ ܐܘܟܝܬ ܦܘܪܩܢܐ ܕܢܦܫܗ. ܗܘ̇ ܕܝܢ ܕܡܡܪܚ ܘܥܒܪ ܥܠ ܗܕܐ ܪܘܓܙܗ [ܕܡܪ]ܝܐ ܢܩܘܐ ܥܠܘܗܝ.</quote></p>
                   </item>
                 </list>
-              </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
-              <bindingDesc>
-                <binding xml:id="binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
-                <decoNote xml:id="bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
-                <condition/><!-- Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. -->
-              </bindingDesc><!-- IF <bindingDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <sealDesc>
-                <seal xml:id="seal1" contemporary="">
-                  <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-                </seal><!-- <seal> block may be repeated as necessary for each seal. -->
-              </sealDesc><!-- IF <sealDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <accMat><!-- Use this for any mention of closely-related accompanying material (documents, artifacts, letters) which are associated with the <msPart> -->
-                <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-              </accMat><!-- IF <accMat> IS NOT USED, delete nested elements and make it an empty element.-->
+              </additions>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMa/>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="" notAfter=""><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origPlace><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
+                <origDate notBefore="0500" notAfter="0600" calendar="Gregorian">vith cent</origDate>
+                <origPlace/>
               </origin>
-              <provenance>
-                <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
-              </provenance><!-- IF <provenance> IS NOT USED, delete nested elements and make it an empty element.-->
-              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
+              <provenance/>
+              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -204,11 +223,7 @@
                   <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
-                  <custEvent type="">
-                    <p/>
-                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
-                </custodialHist><!-- IF <custodialHist> IS NOT USED, delete nested elements and make it an empty element.-->
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
@@ -218,8 +233,8 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                  <citedRange unit="entry">DLI</citedRange>
+                  <citedRange unit="pp">II:420-421</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -314,37 +329,23 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target=""/>       
+            <ref target="#theology"/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
+      <change when="2014-02-19" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
+      <change type="planned" subtype="uri">Needs Addition of person URIs.<ref target="#addition1"/></change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <!-- facsimile information about the manuscript -->
     <graphic/>
-    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-      elements to give coordinates for any special areas of interest -->
   </facsimile>
   <text>
     <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
       <p/>
     </body>
   </text>
