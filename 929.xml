@@ -1961,8 +1961,10 @@
   </facsimile>
   <text>
     <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
-      <p/>
+<pb/>
+<head>title here</head>
+      <div n=1><p>Text <gap extent="unknown" unit="unknown" reason="not supplied">...</gap>here</p>
+</div>
     </body>
   </text>
 </TEI>
