@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -125,7 +125,7 @@
                           <p>It is imperfect at the beginning and end, and there are considerable lacunae after foll. <locus from="5" to="5">5</locus> and <locus from="7" to="7">7</locus>.</p>
                        </item>
                        <item>
-                          <p>Other fragments of it exist as palimpsest leaves in <bibl>Add. 14,665, foll. 21— 24<ptr target="http://syriaca.org/manuscript/441"/></bibl>, and <bibl>Add. 17,137, foll. 6—11<ptr target="http://syriaca.org/manuscript/766"/></bibl>.</p>
+                          <p>Other fragments of it exist as palimpsest leaves in <bibl>Add. 14,665, foll. 21— 24<ptr target="http://syriaca.org/manuscript/1185"/></bibl>, and <bibl>Add. 17,137, foll. 6—11<ptr target="http://syriaca.org/manuscript/1186"/></bibl>.</p>
                        </item>
                     </list>
                   </condition>
@@ -298,7 +298,7 @@
                  <textLang mainLang="syr">Syriac</textLang>
                  <msItem n="1" xml:id="p3a1" defective="true">
                     <locus from="11b" to="11b">Fol. 11b</locus>
-                    <title ref="" type="supplied">A diagram for finding the commencement of Lent, etc., with an ex¬planation of its use, also much effaced.</title>
+                    <title ref="" type="supplied">A diagram for finding the commencement of Lent, etc., with an explanation of its use, also much effaced.</title>
                  </msItem>
               </msContents>
               <physDesc>
@@ -419,7 +419,7 @@
                     <rubric xml:lang="syr">ܡܦܩܢܗ̇ ܕܡܪܬܝ ܡܪܝܡ ܕܡܢ ܥܠܡܐ ܗܢܐ
                        <locus from="18b" to="18b"/>
                     </rubric>
-                    <colophon><ref target="#p4addition1"/>See below.</colophon>
+                   <finalRubric xml:lang="syr"><locus from="47a" to="47a"/>ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܣܦܪ̈ܐ ܫܬܐ ܕܡܦܩܢܗ̇ ܕܡܪܬܝ ܡܪܝܡ ܕܡܢ ܥܠܡܐ ܘܝܠܝܕܘܬܗ ܘܛܠܝܘܬܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ.</finalRubric>
                     <note>Of this apocryph there is another copy, among various Lives of Saints, in <bibl>Add. 14,732, fol. 2 b<ptr target="http://syriaca.org/manuscript/640"/></bibl>, with the title, <foreign xml:lang="syr">ܬܫܥܝ̣ܬܐ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ ܡ̇ܪܝܡ</foreign>. It has been edited, with an English translation and notes, in the <bibl>Journal of Sacred Literature, 4th Series, vol. vi. and vii., 1865</bibl>.</note>
                     <note>Other redactions of it may be found in <bibl>Add. 14,484, foll. 9—11 (see no. CLIX)<ptr target="http://syriaca.org/manuscript/171 #Part2"/></bibl>, and in <bibl>Add. 12,174, fol. 449 a<ptr target="http://syriaca.org/manuscript/70"/></bibl>, which is a volume of Lives of Saints.</note>
                     <note>An Arabic recension has been published by <bibl>Enger (Elberfeld, 1854), under the title of " Joannis Apostoli de Transitu Beatae Mariae Virginis Liber;"</bibl> and the corresponding Greek and Latin texts have been edited by <bibl>Tischendorf in his Apocalypses Apocryphae, p. xxxiv., etc., and p. 95, etc.</bibl></note>
@@ -463,16 +463,12 @@
                     </layoutDesc>
                  </objectDesc>
                  <handDesc hands="1">
-                    <handNote xml:id="p4handNote1" scope="" script="" medium="">
-                       <desc>This manuscript is written in a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>. <ref target="#p4addition1">See additions.</ref></desc>
+                    <handNote xml:id="p4handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                       <desc>This manuscript is written in a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>.</desc>
                     </handNote>
                  </handDesc>
                  <decoDesc/>
-                 <additions>
-                    <list>
-                       <item n="1" xml:id="p4addition1"><locus from="47a" to="47a"/><p><quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܣܦܪ̈ܐ ܫܬܐ ܕܡܦܩܢܗ̇ ܕܡܪܬܝ ܡܪܝܡ ܕܡܢ ܥܠܡܐ ܘܝܠܝܕܘܬܗ ܘܛܠܝܘܬܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ.</quote></p></item>
-                    </list>
-                 </additions>
+                 <additions/>
                  <bindingDesc/>
                  <sealDesc/>
                  <accMat/>
@@ -929,6 +925,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-25" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-02-21" who="http://syriaca.org/editors.xml#thannah">Initial edit: reassigned external references, converted colophon to finalRubric</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
   </teiHeader>

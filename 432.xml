@@ -9,7 +9,8 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
@@ -19,8 +20,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -85,27 +90,9 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
-                <locus from="1" to="17">Foll. 1-17, </locus><locus from="20" to="21">20-21</locus>
+                <locus from="1" to="17">Foll. 1-17, </locus><locus from="20" to="21">20, 21</locus>
                  <title ref="" type="supplied">Fragments of a Lectionary from the Gospels</title>
-                 <note>Similar to that contained in the <bibl>Vatican manuscript</bibl>, edited by <persName>Count Miniscalchi Erizzo</persName> (<bibl>Evangeliarium Hierosolymitanum ex Cod. Vat.. Palaestino etc., Verona, 1801—64</bibl>). See below, <ref target="#Part3">Part 3</ref>. An edition of these fragments is in the course of preparation of <persName>Dr. Land</persName>.</note>
-              </msItem>
-              <msItem n="2" xml:id="p1a2" defective="unknown">
-                <locus from="3" to="7">Foll. 3-7, </locus><locus from="9" to="17">9-17.</locus>
-                <title ref="" type="supplied">Palimpsest</title>
-                 <note>These leaves are palimpsest, with the exception of foll. <locus from="1" to="2">1, 2</locus>, <locus from="8" to="8">8</locus>, <locus from="20" to="21">20, and 21</locus>; and even of these, foll. <locus from="1a" to="2b">1 a and 2 b</locus> are disfigured by idle jottings. Of the remainder, foll. <locus from="1">1</locus>, <locus from="6" to="6">6</locus>, <locus from="10" to="10">10</locus>, and <locus from="15" to="15">15</locus>, are re-written on one side only.</note>
-                <msItem n="3" xml:id="p1b1" defective="true">
-                  <locus from="3" to="4a">Foll. 3, 4a, </locus><locus from="11a" to="15a">11a-15a, </locus><locus from="17" to="17">17.</locus>
-                   <title ref="http://syriaca.org/work/157" type="supplied">Fragments of the Gospel of S. John, according to the Harklensian version.</title>
-                </msItem>
-                 <msItem n="4" xml:id="p1b2" defective="true">
-                    <locus from="5" to="5">Foll. 5, </locus><locus from="6b" to="7">6b, 7, </locus><locus from="9" to="10a">9, 10a, </locus><locus from="16" to="16">16.</locus>
-                    <author ref="">Timotheus of <placeName ref="">Jerusalem</placeName></author>
-                    <title ref="" type="supplied">Portions of the discourse of <persName ref="">Timotheus of <placeName ref="">Jerusalem</placeName></persName> on <bibl>S. Luke, ch. 2:25—35</bibl>.</title>
-                    <rubric xml:lang="syr">ܠܫܡܝܐ ܒܐܘܪܚܐ ܕܠܐ ܬܥܫܐ. ܡܩ̇ܒܠܐ: ܟܕ ܡܦܝܣܐ ܠܗ̇ܢܘܢ ܕܨ̇ܒܝܢ ܕܢܚܙܘܢ. ܕܠܘ ܠܐܬܪ̈ܘܬܐ ܐܪ̈ܥܢܝܐ ܒܠܚܘܕ܆ ܐܠܐ ܐܦ ܠܫ̈ܡܝܢܐ ܒܨ̇ܐ ܙܕܝܩܐ. ܘܣ̇ܗܕ ܠܡܠܬܐ ܕܝܠܝ̣ ܐܠܝܐ ܙܕܝܩܐ. ܡܛܠ ܕܝܢ ܕܠܐ ܢ̇ܘܦܐ ܠܝ ܙܒܢܐ ܟܕ ܠܡ̈ܝܬܪܬܐ ܕܟܠܗܘܢ ܙܕܝ̈ܩܐ ܡ̇ܕܒܪ ܐܢܐ܆ ܐܝܬܐ ܕܠܙܕܝܩܐ ܐܚܪܝܐ ܒܡܠܬܐ ܢܚ̣ܙܐ. ܘܡ̇ܢܘ ܙܕܝܩܐ ܐܚܪܝܐ. ܏ܘܫ.
-                       <locus from="5a" to="5a"/>
-                    </rubric>
-                    <note>See <bibl>De la Bigne, Maxima Bibliotheca Vett. Patrum, t. v., pp. 1211—16</bibl>.</note>
-                 </msItem>
+                 <note>Similar to that contained in the <bibl>Vatican manuscript</bibl>, edited by <persName>Count Miniscalchi Erizzo</persName> (<bibl>Evangeliarium Hierosolymitanum ex Cod. Vat.. Palaestino etc., Verona, 1801—64</bibl>). See below, <ref target="#Part5">Part 5</ref>. An edition of these fragments is in the course of preparation of <persName>Dr. Land</persName>.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -141,13 +128,10 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="2">
-                <handNote xml:id="p1handNote1" scope="major" script="syr-Syrp" medium="unknown">
-                   <desc>The <ref target="#p1a1">original text</ref> is written in the Palestinian character and dialect, and belong apparently to the <origDate notBefore="0900" notAfter="1100">10 or 11th century</origDate>.</desc>
+              <handDesc hands="1">
+                <handNote xml:id="p1handNote1" scope="sole" script="syr-Syrp" medium="unknown">
+                   <desc>The original text is written in the Palestinian character and dialect, and belong apparently to the <origDate notBefore="0900" notAfter="1100">10 or 11th century</origDate>.</desc>
                 </handNote>
-                 <handNote xml:id="p1handNote2" scope="minor" script="syr-Syre" medium="unknown">
-                    <desc>The <ref target="#p1a2">more modern text</ref> is written in a large, coarse Estrangela of about the <date notBefore="1200" notAfter="1300">13th century</date>.</desc>
-                 </handNote>
               </handDesc>
               <decoDesc/>
               <additions/>
@@ -157,8 +141,7 @@
             </physDesc>
             <history>
               <origin>
-                 <ref target="#p1a1"><origDate notBefore="0900" notAfter="1100">10 or 11th century</origDate></ref>
-                 <ref target="#p1a2"><origDate notBefore="1200" notAfter="1300">13th century</origDate></ref>
+                 <origDate notBefore="0900" notAfter="1100">10 or 11th century</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -187,6 +170,111 @@
           </msPart>
           <msPart n="2" xml:id="Part2">
             <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/1187</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14664 foll. 3-7, 9-17</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">254</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">CCLIV</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+                <msItem n="1" xml:id="p2a1" defective="true">
+                  <locus from="3" to="4a">Foll. 3, 4a, </locus><locus from="11a" to="15a">11a-15a, </locus><locus from="17" to="17">17.</locus>
+                  <title ref="http://syriaca.org/work/157" type="supplied">Fragments of the Gospel of S. John, according to the Harklensian version.</title>
+                </msItem>
+                <msItem n="2" xml:id="p2a2" defective="true">
+                  <locus from="5" to="5">Foll. 5, </locus><locus from="6b" to="7">6b, 7, </locus><locus from="9" to="10a">9, 10a, </locus><locus from="16" to="16">16.</locus>
+                  <author ref="">Timotheus of <placeName ref="">Jerusalem</placeName></author>
+                  <title ref="" type="supplied">Portions of the discourse of <persName ref="">Timotheus of <placeName ref="">Jerusalem</placeName></persName> on <bibl>S. Luke, ch. 2:25—35</bibl>.</title>
+                  <incipit xml:lang="syr">ܠܫܡܝܐ ܒܐܘܪܚܐ ܕܠܐ ܬܥܫܐ. ܡܩ̇ܒܠܐ: ܟܕ ܡܦܝܣܐ ܠܗ̇ܢܘܢ ܕܨ̇ܒܝܢ ܕܢܚܙܘܢ. ܕܠܘ ܠܐܬܪ̈ܘܬܐ ܐܪ̈ܥܢܝܐ ܒܠܚܘܕ܆ ܐܠܐ ܐܦ ܠܫ̈ܡܝܢܐ ܒܨ̇ܐ ܙܕܝܩܐ. ܘܣ̇ܗܕ ܠܡܠܬܐ ܕܝܠܝ̣ ܐܠܝܐ ܙܕܝܩܐ. ܡܛܠ ܕܝܢ ܕܠܐ ܢ̇ܘܦܐ ܠܝ ܙܒܢܐ ܟܕ ܠܡ̈ܝܬܪܬܐ ܕܟܠܗܘܢ ܙܕܝ̈ܩܐ ܡ̇ܕܒܪ ܐܢܐ܆ ܐܝܬܐ ܕܠܙܕܝܩܐ ܐܚܪܝܐ ܒܡܠܬܐ ܢܚ̣ܙܐ. ܘܡ̇ܢܘ ܙܕܝܩܐ ܐܚܪܝܐ. ܏ܘܫ.
+                    <locus from="5a" to="5a"/>
+                  </incipit>
+                  <note>See <bibl>De la Bigne, Maxima Bibliotheca Vett. Patrum, t. v., pp. 1211—16</bibl>.</note>
+                </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="19">19 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="9.625" unit="in">9 5/8 in.</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="8" unit="in">8 in.</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>These leaves are palimpsest, with the exception of foll. <locus from="1" to="2">1, 2</locus>, <locus from="8" to="8">8</locus>, <locus from="20" to="21">20, and 21</locus>; and even of these, foll. <locus from="1a" to="2b">1 a and 2 b</locus> are disfigured by idle jottings. Of the remainder, foll. <locus from="1">1</locus>, <locus from="6" to="6">6</locus>, <locus from="10" to="10">10</locus>, and <locus from="15" to="15">15</locus>, are re-written on one side only.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2">
+                    <p>Written in double columns.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p1handNote2" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The more modern text is written in a large, coarse Estrangela of about the <date notBefore="1200" notAfter="1300">13th century</date>.</desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate notBefore="1200" notAfter="1300">13th century</origDate>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart2">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">CCLIV</citedRange>
+                  <citedRange unit="pp">I:203</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="3" xml:id="Part3">
+            <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/434</idno>
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 14664 foll. 18-19, 30-33</idno>
@@ -203,23 +291,9 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p2a1">
+              <msItem n="1" xml:id="p3a1">
                 <locus from="18" to="19">Foll. 18-19, </locus><locus from="30" to="33">30-33.</locus>
                 <title ref="" type="supplied">Hymns in praise of martyrs</title>
-              </msItem>
-              <msItem n="2" xml:id="p2a2">
-                <locus from="18" to="19">Foll. 18-19, </locus><locus from="30" to="32">30-32.</locus>
-                <title ref="" type="supplied">Palimpsest</title>
-                 <note>With the exception of <locus from="33" to="33">fol. 33</locus>, they are palimpsest; but foll. <locus from="19b" to="19b">19 b</locus> and <locus from="31a" to="31a">31 a</locus>, as well as part of <locus from="30b" to="30b">fol. 30 b</locus>, have not been re-written.</note>
-                 <msItem n="3" xml:id="p2b1" defective="true">
-                    <locus from="18" to="18">Foll. 18, </locus><locus from="30" to="30">30, </locus><locus from="31b" to="32">31b, 32.</locus>
-                    <title ref="" type="supplied">Fragments of prayers</title>
-                 </msItem>
-                 <msItem n="4" xml:id="p2b2" defective="true">
-                    <locus from="19a" to="19a">Fol. 19a.</locus>
-                    <title ref="" type="supplied">A fragment of a letter</title>
-                    <note>Seemingly addressed to the monks of four convents (<foreign xml:lang="syr">ܕܒܐܪ̈ܒܥ ܕܝܪ̈ܬܐ</foreign>). An abbat is mentioned,  (<foreign xml:lang="syr">ܠܪܝܫܕܝܪܐ ܏ܩܕ</foreign>) and one <persName ref="">rabban Yūhannān or John</persName> (<foreign xml:lang="syr">ܘܪܒܢ ܝܘܚܢܢ</foreign>).</note>
-                 </msItem>
               </msItem>
             </msContents>
             <physDesc>
@@ -251,13 +325,10 @@
                   <layout columns="1"/>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="2">
-                <handNote xml:id="p2handNote1" scope="major" script="syr-Syrp" medium="unknown">
-                   <desc>The <ref target="#p2a1">older text</ref> is written in the Palestinian character, in a large, regular hand, perhaps of the <origDate notBefore="0900" notAfter="1000">10th century</origDate>.</desc>
+              <handDesc hands="1">
+                <handNote xml:id="p3handNote1" scope="sole" script="syr-Syrp" medium="unknown">
+                   <desc>The older text is written in the Palestinian character, in a large, regular hand, perhaps of the <origDate notBefore="0900" notAfter="1000">10th century</origDate>.</desc>
                 </handNote>
-                 <handNote xml:id="p2handNote2" scope="minor" script="syr-Syre" medium="unknown">
-                    <desc>The <ref target="#p2a2">more modern texts</ref> are written in a coarse Estrangela of the <origDate notBefore="1000" notAfter="1200">11th or 12th century</origDate>.</desc>
-                 </handNote>
               </handDesc>
               <decoDesc/>
               <additions/>
@@ -268,8 +339,7 @@
             <history>
               <summary/>
               <origin>
-                 <ref target="#p2a1"><origDate notBefore="0900" notAfter="1000">10th century</origDate></ref>
-                 <ref target="#p2a2"><origDate notBefore="1000" notAfter="1200">11th or 12th century</origDate></ref>
+                 <origDate notBefore="0900" notAfter="1000">10th century</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -277,14 +347,14 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart3">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
                 <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart2">
+                <bibl xml:id="Wrightpart3">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
@@ -296,7 +366,105 @@
               </listBibl>
             </additional>
           </msPart>
-           <msPart n="3" xml:id="Part3">
+          <msPart n="4" xml:id="Part4">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/1188</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14664 foll. 18-19, 30-32</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">506</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DVI</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+                <msItem n="1" xml:id="p4a1" defective="true">
+                  <locus from="18" to="18">Foll. 18, </locus><locus from="30" to="30">30, </locus><locus from="31b" to="32">31b, 32.</locus>
+                  <title ref="" type="supplied">Fragments of prayers</title>
+                </msItem>
+                <msItem n="2" xml:id="p4a2" defective="true">
+                  <locus from="19a" to="19a">Fol. 19a.</locus>
+                  <title ref="" type="supplied">A fragment of a letter</title>
+                  <note>Seemingly addressed to the monks of four convents (<foreign xml:lang="syr">ܕܒܐܪ̈ܒܥ ܕܝܪ̈ܬܐ</foreign>). An abbat is mentioned,  (<foreign xml:lang="syr">ܠܪܝܫܕܝܪܐ ܏ܩܕ</foreign>) and one <persName ref="">rabban Yūhannān or John</persName> (<foreign xml:lang="syr">ܘܪܒܢ ܝܘܚܢܢ</foreign>).</note>
+                </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="6">6 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="7" unit="in">7 in.</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="5" unit="in">5 in.</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>With the exception of <locus from="33" to="33">fol. 33</locus>, they are palimpsest; but foll. <locus from="19b" to="19b">19 b</locus> and <locus from="31a" to="31a">31 a</locus>, as well as part of <locus from="30b" to="30b">fol. 30 b</locus>, have not been re-written.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="1"/>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p4handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The more modern texts are written in a coarse Estrangela of the <origDate notBefore="1000" notAfter="1200">11th or 12th century</origDate>.</desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="1000" notAfter="1200">11th or 12th century</origDate>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart4">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart4">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DVI</citedRange>
+                  <citedRange unit="pp">I:389</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+           <msPart n="5" xml:id="Part5">
               <msIdentifier>
                  <idno type="URI">http://syriaca.org/manuscript/435</idno>
                  <altIdentifier>
@@ -314,7 +482,7 @@
               <msContents>
                  <summary/>
                  <textLang mainLang="syr">Syriac</textLang>
-                 <msItem n="1" xml:id="p3a1" defective="true">
+                 <msItem n="1" xml:id="p5a1" defective="true">
                     <locus from="22" to="29">Foll. 22-29</locus>
                     <title ref="http://syriaca.org/work/158" type="supplied">Fragments of a manuscript of the Psalms, containing a translation from the Septuagint, in the Palestinian dialect.</title>
                     <note>The portions remaining are: Pss. xliii. 11—26, xliv., xlv., xlvi., lxxvii. 48—65, lxxxi., lxxxii. 1—9, lxxxix., and xc. 1—12.</note>
@@ -354,7 +522,7 @@
                     </layoutDesc>
                  </objectDesc>
                  <handDesc hands="1">
-                    <handNote xml:id="p3handNote1" scope="sole" script="syr-Syrp" medium="unknown">
+                    <handNote xml:id="p5handNote1" scope="sole" script="syr-Syrp" medium="unknown">
                        <desc>They are neatly written in the Palestinian character, and seem to be of the <origDate notBefore="0900" notAfter="1100">10th or 11th century</origDate>.</desc>
                     </handNote>
                  </handDesc>
@@ -375,14 +543,14 @@
               <additional>
                  <adminInfo>
                     <recordHist>
-                       <source>Manuscript description based on <bibl><ref target="#Wrightpart3">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                       <source>Manuscript description based on <bibl><ref target="#Wrightpart5">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                     </recordHist>
                     <availability status="restricted"/>
                     <custodialHist/>
                     <note/>
                  </adminInfo>
                  <listBibl>
-                    <bibl xml:id="Wrightpart3">
+                    <bibl xml:id="Wrightpart5">
                        <author>William Wright</author>
                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                        <pubPlace>London</pubPlace>
@@ -394,7 +562,7 @@
                  </listBibl>
               </additional>
            </msPart>
-           <msPart n="4" xml:id="Part4">
+           <msPart n="6" xml:id="Part6">
               <msIdentifier>
                  <idno type="URI">http://syriaca.org/manuscript/436</idno>
                  <altIdentifier>
@@ -412,7 +580,7 @@
               <msContents>
                  <summary/>
                  <textLang mainLang="syr">Syriac</textLang>
-                 <msItem n="1" xml:id="p4a1" defective="true">
+                 <msItem n="1" xml:id="p6a1" defective="true">
                     <locus from="34" to="34">Fol. 34</locus>
                     <title ref="" type="supplied">Three hymns on St. John the Baptist</title>
                     <note>The third hymn is imperfect.</note>
@@ -450,7 +618,7 @@
                     </layoutDesc>
                  </objectDesc>
                  <handDesc hands="1">
-                    <handNote xml:id="p4handNote1" scope="sole" script="syr-Syrp" medium="unknown">
+                    <handNote xml:id="p6handNote1" scope="sole" script="syr-Syrp" medium="unknown">
                        <desc>neatly written in the Palestinian character</desc>
                     </handNote>
                  </handDesc>
@@ -458,7 +626,7 @@
                  <additions>
                     <p/>
                     <list>
-                       <item n="1" xml:id="p4addition1"><locus from="34b" to="34b"/><ref target="#p4handNote1"/><p>The signature on the recto is </p><p><quote><!-- Missing some non-unicode characters from Wright that might also be an author's name --></quote></p></item>
+                       <item n="1" xml:id="p6addition1"><locus from="34b" to="34b"/><ref target="#p4handNote1"/><p>The signature on the recto is </p><p><quote><!-- Missing some non-unicode characters from Wright that might also be an author's name --></quote></p></item>
                     </list>
                  </additions>
                  <bindingDesc/>
@@ -476,14 +644,14 @@
               <additional>
                  <adminInfo>
                     <recordHist>
-                       <source>Manuscript description based on <bibl><ref target="#Wrightpart4">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                       <source>Manuscript description based on <bibl><ref target="#Wrightpart6">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                     </recordHist>
                     <availability status="restricted"/>
                     <custodialHist/>
                     <note/>
                  </adminInfo>
                  <listBibl>
-                    <bibl xml:id="Wrightpart4">
+                    <bibl xml:id="Wrightpart6">
                        <author>William Wright</author>
                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                        <pubPlace>London</pubPlace>
@@ -586,35 +754,35 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target="#p1a1"/>
+            <ref target="#Part1"/>
             <ref target="#lectionaries"/>       
           </item>
            <item>
-              <ref target="#p1b1"/>
+              <ref target="#p2a1"/>
               <ref target="#bible-nt"/>
            </item>
            <item>
-              <ref target="#p1b2"/>
+              <ref target="#p2a2"/>
               <ref target=""/><!-- Not sure what to consider this -->
            </item>
            <item>
-              <ref target="#p2a1"/>  
+              <ref target="#Part3"/>  
               <ref target="#hymns"/>       
            </item>
            <item>
-              <ref target="#p2b1"/>  
+              <ref target="#p4a1"/>  
               <ref target="#prayers"/>       
            </item>
            <item>
-              <ref target="#p2b2"/>  
+              <ref target="#p4a2"/>  
               <ref target=""/><!-- What is the taxonomy for a letter? -->       
            </item>
            <item>
-              <ref target="#Part3"/>
+              <ref target="#Part5"/>
               <ref target="#bible-ot"/>       
            </item>
            <item>
-              <ref target="#Part4"/> 
+              <ref target="#Part6"/> 
               <ref target="#hymns"/>       
            </item>
         </list>
@@ -622,7 +790,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-17" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-17" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-02-21" who="http://syriaca.org/editors.xml#thannah">Initial edit: created new msParts for palimpsest items</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
     </revisionDesc>
   </teiHeader>
