@@ -9,9 +9,9 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -19,8 +19,12 @@
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,7 +85,7 @@
                 <idno type="Wright-BL-Roman">XIV</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents class="Biblical Manuscripts: Old Testament">
+            <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
@@ -110,7 +114,7 @@
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"/>
+                  <foliation/>
                   <collation/>
                   <condition>
                     <list>
@@ -127,7 +131,7 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p1handNote1" scope="sole" script="syr-Syrn" medium="medium"><!--Is this the correct script?-->
+                <handNote xml:id="p1handNote1" scope="sole" script="syr-Syrn" medium="medium">
                   <desc>Written in a good, regular hand of the <origDate notBefore="0800" notAfter="0900">9th century</origDate>, with occasional Syriac vowels.</desc>
                 </handNote>
               </handDesc>
@@ -181,7 +185,7 @@
                 <idno type="Wright-BL-Roman">LIX</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents class="Biblical Manuscripts: Old Testament">
+            <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1">
@@ -215,7 +219,7 @@
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"/>
+                  <foliation/>
                   <collation/>
                   <condition>
                     <list>
@@ -287,7 +291,7 @@
                 <idno type="Wright-BL-Roman">XLIV</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents class="Biblical Manuscripts: Old Testament">
+            <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p3a1" defective="unknown">
@@ -332,7 +336,7 @@
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"/>
+                  <foliation/>
                   <collation/>
                   <condition>
                     <list>
@@ -353,13 +357,13 @@
                   <desc>The writing is a good, regular Nestorian Estrangela of the <origDate notBefore="0600" notAfter="0700">7th century</origDate>.</desc>
                 </handNote>
                 <handNote xml:id="p3handNote2" scope="minor" script="syr-Syrn" medium="unknown">
-                  <desc><ref target="#p3addition1"/>The Syriac vowels seem to have been added by a somewhat later hand.</desc>
+                  <desc><ref target="#p3addition1"/>See additions.</desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="p3addition1"><ref target="#p3handNote2"/><p>The Syriac vowels seems to have been added by a somewhat later hand.</p></item>
+                  <item n="1" xml:id="p3addition1"><ref target="#p3handNote2"/><p>The Syriac vowels seem to have been added by a somewhat later hand.</p></item>
                 </list>
               </additions>
               <bindingDesc/>
@@ -411,7 +415,7 @@
                 <idno type="Wright-BL-Roman">XXXIII</idno>
               </altIdentifier>
             </msIdentifier>
-            <msContents class="Biblical Manuscripts: Old Testament">
+            <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p4a1" defective="true">
@@ -479,13 +483,13 @@
                   <desc>The writing is a neat, regular, Nestorian Estrangela of the <origDate notBefore="0700" notAfter="0800">8th century</origDate>.</desc>
                 </handNote>
                 <handNote xml:id="p4handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="p4addition1">See additions.</ref></desc>
+                  <desc><ref target="#p4addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="p4addition1"><locus from="20" to="20"/><ref target="p4handNote2"/>
+                  <item n="1" xml:id="p4addition1"><locus from="20" to="20"/>
                     <p>Fol. 20 has been used as a fly-leaf for another manuscript, and across it is written a note in one of the usual forms: </p>
                     <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܡܕܒܪܐ ܕܣܩܛܐ. ܟܠ ܕܡܦܩ ܠܗ ܡܢ ܗܕܐ ܕܝܪܐ ܐܘ ܟܐܡ ܥܠܘܗܝ ܘ܏ܫ</quote></item>
                 </list>
@@ -566,13 +570,14 @@
                     </dimensions>
                   </extent>
                   <foliation/>
-                  <collation>
-                    <p>These folia formed the 14th and last quire (<foreign xml:lang="syr">ܝܕ</foreign>) of a manuscript.</p><!-- Is this collation or condition? -->
-                  </collation>
+                  <collation/>
                   <condition>
                     <list>
                       <item>
                         <p>The leaves are much stained and torn.</p>
+                      </item>
+                      <item>
+                        <p>These folia formed the 14th and last quire (<foreign xml:lang="syr">ܝܕ</foreign>) of a manuscript.</p>
                       </item>
                     </list>
                   </condition>
@@ -583,14 +588,22 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="1">
-                <handNote xml:id="p5handNote1" scope="sole" script="syr-Syre" medium="unknown">
-                  <p>The writing is a fine, regular Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate></p>
-                  <p>The hexaplar marks are exhibited, but only one marginal variant is noted.</p>
+              <handDesc hands="2">
+                <handNote xml:id="p5handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a fine, regular Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate></desc>
                 </handNote>
+                  <handNote xml:id="p5handNote2" scope="minor" script="syr" medium="unknown">
+                    <desc><ref target="p5addition1">See additions.</ref></desc>
+                  </handNote>
               </handDesc>
               <decoDesc/>
-              <additions/>
+              <additions>
+                <list>
+                  <item n="1" xml:id="p5addition1">
+                    <p>The hexaplar marks are exhibited, but only one marginal variant is noted.</p>
+                  </item>
+                </list>
+              </additions>
               <bindingDesc/>
               <sealDesc/>
               <accMat/>
@@ -806,7 +819,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p7addition1"><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p7addition1"><locus from="" to=""/><p></p></item>
                 </list>
               </additions>
               <bindingDesc/>
@@ -928,7 +941,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p8addition1"><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p8addition1"><locus from="" to=""/><p></p></item>
                 </list>
               </additions>
               <bindingDesc/>
@@ -1050,7 +1063,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p9addition1"><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p9addition1"><locus from="" to=""/><p></p></item>
                 </list>
               </additions>
               <bindingDesc/>
@@ -1172,7 +1185,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p10addition1"><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p10addition1"><locus from="" to=""/><p></p></item>
                 </list>
               </additions>
               <bindingDesc/>
@@ -1294,7 +1307,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p11addition1"><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p11addition1"><locus from="" to=""/><p></p></item>
                 </list>
               </additions>
               <bindingDesc/>
@@ -1416,7 +1429,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p12addition1"><locus from="" to=""/><ref target=""/><quote/></item>
+                  <item n="1" xml:id="p12addition1"><locus from="" to=""/><p></p></item>
                 </list>
               </additions>
               <bindingDesc/>
@@ -1596,7 +1609,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-03" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-07-03" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-02-28" who="http://syriaca.org/editors.xml#thannah">Initial edit: removed earlier version attributions, reclassified an addition, small changes to framework for future stages</change>
       <change type="planned" subtype="missing">Add in missing entries.</change>
     </revisionDesc>
   </teiHeader>
