@@ -104,7 +104,7 @@
                 <msItem n="2" xml:id="b1">
                   <locus from="1b" to="2">Foll. 1b-2</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied">An index to the 30 discourses con¬tained in this volume</title>
+                  <title ref="" type="supplied">An index to the 30 discourses contained in this volume</title>
                   <quote xml:lang="syr">ܩ̈ܦܠܐܐ ܕܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܩܕܝܫܐ ܘܠܒܝܫ ܠܐܠܗܐ ܓܪܝܓܪܝܘܣ. ܬܐܘܠܘܓܘܣ܇ ܐܦܝܣܩܦܐ ܕܐܢܙܝܢܙܘ: ܕܦܫܩܗ̇ ܡܢ ܝܘܢܝܐ ܠܣܘܪܝܝܐ̣. ܚܣܝܐ ܘܡܝܩܪ ܡܢ ܐܠܗܐ̣. ܐܒܣ ܡܪܝ ܦܘܠܐ̣. ܒܩܘܦܪܘܣ ܓܙܪܬܐ. ܒܫܢܬ ܬܫ̈ܥܡܐܐ ܘܬ̈ܠܬܝܢ ܘܚܡܫ: ܐܢܕܩܛܝܘܢܐ ܕܕܘܕܩܛܐ .. ܡܣܝܟܝܢ ܕܝܢ ܒܗ̇ ܡܐܡ̈ܪܐ ܬܠܬܝܢ܀ ܀</quote>
                 </msItem>
                 <msItem n="3" xml:id="b2">
@@ -136,6 +136,196 @@
                     <bibl>Opp., t. i. p. 11</bibl>
                     <bibl>Migne, t. xxxv., col. 407</bibl>
                   </listBibl>
+                </msItem>
+                <msItem n="6" xml:id="b5">
+                  <locus from="22b" to="29">Foll. 22b-29</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Funebris in laudem Caesarii fratris oratio, etc.</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ܆ ܕܥܠ ܩܒܘܪܝܬܐ ܕܩܣܪܝܘܣ ܐܚܘܗܝ: ܡܐܡܪܐ ܕܐܪ̈ܒܥܐ<locus from="22b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 198</bibl>
+                    <bibl>Migne, t. xxxv., col. 755</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="7" xml:id="b6">
+                  <locus from="29b" to="35">Foll. 29b-35</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">In patrem tacentem propter plagam grandinis</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ܆ ܥܠ ܡܚܘܬܐ ܕܒܪܕܐ̣. ܘܠܘܬ ܐܒܘܗܝ ܕܡܛܠ ܗܕܐ ܫܲܬܝܩ ܗܘܐ. ܟܕ ܓܝܪ ܦܐܪ̈ܐ ܡ̈ܫܡܠܝܐ ܗܘܘ ܕܕܘܟܬܐ ܕܡܬܩܪܝܐ ܛܝܒܪܝܢܐ: ܕܒܗ̇ ܣܝ̣ܡܐ ܩܪܝܬܐ ܐܪܝܢܙܘ ܡܢ ܗ̇ܝ ܕܐܝܬܘܗܝ ܗܘܐ̣. ܐܒܘܗܝ ܡ̇ܢ ܟܕ ܡܬܚ̇ܫܒ ܗܘܐ ܕܡܛܠ ܚܛܗ̈ܘܗܝ ܕܥܡܐ ܗܕܐ ܓܕܫ̣ܬ݂. ܫ̇ܬܝܩ ܗܘܐ. ܗ̣ܘ ܕܝܢ ܟܕ ܐܬܛܦܝ̣ܣ ܡܢ ܥܡܐ̣. ܡܚ̇ܦܛ ܗܘܐ ܠܗ ܕܢܐܡܪ ܠܘܬ ܥܡܐ. ܡܐܡܪܐ ܕܚ̈ܡܫܐ<locus from="29b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t., i., p. 299</bibl>
+                    <bibl>Migne, t. xxxv., col. 933</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="8" xml:id="b7">
+                  <locus from="35a" to="35b">Foll. 35a-35b</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">In seipsum, ad patrem et Basilium magnum, post reditum e fuga</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܥܠ ܒܣܝܠܝܘܣ ܘܥܠ ܐܒܘܗܝ܆ ܟܕ ܥ̣ܬܝܕܝܢ ܗܘܘ ܕܢܣܝܡܘܢ ܥܠܘܗܝ ܐܝ̣ܕܐ ܕܐܦܝܣܩܦܘܬܐ ܕܣܐܣܝܡܘܢ: ܡܐܡܪܐ ܕܫ̈ܬܐ<locus from="35a"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 239</bibl>
+                    <bibl>Migne, t. xxxv., col. 827</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="9" xml:id="b8">
+                  <locus from="35b" to="37">Foll. 35b-37</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Apologeticus ad patrem suum Gregorium, praesente Basilio magno, cum Episcopus Sasimorum ereatus est</title>
+                  <incipit xml:lang="syr">ܥܠܝܗܘܢ ܟܕ ܥܠܝܗܘܢ ܒܬܪ ܣܝ̇ܡ ܐܝ̣ܕܐ: ܡܐܡܪܐ ܕܫ̈ܒܥܐ<locus from="35b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 234</bibl>
+                    <bibl>Migne, t. xxxv., col. 819</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="10" xml:id="b9">
+                  <locus from="37a" to="39">Foll. 37a-39</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Ad Gregorium Nyssenum, Basilii magni fratrcm, qui post illius consecrationem advenerat</title>
+                  <incipit xml:lang="syr">ܬܘܒ ܕܝܠܗ ܟܕ ܕܝܠܗ ܥܠ ܓܪܝܓܪܝܣ ܐܦܝܣܩܘܦܐ ܕܢܘܣܐ ܐܚܘܗܝ ܕܩܕܝܫܐ ܒܣܝܠܝܘܣ: ܕܐܬ݂ܐ ܒܬܪ ܚܕ ܝܘܡܐ ܕܣܝ̇ܡ   ;ܐܝ̣ܕܐ: ܘܥܠ ܣܗ̈ܕܐ: ܡܐܡܪܐ ܕܬܡ̈ܢܝܐ<locus from="37a"/></incipit>
+                  <listBibl>
+                    <bibl>Opp. t. i, p. 241</bibl>
+                    <bibl>Migne, t. xxxv., col. 831</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="11" xml:id="b10">
+                  <locus from="39a" to="40">Foll. 39a-40</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Ad patrem, cum ci Nazianzenae ecclesiae curam commisisset</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܥܠ ܐܒܘܗܝ: ܟܕ ܐܦܣ ܠܗ ܕܢܐܨܦ ܘܕܥܕܬܐ ܕܐܢܙܝܢܙܘ: ܡܐܡܪܐ ܕܬܫ̈ܥܐ<locus from="39a"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 248</bibl>
+                    <bibl>Migne, t. xxxv., col. 843</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="12" xml:id="b11">
+                  <locus from="40b" to="48">Foll. 40b-48</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Prima de pace oratio, ob monachorum reconciliationem, post silentium, praesente patre</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܡܐܡܪܐ ܩܕܡܝܐ ܡܫ̇ܝܢܢܐ܇ ܥܠ ܚܕܝܘܬܐ ܕܕܝ̈ܪܝܐ̇. ܒܩܪܝܒܘܬܐ ܕܐܒܘܗܝ. ܡܐܡܪܐ ܕܥܣܪ̈ܐ<locus from="40b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 178</bibl>
+                    <bibl>Migne, t. xxxv., col. 722</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="13" xml:id="b12">
+                  <locus from="48a" to="52b">Foll. 48a-52b</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Tertia de pace oratio</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܡܫܝܢܢܐ ܕܬܪ̈ܝܢ ܡܐܡܪܐ ܕܚܕܥܣܪ̈<locus from="48a"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 425</bibl>
+                    <bibl>Migne, t. xxxv., col. 1151</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="14" xml:id="b13">
+                  <locus from="52b" to="53">Foll. 52b-53</locus>
+                  <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+                  <title ref="" type="supplied">Two extracts from letters of Severus of Antioch, treating of the doctrine of the Trinity</title>
+                  <msItem n="15" xml:id="c1">
+                    <author ref="http://syriaca.org/person/51"/>
+                    <title ref="" type="supplied">Illustration taken from a letter to Caesaria</title> <!-- Is this Caesaria a persName or placeName? -->
+                    <incipit xml:lang="syr">ܢܘܗ̇ܪܐ ܕܩܕܝܫܐ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܪܚܡ̇ܬ ܠܡܫܝܚܐ ܩܣܪܝܐ<locus from="52b"/></incipit>
+                  </msItem>
+                  <msItem n="16" xml:id="c2">
+                    <author ref="http://syriaca.org/person/51"/>
+                    <incipit xml:lang="syr">ܢܘܗ̇ܪܐ ܕܝܠܗ ܕܩܕܝܫܐ ܣܐܘܪܐ ܥܠܘܗܝ ܟܕ ܥܠܗܘܝ ܕܦܬܓܡܐ ܕܩܕܝܡ ܐܡܝܪ.<locus from=""/><!-- No locus in Wright. See page 424 under entry 12. --></incipit>
+                  </msItem>
+                </msItem>
+                <msItem n="17" xml:id="b14">
+                  <locus from="53b" to="60">Foll. 53b-60</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Secunda de pace oratio, in Constantini urbe habita, etc.</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܓܪܝܓܘܪܝܘܣ ܡܐܡܪܐ ܡܫ̇ܝܢܢܐ ܕܬܠܬܐ ܕܐܬܐܡܪ ܒܩܘܣܛܢܛܝܢܘܦܘܠܝܣ ܥܠ ܚܪܝܢܐ ܕܗܘ̣ܐ ܠܗ ܠܥܡܐ ܡܛܠ ܐܦܝ̈ܣܩܘܦܐ ܕܐܬܟܬ݁ܫܘ ܠܘܬ ܚ̈ܕܕܐ ܡܐܡܪܐ ܕܬܪ̈ܥܣܪ<locus from="53b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 414</bibl>
+                    <bibl>Migne, t. xxxv., col. 1131</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="18" xml:id="b15">
+                  <locus from="60a" to="65">Foll. 60a-65</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">De suis sermonibus, et ad Julianum tributorum exaequatorem <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright" xml:lang="grc">ἐξισωτής</supplied></title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܥܠ ܡ̈ܠܐ ܘܥܠ ܝܘܠܝܢܐ ܐܟܣܝܣܘܛܝܣ. ܕܒܪ ܐܣ̈ܟܠܘܗܝ ܗܘܐ. ܡܐܡܪܐ ܕܬܠܬܥܣܪ̈<locus from="60a"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 364</bibl>
+                    <bibl>Migne, t. xxxv., col. 1044</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="19" xml:id="b16">
+                  <locus from="65b" to="70">Foll. 65b-70</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Ad cives <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright" xml:lang="grc">πολιτευόμενοι</supplied> Nazianzenos, gravi timore perculsos, et praefectum irascentem</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܥܠ ܦܘ̈ܠܝܛܐ ܐܘ̈ܡܢܘ ܕܐܢܙܝܢܙܘ ܕܐܝ̈ܬܝܗܘܢ ܗܘܘ ܒܩܢܛܐ̣. ܘܥܠ ܪܝܫܢܐ ܕܪܓܝܙ ܗܘܐ ܡܐܡܪܐ ܕܐܪ̈ܒܬܥܣܪ̈<locus from="65b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t, i., p. 317</bibl>
+                    <bibl>Migne, t. xxxv., col. 963</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="20" xml:id="b17">
+                  <locus from="70a" to="74">Foll. 70a-74</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">In Novam Dominicam</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܥܠ ܚܕܒܫܒܐ ܚܕܬܐ ܘܥܠ ܬܕܐܐ. ܘܥܠ ܣܗܕܐ ܡܐܡܐ. ܒܚܕ ܒܫܒܐ ܓܝܪ ܡܫܬܡܠܐ ܕܘܟܪܢܗ ܒܩܣܪܝܐ ܡܐܡܪܐ ܏ܝܗ<locus from="70a"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 835</bibl>
+                    <bibl>Migne, t. xxxvi., col. 607</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="21" xml:id="b18">
+                  <locus from="74a" to="81">Foll. 74a-81</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Funebris oratio in laudem sororis suae Gorgoniae</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܓܪܝܓܪܝܘܣ ܥܠ ܥܘܦܝܐ ܕܓܘܪܓܢܝܐ ܚܬܗ. ܡܐܡܪܐ ܕܫܬܬܥܣܪ̈<locus from="74a"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 218</bibl>
+                    <bibl>Migne, t. xxxv., col. 789</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="22" xml:id="b19">
+                  <locus from="81b" to="99">Foll. 81b-99</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">Funebris oratio in patrem, praesente Basilio</title>
+                  <incipit xml:lang="syr">ܬܘܒ ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܓܪܝܓܘܪܝܘܣ ܥܠ ܥܘܿܦܝܐ ܕܐܒܘܗܝ. ܘܒܘܝܐܐ ܕܢܘܢܐ ܐܡܗ. ܒܩܪܝܒܘܬܐ ܕܒܣܝܠܝܘܣ. ܕܥܠܘܗܝ ܐܦ ܪܝܫܗ ܕܡܐܡܪܐ ܥܒ̣ܕ. ܡܐܡܪܐ̣ ܕܫܒܬܥܣܪ̈<locus from="81b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 330</bibl>
+                    <bibl>Migne, t. xxxv., col. 986</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="23" xml:id="b20">
+                  <locus from="99b" to="107">Foll. 99b-107</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">In Theophania sive Natalitia Salvatoris</title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ܆ ܥܠ ܒܝܬ ܕܢܚܐ ܐܘ ܟܝܬ ܒܝܬ ܝܠܕܐ ܕܒܒܣܪ ܕܦܪܘܩܢ ܝܫܘܥ ܡܫܝܚܐ܀ ܡܐܡܪܐ ܕܬܡܢܬܥܣܪ̈<locus from="99b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 663</bibl>
+                    <bibl>Migne, t. xxxvi., col. 311</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="24" xml:id="b21">
+                  <locus from="107b" to="110">Foll. 107b-110</locus>
+                  <author ref="http://syriaca.org/person/511"/>
+                  <title ref="" type="supplied" xml:lang="la">In sancta Lumina <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">τὰ φῶτα</supplied></title>
+                  <incipit xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܓܪܝܓܘܪܝܘܣ̣ ܕܥܠ ܢܘܗܪ̈ܐ ܡܐܡܪܐ ܕܬܫܬܥܣܪ<locus from="107b"/></incipit>
+                  <listBibl>
+                    <bibl>Opp., t. i., p. 677</bibl>
+                    <bibl>Migne, t. xxxvi., col. 335</bibl>
+                  </listBibl>
+                </msItem>
+                <msItem n="25" xml:id="b22">
+                  <locus from="110b" to="116">Foll. 110b-116</locus>
+                  <author ref="http://syriaca.org/person/51"/>
+                  <title ref="" type="supplied">An illustration from the <title ref="" type="supplied">16th epistle</title> of <persName>Severus</persName> to Caesaria</title> <!-- Caesaria: persName or placeName? -->
+                  <incipit xml:lang="syr"> ܢܘܗܪܐ ܕܩܕܝܫܐ ܣܐܘܝܪܐ ܦܐܛܪܝܐܪܟܐ ܡܢ ܐܓܪܬܐ ܕܫܬܬܥܣܪܐ ܕܠܘܬ ܩܐܣܐܪܝܐ.<locus from="110b"/></incipit>
+                </msItem>
+                <msItem n="26" xml:id="b23">
+                  <locus from="116a" to="121a">Foll. 116a-121a</locus>
+                  <author ref="http://syriaca.org/person/109">Athanasius II of Balad</author> <!-- Wright refers to an Athanasius II, but does not put of Balad. Am I right in assuming this person URI is correctly associated here? -->
+                  <title ref="" type="supplied">A section containing explanations of the Greek and other legends referred to by <persName ref="http://syriaca.org/person/511">Gregory</persName> at the commencement of <ref target="#b21">discourse 20</ref>.</title>
+                  <incipit xml:lang="syr">ܟܘܢܫܐ ܘܦܘܫܩܐ ܕܬܫܥ̈ܝܬܐ ܗܠܝܢ ܕܐܬܥܗܕ ܗ̇ܘ ܕܒܝܬ ܩܕܝ̈ܫܐ ܓܪܝܓܘܪܝܘܣ̇. ܒܡܐܡܪܐ ܗ̇ܘ ܕܥܠ ܢܘܗܪ̈ܐ. ܕܐܝܬܘܗܝ ܪܝܫܗ܆ ܬܘܒ ܝܫܘܥ ܕܝܠܝ.<locus from="116a"/></incipit>
+                  <finalRubric> ܫܠܡܘ ܢܘܗܪ̈ܐ ܚܕܬ̈ܐ ܗ̇ܢܘܢ ܕܬܪܨ ܐܬܢܣܝܘܣ ܦܛܪܝܐܪܟܐ܆ ܒܬܪ ܡܝܩܪ ܡܢ ܐܠܗܐ ܚܣܝܐ ܐܒܣ ܡܪܝ ܦܘܠܐ.
+                    <locus from="121a"/>
+                  </finalRubric>
+                  <note>In the subscription, fol. <locus from="121a">121a</locus>, we are told that this section was drawn up by the patriarch <persName ref="http://syriaca.org/person/109">Athanasius II</persName>.<!-- Is this the correct URI for Athanasius II? --> See <bibl>Assemani, Bibl. Or., t. ii., p. 335</bibl>. In Greek manuscripts (e.g. <ref target="">Add. 18,231</ref>, fol. <locus from="318a">318a</locus>, which is dated A.D. <date when="0972" calendar="Gregorian">972</date>) this <foreign xml:lang="grc">Συναγωγὴ καὶ ἐξήγησις  ἱστοριῶν</foreign> is ascribed to <choice><orig>Nonus</orig> <sic xml:lang="grc">Νόνος</sic> <reg>Nonnus</reg></choice>, See also <bibl>Migne, t. xxxvi., col. 1066</bibl>, and the <bibl>Spicilegium Romanum, t. ii. p. 381</bibl>.</note>
                 </msItem>
               </msItem>
               <msItem n="2" xml:id="a2" defective=""><!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem>. -->
@@ -256,10 +446,11 @@
                 <p/>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="" to=""/><!-- locus may be deleted if addition applies throughout entire document. Does NOT need to be human-readable -->
-                    <p></p><!-- Enter English prose here -->
-                    <p><quote xml:lang="syr"><!-- Enter the Syriac quote here if applicable --></quote></p>
-                  </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                    <locus from="60a"/>
+                    <p>At the beginning of the <ref target="#b15">discourse <title ref="" type="supplied" xml:lang="la">de suis sermonibus, et ad Julianum tributorum exaequatorem</title></ref>, we read the following note:</p>
+                    <p><quote xml:lang="syr">ܦܪܐܓܪܦܐ <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">παραγραφή</supplied> ܕܦܛܪܝܪܟܐ ܡܫܝܢܢܐ ܕܬܠܬܐ ܥܠ ܐܡܦܝܠܟܝܣ <sic>ܐܦܝܦܩܘܦܐ</sic>. ܡܦܠܓ ܫܘܝܐܝܬ</quote>,</p>
+                    <p>which refers to <ref target="#b14">no. 13</ref>.</p>
+                  </item>
                   <item n="2" xml:id="addition2">
                     <locus from="" to=""/>
                     <p></p>
