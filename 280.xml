@@ -88,6 +88,7 @@
                 <colophon>
                   <ref target="#addition1">See additions.</ref>
                 </colophon>
+                <note>This seems to be the third codex mentioned by <bibl>Assemani in the Bibl. Orient., t. iii., pars, i., p. 23</bibl>; though, if such be the case, his description of it is rather inaccurate.</note>
                 <msItem n="2" xml:id="b1">
                   <locus from="1" to="206a">Foll. 1-206a</locus>
                   <author ref="http://syriaca.org/person/511">Gregory of Nazianzus</author>
@@ -366,338 +367,345 @@
                       <bibl>Opera, t. ii., p. 58, epist. lxiv</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="33" xml:id="c27">
+                    <locus from="211a" to="211b">Foll. 211a-211b</locus>
+                    <author ref="http://syriaca.org/person/376"/>
+                    <title ref="" type="supplied">Basil to <persName>Athanasius</persName></title>
+                    <rubric xml:lang="syr">ܕܒܣܝܠܝܘܣ ܠܘܬ ܐܬܢܣܝܘܣ<locus from="211a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. iii., p. 247, epist. lxxx</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="34" xml:id="c28">
+                    <locus from="211b" to="211b">Foll. 211b</locus>
+                    <author ref="http://syriaca.org/person/376"/>
+                    <title ref="" type="supplied">Basil to the monks who were persecuted by the Arians</title>
+                    <rubric xml:lang="syr">ܕܝܠܗ ܠܘܬ ܕܝܪ̈ܝܐ ܕܐܬܪ̈ܕܦܘ ܡܢ ܕܒܝܬ ܐܪܝܘܣ<locus from="211b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. iii., p. 567, epist. cclvii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="35" xml:id="c29">
+                    <locus from="211b" to="212a">Foll. 211b-212a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Sophronius</persName></title>
+                    <rubric xml:lang="syr">ܕܬܐܘܠܘܓܘܣ ܦܝܣܬܐ ܠܘܬ ܣܘܦܪܢܝܘܣ<locus from="211b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 21, epist. xxii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="36" xml:id="c30">
+                    <locus from="212a" to="212b">Foll. 212a-212b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Eusebius</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܐܘܣܒܝܘܣ ܐܦܝܣܩܘܦܐ ܘܡܘܕܝܢܐ<locus from="212a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 39, epist. xliv</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="37" xml:id="c31">
+                    <locus from="212b" to="213">Foll. 212b-213</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Eudoxius</persName></title>
+                    <rubric xml:lang="syr">ܪܐܛܘܪ ܕܝܠܗ ܠܘܬ <sic>ܐܘܕܘܟܝܣ</sic> <locus from="212b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 145, epist. clxxviii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="38" xml:id="c32">
+                    <locus from="213b" to="214">Foll. 213b-214</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Nectarius</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܢܩܛܘܪܝܘܣ ܐܦܝܣܩܦܐ<locus from="213b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 166, epist. ccii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="39" xml:id="c33">
+                    <locus from="214b" to="214b">Foll. 214b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Philagrius</persName> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><persName>Eudoxius</persName></supplied></title>
+                    <rubric xml:lang="syr">ܕܝܠܗ ܠܘܬ ܦܝܠܐܓܪܝܘܣ<locus from="214b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 72, epist. lxxx</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="40" xml:id="c34">
+                    <locus from="214b" to="214b">Foll. 214b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Eustochius</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܕܠܘܬ <sic>ܐܘܛܘܟܝܣ</sic><locus from="214b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 158, epist. cxci</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="41" xml:id="c35">
+                    <locus from="214b" to="214b">Foll. 214b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName></title>
+                    <rubric xml:lang="syr">ܕܝܠܗ ܠܘܬ ܓܪܝܓܪܝܘܣ ܕܢܘܣܐ<locus from="214b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 64, epist. lxxii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="42" xml:id="c36">
+                    <locus from="214b" to="215a">Foll. 214b-215a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">To the <ref target="http://syriaca.org/person/512">same</ref></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬܗ<locus from="214b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 73, epist. lxxxi</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
+                  <msItem n="43" xml:id="c37">
+                    <locus from="215a" to="215a">Foll. 215a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">To the <ref target="">same</ref> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">to <persName>Cledonius</persName></supplied></title>
                     <rubric xml:lang="syr"><locus from=""/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 100, epist. cviii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="44" xml:id="c38">
+                    <locus from="215a" to="215a">Foll. 215a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Leontius</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܠܐܘܢܛܝܘܣ<locus from="215a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 80, epist. xcv</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="45" xml:id="c39">
+                    <locus from="215a" to="215b">Foll. 215a-215b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <choice><orig><persName>Olympianus</persName></orig><corr><persName>Olympius</persName></corr></choice> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><persName>Asterius</persName></supplied></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܐܠܘܡܦܝܢܘܣ<locus from="215a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 131, epist. clvi</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="46" xml:id="c40">
+                    <locus from="215b" to="215b">Foll. 215b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Nicobulus</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܢܝܩܒܠܝܘܣ<locus from="215b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 48, epist. liii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="47" xml:id="c41">
+                    <locus from="215b" to="215b">Foll. 215b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Sacerdos</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ <sic>ܣܘܪܕܛܘܣ</sic><locus from="215b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 177, epist. ccxiii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="48" xml:id="c42">
+                    <locus from="215b" to="215b">Foll. 215b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Palladius</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܦܠܕ<locus from="215b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 104, part of epist. cxviii., and epist. cxix</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="49" xml:id="c43">
+                    <locus from="215b" to="215b">Foll. 215b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Eugenius</persName> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><persName>Eulalius</persName></supplied></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܐܘܓܢ<locus from="215b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 104., epist. cxviii., <ref target="#c42">omitting one sentence</ref></bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="50" xml:id="c44">
+                    <locus from="215b" to="215b">Foll. 215b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">To the <ref target="#c43">same</ref></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬܗ ܕܐܘܓܢ<locus from="215b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 101, epist. cxi</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="51" xml:id="c45">
+                    <locus from="215b" to="215b">Foll. 215b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Celeusius</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܩܠܘܣܝܘܣ<locus from="215b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 102, epist. cxiii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="52" xml:id="c46">
+                    <locus from="215b" to="216a">Foll. 215b-216a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Cledonius</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܩܠܝܕܘܢܝܘܣ<locus from="215b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 100, epist. cvii</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="53" xml:id="c47">
+                    <locus from="216a" to="216a">Foll. 216a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">To the <ref target="#c46">same</ref></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬܗ ܕܩܠܝܕܘܢܝܘܣ<locus from="216a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 101, epist. cix</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="54" xml:id="c48">
+                    <locus from="216a" to="216a">Foll. 216a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Eulalius</persName></title>
+                    <rubric xml:lang="syr"><locus from="216a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 103, epist. cxvi</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="55" xml:id="c49">
+                    <locus from="216a" to="216b">Foll. 216a-216b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName ref="http://syriaca.org/person/376">Basil</persName> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><persName>Celeusius</persName></supplied></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܒܣܝܠܝܘܣ<locus from="216a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 102, epist. cxiv</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="56" xml:id="c50">
+                    <locus from="216b" to="216b">Foll. 216b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName ref="http://syriaca.org/person/376">Basil</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬܗ ܕܒܣܝܠܝܘܣ<locus from="216b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 1, epist. i</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="57" xml:id="c51">
+                    <locus from="216b" to="216b">Foll. 216b</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Anysius</persName> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><persName>Procopius</persName></supplied></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܐܘܢܘܣܝܣ<locus from="216b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 78, epist. xc</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="58" xml:id="c52">
+                    <locus from="216b" to="217a">Foll. 216b-217a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName>Quaestor</persName> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><persName>Philagrius</persName></supplied></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬ ܩܘܐܣܛܘܪ<locus from="216b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t.ii., p. 32, epist. xxxvi</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="59" xml:id="c53">
+                    <locus from="217a" to="217b">Foll. 217a-217b</locus>
+                    <author ref="http://syriaca.org/person/376"/>
+                    <title ref="" type="supplied">Basil to <persName ref="http://syriaca.org/person/511">Gregory</persName></title>
+                    <rubric xml:lang="syr">ܕܒܣܝܠܝܘܣ ܠܘܬ ܓܪܝܓܪܝܘܣ ܬܐܘܠܘܓܘܣ<locus from="217a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. iii., p. 132, epist. xiv</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="60" xml:id="c54">
+                    <locus from="217b" to="218">Foll. 217b-218</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Reply of Gregory to <persName ref="http://syriaca.org/person/376">Basil</persName></title>
+                    <rubric xml:lang="syr">ܥܢܝܢܐ ܕܓܪܝܓܘܪܝܘܣ ܠܘܬ ܒܣܝܠܝܘܣ<locus from="217b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 3, epist. iv</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="61" xml:id="c55">
+                    <locus from="218b" to="219a">Foll. 218b-219a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName ref="http://syriaca.org/person/376">Basil</persName></title>
+                    <rubric xml:lang="syr">ܐܚܪܬܐ ܠܘܬܗ ܗ̣ܘ ܟܕ ܗ̣ܘ ܢܝܫܐ<locus from="218b"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 5, epist. v</bibl>
                     </listBibl>
                   </msItem>
-                  <msItem n="" xml:id="">
-                    <locus from="" to="">Foll. </locus>
-                    <author ref=""/>
-                    <title ref="" type="supplied"></title>
-                    <rubric xml:lang="syr"><locus from=""/></rubric>
+                  <msItem n="62" xml:id="c56">
+                    <locus from="219a" to="219a">Foll. 219a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">Gregory to <persName ref="">Theodore of Tyana</persName>, his metropolitan</title>
+                    <rubric xml:lang="syr">ܕܓܪܝܓܪܝܘܣ ܬܐܘܠܘܓܘܣ ܠܘܬ ܬܐܕܘܪܣ ܐܦܝܣܩܦܐ ܕܛܘܐܢܐ ܕܐܝܬܘܗܝ ܗܘܐ ܡܝܛܪܦܘܠܝܣ ܕܝܠܗ<locus from="219a"/></rubric>
                     <listBibl>
-                      <bibl></bibl>
+                      <bibl>Opera, t. ii., p. 128, epist. clii</bibl>
                     </listBibl>
                   </msItem>
+                </msItem>
+                <msItem n="63" xml:id="b3">
+                  <locus from="219b" to="226b">Foll. 219b-226b</locus>
+                  <author ref="http://syriaca.org/person/50"><choice><orig>John, Bishop of Tellā </orig> <orig>Constantina</orig></choice></author>
+                  <title ref="" type="supplied">The Confession of Faith of John, Bishop of Tellā or Constantina, in the form of a letter to the convents around that city.</title>
+                  <rubric xml:lang="syr">ܗܝܡܢܘܬܐ ܕܚܣܝܐ <sic>ܘܩܕܝܫܐ</sic>ܐܦܝܣܩܦܐ ܕܬܠܐ <locus from="219b"/></rubric>
+                  <incipit xml:lang="syr"> ܠܥܘܡܪ̈ܐ ܢܟ̈ܦܐ ܘܩܕܝ̈ܫܐ ܕܕܝܪ̈ܬܐ ܕܚܕܪ̈ܝ ܩܘܣܛܢܛܝܢܐ ܡܕܝܢܬܐ: ܘܐܝܠܝܢ ܕܐܝܬ ܒܟܘܪܐ  ܕܝܠܗ̇: ܡܗܝ̈ܡܢܐ ܫܪ̈ܝܪܐ ܗܕ̈ܡܐ ܩ̈ܕܝܫܐ: ܣܪ̈ܝܓܝ ܒܓܘܫܡܗ ܫܪܝܪܐ ܕܡܫܝܚܐ ܐܠܗܢ: ܏ܘܫ. <locus from="219b"/></incipit>
+                  <finalRubric xml:lang="syr">ܫܠܡܬ ܐܓܪܬܐ ܕܚܣܝܐ ܘܩܕܝܫܐ ܝܘܚܢܢ ܐܦܝܣܩܦܐ ܕܬܠܐ.<locus from="226b"/></finalRubric>
+                  <listBibl>
+                    <bibl>Assenmani, Bibl. Or., t. ii., p. 53</bibl>
+                  </listBibl>
                 </msItem>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
-                <supportDesc material=""><!-- @material can be "chart" (paper), "mixed", "perg" (parchment/vellum), or "unknown" -->
+              <objectDesc form="codex">
+                <supportDesc material="perg">
                   <support>
-                    <material><!-- Use Wright's vocabulary for material here --></material>
+                    <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""><!-- Enter the number of folia here (followed by "f." if a single folio and by "ff." if more than one folia) and in @quantity (e.g., ...quantity="25"> 25 ff. </measure>) --></measure>
+                    <measure type="composition" unit="leaf" quantity="226">226 ff.</measure>
                     <dimensions type="" unit="in">
-                      <!-- @type can be "binding", "boxed", "leaf", "line-height", "slip", "unknown" or "written". Will usually be "leaf". -->
-                      <!-- @unit can be "chars", "cm", "in", "lines" or "mm". Will usually be "in". -->
                       <height>
-                        <measure type="height" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="height" quantity="10.875" unit="in">10 7/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"><!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="width" quantity="7.25" unit="in">7 1/4</measure>
                       </width>
                     </dimensions>
-                    <!-- Repeat the <dimensions> block as needed to record all types of measurements that Wright supplies
-                      e.g., <dimensions type="written" unit="in">
-                      <height></height>
-                      <width></width>
-                    </dimensions>, etc. -->
                   </extent>
-                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
+                  <foliation/>
                   <collation>
-                    <p><!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.--></p>
+                    <p>The quires, signed with letters, are 23 in number.</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any  persons, places, foreign words, etc. as necessary. Tagging loci is necessary, but adding @from and @to is optional. --></p>
-                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
+                        <p>Some of the leaves are much stained and torn, especially foll. <locus from="8">8</locus>, <locus from="87" to="90">87—90</locus> and <locus from="226">226</locus>.</p>
+                      </item>
+                      <item>
+                        <p>Single leaves are missing after foll. <locus from="11">11</locus> and <locus from="128">128</locus>.</p>
+                      </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines=""><!-- @writtenLines should not contain anything but numbers and whitespaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
-                    <locus from="" to=""/><!-- Only use locus if there is more than one layout in the MS, eg if the number of columns changes half of the way through -->
-                    <p><!-- Include Wright's prose here --></p>
-                  </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
+                  <layout columns="2" writtenLines="34 49">
+                    <p>Each page is divided into two columns, of from 34 to 49 lines.</p>
+                  </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands=""><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
-                <handNote xml:id="handNote1" scope="" script="" medium=""><!-- @xml:id should be sequentially assigned as "handNote1", "handNote2", and so on. -->
-                  <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                  <!-- @script please use the ISO code combinations cited here: ___ -->
-                  <!-- @medium may contain any phrasing Wright may mention (using hyphens between words, not white space), or "unknown" if he does not -->
-                  <desc><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
-                </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
+              <handDesc hands="4">
+                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>This volume is written in a good, regular Estrangela of the <origDate notBefore="0700" notAfter="0900" calendar="Gregorian">viiith or ixth cent.</origDate> <ref target="#addition1">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#addition3">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="handNote3" scope="minor" script="ar" medium="unknown">
+                  <desc><ref target="#addition4">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="handNote4" scope="minor" script="grc" medium="unknown">
+                  <desc><ref target="#addition5">See additions.</ref></desc>
+                </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "decoNote1", "decoNote2", etc. -->
-                  <!-- There are many valid entries for @type. See manual for a complete list. -->
-                  <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
-                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
-              </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+              <decoDesc/>
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <p/>
                 <list>
                   <item n="1" xml:id="addition1">
                     <locus from="226b"/>
@@ -708,31 +716,31 @@
                     <ref target="#c7"/>
                     <p>marg. <foreign xml:lang="grc">ⲤΥΝΤΑΚΤΗΡΙΟΝ</foreign></p>
                   </item>
+                  <item n="3" xml:id="addition3">
+                    <locus from="226b"/>
+                    <p>A note, subsequent to the <ref target="#addition1">colophon</ref>, of later date, has been erased, with the exception of the words:</p>
+                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ</quote></p>
+                  </item>
+                  <item n="4" xml:id="addition4">
+                    <locus from="1a"/>
+                    <p>An Arabic note on fol. 1a has been erased.</p>
+                  </item>
+                  <item n="5" xml:id="addition5">
+                    <p>On the margins of this manuscript, as on those of the <ref target="http://syriaca.org/manuscript/28">preceding</ref>, there are written a considerable number of notes, and words in Greek characters.</p>
+                  </item>
                 </list>
-              </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
-              <bindingDesc>
-                <binding xml:id="binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
-                <decoNote xml:id="bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
-                <condition/><!-- Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. -->
-              </bindingDesc><!-- IF <bindingDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <sealDesc>
-                <seal xml:id="seal1" contemporary="">
-                  <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-                </seal><!-- <seal> block may be repeated as necessary for each seal. -->
-              </sealDesc><!-- IF <sealDesc> IS NOT USED, delete nested elements and make it an empty element.-->
-              <accMat><!-- Use this for any mention of closely-related accompanying material (documents, artifacts, letters) which are associated with the <msPart> -->
-                <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
-              </accMat><!-- IF <accMat> IS NOT USED, delete nested elements and make it an empty element.-->
+              </additions>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="" notAfter=""><!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origPlace><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
+                <origDate notBefore="0700" notAfter="0900" calendar="Gregorian">viiith or ixth cent.</origDate>
+                <origPlace/>
               </origin>
-              <provenance>
-                <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
-              </provenance><!-- IF <provenance> IS NOT USED, delete nested elements and make it an empty element.-->
-              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
+              <provenance/>
+              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -740,11 +748,11 @@
                   <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
-                  <custEvent type="">
-                    <p/>
-                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
-                </custodialHist><!-- IF <custodialHist> IS NOT USED, delete nested elements and make it an empty element.-->
+                <custodialHist>
+                  <custEvent type="conservation">
+                    <p>Foll. <locus from="88" to="89">88 and 89</locus> have been unskilfully repaired.</p>
+                  </custEvent>
+                </custodialHist>
                 <note/>
               </adminInfo>
               <listBibl>
@@ -754,8 +762,8 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                  <citedRange unit="entry">DLVI</citedRange>
+                  <citedRange unit="pp">II:428-431</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -850,37 +858,24 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target=""/>       
+            <ref target="#theology"/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
+      <change when="2014-03-18" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed:<ref target="#b3">Syriac in the incipit.</ref></change>
+      <change type="planned" subtype="greek">Add in missing Greek characters. <ref target="#addition2"/></change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <!-- facsimile information about the manuscript -->
     <graphic/>
-    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-      elements to give coordinates for any special areas of interest -->
   </facsimile>
   <text>
     <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
       <p/>
     </body>
   </text>
