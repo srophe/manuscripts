@@ -83,91 +83,201 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
-                <!-- Note the convention for <msItem> attributes. @n is a steady, uninterrupted count of all <msItem>s in this <msPart>, regardless ofhierarchical level. It does not break or restart until another <msPart>. @xml:id consists of 2 units:  the msItem hierarchy position [a] and the hierarchy count [1].-->
-                <!-- Use  @defective for any msitems which Wright explicitly reports as imperfect or wanting, or delete it if he does not-->
-                <locus from="" to=""><!-- Enter human-readable locus also --></locus>
-                <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-                <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </rubric>
-                <incipit xml:lang="syr"><!-- If the opening lines of the text proper of the msItem are given put it here, Wright may call this "it begins" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </incipit>
-                <quote xml:lang="syr"><!-- If Wright gives any other quote from the original that does not fit into one of the above or below categories, put it here (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </quote>
-                <explicit xml:lang="syr"><!-- If the closing lines of the text proper of the msItem are given put it here. Wright appears not to give many explicits. (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </explicit>
-                <finalRubric xml:lang="syr"><!-- Put here any additional prose original to the manuscript that denotes the end or division of this msItem from the next, Wright may call this a "subscription" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </finalRubric>
+                <locus from="1" to="244">Foll. 1-244</locus>
+                <author/>
                 <colophon>
-                  <ref target="">See below.<!-- The colophon is distinguished from the final rubric in that it is not necessarily about the end of the text. It may be a note about the original scribe or patron. The text of the colophon is NOT included here but below as an addition, the ref target provides the link -->
-                  </ref>
+                  <ref target="#addition1 #addition2">See additions.</ref>
                 </colophon>
-                <note><!-- Any additional notation supplied by Wright (otherwise this element may be deleted) --></note>
-                <listBibl>
-                  <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="a2" defective=""><!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem>. -->
-                <locus from="" to=""><!-- Enter human-readable locus also --></locus>
-                <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-                <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </rubric>
-                <incipit xml:lang="syr"><!-- If the opening lines of the text proper of the msItem are given put it here, Wright may call this "it begins" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </incipit>
-                <quote xml:lang="syr"><!-- If Wright gives any other quote from the original that does not fit into one of the above or below categories, put it here (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </quote>
-                <explicit xml:lang="syr"><!-- If the closing lines of the text proper of the msItem are given put it here. Wright appears not to give many explicits. (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </explicit>
-                <finalRubric xml:lang="syr"><!-- Put here any additional prose original to the manuscript that denotes the end or division of this msItem from the next, Wright may call this a "subscription" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </finalRubric>
-                <colophon>
-                  <ref target="">See below.<!-- The colophon is distinguished from the final rubric in that it is not necessarily about the end of the text. It may be a note about the original scribe or patron. The text of the colophon is NOT included here but below as an addition, the ref target provides the link -->
-                  </ref>
-                </colophon>
-                <note><!-- Any additional notation supplied by Wright (otherwise this element may be deleted) --></note>
-                <listBibl>
-                  <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
-                </listBibl>
-                <msItem n="3" xml:id="b1" defective=""><!-- Note how the @xml:id changes here to indicate a nested msItem within item number 2. @n shows <msItem> #3. @xml:id shows the first b-level <msItem>. Note also that <msItem n="2"...> has not closed yet.-->
-                  <locus from="" to=""><!-- Enter human-readable locus also --></locus>
-                  <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-                  <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                  <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </rubric>
-                  <incipit xml:lang="syr"><!-- If the opening lines of the text proper of the msItem are given put it here, Wright may call this "it begins" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </incipit>
-                  <quote xml:lang="syr"><!-- If Wright gives any other quote from the original that does not fit into one of the above or below categories, put it here (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </quote>
-                  <explicit xml:lang="syr"><!-- If the closing lines of the text proper of the msItem are given put it here. Wright appears not to give many explicits. (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </explicit>
-                  <finalRubric xml:lang="syr"><!-- Put here any additional prose original to the manuscript that denotes the end or division of this msItem from the next, Wright may call this a "subscription" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                <msItem n="2" xml:id="b1" defective="true">
+                  <locus from="2b" to="236a">Foll. 2b-236a</locus>
+                  <author ref="http://syriaca.org/person/511">Gregory of Nazianzus</author>
+                  <title ref="" type="supplied">The first part of the works of Gregory Nazianzen, translated by the abbat <persName>Paul</persName></title>
+                  <finalRubric xml:lang="syr"> ܫܠ̣ܡܬ݁ ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܩܕܝܫܐ ܓܪܝܓܘܪܝܘܣ ܬܐܘܠܘܓܘܣ܇  ܐܦܝܣܩܘܦܐ ܕܢܐܙܝܢܙܘ.
+                    <locus from="236a"/>
                   </finalRubric>
                   <colophon>
-                    <ref target="">See below.<!-- The colophon is distinguished from the final rubric in that it is not necessarily about the end of the text. It may be a note about the original scribe or patron. The text of the colophon is NOT included here but below as an addition, the ref target provides the link -->
-                    </ref>
+                    <ref target="#addition3">See additions.</ref>
                   </colophon>
-                  <note><!-- Any additional notation supplied by Wright (otherwise this element may be deleted) --></note>
-                  <listBibl>
-                    <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
-                  </listBibl>
+                  <msItem n="3" xml:id="c1">
+                    <locus from="2b" to="4">Foll. 2b-4</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied">An index to the 30 discourses that form this part</title>
+                    <rubric xml:lang="syr"> ܩ̈ܦܠܐܐ ܕܦܢܩܝܬܐ ܩܕܡܝܬܐ̣ ܕܩܕܝܫܐ ܘܠܒ̣ܝܫ ܠܐܠܗܐ ܓܪܝܓܘܪܝܘܣ ܬܐܘܠܘܓܘܣ: ܐܦܝܣܩܘܦܐ ܕܢܐܙܝܢܙܘ:  ܕܦܫܩܗ̇ ܡܢ ܝܘܢܝܐ ܠܣܘܪܝܝܐ̣. ܚܣܝܐ ܘܡܝܩܪ ܡܢ ܐܠܗܐ ܐܒܘܣ ܡܪܝ ܦܘܠܐ̣. ܒܩܘܦܪܘܣ ܓܙܪܬܐ. ܒܫܢܬ ܬܫܥܡܐܐ ܘܬ̈ܠܬܝܢ ܘܚ̈ܡܫ: ܐܢܕܩܛܝܘܢܐ ܕܕܘܕܩܛܐ. ܡܣܝܟܝܢ ܕܝܢ ܒܗ̇ ܡܐ̈ܡܪܐ̣ ܬܠܬܝܢ.<locus from="2b"/></rubric>
+                  </msItem>
+                  <msItem n="4" xml:id="c2">
+                    <locus from="4b" to="6">Foll. 4b-6</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In sanctum Pascha et in tarditatem</title>
+                  </msItem>
+                  <msItem n="5" xml:id="c3">
+                    <locus from="6a" to="8">Foll. 6a-8</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Ad eos qui ipsum acciverant, nec occurrerant</title>
+                  </msItem>
+                  <msItem n="6" xml:id="c4">
+                    <locus from="8a" to="33">Foll. 8a-33</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Apologetica</title>
+                  </msItem>
+                  <msItem n="7" xml:id="c5">
+                    <locus from="33a" to="43">Foll. </locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Funebris in laudem <persName>Caesarii</persName> fratris</title>
+                  </msItem>
+                  <msItem n="8" xml:id="c6">
+                    <locus from="43a" to="51">Foll. 43a-51</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In patrem tacentem propter plagam grandinis</title>
+                  </msItem>
+                  <msItem n="9" xml:id="c7">
+                    <locus from="51a" to="52">Foll. 51a-52</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In seipsum, ad patrem et <persName ref="http://syriaca.org/person/376">Basilium</persName> magnum, post reditum e fuga</title>
+                  </msItem>
+                  <msItem n="10" xml:id="c8">
+                    <locus from="52b" to="54">Foll. 52b-54</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Apologeticus ad patrem suum <persName>Gregorium</persName>, praesente <persName ref="http://syriaca.org/person/376">Basilio</persName> magno</title>
+                  </msItem>
+                  <msItem n="11" xml:id="c9">
+                    <locus from="54b" to="57">Foll. 54b-57</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Ad <persName ref="http://syriaca.org/person/512">Gregorium Nyssenum</persName></title>
+                  </msItem>
+                  <msItem n="12" xml:id="c10">
+                    <locus from="57a" to="59">Foll. 57a-59</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Ad patrem, cum ei <placeName>Nazianzenae</placeName> ecclesiae curam commiserat</title>
+                  </msItem>
+                  <msItem n="13" xml:id="c11">
+                    <locus from="59b" to="68">Foll. 59b-68</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Prima de pace oratio</title>
+                  </msItem>
+                  <msItem n="14" xml:id="c12">
+                    <locus from="68a" to="73a">Foll. 68a-73a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Tertia de pace oratio</title>
+                    <msItem n="15" xml:id="d1">
+                      <locus from="73a" to="74">Foll. 73a-74</locus>
+                      <author/>
+                      <title ref="" type="supplied">Note</title>
+                    </msItem>
+                  </msItem>
+                  <msItem n="16" xml:id="c13">
+                    <locus from="74a" to="80">Foll. 74a-80</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Secunda de pace oratio</title>
+                  </msItem>
+                  <msItem n="17" xml:id="c14">
+                    <locus from="80b" to="86">Foll. 80b-86</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">De suis sermonibus et ad <persName>Julianum</persName> tributorum exaequatorem</title>
+                  </msItem>
+                  <msItem n="18" xml:id="c15">
+                    <locus from="86b" to="91">Foll. 86b-91</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Ad cives <placeName>Nazianzenos</placeName> gravi timore perculsos, et praefectum irascentem</title>
+                  </msItem>
+                  <msItem n="19" xml:id="c16">
+                    <locus from="91a" to="95">Foll. 91a-95</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In novam Dominicam</title>
+                  </msItem>
+                  <msItem n="20" xml:id="c17">
+                    <locus from="95b" to="104">Foll. 95b-104</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Funebris in laudem sororis suae <persName>Gorgoniae</persName></title>
+                  </msItem>
+                  <msItem n="21" xml:id="c18" defective="true">
+                    <locus from="104a" to="122">Foll. 104a-122</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Funebris in patrem, praesente <persName ref="http://syriaca.org/person/376">Basilio</persName></title>
+                  </msItem>
+                  <msItem n="22" xml:id="c19" defective="true">
+                    <locus from="122b" to="129">Foll. 122b-129</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In Theophania, sive Natalitia Salvatoris</title>
+                  </msItem>
+                  <msItem n="23" xml:id="c20">
+                    <locus from="129a" to="137">Foll. 129a-137</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In sancta Lumina</title>
+                    <msItem n="24" xml:id="d2">
+                      <locus from="137b" to="142">Foll. 137b-142</locus>
+                      <author/>
+                      <title ref="" type="supplied">Notes</title>
+                    </msItem>
+                  </msItem>
+                  <msItem n="25" xml:id="c21">
+                    <locus from="142b" to="149">Foll. 142b-149</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In Pentecosten</title>
+                  </msItem>
+                  <msItem n="26" xml:id="c22">
+                    <locus from="149b" to="154">Foll. 149b-154</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Adversus <name>Eunomianos</name> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica prima</supplied></title>
+                  </msItem>
+                  <msItem n="27" xml:id="c23">
+                    <locus from="154a" to="164">Foll. 154a-164</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">De Filio <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica tertia</supplied></title>
+                  </msItem>
+                  <msItem n="28" xml:id="c24">
+                    <locus from="164a" to="173">Foll. 164a-173</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">De Filio <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica quarta</supplied></title>
+                  </msItem>
+                  <msItem n="29" xml:id="c25">
+                    <locus from="173b" to="186">Foll. 173b-186</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">De Spiritu Sancto <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica quinta</supplied></title>
+                  </msItem>
+                  <msItem n="30" xml:id="c26">
+                    <locus from="186a" to="193">Foll. 186a-193</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">Adversus <name>Arianos</name> et de seipso</title>
+                  </msItem>
+                  <msItem n="31" xml:id="c27">
+                    <locus from="193a" to="200">Foll. 193a-200</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In <name>Machabaeorum</name> laudem</title>
+                  </msItem>
+                  <msItem n="30" xml:id="c28">
+                    <locus from="200a" to="207">Foll. 200a-207</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In laudem <choice><abbr>s.</abbr><expan>sancti</expan></choice> martyris <persName>Cypriani</persName></title>
+                  </msItem>
+                  <msItem n="31" xml:id="c29">
+                    <locus from="207b" to="216">Foll. 207b-216</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In laudem <persName>Heronis</persName> philosophi</title>
+                  </msItem>
+                  <msItem n="32" xml:id="c30">
+                    <locus from="216b" to="221">Foll. 216b-221</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In <name>Aegyptiorum</name> adventum</title>
+                  </msItem>
+                  <msItem n="33" xml:id="c31">
+                    <locus from="221b" to="236a">Foll. 221b-236a</locus>
+                    <author ref="http://syriaca.org/person/511"/>
+                    <title ref="" type="supplied" xml:lang="la">In laudem magni <persName>Athanasii</persName></title>
+                  </msItem>
                 </msItem>
-              </msItem><!-- <msItem n="2" xml:id="a2"> closes here after its subordinated item(s). -->
+                <msItem n="33" xml:id="b2" defective="true">
+                  <locus from="236b" to="244">Foll. 236b-244</locus>
+                  <author ref=""/>
+                  <title ref="">An appendix to the manuscript</title>
+                  <note>As an appendix there are added the following pieces:</note>
+                  <msItem n="34" xml:id="c32">
+                    <locus from="236b" to="240">Foll. 236b-240</locus>
+                    <author ref=""/>
+                    <title ref="" type="supplied">Extracts from the writings of <persName>Severus, bishop of <supplied reason="illegible" resp="http://syriaca.org/editors.xml#wwright"><placeName>Nisibis</placeName></supplied></persName> (?), <sic>ܢܨܝܒܢܝܐ</sic> ܐܦܝܣܩܘܐ</title>
+                    
+                  </msItem>                  
+                </msItem>
+              </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
@@ -227,17 +337,41 @@
                 </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
               </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <p/>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="" to=""/><!-- locus may be deleted if addition applies throughout entire document. Does NOT need to be human-readable -->
-                    <p></p><!-- Enter English prose here -->
-                    <p><quote xml:lang="syr"><!-- Enter the Syriac quote here if applicable --></quote></p>
-                  </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                    <locus from="1a"/>
+                    <p>A note on fol. 1a informs us that the book was presented to the <placeName>convent of S. Mary Deipara</placeName> by the deacon <persName>David</persName> during the time that <persName>Salībā</persName> was abbat:</p>
+                    <p><quote xml:lang="syr"> ܫܟܢܗ ܕܝܢ ܠܟܬܒܐ ܗܢܐ ܕܘܝܕ ܡܫ ܕܝܪܝܐ ܡܚܣܐ ܠܗ ܐܠܗܐ ܘܠܥܢܝ̈ܕܘܗܝ ܒܝܘܡܝ ܨܠܝܒܐ ܪܝܫܕܝܪܐ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪܝܝܐ ܕܒܡܕܒܪܐ ܟܠ ܕܓܢܒܠܗ ܐܘ ܡܙܒܢ ܠܗ ܡܚܪܡܐ ܢܗܘܐ ܡܢ ܐܠܗܐ.</quote></p>
+                    </item>
                   <item n="2" xml:id="addition2">
-                    <locus from="" to=""/>
-                    <p></p>
-                    <p><quote xml:lang="syr"></quote></p>
+                    <locus from="1a" to="1b"/>
+                    <p>On the same page there are written, in large Greek characters, the words:</p>
+                    <p><quote xml:lang="grc">ΤΙΜΟΘΕΥΩⲤ ΕΠΗΚΟΠΟⲤ ΤΟ ΑΡΧΗΜΧΑΤ</quote></p>
+                    <p>and on fol. 1b:</p>
+                    <p><quote xml:lang="grc">ΤΙΜΟΘΕΥΟⲤ: ΤΟ:  ΑΡΧΙΜΧΑΤ:</quote></p>
+                    <p>which are intended for <foreign xml:lang="grc"><persName>Τιμόθεος</persName> ἐπίσκοπος τοῦ</foreign> <placeName xml:lang="syr">ܐܪܫܡܫܛ</placeName> and <foreign xml:lang="grc"><persName>Τιμόθεος</persName> τοῦ </foreign><choice><corr><placeName>Arsamosata</placeName></corr> <orig><placeName xml:lang="grc">'Αρσαμόσατα</placeName></orig></choice>.</p>
+                  </item>
+                  <item n="3" xml:id="addition3">
+                    <locus from="236a"/>
+                    <p>Under the final rubric we read:</p>
+                    <p><quote xml:lang="syr"> ܦܚܡ ܟܬܒܐ ܗܢܐ ܬܐܘܡܐ ܡܢ ܥܘܡܪܐ ܩܕܝܫܐ ܕܝܚ̈ܝܕܝܐ ܕܩܠܬ , ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ. ܐܠܗܐ ܚܘܢܝܗܝ </quote></p>
+                    <p><quote><persName>Thomas</persName>, from the holy <placeName>convent of the monks of Kellat</placeName>, collated this book. Let every one who reads, pray for him: 'May God have mercy on him.'</quote> See <bibl>Assemani, Bibl. Orient., t. ii.,p. 231</bibl>.</p>
+                  </item>
+                  <item n="4" xml:id="addition4">
+                    <p>The margins of this manuscript are covered with notes, and words written in Greek characters, some of which have been added by later hands (See, for example, foll. <locus from="12a" to="12b">12a and b</locus>, <locus from="14a">14a</locus>, <locus from="15b">15b</locus>, <locus from="41a">41a</locus>, etc.). 
+                      
+                      <title ref="" type="supplied">Extracts from the writings of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName></title> are given on foll. <locus from="37a">37a</locus>,
+                      
+                      <locus from="71a">71a</locus> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><title>letter to <placeName>Caesaria</placeName></title></supplied>, 
+                      
+                      <locus from="73a">73a</locus>, 
+                      
+                      <locus from="152b">152b</locus> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><title><foreign xml:lang="syr">ܡܛܠ ܡܘܙܓܐ</foreign></title></supplied>
+                      
+                      and <locus from="174b">174b</locus> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><title>letter to <persName>Isidorus Comes</persName></title></supplied>.
+                      
+                      This last has the name of the patriarch <persName ref="http://syriaca.org/person/109"><choice><corr>Athanasius II. </corr><orig xml:lang="syr">ܐܬܢܣܝܘܣ</orig></choice></persName> attached to it as the annotator.</p>
                   </item>
                 </list>
               </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
