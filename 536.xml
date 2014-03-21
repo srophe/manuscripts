@@ -12,7 +12,6 @@
         <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
@@ -25,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -346,6 +345,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-09-13" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-03-21" who="http://syriaca.org/editors.xml#thannah">Initial edit: minor changes</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -350,6 +350,7 @@
     <revisionDesc>
       <change when="2013-09-13" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
+      <change when="2014-03-21" who="http://syriaca.org/editors.xml#thannah">Initial edit: minor changes</change>
        <change type="planned" subtype="coptic">Add in missing Coptic characters</change>
     </revisionDesc>
   </teiHeader>

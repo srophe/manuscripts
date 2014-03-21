@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -308,7 +308,7 @@
               <textLang mainLang="syr">Syriac</textLang>
                <msItem n="1" xml:id="p2a1" defective="true">
                   <locus from="110" to="114">Foll. 110-114</locus>
-                  <title ref="http://syriaca.org/work/159" type="supplied">Fragments of the Epistles of S. Paul, according to the Peshitta ver¬sion </title>
+                  <title ref="http://syriaca.org/work/159" type="supplied">Fragments of the Epistles of S. Paul, according to the Peshitta version </title>
                   <msItem n="2" xml:id="p2b1" defective="unknown">
                      <locus from="110" to="111">Foll. 110-111</locus>
                      <title type="supplied" ref="http://syriaca.org/work/77">Romans</title>
@@ -493,6 +493,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-10" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-03-21" who="http://syriaca.org/editors.xml#thannah">Initial edit: minor changes</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
