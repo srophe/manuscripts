@@ -84,6 +84,7 @@
                <msItem n="1" xml:id="a1">
                   <locus from="1b" to="101a">Foll. 1b-101a</locus>
                   <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta ver¬sion </title>
+                 <colophon><ref target="#addition8">See additions.</ref></colophon>
                   <msItem n="2" xml:id="b1">
                      <locus from="1b" to="21">Foll. 1b-21</locus>
                      <title type="supplied" ref="http://syriaca.org/work/77">Romans</title>
@@ -374,6 +375,7 @@
     <revisionDesc>
       <change when="2013-10-08" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric and added finalRubric type="doxology"</change>
+      <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
