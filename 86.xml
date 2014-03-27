@@ -92,7 +92,7 @@
                 </finalRubric>
                 <note>The chief portion of the text missing is 1 Kings, ch. xxii. 20—34</note>
                 <note>The lessons are marked in the text in the usual way, and <ref target="#a1">an index of them is prefixed to the volume, fol. 1b</ref>.</note> 
-                <colophon><ref target="#addition1 #addition2">See below</ref>.</colophon>
+                <colophon><ref target="#addition1 #addition2 #addition3 #addition4">See below</ref>.</colophon>
               </msItem>
             </msContents>
             <physDesc>
@@ -319,6 +319,7 @@
     <revisionDesc>
       <change when="2013-07-10" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-08-17" who="http://syrica.org/editors.xml#thannah">Initial edit</change>
+      <change when="2014-03-26" who="http://syrica.org/editors.xml#jarnwine">Edits to reflect colophons</change>
       <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>

@@ -78,6 +78,10 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
+                <locus from="1" to="230">Foll. 1-230</locus>
+                <title ref="" type="supplied">Four books of the Pentateuch, according to the Peshitta version.</title> 
+                <colophon><ref target="#addition3 #addition4 #addition5">See additions.</ref></colophon>
+              <msItem n="2" xml:id="b1" defective="true">
                 <locus from="1" to="60a"/>
                 <title ref="http://syriaca.org/work/1" type="supplied">Genesis, according to the Peshitta version.</title>
                 <finalRubric xml:lang="syr">ܫܠܡ. ܣܦܪܐ. ܩܕܡܝܐ. ܒܪܝܬܐ<locus from="60a" to="60a"/>
@@ -88,7 +92,7 @@
                     —v. 25. <foreign xml:lang="syr">ܡܢ ܠܥܠ܆ ܒܘܪܟܬܐ</foreign> —v. 26. <foreign xml:lang="syr">ܒܘܪ̈ܟܬܐ ܕܐܒܘܟ ܥܼܫܢ</foreign>  —v. 28. <foreign xml:lang="syr">ܗܠܝܢ ܟܠܗܘܢ</foreign>  —v. 30. <foreign xml:lang="syr">ܚܬܝܐ ; ܡܡܪܐ ܒܐܪܥܐ ܕܟܢܥܢ܇ ܕܙܒܼܢ ܐܒܪܗܡ ܚܩܠܐ ܡܢ; ܚܬܝܐ</foreign>
                 </p></note>
               </msItem>
-              <msItem n="2" xml:id="a2" defective="true">
+              <msItem n="3" xml:id="b2" defective="true">
                 <locus from="60a" to="115b"/>
                 <title ref="http://syriaca.org/work/2" type="supplied">Exodus, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܡܦܩܢܐ. ܣܦܪܐ ܕܬܪ̈ܝܢ ܕܐܘܪܝܬܐ
@@ -103,7 +107,7 @@
                   </p>
                   <p>Exod. xx. 1—17. v. 2. ܕܐܦܩܬܟ —v. 4. ܘܠܐ ܬܥܒܕ ; ܟܘܠ ܨܠܡ ܘܟܘܠ — v. 5. ܦܪܥ ܚܛܗ̈ܐ —v. 6. ܛܝܒܘܬܐ ܥܠ ܐܠܦܐ ܠܪ̈ܚܡܝ̣ (a modern hand has pointed ܐܠܦ̈ܐ and inserted ܕܕܪܝܢ).— v. 9. ܐܫܬܐ ܝܘܡ̈ܝܢ ; ܟܘܠ ܥܒܕܟ.— V. 10. ܠܐ ܬܥܒ̣ܕ  ܟܘܠ ܥܒܿܕ   ; ܘܬܘܬܒܟ —v. 11, ܘܟܘܠ ܕܐܝܬ ; ܘܐܬܢܝܚ ; ܒܪܟ ܡܪܝܐ ܝܘܡܐ ܕܫܒܥܐ ܘܩܕܫܗ —v. 16. ܠܐ ܬܣ̣ܗܕ ܒܚܒܪܟ —v. 17..ܘܠܐ ܬܪܓ ܐܢܬܬܗ
                 </p></note>
-                <msItem n="3" xml:id="a3" defective="true">
+                <msItem n="4" xml:id="b3" defective="true">
                   <locus from="116a" to="177a"/>
                   <title ref="http://syriaca.org/work/4" type="supplied">Numbers, according to the Peshitta version.</title>
                   <rubric xml:lang="syr">ܡܢܝܢܐ ܣܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ 
@@ -114,13 +118,14 @@
                   <note><p>Portions of the text are missing: after fol. <locus>119</locus>, Num. ii. 34—iii. 25.</p></note>
                 </msItem>
               </msItem>
-              <msItem n="4" xml:id="a4" defective="true">
+              <msItem n="5" xml:id="b4" defective="true">
                 <locus from="177a" to="177a"/>
                 <title ref="http://syriaca.org/work/5" type="supplied">Deuteronomy, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܬܢܝܢ ܢܡܘܣܐ ܣܦܪܐ ܕܚܡܫܐ ܕܐܘܪܝܬܐ
                   <locus from="177a" to="177a"/></rubric>
                 <note><p>Portions of the text are missing: after fol. <locus>230</locus>, Deut. xxxiv. 2 to the end.</p>
                   <p>Deut. xxxii. 1—43. v. 1. ܬܫܡܥ ܐܪܥܐ — v. 2. ܐܝܟ ܛܠܐ ; ܘܐܝܟ ܐܪ̈ܣܝܣܐ —v. 4. ܙܕܝܩܐ ܗܘ ܘܬܪܝܨܐ —v. 6..ܗܼܘ ܥܒܕܟ —v. 8. ܕܟܕ ܡܦܠܓ ; ܒܢ̈ܝ ܐܢܫܐ ; ܘܡܢܝܢܐ ܠܒܢ̈ܝ ܐܝܣܪܝܠ —v.9. ܡܛܘܠ —v. 11. ܐܝܟ ܢܫܪܐ — v. 12. ܐܠܗܝ ܢܘܟܪܝ — v. 17. ܠܐ ܕܚܠܘ — v. 20. ܡܛܘܠ —v. 21. ܐܛܢܘܗܝ ; ܒܠܐ ܥܡܝ —v. 22. ܘܬܐܟܘܠ —v. 24. ܘܢܬܛܪܦܘܢ —v. 25. ܬܓܝܙ ;  ܬܘ̈ܢܐ —v. 26. ܐܡܪܬ —v. 27. ܢܬܬܪܝܡܘܢ ܒܥܠܕܒ̈ܒܝܗܘܢ ; ܐܬܪܝܡܬ —v. 33. ܘܪܫܐ — v. 35. ܕܝܠܝ ܗܘ —v. 36. ܡܬܒܝܐ — v. 38. ܘܬܪܥܐ. —v. 39. ܘܠܝܬ ܐܠܗܝ. –v. 41. ܐܦܟ ܦܘܪܥܢܐ ܠܣ̈ܢܐܝ. V. 42 ܢܟܘܠ ܒܣܪܐ.</p></note>
+              </msItem>
               </msItem>
             </msContents>
             <physDesc>
@@ -373,7 +378,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-07-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
+      <change when="2013-07-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophons.</change>
       <change type="planned" subtype="missing">Add missing vowels.</change>
       </revisionDesc>
   </teiHeader>
