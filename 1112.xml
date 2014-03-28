@@ -86,6 +86,7 @@
                   <locus from="4a" to="315b">Foll. 4a-315b</locus>
                   <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
                   <title type="supplied" ref="http://syriaca.org/work/196">The four Gospels, in Arabic translation with Syriac characters</title>
+                 <colophon><ref target="#addition3 #addition4">See additions.</ref></colophon>
                   <note>The text and translation occupy parallel columns.</note>
                   <msItem n="3" xml:id="b1" defective="true">
                      <locus from="4a" to="99">Foll. 4a-99</locus>
@@ -332,6 +333,7 @@
       <change when="2013-08-06" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
       <change when="2013-11-01" who="http://syriaca.org/editors.xml#thannah http://syriaca.org/editors.xml#jarnwine">Updated finalRubric.</change>
+      <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon. <!-- There was a question of the hierarchy of the text with relation to the colophon. Should the index and biblical texts be filed as "b" items under a1 so the colophon may be considered part of the MS as a whole? --></change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>

@@ -83,7 +83,7 @@
                  <rubric xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܦܠܐ̈ܬܐ ܕܫܠܝܡܘܢ̣. ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ
                   <locus from="1" to="1"/>
                 </rubric>
-                 <colophon><ref target="#addition1">See additions.</ref></colophon>
+                 <colophon><ref target="#addition1 #addition2">See additions.</ref></colophon>
               </msItem>
               <msItem n="2" xml:id="a2" defective="true">
                 <locus from="3b" to="48">Foll. 3b-48</locus>
@@ -334,6 +334,7 @@
     <revisionDesc>
       <change when="2013-07-11" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-09-06" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
+      <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

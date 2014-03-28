@@ -105,6 +105,7 @@
               <rubric xml:lang="syr">ܥܠ ܣܲܒ݂ܪܐ ܘܬܘܼ݊ܟܠܳܢܐ ܕܚ̇ܝ̣ܠܐ ܕܡܪܢ ܘܐܠـ[ܗܐ] ܕܝܠܢ ܝܫܘܥ ܡܫܝ̣ܚܐ:
                 ܡ̇ܫܰܪܸܝܢܢ ܠܡܹܟ̣ܬܰ[ܒ] ܐܹܓ̣ܪ̈ܳܬܴܐ ܕܦܘܠܘܣ ܫܠܝ̣ܚܐ ܛܘܼܒܳܢܐ. <locus from="3b" to="3b"/>
               </rubric>
+              <colophon><ref target="#addition2 #addition3 #addition4">See additions.</ref></colophon>
               <msItem n="3" xml:id="b1" defective="true">
                 <locus from="3b" to="28">Foll. 3b-28</locus>
                 <title ref="http://syriaca.org/work/77" type="supplied">Romans</title>
@@ -381,6 +382,7 @@
     <revisionDesc>
       <change when="2013-10-16" who="http://syriaca.org/editors.xml#emjohnson http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change when="2013-11-01" who="http://syriaca.org/editors.xml#thannah http://syriaca.org/editors.xml#jarnwine">Updated finalRubric.</change>
+      <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect <ref target="#a2">colophon</ref>. <!-- Should the hierarchy be changed so the colophon may be considered a part of the whole MS? As of right now, it is under a2. --></change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>

@@ -81,6 +81,7 @@
               <msItem n="1" xml:id="a1">
                 <locus from="1b" to="42b"/>
                 <title ref="http://syriaca.org/work/23" type="supplied">The book of Isaiah, according to the Peshitta version.</title>
+                <colophon><ref target="#addition3">See additions.</ref></colophon>
               </msItem>
               <msItem n="2" xml:id="a2">
                 <locus from="42b" to="87a"/>
@@ -430,6 +431,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-01" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
