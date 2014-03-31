@@ -88,6 +88,7 @@
               <msItem n="2" xml:id="a2" defective="unknown">
                 <locus from="4" to="172b">Foll. 4-172b</locus>
                 <title ref="http://syriaca.org/work/70" type="supplied">The New Testament</title>
+                <colophon><ref target="#addition1 #addition2 #addition3">See additions.</ref></colophon>
                 <note></note>
                 <msItem n="3" xml:id="b1" defective="unknown">
                   <locus from="4" to="67b">Foll. 4-67b</locus>
@@ -410,6 +411,7 @@
     <revisionDesc>
       <change when="2013-07-18" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted colophon element which described @addition4</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change type="planned" subtype="question">Question in Word Doc to be addressed.</change>
        <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
