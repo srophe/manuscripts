@@ -80,6 +80,7 @@
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="205">Foll. 1-205</locus>
                 <title ref="http://syriaca.org/work/161" type="supplied">The four Gospels, according to the Harklensian version</title>
+                <colophon><ref target="#addition1">See additions.</ref></colophon>
               <msItem n="2" xml:id="b1" defective="true">
                 <locus from="1a" to="44">Foll. 1a-44</locus>
                 <title ref="http://syriaca.org/work/162" type="supplied">The Gospel of S. Matthew, according to the Harklensian version</title>
@@ -167,17 +168,17 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syrj" medium="unknown">
-                  <desc>This volume is written in a large, very angular Estrangela, with occasional Greek vowels, and dated <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate>, <origDate when="0936" calendar="Gregorian">A.D. 936</origDate>.</desc>
+                  <desc>This volume is written in a large, very angular Estrangela, with occasional Greek vowels, and dated <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate>, <origDate when="0936" calendar="Gregorian">A.D. 936</origDate>.<ref target="#addition1">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="major" script="syr" medium="green">
-                  <desc><ref target="#addition3">See additions.</ref></desc></handNote>
+                  <desc><ref target="#addition2">See additions.</ref></desc></handNote>
               </handDesc>
               <additions>
                 <list>
-                  <item n="2" xml:id="addition2"><locus from="205" to="205"/><ref target="#b4"/>
-                    <p><ref target="#addition1">Below</ref>, in the same handwriting, there is a note, informing us that this volume was written in the <placeName>desert of Scete</placeName>, <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate> (<origDate when="0936" calendar="Gregorian">A.D. 936</origDate>), by a priest named <persName>John</persName>, for the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>.</p>
+                  <item n="1" xml:id="addition1"><locus from="205" to="205"/><ref target="#b4"/>
+                    <p>Below the final rubric, in the same handwriting, there is a note, informing us that this volume was written in the <placeName>desert of Scete</placeName>, <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate> (<origDate when="0936" calendar="Gregorian">A.D. 936</origDate>), by a priest named <persName>John</persName>, for the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>.</p>
                     <quote xml:lang="syr">ܫܩ̣ܠ ܕܝܢ ܫ̇ܘܠܡܐ ܟܬܒܐ ܗܢܐ ܫ̣ܢܬ ܐܠܦܐ ܘܡ̈ܐܬܝܢ ܘܐܪ̈ܒܥܝܢ ܘܫܒܥ ܒܕܝܘ̈ܢܝܐ ܐܬܟܬܒ ܕܝܢ ܒܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܒܡܕܒܪܐ ܕܐܣܩܝܛܐ ܟܬܒܗ ܕܝܢ ܝܘܚܢܢ ܐܟܣܢܝܐ ܘܒܫܡܐ ܕܝܪܝܐ ܘܒܕܪܓܐ ܬܘܒ ܩܫܝܫܐ ܟܕ ܫ̇ܘܐ ܟܬܒܗ ܕܝܢ ܠܡܘܫܐ ܪܝܫܕܝܪܐ ܕܝܠܗ̇ ܕܕܘܟܬܐ ܕܡܬܝܕܥ ܢܨܝܒܝܢܐ܇ ܟܠ ܕܝܢ ܕܩ̇ܪܐ ܒܗ ܒܟܬܒܐ ܗܢܐ ܕܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܕܣܪܛ ܕܢܬܚܢܢ ܗ̣ܘ ܘܥܢ̈ܝܕܘܗܝ ܘܟܠܗ ܝܠ̣ܕܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܐܝܟ ܓܝ̇ܣܐ ܕܡܢ ܝܡܝܢ ܘܟܠ ܕܝܢ ܕܗܘ̣ܐ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥ̇ܒܕܐ ܐܘ ܒܥܠ̣ܬܐ ܐ̇ܝܕܐ ܕܗܝ ܐܝܢ ܘܐܡܝܢ܀</quote></item>
-                  <item n="3" xml:id="addition3"><locus from="1" to="205"/><ref target="#handNote2"/>
+                  <item n="2" xml:id="addition2"><locus from="1" to="205"/><ref target="#handNote2"/>
                   <p>The lessons are sometimes indicated in the text, but more usually by later hands on the margins. For this purpose green paint has occasionally been employed.</p>
                   </item>
                 </list>
@@ -306,6 +307,7 @@
     <revisionDesc>
       <change when="2013-09-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric "doxology"</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to additions and handNotes. Edits to reflect colophon.</change>
        </revisionDesc>
   </teiHeader>
   <facsimile>
