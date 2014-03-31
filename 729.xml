@@ -89,6 +89,7 @@
             <msItem n="1" xml:id="a1" defective="true">
               <locus from="1" to="60"/>
               <title ref="http://syriaca.org/work/6">The book of Joshua, according to the Peshitta version.</title>
+              <colophon><ref target="#addition2">See additions.</ref></colophon>
               <note>Commences with ch. iv. 7.</note>
               <note>Some of the lessons are rubricated in the text, the end of each being indicated by the letter <foreign xml:lang="syr">ܫ</foreign>; others are marked on the margins by references to an index, <foreign xml:lang="syr">ܦܘܪܫ
                   ܩܪ̈ܝܢܐ</foreign>, which is now lost.
@@ -339,6 +340,7 @@
     <revisionDesc>
       <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-09-04" who="http://syriaca.org/editors.xml#thannah">Initial edit: restructured the handNotes and additions</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       </revisionDesc>
