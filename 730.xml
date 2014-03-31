@@ -101,6 +101,7 @@
                 <locus from="4a" to="70b">Foll. 4a-70b</locus>
                 <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></editor>
                 <title ref="http://syriaca.org/work/165" type="supplied">The books of Judges and Ruth, translated from the Septuagint version by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></persName></title>
+                <colophon><ref target="#addition1 #addition2">See additions.</ref></colophon>
                 <note>
                    <p>The text of these two books has been carefully edited from this manuscript by <bibl>Dr. T. Skat Rőrdam, Copenhagen, 1861.</bibl></p>                
                   <p>The lessons are usually indicated on the margins by the word <foreign xml:lang="syr"><choice><abbr>ܩܪܝ </abbr><expan>ܩܪܝܢܐ</expan></choice></foreign> at the beginning, and the letter <foreign xml:lang="syr"><choice><abbr>ܫ </abbr><expan>ܫܠܡ</expan></choice></foreign> at the end of each.
@@ -332,6 +333,7 @@
     <revisionDesc>
       <change when="2013-07-18" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-09-04" who="http://syriaca.org/editors.xml#thannah">Initial edit: arranged msItems, made loci human-readable</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
