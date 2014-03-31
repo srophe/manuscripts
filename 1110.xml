@@ -80,6 +80,7 @@
                <msItem n="1" xml:id="a1">
                   <locus from="3b" to="196a">Foll. 3b-196a</locus>
                   <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
+                 <colophon><ref target="#addition2">See additions.</ref></colophon>
                   <msItem n="2" xml:id="b1">
                      <locus from="3b" to="56">Foll. 3b-56</locus>
                      <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
@@ -97,7 +98,6 @@
                      <title type="supplied" ref="http://syriaca.org/work/75">John</title>
                   </msItem>
                   <note>The large sections are marked, as usual, on the margins.</note>
-                  <colophon><ref target="">See additions.</ref></colophon>
                </msItem>
             </msContents>
             <physDesc>
@@ -294,6 +294,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-04" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
