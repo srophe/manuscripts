@@ -103,13 +103,8 @@
                      <note>A leaf is wanting, containing ch. xvi. 31—xvii. 21.</note>
                   </msItem>
                  <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܛܛܪܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܡܠܠܘܗܝ ܘܣܒܪܘܗ ܝ ܐܪ̈ܒܥܐ ܐܘ̈ܢܓܠܣܛܐ ܢܨܝ̈ܚܐ ܡܬܝ ܡܪܩܘܣ ܠܘܩܐ ܝܘܚܢܢ.<locus from="157b" to="157b"/></finalRubric>
-<<<<<<< HEAD
                   <note>The Ammonian sections and Eusebian canons are marked in the usual way, and there is a harmony of the Gospels at the foot of each page. The lessons are rubricated in the text</note>
-=======
                   <colophon><ref target="#addition5 #addition6">See additions.</ref></colophon>
-                  <note>The Ammonian sections and Eusebian canons are marked in the usual way, and there is a harmony of the Gospels at the foot of each page.</note>
-                 <note>The lessons are rubricated in the text</note>
->>>>>>> origin/Tucker's-Editing
                </msItem>
             </msContents>
             <physDesc>
@@ -152,11 +147,7 @@
               </objectDesc>
               <handDesc hands="5">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-<<<<<<< HEAD
-                   <desc>The writing is a small, neat Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>. The name of the scribe appears to have been <persName ref="">David</persName>. <ref target="#addition6 #addition7">See additions.</ref></desc>
-=======
                    <desc>The writing is a small, neat Estrangela of the <origDate notBefore="0500" notAfter="0700">6th or 7th century</origDate>. The name of the scribe appears to have been <persName ref="">David</persName>. <ref target="#addition5 #addition6">See additions.</ref></desc>
->>>>>>> origin/Tucker's-Editing
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr-Syre" medium="unknown">
                     <desc><ref target="#addition4">See additions.</ref></desc>
@@ -186,16 +177,9 @@
                    <item n="4" xml:id="addition4">
                       <p>Foll. <locus from="154b" to="154b">154 b</locus> and <locus from="156a" to="156a">156 a</locus> have been retouched at a later date, and one half of <locus from="155" to="155">fol. 155</locus> has been supplied on <material>paper</material> about the end of the <date notBefore="1000" notAfter="1100">11th century</date>.</p>
                    </item>
-<<<<<<< HEAD
-                   <item n="6" xml:id="addition6">
-                      <locus from="157b" to="157b"/>
-                      <ref target="#a1 #handNote1"/>
-                      <p>On fol. 157 b there is a note, in the handwriting of the scribe, stating that this book was collated by <persName ref="">Kashīsh</persName>, the Arab, priest of the district called <placeName ref="">Nahrā dě-Kastra</placeName>, along with his syncelli <persName ref="syr">John bar Daniel</persName>, the Arab, and <persName ref="">John</persName>, the deacon, or <persName ref="" xml:lang="syr">ܐܘܢܡܪܐ</persName>, who was also of Arab race. </p>
-=======
                    <item n="5" xml:id="addition5">
                       <locus from="157b" to="157b"/>
                       <p>On fol. 157 b there is a note, in the handwriting of the scribe, stating that this book was collated by <persName ref="">Kashīsh</persName>, the Arab, priest of the district called <placeName ref="">Nahrā dě-Kastra</placeName>, along with his syncelli <persName ref="syr">John bar Daniel</persName>, the Arab, and <persName ref="">John</persName>, the deacon, of <placeName ref="" xml:lang="syr">ܐܘܢܡܪܐ</placeName>, who was also of Arab race. </p>
->>>>>>> origin/Tucker's-Editing
                       <p><quote xml:lang="syr">ܢܥܒܕ ܡܪܢ ܪ̈ܚܡܐ ܘܚܢܢܐ ܒܝܘܡܐ ܪܒܐ ܕܡܐܬܝܬܗ܆ ܥܠ ܟܠ ܡܢ ܕܦܚܡ ܟܬܒܐ ܗܢܐ ܘܗ̣ܘܐ ܠܗ ܫܩ̣ܠ ܛܥܢܐ ܡܛܠ ܦܘܚܡܗ ܕܡܢ ܛܥܘ̈ܢܐ. ܦܚܡܘܗܝ ܕܝܢ ܒܫܩ̣ܠ ܛܥܢܐ ܣܓܝܐܐ̣. ܡܪܝ ܩܫܝܫ ܛܝܝܐ ܩܫܝܫܐ ܕܢܗܪܐ ܕܩܣܛܪܐ̣. ܥܡ ܒ̈ܢܝ ܩܠܝܬܗ ܕܝܨܦܘ ܥܡܗ. ܡܪܝ ܝܘܚܢܢ ܛܝܝܐ ܒܪ ܕܢܝܐܝܠ̣. ܘܡܪܝ ܝܘܚܢܢ ܫܡܫܐ ܕܡܢ ܐܘܢܡܪܐ̇. ܥܪܒܝܐ ܕܝܢ ܐܝܘܘܗܝ ܒܓܢܣܗ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܝܨܦܘ ܡܛܠ ܦܘܚܡܗ ܕܟܬܒܐ ܗܢܐ̣. ܗ̣ܘ ܢܬܠ ܠܗܘܢ ܦܘܪܥܢܐ ܛܒ̇ܐ̣ ܘ܏ܫ</quote></p>
                    </item>
                    <item n="6" xml:id="addition6">
@@ -337,13 +321,11 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-<<<<<<< HEAD
       <change when="2013-07-22" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-11-12" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
-=======
       <change when="2013-07-22" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-11-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: adjusted additions and updated their coding, changed one addition into a final rubric</change>
->>>>>>> origin/Tucker's-Editing
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to XML where GitHub inserted problematic text</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
