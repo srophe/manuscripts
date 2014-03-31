@@ -82,6 +82,7 @@
                 <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version.</title>
                 <finalRubric xml:lang="syr"> ܫܠܡ ܐܘܢܓܠܝܘܢ ܕܝܘܚܢܢ ܫܠܝܚܐ ܒܪ ܙܒܕܝ. ܕܐܬܦܫܩ ܡܢ ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܝܛܝܢܦܘܠܝܣ. ܕܐܬܩܪܝ ܡܢ ܐܢܫܐ ܐܝܟ ܕܒܢܡܘܣܐ ܟܪܘܣܐܣܛܡܘܣ܀
                   <locus from="82b"/></finalRubric>
+                <colophon><ref target="#addition1">See additions.</ref></colophon>
                 <note>
                   <p>There are 308 <foreign xml:lang="syr">ܫܚ</foreign> rubrics in the volume, referring, as it would seem from the above subscription, to the homilies of John Chrysostom on this Gospel. The following, taken from foll. <locus>31b</locus>, and <locus>32a</locus>, may serve as specimens (<foreign xml:lang="syr">ܩܝܛ</foreign> to <foreign xml:lang="syr">ܩܟܓ</foreign>).</p>
                   <p><quote xml:lang="syr">ܘܐܢ ܕܐ̇ܢ ܐܢܐ ܕܝ (ch. viii. 16)ܢ ܕܝܢܝ ܟܐܢ ܗܘ. ܡܛܠ ܕܠܐ ܗܘܝܬ ܒܠܚܘܕܝ. ܐܠܐ ܐܢܐ ܘܐܒܝ ܕܫܕܪܢܝ. ܦܘܫܩܐ ܝܐܝܐ ܫܘܬܦܘܬܐ ܘܒܢܡܘܣܟܘܢ ܕܝܢ ܟܬܝܒ̣. ܕܣܗܕܘܬܐ ܕܬܪ̈ܝܢ ܓܒܪ̈ܝ̣ܢ ܫܪܝܪܐ ܗܝ. ܐܢܐ ܣ̇ܗܕ ܐܢܐ ܥܠ ܢܦܫܝ. ܘܐܒܝ ܕܫܕܪܢܝ̣ ܣܗܕ ܥܠܝ. ܦܘܫܩܐ ܡܕܡ ܕܥܬܝܕ ܐܢܬ ܕܬܥܒܕ ܥ̇ܒܕ ܐܡܪܝܢ ܠܗ ܐܝܟܘ ܐܒܘܟ. ܥܢܐ ܝܫܘܥ ܘܐܡ̣ܪ ܠܗܘܢ̇ ܘܠܐ ܠܝ ܝܕܥܝܢ ܐܢܬܘܢ̣ ܘܠܐ ܠܐܒܝ. ܐܠܘ ܠܝ ܝܕܥܝܢ ܗܘܝܬܘܢ ܐܦ ܠܒܝ ܝܕܥܝܢ ܗܘܝܬܘܢ̇ ܦܘܫܩܐ ܠܐ ܡܨܝܐ ܕܬܗܘܐ ܗܕܐ ܗܠܝܢ ܡ̈ܠܐ ܡܠܠ ܒܝܬ ܓܙܐ ܟܕ ܡܠܦ ܒܗܝܟܠܐ̣ ܘܠܐ ܐܢܫ ܐܚܕܗ. ܠܐ ܓܝܪ ܥܕܟܝܠ ܐܬܬ ܗܘܬ ܫܥܬܗ. ܦܘܫܩܐ ܠܘ ܙܒܢܐ ܗܘ ܕܬܫܪܐ. ܐ̇ܡܪ ܠܗܘܢ ܬܘܒ ܝܫܘܥ. ܐܢܐ ܐ̇ܙܠ ܐܢܐ ܘܬܡܘܬܘܢ ܒܚ̈ܛܗܝܟܘܢ̇ ܘܠܐܝܟܐ ܕܐܢܐ ܐ̇ܙܠ ܐܢܐ ܐܢܬܘܢ ܠܐ ܡܫܟܚܝܢ ܐܢܬܘܢ ܠܡܐܬܐ. ܦܘܫܩܐ ܠܐ ܡܫܬܟܚܐ ܗܕܐ. ܐܡܪܝܢ ܝܗ̈ܘܕܝܐ. ܠܡܐ ܟܪ ܢܦܫܗ ܩ̇ܛܠ. ܕܐ̇ܡܪ ܕܠܐܝܟܐ ܕܐܢܐ ܐ̇ܙܠ ܐܢܐ ܐܢܬܘܢ ܠܐ ܡܫܟܚܝܢ ܐܢܬܘܢ ܠܡܐܬܐ.</quote>
@@ -126,15 +127,12 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="3">
+              <handDesc hands="2">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This volume is written in a good, regular Estrangela of the <origDate from="0500" to="0700">vith or viith cent.</origDate>, with an <ref target="#handNote2">exception</ref>.</desc>
+                  <desc>This volume is written in a good, regular Estrangela of the <origDate from="0500" to="0700">vith or viith cent.</origDate>, with an <ref target="#handNote2">exception</ref>. <ref target="#addition1">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition2">See additions.</ref></desc>
-                </handNote>
-                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="#addition1">See additions.</ref></desc>
                 </handNote>
               </handDesc>
               <decoDesc>
@@ -144,7 +142,7 @@
               </decoDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="83b"/><ref target="#handNote3"/>
+                  <item n="1" xml:id="addition1"><locus from="83b"/>
                     <p>According to the notes on the same page, this manuscript was written by a person named <persName>George</persName>, and belonged to the <placeName>convent of Silvanus</placeName>, near <placeName>Damascus</placeName>, having been purchased for it by the abbat.</p>
                     <p><quote xml:lang="syr">ܨܠܘ ܡܪܝ ܥܠ ܓܘܪܓܝܣ ܒܨܝܪܐ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ ܐܡܝܢ.܀ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܣܝܠܘܢܐ̣. ܕܫܘܠܛܢܐ ܕܕܡܣܩܘܣ ܡܕܝܢܬܐ. ܐܠܐ ܟܠ ܕܫ̇ܩܠ ܠܗ ܒܚܕ ܡܢ ܙܢ̈ܝܢ: ܘܠܐ ܡ̇ܦܢܐ ܠܗ ܠܥܘܡܪܐ[ܐ ܕܐܡܝܪ:] ܥܠ ܡܠܬܐ ܕܚܝܠ̣ܬܐ ܘܙܝܥ̣ܬܐ ܕ[ܐܠܗܐ] ܥ̇ܒܪ܀܀ܙܒ̣ܝܢ ܕܝܢ ܟܬܒܐ ܗܢܐ̣ . . . ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܥܘܡܪ[ܐ] . . . ܠܝܘܬܪܢܐ ܕܚ̈ܝܘܗܝ ܘܠ . . . ܕܥܢ̣ܕܘ ܒܗ . . .  ܕܫܪ. . . </quote></p></item>
                   <item n="2" xml:id="addition2"><ref target="#handNote3"/>
@@ -274,6 +272,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-11" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
