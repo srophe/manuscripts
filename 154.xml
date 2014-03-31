@@ -80,6 +80,7 @@
               <msItem n="1" xml:id="a1">
                  <locus from="1b" to="108a">Foll. 1b-108a</locus>
                  <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
+                <colophon><ref target="#addition4">See additions.</ref></colophon>
                  <msItem n="2" xml:id="b1">
                     <locus from="1b" to="32">Foll. 1b-32</locus>
                     <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
@@ -338,6 +339,7 @@
     <revisionDesc>
       <change when="2013-07-28" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
