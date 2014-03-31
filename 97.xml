@@ -218,13 +218,16 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1">
-                <locus from="47a" to="52">Foll. 47a-52</locus>
+                <locus from="47a" to="122">Foll. 47a-122</locus>
+                <colophon><ref target="#p2addition5 #p2addition6">See additions.</ref></colophon>
+                <msItem n="2" xml:id="p2b1">
+                  <locus from="47a" to="52">Foll. 47a-52</locus>
                 <title>Summary of the Contents</title>
                 <rubric xml:lang="syr">ܩ̈ܦܠܐܐ ܕܟܬܒܐ ܕܬܠܬܐ ܕܡ̈ܠܟܘܬܐ
                   <locus from="47a" to="47a"/></rubric>
                 <note>See the <bibl>Synopsis Scripturae Sacrae of John Chrysostom; Opera, t. vi. p. 412; Migne, Patrol. Gr., t. lvi., col. 349.</bibl></note>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective="true">
+              <msItem n="3" xml:id="p2b2" defective="true">
                 <locus from="52a" to="122a">Foll. 52a-122a</locus>
                 <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tellā</placeName></editor>
                 <title ref="http://syriaca.org/work/174">The third (or first) book of Kings, translated from the Septuagint by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tellā</placeName></persName></title>
@@ -237,12 +240,12 @@
                     (<foreign xml:lang="syr">ܥ</foreign>, e.g. foll. <locus>52a</locus>, <locus>53b</locus>, <locus>54a</locus> and <locus>54b</locus>, etc.); </p>
                   <p>The tetragrammaton is denoted by <foreign xml:lang="syr">ܦܝܦܝ</foreign> (fol. <locus>69a</locus>, <foreign xml:lang="syr">ܕܦܝܦܝ</foreign>; fol. <locus>91a</locus>, <foreign xml:lang="syr">ܠܦܘܡܗ ܕܦܝܦܝ</foreign>).</p>
                 </note>
-                <colophon><ref target="#p2addition5">See additions.</ref></colophon>
               </msItem>
-              <msItem n="3" xml:id="p2b1"><title ref="http://syriaca.org/work/175">Marginal notes of the book of Kings according to Aquila</title></msItem>
-              <msItem n="4" xml:id="p2b2"><title ref="http://syriaca.org/work/176">Marginal notes of the book of Kings according to Symmachus</title></msItem>   
-              <msItem n="5" xml:id="p2b3"><title ref="http://syriaca.org/work/177">Marginal notes of the book of Kings according to Theodotion</title></msItem>
-              <msItem n="6" xml:id="p2b4"><title ref="http://syriaca.org/work/178">Hebrew text of the book of Kings</title></msItem>
+              <msItem n="4" xml:id="p2c1"><title ref="http://syriaca.org/work/175">Marginal notes of the book of Kings according to Aquila</title></msItem>
+              <msItem n="5" xml:id="p2c2"><title ref="http://syriaca.org/work/176">Marginal notes of the book of Kings according to Symmachus</title></msItem>   
+              <msItem n="6" xml:id="p2c3"><title ref="http://syriaca.org/work/177">Marginal notes of the book of Kings according to Theodotion</title></msItem>
+              <msItem n="7" xml:id="p2c4"><title ref="http://syriaca.org/work/178">Hebrew text of the book of Kings</title></msItem>
+              </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -282,7 +285,7 @@
               </objectDesc>
               <handDesc hands="7">
                 <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a fine, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate>. <ref target="#p2addition6">See additions.</ref></desc>
+                  <desc>The writing is a fine, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate>. <ref target="#p2addition5 p2addition6">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>Very inelegant hand of the <date notBefore="0900" notAfter="1000">xth cent.</date> <ref target="#p2addition7">See additions.</ref></desc>
@@ -583,6 +586,7 @@
     <revisionDesc>
       <change when="2013-07-19" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-08-28" who="http://syriaca.org/editors.xml#thannah">Initial edit: general standardization; separated Part 3 from Part 2</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon in Part2.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
     </revisionDesc>
   </teiHeader>
