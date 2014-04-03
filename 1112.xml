@@ -77,36 +77,38 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-               <msItem n="1" xml:id="a1">
+              <msItem n="1" xml:id="a1" defective="true">
+                <locus from="1" to="318">Foll. 1-318</locus>
+                <colophon><ref target="#addition3 #addition4">See additions.</ref></colophon>
+              <msItem n="2" xml:id="b1">
                   <locus from="1b" to="3">Foll. 1b-3</locus>
                   <title type="supplied" ref="">Index of lessons.</title>
                   <rubric xml:lang="syr"><locus from="1b" to="1b"/>ܩܘܕܝܟܣ ܕܐܘܢܓܠܝܘܢ</rubric>
                </msItem>
-               <msItem n="2" xml:id="a2" defective="true">
+               <msItem n="3" xml:id="b2" defective="true">
                   <locus from="4a" to="315b">Foll. 4a-315b</locus>
                   <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
-                  <title type="supplied" ref="http://syriaca.org/work/196">The four Gospels, in Arabic translation with Syriac characters</title>
-                 <colophon><ref target="#addition3 #addition4">See additions.</ref></colophon>
+                  <title type="supplied" ref="http://syriaca.org/work/196">The four Gospels, in Arabic translation with Syriac characters</title>                 
                   <note>The text and translation occupy parallel columns.</note>
-                  <msItem n="3" xml:id="b1" defective="true">
+                  <msItem n="4" xml:id="c1" defective="true">
                      <locus from="4a" to="99">Foll. 4a-99</locus>
                      <title type="supplied" ref="http://syriaca.org/work/72">Matthew, according to the Peshitta version</title>
                      <title type="supplied" ref="http://syriaca.org/work/197">Matthew, in Arabic translation with Syriac characters</title>
                      <note>The missing portion, ch. xxviii. 17—20, has been supplied on <locus from="98a" to="98a">fol. 98 a</locus> at a quite recent period.</note>
                   </msItem>
-                  <msItem n="4" xml:id="b2" defective="true">
+                  <msItem n="5" xml:id="c2" defective="true">
                      <locus from="99a" to="153">Foll. 99a-153</locus>
                      <title type="supplied" ref="http://syriaca.org/work/73">Mark, according to the Peshitta version</title>
                      <title type="supplied" ref="http://syriaca.org/work/198">Mark, in Arabic translation with Syriac characters</title>
                      <note>The missing portions are ch. i. 1—6 and xvi. 14—20. The latter passage has been supplied on <locus from="152a" to="152a">fol. 152 a</locus>.</note>
                   </msItem>
-                  <msItem n="5" xml:id="b3" defective="true">
+                  <msItem n="6" xml:id="c3" defective="true">
                      <locus from="153a" to="248">Foll. 153a-248</locus>
                      <title type="supplied" ref="http://syriaca.org/work/74">Luke, according to the Peshitta version</title>
                      <title type="supplied" ref="http://syriaca.org/work/199">Luke, in Arabic translation with Syriac characters</title>
                      <note>The missing portions are ch. i. 1—6 (supplied on <locus from="152a" to="152a">fol. 152 a</locus>) and xxiv. 53.</note>
                   </msItem>
-                  <msItem n="6" xml:id="b4">
+                  <msItem n="7" xml:id="c4">
                      <locus from="248a" to="315b">Foll. 248a-315b</locus>
                      <title type="supplied" ref="http://syriaca.org/work/75">John, according to the Peshitta version</title>
                      <title type="supplied" ref="http://syriaca.org/work/200">John, in Arabic translation with Syriac characters</title>
@@ -116,6 +118,7 @@
                  </finalRubric>
                   <note>The lessons are rubricated in the text, and <ref target="#a1">an index is prefixed.</ref></note>
                </msItem>
+              </msItem> 
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -333,7 +336,8 @@
       <change when="2013-08-06" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
       <change when="2013-11-01" who="http://syriaca.org/editors.xml#thannah http://syriaca.org/editors.xml#jarnwine">Updated finalRubric.</change>
-      <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon. <!-- There was a question of the hierarchy of the text with relation to the colophon. Should the index and biblical texts be filed as "b" items under a1 so the colophon may be considered part of the MS as a whole? --></change>
+      <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
+      <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to multiple a-level msItems.</change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
