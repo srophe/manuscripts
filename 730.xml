@@ -83,6 +83,9 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
+                <locus from="1" to="70">Foll. 1-70</locus>
+                <colophon><ref target="#addition1 #addition2">See additions.</ref></colophon>
+              <msItem n="2" xml:id="b1" defective="true">
                 <locus from="1a" to="3b">Foll. 1a-3b</locus>
                 <title type="supplied">Summary of the contents</title>
                 <title xml:lang="syr">ܩ̈ܦܠܐܐ
@@ -97,18 +100,17 @@
                 <note>It is imperfect at the beginning.</note>
                   <note>See the <bibl>Synopsis Scripturae Sacrae of John Chrysostom; Opera, t. vi. p. 400, E, <foreign xml:lang="grc">διὰ τὸ ἀλλόφυλον εἶναι· ὡς δὲ εἶδον ἐπικείμενον, οὐκ ἠναντιώθησαν</foreign></bibl>.</note>
               </msItem>
-              <msItem n="2" xml:id="a2">
+              <msItem n="3" xml:id="b2">
                 <locus from="4a" to="70b">Foll. 4a-70b</locus>
                 <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></editor>
                 <title ref="http://syriaca.org/work/165" type="supplied">The books of Judges and Ruth, translated from the Septuagint version by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></persName></title>
-                <colophon><ref target="#addition1 #addition2">See additions.</ref></colophon>
                 <note>
                    <p>The text of these two books has been carefully edited from this manuscript by <bibl>Dr. T. Skat Rőrdam, Copenhagen, 1861.</bibl></p>                
                   <p>The lessons are usually indicated on the margins by the word <foreign xml:lang="syr"><choice><abbr>ܩܪܝ </abbr><expan>ܩܪܝܢܐ</expan></choice></foreign> at the beginning, and the letter <foreign xml:lang="syr"><choice><abbr>ܫ </abbr><expan>ܫܠܡ</expan></choice></foreign> at the end of each.
                   </p>
                   <p>The margins contain the chapters, sections and versicles (e.g. fol. <locus>61a</locus>, <foreign xml:lang="syr">ܦܬ ܐܠܦ </foreign>, but no various readings.</p>
                 </note>
-                <msItem n="3" xml:id="b1">
+                <msItem n="4" xml:id="c1">
                 <locus from="4a" to="61b">Foll. 4a-61b</locus>
                 <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
                 <title ref="http://syriaca.org/work/166" type="supplied">The book of Judges, translated from the Septuagint version by Paul of Tellā</title>
@@ -119,7 +121,15 @@
                   <locus from="61b" to="61b"/>
                 </finalRubric>
               </msItem>
-               <msItem n="4" xml:id="b2">
+                <msItem n="5" xml:id="c2">
+                  <locus from="62a" to="62a">Fol. 62a</locus>
+                  <title type="supplied">Summary of the contents</title>
+                  <title xml:lang="syr">ܩ̈ܦܠܐܐ ܕܐܪܥܘܬ 
+                    <locus from="62a" to="62a"/>
+                  </title>
+                  <note>See <bibl>Chrysostom's Synopsis, Opera, t. vi. p. 402</bibl>.</note>
+                </msItem>
+               <msItem n="6" xml:id="c3">
                   <locus from="62b" to="70b">Foll. 62b-70b</locus>
                   <editor role="translator" ref="http://syriaca.org/person/82">Paul of Tella</editor>
                  <title ref="http://syriaca.org/work/167" type="supplied">The book of Ruth, translated from the Septuagint version by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tella</placeName></persName></title>
@@ -135,13 +145,6 @@
                     </ref>
                   </colophon>
               </msItem>
-            <msItem n="5" xml:id="a3">
-                <locus from="62a" to="62a">Fol. 62a</locus>
-                <title type="supplied">Summary of the contents</title>
-              <title xml:lang="syr">ܩ̈ܦܠܐܐ ܕܐܪܥܘܬ 
-                  <locus from="62a" to="62a"/>
-                </title>
-              <note>See <bibl>Chrysostom's Synopsis, Opera, t. vi. p. 402</bibl>.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -334,6 +337,7 @@
       <change when="2013-07-18" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-09-04" who="http://syriaca.org/editors.xml#thannah">Initial edit: arranged msItems, made loci human-readable</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Changes to multiple a-level msItems.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
