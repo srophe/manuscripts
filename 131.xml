@@ -84,6 +84,7 @@
                <msItem n="1" xml:id="a1" defective="true">
                   <locus from="1a" to="157b">Foll. 1a-157b</locus>
                   <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
+                 <colophon><ref target="#addition5 #addition6">See additions.</ref></colophon>
                   <msItem n="2" xml:id="b1" defective="true">
                      <locus from="1a" to="44">Foll. 1a-44</locus>
                      <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
@@ -104,7 +105,6 @@
                   </msItem>
                  <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܛܛܪܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܡܠܠܘܗܝ ܘܣܒܪܘܗ ܝ ܐܪ̈ܒܥܐ ܐܘ̈ܢܓܠܣܛܐ ܢܨܝ̈ܚܐ ܡܬܝ ܡܪܩܘܣ ܠܘܩܐ ܝܘܚܢܢ.<locus from="157b" to="157b"/></finalRubric>
                   <note>The Ammonian sections and Eusebian canons are marked in the usual way, and there is a harmony of the Gospels at the foot of each page. The lessons are rubricated in the text</note>
-                  <colophon><ref target="#addition5 #addition6">See additions.</ref></colophon>
                </msItem>
             </msContents>
             <physDesc>
@@ -326,6 +326,7 @@
       <change when="2013-07-22" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-11-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: adjusted additions and updated their coding, changed one addition into a final rubric</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to XML where GitHub inserted problematic text</change>
+      <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Moved colophon under a-level.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
