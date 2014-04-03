@@ -77,35 +77,39 @@
             <msContents>
               <summary/>
                <textLang mainLang="syr">Syriac</textLang>
-               <msItem n="1" xml:id="a1">
+              <msItem n="1" xml:id="a1">
+                <locus from="1" to="104">Foll. 1-104</locus>
+                <colophon><ref target="#addition3">See additions.</ref></colophon>              
+              <msItem n="2" xml:id="b1">
                   <locus from="1a" to="1a">Fol. 1a</locus>
                   <title type="supplied" ref="">Seems, so far as it is legible, to be part of a hymn or prayer</title>
                </msItem>
-               <msItem n="2" xml:id="a2" defective="true">
+               <msItem n="3" xml:id="b2" defective="true">
                   <locus from="1b" to="104a">Foll. 1b-104a</locus>
                   <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
-                 <colophon><ref target="#addition4">See additions.</ref></colophon>
-                  <msItem n="3" xml:id="b1" defective="true">
+                 
+                  <msItem n="4" xml:id="c1" defective="true">
                      <locus from="1b" to="29">Foll. 1b-29</locus>
                      <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
                      <note>The missing portion is ch. vii. 18—viii. 26.</note>
                   </msItem>
-                  <msItem n="4" xml:id="b2">
+                  <msItem n="5" xml:id="c2">
                      <locus from="29b" to="46">Foll. 29b-46</locus>
                      <title ref="http://syriaca.org/work/73" type="supplied">Mark</title>
                   </msItem>
-                  <msItem n="5" xml:id="b3">
+                  <msItem n="6" xml:id="c3">
                      <locus from="46a" to="78">Foll. 46a-78</locus>
                      <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
                      <rubric xml:lang="syr">ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܝܫܘܥ ܡܫܝܚܐ ܟܪܘܙܘܬܐ ܕܛܘܒܢܐ ܠܘܩܐ ܚ[ܕ] ܡܢ ܫܒܥܝܢ ܫܠܝ̈ـ[ܚܐ.]<locus from="46a" to="46a"/></rubric>
                   </msItem>
-                  <msItem n="6" xml:id="b4">
+                  <msItem n="7" xml:id="c4">
                      <locus from="78a" to="104a">Foll. 78a-104a</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
                     <finalRubric type="doxology">At the end of the subscription to the last Gospel, fol. 104 a, we have the doxology: <quote xml:lang="syr">ܫܘܒܚܐ ܡܢ ܟܠ ܥܠ ܟܠ ܠܡܪܝܐ ܟܠ ܡܫܡܠܐ ܟܠ ܒܫܘܡܠܝܗ ܐܡܝܢ.</quote><locus from="104a" to="104a"/></finalRubric>
                   </msItem>
                   <note>The larger sections are marked on the margins.</note>
                </msItem>
+              </msItem> 
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -319,6 +323,7 @@
       <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to handNotes and additions. Edits to reflect colophon.</change>
+      <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to msItems.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
