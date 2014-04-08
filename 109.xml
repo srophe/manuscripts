@@ -447,6 +447,7 @@
               <msItem n="1" xml:id="p4a1">
                 <locus from="99" to="144a">Foll. 99a-144a</locus>
                 <title ref="http://syriaca.org/work/50">The twelve minor Prophets, according to the Peshitta version.</title>
+                <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܟܬܒܐ ܕܬܪ̈ܥܣܪ ܢܒ̈ܝܐ<locus from="144a"/></finalRubric>
                 <note>Those remaining are –</note>
                 <msItem n="2" xml:id="p4b1">
                   <locus from="99a" to="102">Foll. 99a-102</locus>
@@ -475,10 +476,6 @@
                   <locus from="137a" to="144a">Foll. 137a-144a</locus>
                   <title ref="http://syriaca.org/work/38">Malachi, according to the Peshitta version.</title>
                 </msItem>
-                <colophon>
-                  <ref target="p4addition1">See below.
-                  </ref>
-                </colophon>
               </msItem>
             </msContents>
             <physDesc>
@@ -534,9 +531,7 @@
                 <p/>
                 <list>
                   <item n="1" xml:id="p4addition1"><locus from="144a" to="144a"/>
-                    <p>On fol. 144a there is the colophon:</p>
-                    <p><quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܟܬܒܐ ܕܬܪ̈ܥܣܪ ܢܒ̈ܝܐ</quote>,</p>
-                    <p>which is followed by the usual doxology.</p>
+                    <p>On fol. 144a the final rubric is followed by the usual doxology.</p>
                   </item>
                   <item n="2" xml:id="p4addition2"><locus from="128b" to="128b"/>
                     <p>Other lessons are marked on the margins, some of them by later hands.</p>
@@ -691,6 +686,7 @@
     <revisionDesc>
       <change when="2013-07-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-09-04" who="http://syriaca.org/editors.xml#thannah">Initial edit: rearranged some of the additions to separate Coptic and Syriac, made loci human-readable</change>
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Cleanup of additions and removal of colophon tag.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="missing">Add in missing Coptic characters</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>

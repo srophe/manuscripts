@@ -80,6 +80,14 @@
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1a" to="209b">Foll. 1a-209b</locus>
                  <title type="supplied" ref="http://syriaca.org/work/70">The New Testament, according to the Peshitta version</title>
+                <finalRubric xml:lang="syr">.ܫܘܒܚܐ ܠܚܕ ܟܝܢܐ ܐܠܗܝܐ ܕܠܐ ܥܒܝܕ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. ܕܟܝܪܝܢ ܟܠܗܘܢ ܐܝܠܝܢ ܕܕܡܫܝܚܐ ܐܢܘܢ ܘܚܢܢ ܢܬܥܕܪ ܒܨܠܘܬܗܘܢ ܐܝܢ ܘܐܡܢ (SIC). ܫܘܒܫܚܐ ܠܗ̇ܘ ܕܥܠ ܚܝܠܗ ܫܪܝܢ ܘܒܥܘܕܪܢܗ ܫܠܡܢ.
+                  <locus from="209b" to="209b"/>
+                </finalRubric>
+                <colophon>
+                  <ref target="#addition4">See additions.
+                  </ref>
+                </colophon>
+                <note>Total number of sections in the whole New Testament, 165.</note>
                  <msItem n="2" xml:id="b1" defective="true">
                     <locus from="1a" to="116">Foll. 1a-116</locus>
                    <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
@@ -175,14 +183,6 @@
                     </msItem>
                     <note>Number of sections in the Pauline epistles, 55.</note>
                  </msItem>
-                 <note>Total number of sections in the whole New Testament, 165.</note>
-                 <finalRubric xml:lang="syr">.ܫܘܒܚܐ ܠܚܕ ܟܝܢܐ ܐܠܗܝܐ ܕܠܐ ܥܒܝܕ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. ܕܟܝܪܝܢ ܟܠܗܘܢ ܐܝܠܝܢ ܕܕܡܫܝܚܐ ܐܢܘܢ ܘܚܢܢ ܢܬܥܕܪ ܒܨܠܘܬܗܘܢ ܐܝܢ ܘܐܡܢ (SIC). ܫܘܒܫܚܐ ܠܗ̇ܘ ܕܥܠ ܚܝܠܗ ܫܪܝܢ ܘܒܥܘܕܪܢܗ ܫܠܡܢ.
-                  <locus from="209b" to="209b"/>
-               </finalRubric>
-               <colophon>
-                  <ref target="#addition4">See below.
-                  </ref>
-               </colophon>
               </msItem>
             </msContents>
             <physDesc>
@@ -399,6 +399,7 @@
     <revisionDesc>
       <change when="2013-07-18" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-09-06" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Cleanup to <ref target="#a1">a1</ref></change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
