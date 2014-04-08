@@ -97,9 +97,6 @@
                  <finalRubric xml:lang="syr">ܫܠܡܬ. ܦܪܟܣܣ. ܕܫܠܝܚ̈ܐ. ܛܘܒ̈ܢܐ. ܡܟܪ̈ܙܝ. ܚ̈ܝܐ
                   <locus from="108" to="108"/>
                 </finalRubric>
-                <colophon>
-                  <ref target="#p1addition5">See additions.</ref>
-                </colophon>
               </msItem>
               <msItem n="2" xml:id="p1a2">
                 <locus from="108b" to="138b">Foll. 108b-138b</locus>
@@ -491,6 +488,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-09-27" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Removed colophon and ref to p1addition5.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

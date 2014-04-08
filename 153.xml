@@ -81,8 +81,7 @@
                   <locus from="1b" to="1b">Fol. 1b</locus>
                   <title type="supplied" ref="http://syriaca.org/work/157">An extract from the Gospel of S. John, ch. vii. 50—viii. 12, according to the Harklensian version</title>
                   <colophon>
-                     <ref target="#addition1">See below.
-                     </ref>
+                     <ref target="#addition1">See below. <!-- Possibly not a colophon. Check Syriac.--></ref>
                   </colophon>
                </msItem>
               <msItem n="2" xml:id="a2">
@@ -406,6 +405,7 @@
     <revisionDesc>
       <change when="2013-07-18" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
+      <change type="planned" subtype="question">Addition1 may not be a colophon. Check Syriac.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>

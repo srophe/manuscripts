@@ -320,7 +320,7 @@
               <msItem n="1" xml:id="p3a1">
                 <locus from="67b" to="169a">Foll. 67b-169a</locus>
                  <title type="supplied" ref="http://syriaca.org/work/208">The Last Two Gospels, according to the Peshitta version</title>
-                <colophon><ref target="#p3addition5">See additions.</ref></colophon>
+                <colophon><ref target="#p3addition4">See additions.</ref></colophon>
                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܐܘܢܓܠܣ̈ܛܐ ܬܪ̈ܝܢ ܠܘܩܐ. ܝܘܚܢܢ.
                   <locus from="169a"/>
                 </finalRubric>
@@ -667,6 +667,7 @@
       <change when="2013-08-18" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edit: changed colophon to finalRubric. Edit: changes to reflect colophon in additions. Edit: changes to handNotes and additions.</change>
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Labeled correct colophon as p3addition4.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
