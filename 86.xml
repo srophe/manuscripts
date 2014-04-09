@@ -77,11 +77,15 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1">
+              <msItem n="1" xml:id="a1" defective="true">
+                <locus from="1" to="73">Foll. 1-73</locus>
+                <colophon><ref target="#addition1 #addition2 #addition3 #addition4">See additions.</ref>.</colophon>
+              </msItem>
+              <msItem n="2" xml:id="b1">
                 <locus from="1b" to="1b"/>
                 <title type="supplied" ref="">Index of Lessons.</title>
               </msItem>
-              <msItem n="2" xml:id="a2" defective="true">
+              <msItem n="3" xml:id="b2" defective="true">
                 <locus from="1b" to="73a">Foll. 1b-73a</locus>
                 <title ref="http://syriaca.org/work/45" type="supplied">The first book of Kings, according to the Peshitta version, the text extending, however, as far as 2 Kings, ch. ii. 18.</title>
                 <rubric xml:lang="syr">ܣܦܪ ܡ̈ܠܟܘܐ ܕܒ̈ܢܝ ܐܝܣܪܐܝܠ
@@ -92,7 +96,6 @@
                 </finalRubric>
                 <note>The chief portion of the text missing is 1 Kings, ch. xxii. 20—34</note>
                 <note>The lessons are marked in the text in the usual way, and <ref target="#a1">an index of them is prefixed to the volume, fol. 1b</ref>.</note> 
-                <colophon><ref target="#addition1 #addition2 #addition3 #addition4">See below</ref>.</colophon>
               </msItem>
             </msContents>
             <physDesc>
@@ -320,6 +323,7 @@
       <change when="2013-07-10" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-08-17" who="http://syrica.org/editors.xml#thannah">Initial edit</change>
       <change when="2014-03-26" who="http://syrica.org/editors.xml#jarnwine">Edits to reflect colophons</change>
+      <change when="2014-04-08" who="http://syrica.org/editors.xml#jarnwine">Made multiple a-levels into one.</change>
       <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>

@@ -738,7 +738,6 @@
               <msItem n="1" xml:id="p7a1">
                 <locus from="165" to="188">Foll. 165-188</locus>
                 <title ref="http://syriaca.org/work/1" type="supplied">The book of Genesis, according to the Peshitta version</title>
-                <colophon><ref target="#p7addition1">See below.</ref></colophon>
               </msItem>
               <msItem n="2" xml:id="p7a2">
                 <locus from="188b" to="192">Foll. 188b-192</locus>
@@ -791,7 +790,7 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="p7addition1">
+                  <item n="1" xml:id="p7addition1" syriacatags="colophon-incertus">
                     <locus from="195a" to="195a"/>
                     <p>A note on fol. 195a states that this <ref target="#part7a1">book of Genesis</ref> belonged to one 
                       <persName ref="">Denha,  the disciple of <persName ref="">Lazarus of <listPlace><place ref=""><placeName>Arzan or </placeName><placeName>Arzun</placeName></place></listPlace></persName></persName>, who dwelt in the <placeName ref="">desert of <placeName ref="">Scete</placeName></placeName>
@@ -1097,6 +1096,7 @@
       <change when="2012-11-13" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-11-09" who="http://syriaca.org/editors.xml#thannah">Initial edit: Updated much of the coding, split former Part 6 into new Part 6 and 7</change>
       <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Moved colophon to its respective a-level item.</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to colophon incertus in p7addition1.</change>
     </revisionDesc>
 </teiHeader>
   <facsimile>

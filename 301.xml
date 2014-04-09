@@ -82,7 +82,12 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1" defective="true">
+              <msItem n="1" xml:id="a1">
+                <locus from="1a" to="50b">Foll. 1a-50b</locus>
+                <colophon>
+                  <ref target="#addition1">See additions.</ref>
+                </colophon>
+               <msItem n="2" xml:id="b1" defective="true">
                 <locus from="1a" to="49b">Foll. 1a-49b</locus>
                 <author ref="http://syriaca.org/person/354">Athanasius of Alexandria</author>
                 <title ref="" type="supplied">The commentary of Athanasius of Alexandria on the Psalms</title>
@@ -98,17 +103,15 @@
                   <bibl>Migne, Patrologiae Cursus Completus, Series Graeca, t. xxvii., col. 59 etc.</bibl>
                 </listBibl>
               </msItem>
-              <msItem n="2" xml:id="a2" defective="unknown">
+              <msItem n="3" xml:id="b2" defective="unknown">
                 <locus from="50" to="50">Fol. 50</locus>
                 <author ref=""/>
                 <title ref="http://syriaca.org/work/39" type="supplied">The apocryphal Psalm cli., without any commentary</title>
                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܦܘܫܩܐ ܕܡܙܡܘܪ̈ܐ ܦܠܓܘܬܐ ܐܚܪܝܬܐ ܕܕܘܝܕ܀ ܕܦܫܩ ܛܘܒܢܐ ܐܬܢܣܝܘܣ ܦܛܪܝܪܟܐ ܕܐܠܟܣܢܕܪܝܐ ܪܒܬܐ܀
                   <locus from="50a" to="50a"/>
                 </finalRubric>
-                <colophon>
-                  <ref target="#addition1">See below.</ref>
-                </colophon>
                 <note/>
+              </msItem>
               </msItem>
             </msContents>
             <physDesc>
@@ -152,7 +155,7 @@
               </objectDesc>
               <handDesc hands="3">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a good, regular Estrangela.</desc>
+                  <desc>The writing is a good, regular Estrangela. <ref target="#addition1">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition2">See additions</ref></desc>
@@ -167,7 +170,6 @@
                 <list>
                   <item n="1" xml:id="addition1">
                     <locus from="50b" to="50b"/>
-                    <ref target="#handNote1"/>
                     <p>On fol. 50 b there is a note, which, besides being stained and torn, has twice suffered alteration and erasure. Of the original writing we can read, in the first and second lines, the words:</p>
                     <p><quote xml:lang="syr">ܒܟܣܐ . . . ܫܢܬ ܬܫܥܡܐܐ ܘܥܣܪ ܙܒܝܢ . . .</quote></p>
                     <p>and below:</p>
@@ -323,6 +325,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2014-01-15" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Edited msItems to only one a-level with multiple b-levels. Moved colophon under a-level.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>
   </teiHeader>

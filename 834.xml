@@ -98,7 +98,7 @@
                   <locus from="99a" to="99a"/>
                 </finalRubric>
                 <colophon>
-                  <ref target="#p1addition1 #p1handNote1">See below.</ref>
+                  <ref target="#p1addition1">See additions.</ref>
                 </colophon>
                 <note/>
               <msItem n="2" xml:id="p1b1" defective="true">
@@ -225,7 +225,7 @@
               </objectDesc>
               <handDesc hands="7">
                 <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript is written in a good, regular, though by no means elegant Estrangela, and dated A. Gr. 785, A.D. 474.</desc>
+                  <desc>This manuscript is written in a good, regular, though by no means elegant Estrangela, and dated A. Gr. 785, A.D. 474. <ref target="#p1addition1">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>See additions. <ref target="#p1addition2"></ref></desc>
@@ -256,7 +256,6 @@
                 <list>
                   <item n="1" xml:id="p1addition1">
                     <locus from="99b" to="99b"/>
-                    <ref target="#p1handNote1"/>
                     <p>On fol. 99b, there is a note, written by the scribe in a more cursive character, which states that this book was purchased by <persName ref=""><foreign xml:lang="syr">ܡܪܝ ܡܢܝܡ</foreign> (<foreign xml:lang="grk">Μόνιμος</foreign>?)</persName>, priest of the church in the village of <foreign xml:lang="syr">ܚܪܝܫܬܐ</foreign> (perhaps <placeName ref=""><!-- Need Arabic here --></placeName>, near <placeName ref="">Damascus</placeName>, on the road to <placeName ref="">Ḥimṣ</placeName>), in the year <origDate when-custom="0785" calendar="Seleucid">785</origDate> (<origDate when="0474" calendar="Gregorian">A.D. 474</origDate>), when <persName ref="">Timotheus</persName> was bishop of that place and <persName ref="">Monimus</persName> was periodeutes. The book itself was written in <placeName ref="">Edessa</placeName></p>
                     <p><quote xml:lang="syr"> ܙܒܢ ܟܬܒܐ ܗܢܐ ܓܒܝܐ ܕܐܠܗܐ ܡܪܝ ܡܢܝܡ ܩܫܝܫܐ ܕܥܕܬܐ ܕܚܪܝܫܬܐ ܩܪܝܬܐ ܕܡܢ . . . ܕܩܕܫ . . ܐ ܠܢܝܚܐ ܘܩܪܝܢܐ ܕܟܠܗܘܢ ܚܒܝܒ̈ܘܗܝ. ܒܝܘ̈ܡܝ ܡܝܬܪܐ ܘܪܚܡ ܠܡܫܝܚܐ ܡܪܝ ܛܝܡܬܐܐ ܐܦܝܣܩܘܦܐ ܘܡܪܝ ܡܘܢܡܐ ܦܪܝܗܕܘܛܐ. ܕܡܫܝܚܐ ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܩܕ̈ܝܫܘܗܝ ܢܥܒܕ ܪ̈ܚܡܐ ܥܠ ܥܘܡܪܗ ܘܥܠ ܩܢܝܢܗ ܘܒܥܠܡܐ ܕܥܬܝܕ ܢܬܠ ܠܗ ܫܘܒܩܢܐ ܕܚ̈ܛܗܐ ܠܥܠܡܝܢ. ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܝܪܚ ܐܝܠܘܠ ܕܫܢܬ ܫܒܥܡܐܐ ܘܬܡܢܐܝܢ ܘܚܡܫ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܕܒܝܬ ܢܗܪܝܢ.</quote></p>
                   </item>
@@ -771,6 +770,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2014-01-09" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Deleted extraneous items in additions and msItems. Checked that colophon is reflected in the ref.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

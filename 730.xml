@@ -140,10 +140,6 @@
                     <locus from="70b" to="70b"/>
                   </finalRubric>
                 </msItem>
-                  <colophon>
-                    <ref target="addition1">See below.
-                    </ref>
-                  </colophon>
               </msItem>
               </msItem>
             </msContents>
@@ -338,6 +334,7 @@
       <change when="2013-09-04" who="http://syriaca.org/editors.xml#thannah">Initial edit: arranged msItems, made loci human-readable</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Changes to multiple a-level msItems.</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Deleted extraneous colophon.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
