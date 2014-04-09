@@ -85,9 +85,6 @@
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="244">Foll. 1-244</locus>
                 <author/>
-                <colophon>
-                  <ref target="#addition1 #addition2">See additions.</ref>
-                </colophon>
                 <msItem n="2" xml:id="b1" defective="true">
                   <locus from="2b" to="236a">Foll. 2b-236a</locus>
                   <author ref="http://syriaca.org/person/511">Gregory of Nazianzus</author>
@@ -426,12 +423,12 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="addition1">
-                    <locus from="1a"/>
+                  <item n="1" xml:id="addition1" syriacatags="ownership-inscription">
+                    <locus from="1a"/> 
                     <p>A note on fol. 1a informs us that the book was presented to the <placeName>convent of S. Mary Deipara</placeName> by the deacon <persName>David</persName> during the time that <persName>Salībā</persName> was abbat:</p>
                     <p><quote xml:lang="syr"> ܫܟܢܗ ܕܝܢ ܠܟܬܒܐ ܗܢܐ ܕܘܝܕ ܡܫ ܕܝܪܝܐ ܡܚܣܐ ܠܗ ܐܠܗܐ ܘܠܥܢܝ̈ܕܘܗܝ ܒܝܘܡܝ ܨܠܝܒܐ ܪܝܫܕܝܪܐ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪܝܝܐ ܕܒܡܕܒܪܐ ܟܠ ܕܓܢܒܠܗ ܐܘ ܡܙܒܢ ܠܗ ܡܚܪܡܐ ܢܗܘܐ ܡܢ ܐܠܗܐ.</quote></p>
                     </item>
-                  <item n="2" xml:id="addition2">
+                  <item n="2" xml:id="addition2" syriacatags="ownership-inscription">
                     <locus from="1a" to="1b"/>
                     <p>On the same page there are written, in large Greek characters, the words:</p>
                     <p><quote xml:lang="grc">ΤΙΜΟΘΕΥΩⲤ ΕΠΗΚΟΠΟⲤ ΤΟ ΑΡΧΗΜΧΑΤ</quote></p>
@@ -439,7 +436,7 @@
                     <p><quote xml:lang="grc">ΤΙΜΟΘΕΥΟⲤ: ΤΟ:  ΑΡΧΙΜΧΑΤ:</quote></p>
                     <p>which are intended for <foreign xml:lang="grc"><persName>Τιμόθεος</persName> ἐπίσκοπος τοῦ</foreign> <placeName xml:lang="syr">ܐܪܫܡܫܛ</placeName> and <foreign xml:lang="grc"><persName>Τιμόθεος</persName> τοῦ </foreign><choice><corr><placeName>Arsamosata</placeName></corr> <orig><placeName xml:lang="grc">'Αρσαμόσατα</placeName></orig></choice>.</p>
                   </item>
-                  <item n="3" xml:id="addition3">
+                  <item n="3" xml:id="addition3" syriacatags="colophon-incertus">
                     <locus from="236a"/>
                     <p>Under the final rubric we read:</p>
                     <p><quote xml:lang="syr"> ܦܚܡ ܟܬܒܐ ܗܢܐ ܬܐܘܡܐ ܡܢ ܥܘܡܪܐ ܩܕܝܫܐ ܕܝܚ̈ܝܕܝܐ ܕܩܠܬ , ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܘܗܝ. ܐܠܗܐ ܚܘܢܝܗܝ </quote></p>
@@ -600,6 +597,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2014-03-20" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Cleaned up mislabeled colophon.</change>
       <change type="planned" subtype="missing">Missing @sic markup in <ref target="#addition5">addition 5</ref>.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>
