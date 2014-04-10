@@ -223,7 +223,7 @@
                   <title ref="" type="supplied">Two extracts from letters of Severus of Antioch, treating of the doctrine of the Trinity</title>
                   <msItem n="15" xml:id="c1">
                     <author ref="http://syriaca.org/person/51"/>
-                    <title ref="" type="supplied">Illustration taken from a letter to Caesaria</title> <!-- Is this Caesaria a persName or placeName? -->
+                    <title ref="" type="supplied">Illustration taken from a letter to <persName ref="">Caesaria</persName></title>
                     <rubric xml:lang="syr">ܢܘܗ̇ܪܐ ܕܩܕܝܫܐ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܪܚܡ̇ܬ ܠܡܫܝܚܐ ܩܣܪܝܐ<locus from="52b"/></rubric>
                   </msItem>
                   <msItem n="16" xml:id="c2">
@@ -315,7 +315,7 @@
                 <msItem n="25" xml:id="b22">
                   <locus from="110b" to="116">Foll. 110b-116</locus>
                   <author ref="http://syriaca.org/person/51"/>
-                  <title ref="" type="supplied">An illustration from the <title ref="" type="supplied">16th epistle</title> of <persName>Severus</persName> to Caesaria</title> <!-- Caesaria: persName or placeName? -->
+                  <title ref="" type="supplied">An illustration from the <title ref="" type="supplied">16th epistle</title> of <persName ref="">Severus</persName> to <persName ref="">Caesaria</persName></title>
                   <rubric xml:lang="syr"> ܢܘܗܪܐ ܕܩܕܝܫܐ ܣܐܘܝܪܐ ܦܐܛܪܝܐܪܟܐ ܡܢ ܐܓܪܬܐ ܕܫܬܬܥܣܪܐ ܕܠܘܬ ܩܐܣܐܪܝܐ.<locus from="110b"/></rubric>
                 </msItem>
                 <msItem n="26" xml:id="b23">
@@ -661,6 +661,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2014-03-13" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Wrapped Caesaria in persName</change>
       <change type="planned" subtype="arabic"><ref target="#addition1">Add missing Arabic text.</ref></change>
       <change type="planned" subtype="arithmetical"><ref target="collation">Enter arithmetical figures.</ref></change>
       <change type="planned" subtype="coptic"><ref target="collation">Add in missing Coptic characters.</ref></change>
