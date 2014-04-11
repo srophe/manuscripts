@@ -148,14 +148,14 @@
                             </handDesc>
                             <additions>
                                 <list>
-                                    <item n="1" xml:id="p1addition1">
+                                    <item n="1" xml:id="p1addition1" syriacatags="doxology scribal-colophon">
                                         <locus from="107b" to="107b"/>
                                         <p>The doxology,</p>
                                          <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣ ܐܡܝܼܢ ܘܐܡܝܢ܆</quote>,</p>
                                         <p>and in a more cursive character the words</p>
                                         <p><quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></p>
                                     </item>
-                                    <item n="2" xml:id="p1addition2">
+                                    <item n="2" xml:id="p1addition2" syriacatags="ownership-inscription">
                                         <locus from="108a" to="108a"/>
                                         <p>A note on fol. <locus>108a</locus>, states that the manuscript was written for the monks of the <placeName>convent of Nātphā</placeName>,  near <placeName>Māridīn</placeName>, at the expense of the priest <listPerson><person ref=""><persName>Julian</persName> <persName xml:lang="syr">ܢܘܢܝܐ</persName></person></listPerson>, and
                                             of the deacons <persName>George</persName> and <persName>Dādā</persName>, visitors (<quote xml:lang="syr">ܣܳܥܽܘܪܳܐ</quote>,
@@ -329,7 +329,7 @@
                             </handDesc>
                             <additions>
                                 <list>
-                                    <item n="1" xml:id="p2addition1">
+                                    <item n="1" xml:id="p2addition1" syriacatags="scribal-colophon">
                                         <locus from="169b" to="169b"/>
                                     <p>On fol. 169b we have the following colophon:</p>
                                         <!-- Mixture of production note and final rubric. -->
@@ -489,6 +489,7 @@
             <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">Created file</change>
             <change when="2013-08-14" who="http://syriaca.org/editors.xml#thannah">Edited file</change>
             <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Edited file to reflect our definition of colophons. Multiple a-levels changed to one and only one in part 2.</change>
+            <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Added @syriacatags to colophon in p1addition1, p1addition2, and p2addition1.</change>
             <change type="planned" subtype="arabic">Add missing Arabic text.</change>
             <change type="planned" subtype="missing">Add missing Syriac vowels.</change>
             <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
