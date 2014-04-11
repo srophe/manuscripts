@@ -148,14 +148,14 @@
                             </handDesc>
                             <additions>
                                 <list>
-                                    <item n="1" xml:id="p1addition1" syriacatags="doxology scribal-colophon">
+                                    <item n="1" xml:id="p1addition1" syriaca-tags="doxology scribal-colophon">
                                         <locus from="107b" to="107b"/>
                                         <p>The doxology,</p>
                                          <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ̇ ܣܓܝܕܬ ܡܢ ܟܠ̣ ܐܡܝܼܢ ܘܐܡܝܢ܆</quote>,</p>
                                         <p>and in a more cursive character the words</p>
                                         <p><quote xml:lang="syr">ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ.</quote></p>
                                     </item>
-                                    <item n="2" xml:id="p1addition2" syriacatags="ownership-inscription">
+                                    <item n="2" xml:id="p1addition2" syriaca-tags="ownership-inscription">
                                         <locus from="108a" to="108a"/>
                                         <p>A note on fol. <locus>108a</locus>, states that the manuscript was written for the monks of the <placeName>convent of Nātphā</placeName>,  near <placeName>Māridīn</placeName>, at the expense of the priest <listPerson><person ref=""><persName>Julian</persName> <persName xml:lang="syr">ܢܘܢܝܐ</persName></person></listPerson>, and
                                             of the deacons <persName>George</persName> and <persName>Dādā</persName>, visitors (<quote xml:lang="syr">ܣܳܥܽܘܪܳܐ</quote>,
