@@ -354,7 +354,7 @@
                       49a.</desc>
                     <!-- Add Greek Vowels -->
                   </item>
-                  <item n="2" xml:id="p2addition2"><locus from="48a" to="48a"/><ref
+                  <item n="2" xml:id="p2addition2" syriaca-tags="ownership-inscription"><locus from="48a" to="48a"/><ref
                       target="#p2handNote4"/>
                     <desc>On fol. 48a there is a note, recording that this book belonged to the
                       brothers <persName>Matthew</persName>, <persName>Abraham</persName> and
@@ -969,6 +969,7 @@
     <revisionDesc>
       <change when="2013-07-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-08-30" who="http://syriaca.org/editors.xml#thannah">Initial edit: adjusted msItems for Part 1, marked up additions</change>
+      <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Marked up addition with syriaca-tags attribute.</change>
       <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>
