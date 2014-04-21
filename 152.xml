@@ -178,14 +178,14 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1">
+                  <item n="1" xml:id="addition1" syriaca-tags="doxology">
                     <locus from="205" to="205"/>
                     <p>At the end of the <ref target="#b8">Gospel of S. John</ref>, after the subscription, stands the following doxology:</p>
                     <p><quote xml:lang="syr">ܫܘܒܐ  (sic) ܠܐܒܐ: ܕܥܕܪ ; ܘܠܒܪܐ: ܕܣܝ̇ܥ ܘܠܪܘܚܐ. ܩܕܝܫܐ. ܕܫ̇ܡܠ̣ܝ</quote></p>
                     <p>which is followed by the words:</p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܕܝܢ. ܟܬܒܐ. ܗܢܐ. ܕܐܪ̈ܒܥܐ ܐܘܢ̈ܓܠܣܛܐ ܩ̈ܕܝܫܐ. ܕܐܬܦܫܩܘ. ܡܢ. ܠܫܢܐ ܝܘܢܝܐ. ܠܣܘܪܝܝܐ. ܒܚܬܝܬܘܬܐ. ܣܓܝܐܬܐ. ܘܒܫܩܠ ܛܥܢܐ. ܪܒܐ.</quote></p>
                   </item>
-                    <item n="2" xml:id="addition2">
+                    <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon">
                       <locus from="205"/>
                     <p>Below <ref target="#addition1">this</ref>, in the same handwriting, there is a note, informing us that this volume was written in the <placeName>desert of Scete</placeName>, <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate> (<origDate when="0936" calendar="Gregorian">A.D. 936</origDate>), by a priest named <persName>John</persName>, for the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>.</p>
                     <quote xml:lang="syr">ܫܩ̣ܠ ܕܝܢ ܫ̇ܘܠܡܐ ܟܬܒܐ ܗܢܐ ܫ̣ܢܬ ܐܠܦܐ ܘܡ̈ܐܬܝܢ ܘܐܪ̈ܒܥܝܢ ܘܫܒܥ ܒܕܝܘ̈ܢܝܐ ܐܬܟܬܒ ܕܝܢ ܒܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܒܡܕܒܪܐ ܕܐܣܩܝܛܐ ܟܬܒܗ ܕܝܢ ܝܘܚܢܢ ܐܟܣܢܝܐ ܘܒܫܡܐ ܕܝܪܝܐ ܘܒܕܪܓܐ ܬܘܒ ܩܫܝܫܐ ܟܕ ܫ̇ܘܐ ܟܬܒܗ ܕܝܢ ܠܡܘܫܐ ܪܝܫܕܝܪܐ ܕܝܠܗ̇ ܕܕܘܟܬܐ ܕܡܬܝܕܥ ܢܨܝܒܝܢܐ܇ ܟܠ ܕܝܢ ܕܩ̇ܪܐ ܒܗ ܒܟܬܒܐ ܗܢܐ ܕܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܕܣܪܛ ܕܢܬܚܢܢ ܗ̣ܘ ܘܥܢ̈ܝܕܘܗܝ ܘܟܠܗ ܝܠ̣ܕܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܐܝܟ ܓܝ̇ܣܐ ܕܡܢ ܝܡܝܢ ܘܟܠ ܕܝܢ ܕܗܘ̣ܐ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥ̇ܒܕܐ ܐܘ ܒܥܠ̣ܬܐ ܐ̇ܝܕܐ ܕܗܝ ܐܝܢ ܘܐܡܝܢ܀</quote></item>
@@ -320,6 +320,7 @@
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric "doxology"</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to additions and handNotes. Edits to reflect colophon.</change>
       <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to the msItems, additions, and handNotes.</change>
+      <change when="2014-04-20" who="http://syriaca.org/editors.xml#jarnwine">Added syriaca-tags to additions.</change>
        </revisionDesc>
   </teiHeader>
   <facsimile>
