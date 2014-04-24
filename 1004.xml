@@ -229,12 +229,12 @@
                   <p>On fol. 150 b there is a note, stating that this manuscript was written A. Gr. <origDate when="1565" calendar="Seleucid">1565</origDate>, A.D. <origDate when="1254" calendar="Gregorian">1254</origDate>, in <origPlace>the convent of Abbā Yuhannān Zĕ'ūrā, or John the less</origPlace>, in the desert of <placeName>Scete</placeName>, by a Persian monk from <placeName>Sigistān</placeName>, named <persName>Behnām</persName>.</p>
                   <p><quote xml:lang="syr">ܐܫ̇ܬ̣ܠܡ ܡܢ ܕܠܡ̣ܟܬܒ ܟܬ݀ܒܐ ܗܢܐ ܩܕܝܫܐ. ܒܚܙܝܪܢ ܝܪܚܐ. ܒܫ̇ܢ̣ܬ݀ ܐ̈ܠܦ ܘܚܡ̈ܫܡܐܐ ܘܫ̈ܬܝܢ ܘܚ̈ܡܫ ܕܝܘ̈ܢܝܐ. ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ ܐܒܐ ܕܝܚ̈ܝܕܝܐ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ. ܕܒܐܪܥܐ ܕܡܨܪܝܢ. ܣ̣ܪܛ ܕܝܢ ܘܛܪܛܫ ܚܲܛܝܐ ܒܗܢܡ ܒܨܝܪܐ ܒܕܝܪ̈ܝܐ ܕܡܢ ܣܝܓܣܬܢ ܡܕܝܢܬܐ ܕܒܐܬܪܐ ܕܦܪ̈ܣܝܐ. ܟܠ ܕܝܢ ܕܦ̇ܓܥ̣ ܢܨ̇ܠܐ ܏ܘܫ</quote></p>
                 </item>
-                <item n="3" xml:id="addition3" syriaca-tags="ownership-inscription">
+                <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon ownership-inscription">
                   <locus from="150b" to="150b"></locus>
                   <p>Another note on the same page tells us that the said <persName>Behnām</persName> presented it to <placeName>the convent of S. Mary Deipara</placeName>.</p>
                   <p><quote xml:lang="syr"> ܐܢ̇ܐ ܕܘܝ̇ܐ ܒܗܢܡ ܫ̇ܟ̣ܢܬ ܠܗܢܐ ܟܬ݀ܒܐ ܠܕܝܪܐ ܕܩܕܝܫܬܐ ܝ̇ܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ ܕܡܫܬ݀ܡܗܐ ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ. ܕܥܠ ܓܢܒ ܕܝܪܐ ܕܐܒܐ ܒܝܫܘܝ ܛܘܼܒܢܐ ܘܢܨ̇ܝܚ ܫܘܼܦܪ̈ܐ. ܨܠܘܬܗ ܥܡܢ.</quote></p>
                 </item>
-                <item n="4" xml:id="addition4" syriaca-tags="">
+                <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon">
                   <locus from="151a" to="151a"></locus>
                   <p>A note on fol. 151 a further informs us, that at this time <persName>Rabban Yeshua’ of <placeName>Zargol Castra</placeName></persName>, near <placeName>Hisn Kīfā</placeName>, was abbat of <placeName>the convent of S. Mary Deipara</placeName>; and that <persName>Athanasius</persName> was patriarch of <placeName>Alexandria</placeName>. See <bibl>Renaudot, Hist. part. Alexandr. Jacob., p. 599</bibl>; <bibl>Le Quien, Oriens Christ., t. ii. col. 493</bibl>.  But, the name of the occupant, of the see of <placeName>Antioch</placeName> is left blank, perhaps because of the contention between <persName>Dionysius VII</persName> and <persName>John bar Ma'dān</persName>.  See <bibl>Assemani, Bibl. Orient., t. ii. p. 376 etc</bibl>. </p>
                   <p><quote xml:lang="syr">ܐܬܟܬ݂ܒ ܕܝܢ ܟܬ݀ܒܐ ܗܢܐ ܕܡ̈ܠܐ ܕܪܘܚܐ ܩܕܝܫܐ ܕܐܡܝܪ̈ܢ ܠܛܘܼܒܢܐ ܦܘܠܘܣ ܫܠܝ̣ܚܐ. ܒܝܘ̈ܡܝ ܐܒܘܢ ܛܘܼܒܬܢܐ ܡܪܝ ܦܐܛܪܝܪܟܝܣ ܕܟܘܪܣܝܐ ܫܠܝ̣ܚܝܐ ܕܐܢܛܝܘܟܝܐ ܕܣܘܪܝܐ. ܘܡܪܝ ܐܬܐܢܐܣܝܘܣ ܦܐܛܪܝܪܟܝܣ ܕܟܘܪܣܝܐ ܕܐܠܟܣܢܕܪܝܐ ܪܒܬܐ. ܘܒܩܝ̇ܘܡܘܬܐ ܘܪܝܫܢܘܬܐ ܕܪܒܢ ܝܫܘܥ ܩܘܡܘܣ ܡܝ̣ܩܪܐ ܐܘܟܝܬ ܪܝܫܕܝܪܐ ܩܕܝܫܐ ܕܕܝܪܐ ܗܕܐ ܕܣܘܪ̈ܝܝܐ. ܕܡܬܝ̣ܕܥ ܡ̇ܢ ܡܢ ܙܪܓܠ ܩܣܛܪܐ ܕܒܐܬܪܐ ܕܚܣ̣ܢܐ ܕܟܐܦܐ. ܡܦܝ̣ܣ ܐܢ̣ܐܹ ܘܡܬ݀ܟ݂ܫܦ ܐܢ̣ܐ ܠܐܠܗܐ̣. ܕܒܨ̈ܠܘܬܗ̇ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ. ܏ܘܫ.</quote></p></item>
