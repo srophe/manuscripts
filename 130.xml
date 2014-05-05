@@ -342,6 +342,7 @@
       <change when="2013-07-19" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-11-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: updated manuscript items, additions, and hand notes</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change type="planned" subtype="reconstruction">Needs to be separated into two msParts with the a-level items consolidated as b-level items under only one a-level item. <locus from="199" to="200">Foll. 199-200</locus> are from a later date and need their own part. Item <ref target="#b4">b4</ref> contains a colophon that is from a later date. </change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
