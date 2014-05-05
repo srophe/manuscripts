@@ -251,16 +251,13 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="8">
+              <handDesc hands="7">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syrj" medium="unknown">
                   <desc>This volume is written in a good hand of the <origDate from="1100" to="1200">xiith cent.</origDate>, with numerous Greek ( or ) and Syriac vowels and other marks.</desc>
        <!-- MISSING VOWELS-->
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition1 #addition2">See additions.</ref></desc>
-                </handNote>
-                <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
-                  <desc><ref target="#addition3">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
                   <desc><ref target="#addition4">See additions.</ref></desc>
@@ -287,7 +284,8 @@
                   <item n="2" xml:id="addition2"><locus from="235b" to="235b"/><ref target="#addition1 #a6"/>
                     <p>And again, on fol. 235b, at the end of the book of Daniel, in the same handwriting:
                       <quote xml:lang="syr">ܫܢܬ ܐܠܦ ܘܫܒܥ ܘܬܫܥܝܼܢ ܕܝܘܢܝ̈ܐ ܒܬܡܘܙ ܝܪܚܐ ܟ܏ܘ ܝܘ̈ܡܬܐ ܒܗ.</quote></p></item>
-                  <item n="3" xml:id="addition3"><locus from="39a" to="39a"/><ref target="#handNote3 #a1"/>
+                  <item n="3" xml:id="addition3" syriaca-tags="colophon-incertus">
+                    <locus from="39a" to="39a"/>
                     <p>The name of the scribe appears to have been <persName resp="scribe">Bar-saumā</persName>. At least, on the lower margin of fol. 39a, there is written in the same ink as the text:</p>
                     <p><quote xml:lang="syr">ܬܓܪܝܒ ܐܠܩܠܐܡ ܒܪܨܘܡܐ ܐܠܟܐܛܝ</quote></p>
      <!-- Arabic missing --></item>
@@ -441,6 +439,7 @@
       <change when="2013-08-01" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
       <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to multiple a-level msItems.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
