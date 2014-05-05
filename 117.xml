@@ -147,7 +147,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p1addition1">
+                  <item n="1" xml:id="p1addition1" syriaca-tags="scribal-colophon">
                     <locus from="3a"/>
                     <p>A note on the margin of fol. 3a states that <ref target="#a1">this index</ref> was drawn up by one <persName ref="">Severus</persName>, with the aid of the priest <persName ref="">John</persName> and the deacon and steward <persName ref="">Romanus</persName>:</p>
                     <p><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟܬܒܐ ܗܢܐ ܡܛܠ ܚܘܒܗ ܕܡܪܢ̣. ܢ̇ܨܠܐ ܥܠ ܣܐܘܪܐ ܚܛܝܐ ܘܡܚܝܠܐ ܕܣ̣ܡ ܦܘܪܫ ܩܪ̈ܝܢܐ ܗܠܝܢ ܕܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ ܐܬܬܪܨܘ.♱ ܘܥܠ ܩܫܝܫܐ ܡܪܝ ܝܘܚܢܢ ܘܫܡ̇ܫܐ ܡܪܝ ܪܘܡܢܐ ܪܒܝܬܐ̇. ܕܐܝܟ ܚܝܠܐ ܕܝܠܗܘܢ ܥܿܕܪܘܢ♱</quote></p>
@@ -298,7 +298,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="p2addition1">
+                  <item n="1" xml:id="p2addition1" syriaca-tags="scribal-colophon">
                     <locus from="48a"/>
                     <p>On fol. 48a there is the following note, in the handwriting of the scribe, saying that the manuscript was written in the year <origDate when-custom="0843" datingMethod="Seleucid">843</origDate>, <origDate when="0532" calendar="Gregorian">A.D. 532</origDate>, and collated with care in the <origPlace ref="">convent of the Orientals (at Edessa?)</origPlace>. Part of it has been intentionally erased.</p>
                     <p><quote xml:lang="syr">ܐܬܟܬܒ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܝܘܡܝ ܩܕܝܫܐ ܘܪܚܡ ܐܠܗܐ ܡܪܝ [ܣܒܝ . . ܪܝܫ ܕܝܪܐ ܘܩܫܝܫܐ ܢܘܗܪܐ ܕܕܝܪܐ ܕܒܝܬ. . . ] ܘܫܪܟܐ ܕܟܠܗܘܢ ܕܒܝܬ ܡܪܝ. ܘ. ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܝܪܚ ܐܝܪ ܒܥܣܪ̈ܝܢ ܘܬܡ̈ܢܝܐ ܒܗ. ܕܫܢܬ ܬܡܢܡ̈ܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܗܢܕܩܛܝܘܢܐ ܕܕܩܛܐ. ܡܦܚܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܕܝܪܐ ܕܡ̈ܕܢܚܝܐ ܒܫܩܠ ܛܥܢܐ.</quote></p>
@@ -454,6 +454,7 @@
       <change when="2013-09-06" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change when="2014-04-02" who="http://syriaca.org/editors.xml#jarnwine">Division into Part1 and Part2</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
