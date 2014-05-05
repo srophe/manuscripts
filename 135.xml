@@ -169,7 +169,7 @@
                    <item n="2" xml:id="addition2">
                       <p>Several pages have been re-touched by a modern hand, especially <locus from="29a" to="29a">fol. 29 a</locus>.</p>
                    </item>
-                   <item n="3" xml:id="addition3">
+                   <item n="3" xml:id="addition3" syriaca-tags="doxology scribal-colophon">
                       <locus from="104a" to="104a"/>
                      <p>Under the doxology, there stands a note, partially effaced and torn, which states that the volume was written at <placeName ref="">Tel-Dīnawar</placeName> in the <placeName ref="">district of Beth-Nūhadrā</placeName>, [See <bibl>Assemani, Bibl. Orient., t. iii. Pars 2, pag. DCCXLIII., art. Dinur</bibl>, and <bibl>pag. DCCLXIX., art. Nuhadra</bibl>. He is mistaken in his identification of the latter with Nehardea] <origDate when-custom="0911" datingMethod="Seleucid">A. Gr. 911</origDate>, <origDate when="0600" calendar="Gregorian">A.D. 600</origDate>, in the tenth year of the reign of <listPerson><person ref=""><persName>Khusrau</persName> <persName>(Parwīz,</persName> <persName>Chosroes II.</persName></person></listPerson>, <date notBefore="0591" notAfter="0628" calendar="Gregorian">A.D. 591— 628</date>). From this note we learn too that there was a <placeName ref="">Nestorian school or college at <placeName ref="">Dīnawar</placeName></placeName>.</p>
                       <quote xml:lang="syr">
@@ -324,6 +324,7 @@
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to handNotes and additions. Edits to reflect colophon.</change>
       <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to msItems.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
