@@ -333,7 +333,7 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="p2addition1">
+                  <item n="1" xml:id="p2addition1" syriaca-tags="scribal-colophon">
                      <locus from="148" to="148"/>
                      <p>A note at the end states that these leaves were written by a person named <persName ref="">Lazarus</persName>:</p>
                      <p><quote xml:lang="syr">ܟܬ̣ܒ ܠܗܠܝܢ ܐܪܒܥ ܐܓܪ̈ܬܐ ܐܚܪ̈ܢܝܬܐ ܠܥܙܪ ܬܚܘܒܐ ܒܐܦ݁ . . . ܨܠܘܬܢ ܥܠܘܗܝ ܘܡܪܝܐ ܢܚܣܐ ܠܗ. ܒܝܕ ܨܠܘܬܐ . . . ܥܕܬܐ ܩܕܝܫܬܐ. ܘܠܟܠ ܕܐܡ̇ܪ ܐܡܝܢ܀ ܓܪ̈ܡܝ ܢܩܥܘܢ ܡܢ ܩܒܪܐ ܕܐܠܗܐ ܢܥ̣ـ . . . ܘܐܢ ܐܝܬ ܡܘܡܐ ܒܗܝܡܢܘܬܐܝ ܥܡ . .</quote></p>
@@ -489,6 +489,7 @@
     <revisionDesc>
       <change when="2013-09-27" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Removed colophon and ref to p1addition5.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
