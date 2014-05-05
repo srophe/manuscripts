@@ -182,12 +182,12 @@
                      <locus from="1a" to="1a"/>
                      <p>On fol. 1 a there are notes in Syriac, Arabic, and Karshūnī, but all more or less stained and effaced.</p>
                   </item>
-                   <item n="3" xml:id="addition3">
+                   <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon ownership-inscription">
                       <locus from="316a" to="316a"/>
                       <p>On fol. 316 a there is a note, stating that this volume was written <origDate when-custom="1719" datingMethod="Seleucid">A. Gr. 1719</origDate> (<origDate when="1438" calendar="Gregorian">A.D. 1438</origDate>), in the <placeName ref="">village of ‘Akūrtā</placeName> on <placeName ref="">Mount Lebanon</placeName>, by a priest named <persName ref="">Theodore</persName>, for the archdeacon <persName ref="">Abraham bar Theodore</persName>.</p>
                       <p><quote xml:lang="syr">ܫܩ̣ܠ ܟܝܬ ܣܟܐ ܘܫܘܼܡܠܝܐ. ܒܥܘܕܪܢܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ. ܟܬܒܐ ܗܢܐ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܘܣܓܝ̣ܕܐ ܕܡܫܝܚܐ ܐܠܗܢ ܐܦ ܐܪ̈ܒܥܬܝܗܘܢ ܐܘܢܓܠܝܣܛܐ. ܒܫܢܬ [ܐܠܦ] ܘܫܒ̈ܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܫ̈ܥ ܫ̈ܢܝܢ. ܡܢ ܫܢ̈ܝܐ ܕܝܘܢܝ̈ܐ ܢܟܝ̈ܠܐ. ܒܬܫܪܝܢ ܐܚܪܝܐ. [ܒܥܣܪܝܢ] ܘܫܒܥܐ ܝܘ̈ܡܬܐ ܡ̣ܛܐ ܡܢܗ. ܝܘܡ ܬܠܵܬܐ. ܒܢ̇ܩܘܫܐ ܕܬܠܵܬ ܫܥܝܢ ܕܝܢ. ܐܬܟ̣ܬ݂ܒ ܕܝܢ ܒܛܘܪܐ ܕܠܒܢܢ ܡܒܪܟܐ. ܒܩܪܝܬܐ ܡܒܲܪܟܬܐ ܥܩܘܪܬܐ. ܡܲܥܡܪ ܠܗ̇ ܡܪܢܝܫܘܥܡܫܝܚܐ. ܐܡܝܢ. ܟܬܒܗ ܕܝܢ ܐܢܫ ܡܚܝ̣ܠܐ ܘܚ̇ܛܝܐ. ܘܡܦܲܠܦܠ ܒܟܠܗܝܢ ܣܢ̣ܝ̈ܬܐ ܕܫܡܗ ܬܐܕܪܘܣ. ܕܒܫܡܐ ܡ̇ܢ ܕܝܪܝܐ. ܒܟܘܢܝܐ ܟܘܪܝܐ. ܒܣܘܥܪܢܐ ܕܝܢ ܡܢ ܬܪ̈ܝܗܘܢ ܫܡܗ̈ܐ ܪܚܝ̣ܩ. ܘ܏ܫ. ܐܝ̣ܨܦ ܕܝܢ ܘܩܢ̣ܐ ܠܟܬܒܐ ܗܢܐ ܪܘܚܢܝܐ ܐܪܟܝܕܝܐܩܘܢ ܐܒܪܗܡ. ܕܡܬܟܲܢܐ ܒܫܡܐ ܕܐܒܘܗܝ ܡܢܚܐ. ܒܪ ܬܐܕܪܘܣ. ܐܠܗܐ ܝܗ̇ܒ ܠܗ ܚܝ̈ܐ ܐܪ̈ܝܟܐ ܘܫܢܝ̈ܐ ܣ̈ܓܝܐܬܐ. ܘ܏ܫ.</quote></p>
                    </item>
-                   <item n="4" xml:id="addition4">
+                   <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon">
                       <locus from="316b" to="316b"/>
                       <p>There is a note, written by the <ref target="#handNote1">above mentioned Theodore</ref>, in which he says that all <ref target="#decoNote1">these ornaments</ref> were the work of the priest <persName ref="">Kamar</persName> from the village of <placeName ref="">Dair Balī</placeName>.</p>
                       <p><quote xml:lang="syr">ܨܐܪ ܨܘܪ̈ܬܐ ܗܠܝܢ ܘܨܠܝ̈ܒܐ ܘܟܠܡܕܡ ܕܐܝ̣ܬ ܒܗ . . . ܨܘܪ̈ܬܐ ܟܠܗܝܢ ܘܥ. . ܡܐ ܕܝܠܗ ܐܒܘܢ ܟܘܪܝܐ ܩܡܪ ܡܢ ܩܪܝܬܐ ܡܒܪܟܬܐ ܕܝܪ ܒܠܝ ܡܥܡܪ ܠܗ̇ ܡܫܝܚܐ. ܘ܏ܫ. ܘܐܢܐ ܚ̇ܛܝܐ ܬܐܕܪܘܣ ܟ̇ܬܒܬ ܘܐ̇ܠܝܬ ܒܗ ܣ̇ܓܝ ܐܠܗܐ ܝ̇ܕܥ ܟܣ̈ܝܬܐ ܘܓ̈ܠܝܬܐ.</quote></p>
@@ -338,6 +338,7 @@
       <change when="2013-11-01" who="http://syriaca.org/editors.xml#thannah http://syriaca.org/editors.xml#jarnwine">Updated finalRubric.</change>
       <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to multiple a-level msItems.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
