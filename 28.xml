@@ -506,7 +506,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="addition1">
+                  <item n="1" xml:id="addition1" syriaca-tags="doxology scribal-colophon ownership-inscription">
                     <locus from="205b"/>
                     <p>On fol. 205b, after the doxology, there is a long colophon, stating that the greater part of this volume was written by one <persName>Ephraim</persName>, a stylite, of <placeName>Kĕphar-Taurĕthā</placeName>, near <placeName>Zeugma</placeName> ()in the year <origDate when-custom="1156" datingMethod="Seleucid">1156</origDate>, A.D. <origDate when="0845" calendar="Gregorian">845</origDate>, when <persName ref="http://syriaca.org/person/155">Dionysius I of Tel-mahar,</persName> who died on the 22nd of August in this same year, was patriarch of <placeName>Antioch</placeName>, and <persName>David</persName> bishop of <placeName>Urem Castra</placeName>, for the use of one <persName>George</persName>, a monk of the <placeName>convent of <persName>Job</persName> at <foreign xml:lang="syr">ܫܪܟܝܫ</foreign></placeName> (<!-- Need Arabic here -->?). On Zeugma and Urem Castra, see <bibl>Assemani, Bibl, Orient., t. ii., dissert, de monophys., art. IX</bibl>. On Dionysius I, see <bibl>Assemani, Bibl. Orient., t. ii., p. 344; Le Quien, Or. Christ,, t. ii., col, 1372</bibl>.</p>
                     <p><quote xml:lang="syr"> ܟܠ ܕܥܬܝܕ ܠܡܦܓܥ ܒܟܬܒܐ ܗܢܐ: ܘܒܗܝܡܢܘܬܐ ܕܫܪܪܐ ܐܝܬܘܗܝ̣. ܢܨ̇ܠܐ ܥܠ ܐܦܪܝܡ ܚ̇ܛܝܐ ܢ̇ܛܪ ܐܣܛܘܢܐ ܕܕܝܪ̈ܬܐ ܩ̈ܕܝܫܬܐ ܕܟܦܪܬܘܪܬܐ܇ ܗ̇ܝ ܕܐܝܬ ܥܠ ܓܢ̣ܒ ܙܘܓܡܐ. ܕܟܬ݂ܒ ܣܘܓܐܗ ܕܟܬܒܐ ܗܢܐ̣ ܐܝܟ ܚܝ̇ܠܗ. ܘܬܪܨ̇ ܟܡܐ ܕܐܫܟܚ ܚܝ̇ܠܗ. ܘܕܒ̇ܩ ܐܝܟ ܡܐ ܕܐܕܪܟ̣ܬ݁ ܝܕܥܬܗ. ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܝܠܗ܆ ܘܕܐܚ̈ܘܗܝ ܟܠܗܘܢ ܟܪ̈ܝܣܛܝܢܐ ܡܗܝ̈ܡܢܐ. ܨܠܘ ܐܚ̈ܝ ܐܝܟܢܐ ܕܢܬܚܢܢ ܗ̣ܘ ܘܥܢ̈ܝܕܘܗܝ ܘܪ̈ܒܢܘܗܝ ܕܐܠܦܘܗܝ ܒܝܘܡܐ ܕܕܝܢ̣ܐ. ܐܝܟ ܓܝ̇ܣܐ ܗ̇ܘ ܕܡܢ ܝܡܝܢܗ ܕܡܪܢ ܨܠܝܒ ܗܘܐ ܐܝܢ ܘܐܡܝܢ ܘܐܡܝܢ܀ ܐܫܬܡ̣ܠܝܬ ܕܝܢ ܦܢܩܝܬܐ ܗܕܐ ܕܩܕܝܫܐ ܓܪܝܓܪܝܘܣ ܬܐܘܠܘܓܘܣ܆ ܫܢܬ ܐܠܦܐ ܘܡܐܐ ܘܚܡܫܝܢ ܘܫܬ ܒܕܝܘ̈ܢܝܐ. ܒܝ̈ܘܡܝ ܚܣܝܐ ܘܩܕܝܫܐ ܘܠܒܝܫ ܠܐܠܗܐ ܦܐܛܪܝܐܪܟܝܣ ܡܪܝ ܕܝ݊ܢܘܣ݊ܝܘ݊ܣ ܕܟܘܪܣܝܐ ܫܠܝܚܝܐ ܕܐܪ̈ܬܘܕܘܟܣܘ ܕܐܢܛܝܘܟܝܐ ܡܕܝܢܬܐ ܕܣܘܪܝܐ. ܘܒܝ̈ܘܡܝ ܚܣܝܐ ܘܛܘܒܬܢܐ ܐܒܐܣ ܡܪܝ ܕܐܘ݊ܝܕ ܐܦܝܣܩܘܦܐ ܕܐܘܪܡ ܩܣܛܪܐ܇ ܕܥܠ ܓܢܒ ܢܗܪܐ ܪܒܐ ܦܪܬ. ܐܬܚ̇ܦܛ ܕܝܢ ܘܥܒ̣ܕ ܟܬܒܐ ܗܢܐ̣. ܡܪܝ ܓܐܘܪܓܝ ܛܘܒܢܐ ܕܒܝܬ ܡܪܝ ܐܝܘܒ ܕܫܪܟܝܫ. ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܢܦܫܗ ܘܕܟܠ ܕܥܬܝܕ ܕܢܩܪܐ ܒܗ. ܘܚܠ̣ܦ ܕܘܟܪܢܐ ܛ̇ܒܐ ܕܥܢܝ̈ܕܘܗܝ. ܟܠ ܕܩ̇ܪܐ ܒܥܘܗܕܢܐ ܗܢܐ ܏ܘܫ.</quote></p>
@@ -662,6 +662,7 @@
     <revisionDesc>
       <change when="2014-03-13" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Wrapped Caesaria in persName</change>
+      <change when="2014-05-06" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="arabic"><ref target="#addition1">Add missing Arabic text.</ref></change>
       <change type="planned" subtype="arithmetical"><ref target="collation">Enter arithmetical figures.</ref></change>
       <change type="planned" subtype="coptic"><ref target="collation">Add in missing Coptic characters.</ref></change>
