@@ -317,7 +317,7 @@
                   <item n="1" xml:id="addition1">
                     <p>The margins of this manuscript are even more thickly studded with notes of various kinds than these of Add. <ref target="http://syriaca.org/manuscript/28">12,153</ref> and Add. <ref target="http://syriaca.org/manuscript/278">14,547</ref>.</p>
                   </item>
-                  <item n="2" xml:id="addition2">
+                  <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon">
                     <locus from="187b"/>
                     <p>At the top of fol. 187b we read the words:</p>
                     <p><quote xml:lang="syr"> ܐܝܟ ܕܚ̇ܕܐ ܣ̇ܚܝܐ ܡܐ ܕܡܡܢܥ ܠܠܡܐܢܐ̣. ܗܟܢܐ ܚ̇ܕܐ ܘܡ̇ܬܦ̣ܨܚ ܟܬܘܒܐ ܡܐ ܕܡܢܥ ܠܣܘܪܓܕܐ ܐܚܪܝܐ.</quote></p>
@@ -485,6 +485,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2014-03-24" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-05-06" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="missing">Missing @supplied in <ref target="#addition2">addition 2</ref></change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>
