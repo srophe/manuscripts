@@ -709,7 +709,7 @@
               </objectDesc>
               <handDesc hands="3">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This manuscript is written in a fine, regular Estrangela, and dated A.D. <origDate when="0519" calendar="Gregorian">519</origDate>.<ref target="#addition1"/>
+                  <desc>This manuscript is written in a fine, regular Estrangela, and dated A.D. <origDate when="0519" calendar="Gregorian">519</origDate>. <ref target="#addition1">See additions.</ref>
                   </desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
@@ -723,9 +723,8 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="addition1">
+                  <item n="1" xml:id="addition1" syriaca-tags="scribal-colophon ownership-inscription">
                     <locus from="114a"/>
-                    <ref target="#handNote1"/>
                     <p>The colophon, fol. 114a, states that this manuscript belonged to one <persName>Simeon</persName>, a priest, and was written by an Edessene scribe named <persName>Julian</persName>, in the year <origDate when-custom="0830" datingMethod="Seleucid">830</origDate> of the era of <placeName>Apamea</placeName>, which is identical with the Seleucian era (see <bibl>Bickell, Carm. Nisib., preface, p. 3, note</bibl>), A.D. <origDate when="0519" calendar="Gregorian">519</origDate>.</p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܩܫܝܫܐ ܫܡܥܘܢ ܕܡܢ . . . ܐܫܬܠܡ ܕܝܢ ܒܫܢܬ ܬܡܢܡܐܐ ܘܬܠܬܝܢ ܒܬܫܪܝ ܐܚܪܝ ܒܡܢܝܢܐ ܕܐܦܡܝܐ ܘܟܬܝܒ ܠܝܘܠܝܢܐ ܟܬܘܒܐ ܐܘܪܗܝܐ. ܕܟܠ ܕܩܪܐ ܒܗ ܢܨܠܐ ܥܠ ܡ̇ܢ ܕܐܬܚܦܛ ܘܩܢܐ ܘܥܠ ܡ̇ܢ ܕܠܐܝ ܘܟܬܒ ܕܐܠܗܐ ܢܚܘܢ ܐܢܘܢ ܒܝܘܡ ܕܝܢܐ. ܒܨܠܘܬܐ ܕܢܒܝ̈ܐ ܒܪ̈ܝܟܐ. ܘܫ̈ܠܝܚܐ ܓܒ̈ܝܐ. ܘܣܗ̈ܕܐ ܓܡܝܪ̈ܐ ܘܕܟܠ ܕܫܦܪ ܠܨܒܝܢܗ ܠܥܠܡܝܢ ܐܡܝܢ.</quote></p>
                   </item>
@@ -872,7 +871,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-02-04" who="http://syriaca.org/editors.xml#?">Created: file</change>
+      <change when="2014-02-04" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-05-06" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>
   </teiHeader>
