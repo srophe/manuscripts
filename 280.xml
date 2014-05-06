@@ -707,7 +707,7 @@
               <additions>
                 <p/>
                 <list>
-                  <item n="1" xml:id="addition1">
+                  <item n="1" xml:id="addition1" syriaca-tags="doxology scribal-colophon">
                     <locus from="226b"/>
                     <p>After the usual doxology, fol. 226b, we find the name of the scribe, <persName>Abraham of Beth-Sūrāyā</persName>:</p>
                     <p><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠ ܐܒܪܗܡ ܡܫܡܫܢܐ ܕܒܝܬ ܨܘܪܝܐ ܕܟܬܒ̣.</quote></p>
@@ -866,6 +866,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2014-03-18" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-05-06" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed:<ref target="#b3">Syriac in the incipit.</ref></change>
       <change type="planned" subtype="greek">Add in missing Greek characters. <ref target="#addition2"/></change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
