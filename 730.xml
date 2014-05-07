@@ -190,11 +190,11 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="70b" to="70b"/>
+                  <item n="1" xml:id="addition1" syriaca-tags="scribal-colophon"><locus from="70b" to="70b"/>
                     <p>Colophon :</p>
                     <p><quote xml:lang="syr">ܨܚܚܐ ܕܝܢ ܕܐܬ̣ܟܬܒ ܗܿܘ ܕܐܬ̇ܦܫܩ ܗܢ ܡܢܗ̣. ܪܫ̣ܝܡ ܗܘܐ ܥܠܘܗܝ ܗܟܢܐ. ܐܬܟܬܒ ܡܢ ܐܪ̈ܒܝܥܝ ܦܨ̈ܐ̣ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ.</quote></p>
                     <p><quote>"On the manuscript exemplar, from which this (copy) was translated, there was written thus: copied from the Tetrapla, according to the version of the LXX."</quote></p></item>
-                  <item n="2" xml:id="addition2"><locus from="70b" to="70b"/>
+                  <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon ownership-inscription"><locus from="70b" to="70b"/>
                     <p>On fol. 70b there is a note, in the handwriting of the scribe, but in a more cursive character, informing us that this manuscript (like the second portion of <bibl>Add. 14,437<ptr target="http://syriaca.org/manuscript/99"/></bibl>) belonged to the <placeName ref="">convent of Mār Cyriacus</placeName> at <placeName ref="">Tellā Hăphīkhā</placeName>.</p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܩܘܪܝܩܘܣ ܕܬܠܐ ܗܦܝܟܐ. ܟܠ ܕܝܢ ܕܫܩܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ. ܐܘ ܕܢܟܬܘܒ ܡܢܗ. ܐܘ ܕܢܦܚܡ ܡܢܗ. ܘܠܐ ܡܦܢܐ ܠܗ ܠܥܘܡܪܐ ܕܐܡܝܪ ܗܘܐ ܝܕܥ ܕܬܚܝܬ ܡܠܬܐ ܕܚܝܠܬܐ ܕܐܠܗܐ ܐܝܬܘܗܝ ܥܕܡܐ ܕܡܦܢܐ ܠܗ ܠܡܪ̈ܘܗܝ. ܘܬܬܚܫܒ ܡܢܬܗ ܥܡ ܡܚܠܨܝ ܒܝܬ ܡܩܕܫܐ. ܘܢܐܪܬ ܓܪܒܗ ܕܓܚܙܝ ܘܡܚܢܘܩܝܬܗ ܕܝܗܘܕܐ ܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܩ̈ܕܝܫܐ ܐܡܝܢ ܘܥܠ ܚܛܝܐ ܕܣܪܛ ܢܗܘܘܢ ܪ̈ܚܡܐ ܒܝܘܡ ܕܝܢܐ ܐܡܝܢ.</quote></p></item>
                   <item n="3" xml:id="addition3">
@@ -335,6 +335,7 @@
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Changes to multiple a-level msItems.</change>
       <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Deleted extraneous colophon.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
