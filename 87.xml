@@ -152,7 +152,8 @@
             </handDesc>
             <additions>
               <list>
-                <item n="1" xml:id="additon1"><locus from="157a" to="157a"/>
+                <item n="1" xml:id="additon1" syriaca-tags="scribal-colophon doxology">
+                  <locus from="157a" to="157a"/>
                   <p>On fol.<locus>157a</locus> after the doxology, there, is a note, mentioning the name of the, scribe <persName ref="">Sergūnā</persName>:</p>
                   <p><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟܬܒܐ ܗܢܐ ܢܨܠܐ ܥܠ ܚܛܝܐ ܣܪܓܘܢܐ ܕܟܬ̣ܒ. ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ̣ ܐܝܟ ܕܐܬܚܢܢ ܓܝܣܐ ܒܙܩܝܦܐ. ܐܝܢ ܐܡܝܢ ܘܐܡܝܢ</quote></p></item>
                 <item n="2" xml:id="addition2">
@@ -312,6 +313,7 @@
       <change when="2013-06-29" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-08-17" who="http://syriaca.org/editors/xml#thannah">Initial edit</change>
       <change when="2014-03-31" who="http://syriaca.org/editors/xml#jarnwine">Edits to reflect colophon</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors/xml#jarnwine">Added @syriaca-tags to describe colophon</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
   </teiHeader>
