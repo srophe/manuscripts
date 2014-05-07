@@ -172,7 +172,7 @@
               <handDesc hands="11">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                   <locus from="1" to="115"/>
-                  <desc>This volume appears to have been the work of two scribes, the one of whom wrote from the beginning to fol. 115, the other from fol. 116 to the end. The character in both parts is a fine, bold Estrangela.</desc>
+                  <desc>This volume appears to have been the work of two scribes, the one of whom wrote from the beginning to fol. 115, the other from fol. 116 to the end. The character in both parts is a fine, bold Estrangela. <ref target="#addition3 #addition4 #addition5">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="major" script="syr-Syre" medium="unknown">
                   <locus from="116" to="230"/>
@@ -218,21 +218,24 @@
                     <desc>Lessons have been marked here and there on the margin by a very modern hand</desc></item>
                   <item n="2" xml:id="addition2"><locus from="179a" to="179a"/><ref target="a4"/>
                     <desc>On fol. 179 a three various readings are noted.</desc></item>
-                  <item n="3" xml:id="addition3"><locus from="115b" to="115b"/><ref target="a2"/>
+                  <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon doxology ownership-inscription">
+                    <locus from="115b" to="115b"/>
                     <p><desc>On fol. <locus>115b</locus>, after the subscription of the book of Exodus and the usual doxology, there is a note,
                       part of which has been erased, and the rest retouched by a later hand, as it would seem, not always correctly. It runs as follows.</desc>
                     </p>
                     <quote xml:lang="syr"><p>ܕܚܝܠ ܠܥܒܕܗ ܒܨܝܪܐ ܘܟܬܒ ܣܦܪ̈ܐ ܗܠܝܢ ܠܚܒܝܒ ܢܦܫܗ ܡܝܩܪܐ ܘܪܚܡ ܐܠܗܐ ܡܪܝ .... ܩܫܝܫܐ ...... ܕܐܬܚܦܛ ܘܥܒܕ ܘܙܒܢ ܦܢܩܝܬܐ  ܗܕܐ ܠܥܕܬܐ ܩܕܝܫܬܐ ܕܝܠܗ. [ܕܝܠܕ ܐܠܗܐ (sic) ] ...... ܕܡܫܝܚܐ ܒܛܝܒܘܬܗ ܢܚܢܝܘܗܝ ܒܝܘܡܐ ܗܿܘ ܘܢܬܠ ܠܗ ܐܓܪܐ ܘܦܘܪܥܢܐ ܒܩܝܡܐ ܕܙܕܝ̈ܩܐ ܒܝܘܡܐ ܪܒܐ ܕܡܐܬܝܬܐ ܘܢܣܩ ܫܘܒܚܐ ܟܕ ܓܠܝܢ ܐܦ̈ܘܗܝ ܥܡ ܣܗ̈ܕܐ ܕܪ̈ܚܡܘܗܝ ܠܥܠܡ ܥܠܡܝ ܐܡܝܢ</p></quote>
                     <quote><p>"Who strengthened His humble servant, and he wrote these books for his beloved friend, the honoured and God-loving priest Mār ......,…….. who used diligence and made and bought this volume, (i.e. paid for the writing of it,) for the holy church of …… May the Messiah, through His grace," etc.</p></quote>
                   </item>
-                  <item n="4" xml:id="addition4"><locus from="115b" to="115b"/><ref target="a2"/> 
+                  <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon">
+                    <locus from="115b" to="115b"/>
                     <p><desc>Then follows the date, the letters of which have also been slightly retouched.</desc></p>
                     <quote xml:lang="syr"><p>ܟܬܝܒܐ ܕܝܢ ܦܢܩܝܬܐ ܗܕܐ ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥܝܢ ܘܚܡܫ ܒܐܡܕ ܡܕܝܢܬܐ ܒܝ̈ܘܡܝ ܡܝܩܪܐ ܘܪܚܡ ܐܠܗܐ ܡܪܝ ܡܪܐ ܐܦܘܣܩܘܦܐ ܒܫܝܢܗ̇ ܕܥܕܬܐ ܪܒܬܐ. ܘ </p></quote>
                     <quote><p>"This volume was written in the year 775 (A.D. 464), in the city of Amid, in the days of the honoured and God-fearing bishop Mār Mārā. . . . of the Great Church."</p></quote>
                     <p><bibl>See Assemani, Bibl. Or., t. i. p. 256 ; Le Quien, Or. Christ., t. ii. col. 992.</bibl></p>
                     <p><desc>Instead of ܒܫܝܢܗ̇, in or during the peace, another word appears to have stood originally in the MS.; vis. ܒܫܘܩܗ̇, in the street or court of the Great Church.” <bibl>See Land, Anecd. Syr., t. i. p. 65, note 3</bibl>, and the note at the end of Add. 14,489.</desc></p>
                   </item>
-                  <item n="5" xml:id="addition5"><locus from="115b" to="115b"/><ref target="a2"/> 
+                  <item n="5" xml:id="addition5" syriaca-tags="scribal-colophon">
+                    <locus from="115b" to="115b"/> 
                     <p><desc>The next note gives the name of the scribe who wrote the first half of the manuscript, viz. the deacon <persName>John</persName>. The last line is in part no longer legible.</desc></p>
                     <quote xml:lang="syr"><p>ܟܬܒ ܟܬܒܐ ܗܢܐ ܝܘܚܢܢ ܡܫܡܫܢܐ ܘܟܬܘܒܐ ܘܣܢܝܩ ܥܠ ܨܠܘܬܐ. . . ܡܪܝ. . . ܢ ܥܠܘܗܝ</p></quote>
                   </item>
@@ -380,6 +383,7 @@
     <revisionDesc>
       <change when="2013-07-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
       <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophons.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
       <change type="planned" subtype="missing">Add missing vowels.</change>
       </revisionDesc>
   </teiHeader>
