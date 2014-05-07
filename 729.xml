@@ -165,7 +165,7 @@
                 <item n="1" xml:id="addition1">
                   <p>Quires are now numbered with letters.</p>
                 </item>
-                <item n="2" xml:id="addition2">
+                <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon ownership-inscription">
                   <locus from="60a" to="60a"/>
                   <p>Long note stating that this manuscript was written in the year <origDate when-custom="0910" datingMethod="Seleucid">910</origDate>, and collated with another copy of the school of the Armenians. The names of the man at whose expense it was transcribed, and of the convent to which he gave it, were altered by the hand of a person from the village of <placeName ref="">Kěphar-Darīn</placeName>, who added a few lines, informing us that the manuscript was incorporated with the library of the <placeName ref="">convent of Mār Daniel at <placeName ref="">Kěphar-Bīl</placeName></placeName> <foreign xml:lang="syr">ܕܟܣ̈ܝܗ</foreign> (?), near <placeName ref="">Antioch</placeName>, when <persName ref="">Thomas</persName> was abbat, the priest <persName ref="">Simeon</persName> his deputy, and the priest <persName ref="">Moses </persName> librarian. The name of this man has in turn been erased by one <persName ref="">Yazdīn bar Dūmā</persName> (?).</p>
                   <p><quote xml:lang="syr">ܐܬܚܦܛ ܘܥܒ̣ܕ ܗܢܐ̣. [(ܝܙܕܝܢ ܒܪ ܖܘܡܐ) . . . ܟܦܪܕܪܝܢ. ܡܢ ܙܝܢܬܐ]
@@ -341,6 +341,7 @@
       <change when="2013-07-01" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-09-04" who="http://syriaca.org/editors.xml#thannah">Initial edit: restructured the handNotes and additions</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       </revisionDesc>
