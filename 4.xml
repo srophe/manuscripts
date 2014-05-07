@@ -226,9 +226,8 @@
                   <p>Many notes and glosses, and numerous Greek words, are written on the margins by
                     the same hand that wrote the text; for all which see the edition of Ceriani</p>
                 </item>
-                <item n="4" xml:id="addition4">
+                <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon doxology">
                   <locus from="132b" to="132b"/>
-                  <ref target="#a1 #handNote1"/>
                   <quote xml:lang="syr"> ܫ̣ܠܡ ܟܬܒܐ ܕܡܦܩܢܐ̣ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ. . . ܨܚ̇ܚܐ ܕܝܢ ܗܿܘ
                     ܕܡܢܗ ܐܬ̇ܦܫܩ ܠܠܫܢܐ ܣܘܪܝܝܐ̣. ܪܘܫܡܐ̇ ܐܝܬ ܒܗ̣ ܗܢܐ. ܐܬܢܣ̣ܒ ܡܢ ܫ̈ܬܝܬܝ ܦܨ̈ܐ ܕܐܝܟ
                     ܡ̈ܫܠܡܢܘܬܐ̣. ܘܐܬ̇ܦܚܡ ܡܢ ܗܿܘ ܕܐܦ ܡ̈ܫܠܡܢܘܬܐ ܐܬܬ̣ܣܝܡ.. . ܐܬܦ̇ܚܡ ܕܝܢ ܬܘܒ ܗܼܘ ܡܦܩܢܐ̣.
@@ -253,7 +252,7 @@
                   <p>After this comes the doxology:</p>
                   <quote xml:lang="syr">ܫܘܒܚܐ̇ ܠܐܒܐ̣ ܘܠܒܪܐ ܘܠܪܘܚܐ ܕܩܘܕܫܐ. ܗܫܐ̇ ;ܘܒܟܠܙܒܢ ܘܠܥܠܡ
                       ܥܠܡܝܢ ܐܡܝܢ. . ܐܝܢ ܘܐܡܝ̣ܢ</quote>
-                  <p>Below <ref target="#addition5">the doxology</ref> we read the name of the
+                  <p>Below the doxology we read the name of the
                     copyist, <persName ref="">Lazarus</persName>, and the date of the manuscript,
                     written in two lines, in a small, current hand</p><p><quote xml:lang="syr"
                       >ܐܫܬܠܡ ܟܬܒܐ ܗܢܐ ܒܐܝܪܚ ܫܒܛ ܕܫܢܬ ܐܠܦ ܘܬܡܢܐ ܡܛܠ ܡܪܢ ܟܠܟܘܢ ܡܗܝ̈ܡܢܐ ܕܥܬܝܕܝܢ ܕܢܦܓܥܘܢ
@@ -427,7 +426,8 @@
       <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to
         finalRubric.</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect
-        colophon. <!-- Should other additions be added to reflect colophon? --></change>
+        colophon. </change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arabic">Add in missing Arabic characters.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
