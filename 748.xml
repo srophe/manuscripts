@@ -142,7 +142,7 @@
               </decoDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="83b"/>
+                  <item n="1" xml:id="addition1" syriaca-tags="scribal-colophon ownership-inscription"><locus from="83b"/>
                     <p>According to the notes on the same page, this manuscript was written by a person named <persName>George</persName>, and belonged to the <placeName>convent of Silvanus</placeName>, near <placeName>Damascus</placeName>, having been purchased for it by the abbat.</p>
                     <p><quote xml:lang="syr">ܨܠܘ ܡܪܝ ܥܠ ܓܘܪܓܝܣ ܒܨܝܪܐ ܕܟܬ̣ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ ܐܡܝܢ.܀ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܣܝܠܘܢܐ̣. ܕܫܘܠܛܢܐ ܕܕܡܣܩܘܣ ܡܕܝܢܬܐ. ܐܠܐ ܟܠ ܕܫ̇ܩܠ ܠܗ ܒܚܕ ܡܢ ܙܢ̈ܝܢ: ܘܠܐ ܡ̇ܦܢܐ ܠܗ ܠܥܘܡܪܐ[ܐ ܕܐܡܝܪ:] ܥܠ ܡܠܬܐ ܕܚܝܠ̣ܬܐ ܘܙܝܥ̣ܬܐ ܕ[ܐܠܗܐ] ܥ̇ܒܪ܀܀ܙܒ̣ܝܢ ܕܝܢ ܟܬܒܐ ܗܢܐ̣ . . . ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܥܘܡܪ[ܐ] . . . ܠܝܘܬܪܢܐ ܕܚ̈ܝܘܗܝ ܘܠ . . . ܕܥܢ̣ܕܘ ܒܗ . . .  ܕܫܪ. . . </quote></p></item>
                   <item n="2" xml:id="addition2"><ref target="#handNote3"/>
@@ -273,6 +273,7 @@
     <revisionDesc>
       <change when="2013-08-11" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
