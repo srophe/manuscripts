@@ -163,17 +163,17 @@
               </handDesc>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1"><locus from="73a" to="73a"/>
+                  <item n="1" xml:id="addition1" syriaca-tags="scribal-colophon"><locus from="73a" to="73a"/>
                     <desc>On fol. 73a, after the subscription, stands the following note, giving the name of the scribe, with his usual boast that he "never made a blotted tau.”</desc>
                     <quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟܬܒܐ ܗܠܝܼܢ. ܢܨ̇ܠܐ ܥܠ ܚ̇ܛܝܐ ܘܕܘܝܐ ܡܪܣܒܐ ܫܡܫܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ ܕܟ̣ܬܒ ܐܝܟ ܚܝܠܗ܇ ܘܬܘ ܛܡܝܡܐ ܒܗܘܢ ܠܐ ܥܒܕ. ܘܢܐܡܪ̣ . ܐܠܗܐ̣ ܚܘܢܝܗܝ ܠܚ̇ܛܝܐ ܒܨܠܘܬ ܝܠܕܬܟ ܐܡܝܢ.</quote>
                     </item>
-                  <item n="2" xml:id="addition2"><locus from="73a" to="73a"/>
+                  <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon doxology"><locus from="73a" to="73a"/>
                     <desc><ref target="#addition1">This</ref> is followed by the doxology:</desc><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܕܠܐ ܦܘܠܓ ܐܡܝܢ ܘܐܡܝܢ</quote></item>
-                  <item n="3" xml:id="addition3"><locus from="73b" to="73b"/>
+                  <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon ownership-inscription"><locus from="73b" to="73b"/>
                     <desc>On fol. 73b are three notes, the first of which states that this copy of the biblical books was written at the expense of the bishop <persName ref="">Constantine of <placeName ref="">Māridīn</placeName></persName> (see <bibl>Add. 12,135, <citedRange unit="pp">fol. 42 b</citedRange><ptr target="http://syriaca.org/manuscript/6"/></bibl>) for the <placeName ref="">convent of the Specula</placeName> (or Watchtower ?) near <placeName ref="">Rās’ain</placeName>.
                       See <bibl>Assemani, Bibl. Or., t. ii., Dissert, de Monophysitis, art. ix., Monasterium Saphyli (<foreign xml:lang="syr">ܣܦܘܠܘܣ</foreign> instead of <foreign xml:lang="syr">ܣܦܩܠܘܣ</foreign>)</bibl>; and <bibl>Land, Anecdota Syr., t. i. p. 74</bibl>.</desc>
                     <quote xml:lang="syr">ܠܐܝܩܪܐ ܘܠܬܫܒܘܚܬܐ ܕܐܒܐ ܘܒܪܐ ܘܪܘܚܐ ܩܕܝܫܐ: ܘܠܒܢܝܢܐ ܘܩܘܝ̇ܡܐ ܘܝܘܬܪܢܐ ܪܘܚܢܐ ܕܐܝܠܝܢ ܕܦܓܥܝܢ: ܐܬܚ̇ܦܛ ܘܣܡ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܕܟܬܒ̈ܐ ܗܠܝܢ ܒܥܘܡܪܐ ܕܝܠܗ ܣܦܩܠܝܣ ܕܪܝܫܥܝܢܐ̣. ܚܣܝܐ ܡܪܝ ܩܘܣܛܢܛܝܢܐ ܐܦܝܣܩܦܐ ܡܢܗ ܕܥܘܡܪܐ. ܚܠܦ ܦܘܪܩܢܐ ܕܪܘܚܗ ܘܕܘܟܪܢܐ ܛ̇ܒܐ ܕܥܢܝ̈ܕܘܗܝ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܩܕܝܫܐ ܐܬܚܦܛ ܘܠܐܝ̣. ܗ̣ܘ ܢܬܠ ܠܗ ܐܓܪܐ ܘܦܘܪܥܢܐ ܒܡܠܟܘܬܐ ܕܫܡܝܐ ܥܡ ܩ̈ܕܝܫܐ ܕܪܚܡܘܗܝ ܐܝܢ ܘܐܡܝܢ</quote></item>
-                  <item n="4" xml:id="addition4"><locus from="73b" to="73b"/>
+                  <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon ownership-inscription"><locus from="73b" to="73b"/>
                     <desc>The second note informs us that the expense was borne in part by the deacon <persName ref="">Sarai of <placeName ref="">Tel-Beshmai</placeName></persName> in the year <origDate when-custom="1035" datingMethod="Seleucid">1035</origDate>, <origDate when="0724" calendar="Gregorian">A.D. 724</origDate>, at the time when <persName ref="">Simeon</persName> was abbat of the convent, 
                       <persName ref="">Theodosius</persName> and <persName ref="">Sarrai</persName> the stewards, and the <persName ref="">deacon Anastasius</persName> the sacristan or warden. See <bibl>Assemani, loc. Cit., Tel-Besme</bibl>.</desc>
                     <quote xml:lang="syr">ܐܬܠܬܒܘ ܕܝܢ ܟܬܒ̈ܐ ܗܠܝܼܢ. ܒܚܦܝܛܘܬܐ ܕܡܪܝ ܨܪܝ ܡܫܡܫܢܐ ܬܠܒܫܡܝܐ. ܒܐܝܪܚ ܐܕܪ ܒܬܡܢܝܐ ܒܗ ܫܢܬ ܐܠܦܐ ܘܬܠܬܝܢ ܘܚܡܫ. ܒܝ̈ܘܡܝ ܢܟܦܐ ܡܪܝ ܫܡܥܘܢ ܪܝܫܕܝܪܐ̣. ܘܡܪܝ ܬܝܕܣܝ ܘܨܪܝ ܦܪ̈ܢܣܐ. ܘܒܝ̈ܘܡܝ ܡܪܝ ܐܢܣܛܘܣ ܩܫܝܫܐ ܘܩܘܢܟܝܐ. ܕܒܨܠܘ̈ܬܗܘܢ ܘܕܟܠܗܘܢ ܩ̈ܕܝܫܐ̣. ܢܬܚ̣ܢܢ ܣܒܐ ܫܡܫܐ ܕܟܬ̣ܒ ܐܡܝܢ ܘܐܡܝܢ</quote></item>
@@ -324,6 +324,7 @@
       <change when="2013-08-17" who="http://syrica.org/editors.xml#thannah">Initial edit</change>
       <change when="2014-03-26" who="http://syrica.org/editors.xml#jarnwine">Edits to reflect colophons</change>
       <change when="2014-04-08" who="http://syrica.org/editors.xml#jarnwine">Made multiple a-levels into one.</change>
+      <change when="2014-05-07" who="http://syrica.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
       <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>
