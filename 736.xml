@@ -87,7 +87,7 @@
                   <locus from="68a" to="68a"/>
                 </finalRubric>
                 <colophon>
-                  <ref target="#addition3">See below.
+                  <ref target="#addition3">See additions.
                   </ref>
                 </colophon>
                 <note>The lessons are rubricated in the text.</note>
@@ -145,17 +145,14 @@
               <additions>
                 <list>
                   <item n="1" xml:id="addition1">
-                     <ref target="#handNote2"/>
                      <p>A few Greek and Syriac vowels have been added by later hands.</p>
                   </item>
                   <item n="2" xml:id="addition2">
                      <locus from="1a" to="1a"/>
-                     <ref target="#handNote1"/>
                      <quote xml:lang="syr">ܩܕܡܝܬܐ ܕܚܙܩܝܐܝܠ ܥܠ ܚܝܠܗ ܕܝܫܘܥ ܡـ[ܪܢ ܘ] ܐܠܗܢ ܟܘܪܣܐ   ܒܨܘ . .</quote>
                   </item>
-                   <item n="3" xml:id="addition3">
+                   <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon ownership-inscription">
                       <locus from="68b" to="68b"/>
-                      <ref target="#handNote3"/>
                       <p>On <locus>fol. 68 b</locus>, we find the following note, in a current hand, stating that this volume was written at <origPlace ref="">Edessa</origPlace>, <date calendar="Seleucid">A. Gr. 852</date>, and purchased by <persName ref="">Sergius</persName> and <persName ref="">Abraham</persName>, the sons of <persName ref="">Malkā</persName>, from the town of <placeName ref="">Hadathā</placeName> for the use of the convent to which they belonged.</p>
                       <quote xml:lang="syr">ܢܗܘܐ ܕܘܟܪܢܐ ܛܒܐ ܩܕܡ ܐܠܗܐ ܠܣܪܓܝܣ ܘܐܒܪܗܡ ܒܢ̈ܝ ܡܠܟܐ ܡܢ ܚܕܬܐ ܕܪ̈ܗܘܡܝܐ ܕܐܠܗܐ ܗܘ ܕܡܛܠ ܫܡܗ ܐܬܚܦܛܘ ܘܙܒܢܘ ܟܬܒܐ ܗܢܐ ܠܥܘܡܪܐ ܕܝܠܗܘܢ ܕܢܩܪܘܢ ܒܗܘܢ (<foreign>sic</foreign>) ܘܢܬܗܓܘܢ ܒܗܘܢ (<foreign>sic</foreign>) ܗܢܘܢ ܘܝܪ̈ܬܝܗܘܢ ܢܩܪܐ ܘܢܩܝܡ ܐܢܘܢ ܡܢ ܝܡܝܢܗ ܠܗܘܢ ܘܠܥܢܝܕܝܗܘܢ ܒܡܠܟܘܬܐ ܕܫܡܝܐ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ
                          ܐܫܬܠܡ ܟܬܒܐ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܕܒܝܬܢܗܪܝܢ ܒܫܢܬ ܬܡܢܡܐܐ ܘܚܡܫܝܢ ܘܬܪ̈ܬܝܢ
@@ -163,7 +160,6 @@
                    </item>
                    <item n="4" xml:id="addition4">
                       <locus from="68b" to="68b"/>
-                      <ref target="#handNote4"/>
                       <p>On the same page, in a hand of not much later date, there is an inventory of the altar cloths, napkins, etc., left in the said convent, after one <persName ref="">John</persName> had taken what he required. This inventory was made out by the priest <persName ref="">Luke</persName>.</p>
                       <quote xml:lang="syr">♱ܓܢܘܣܝܣ ܕܦܪ̈ܣܐ ܕܕܝܪܐ ܕܦܫ ܡܢ ܒܬܪ ܕܫܩܠ ܡܪܝ ܝܘܚܢܢ ܡܢܗܘܢ ܬܫܡܫ̈ܬܗ. ܦܪ̈ܣܐ ܕܡܕܒܚܐ ܕܨܠܒܐ (<foreign>sic</foreign>) ܚܕ̈ܬܐ ܚܡܫܐ ܘܕܪܓܘܢܐ (<foreign>sic</foreign>) ܬܪ̈ܝܢ ܘܦܪ̈ܣܐ ܐܪܒܥܐ ܕܟܬܢܐ ܘܫܘܫܦܐ ܚܕܐ ܘܟܬܢܝܬܐ ܘܡܢܕ̈ܠܐ ܬܠܬܥܣܪܐ ܘܬܠܬ ܩܘܪ̈ܛܝܢܣ ܕܟܬܢܐ♱ ܐܢܐ ܩܫܝܫܐ ܠܘܩܐ ܟܬܒܬܝ</quote>
                    </item>
@@ -311,6 +307,7 @@
     <revisionDesc>
       <change when="2013-07-10" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
     </revisionDesc>
