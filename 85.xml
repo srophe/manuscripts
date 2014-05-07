@@ -208,12 +208,12 @@
                    <item n="4" xml:id="addition4">
                       <p>There are a considerable number of various readings and notes, some of the latter being taken from the works of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName> (foll. <locus from="36a" to="36a">36 a</locus>, <locus from="100a" to="100a">100 a</locus>).</p>
                    </item>
-                   <item n="5" xml:id="addition5">
+                   <item n="5" xml:id="addition5" syriaca-tags="colophon-incertus">
                       <locus from="1a" to="1a"/>
                       <quote xml:lang="syr">ܫܢܬ ܏ܐܠ ܏ܒܝ ܒܢܝܣܢ ܫ̇ܪܝ ܒܟܬܒܐ ܗܢܐ ܠܥܙܪ ܘܥܐܕܝ ܒ. . </quote>
                       <quote>"in the year <date when-custom="1030" datingMethod="Seleucid">1030</date> (<date when="0719" calendar="Gregorian">A.D. 719</date>), on the tenth of Nīsān, <persName ref="">Lazarus</persName> and <persName ref="">‘Adī</persName> began in this book . . . ."</quote>
                    </item>
-                   <item n="6" xml:id="addition6">
+                  <item n="6" xml:id="addition6" syriaca-tags="colophon-incertus">
                       <locus from="1a" to="1a"/>
                       <p>Below <ref target="#addition5">this</ref>, in the same hand, but smaller and less distinct, are the words</p>
                       <p><quote xml:lang="syr">ܩܨܝܪܝܢ ܘܟܬܝܒܝܢ</quote>,</p>
@@ -232,7 +232,7 @@
                       <p>Just below <ref target="#addition8">this</ref> stands the name of the <persName ref="">abbat John of Beth-Severīna</persName> (See <bibl>Assemani, Bilb. Orient., t. i. pp. 215, 216</bibl>):</p>
                       <p><quote xml:lang="syr">ܝܘܚܢܢ ܚܛܝܐ ܣܒܝܪܝܢܝܐ ܪܝܫܢܐ ܕܝܪܐ</quote> (sic).</p>
                    </item>
-                   <item n="10" xml:id="addition10">
+                  <item n="10" xml:id="addition10" syriaca-tags="colophon-incertus">
                       <locus from="90a" to="90a"/>
                       <p><quote xml:lang="syr">ܐܬܬ݁ܪܨ ܟܬܒܐ ܗܢܐ ܩܕܡܝܐ ܕܡ̈ܠܟܘܬܐ: ܐܝܟ ܕܡܨܝܐ ܘܗܘܬ݀ ܘܣ̇ܓܝ ܥܣܩܐܝܬ: ܡܢ ܡܫܠܡ̈ܢܘܬܐ ܡܫܚ̈ܠܦܬܐ: ܡܢ ܗ̇ܝ ܟܝܬ ܕܠܘܬ ܣܘܪ̈ܝܝܐ̇ ܘܡܢ ܗܠܝܢ ܕܠܘܬ ܝܘ̈ܢܝܐ̣. ܒܐܝ̈ܕܝ ܚܣܝܐ ܝܥܩܘܒ ܐܦܝܣܩܦܐ ܕܐܘܪܗܝ: ܒܫܢܬ ܏ܐܝܘ ܕܡܢܝܢܐ ܕܝ̈ܘܢܝܐ ܐܘ ܟܝܬ ܕܣܠܘܩܘܣ ܡ̇ܠܟܐ: ܐܝܢܕܩܛܝܘܢܐ ܕܬܠܬܐ ܒܕܝܪܐ ܪܒܬܐ ܕܬܠܥܕܐ.</quote></p>
           <!-- The dots on top of syriac word ܝܥܩܘܒ are missing  -->
@@ -374,6 +374,7 @@
       <change when="2013-07-16" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Cleaned up msItems, handNotes, and additions. Fixed colophon placement.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe possible colophon</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
        <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
