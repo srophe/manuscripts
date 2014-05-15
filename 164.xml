@@ -84,7 +84,7 @@
                <msItem n="1" xml:id="a1">
                   <locus from="1b" to="101a">Foll. 1b-101a</locus>
                   <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta ver¬sion </title>
-                 <colophon><ref target="#addition6">See additions.</ref></colophon>
+                 <colophon><ref target="#addition7">See additions.</ref></colophon>
                   <msItem n="2" xml:id="b1">
                      <locus from="1b" to="21">Foll. 1b-21</locus>
                      <title type="supplied" ref="http://syriaca.org/work/77">Romans</title>
@@ -145,7 +145,6 @@
                      <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
                   </msItem>
                  <finalRubric xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ ܫܠܝܚܐ: ܛܘܒܢܐ ܐܪܕܝܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥܕ̈ܬܐ ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬܒ ܕܡܪܢ ܢܥܕܪܝܘܗܝ ܘܢܚܝܠܝܘܗܝ ܒܨܠܘܬ ܣܗ̈ܕܐ ܐܡܝܢ ܘܐܡܝܢ܀<locus from="101a" to="101a"/></finalRubric>
-                 <finalRubric type="doxology" xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܢ ܡܫܒܚܬܐ ܐܡܝܢ ܘܐܡܝܢ ܘܐܡܝܢ<locus from="101b" to="101b"/></finalRubric>
                </msItem>
             </msContents>
             <physDesc>
@@ -227,9 +226,14 @@
                    <item n="5" xml:id="addition5">
                       <p>A few Greek vowels have been added by another reader.</p>
                    </item>
+                   <item n="6" xml:id="addition6" syriaca-tags="doxology">
+                     <locus from="101b"/>
+                     <p>Doxology:</p>
+                     <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܢ ܡܫܒܚܬܐ ܐܡܝܢ ܘܐܡܝܢ ܘܐܡܝܢ</quote></p>
+                   </item>
                   <item n="6" xml:id="addition6" syriaca-tags="scribal-colophon ownership-inscription">
                       <locus from="101b" to="101b"/>
-                      <p>After the <ref target="#finalRubric">doxology</ref>, there stands a note, portions of which have been designedly erased, stating that this manuscript was written at the expense of a person from the village of <placeName ref="">Bĕ-'Aital</placeName>, in <placeName ref="">the district of Hims or Emesa</placeName>, for the library of <placeName ref="">a certain convent, at Edessa</placeName>, in the year <origDate when-custom="0845" datingMethod="Seleucid">845</origDate>, <origDate when="0534" calendar="Gregorian">A.D. 534</origDate>: </p>
+                      <p>After the <ref target="#addition6">doxology</ref>, there stands a note, portions of which have been designedly erased, stating that this manuscript was written at the expense of a person from the village of <placeName ref="">Bĕ-'Aital</placeName>, in <placeName ref="">the district of Hims or Emesa</placeName>, for the library of <placeName ref="">a certain convent, at Edessa</placeName>, in the year <origDate when-custom="0845" datingMethod="Seleucid">845</origDate>, <origDate when="0534" calendar="Gregorian">A.D. 534</origDate>: </p>
                       <p><quote xml:lang="syr">ܐܬܚܦܛ ܕܝܢ ܘܥܒܕ ܟܬܒܐ ܗܢܐ ܡܪ . . . ܡܢ ܒܥܝܬܠ ܩܪܝܬܐ ܕܟܘܪܐ ܕܚܡܨ ܡܕܝܢܬܐ ܒܪܗ . . . ܠܥܘܡܪܐ ܕܝܠܗ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ . . . ܡܫܝܚܐ ܗܟܝܠ ܡܐ ܕܐܬܐ ܒܫܘܒܚܐ ܕܐܒܘܗܝ ܥܡ ܡܠܐܟ̈ܘܗܝ ܩܕ̈ܝܫܐ ܢܫܘܬܦܝܘܗܝ ܘܢܥܡܪܝܘܗܝ ܒܐܘ̈ܢܐ ܕܢܟ̈ܦܐ ܕܫܦܪ ܩܕܡܘܗܝ. ܘܢܘܕܐ ܒܗ ܩܕܡ ܐܒܘܗܝ ܕܒܫܡܝܐ. ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ ܐܘ ܕܢܟܬܘܒ ܡܢܗ ܐܘ . . . ܟܬܝܒ ܟܬܒܐ ܗܢܐ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܕܒܝܬ ܢܗܪܝܢ ܒܫܢܬ ܬܡܢܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܚܡܫ.</quote></p>
                    </item>
                    <item n="9" xml:id="addition9">
@@ -377,6 +381,8 @@
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric and added finalRubric type="doxology"</change>
       <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
+      <change when="2014-05-14" who="http://syriaca.org/editors.xml#jarnwine">Changes to the additions. Deleted finalRubric "doxology"</change>
+
     </revisionDesc>
   </teiHeader>
   <facsimile>
