@@ -182,9 +182,9 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="8">
+              <handDesc hands="7">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                   <desc>This volume is written in a small, elegant, Edessene Estrangela, and dated <origDate when-custom="0845" datingMethod="Seleucid">A.Gr. 845</origDate>, <origDate when="0534" calendar="Gregorian">A.D. 534</origDate>.</desc>
+                   <desc>This volume is written in a small, elegant, Edessene Estrangela, and dated <origDate when-custom="0845" datingMethod="Seleucid">A.Gr. 845</origDate>, <origDate when="0534" calendar="Gregorian">A.D. 534</origDate>. <ref target="#addition6 #addition7">See additions.</ref></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition1">See additions.</ref></desc>
@@ -202,9 +202,6 @@
                     <desc><ref target="#addition5">See additions.</ref></desc>
                  </handNote>
                  <handNote xml:id="handNote7" scope="minor" script="syr" medium="unknown">
-                    <desc><ref target="#addition6">See additions.</ref></desc>
-                 </handNote>
-                 <handNote xml:id="handNote8" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition9">See additions.</ref></desc>
                  </handNote>
               </handDesc>
@@ -231,7 +228,7 @@
                      <p>Doxology:</p>
                      <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܢ ܡܫܒܚܬܐ ܐܡܝܢ ܘܐܡܝܢ ܘܐܡܝܢ</quote></p>
                    </item>
-                  <item n="6" xml:id="addition6" syriaca-tags="scribal-colophon ownership-inscription">
+                  <item n="7" xml:id="addition7" syriaca-tags="scribal-colophon ownership-inscription">
                       <locus from="101b" to="101b"/>
                       <p>After the <ref target="#addition6">doxology</ref>, there stands a note, portions of which have been designedly erased, stating that this manuscript was written at the expense of a person from the village of <placeName ref="">Bĕ-'Aital</placeName>, in <placeName ref="">the district of Hims or Emesa</placeName>, for the library of <placeName ref="">a certain convent, at Edessa</placeName>, in the year <origDate when-custom="0845" datingMethod="Seleucid">845</origDate>, <origDate when="0534" calendar="Gregorian">A.D. 534</origDate>: </p>
                       <p><quote xml:lang="syr">ܐܬܚܦܛ ܕܝܢ ܘܥܒܕ ܟܬܒܐ ܗܢܐ ܡܪ . . . ܡܢ ܒܥܝܬܠ ܩܪܝܬܐ ܕܟܘܪܐ ܕܚܡܨ ܡܕܝܢܬܐ ܒܪܗ . . . ܠܥܘܡܪܐ ܕܝܠܗ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ . . . ܡܫܝܚܐ ܗܟܝܠ ܡܐ ܕܐܬܐ ܒܫܘܒܚܐ ܕܐܒܘܗܝ ܥܡ ܡܠܐܟ̈ܘܗܝ ܩܕ̈ܝܫܐ ܢܫܘܬܦܝܘܗܝ ܘܢܥܡܪܝܘܗܝ ܒܐܘ̈ܢܐ ܕܢܟ̈ܦܐ ܕܫܦܪ ܩܕܡܘܗܝ. ܘܢܘܕܐ ܒܗ ܩܕܡ ܐܒܘܗܝ ܕܒܫܡܝܐ. ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ ܐܘ ܕܢܟܬܘܒ ܡܢܗ ܐܘ . . . ܟܬܝܒ ܟܬܒܐ ܗܢܐ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܕܒܝܬ ܢܗܪܝܢ ܒܫܢܬ ܬܡܢܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܚܡܫ.</quote></p>
