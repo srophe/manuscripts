@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://tei.oucs.ox.ac.uk/ENRICH/ODD/RomaResults/enrich.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Catalogue of the Syriac Manuscripts in the British Museum</title>
+      <principal>Wright, William</principal>
+      <!-- How do we indicate the original print source or the modern transcriber of the print into TEI? -->
+    </titleStmt>
+    <publicationStmt>
+      <date calendar="Gregorian">2011-08-01</date>
+      <distributor>E-Corpus</distributor>
+      <idno>[E-Corpus Id Number]</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="MSSSyriaques" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <settlement>London</settlement>
+          <repository>British Library</repository>
+          <collection>Christian Middle East Section</collection>
+          <idno>BL MS Add. 17,201</idno>
+          <altIdentifier type="internal">
+            <collection>Wright</collection>
+            <idno>DCCXLIX</idno>
+            <!-- How do we mark up these internal identifiers? -->
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <summary>
+            Theology: Collected Authors
+            <!-- How do we mark up these classifications? -->
+          </summary>
+          <textLang mainLang="syr">Syriac</textLang>
+          <msItem n="1" xml:id="a1">
+            <locus from="1a" to="2b">fol. 1 a-2 b</locus>
+            <author key="n20474523" ref="http://viaf.org/viaf/20474523">
+              <persName xml:lang="en" type="standard">Didymus of Alexandria</persName></author>
+            <title xml:lang="en">Chapters of Didymus of Alexandria against the Arians</title>
+            <finalRubric xml:lang="syr">ܫܠܡܘ ܩ̈ܦܠܐܐ ܕܐܡܪܝܢ ܠܕܝܕܡܘܣ ܐܠܟܣܢܕܪܝܐ ܠܘܩܒܠ ܐܪ̈ܝܢܘ.</finalRubric>
+          </msItem>
+          <msItem n="2" xml:id="a2">
+            <locus from="2b">fol. 2 b</locus>
+            <author key="n89656970" ref="http://viaf.org/viaf/89656970">
+              <persName xml:lang="en" type="standard">Cyril of Alexandria</persName></author>
+            <title xml:lang="en">Twelve Chapters of Cyril of Alexandria agaisnt the Nestorians</title>
+            <title xml:lang="syr" type="main">ܪ̈ܫܐ ܬܪ̈ܥܣܪ ܕܗܝܡܝܘܬܐ ܕܐܡܪܝܢ ܠܘܩܒܠ ܗܪ̈ܣܝܘܛܐ ܕܒܝܬ ܢܣܛܘܪܝܣ. ܠܩܕܝܫܐ ܩܘܪܝܠܘܣ ܪܫܐ ܕܐܦܣ̈ܩܦܐ ܕܐܠܟܣܢܕܪܝܐ.</title>
+          </msItem>
+          <msItem n="3" xml:id="a3">
+            <locus from="4b">fol. 4 b</locus>
+            <author key="n89656970" ref="http://viaf.org/viaf/89656970">
+              <persName xml:lang="en" type="standard">Cyril of Alexandria</persName></author>
+            <title xml:lang="en">Confession of faith of Cyril of Alexandria</title>
+            <rubric xml:lang="syr">ܬ̣ܘܒ ܗܝܡܢܘܬܐ ܕܡܪܝ ܩܘܪܝܠܘܣ ܪܫܐ ܕܐ̇ܦܣ̈ܩܦܐ ܕܐܠܟܣܢܕܪܝܐ..</rubric> 
+            <incipit xml:lang="syr">܏ܩܘܪܝܠܘܣ ܏ܐܡ̇ܪ. ܡܗܝ̇ܡܢ ܐܢܐ ܒܐܒܐ ܘܒܒܪܐ̣ ܘܒܪܘܚܐ ܕܩܘܕܫܐ. ܒܐܠܗܐ ܗ̇ܘ ܕܐܫܬܕܪ ܡܢ ܐܠܗܐ. ܒܨܒܝܢܐ ܕܐܒܘܗܝ ܘܒܨܒܝܢܐ ܕܝܠܗ̣. ܘܒܨܒܝܢܐ ܕܪܘܚܐ ܕܩܘܕܫܐ. ܏ܘܫ..
+            </incipit>
+            <!-- lots of unicode rtl issues here with mixed text and non-neutral characters malfunctioning. -->
+          </msItem>
+          <msItem n="4" xml:id="a4" defective="true">
+            <locus from="6a">fol. 6 a</locus>
+            <author key="n33" ref="http://viaf.org/hosted/syriac/33/">
+              <persName xml:lang="en" type="standard">Philoxenos of Mabbug</persName></author>
+            <title xml:lang="en">Confession of faith of Philoxenus of Mabūg</title>
+            <rubric xml:lang="syr">ܬܘܒ ܗܝܡܢܘܬܐ ܕܡܪܝ ܐܟܣܢܝܐ</rubric>
+            <incipit xml:lang="syr">ܡܗܝܡܢܝܢ ܚܢܢ ܒܬܠܝܬܝܘܬܐ̣ ܕܚܕ ܟܝܢܐ ܡܬܘܡܝܐ. ܕܐܒܐ ܘܕܒܪܐ̣ ܘܕܪܘܚܐ ܕܩܘܕܫܐ. ܗ̇ܘ ܕܠܝܬ ܒܗ ܩܢܘܡܐ ܕܛܠ̣ܐ ܘܕܩܫܝܫ. ܘܠܐ ܨܒܝܢܐ ܦܠܝܓܐ. ܏ܘ</incipit>
+            <explicit defective="true"/>
+            <!-- did we do this right? -->
+            <note>Imperfect at the end.</note>
+          </msItem> 
+          <msItem n="5" xml:id="a5" defective="true">
+            <locus from="7a">Fol. 7 a</locus>
+            <title xml:lang="en">Part of a theologico-philosophical treatise</title>
+            <title xml:lang="syr" type="main"><locus from="14a"></locus>ܡܡܠܠܐ ܕܐܒ̈ܗܬܐ ܩܕܝ̈ܫܐ ܕܥܠ ܗܝܡܢܘܬܐ</title>
+            <!-- this is an example of something that is both final rubric and title -->
+            <msItem n="5a" xml:id="a5a">
+              <locus from="7b">fol. 7 b</locus>
+              <title xml:lang="en">Commencement of a section.</title>
+              <title xml:lang="syr" type="main">ܦܘܠܓ ܐܘܣܝܐ ܕܓܘܐ</title>
+              <incipit xml:lang="syr">ܐܘܣܝܐ ܡܬܦܠܓܐ̣. ܠܓܘܫܡܐ̣ ܘܠܠܐ ܓܘܫܡܐ. ܓܘܫܡܐ ܡܢܦܫܐ̣. ܠܡ̇ܢܦܫܐ̣ ܘܠܠܐ ܡ̇ܢܦܫܐ܀ ܓܘܫܡܐ ܡܢ̇ܦܫܐ ܡܬ݀ܦܠܓ̣. ܠܚܝ̈ܘܬܐ̇ ܘܠܚܝܘܬ ܢܨ̈ܒܬܐ̣ ܘܠܢܨ̈ܒܬܐ.܀</incipit>
+            </msItem>
+            <msItem n="5b" xml:id="a5b">
+              <locus from="8b">fol. 8 b</locus>
+              <title xml:lang="en">Another section</title>
+              <title xml:lang="syr" type="main">ܐܚܪ̈ܢܐ</title>
+              <incipit xml:lang="syr">ܐܘܣܝܐ ܕܒ̣ܪܝܐ ܓܢܣ ܓܢ̈ܣܝܢ. ܐܕܫܗ ܕܝܢ ܕܗܢܐ ܓܘܫܡܐ̣. ܕܝܬܘܗܝ̣ ܓܢܣܐ ܕܐܕ̈ܫܐ. ܕܓܘ̈ܫܡܐ ܡܢ̈ܦܫܐ̣ ܐܘ ܠܐ ܡܢ̈ܦܫܐ. ܀ . ܏ܘܫ.</incipit>
+            </msItem>
+            <msItem n="5c" xml:id="a5c">
+              <locus from="8b">fol. 8 b</locus>
+              <title xml:lang="en">A third section</title>
+              <title xml:lang="syr" type="main">ܐܚܪ̈ܢܝܬܐ</title>
+              <incipit xml:lang="syr">ܡܢܗܝܢ ܕܝܢ ܕܐܘܣ̈ܝܘܣ ܐܝܬܝܗܝܢ ܡܪ̈ܟܒܬܐ̣ ܘܡܢܗܝܢ ܦܫܝ̈ܛܬܐ. ܏ܘܫ..</incipit>
+              <finalRubric xml:lang="syr">ܫܠܡ ܡܡܠܠܐ ܕܐܒ̈ܗܬܐ ܩܕܝ̈ܫܐ ܕܥܠ ܗܝܡܢܘܬܐ</finalRubric>
+            </msItem>
+          </msItem>
+          <msItem n="6" xml:id="a6" defective="true">
+            <locus from="14a">fol. 14 a</locus>
+            <author key="n33" ref="http://viaf.org/hosted/syriac/33/">
+              <persName xml:lang="en" type="standard">Philoxenos of Mabbug</persName></author>
+            <title xml:lang="en">Tweleve chapters of Philoxenus of Mabūg</title>
+            <title xml:lang="syr" type="main">ܪ̈ܫܐ ܬܪ̈ܥܣܪ ܕܩܕܝܫܐ ܡܪܝ ܐܟܣܢܝܐ</title>
+            <note>ܻFrom the first to the third chapters, which is imperfect.</note>
+            <incipit xml:lang="syr">ܬܪ̈ܬܝܢ ܫܟ̈ܝܚܢ ܒܡܫܝܚܐ. ܕܒܬܪ̈ܝܢ ܓܒ̈ܝܢ̣. ܟܠ ܚܕܐ ܡܢܗܝ̣ܢ ܓܡܝܪܬܐ. ܘܗ̣ܘ ܒܟܠ ܚܕܐ ܡܢܗܝ̣ܢ ܡܫ̇ܠܡܢܐ.. </incipit>
+            <explicit defective="true"/>  
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <!-- The @material attribute on supportDesc describes the material of the object as:
+                'chart' (paper), 'mixed', 'perg' (parchment), or 'unknown'.
+              -->
+              <support><material>vellum</material></support>
+              <!--probably not worth the time, but each of the folia above could be marked as "locus"-->
+              <extent>15
+                <dimensions type="leaf" unit="in">
+                  <height>5 7/8</height>
+                  <width>9 1/4</width>
+                </dimensions>
+                <!--There does not seem to be a TEI tag for margins, but this could be easily added-->
+              </extent>
+              <condition>
+                <gap reason="lacuna">
+                  <desc>There are lacunae after foll. 6 and 9.</desc>
+                </gap>
+                <p>Some folia are slightly soiled and injured.</p>
+                <!--are we doing lacunae correctly?-->
+              </condition>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2" writtenLines="27 31">
+                <locus from="1" to="15"></locus>
+                <p> Each page is divided into two columns, of from 27 to 31 lines</p></layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote scope="major" script="estrangela" medium="not specified">
+              <!--not sure how to do multiple inks here-->
+              <desc>The writing is a neat, regular Estrangela of the vith or viith cent.</desc>
+            </handNote>
+          </handDesc>
+        </physDesc>
+        <history>
+          <summary/>
+          <origin><date calendar="Gregorian" when="0500">6-7th centuries</date></origin>
+          <!-- Can we use TEMPER time encoding here? How do we do a date range? -->
+          <provenance/>
+        </history>       
+        <additional>
+          <adminInfo>
+            <recordHist><source>"Manuscript description based on W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, 3 vols. (London, 1870-72), abbreviated by the Syriac Reference Portal project team.</source>
+            </recordHist>
+          </adminInfo>
+          <listBibl>
+            <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 690.</bibl>
+          </listBibl>
+        </additional>
+      </msDesc></sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <classDecl>
+      <taxonomy>
+        <!-- in this section it would be possible to include references to genre or library classifications-->
+      </taxonomy>
+    </classDecl>
+  </encodingDesc><profileDesc>
+    <textClass>
+      <!-- in this section it would be possible to include references to genre or library classifications-->
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2011-08-04">
+      <persName>David Michelson</persName>, <persName>Elizabeth Walston</persName>, and <persName>Robert Aydin</persName></change>
+  </revisionDesc>
+</teiHeader>
