@@ -83,7 +83,15 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
+<<<<<<< HEAD
                 <locus from="1b" to="60">Foll. 1b-60</locus>
+=======
+                <locus from="1" to="230">Foll. 1-230</locus>
+                <title ref="" type="supplied">Four books of the Pentateuch, according to the Peshitta version.</title> 
+                <colophon><ref target="#addition3 #addition4 #addition5">See additions.</ref></colophon>
+              <msItem n="2" xml:id="b1" defective="true">
+                <locus from="1" to="60a"/>
+>>>>>>> Justin-editing-february
                 <title ref="http://syriaca.org/work/1" type="supplied">Genesis, according to the Peshitta version.</title>
                 <finalRubric xml:lang="syr">ܫܠܡ. ܣܦܪܐ. ܩܕܡܝܐ. ܒܪܝܬܐ<locus from="60" to="60"/>
                 </finalRubric>
@@ -94,8 +102,13 @@
                     —v. 25. <foreign xml:lang="syr">ܡܢ ܠܥܠ܆ ܒܘܪܟܬܐ</foreign> —v. 26. <foreign xml:lang="syr">ܒܘܪ̈ܟܬܐ ܕܐܒܘܟ ܥܼܫܢ</foreign>  —v. 28. <foreign xml:lang="syr">ܗܠܝܢ ܟܠܗܘܢ</foreign>  —v. 30. <foreign xml:lang="syr">ܚܬܝܐ ; ܡܡܪܐ ܒܐܪܥܐ ܕܟܢܥܢ܇ ܕܙܒܼܢ ܐܒܪܗܡ ܚܩܠܐ ܡܢ; ܚܬܝܐ</foreign>
                 </p></note>
               </msItem>
+<<<<<<< HEAD
               <msItem n="2" xml:id="a2" defective="true">
                 <locus from="60a" to="116">Foll. 60a-116</locus>
+=======
+              <msItem n="3" xml:id="b2" defective="true">
+                <locus from="60a" to="115b"/>
+>>>>>>> Justin-editing-february
                 <title ref="http://syriaca.org/work/2" type="supplied">Exodus, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܡܦܩܢܐ. ܣܦܪܐ ܕܬܪ̈ܝܢ ܕܐܘܪܝܬܐ
                   <locus from="60a" to="60a"/>
@@ -110,9 +123,14 @@
                   </p>
                   <p>Exod. xx. 1—17. v. 2. ܕܐܦܩܬܟ —v. 4. ܘܠܐ ܬܥܒܕ ; ܟܘܠ ܨܠܡ ܘܟܘܠ — v. 5. ܦܪܥ ܚܛܗ̈ܐ —v. 6. ܛܝܒܘܬܐ ܥܠ ܐܠܦܐ ܠܪ̈ܚܡܝ̣ (a modern hand has pointed ܐܠܦ̈ܐ and inserted ܕܕܪܝܢ).— v. 9. ܐܫܬܐ ܝܘܡ̈ܝܢ ; ܟܘܠ ܥܒܕܟ.— V. 10. ܠܐ ܬܥܒ̣ܕ  ܟܘܠ ܥܒܿܕ   ; ܘܬܘܬܒܟ —v. 11, ܘܟܘܠ ܕܐܝܬ ; ܘܐܬܢܝܚ ; ܒܪܟ ܡܪܝܐ ܝܘܡܐ ܕܫܒܥܐ ܘܩܕܫܗ —v. 16. ܠܐ ܬܣ̣ܗܕ ܒܚܒܪܟ —v. 17..ܘܠܐ ܬܪܓ ܐܢܬܬܗ
                 </p></note>
+<<<<<<< HEAD
               </msItem>
                 <msItem n="3" xml:id="a3" defective="true">
                   <locus from="116b" to="177">Foll. 116b-177</locus>
+=======
+                <msItem n="4" xml:id="b3" defective="true">
+                  <locus from="116a" to="177a"/>
+>>>>>>> Justin-editing-february
                   <title ref="http://syriaca.org/work/4" type="supplied">Numbers, according to the Peshitta version.</title>
                   <rubric xml:lang="syr">ܡܢܝܢܐ ܣܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ 
                     <locus from="116b" to="116b"/>
@@ -121,13 +139,20 @@
                   <locus from="177" to="177"/></finalRubric>
                   <note><p>The following portion of the text is missing: after fol. <locus>119</locus>, Num. ii. 34—iii. 25.</p></note>
                 </msItem>
+<<<<<<< HEAD
               <msItem n="4" xml:id="a4" defective="true">
                 <locus from="177a" to="230">Foll. 177a-230</locus>
+=======
+              </msItem>
+              <msItem n="5" xml:id="b4" defective="true">
+                <locus from="177a" to="177a"/>
+>>>>>>> Justin-editing-february
                 <title ref="http://syriaca.org/work/5" type="supplied">Deuteronomy, according to the Peshitta version.</title>
                 <rubric xml:lang="syr">ܬܢܝܢ ܢܡܘܣܐ ܣܦܪܐ ܕܚܡܫܐ ܕܐܘܪܝܬܐ
                   <locus from="177a" to="177a"/></rubric>
                 <note><p>The following portion of the text is missing: after fol. <locus>230</locus>, Deut. xxxiv. 2 to the end.</p>
                   <p>Deut. xxxii. 1—43. v. 1. ܬܫܡܥ ܐܪܥܐ — v. 2. ܐܝܟ ܛܠܐ ; ܘܐܝܟ ܐܪ̈ܣܝܣܐ —v. 4. ܙܕܝܩܐ ܗܘ ܘܬܪܝܨܐ —v. 6..ܗܼܘ ܥܒܕܟ —v. 8. ܕܟܕ ܡܦܠܓ ; ܒܢ̈ܝ ܐܢܫܐ ; ܘܡܢܝܢܐ ܠܒܢ̈ܝ ܐܝܣܪܝܠ —v.9. ܡܛܘܠ —v. 11. ܐܝܟ ܢܫܪܐ — v. 12. ܐܠܗܝ ܢܘܟܪܝ — v. 17. ܠܐ ܕܚܠܘ — v. 20. ܡܛܘܠ —v. 21. ܐܛܢܘܗܝ ; ܒܠܐ ܥܡܝ —v. 22. ܘܬܐܟܘܠ —v. 24. ܘܢܬܛܪܦܘܢ —v. 25. ܬܓܝܙ ;  ܬܘ̈ܢܐ —v. 26. ܐܡܪܬ —v. 27. ܢܬܬܪܝܡܘܢ ܒܥܠܕܒ̈ܒܝܗܘܢ ; ܐܬܪܝܡܬ —v. 33. ܘܪܫܐ — v. 35. ܕܝܠܝ ܗܘ —v. 36. ܡܬܒܝܐ — v. 38. ܘܬܪܥܐ. —v. 39. ܘܠܝܬ ܐܠܗܝ. –v. 41. ܐܦܟ ܦܘܪܥܢܐ ܠܣ̈ܢܐܝ. V. 42 ܢܟܘܠ ܒܣܪܐ.</p></note>
+              </msItem>
               </msItem>
             </msContents>
             <physDesc>
@@ -176,7 +201,12 @@
               </objectDesc>
               <handDesc hands="11">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+<<<<<<< HEAD
                   <desc>This volume appears to have been the work of two scribes, the one of whom, the deacon <persName ref="">John</persName>, wrote from <locus from="1" to="115">the beginning to fol. 115</locus>. The character in both parts is a fine, bold Estrangela.</desc>
+=======
+                  <locus from="1" to="115"/>
+                  <desc>This volume appears to have been the work of two scribes, the one of whom wrote from the beginning to fol. 115, the other from fol. 116 to the end. The character in both parts is a fine, bold Estrangela. <ref target="#addition3 #addition4 #addition5">See additions.</ref></desc>
+>>>>>>> Justin-editing-february
                 </handNote>
                 <handNote xml:id="handNote2" scope="major" script="syr-Syre" medium="unknown">
                  <desc>This volume appears to have been the work of two scribes, the other of whom wrote  from <locus from="116" to="230">fol. 116 to the end</locus>. The character in both parts is a fine, bold Estrangela.</desc>
@@ -211,6 +241,7 @@
               </handDesc>
               <additions>
                 <list>
+<<<<<<< HEAD
                   <item n="1" xml:id="addition1">
                     <p>Lessons have been marked here and there on the margin by a very modern hand.</p>
                     <p>On <locus from="179a" to="179a">fol. 179 a</locus> three various readings are noted.</p>
@@ -227,6 +258,25 @@
                     <p>Then follows the date, the letters of which have also been slightly retouched.</p>
                     <p><quote xml:lang="syr">ܟܬܝܒܐ ܕܝܢ ܦܢܩܝܬܐ ܗܕܐ ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥܝܢ ܘܚܡܫ ܒܐܡܕ ܡܕܝܢܬܐ ܒܝ̈ܘܡܝ ܡܝܩܪܐ ܘܪܚܡ ܐܠܗܐ ܡܪܝ ܡܪܐ ܐܦܘܣܩܘܦܐ ܒܫܝܢܗ̇ ܕܥܕܬܐ ܪܒܬܐ. ܘ </quote></p>
                     <p><quote>"This volume was written in the year <origDate when-custom="0775" datingMethod="Seleucid">775</origDate> (<origDate when="0464" calendar="Gregorian">A.D. 464</origDate>), in the city of <placeName ref="">Amid</placeName>, in the days of the honoured and God-fearing <persName ref="">bishop Mār Mārā</persName>. . . . of the Great Church."</quote></p>
+=======
+                  <item n="1" xml:id="addition1"><locus from="1" to="230"/><ref target="#handnote4"/>
+                    <desc>Lessons have been marked here and there on the margin by a very modern hand</desc></item>
+                  <item n="2" xml:id="addition2"><locus from="179a" to="179a"/><ref target="a4"/>
+                    <desc>On fol. 179 a three various readings are noted.</desc></item>
+                  <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon doxology ownership-inscription">
+                    <locus from="115b" to="115b"/>
+                    <p><desc>On fol. <locus>115b</locus>, after the subscription of the book of Exodus and the usual doxology, there is a note,
+                      part of which has been erased, and the rest retouched by a later hand, as it would seem, not always correctly. It runs as follows.</desc>
+                    </p>
+                    <quote xml:lang="syr"><p>ܕܚܝܠ ܠܥܒܕܗ ܒܨܝܪܐ ܘܟܬܒ ܣܦܪ̈ܐ ܗܠܝܢ ܠܚܒܝܒ ܢܦܫܗ ܡܝܩܪܐ ܘܪܚܡ ܐܠܗܐ ܡܪܝ .... ܩܫܝܫܐ ...... ܕܐܬܚܦܛ ܘܥܒܕ ܘܙܒܢ ܦܢܩܝܬܐ  ܗܕܐ ܠܥܕܬܐ ܩܕܝܫܬܐ ܕܝܠܗ. [ܕܝܠܕ ܐܠܗܐ (sic) ] ...... ܕܡܫܝܚܐ ܒܛܝܒܘܬܗ ܢܚܢܝܘܗܝ ܒܝܘܡܐ ܗܿܘ ܘܢܬܠ ܠܗ ܐܓܪܐ ܘܦܘܪܥܢܐ ܒܩܝܡܐ ܕܙܕܝ̈ܩܐ ܒܝܘܡܐ ܪܒܐ ܕܡܐܬܝܬܐ ܘܢܣܩ ܫܘܒܚܐ ܟܕ ܓܠܝܢ ܐܦ̈ܘܗܝ ܥܡ ܣܗ̈ܕܐ ܕܪ̈ܚܡܘܗܝ ܠܥܠܡ ܥܠܡܝ ܐܡܝܢ</p></quote>
+                    <quote><p>"Who strengthened His humble servant, and he wrote these books for his beloved friend, the honoured and God-loving priest Mār ......,…….. who used diligence and made and bought this volume, (i.e. paid for the writing of it,) for the holy church of …… May the Messiah, through His grace," etc.</p></quote>
+                  </item>
+                  <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon">
+                    <locus from="115b" to="115b"/>
+                    <p><desc>Then follows the date, the letters of which have also been slightly retouched.</desc></p>
+                    <quote xml:lang="syr"><p>ܟܬܝܒܐ ܕܝܢ ܦܢܩܝܬܐ ܗܕܐ ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥܝܢ ܘܚܡܫ ܒܐܡܕ ܡܕܝܢܬܐ ܒܝ̈ܘܡܝ ܡܝܩܪܐ ܘܪܚܡ ܐܠܗܐ ܡܪܝ ܡܪܐ ܐܦܘܣܩܘܦܐ ܒܫܝܢܗ̇ ܕܥܕܬܐ ܪܒܬܐ. ܘ </p></quote>
+                    <quote><p>"This volume was written in the year 775 (A.D. 464), in the city of Amid, in the days of the honoured and God-fearing bishop Mār Mārā. . . . of the Great Church."</p></quote>
+>>>>>>> Justin-editing-february
                     <p><bibl>See Assemani, Bibl. Or., t. i. p. 256 ; Le Quien, Or. Christ., t. ii. col. 992.</bibl></p>
                     <p>Instead of <quote xml:lang="syr">ܒܫܝܢܗ̇</quote>, in or during the peace, another word appears to have stood originally in the MS.; vis. <quote xml:lang="syr">ܒܫܘܩܗ̇</quote>, in the street or court of the Great Church.” See <bibl>Land, Anecd. Syr., t. i. p. 65, note 3</bibl>, and the note at the end of <bibl>Add. 14,489<ptr target="http://syriaca.org/manuscript/179"/></bibl>.</p>
                   </item>
@@ -238,9 +288,16 @@
                     <p>Between the last two notes some words are written in large but very indistinct letters, of comparatively modern date, mentioning the name of one <persName ref="">John</persName> as the possessor of the book.</p>
                     <p><quote xml:lang="syr">ܝܘܚܢܢ ܚܛܝܐ. . ܦܣ (?) ܣܦܪ̈ܐ ܗܠܝܢ ܕܐܢܐ (?) ܐܢܐ ܚܛܝܐ ܘܒܨܝܪܐ ܕܟܠ ܐܠܐ ܕܩܪܐ ܨܠܐ ܥܠܝ ܡܛܠ ܕܒܥܢܐ ܏ܡـ . </quote></p>
                   </item>
+<<<<<<< HEAD
                   <item n="7" xml:id="addition7"><locus from="116a" to="116a"/> 
                     <p>On fol. 116a, near the top of the page, stand in a good clear hand the words:</p>
                     <p><quote xml:lang="syr">ܢܗܘܐ ܕܘܟܪܢܐ ܛܒܐ ܘܡܩܒܠ ܩܕܡ ܐܠܗܐ ܠܡܢ ܕܐܡܪ ܕܬܠܝܬܝܘܬܐ ܡܫܒܚܬܐ </quote></p>
+=======
+                  <item n="5" xml:id="addition5" syriaca-tags="scribal-colophon">
+                    <locus from="115b" to="115b"/> 
+                    <p><desc>The next note gives the name of the scribe who wrote the first half of the manuscript, viz. the deacon <persName>John</persName>. The last line is in part no longer legible.</desc></p>
+                    <quote xml:lang="syr"><p>ܟܬܒ ܟܬܒܐ ܗܢܐ ܝܘܚܢܢ ܡܫܡܫܢܐ ܘܟܬܘܒܐ ܘܣܢܝܩ ܥܠ ܨܠܘܬܐ. . . ܡܪܝ. . . ܢ ܥܠܘܗܝ</p></quote>
+>>>>>>> Justin-editing-february
                   </item>
                   <item n="8" xml:id="addition8"><locus from="116a" to="116a"/> 
                     <p><desc>Beneath, in a small hand of the <date from="0900" to="1100">xth or xith cent.</date>, is a long prayer, apparently extracted from some liturgy, for the Church and all the orders of the clergy, the kings and judges, the rich and the poor. It begins:</desc></p>
@@ -386,8 +443,14 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
+<<<<<<< HEAD
       <change when="2013-07-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-12-31" who="http://syriaca.org/editors.xml#thannah">Initial edit: reorganizing and reformatting additions, hand notes, msItems, etc.</change>
+=======
+      <change when="2013-07-05" who="http://syriaca.org/editors.xml#dgreeson">CREATED: file</change>
+      <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophons.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
+>>>>>>> Justin-editing-february
       <change type="planned" subtype="missing">Add missing vowels.</change>
       </revisionDesc>
   </teiHeader>

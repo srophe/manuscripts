@@ -444,7 +444,8 @@
                 <locus from="212" to="213">Foll. 212-213</locus>
                 <title ref="http://syriaca.org/work/75" type="supplied">The Gospel of S. John, according to the Peshitta version</title>
                 <note>ch. xxi. 12 to the end</note>
-                <colophon><ref target="#p4addition1">See additions.</ref></colophon>
+                <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܝܘܚܢܢ ܫܠܝܚܐ ܚܕ ܡܢ ܬܪ̈ܥܣܪ ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܣ. ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܐܘ̈ܢܓܠܣܛܐ ܬܠܬܐ ܡܬܝ ܠܘܩܐ ܝܘܚܢܢ. . <locus from="213a"/></finalRubric>
+                <note>The manuscript, therefore, from which these two leaves were taken, contained only the three Gospels of <bibl>S. Matthew<ptr target="http://syriaca.org/work/72"/></bibl>, <bibl>S. Luke<ptr target="http://syriaca.org/work/74"/></bibl> and <bibl>S. John<ptr target="http://syriaca.org/work/75"/></bibl>.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -492,11 +493,6 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="p4addition1">
-                    <locus from="213a" to="213a"/>
-                    <p><quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܝܘܚܢܢ ܫܠܝܚܐ ܚܕ ܡܢ ܬܪ̈ܥܣܪ ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܣ. ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܐܘ̈ܢܓܠܣܛܐ ܬܠܬܐ ܡܬܝ ܠܘܩܐ ܝܘܚܢܢ. . </quote></p>
-                    <p>The manuscript, therefore, from which these two leaves were taken, contained only the three Gospels of <bibl>S. Matthew<ptr target="http://syriaca.org/work/72"/></bibl>, <bibl>S. Luke<ptr target="http://syriaca.org/work/74"/></bibl> and <bibl>S. John<ptr target="http://syriaca.org/work/75"/></bibl>.</p>
-                  </item>
                   <item n="2" xml:id="p4addition2">
                     <locus from="213a" to="213a"/>
                     <p>A later hand has placed <foreign xml:lang="syr">ܕ̄</foreign> on the margin, opposite <foreign xml:lang="syr">ܬܠܬܐ</foreign>, and added <foreign xml:lang="syr">ܘܐܦ ܡܪܩܘܣ</foreign>.</p>
@@ -764,6 +760,7 @@
       <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change when="2013-08-26" who="http://syriaca.org/editors.xml#dgreeson">Title edits</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Changed addition1 to finalRubric and note.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>

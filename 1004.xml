@@ -92,79 +92,83 @@
             <summary/>
             <textLang mainLang="syr">Syriac</textLang>
             <msItem n="1" xml:id="a1" defective="true">
+              <locus from="1a" to="151">Foll. 1a-151</locus>
+              <colophon><ref target="#addition2 #addition3 #addition4">See additions.</ref></colophon>
+            <msItem n="1" xml:id="b1" defective="true">
               <locus from="1a" to="3a">Foll. 1a-3a</locus>
               <title ref="" type="supplied">Index of Lessons</title>
               <finalRubric xml:lang="syr">ܫܸܠ̣ܡ ܩ݊ܘܕܻܝܟ̣ܣ ܐܰܘܼܟܻܝܬ ܡܚ̇ܰܘܼܝܳܢܳܐ ܕܩ̣ܪ̈ܝܳܢܸܐ ܕܥܻ̈ܐܕܸܐ
                 ܡܳܪ̈ܳܐܢܳܝܸܐ ܘܕܚܕܒ̈ܫܒܐ ܘܕ݂ܕܘܟܪ̈ܳܢܸܐ ܕܩܕ̈ܝܫܐ. ܕܐܝܬ ܒܟܬ݀ܒܐ ܕܦܘܠܘܣ ܫܠܝ̣ܚܐ ܨܠܘܬܗ̇ ܥܡܢ.
                 ܐܡܝܢ. <locus from="3a" to="3a"/></finalRubric>
             </msItem>
-            <msItem n="2" xml:id="a2" defective="true">
+            <msItem n="2" xml:id="b2" defective="true">
               <locus from="3b" to="150a">Foll. 3b-150a</locus>
               <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul,
                 according to the Peshitta version</title>
               <rubric xml:lang="syr">ܥܠ ܣܲܒ݂ܪܐ ܘܬܘܼ݊ܟܠܳܢܐ ܕܚ̇ܝ̣ܠܐ ܕܡܪܢ ܘܐܠـ[ܗܐ] ܕܝܠܢ ܝܫܘܥ ܡܫܝ̣ܚܐ:
                 ܡ̇ܫܰܪܸܝܢܢ ܠܡܹܟ̣ܬܰ[ܒ] ܐܹܓ̣ܪ̈ܳܬܴܐ ܕܦܘܠܘܣ ܫܠܝ̣ܚܐ ܛܘܼܒܳܢܐ. <locus from="3b" to="3b"/>
               </rubric>
-              <msItem n="3" xml:id="b1" defective="true">
+              <msItem n="3" xml:id="c1" defective="true">
                 <locus from="3b" to="28">Foll. 3b-28</locus>
                 <title ref="http://syriaca.org/work/77" type="supplied">Romans</title>
                 <note>It is imperfect, ch. i. 24—ii. 22 being missing.</note>
               </msItem>
-              <msItem n="4" xml:id="b2">
+              <msItem n="4" xml:id="c2">
                 <locus from="28a" to="54">Foll. 28a-54</locus>
                 <title ref="http://syriaca.org/work/78" type="supplied">1 Corinthians</title>
               </msItem>
-              <msItem n="5" xml:id="b3">
+              <msItem n="5" xml:id="c3">
                 <locus from="54b" to="71">Foll. 54b-71</locus>
                 <title ref="http://syriaca.org/work/79" type="supplied">2 Corinthians</title>
               </msItem>
-              <msItem n="6" xml:id="b4">
+              <msItem n="6" xml:id="c4">
                 <locus from="71b" to="80">Foll. 71b-80</locus>
                 <title ref="http://syriaca.org/work/80" type="supplied">Galatians</title>
               </msItem>
-              <msItem n="7" xml:id="b5">
+              <msItem n="7" xml:id="c5">
                 <locus from="80b" to="89">Foll. 80b-89</locus>
                 <title ref="http://syriaca.org/work/81" type="supplied">Ephesians</title>
               </msItem>
-              <msItem n="8" xml:id="b6">
+              <msItem n="8" xml:id="c6">
                 <locus from="89b" to="96">Foll. 89b-96</locus>
                 <title ref="http://syriaca.org/work/82" type="supplied">Philippians</title>
               </msItem>
-              <msItem n="9" xml:id="b7">
+              <msItem n="9" xml:id="c7">
                 <locus from="96a" to="102">Foll. 96a-102</locus>
                 <title ref="http://syriaca.org/work/83" type="supplied">Colossians</title>
               </msItem>
-              <msItem n="10" xml:id="b8">
+              <msItem n="10" xml:id="c8">
                 <locus from="102b" to="108">Foll. 102b-108</locus>
                 <title ref="http://syriaca.org/work/84" type="supplied">1 Thessalonians</title>
               </msItem>
-              <msItem n="11" xml:id="b9">
+              <msItem n="11" xml:id="c9">
                 <locus from="108a" to="111">Foll. 108a-111</locus>
                 <title ref="http://syriaca.org/work/85" type="supplied">2 Thessalonians</title>
               </msItem>
-              <msItem n="12" xml:id="b10">
+              <msItem n="12" xml:id="c10">
                 <locus from="111b" to="119">Foll. 111b-119</locus>
                 <title ref="http://syriaca.org/work/86" type="supplied">1 Timothy</title>
               </msItem>
-              <msItem n="13" xml:id="b11">
+              <msItem n="13" xml:id="c11">
                 <locus from="119a" to="124">Foll. 119a-124</locus>
                 <title ref="http://syriaca.org/work/87" type="supplied">2 Timothy</title>
               </msItem>
-              <msItem n="14" xml:id="b12">
+              <msItem n="14" xml:id="c12">
                 <locus from="124b" to="127">Foll. 124b-127</locus>
                 <title ref="http://syriaca.org/work/88" type="supplied">Titus</title>
               </msItem>
-              <msItem n="15" xml:id="b13">
+              <msItem n="15" xml:id="c13">
                 <locus from="127b" to="129">Foll. 127b-129</locus>
                 <title ref="http://syriaca.org/work/89" type="supplied">Philemon</title>
               </msItem>
-              <msItem n="16" xml:id="b14">
+              <msItem n="16" xml:id="c14">
                 <locus from="129a" to="150a">Foll. 129a-150a</locus>
                 <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
               </msItem>
               <finalRubric xml:lang="syr">ܫܠܝ̣ܚܐ̣ ܐܰܪ݂̈ܒܰܥ̣ܣ̣ܪܷ̈ܐ. ܨܠܘܬܗ̇  ܥܡܢ. ܐܡܝܢ:
                 <locus from="150a" to="150a"/>
               </finalRubric>
+            </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -220,17 +224,17 @@
                 <item n="1" xml:id="addition1">
                   <p>Numerous lession, altogether 150 in number, are rubricated in the text.</p>
                 </item>
-                <item n="2" xml:id="addition2">
+                <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon">
                   <locus from="150b" to="150b"></locus>
                   <p>On fol. 150 b there is a note, stating that this manuscript was written A. Gr. <origDate when="1565" calendar="Seleucid">1565</origDate>, A.D. <origDate when="1254" calendar="Gregorian">1254</origDate>, in <origPlace>the convent of Abbā Yuhannān Zĕ'ūrā, or John the less</origPlace>, in the desert of <placeName>Scete</placeName>, by a Persian monk from <placeName>Sigistān</placeName>, named <persName>Behnām</persName>.</p>
                   <p><quote xml:lang="syr">ܐܫ̇ܬ̣ܠܡ ܡܢ ܕܠܡ̣ܟܬܒ ܟܬ݀ܒܐ ܗܢܐ ܩܕܝܫܐ. ܒܚܙܝܪܢ ܝܪܚܐ. ܒܫ̇ܢ̣ܬ݀ ܐ̈ܠܦ ܘܚܡ̈ܫܡܐܐ ܘܫ̈ܬܝܢ ܘܚ̈ܡܫ ܕܝܘ̈ܢܝܐ. ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ ܐܒܐ ܕܝܚ̈ܝܕܝܐ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ. ܕܒܐܪܥܐ ܕܡܨܪܝܢ. ܣ̣ܪܛ ܕܝܢ ܘܛܪܛܫ ܚܲܛܝܐ ܒܗܢܡ ܒܨܝܪܐ ܒܕܝܪ̈ܝܐ ܕܡܢ ܣܝܓܣܬܢ ܡܕܝܢܬܐ ܕܒܐܬܪܐ ܕܦܪ̈ܣܝܐ. ܟܠ ܕܝܢ ܕܦ̇ܓܥ̣ ܢܨ̇ܠܐ ܏ܘܫ</quote></p>
                 </item>
-                <item n="3" xml:id="addition3">
+                <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon ownership-inscription">
                   <locus from="150b" to="150b"></locus>
                   <p>Another note on the same page tells us that the said <persName>Behnām</persName> presented it to <placeName>the convent of S. Mary Deipara</placeName>.</p>
                   <p><quote xml:lang="syr"> ܐܢ̇ܐ ܕܘܝ̇ܐ ܒܗܢܡ ܫ̇ܟ̣ܢܬ ܠܗܢܐ ܟܬ݀ܒܐ ܠܕܝܪܐ ܕܩܕܝܫܬܐ ܝ̇ܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ ܕܡܫܬ݀ܡܗܐ ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ. ܕܥܠ ܓܢܒ ܕܝܪܐ ܕܐܒܐ ܒܝܫܘܝ ܛܘܼܒܢܐ ܘܢܨ̇ܝܚ ܫܘܼܦܪ̈ܐ. ܨܠܘܬܗ ܥܡܢ.</quote></p>
                 </item>
-                <item n="4" xml:id="addition4">
+                <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon">
                   <locus from="151a" to="151a"></locus>
                   <p>A note on fol. 151 a further informs us, that at this time <persName>Rabban Yeshua’ of <placeName>Zargol Castra</placeName></persName>, near <placeName>Hisn Kīfā</placeName>, was abbat of <placeName>the convent of S. Mary Deipara</placeName>; and that <persName>Athanasius</persName> was patriarch of <placeName>Alexandria</placeName>. See <bibl>Renaudot, Hist. part. Alexandr. Jacob., p. 599</bibl>; <bibl>Le Quien, Oriens Christ., t. ii. col. 493</bibl>.  But, the name of the occupant, of the see of <placeName>Antioch</placeName> is left blank, perhaps because of the contention between <persName>Dionysius VII</persName> and <persName>John bar Ma'dān</persName>.  See <bibl>Assemani, Bibl. Orient., t. ii. p. 376 etc</bibl>. </p>
                   <p><quote xml:lang="syr">ܐܬܟܬ݂ܒ ܕܝܢ ܟܬ݀ܒܐ ܗܢܐ ܕܡ̈ܠܐ ܕܪܘܚܐ ܩܕܝܫܐ ܕܐܡܝܪ̈ܢ ܠܛܘܼܒܢܐ ܦܘܠܘܣ ܫܠܝ̣ܚܐ. ܒܝܘ̈ܡܝ ܐܒܘܢ ܛܘܼܒܬܢܐ ܡܪܝ ܦܐܛܪܝܪܟܝܣ ܕܟܘܪܣܝܐ ܫܠܝ̣ܚܝܐ ܕܐܢܛܝܘܟܝܐ ܕܣܘܪܝܐ. ܘܡܪܝ ܐܬܐܢܐܣܝܘܣ ܦܐܛܪܝܪܟܝܣ ܕܟܘܪܣܝܐ ܕܐܠܟܣܢܕܪܝܐ ܪܒܬܐ. ܘܒܩܝ̇ܘܡܘܬܐ ܘܪܝܫܢܘܬܐ ܕܪܒܢ ܝܫܘܥ ܩܘܡܘܣ ܡܝ̣ܩܪܐ ܐܘܟܝܬ ܪܝܫܕܝܪܐ ܩܕܝܫܐ ܕܕܝܪܐ ܗܕܐ ܕܣܘܪ̈ܝܝܐ. ܕܡܬܝ̣ܕܥ ܡ̇ܢ ܡܢ ܙܪܓܠ ܩܣܛܪܐ ܕܒܐܬܪܐ ܕܚܣ̣ܢܐ ܕܟܐܦܐ. ܡܦܝ̣ܣ ܐܢ̣ܐܹ ܘܡܬ݀ܟ݂ܫܦ ܐܢ̣ܐ ܠܐܠܗܐ̣. ܕܒܨ̈ܠܘܬܗ̇ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ. ܏ܘܫ.</quote></p></item>
@@ -381,6 +385,9 @@
     <revisionDesc>
       <change when="2013-10-16" who="http://syriaca.org/editors.xml#emjohnson http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change when="2013-11-01" who="http://syriaca.org/editors.xml#thannah http://syriaca.org/editors.xml#jarnwine">Updated finalRubric.</change>
+      <change when="2014-03-27" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect <ref target="#a2">colophon</ref>. </change>
+      <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to msItems.</change>
+      <change when="2014-04-24" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>

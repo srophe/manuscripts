@@ -98,9 +98,6 @@
                 <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܚܟܡܬܐ ܕܒܪܣܝܪܐ
                   <locus from="73b" to="73b"/>
                 </finalRubric>
-                <colophon>
-                  <ref target="#p1addition3">See below.</ref>
-                </colophon>
                 <note>This manuscript has been used by Dr. de Lagarde in his edition of the <bibl>de Lagarde, Apocryphal Books of the Old Testament, Leipzig, 1861</bibl>.</note>
                 <note>The Subscription is followed by the usual doxology.</note>
                 <note>The missing portions of the text are chap. xl. 11-26, and chap. xlvi. 4-18.</note>
@@ -471,8 +468,14 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
+<<<<<<< HEAD
       <change when="2013-10-06" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-12-31" who="http://syriaca.org/editors.xml@thannah">Initial edit: arranging additions, formatting tags of quotations</change>
+=======
+      <change when="" who="http://syriaca.org/editors.xml#?">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted mislabeled colophon.</change>
+      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+>>>>>>> Justin-editing-february
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>

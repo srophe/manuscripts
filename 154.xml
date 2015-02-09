@@ -84,6 +84,7 @@
               <msItem n="1" xml:id="a1">
                  <locus from="1b" to="108a">Foll. 1b-108a</locus>
                  <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
+                <colophon><ref target="#addition4">See additions.</ref></colophon>
                  <msItem n="2" xml:id="b1">
                     <locus from="1b" to="32">Foll. 1b-32</locus>
                     <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
@@ -188,7 +189,7 @@
                       <p><quote xml:lang="syr"><sic>ܐܢܐ ܗܠܢܐ ܫܟܢܬ ܐܘܢܓܠܝܢ ܗܢܐ ܠ. . . ܡܝܛܪܘܦܠܝܛܐ ܕܐܘܪܫܠܡ ܘܠܒܝܠܚܣܝܢ ܐܚܐ ܕܝܠܗ. . . ܕܢܨܠܘܢ ܥܠܗ̇ ܘܢܬܗܕܘܢܢ ܒܨܠܘܬܗܘܢ ܘܥܠ ܥܢܝܕܗ ܡܗܝܡܢܐ</sic></quote></p>
                       <p><quote>"I <persName ref="">Helene</persName> have presented this copy of the Gospels to . . . . . , metropolitan of <placeName ref="">Jerusalem</placeName>, and to <persName ref="">Abu ‘l-Husain</persName> his brother, that they may pray for her (me), and make mention of me in their prayers, and for her (my) deceased in the faith."</quote></p>
                    </item>
-                   <item n="4" xml:id="addition4">
+                   <item n="4" xml:id="addition4" syriaca-tags="scribal-colophon ownership-inscription">
                       <locus from="108a" to="108a"/>
                       <p>The second column of fol. 108 a contains a note, which states that the volume was written in the twenty-fifth year of the reign of <persName ref="">Khusrau the son of <persName ref="">Hurmuz</persName>, king of <placeName ref="">Persia</placeName></persName> (i.e. <origDate when-custom="0926" datingMethod="Seleucid">A. Gr. 926</origDate>, <origDate when="0615" calendar="Gregorian">A.D. 615</origDate>), when <persName ref="">Mār Basha</persName> was metropolitan of <placeName ref="">Nisibis</placeName>, <persName ref="">Mār Matthew</persName> head of the college, <persName ref="">Mār Aha</persName> lecturer, and <persName ref="">Mār Bar-Sahde</persName> teacher. It belonged to, and was collated by, <persName ref="">Gabriel Katrāyā (or the Bactrian)</persName>.</p>
                       <quote xml:lang="syr">
@@ -341,7 +342,12 @@
     <revisionDesc>
       <change when="2013-07-28" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
+<<<<<<< HEAD
       <change when="2014-01-03" who="http://syriaca.org/editors.xml#thannah">Initial edit: reformatted additions and provenance</change>
+=======
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
+>>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -80,6 +80,7 @@
                <msItem n="1" xml:id="a1">
                   <locus from="3b" to="196a">Foll. 3b-196a</locus>
                   <title type="supplied" ref="http://syriaca.org/work/71">The four Gospels, according to the Peshitta version</title>
+                 <colophon><ref target="#addition2">See additions.</ref></colophon>
                   <msItem n="2" xml:id="b1">
                      <locus from="3b" to="56">Foll. 3b-56</locus>
                      <title type="supplied" ref="http://syriaca.org/work/72">Matthew</title>
@@ -97,7 +98,6 @@
                      <title type="supplied" ref="http://syriaca.org/work/75">John</title>
                   </msItem>
                   <note>The large sections are marked, as usual, on the margins.</note>
-                  <colophon><ref target="">See additions.</ref></colophon>
                </msItem>
             </msContents>
             <physDesc>
@@ -155,7 +155,7 @@
                   <item n="1" xml:id="addition1">
                      <p>The short marginal notes seem all to refer to the punctuation and reading of the text.</p>
                   </item>
-                   <item n="2" xml:id="addition2">
+                   <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon">
                       <locus from="196a" to="196a"/>
                       <p>The colophon, fol. 196 a, states that this manuscript was written by one <persName ref="">Moses</persName>, in the year <ref target="#handNote1">above mentioned</ref>, in a convent, the name of which has been erased.</p>
                       <p><quote xml:lang="syr">ܐ̣ܬ݂ܟ݁ܬܸܒ ܕܝܢ ܟܬ݂ܵܒ݂ܵܐ ܗܢܐ ܡܠܸܐ ܚܲܝܸ̈ܐ. ܒܫܢܬ ܐܵܠܸܦ ܘܚܲܡܸܫ ܡܵܐܐ ܘܲܬ̣ܠܵܬܝ̣ܢ ܘܐܲܪܒ̇ܥ ܕܝܵܘ̈ܢܝܐ ܕܐܝ̣ܬܹܝܗ̇ ܒܲܕܛܲܝ̈ܝܸܐ ܫܢܸܬ ܫܸܬܡܵܐܐ ܘܐܬ̣ܫܲܥܥܣܲܪ. ܐܬܟܬܒ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܥܘܡܪܐ ܩܕܝܫܐ . . . ܢ ܕܨܠܘ̈ܬܗ ܢܗ̈ܘܝܵܢ ܫܘܪܐ ܪܡܐ ܠܟܬܘܒܐ ܡܚܝܠܐ ܘܠܩܪܘܝܐ ܡܗܝܪܐ ܘܠܥܠܡܐ ܟܠܗ ܐܡܝܢ. ܟܬ̣ܒ ܕܝܢ ܘܚܲܒܸ݁ܠ ܘܕܒܸ̇ܩ ܐܢܫ ܚܠܫܐ ܘܕܘܝܐ ܘܫܝܛܐ ܕܟܠܗܘܢ ܒܢܝ̈ܢܫܐ. ܗܢܐ ܕܐܣܬܝ̈ܛܝ ܥܝ̈ܢܝ ܡܕܥܗ ܡܢ ܢܘܗܪܐ ܡܬܝܕܥܢܐ ܕܣܘܟ̈ܠܝ ܪܘܚܐ ܒܝܕ ܣܓܝܐܘܬܐ ܕܥܒ݅ܕܘܗܝ ܒܝ̈ܫܐ ܚܛܝܐ. ܡܘܫܐ. ܘܠܐܠܗܐ ܫܘܒܚܐ. ܘ܏ܫ.</quote></p>
@@ -294,6 +294,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-04" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

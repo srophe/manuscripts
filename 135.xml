@@ -81,34 +81,43 @@
             <msContents>
               <summary/>
                <textLang mainLang="syr">Syriac</textLang>
-               <msItem n="1" xml:id="a1">
+              <msItem n="1" xml:id="a1">
+                <locus from="1" to="104">Foll. 1-104</locus>
+                <colophon><ref target="#addition3">See additions.</ref></colophon>              
+              <msItem n="2" xml:id="b1">
                   <locus from="1a" to="1a">Fol. 1a</locus>
                   <title type="supplied" ref="">Seems, so far as it is legible, to be part of a hymn or prayer</title>
                </msItem>
-               <msItem n="2" xml:id="a2" defective="true">
+               <msItem n="3" xml:id="b2" defective="true">
                   <locus from="1b" to="104a">Foll. 1b-104a</locus>
                   <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
-                  <msItem n="3" xml:id="b1" defective="true">
+                 
+                  <msItem n="4" xml:id="c1" defective="true">
                      <locus from="1b" to="29">Foll. 1b-29</locus>
                      <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
                      <note>The missing portion is ch. vii. 18—viii. 26.</note>
                   </msItem>
-                  <msItem n="4" xml:id="b2">
+                  <msItem n="5" xml:id="c2">
                      <locus from="29b" to="46">Foll. 29b-46</locus>
                      <title ref="http://syriaca.org/work/73" type="supplied">Mark</title>
                   </msItem>
-                  <msItem n="5" xml:id="b3">
+                  <msItem n="6" xml:id="c3">
                      <locus from="46a" to="78">Foll. 46a-78</locus>
                      <title ref="http://syriaca.org/work/74" type="supplied">Luke</title>
                     <rubric xml:lang="syr">ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܝܫܘܥ ܡܫܝܚܐ ܟܪܘܙܘܬܐ ܕܛܘܒܢܐ ܠܘܩܐ <choice><orig>ܚ</orig><reg>ܚܕ</reg></choice> ܡܢ ܫܒܥܝܢ <choice><orig>ܫܠܝ̈</orig><reg>ܫܠܝ̈ܚܐ</reg></choice>.<locus from="46a" to="46a"/></rubric>
                   </msItem>
-                  <msItem n="6" xml:id="b4">
+                  <msItem n="7" xml:id="c4">
                      <locus from="78a" to="104a">Foll. 78a-104a</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
+<<<<<<< HEAD
+=======
+                    <finalRubric type="doxology">At the end of the subscription to the last Gospel, fol. 104 a, we have the doxology: <quote xml:lang="syr">ܫܘܒܚܐ ܡܢ ܟܠ ܥܠ ܟܠ ܠܡܪܝܐ ܟܠ ܡܫܡܠܐ ܟܠ ܒܫܘܡܠܝܗ ܐܡܝܢ.</quote><locus from="104a" to="104a"/></finalRubric>
+>>>>>>> Justin-editing-february
                   </msItem>
                  <colophon><ref target="#addition3">See additions.</ref></colophon>
                   <note>The larger sections are marked on the margins.</note>
                </msItem>
+              </msItem> 
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -148,18 +157,15 @@
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="4">
+              <handDesc hands="3">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syrn" medium="unknown">
-                   <desc>This manuscript is written in a small and beautiful Nestorian Estrangela, and dated <origDate when-custom="0911" datingMethod="Seleucid">A. Gr. 911</origDate>, <origDate when="0600" calendar="Gregorian">A.D. 600</origDate>. <ref target="#addition3">See additions.</ref></desc>
+                  <desc>This manuscript is written in a small and beautiful Nestorian Estrangela, and dated <origDate when-custom="0911" datingMethod="Seleucid">A. Gr. 911</origDate>, <origDate when="0600" calendar="Gregorian">A.D. 600</origDate>.<ref target="#addition3">See additions.</ref></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                    <desc>A modern hand. Responsible for <ref target="#a1">writing on <locus from="1a" to="1a">fol. 1a</locus></ref>. <ref target="#addition2 #addition5">See additions also.</ref></desc>
+                    <desc>A modern hand. Responsible for <ref target="#a1">writing on <locus from="1a" to="1a">fol. 1a</locus></ref>. <ref target="#addition2 #addition4">See additions also.</ref></desc>
                  </handNote>
                  <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
                     <desc><ref target="#addition1">See additions.</ref></desc>
-                 </handNote>
-                 <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
-                    <desc><ref target="#addition4">See additions.</ref></desc>
                  </handNote>
               </handDesc>
               <decoDesc/>
@@ -171,20 +177,15 @@
                    <item n="2" xml:id="addition2">
                       <p>Several pages have been re-touched by a modern hand, especially <locus from="29a" to="29a">fol. 29 a</locus>.</p>
                    </item>
-                   <item n="3" xml:id="addition3">
+                   <item n="3" xml:id="addition3" syriaca-tags="doxology scribal-colophon">
                       <locus from="104a" to="104a"/>
-                      <p>At the end of the subscription to <ref target="#b4">the last Gospel</ref>, fol. 104 a, we have the doxology: </p>
-                      <p><quote xml:lang="syr">ܫܘܒܚܐ ܡܢ ܟܠ ܥܠ ܟܠ ܠܡܪܝܐ ܟܠ ܡܫܡܠܐ ܟܠ ܒܫܘܡܠܝܗ ܐܡܝܢ.</quote></p>
-                   </item>
-                   <item n="4" xml:id="addition4">
-                      <locus from="104a" to="104a"/>
-                     <p>Under this there stands a note, partially effaced and torn, which states that the volume was written at <placeName ref="">Tel-Dīnawar</placeName> in the <placeName ref="">district of Beth-Nūhadrā</placeName>, [See <bibl>Assemani, Bibl. Orient., t. iii. Pars 2, pag. DCCXLIII., art. Dinur</bibl>, and <bibl>pag. DCCLXIX., art. Nuhadra</bibl>. He is mistaken in his identification of the latter with Nehardea] <origDate when-custom="0911" datingMethod="Seleucid">A. Gr. 911</origDate>, <origDate when="0600" calendar="Gregorian">A.D. 600</origDate>, in the tenth year of the reign of <listPerson><person ref=""><persName>Khusrau</persName> <persName>(Parwīz,</persName> <persName>Chosroes II.</persName></person></listPerson>, <date notBefore="0591" notAfter="0628" calendar="Gregorian">A.D. 591— 628</date>). From this note we learn too that there was a <placeName ref="">Nestorian school or college at <placeName ref="">Dīnawar</placeName></placeName>.</p>
+                     <p>Under the doxology, there stands a note, partially effaced and torn, which states that the volume was written at <placeName ref="">Tel-Dīnawar</placeName> in the <placeName ref="">district of Beth-Nūhadrā</placeName>, [See <bibl>Assemani, Bibl. Orient., t. iii. Pars 2, pag. DCCXLIII., art. Dinur</bibl>, and <bibl>pag. DCCLXIX., art. Nuhadra</bibl>. He is mistaken in his identification of the latter with Nehardea] <origDate when-custom="0911" datingMethod="Seleucid">A. Gr. 911</origDate>, <origDate when="0600" calendar="Gregorian">A.D. 600</origDate>, in the tenth year of the reign of <listPerson><person ref=""><persName>Khusrau</persName> <persName>(Parwīz,</persName> <persName>Chosroes II.</persName></person></listPerson>, <date notBefore="0591" notAfter="0628" calendar="Gregorian">A.D. 591— 628</date>). From this note we learn too that there was a <placeName ref="">Nestorian school or college at <placeName ref="">Dīnawar</placeName></placeName>.</p>
                       <quote xml:lang="syr">
                          <p>ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܕܐܘܢܓܠܝܘܢ ܡـ[ܩܕܫܐ ܒ]ܫ[ܢܬ] ܬܫܥܡܐܐ ܘܚܕܥܣܪܐ ܒܕܝ̈ܘܢܝܐ. ܕܐܝܬܝܗ̇ ܒܕ . . . ܫܢܬ ܥܣܪ ܕܟܘܣܪܘ ܡܠܟ ܡ̈ܠܟܐ ܒܬܠܕܝܢܘ[ܪ]. ܕܒܐܬܪܐ ܕܒܝܬ ܢܘܗܕܪܐ. ܒܡܠܦܢܘܬܐ ܕܡ̈ـ . . ܘܕܚ̈ܠܝ ܠܐܠܗܐ ܡܪܝ ܒܕܒܘ (؟) ܩܫܝܫܐ ܘܡـ . . . ܐܠܗ̈ܝܐ. ܘܡܪܝ ܚܒܝܒܝ ܡـ[ܩܪܝܢـ]ܐ. ܘ. . . ܩܫܝܫܐ ܡܗܓܝܢܐ. ܘܡܪܝ ܙܟܪܝܐ ܕ . . . ܕܐܣܟܘܠܐ. ܘܝܘܣܦ ܕܘܟܣ. ܫܘܒܚܐ ܠܗ̇ܘ ܟܝܢܐ ܣܓܝܕܐ ܕܫ[ܪܝ]. . . ܘܫܠܡ ܥܡܢ ܒܡܪܚܡܢܘܬܗ ܒܪܝ . . . ܠܫܡܗ ܠܥܠܡܝܢ ܐܡܝܢ܀</p>
                          <p>ܣܪܛ ܕܝܢ ܟܬܒܐ ܗܢܐ ܬܪܝܢ ܡܐ . . . [ܕܟܝـ]ܪܝܢ ܟܠܗܘܢ ܐܚ̈ܐ ܐܟ̈ܣܢܝܐ. . . [ܘܚ]ܢܢ ܢܬܥܕܪ ܒܨܠܘ̈ܬܗܘܢ ܐܝܢ [ܘܐܡܝܢ.]</p>
                       </quote>
                    </item>
-                   <item n="5" xml:id="addition5">
+                   <item n="4" xml:id="addition4">
                       <locus from="106b" to="106b"/>
                       <p>The modern writing on fol. 106b is a statement of the number of <foreign xml:lang="syr">ܦ̈ܬܓܡܐ</foreign> or versicles in <ref target="#a2">the four Gospels</ref>.</p>
                    </item>
@@ -327,8 +328,16 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
+<<<<<<< HEAD
       <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: retagged some Syriac quotes, moved doxology to more appropriate place in msItems</change>
+=======
+      <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+      <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to handNotes and additions. Edits to reflect colophon.</change>
+      <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to msItems.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
+>>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>

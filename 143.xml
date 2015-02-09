@@ -310,8 +310,12 @@
                 <locus from="30b" to="42b">Foll. 30b-42b</locus>
                 <title ref="" type="supplied">Extracts from the Epistles of S. Paul, according to the Peshitta version, ending with 2nd Timothy, ch. iii. 5.</title>
                 <rubric xml:lang="syr"><locus from="30b" to="30b"/>ܬܘܒ ܒܥܘܕܪܢ ܡܪܢ ܟ̇ܬܒܝܢܢ ܡ̈ܠܐ ܡ̈ܓܒܝܬܐ ܡܢ ܦܘܠܘܣ ܩ̇ܪܝܐ ܘܫܠܝܚܐ</rubric>
+<<<<<<< HEAD
                 <finalRubric xml:lang="syr">ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܟܬܒܘܢܐ ܗܢܐ ܒܥܘܕܪܢ ܡܪܢ <locus from="42b" to="42b"/></finalRubric>
                 <colophon><ref target="#p3addition1">See below.</ref></colophon>
+=======
+                <finalRubric xml:lang="syr"><locus from="42b" to="42b"/>ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܟܬܒܘܢܐ ܗܢܐ ܒܥܘܕܪܢ ܡܪܢ </finalRubric>
+>>>>>>> Justin-editing-february
                 <note><p>They are very imperfect, as leaves as wanting after foll. <locus>31</locus>, <locus>35</locus>, <locus>36</locus>, and <locus>40</locus>.</p></note>
               </msItem>
             </msContents>
@@ -660,7 +664,11 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+<<<<<<< HEAD
       <change when="2013-12-12" who="http://syriaca.org/editors.xml#thannah">Initial edit: Cleaned up loci and additions in first three msParts.</change>
+=======
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted mislabeled colophon</change>
+>>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>
