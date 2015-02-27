@@ -335,10 +335,6 @@
                     <locus from="126b" to="169a">Foll. 126b-169a</locus>
                     <title type="supplied" ref="http://syriaca.org/work/75">John</title>
                  </msItem>
-<<<<<<< HEAD
-                <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܐܘܢܓܠܣ̈ܛܐ ܬܪ̈ܝܢ ܠܘܩܐ. ܝܘܚܢܢ.<locus from="169a" to="169a"/></finalRubric>
-=======
->>>>>>> Justin-editing-february
               </msItem>
             </msContents>
             <physDesc>
@@ -415,15 +411,9 @@
                    </item>
                    <item n="3" xml:id="p3addition3">
                       <p><locus from="74" to="74">Fol. 74</locus> is a palimpsest leaf, probably added by the same person who retouched foll. <locus from="162" to="163">162 and 163</locus>.</p>
-<<<<<<< HEAD
-                      <p>Fol. 74 is a palimpsest leaf of the <date notBefore="0800" notAfter="1000">9th or 10th century</date>, the more ancient text being that of S. Matthew. See <ref target="#Part4">Part 4</ref>.</p>
-                   </item>
-                   <item n="5" xml:id="p3addition5">
-=======
                       <p>Fol. 74 is a palimpsest leaf of the <date notBefore="0800" notAfter="1000">9th or 10th century</date>, the more ancient text being that of <ref target="#Part4">S. Matthew</ref>.</p>
                    </item>
                    <item n="4" xml:id="p3addition4" syriaca-tags="doxology scribal-colophon">
->>>>>>> Justin-editing-february
                       <locus from="169b" to="169b"/>
                       <p>On fol. 169 b we have the ordinary doxology; and under it, at some distance below <ref target="#p3decoNote2">the coloured ornament</ref>, there is a note, much injured and effaced, containing the date:</p>
                       <p><quote xml:lang="syr">ܐܫܬܠܡ ܟܬܒܐ ܗܢܐ ܒܝܪܚ . . . ܐܡܢܡܐܐ ܘܐܪ̈ܒܥܝܢ . . . </quote></p>
@@ -680,13 +670,10 @@
     <revisionDesc>
       <change when="2013-08-18" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
-<<<<<<< HEAD
       <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: reformatted colophon into final rubric, retagged additions referencing palimpsest parts</change>
-=======
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edit: changed colophon to finalRubric. Edit: changes to reflect colophon in additions. Edit: changes to handNotes and additions.</change>
       <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Labeled correct colophon as p3addition4.</change>
       <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
->>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>
