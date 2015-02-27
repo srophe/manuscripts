@@ -85,17 +85,13 @@
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="143">Foll. 1-143</locus>
                 <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta version</title>
-<<<<<<< HEAD
-                <msItem n="2" xml:id="b1" defective="unknown">
-=======
                 <colophon><ref target="#addition3"></ref></colophon>
-                <msItem n="2" xml:id="b1">
->>>>>>> Justin-editing-february
+                <msItem n="2" xml:id="b1" defective="unknown">
                   <locus from="1b" to="27b">Foll. 1b-27b</locus>
                   <title ref="http://syriaca.org/work/77" type="supplied">The Epistle of Romans</title>
                   <note>The more recent portions are: ch. i. 1—9 and xii. 8—xiii. 7.</note>
                 </msItem>
-                <msItem n="3" xml:id="b2" defective="true">
+                  <msItem n="3" xml:id="b2" defective="true">
                   <locus from="27b" to="54">Foll. 27b-54</locus>
                   <title ref="http://syriaca.org/work/78" type="supplied">The Epistle of 1 Corinthians</title>
                   <note>Missing portions: ch. xv. 48 xvi. 6 and xvi. 22—24.</note>
@@ -151,7 +147,6 @@
                   <locus from="122" to="142">Foll. 122-142</locus>
                   <title ref="http://syriaca.org/work/90" type="supplied">The Epistle of Hebrews</title>
                 </msItem>  
-<<<<<<< HEAD
                 <finalRubric xml:lang="syr"><locus from="142b" to="142b"/>
                    ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܐܪܒܥܣܪܐ ܕܦܘܠܘܣ ܫܠܝܚܐ ܛܘܒܢܐ .ܘ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ.
                 </finalRubric>
@@ -165,19 +160,6 @@
                 <p><ref target="#b11"/><locus from="116b"/>2 Timothy iv. 13, marg. <quote xml:lang="syr">ܠܟܪܟܐ ܝܗܘܕܐ ܕܢܡܘܣܐ ܐܡ̇ܪ.</quote></p>
                 <p><ref target="#b12"/><locus from="118b"/>Titus, i. 12, marg. <quote xml:lang="syr">ܩ̣ܨܡܐ ܕܐܦܝܩܪܘܣ ܩܨ̇ܘܡܐ ܕܡܢ ܩܪܛܐ.</quote></p></note>
                 <note>The lessons are indicated on the margins in the same handwriting as the notes.</note>
-=======
-                <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬܒ ܐܓܪ̈ܬܐ ܐܪܒܥܣܪܐ ܕܦܘܠܘܣ ܫܠܝܚܐ ܛܘܒܢܐ .ܘ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ.<locus from="142b" to="142b"/></finalRubric>
-                <note>The margins contain many annotations, chiefly indicating the passages of Scripture cited by the Apostle, but also referring occasionally to other matters. The following may serve as specimens:</note>
-                <note><ref target="#b2"/><p><locus from="39a"/>1 Corinth, ix. 5, marg. <quote xml:lang="syr"> ܒ̈ܢܝ ܝܘܣܦ. ܝܥܩܘܒ ܪܝܫܐ ܕܐܦܣ̈ܩܦܐ . ܒ. ܝܘܣܐ .ܓ . ܣܝܡܘܢ. ܕ . ܝܗܘܕܐ.</quote></p></note>
-                <note><ref target="#b2"/><p><locus from="52a"/>1 Corinth, xv. 32, marg. <quote xml:lang="syr">ܡܬܠܐ ܕܥܡܐ ܕܠܩܕܡ̈ܘܢܝܐ. ܥܗܝܕ ܠܗ ܕܝܢ ܐܦ ܐܫܥܝܐ.</quote>1 Corinth, xv. 33, marg. <quote xml:lang="syr"> ܪܥܝܢܐ ܕܡܢܢܕܪܘܣ ܩܘܡܝܩܘܣ ܒܬܐܝܣ.</quote></p></note>
-                <note><ref target="b3"/><p><locus from="65b"/>2 Corinth, xi. 32, marg. <quote xml:lang="syr">ܗܢܐ ܐܪܛܘܣ܆  ܚܡܘܗܝ ܗܘܐ ܕܗܪܘܕܣ.</quote></p></note>
-                <note><ref target="b4"/><p><locus from="72b"/>Galat. iii. 17, marg <quote xml:lang="syr"> ܕܐܒܪܗܡ ܡܢ ܫܢܬ ܥܗ ܥܕܡܐ ܠܫܢܬ ܩ܆ ܫܢ̈ܝܐ ܟܗ. ܕܐܝܣܚܩ ܫ̈ܢܝܐ̣. ܣ . ܕܝܥܩܘܒ܆ ܫܢ̈ܝܐ̣ ܨܐ. ܕܝܘܣܦ܆ ܫܢ̈ܝܐ̣ ܩܝ . ܒܡܨܪܝ̣ܢ. ܫܢ̈ܝܐ̇ ܩܕܡܕ . ܐܟܚܕܐ̣ . ܫܢ̈ܝܐ ܐܪ̈ܒܥܡܐܐ̣ ܠ.</quote></p></note>
-                <note><ref target="b4"/><p><locus from="77a"/>Galat. vi. 14, marg <quote xml:lang="syr">ܡܢ ܟܬܒܐ ܕܠܐ ܝܕܝܥ.</quote></p></note>
-                <note><ref target="b5"/><p><locus from="83b"/>Ephes. v. 14, marg <quote xml:lang="syr">ܡܢ ܢܒܝܘܬܗ</quote></p></note>
-                <note><ref target="b11"/><p><locus from="116b"/>2 Timothy iv. 13, marg. <quote xml:lang="syr">ܠܟܪܟܐ ܝܗܘܕܐ ܕܢܡܘܣܐ ܐܡ̇ܪ.</quote></p></note>
-                <note><ref target="b12"/><p><locus from="118b"/>Titus, i. 12, marg. <quote xml:lang="syr">ܩ̣ܨܡܐ ܕܐܦܝܩܪܘܣ ܩܨ̇ܘܡܐ ܕܡܢ ܩܪܛܐ.</quote></p></note>
-                <note>The lessons are indicated on the margins in the same handwriting as the notes</note>
->>>>>>> Justin-editing-february
               </msItem>
             </msContents>
             <physDesc>
@@ -245,12 +227,9 @@
               </handDesc>
               <additions>
                 <list>
-<<<<<<< HEAD
                   <item n="1" xml:id="addition1">
                     <p>Foll. <locus>1</locus>, <locus>2</locus>, <locus>20</locus>, and <locus>21</locus> are paper leaves of the <date from="1200" to="1300">xiiith cent</date>.</p>
                   </item>
-=======
->>>>>>> Justin-editing-february
                   <item n="2" xml:id="addition2">
                     <p>Some lessons are indicated in the margins with a later hand.</p>
                   </item>
@@ -412,11 +391,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-03" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
-<<<<<<< HEAD
       <change when="2014-02-14" who="http://syriaca.org/editors.xml#thannah">Initial edit: correcting material encoding, added link to additions from condition, added @defective notation to msItems</change>
-=======
       <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
->>>>>>> Justin-editing-february
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
