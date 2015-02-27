@@ -124,8 +124,12 @@
                      </msItem>
                   </msItem>
                   <note>Of the lessons some are rubricated in the text.</note>
+<<<<<<< HEAD
                  <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟ̣ܬܒ ܦܪܟܣܣ. ܕܬܪܥܣܪ̈. ܫ̈ܠܝܚܐ. ܛܘܒ̈ܢܐ. ܥܡ. ܐܓܪ̈ܬܐ. ܩ̈ܬܠܝܩܘܣ. ܬ̈ܠܬ. ܕܝܥܩܘܒ. ܚܕܐ. ܘܕܦܛܪܣ. ܚܕܐ. ܘܕܝܘܚܢܢ. ܚܕܐ.
                    <locus from="72b" to="72b"/></finalRubric>
+=======
+                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟ̣ܬܒ ܦܪܟܣܣ. ܕܬܪܥܣܪ̈. ܫ̈ܠܝܚܐ. ܛܘܒ̈ܢܐ. ܥܡ. ܐܓܪ̈ܬܐ. ܩ̈ܬܠܝܩܘܣ. ܬ̈ܠܬ. ܕܝܥܩܘܒ. ܚܕܐ. ܘܕܦܛܪܣ. ܚܕܐ. ܘܕܝܘܚܢܢ. ܚܕܐ.<locus from="72b" to="72b"/></finalRubric>
+>>>>>>> Justin-editing-february
                </msItem>
                <msItem n="6" xml:id="a3">
                   <locus from="73a" to="73a">Fol. 73a</locus>
@@ -177,7 +181,11 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="9">
+<<<<<<< HEAD
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+=======
+                <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
+>>>>>>> Justin-editing-february
                    <desc>This volume is written in a fine, clear Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
@@ -375,8 +383,12 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+<<<<<<< HEAD
       <change when="2014-01-03" who="http://syriaca.org/editors.xml#thannah">Initial edit: fixed minor typos, corrected @script of lead hand note, retagged final rubric</change>
       <change when="2014-02-07" who="http://syriaca.org/editors.xml#thannah">Added link to additions in condition</change>
+=======
+      <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwineh">Changed colophon to finalRubric</change>
+>>>>>>> Justin-editing-february
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
   </teiHeader>

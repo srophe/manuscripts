@@ -120,7 +120,7 @@
                         </rubric>
                      </msItem>
                   </msItem>
-                  <colophon><ref target="#addition1">See additions.</ref></colophon>
+                 <finalRubric xml:lang="syr">ܫܠܡ. ܠܡܟܬܒ. ܒܟܬܒܐ. ܗܢܐ. ܦܪܟܣܣ. ܕܬܪ̈ܥܣܪ. ܫܠܝܚܐ. ܛܘܒܢܐ. ܘܐܓܪܬܐ. ܬܠܬ. ܩܬܘܠܝܩܘܣ܀<locus from="106a" to="106a"/></finalRubric>
                   <note>Of the lessons, some are rubricated in the text or on the margins by the scribe.</note>
                </msItem>
             </msContents>
@@ -161,7 +161,7 @@
               </objectDesc>
               <handDesc hands="6">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This volume is written in a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>. <ref target="#addition1">See additions.</ref></desc>
+                  <desc>This volume is written in a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">6th century</origDate>.</desc>
                 </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="syr-Syrj" medium="unknown">
                   <desc><ref target="#addition2">See additions.</ref></desc>
@@ -182,11 +182,6 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1">
-                    <locus from="106a" to="106a"/>
-                    <p>Colophon:</p>
-                    <p><quote xml:lang="syr">ܫܠܡ. ܠܡܟܬܒ. ܒܟܬܒܐ. ܗܢܐ. ܦܪܟܣܣ. ܕܬܪ̈ܥܣܪ. ܫܠܝܚܐ. ܛܘܒܢܐ. ܘܐܓܪܬܐ. ܬܠܬ. ܩܬܘܠܝܩܘܣ܀</quote></p>
-                  </item>
                   <item n="2" xml:id="addition2">
                     <p>Both Greek (<!-- Missing Greek vowels --> ) and Syriac vowels have been added by later hands, and the points rukkākh and kushshāi occur on foll. <locus from="3b" to="6b">3 b— 6 b</locus>.</p>
                   </item>
@@ -342,6 +337,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>

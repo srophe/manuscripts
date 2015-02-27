@@ -530,7 +530,7 @@
                     <quote xml:lang="syr"><locus from="" to=""/></quote>
                     <explicit xml:lang="syr"><locus from="" to=""/></explicit>
                     <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
+                    <colophon><ref/>See below.</colophon>
                     <note/>
                     <listBibl>
                        <bibl/>
@@ -545,7 +545,7 @@
                     <quote xml:lang="syr"><locus from="" to=""/></quote>
                     <explicit xml:lang="syr"><locus from="" to=""/></explicit>
                     <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
+                    <colophon><ref/>See below.</colophon>
                     <note/>
                     <listBibl>
                        <bibl/>
@@ -681,7 +681,7 @@
                     <quote xml:lang="syr"><locus from="" to=""/></quote>
                     <explicit xml:lang="syr"><locus from="" to=""/></explicit>
                     <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
+                    <colophon><ref/>See below.</colophon>
                     <note/>
                     <listBibl>
                        <bibl/>
@@ -696,7 +696,7 @@
                     <quote xml:lang="syr"><locus from="" to=""/></quote>
                     <explicit xml:lang="syr"><locus from="" to=""/></explicit>
                     <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
+                    <colophon><ref/>See below.</colophon>
                     <note/>
                     <listBibl>
                        <bibl/>
@@ -925,7 +925,11 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-25" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+<<<<<<< HEAD
       <change when="2014-02-21" who="http://syriaca.org/editors.xml#thannah">Initial edit: reassigned external references, converted colophon to finalRubric</change>
+=======
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Took out blank refs in colophon tags.</change>
+>>>>>>> Justin-editing-february
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
   </teiHeader>

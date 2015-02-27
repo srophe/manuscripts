@@ -82,7 +82,8 @@
                                 the Peshitta version</title>
                             <note>Commences with ch. iii. 14.</note> 
                             <finalRubric xml:lang="syr"><locus from="89" to="89"/>ܫܠܡ ܡܢܝܢܐ ܣ̣ܦܪܐ ܕܐܪ̈ܒܥܐ ܕܐܘܪܝܬܐ</finalRubric>
-                            <colophon><ref target="#addition1 #addition2">See additions.</ref></colophon>
+                            <finalRubric type="doxology">A doxology follows the subscription: <quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
+                                ܐܡܝܢ.</quote><locus from="89a" to="89a"/></finalRubric>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -122,7 +123,7 @@
                                 medium="unknown">
                                 <desc>This manuscript is written in a beautiful, regular Estrangela
                                     <origDate notBefore="0724" notAfter="0725" calendar="Gregorian">around A.D.
-                                        724</origDate>. <persName ref="">Deacon Sābā of <placeName ref="">Rās’ain</placeName></persName>. <ref target="#addition1 #addition2">See additions.</ref></desc>
+                                        724</origDate>. <persName ref="">Deacon Sābā of <placeName ref="">Rās’ain</placeName></persName>. <ref target="#addition2">See additions.</ref></desc>
                             </handNote>
                             <handNote xml:id="handNote2" scope="minor" script="syr"
                                 medium="unknown">
@@ -148,12 +149,7 @@
                         </handDesc>
                         <additions>
                             <list>
-                                <item n="1" xml:id="addition1"><locus from="89a" to="89a"/><ref target="#a1 #handNote1"/>
-                                    <p>Doxology following subscription:</p>
-                                    <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܣܓܝܕܬ ܡܢ ܟܠ ܠܥܠܡ ܥܠܡܝܢ
-                                        ܐܡܝܢ.</quote>
-</p>                                </item>
-                                <item n="2" xml:id="addition2"><locus from="89a" to="89a"/><ref target="#a1 #handNote1"/>
+                               <item n="2" xml:id="addition2"><locus from="89a" to="89a"/><ref target="#a1 #handNote1"/>
                                     <p>Note following doxology and in smaller
                                         letters.</p>
                                     <p><quote>"Jesus God, have mercy on<persName ref=""> Sābā the scribe of <placeName ref="">Rās’ain</placeName></persName>, who
@@ -352,6 +348,7 @@
         <revisionDesc>
             <change when="2013-07-03" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
             <change when="2013-08-16" who="http://syriaca.org/editors.xml#thannah">Initial edits</change>
+            <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Added a doxology finalRubric</change>
             <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
         </revisionDesc>
     </teiHeader>

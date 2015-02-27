@@ -94,7 +94,7 @@
                   <locus from="42a" to="42a"/>
                 </finalRubric>
                 <colophon>
-                  <ref target="#p1addition1 #p1addition2 #p1addition3 #p1addition4 #p1addition5">See additions.
+                  <ref target="#p1addition1 #p1addition2 #p1addition3 #p1addition4">See additions.
                   </ref>
                 </colophon>
                 <note>The book of Ezekiel, part second, from Ch. 26:1 to the end.</note>
@@ -145,30 +145,26 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="p1addition1">
+                  <item n="1" xml:id="p1addition1" syriaca-tags="scribal-colophon">
                      <locus from="42b" to="42b"/>
-                     <ref target="#p1handNote1"/>
                      <p>The following <ref target="#p1addition1 #p1addition2 #p1addition3">notes</ref> are similar to those of <bibl><ptr target="http://syriaca.org/manuscript/84"/>MS Add 14428</bibl> and <bibl><ptr target="http://syriaca.org/manuscript/86"/>MS Add 14430</bibl></p>
                      <p><quote xml:lang="syr">ܐܫܬ݁ܠܡ ܟܬܒܐ ܗܢܐ ܕܚܙܩܝܐܝܠ ܘܚܒܪ̈ܘܗܝ ܟܠܗܘܢ: ܗ̣ܘܐ ܕܝܢ ܗ̣ܘ ܐܚܪܝܐ ܕܕܝܼܬܩܐ ܟܠܗ̣̇. ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܐܣܦܩܠܝܣ ܕܨܝܕ ܪܝܫܥܝܢܐ ܡܕܝܢܬܐ. ܝܘܡ ܚܕ ܒܢܝܣܢ. ܫܢܬ ܐܠܦܐ ܘܬܠܬܝܢ ܘܫܒܥ. ܒܩܘܡܐ ܘܒܡܕܒܪܢܘܬܐ̣. ܕܡܪܝ ܩܘ݊ܣܛܢܛܝܢܐ ܐܦܝܣܩܘܦܐ ܕܝܠܗ ܕܥܘܡܪܐ. ܘܕܡܪܝ ܫܡܥܘܢ ܪܝܫܕܝܪܐ̣. ܘܡܪܝ ܬܝܕܣܝ ܦܪܢܣܐ. ܕܒܨ̈ܠܘܬܗܘܢ ܢܬܚ̣ܢܢ ܚܛ̇ܝܐ ܣܒܐ ܡܫܡܫܢܐ ܟܬܘܒܐ ܪܝܫܥܝܢܝܐ ܕܟܬ̣ܒ܇ ܘܬܘ ܛܡܝܡܐ ܒܟܠܗ̇ ܕܝܬܩܐ ܠܐ ܥܒ̣ܕ܀ ܐܡܝܢ ܘܐܡܝܢ܀ ܀</quote></p>
                      <quote>"This book of Ezekiel and all its companion volumes, for it was the last of the whole Testament, were finished in the <placeName ref="">holy convent of the Specula (or Watchtower)</placeName>, which is near the city of <placeName ref="">Rās’ain</placeName>, on the 1st of Nīsān, in the year <origDate when-custom="1037" calendar="Seleucid">1037</origDate> (<origDate when="0726" calendar="Gregorian">A.D. 726</origDate>), during the time of office and administration of <persName ref="">Mār Constantine</persName>, the bishop of that convent, and of <persName ref="">Mār Simeon</persName> the abbat, and of <persName ref="">Mār Theodosius</persName> the steward; through whose prayers may the sinner <persName ref="" resp="scribe">Sābā</persName> obtain mercy, the deacon (and) scribe of <placeName>Rās’ain</placeName>, who wrote, and did not make a single blotted tau in the whole Testament. Amen and Amen."</quote>
                   </item>
-                   <item n="2" xml:id="p1addition2">
+                  <item n="2" xml:id="p1addition2" syriaca-tags="scribal-colophon ownership inscription">
                       <locus from="42b" to="42b"/>
-                      <ref target="#p1handNote1"/>
                       <p><quote xml:lang="syr">ܐܬܚܦܛ ܕܝܢ ܘܥܒ̣ܕ ܕܝܬܝܩܐ ܗܕܐ: ܡܛܠ ܦܘܪܩܢܐ ܕܚܝ̈ܘܗܝ ܘܕܘܟܪܢܐ ܛ̇ܒܐ ܕܥܢܝ̈ܕܘܗܝ: ܘܝܘܬܪܢܐ ܪܘܚܢܐ ܕܗ̇ܢܘܢ ܕܒܗ̇ ܡܬ݁ܗܓܝܼܢ. ܚܣܝܐ ܡܪܝ ܩܘܿܣܛܢܛܝܢܐ ܐܦܝܣܩܘܦܐ ܕܡܪܕܐ: ܕܐܝܬܘܗܝ ܡܢܗ ܕܥܘܡܪܐ ܕܣܦܩܠܝܣ. ܕܐܠܗܐ ܗܿܘ ܕܚ̣ܙܐ ܥܡܠܗ ܘܚܦܝܛܘܬܗ̣. ܢܫ̇ܟ̣ܢ ܠܗ ܐܓܪܐ ܘܦܘܪܥܢܐ̣. ܥܡ ܪ̈ܥܘܬܐ ܪ̈ܘܪܒܐ ܘܫܪܝܪܐ̇. ܢܒ̈ܝܐ ܘܫܠܝܚ̈ܐ ܘܣܗ̈ܕܐ ܐܡܝܢ ܘܐܡܝܢ܀</quote></p>
                       <quote>"The pious <persName ref="">Mār Constantine</persName>, bishop of <placeName ref="">Māridīn</placeName>, who is of the same <placeName ref="">convent of the Watchtower</placeName>, used diligence and made this Testament (i.e. paid for the writing of it), for the preservation of his living (kindred)," etc.</quote>
                    </item>
-                   <item n="3" xml:id="p1addition3">
+                  <item n="3" xml:id="p1addition3" syriaca-tags="scribal-colophon">
                       <locus from="42b" to="42b"/>
-                      <ref target="#p1handNote1"/>
                       <p><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܒܟ̈ܬܒܐ ܗܠܝܼܢ. ܢܨ̇ܠܐ ܥܠ ܚܛ̇ܝܐ ܣܒܐ ܡܫܡܫܢܐ ܟܬܘܒܐ ܕܟܬ̣ܒ ܐܝܟ ܚܝܠܗ.</quote></p>
                       <p>Then in red letters: </p>
                       <p><quote xml:lang="syr">ܡܪܝܐ ܚܐ̇ܢ܆ ܪܚ̣̇ܡ ܥܠ ܐܒܣ ܡܪܝ ܩܘ݊ܣܛܢܛܝܢܐ܇ ܕܐܪܡ̣ܝ ܠܟܬܘܒܐ ܡܙܝܓܬܐ ܒܫܘܠܡܐ ܕܕܝܿܬܩܐ ܕܝܠܗ. ܐܡܝܼܢ ܘܐܡܝܼܢ</quote></p>
                       <quote>"O Lord, that hast compassion on all, have mercy on the abbat <persName ref="">Mār Constantine</persName>, who……….[The meaning of the words <foreign xml:lang="syr">ܐܪܡܝ ܡܙܝܓܬܐ</foreign> is not clear] to the writer, on the completion of his Testament. Amen and Amen."</quote>
                    </item>
-                   <item n="4" xml:id="p1addition4">
+                  <item n="4" xml:id="p1addition4" syriaca-tags="scribal-colophon ownership-inscription">
                       <locus from="43a" to="43a"/>
-                      <ref target="#p1handNote1"/>
                       <p>On fol. 43 a, still in the handwriting of <persName ref="">Sābā</persName>, stands the following anathema: </p>
                       <p><quote xml:lang="syr">ܟܠ ܕܝܢ ܕܫܩ̇ܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ: ܐܘ ܕܢܟܬܘܒ ܐܘ ܕܢܦܚܡ ܡܢܗ: ܘܠܐ ܡ̇ܦܢܐ ܠܗ ܠܥܘܡܪܐ ܩܕܝܫܐ ܕܐܣܦܩܠܝܣ܆ ܢܗܘܐ ܚ̣ܪܡ܀</quote></p>
                       <p>After this we read: </p>
@@ -177,14 +173,12 @@
                    </item>
                    <item n="5" xml:id="p1addition5">
                       <locus from="43a" to="43a"/>
-                      <ref target="#p1handNote2"/>
                       <p>Below there is written in a different hand, doubtless that of <ref target="#p1addition4">one of the persons named</ref>:</p>
                       <p><quote xml:lang="syr">ܦܚܡܘ ܟܬܒܐ ܗܢܐ ܥܡ ܚܒܪ̈ܘܗܝ̣. ܪܝܫܕܝܪܐ ܡܪܝ ܫܡܥܘܢ ܕܝܠܗ ܕܥܘܡܪܐ ܕܐܣܦܩܠܝܣ. ܡܢ ܬܠܟܡܬܪܐ ܩܪܝܬ̣ܐ. ܘܬܐܘܕܘܣܝ ܬܠܝܐ ܒܝܨܝܦܘܬܐ ܘܒܫܩܠ ܛܥܢܐ ܣܓܝܐܐ. ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠܝܗܘܢ ܡܛܠ ܡܪܢ ܕܢܬܚܢܘܢ ܐܝܟ ܓܝܣܐ ܒܙܩܝܦܐ ܐܡܝܢ ܘܐܡܝܢ ܀܀܀</quote></p>
                       <quote>"The abbat <persName ref="">Mār Simeon</persName>, of the <placeName ref="">convent of the Watchtower</placeName>, from the village of <placeName ref="">Tell-Kummathrā</placeName> <!-- NEEDS ARABIC -->, and <persName ref="">Theodosius of Tellā</persName>, collated this book, and its companion volumes, with great care and pains. Let everyone who reads," etc.</quote>
                    </item>
                    <item n="6" xml:id="p1addition6">
                       <locus from="1b" to="1b"/>
-                      <ref target="#p1handNote3"/>
                       <quote xml:lang="syr">ܘܬܘܒ ܟܬ݂ܒ̇ܐ ܕܣ̈ܝܼܡܬܐ ܕܡܪܝ ܩܘܼܪܝܠܠܘܣ܀</quote>
                    </item>
                 </list>
@@ -484,6 +478,8 @@
       <change when="2013-07-11" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change when="2013-08-26" who="http://syriaca.org/editors.xml#dgreeson">Quote edits in additions.</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Marked out addition 5 as ref to colophon.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>

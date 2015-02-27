@@ -1,0 +1,364 @@
+<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">BL Add MS 12150</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+        </respStmt>
+        <respStmt>
+        <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+        </respStmt>
+        <respStmt>
+          <resp>Syriac text entered by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project management by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+        </respStmt>
+        <respStmt>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+      </editionStmt>
+      <publicationStmt>
+        <pubPlace/>
+        <authority>Syriaca.org: The Syriac Reference Portal </authority>
+        <idno type="URI">http://syriaca.org/manuscript/25/source</idno>
+        <availability>
+          <p/>
+          <licence target="http://creativecommons.org/licenses/by/3.0/">
+            <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+          </licence>
+        </availability>
+        <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-25" xml:lang="en">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/25</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 12150</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">726</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCXXVI</idno>
+            </altIdentifier>
+          </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="a1">
+                <locus from="1" to="255">Foll. 1-255</locus>
+                <colophon><ref target="#addition1">See additions.</ref></colophon>
+                <msItem n="2" xml:id="b1">
+                  <locus></locus>
+                  <author></author>
+                  <title></title>
+                </msItem>
+                <msItem n="" xml:id="b2">
+                  <locus></locus>
+                  <author></author>
+                  <title></title>
+                </msItem>
+                <msItem n="" xml:id="b3">
+                  <locus></locus>
+                  <author></author>
+                  <title></title>
+                </msItem>
+                <msItem n="" xml:id="b4">
+                  <locus></locus>
+                  <author></author>
+                  <title></title>
+                </msItem>
+                <msItem n="" xml:id="b5">
+                  <locus></locus>
+                  <author></author>
+                  <title></title>
+                </msItem>
+                <msItem n="2" xml:id="b6">
+                  <locus></locus>
+                  <author></author>
+                  <title></title>
+                </msItem>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="255">255 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="14.625" unit="in">14 5/8</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="11.125" unit="in">11 1/8</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation>
+                    <p><!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.--></p>
+                  </collation>
+                  <condition>
+                    <list>
+                      <item>
+                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any  persons, places, foreign words, etc. as necessary. Tagging loci is necessary, but adding @from and @to is optional. --></p>
+                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="" writtenLines=""><!-- @writtenLines should not contain anything but numbers and whitespaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
+                    <locus from="" to=""/><!-- Only use locus if there is more than one layout in the MS, eg if the number of columns changes half of the way through -->
+                    <p><!-- Include Wright's prose here --></p>
+                  </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands=""><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
+                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="black-green-and-yellow-paint">
+                  <desc>This volume is written throughout in a beautiful Edessene character, and dated <origDate datingMethod="Seleucid" when-custom="0723">A. Gr. 723</origDate>, <origDate calendar="Gregorian" when="0412">A.D. 412</origDate>. <ref target="#addition1">See additions.</ref></desc>
+                </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
+              </handDesc>
+              <decoDesc>
+                <decoNote xml:id="decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "decoNote1", "decoNote2", etc. -->
+                  <!-- There are many valid entries for @type. See manual for a complete list. -->
+                  <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
+                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
+              </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+              <additions>
+                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <list>
+                  <item n="1" xml:id="addition1" syriaca-tags="scribal-colophon doxology">
+                    <locus from="254a"/>
+                    <p>On fol. 254a, 3rd col., we read the colophon, written with green paint (see also fol. <locus from="227b">227b</locus>):</p>
+                    <p><quote xml:lang="syr">$[ܐܫ]ܬܠܡܘ ܒܦܢܩܝܬܐ ܗܕܐ ܟ̈ܬܒܐ ܬ̈ܠܬܐ ܛܛܘܣ ܘܩܠܡܣ ܘܩܣܪܝܐ</quote></p>
+                    <p><quote>there are completed in this volume three books, <persName>Titus</persName>, and <persName>Clemens</persName>, and the <persName>Caesarean</persName>.</quote></p>
+                    <p>This is followed by the doxologv (written with yellow paint, see also fol. <locus from="229b">229b</locus>), and by the note:</p>
+                    <p><quote xml:lang="syr">$ܐܫܬܠܡܬ ܦܢܩܝܕܬܐ$ ܗܕܐ ܒܝܪܚ ܬܫܪܝ ܫܢܬ ܫܒ[ܥܡـ]ܐܐ [ܘܥ]ܣܪܝܢ ܘܬܠܬ ܒ[ܐ]ܘܪܗܝ [ܡܕܝܢܬܐ ܕ]ܒܝܬ [ܢܗ]ܪܝܢ . . .</quote></p>
+                    <note>$ܦܢܩܝܬܐ is the oldest form of the word, from <foreign xml:lang="grc">πινακίδὶον</foreign>. It usually becomes, by assimiliation, $ܦܢܩܝܬܐ; and is sometimes corrupted into $ܦܢܩܝܢܬܐ, according to the analogy of $ܡܕܝܢܬܐ  ,ܣܦܝܢܬܐ, etc.</note>
+                    <p><quote>this volume was finished in the month of the latter Teshrī, in the year <origDate datingMethod="Seleucid" when-custom="0723">723</origDate> (<origDate calendar="Gregorian" when="0412">A.D. 412</origDate>), at <origPlace><choice><orig>Urhāi</orig><corr resp="http://syriaca.org/editors.xml#wwright">Edessa</corr></choice></origPlace>, a city of <placeName><choice><orig>Beth-Nahrīn</orig><corr resp="http://syriaca.org/editors.xml#wwright">Mesopotamia</corr></choice></placeName>……….</quote></p>                    
+                  </item>
+                  <item n="2" xml:id="addition2">
+                    <locus from="" to=""/>
+                    <p></p>
+                    <p><quote xml:lang="syr"></quote></p>
+                  </item>
+                </list>
+              </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
+              <bindingDesc>
+                <binding xml:id="binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
+                <decoNote xml:id="bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
+                <condition/><!-- Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. -->
+              </bindingDesc><!-- IF <bindingDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+              <sealDesc>
+                <seal xml:id="seal1" contemporary="">
+                  <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
+                </seal><!-- <seal> block may be repeated as necessary for each seal. -->
+              </sealDesc><!-- IF <sealDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+              <accMat><!-- Use this for any mention of closely-related accompanying material (documents, artifacts, letters) which are associated with the <msPart> -->
+                <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
+              </accMat><!-- IF <accMat> IS NOT USED, delete nested elements and make it an empty element.-->
+            </physDesc>
+            <history>
+              <origin>
+                <origDate datingMethod="Seleucid" when-custom="0723">A. Gr. 723</origDate>
+                <origDate calendar="Gregorian" when="0412">A.D. 412</origDate>
+                <note>This manuscript is consequently believed to be the oldest dated volume extant; and yet the vellum is in many places as white, and the ink as black, as if it were only a few years old. The next dated book in point of antiquity seems to be the MS. of the <title>Ecclesiastical History</title> of <persName>Eusebius</persName> in the <placeName>Imperial Public Library at <placeName>St. Petersburg</placeName></placeName>, written <date calendar="Gregorian" when="0462">A.D. 462</date>; and the third, in the <placeName>British Museum</placeName>, <ref target="http://syriaca.org/manuscript/81">Add.14,425</ref>, <date calendar="Gregorian" when="0464">A.D. 464</date> (see <bibl>Wright, p. 3, no. III</bibl>).</note>
+                <origPlace>Edessa</origPlace>
+              </origin>
+              <provenance>
+                <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
+              </provenance><!-- IF <provenance> IS NOT USED, delete nested elements and make it an empty element.-->
+              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
+                  <custEvent type="">
+                    <p/>
+                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
+                </custodialHist><!-- IF <custodialHist> IS NOT USED, delete nested elements and make it an empty element.-->
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wright">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCCXXVI</citedRange>
+                  <citedRange unit="pp">II:631-633</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p>Description is based on Wright's Catalogue without consultation of physical
+            manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+            those have been assumed based on beginning folia.</p>
+          <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+            have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+            of the manuscript.</p>
+          <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+            as possible, including tables of contents and indices.</p>
+        </interpretation>
+      </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+              <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/></bibl>
+            <category xml:id="biblical-manuscripts">
+              <category xml:id="bible-ot"/>
+              <category xml:id="bible-nt"/>
+              <category xml:id="bible-apocrypha"/>
+              <category xml:id="bible-punctuation"/>
+            </category>
+            <category xml:id="service-books">
+              <category xml:id="psalter"/>
+              <category xml:id="lectionaries"/>
+              <category xml:id="missals"/>
+              <category xml:id="sacerdotals"/>
+              <category xml:id="choral"/>
+              <category xml:id="hymns"/>
+              <category xml:id="prayers"/>
+              <category xml:id="funerals"/>
+            </category>
+            <category xml:id="theology">
+              <category xml:id="theo-single"/>
+              <category xml:id="theo-collected"/>
+              <category xml:id="theo-catenae"/>
+              <category xml:id="theo-anonymous"/>
+              <category xml:id="theo-council"/>
+            </category>
+            <category xml:id="wright-history">
+              <category xml:id="history"/>
+            </category>
+            <category xml:id="lives">
+              <category xml:id="lives-collect"/>
+              <category xml:id="lives-single"/>
+            </category>
+            <category xml:id="scientific-lit">
+              <category xml:id="sci-logic"/>
+              <category xml:id="sci-grammar"/>
+              <category xml:id="sci-ethics"/>
+              <category xml:id="sci-medicine"/>
+              <category xml:id="sci-agriculture"/>
+              <category xml:id="sci-chemistry"/>
+              <category xml:id="sci-natural-history"/>
+            </category>
+            <category xml:id="wright-fly-leaves">
+              <category xml:id="fly-leaves"/>
+            </category>
+            <category xml:id="appendices">
+              <category xml:id="appendix-a"/>
+              <category xml:id="appendix-b"/>
+            </category>
+          </taxonomy>
+        </classDecl>
+    </encodingDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="syr">Unvocalized Syriac of any variety or period</language>
+          <language ident="syr-Syre">Syriac in Estrangela</language>
+          <language ident="syr-Syrj">Vocalized West Syriac</language>
+          <language ident="syr-Syrn">Vocalized East Syriac</language>
+          <language ident="syr-x-syrm">Melkite Syriac</language>
+          <language ident="syr-x-syrp">Palestinian Syriac</language>
+          <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+          <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+          <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+          <language ident="en">English</language>
+          <language ident="ar">Arabic</language>
+          <language ident="fr">French</language>
+          <language ident="de">German</language>
+          <language ident="la">Latin</language>
+          <language ident="grc">Ancient Greek</language>
+          <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+        <list>
+          <item>
+            <ref target="#theology"/>       
+          </item>
+        </list>
+        </keywords>
+      </textClass>
+      </profileDesc>
+    <revisionDesc>
+      <change when="2014-05-08" who="http://syriaca.org/editors.xml#jarnwine">Created: file; Structure established for later stage. Colophon encoded.</change>      
+      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change type="planned" subtype="vocalization">Enter vocalization.</change>
+      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
+      <change type="planned" subtype="missing">Missing various unspecified things.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
+      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
+      <change type="planned" subtype="table">Table to be revised.</change>
+      <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
+      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
+      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- facsimile information about the manuscript -->
+    <graphic/>
+    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
+      elements to give coordinates for any special areas of interest -->
+  </facsimile>
+  <text>
+    <body>
+      <!-- If you had a transcription of the manuscript you would put it here -->
+      <p/>
+    </body>
+  </text>
+</TEI>
+

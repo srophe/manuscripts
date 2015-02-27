@@ -89,7 +89,6 @@
                   <author ref="">Simeon the son of <persName xml:lang="syr" ref="">ܪܓܝܘ</persName></author>
                   <title>An index of lessons</title>
                   <rubric xml:lang="syr"><locus from="1b" to="1b"/>ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܐܫܥܝܐ ܢܒܝܐ ܡ̇ܫܒܚܐ ܕܢܒܝ̈ܐ.</rubric>
-                  <colophon><ref target="#addition3">See additions.</ref></colophon>
                </msItem>
                <msItem n="2" xml:id="p1a2">
                   <locus from="3b" to="122a">Foll. 3b-122a</locus>
@@ -406,6 +405,7 @@
      <revisionDesc>
         <change when="2013-07-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
         <change when="2013-08-21" who="http://syriaca.org/editors.xml#thannah">Initial edit. Added msPart=2. Changed Jeremiah URI from Peshitta to SBL.</change>
+       <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted colophon.</change>
         <change type="planned" subtype="missing">Add in missing Greek characters</change>
      </revisionDesc>
   </teiHeader>

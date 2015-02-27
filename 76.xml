@@ -101,7 +101,10 @@
                     <title type="supplied" ref="http://syriaca.org/work/75">The Gospel of S. John, according to the Peshitta version</title>
                      <note>Divided into 20 sections (<foreign xml:lang="syr">ܨܟܟ</foreign>).</note>
                   </msItem>
-                  <colophon><ref target="#addition4">See additions.</ref></colophon>
+                 <finalRubric xml:lang="syr">ܫܠܸܡ ܠܡ̣ܟܬ̇ܒ ܗܢܐ ܐ̣ܘܢܓܠ̣ܝܘܢ ܩܕܝܫܐ ܕܡܠܠܘܼܗܝ ܘܐܟܪܙܘܼܗܝ ܐܪܒܥܐ ܐܘܢ̈ܓܠܝܣܛܐ ܩܕܝܫ̈ܐ ܡܬܝ ܘܡܪܩܘܼܣ ܘܠܘܼܩܐ ܘܝܘܼܚܢܢ<locus from="290a" to="290a"/></finalRubric>
+                 <finalRubric type="doxology">A doxology follows the final rubric.
+                   <locus from="290a" to="290a"/>
+                 </finalRubric>
                </msItem>
             </msContents>
             <physDesc>
@@ -141,7 +144,7 @@
               </objectDesc>
               <handDesc hands="8">
                 <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                   <desc>This volume is written in a good, regular hand, and dated <origDate when-custom="1500" datingMethod="Seleucid">A. Gr. 1500</origDate>, <origDate when="1189" calendar="Gregorian">A.D. 1189</origDate>. A monk named <persName ref="">Abū Tāhir</persName>. <ref target="#addition4 #addition5">See additions.</ref></desc>
+                   <desc>This volume is written in a good, regular hand, and dated <origDate when-custom="1500" datingMethod="Seleucid">A. Gr. 1500</origDate>, <origDate when="1189" calendar="Gregorian">A.D. 1189</origDate>. A monk named <persName ref="">Abū Tāhir</persName>. <ref target="#addition5">See additions.</ref></desc>
                 </handNote>
                  <handNote xml:id="handNote2" scope="minor" script="grc" medium="unknown">
                     <desc>Greek. <ref target="#addition2">See additions.</ref></desc>
@@ -180,12 +183,6 @@
                       <locus from="1a" to="1a"/>
                       <p>The Arabic note on fol. 1 a, stating that this volume was given as a legacy to <placeName ref="">the convent of St. Mary Deipara</placeName>, seems to have been written at the time of <ref target="#handNote6">this second Bar-saumā</ref>.</p>
                       <p><quote xml:lang="ar"><!-- NEED ARABIC --></quote></p>
-                   </item>
-                   <item n="4" xml:id="addition4">
-                      <locus from="290a" to="290a"/>
-                      <p>Colophon, fol. 290 a:</p>
-                      <p><quote xml:lang="syr">ܫܠܸܡ ܠܡ̣ܟܬ̇ܒ ܗܢܐ ܐ̣ܘܢܓܠ̣ܝܘܢ ܩܕܝܫܐ ܕܡܠܠܘܼܗܝ ܘܐܟܪܙܘܼܗܝ ܐܪܒܥܐ ܐܘܢ̈ܓܠܝܣܛܐ ܩܕܝܫ̈ܐ ܡܬܝ ܘܡܪܩܘܼܣ ܘܠܘܼܩܐ ܘܝܘܼܚܢܢ</quote></p>
-                      <p>followed by a doxology.</p>
                    </item>
                    <item n="5" xml:id="addition5">
                       <locus from="290b" to="290b"/>
@@ -359,6 +356,7 @@
       <change when="2013-08-04" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-08-25" who="http://syriaca.org/editors.xml#dgreeson">Initial edit</change>
       <change when="2013-08-26" who="http://syriaca.org/editors.xml#dgreeson">Title edits</change>
+      <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric. Doxology added.</change>
        <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
