@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14600</title>
+        <title xml:lang="en">BL Add MS 17197</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -50,7 +50,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/336/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/853/source</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,283 +60,38 @@
         <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-336" xml:lang="en">
+        <msDesc xml:id="manuscript-853" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/336</idno>
+            <idno type="URI">http://syriaca.org/manuscript/853</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14600</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">693</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCXCIII</idno>
+              <idno type="BL-Shelfmark">Add MS 17197</idno>
             </altIdentifier>
           </msIdentifier>
+          <msPart n="1" xml:id="Part1">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part (number should be  a sequential number assigned in the Wright decoder) --></idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the manuscript name identified at the end of the Wright entry ex. Add MS 14444 and the folia of part 1 (e.g.,  Add MS 14444 foll. 1-24) (note: do not use commas or periods and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+              </altIdentifier>
+            </msIdentifier>
             <msContents>
-              <summary/>
-              <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1" to="148">Foll. 1-148</locus>
-                <author ref="">Severus of Antioch</author>
-                <title ref="" type="supplied">The sixth book of the select epistles of Severus of Antioch</title>
-                <filiation>The sixth book of the select epistles of Severus of Antioch, in the same translation as <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/80</idno><altIdentifier><idno>Add. 12,181</idno></altIdentifier></msIdentifier></bibl>.</filiation>
-                <note>The Index of the eleven <foreign xml:lang="grc">τίτλοι</foreign>, or heads, under which the epistles are arranged, is lost.</note>
-                <msItem n="2" xml:id="b1" defective="true">
-                  <locus from="1" to="64b">Foll. 1-64b</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">First Section</title>
-                  <note>See Add. 12,181, fol. 1b.<ptr target="http://syriaca.org/work/80"/></note>
-                </msItem>
-                <msItem n="3" xml:id="c1" defective="true">
-                  <locus from="1a" to="1a">Fol. 1a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the bishop Constantine.</title>
-                  <note></note>
-                </msItem>
-                <msItem n="4" xml:id="c2" defective="true">
-                  <locus from="1b" to="3a">Foll. 1b-3a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To <persName ref="">Solon, bishop and metropolitan of <placeName ref="">Seleucia</placeName> in <placeName ref="">Isauria</placeName></persName>.</title>
-                </msItem>
-                <msItem n="5" xml:id="c3">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the same (<persName ref="">Solon, bishop and metropolitan of <placeName ref="">Seleucia</placeName> in <placeName ref="">Isauria</placeName></persName>).</title>
-                </msItem>
-                <msItem n="6" xml:id="c4">
-                  <locus from="6a" to="12">Foll. 6a-12a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the same (<persName ref="">Solon, bishop and metropolitan of <placeName ref="">Seleucia</placeName> in <placeName ref="">Isauria</placeName></persName>).</title>
-                </msItem>
-                <msItem n="7" xml:id="c5">
-                  <locus from="12a" to="14">Foll. 12a-14a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Peter, bishop of Apamea.</title>
-                </msItem>
-                <msItem n="8" xml:id="c6">
-                  <locus from="14a" to="14a">Foll. 14a-14a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the bishop Nicias.</title>
-                </msItem>
-                <msItem n="9" xml:id="c7">
-                  <locus from="3a" to="6a">Foll. 14b-15</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Castor, bishop of Perge. </title>
-                </msItem>
-                <msItem n="10" xml:id="c8">
-                  <locus from="15b" to="17a">Foll. 15b-17a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the dux Timostratus.</title>
-                </msItem>
-                <msItem n="11" xml:id="c9">
-                  <locus from="17a" to="18a">Foll. 17a-18a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Stephen, bishop of Tripolis.</title>
-                </msItem>
-                <msItem n="12" xml:id="c10">
-                  <locus from="18a" to="18b">Fol. 18</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the bishop Eucharius.</title>
-                </msItem>
-                <msItem n="13" xml:id="c11">
-                  <locus from="18b" to="21a">Foll. 18b-21a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the abbat of the convent of Bassus.</title>
-                </msItem>
-                <msItem n="14" xml:id="c12">
-                  <locus from="21" to="21">Fol. 21</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the priests Cosmas, Folyeuctus and Zeno.</title>
-                </msItem>
-                <msItem n="15" xml:id="c13">
-                  <locus from="21b" to="23">Foll. 21b-23</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Entrechius, bishop of Anazarbus.</title>
-                </msItem>
-                <msItem n="16" xml:id="c14">
-                  <locus from="23b" to="24">Foll. 23b-24</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Antonine, bishop of Aleppo.</title>
-                </msItem>
-                <msItem n="17" xml:id="c15">
-                  <locus from="24b" to="25">Foll. 24b-25</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the same.</title>
-                </msItem>
-                <msItem n="18" xml:id="c16">
-                  <locus from="25b" to="26">Foll. 25b-26</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the same.</title>
-                </msItem>
-                <msItem n="19" xml:id="c17">
-                  <locus from="26b" to="28a">Foll. 26b-28a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the chamberlain Mishael.</title>
-                </msItem>
-                <msItem n="20" xml:id="c18">
-                  <locus from="28a" to="28a">Fol. 28a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Entrechius, bishop of Anazarbus.</title>
-                </msItem>
-                <msItem n="21" xml:id="c19">
-                  <locus from="28a" to="29">Foll. 28a-29</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Solon, bishop of Seleucia in Isauria.</title>
-                </msItem>
-                <msItem n="22" xml:id="c20">
-                  <locus from="29b" to="30">Foll. 29b-30</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">Letter, in the name of the synod (of Antioch), to the bishops under the jurisdiction of (Peter,) the metropolitan of Apamea.</title>
-                </msItem>
-                <msItem n="23" xml:id="c21">
-                  <locus from="30b" to="32a">Foll. 30b-32a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To a Magister.</title>
-                </msItem>
-                <msItem n="24" xml:id="c22">
-                  <locus from="32a" to="34">Foll. 32a-34</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the Fathers.</title>
-                </msItem>
-                <msItem n="25" xml:id="c23">
-                  <locus from="34b" to="35">Foll.34b-35</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Solon, bishop of Seleucia in Isauria.</title>
-                </msItem>
-                <msItem n="26" xml:id="c24">
-                  <locus from="35b" to="36a">Foll. 35a-36a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Theotecnus the archiater.</title>
-                </msItem>
-                <msItem n="27" xml:id="c25">
-                  <locus from="36a" to="36">Fol. 36</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Dionysius, bishop of Tarsus.</title>
-                </msItem>
-                <msItem n="28" xml:id="c26">
-                  <locus from="36b" to="37a">Foll. 36b-37a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Solon, bishop of Seleucia in Isauria.</title>
-                </msItem>
-                <msItem n="29" xml:id="c27">
-                  <locus from="37a" to="38a">Foll. 37a-38a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Musonius and Alexander, vindices of Anazarbus.</title>
-                </msItem>
-                <msItem n="30" xml:id="c28">
-                  <locus from="38a" to="38b">Fol. 38</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Philoxenus, bishop of Doliche.</title>
-                </msItem>
-                <msItem n="31" xml:id="c29">
-                  <locus from="38b" to="39b">Foll. 38b-39b</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the monks of the convent of Mar Isaac.</title>
-                </msItem>
-                <msItem n="32" xml:id="c30">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the clergy of Apamea.</title>
-                </msItem>
-                <msItem n="33" xml:id="c31" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">Commonitorium to the bishops of Phoenicia.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To John, bishop of Alexandria the less (Alexandretta or Scandarun).</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Dionysius, bishop of Tarsus.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the bishops under the metropolitan of Apamea.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the priest Eustathius.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the deacon Eusebius of Apamea.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Simeon, bishop of Kinnesrin.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the same.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the clergy and magistracy of Apamea.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the general Hypatius.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Solon, bishop of Seleucia in Isauria.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the Fathers.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To the abbat of the convent of Mar Simeon.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Eutychianus, magistrate of Apamea.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied">To Conon, the chief officer of police.</title>
-                </msItem>
-                <msItem n="4" xml:id="c3" defective="">
-                  <locus from="3a" to="6a">Foll. 3a-6a</locus>
-                  <author ref="">Severus of Antioch</author>
-                  <title ref="" type="supplied"></title>
-                </msItem>
-                
-                
-                
-                
-                
-              
-              
-              
-              
-              </msItem>
-              
-              <msItem n="2" xml:id="a2" defective=""><!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem>. -->
+              <summary/><!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
+              <textLang mainLang="syr">Syriac</textLang><!-- For now just keep language as Syriac, this may change later. Note use ISO 639-1 codes if available then 639-2 otherwise, for example, Ancient Greek is grc in ISO-639-2-->
+              <msItem n="1" xml:id="p1a1" defective="">
+                <!-- Note the convention for <msItem> attributes. @n is a steady, uninterrupted count of all <msItem>s in this <msPart>, regardless ofhierarchical level. It does not break or restart until another <msPart>. @xml:id consists of 3 units: the msPart identifier [p1; this unit can be deleted if there is only one msPart], the msItem hierarchy position [a] and the hierarchy count [1].-->
+                <!-- Use  @defective for any msitems which Wright explicitly reports as imperfect or wanting, or delete it if he does not-->
                 <locus from="" to=""><!-- Enter human-readable locus also --></locus>
                 <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
                 <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
@@ -363,7 +118,35 @@
                 <listBibl>
                   <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
                 </listBibl>
-                <msItem n="3" xml:id="b1" defective=""><!-- Note how the @xml:id changes here to indicate a nested msItem within item number 2. @n shows <msItem> #3. @xml:id shows the first b-level <msItem>. Note also that <msItem n="2"...> has not closed yet.-->
+              </msItem>
+              <msItem n="2" xml:id="p1a2" defective=""><!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem> in part 1. -->
+                <locus from="" to=""><!-- Enter human-readable locus also --></locus>
+                <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
+                <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
+                <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
+                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                </rubric>
+                <incipit xml:lang="syr"><!-- If the opening lines of the text proper of the msItem are given put it here, Wright may call this "it begins" (otherwise this element may be deleted) -->
+                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                </incipit>
+                <quote xml:lang="syr"><!-- If Wright gives any other quote from the original that does not fit into one of the above or below categories, put it here (otherwise this element may be deleted) -->
+                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                </quote>
+                <explicit xml:lang="syr"><!-- If the closing lines of the text proper of the msItem are given put it here. Wright appears not to give many explicits. (otherwise this element may be deleted) -->
+                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                </explicit>
+                <finalRubric xml:lang="syr"><!-- Put here any additional prose original to the manuscript that denotes the end or division of this msItem from the next, Wright may call this a "subscription" (otherwise this element may be deleted) -->
+                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
+                </finalRubric>
+                <colophon>
+                  <ref target="">See below.<!-- The colophon is distinguished from the final rubric in that it is not necessarily about the end of the text. It may be a note about the original scribe or patron. The text of the colophon is NOT included here but below as an addition, the ref target provides the link -->
+                  </ref>
+                </colophon>
+                <note><!-- Any additional notation supplied by Wright (otherwise this element may be deleted) --></note>
+                <listBibl>
+                  <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
+                </listBibl>
+                <msItem n="3" xml:id="p1b1" defective=""><!-- Note how the @xml:id changes here to indicate a nested msItem within item number 2. @n shows <msItem> #3. @xml:id shows the first b-level <msItem> in part 1. Note also that <msItem n="2"...> has not closed yet.-->
                   <locus from="" to=""><!-- Enter human-readable locus also --></locus>
                   <author ref=""/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
                   <title ref="" type="supplied"><!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
@@ -391,7 +174,7 @@
                     <bibl><!-- Only use this if Wright refers to a bibliographic item beyond his catalogue. Otherwise the <listBibl> block may be deleted. --></bibl>
                   </listBibl>
                 </msItem>
-              </msItem><!-- <msItem n="2" xml:id="a2"> closes here after its subordinated item(s). -->
+              </msItem><!-- <msItem n="2" xml:id="p1a2"> closes here after its subordinated item(s). -->
             </msContents>
             <physDesc>
               <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
@@ -437,7 +220,7 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands=""><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
-                <handNote xml:id="handNote1" scope="" script="" medium=""><!-- @xml:id should be sequentially assigned as "handNote1", "handNote2", and so on. -->
+                <handNote xml:id="p1handNote1" scope="" script="" medium=""><!-- @xml:id should be sequentially assigned as "p1handNote1", "p1handNote2", and so on. -->
                   <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
                   <!-- @script please use the ISO code combinations cited here: ___ -->
                   <!-- @medium may contain any phrasing Wright may mention (using hyphens between words, not white space), or "unknown" if he does not -->
@@ -445,7 +228,7 @@
                 </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
               </handDesc>
               <decoDesc>
-                <decoNote xml:id="decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "decoNote1", "decoNote2", etc. -->
+                <decoNote xml:id="p1decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "p1decoNote1", "p1decoNote2", etc. -->
                   <!-- There are many valid entries for @type. See manual for a complete list. -->
                   <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
                 </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
@@ -453,12 +236,12 @@
               <additions>
                 <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
                 <list>
-                  <item n="1" xml:id="addition1">
-                    <locus from="" to=""/><!-- locus may be deleted if addition applies throughout entire document. Does NOT need to be human-readable -->
+                  <item n="1" xml:id="p1addition1">
+                    <locus from="" to=""/><!-- locus may be deleted if addition applies throughout entire msPart. Does NOT need to be human-readable -->
                     <p></p><!-- Enter English prose here -->
                     <p><quote xml:lang="syr"><!-- Enter the Syriac quote here if applicable --></quote></p>
                   </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
-                  <item n="2" xml:id="addition2">
+                  <item n="2" xml:id="p1addition2">
                     <locus from="" to=""/>
                     <p></p>
                     <p><quote xml:lang="syr"></quote></p>
@@ -466,12 +249,12 @@
                 </list>
               </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
               <bindingDesc>
-                <binding xml:id="binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
-                <decoNote xml:id="bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
+                <binding xml:id="p1binding1" contemporary=""/><!-- <binding> block may be repeated as necessary. --><!-- @contemporary designates whether or not the binding is contemporary with the contents. -->
+                <decoNote xml:id="p1bindingdeco1"/><!-- Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary. -->
                 <condition/><!-- Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. -->
               </bindingDesc><!-- IF <bindingDesc> IS NOT USED, delete nested elements and make it an empty element.-->
               <sealDesc>
-                <seal xml:id="seal1" contemporary="">
+                <seal xml:id="p1seal1" contemporary="">
                   <p/><!-- Tag names, dates, bibl references, etc. as necessary. -->
                 </seal><!-- <seal> block may be repeated as necessary for each seal. -->
               </sealDesc><!-- IF <sealDesc> IS NOT USED, delete nested elements and make it an empty element.-->
@@ -492,7 +275,7 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
                 <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
@@ -503,7 +286,7 @@
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wright">
+                <bibl xml:id="Wrightpart1"><!-- Note that this <bibl> entry is identified as Wrightpart1 since Part 2 will use a different cited range. -->
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
@@ -514,6 +297,149 @@
                 </bibl>
               </listBibl>
             </additional>
+          </msPart>
+          <msPart n="2" xml:id="Part2">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/855</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 17197 foll. 26-46</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">711</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DCCXI</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p2a1" defective="true">
+                <locus from="26a" to="46">Foll. 26a-46</locus>
+                <author ref=""/>
+                <title ref="" type="supplied">Portions of a monophysite treatise on the doctrine of the Two Natures in Christ. </title>
+                <note>As it is directed against <persName>Leo, bishop of <placeName>Harrān</placeName></persName>, and is divided into twelve chapters, there can be no doubt that it is the "<foreign xml:lang="la">Epistola Apologetica ad Leonem</foreign>" of <persName>Elias, patriarch of Antioch</persName>, described by <bibl>Assemani in the Bibl. Or., t. ii., p. 95</bibl>.</note>
+                <note>Chapp. i.—vi. are wanting.</note>
+                <note>The principal writers cited are: <list><item><persName>Acacius of Melitene</persName>: <locus from="33b">fol. 33 b.</locus></item></list></note>
+              <msItem n="2" xml:id="p2b1" defective="true">
+                <locus from="26a" to="26b">Fol. 26a-26b</locus>
+                <title ref="" type="supplied">Chap, vii.</title>
+              </msItem>
+                <msItem n="3" xml:id="p2b2" defective="true">
+                  <locus from="26b" to="28a">Fol. 26b-28a</locus>
+                  <title ref="" type="supplied">Chap, viii.</title>
+                  <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܬܡܢܝܐ ܩܘܝܡܐ ܕܕܘܓܡܐ ܕܝܠܢ ܗܢܘ ܕܝܢ ܕܚܕ ܟܝܢܐ ܡܪܟܒܐ ܡܬܝܕܥ ܡܫܝܚܐ̣. ܐܘܟܝܬ ܚܕ ܟܝܢܐ ܕܡܠܬܐ ܐܠܗܐ ܕܡܒܣܪ ܗ̇ܝ ܕܐܝܬܝܗ̇ ܚܕ ܩܢܘܡܐ ܕܡܠܬܐ ܕܡܒܣܪ. ܗ̣ܝ ܓܝܪ ܟܕ ܗ̣ܝ ܡܫܘܕܥܢ ܗܠܝܢ ܒܡܬܒܣܪܢܘܬܐ̣. ܐܝܟܢܐ ܕܒܗܠܝܢ ܕܡܬܬܝ̈ܬܝܢ ܡܬܚܘܝܐ. ܘܕܟܠܩ̈ܕܘܢܝܐ ܕܠܐ ܡܘܕܝܢ ܗܟܢܐ̣. ܓܕܫܐ ܡܬܪܥܝܢ ܕܐܝܬܘܗܝ ܗ̇ܘ ܚܕ ܩܢܘܡܐ ܕܡܫܝܚܐ ܕܐܡܪܝ̣ܢ. ܐܝܟܢܐ ܕܐܦ ܐܬܚܘܝܬ ܡܢ ܠܥܠ
+                    <locus from="26b" to="26b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="4" xml:id="p2b3" defective="true">
+                  <locus from="28a" to="33b">Fol. 28a-33b</locus>
+                  <title ref="" type="supplied">Chap, ix.</title>
+                  <note>Imperfect at the beginning.</note>
+                </msItem>
+                <msItem n="5" xml:id="p2b4" defective="true">
+                  <locus from="33b" to="36b">Fol. 33b-36b</locus>
+                  <title ref="" type="supplied">Chap, x.</title>
+                  <rubric xml:lang="syr">ܩܦܠܬܘܢ ܕܥܣܪܐ̣. ܫܪܝܐ ܕܬܠܬܐ ܫ̈ܘܐܠܐ. ܗܠܝܢ ܕܡܠܝܠܐܝܬ ܟܐܡܬ ܐܬܥܬܕܘ ܡܢ ܠܐܘܢ̇. ܒܐܓܪܬܐ ܗ̇ܝ ܕܐܝܬܝܗ̇ ܗܕܐ ܥܢܝܢܗ̇
+                    <locus from="33b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="6" xml:id="p2b5">
+                  <locus from="36b" to="43a">Fol. 36b-43a</locus>
+                  <title ref="" type="supplied">Chap, xi.</title>
+                  <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܚܕܥܣܪ ܒܘܚܢܐ ܕܡܚܘܐ ܕܗ̇ܘ ܕܟܢܫ ܬܚ̈ܘܝܬܐ ܗܠܝܢ ܕܡܢ ܠܐܘܢ ܗܢܐ ܕܠܘܬܗ ܐܝܬܝܗ̇ ܐܓܪܬܐ ܐܬܬܝ̈ܬܝ̣. ܠܐ ܗܘܐ ܕܢܦܝܣ ܥܠ ܕܘܓܡܐ ܕܝܠܗ ܕܫܪܝܪ ܝܨܝ̣ܦ. ܐܠܐ ܡܠܘܢ ܕܢܛܥܐ ܒܫܡ ܐܒ̈ܗܬܐ. ܘܬܚܘܝܬܐ ܡܢܗܘܢ ܕܝܠܗܘܢ ܕܬܪ̈ܝܝ ܟܝ̈ܢܐ ܕܐܦܠܐ ܒܚܕ ܡܢ ܙܢ̈ܝܢ ܡܬܐܡܪ̈. ܡܢ ܒܬܪ ܚܕܝܘܬܐ ܡܫܝܚܐ ܬܪ̈ܝܢ ܟܝ̈ܢܐ.                     
+                   <locus from="36b"/>
+                  </rubric>
+                </msItem>
+                <msItem n="7" xml:id="p2b6" defective="true">
+                  <locus from="43a" to="46">Fol. 43a-46</locus>
+                  <title ref="" type="supplied">Chap, xii.</title>
+                  <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܬܪ̈ܥܣܪ ܒܘܚܢܐ ܕܡܚܘܐ̣. ܕܠܐ ܗܘܐ ܐܝܟ ܐ̇ܝܕܐ ܕܡܬܬܘܕܝܐ ܕܐܡܝܪܐ̣. ܗܕܐ ܠܐܒ̈ܗܬܐ ܚܣ܇ ܐܠܐ ܡܠܘܢ ܒܡܫܦܢܘܬܐ ܩܒܠܗ̇ ܩܕܝܫܐ ܣܘܐܪܐ ܐܢܗ̣ܘ ܕܐܡܝܪܐ ܠܗ̇. ܗ̇ܝ ܕܟܠܗ̇ ܠܡ ܩܛܝܓܪܢܘܬܐ ܡܠܝܐ̇. ܗ̇ܝ ܕܢܐܡܪ ܬܪ̈ܝܢ ܟܝ̈ܢܐ ܡܢ ܒܬܪ ܚܕܝܘܬܐ ܒܡܫܝܚܐ܇ ܐܦܢ ܡܢ ܐܒܗ̈ܬܐ ܣ̈ܓܝܐܐ ܕܠܐ ܥܕܠܝ ܐܡܝܪܐ. ܘܬܚ̈ܘܝܬܐ ܡܢܗܘܢ ܕܝܠܗܘܢ ܕܡܬܟܬܫܢܐ̣. ܕܠܐ ܣܟ ܐܡ̣ܪ ܐܦܠܐ ܚܕ ܡܢ ܐܒ̈ܗܬܐ̇. ܬܪ̈ܝܢ ܟܝ̈ܢܐ ܠܡܫܝܚܐ ܡܢ ܒܬܪ ܚܕܝܘܬܐ.                      
+                    <locus from="43a"/>
+                  </rubric>
+                </msItem>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="21">21 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="9" unit="in">9</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="5.625" unit="in">5.625</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <collation>
+                    <p>The quires are signed with letters.</p>
+                  </collation>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Some leaves are much stained and soiled, especially foll. <locus>28—33</locus>, <locus>39</locus>, and <locus>43</locus>.</p>
+                      </item>
+                      <item>
+                        <p>This manuscript is imperfect both at the beginning and end, and there are lacunae after foll. <locus>26</locus>, <locus>27</locus>, <locus>33</locus>, <locus>43</locus>, and <locus>44</locus>.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="1" writtenLines="30 33">
+                    <locus from="26" to="46"/>
+                    <p>There are from 30 to 33 lines in each page.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="">
+                <handNote xml:id="p2handNote1" scope="major" script="syr" medium="unknown">
+                  <desc>It is written in a good, regular hand of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent</origDate>.</desc>
+                </handNote>
+              </handDesc>
+              <additions>
+                <p/>
+                <list>
+                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                </list>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0800" notAfter="1000">ixth or xth cent</origDate>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart2">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCCXI</citedRange>
+                  <citedRange unit="pp">2:606-608</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
         </msDesc>
       </sourceDesc>
     </fileDesc>
@@ -605,6 +531,11 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
+            <ref target="#Part1"/>  
+            <ref target=""/>       
+          </item>
+          <item>
+            <ref target="#Part2"/>  
             <ref target="theo-single"/>       
           </item>
         </list>
@@ -612,7 +543,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-10-13" who="http://syriaca.org/editors.xml#?">Created: file</change>
+      <change when="2014-02-06" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
