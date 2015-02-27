@@ -490,13 +490,10 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-09-27" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
-<<<<<<< HEAD
       <change when="2014-01-03" who="http://syriaca.org/editors.xml#thannah">Initial edit: minor reformatting of final rubrics</change>
       <change when="2014-02-07" who="http://syriaca.org/editors.xml#thannah">Added link to additions in condition</change>
-=======
       <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Removed colophon and ref to p1addition5.</change>
       <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
->>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>

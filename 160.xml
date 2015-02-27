@@ -141,11 +141,7 @@
                      <locus from="179a" to="208b">Foll. 179a-208b</locus>
                      <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
                   </msItem>
-<<<<<<< HEAD
-                 <finalRubric xml:lang="syr"><locus from="208b" to="208b"/>ܫܠܡ ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ: ܐܪ̈ܒܥܣܪܐ̇. ܕܦܐܘܠܘܣ: ܫܠܝܚܐ ܛܘܒܢܐ: ܐܪܕܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥ̈ܕܬܐ: ܘܡܩܝܡܢܐ: ܕܗܝܡܢܘܬܐ:</finalRubric>
-=======
                  <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ: ܐܪ̈ܒܥܣܪܐ̇. ܕܦܐܘܠܘܣ: ܫܠܝܚܐ ܛܘܒܢܐ: ܐܪܕܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥ̈ܕܬܐ: ܘܡܩܝܡܢܐ: ܕܗܝܡܢܘܬܐ:<locus from="208b" to="208b"/></finalRubric>
->>>>>>> Justin-editing-february
                   <note>The lessons are marked in the usual way on the margins, some by the scribe.</note>
                </msItem>
             </msContents>
@@ -385,11 +381,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-08" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
-<<<<<<< HEAD
       <change when="2014-01-23" who="http://syriaca.org/editors.xml#thannah">Initial edit: reclassified colophon as a final rubric</change>
-=======
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>    
->>>>>>> Justin-editing-february
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>
