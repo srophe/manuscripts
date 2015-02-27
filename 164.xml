@@ -144,12 +144,8 @@
                      <locus from="89b" to="101a">Foll. 89b-101a</locus>
                      <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
                   </msItem>
-<<<<<<< HEAD
                  <finalRubric  xml:lang="syr"><locus from="101a" to="101a"/>ܫܠܡ: ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ ܫܠܝܚܐ: ܛܘܒܢܐ ܐܪܕܝܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥܕ̈ܬܐ ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬܒ ܕܡܪܢ ܢܥܕܪܝܘܗܝ ܘܢܚܝܠܝܘܗܝ ܒܨܠܘܬ ܣܗ̈ܕܐ ܐܡܝܢ ܘܐܡܝܢ܀</finalRubric>
                   <colophon><ref target="#addition7">See additions.</ref></colophon>
-=======
-                 <finalRubric xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܒܟܬܒܐ: ܗܢܐ: ܐܓܪ̈ܬܐ ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ ܫܠܝܚܐ: ܛܘܒܢܐ ܐܪܕܝܟܠܐ: ܚܟܝܡܐ: ܘܡܒܢܝܢܐ: ܕܥܕ̈ܬܐ ܨܠܘ ܥܠ ܡ̇ܢ ܕܟܬܒ ܕܡܪܢ ܢܥܕܪܝܘܗܝ ܘܢܚܝܠܝܘܗܝ ܒܨܠܘܬ ܣܗ̈ܕܐ ܐܡܝܢ ܘܐܡܝܢ܀<locus from="101a" to="101a"/></finalRubric>
->>>>>>> Justin-editing-february
                </msItem>
             </msContents>
             <physDesc>
@@ -228,17 +224,10 @@
                    <item n="5" xml:id="addition5">
                       <p>A few Greek vowels have been added by another reader.</p>
                    </item>
-<<<<<<< HEAD
-                   <item n="7" xml:id="addition7">
-                      <locus from="101b" to="101b"/>
-                      <p>Doxology: </p>
-                      <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܢ ܡܫܒܚܬܐ ܐܡܝܢ ܘܐܡܝܢ ܘܐܡܝܢ</quote></p>
-=======
                    <item n="6" xml:id="addition6" syriaca-tags="doxology">
                      <locus from="101b"/>
                      <p>Doxology:</p>
                      <p><quote xml:lang="syr">ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܢ ܡܫܒܚܬܐ ܐܡܝܢ ܘܐܡܝܢ ܘܐܡܝܢ</quote></p>
->>>>>>> Justin-editing-february
                    </item>
                   <item n="7" xml:id="addition7" syriaca-tags="scribal-colophon ownership-inscription">
                       <locus from="101b" to="101b"/>
@@ -387,15 +376,11 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-08" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
-<<<<<<< HEAD
       <change when="2014-02-14" who="http://syriaca.org/editors.xml#thannah">Initial edit: reclassifying colophon as finalRubric</change>
-=======
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric and added finalRubric type="doxology"</change>
       <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
       <change when="2014-05-14" who="http://syriaca.org/editors.xml#jarnwine">Changes to the additions. Deleted finalRubric "doxology"</change>
-
->>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>
