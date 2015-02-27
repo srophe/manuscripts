@@ -309,11 +309,8 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-17" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
-<<<<<<< HEAD
       <change when="2013-12-31" who="http://syriaca.org/editors.xml#thannah">Initial edit: no updates required at this time</change>
-=======
       <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Marked up addition with syriaca-tags</change>
->>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>
