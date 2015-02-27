@@ -600,110 +600,57 @@
               <msContents>
                  <summary/>
                  <textLang mainLang="syr">Syriac</textLang>
-                 <msItem n="1" xml:id="p4a1" defective="">
-                    <locus from="" to=""/>
-                    <author ref=""/>
-                    <title ref="" type="supplied"/>
-                    <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                    <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                    <quote xml:lang="syr"><locus from="" to=""/></quote>
-                    <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                    <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
-                    <note/>
-                    <listBibl>
-                       <bibl/>
-                    </listBibl>
-                 </msItem>
-                 <msItem n="2" xml:id="p4a2" defective="">
-                    <locus from="" to=""/>
-                    <author ref=""/>
-                    <title ref="" type="supplied"/>
-                    <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                    <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                    <quote xml:lang="syr"><locus from="" to=""/></quote>
-                    <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                    <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                    <colophon><ref target=""/>See below.</colophon>
-                    <note/>
-                    <listBibl>
-                       <bibl/>
-                    </listBibl>
+                 <msItem n="1" xml:id="p4a1">
+                    <locus from="43" to="43"/>
+                    <author ref="http://syriaca.org/person/13">Ephrem</author>
+                    <title ref="" type="supplied">Madrāshē of Ephraim on the Nativity and the Epiphany</title>
+                    <finalRubric xml:lang="syr">ܫܠܡܘ ܡܕܪ̈ܫܐ ܕܒܝܬ ܝܠܕܐ ܬܘܒ ܡܕܪ̈ܫܐ ܥܠ ܒܝܬ ܕܢܚܐ̣. ܕܩܕܝܫܐ ܡܪܝ ܐܦܪܝܡ.
+                       <locus from="43"/></finalRubric> <!-- Wright gives no indication what this is. @jarnwine assumes the "shlomo" at the beginning indicates a final rubric. -->
                  </msItem>
               </msContents>
               <physDesc>
-                 <objectDesc form="">
-                    <supportDesc material="">
-                       <support><material/></support>
+                 <objectDesc form="leaf">
+                    <supportDesc material="perg">
+                       <support><material>Vellum</material></support>
                        <extent>
                           <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
                           <dimensions type="" unit="in">
                              <height>
-                                <measure type="height" quantity="" unit="in"/>
+                                <measure type="height" quantity="7.625" unit="in">7 5/8</measure>
                              </height>
                              <width>
-                                <measure type="width" quantity="" unit="in"/>
+                                <measure type="width" quantity="5.375" unit="in">5 3/8</measure>
                              </width>
                           </dimensions>
                        </extent>
-                       <foliation type="ancient">
-                          <locus/>
-                          <p/>
-                       </foliation>
-                       <collation>
-                          <p/>
-                       </collation>
+                       <foliation/>
+                       <collation/>
                        <condition>
                           <list>
                              <item>
-                                <p/>
+                                <p>Slightly stained and torn.</p>
                              </item>
                           </list>
                        </condition>
                     </supportDesc>
-                    <layoutDesc>
-                       <layout columns="" writtenLines="">
-                          <locus from="" to=""/>
-                          <p/>
-                       </layout>
-                    </layoutDesc>
+                    <layoutDesc/>
                  </objectDesc>
-                 <handDesc hands="">
-                    <handNote xml:id="p4handNote1" scope="" script="" medium="">
-                       <desc></desc>
+                 <handDesc hands="1">
+                    <handNote xml:id="p4handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                       <desc>Written in a good, regular Estrangela of the <origDate notBefore="0600" notAfter="0700" calendar="Gregorian">viith</origDate> cent.</desc>
                     </handNote>
                  </handDesc>
-                 <decoDesc>
-                    <decoNote xml:id="p4decoNote1" type="" medium="">
-                       <desc></desc>
-                    </decoNote>
-                 </decoDesc>
-                 <additions>
-                    <p/>
-                    <list>
-                       <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                       <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                    </list>
-                 </additions>
-                 <bindingDesc>
-                    <binding xml:id="p4binding1" contemporary=""/>
-                    <decoNote xml:id="p4bindingdeco1"/>
-                    <condition/>
-                 </bindingDesc>
-                 <sealDesc>
-                    <seal xml:id="p4seal1" contemporary="">
-                       <p/>
-                    </seal>
-                 </sealDesc>
-                 <accMat>
-                    <p/>
-                 </accMat>
+                 <decoDesc/>
+                 <additions/>
+                 <bindingDesc/>
+                 <sealDesc/>
+                 <accMat/>
               </physDesc>
               <history>
                  <summary/>
                  <origin>
                     <origDate notBefore="0600" notAfter="0700">7th century</origDate>
-                    <origPlace></origPlace>
+                    <origPlace/>
                  </origin>
                  <provenance/>
                  <acquisition/>
@@ -3684,7 +3631,7 @@
            </item>
            <item>
               <ref target="#Part4"/>  
-              <ref target=""/>       
+              <ref target="#hymns"/>       
            </item>
            <item>
               <ref target="#Part5"/>  
@@ -3768,6 +3715,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-19" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+       <change when="2014-02-11" who="http://syriaca.org/editors.xml#jarnwine">Added msPart4</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>

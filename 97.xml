@@ -218,13 +218,16 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p2a1">
-                <locus from="47a" to="52">Foll. 47a-52</locus>
+                <locus from="47a" to="122">Foll. 47a-122</locus>
+                <colophon><ref target="#p2addition5 #p2addition6">See additions.</ref></colophon>
+                <msItem n="2" xml:id="p2b1">
+                  <locus from="47a" to="52">Foll. 47a-52</locus>
                 <title>Summary of the Contents</title>
                 <rubric xml:lang="syr">ܩ̈ܦܠܐܐ ܕܟܬܒܐ ܕܬܠܬܐ ܕܡ̈ܠܟܘܬܐ
                   <locus from="47a" to="47a"/></rubric>
                 <note>See the <bibl>Synopsis Scripturae Sacrae of John Chrysostom; Opera, t. vi. p. 412; Migne, Patrol. Gr., t. lvi., col. 349.</bibl></note>
               </msItem>
-              <msItem n="2" xml:id="p2a2" defective="true">
+              <msItem n="3" xml:id="p2b2" defective="true">
                 <locus from="52a" to="122a">Foll. 52a-122a</locus>
                 <editor role="translator" ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tellā</placeName></editor>
                 <title ref="http://syriaca.org/work/174">The third (or first) book of Kings, translated from the Septuagint by <persName ref="http://syriaca.org/person/82">Paul of <placeName ref="">Tellā</placeName></persName></title>
@@ -237,12 +240,12 @@
                     (<foreign xml:lang="syr">ܥ</foreign>, e.g. foll. <locus>52a</locus>, <locus>53b</locus>, <locus>54a</locus> and <locus>54b</locus>, etc.); </p>
                   <p>The tetragrammaton is denoted by <foreign xml:lang="syr">ܦܝܦܝ</foreign> (fol. <locus>69a</locus>, <foreign xml:lang="syr">ܕܦܝܦܝ</foreign>; fol. <locus>91a</locus>, <foreign xml:lang="syr">ܠܦܘܡܗ ܕܦܝܦܝ</foreign>).</p>
                 </note>
-                <colophon><ref target="#p2addition5">See additions.</ref></colophon>
               </msItem>
-              <msItem n="3" xml:id="p2b1"><title ref="http://syriaca.org/work/175">Marginal notes of the book of Kings according to Aquila</title></msItem>
-              <msItem n="4" xml:id="p2b2"><title ref="http://syriaca.org/work/176">Marginal notes of the book of Kings according to Symmachus</title></msItem>   
-              <msItem n="5" xml:id="p2b3"><title ref="http://syriaca.org/work/177">Marginal notes of the book of Kings according to Theodotion</title></msItem>
-              <msItem n="6" xml:id="p2b4"><title ref="http://syriaca.org/work/178">Hebrew text of the book of Kings</title></msItem>
+              <msItem n="4" xml:id="p2c1"><title ref="http://syriaca.org/work/175">Marginal notes of the book of Kings according to Aquila</title></msItem>
+              <msItem n="5" xml:id="p2c2"><title ref="http://syriaca.org/work/176">Marginal notes of the book of Kings according to Symmachus</title></msItem>   
+              <msItem n="6" xml:id="p2c3"><title ref="http://syriaca.org/work/177">Marginal notes of the book of Kings according to Theodotion</title></msItem>
+              <msItem n="7" xml:id="p2c4"><title ref="http://syriaca.org/work/178">Hebrew text of the book of Kings</title></msItem>
+              </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
@@ -282,7 +285,7 @@
               </objectDesc>
               <handDesc hands="7">
                 <handNote xml:id="p2handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a fine, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate>. <ref target="#p2addition6">See additions.</ref></desc>
+                  <desc>The writing is a fine, regular Estrangela of the <origDate from="0700" to="0800">viiith cent.</origDate>. <ref target="#p2addition5 p2addition6">See additions.</ref></desc>
                 </handNote>
                 <handNote xml:id="p2handNote2" scope="minor" script="syr" medium="unknown">
                   <desc>Very inelegant hand of the <date notBefore="0900" notAfter="1000">xth cent.</date> <ref target="#p2addition7">See additions.</ref></desc>
@@ -320,7 +323,8 @@
                   <item n="4" xml:id="p2addition4"><locus from="102a" to="102a"/>
                     <p>One annotation from <persName>Epiphanius</persName> (de Mensuris, fol. 102a).</p>
                     </item>
-                  <item n="5" xml:id="p2addition5"><locus from="122a" to="122a"/>
+                  <item n="5" xml:id="p2addition5" syriaca-tags="scribal-colophon doxology">
+                    <locus from="122a" to="122a"/>
                     <p>The usual doxology, after which we have the following note of the translator, <persName ref="http://syriaca.org/person/82">Paul of Tellā</persName>:</p>
                     <p><quote xml:lang="syr">ܐܬܢܣ̣ܒ ܟܬܒܐ ܗܢܐ ܕܡܢܗ ܐܬ݀ܦܫܩ ܗܢܐ ܕܒܐܝ̈ܕܝܐ ܡܢ ܝܘܢܝܐ ܠܣܘܪܝܝܐ ܡܢ ܐܟܣܦܠܐ ܗܢܘ ܕܝܢ ܕܫ̈ܬ ܦܨ̈ܐ. ܕܒܝܬ ܟ̈ܬܒܐ ܕܫ̈ܬ ܦܨ̈ܐ ܕܒܝܬ ܟ̈ܬܒܐ ܕܩܣܪܝܐ ܦܠܣܛܝܢܐ ܘܐܬܦ̇ܚܡ ܠܘܬ ܨܚܚܐ ܗܿܘ ܕܪܫܝܡ ܗܘܐ ܒܗ ܡܢ ܠܬܚܬ ܗܟܢܐ܀ ܐܘܣܒܝܣ ܬܪܝܨܬ ܚܬܝܬܐܝܬܼ ܐܝܟ ܕܡܨܝܐ ܗܘܬ܀ ܐܬܦܣܩ (sic) ܕܝܢ ܡܢ ܠܫܢܐ ܝܘܢܝܐ ܠܣܘܪܝܝܐ ܒܝܪܚܐ ܫܒܛ. ܕܫܢܬ ܬܫܥ̈ܡܐܐ ܘܥܣܪ̈ܝܢ ܘܫܒ̈ܥ ܐܝܟ ܡܢܝܢܐ ܕܐܠܟܣܢܕܪܘܣ. ܐܢܕܩܛܝܘܢܐ ܕܐܪ̈ܒܥ ܒܐܢܛܘܢ ܕܐܠܟܣܢܕܪܝܐ̣. ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܐܢܛܘܢܝܢܘ܀ </quote></p>
                     <p><quote>"The manuscript, according to which the book in hands was translated from Greek into Syriac, was taken from a copy of the <bibl>Hexapla<ptr target="http://syriaca.org/work/179"/></bibl> among those in the <placeName ref="'">library of <placeName ref="">Caesarea</placeName></placeName> in <placeName ref="">Palestine</placeName>, collated with that exemplar in which was written as follows: <q>‘I <persName ref="">Eusebius</persName> have corrected carefully to the best of my ability.’</q>
@@ -329,7 +333,8 @@
                       <bibl>Add. 12,174, fol. 61b<ptr target="http://syriaca.org/manuscript/70"/></bibl>, <quote xml:lang="syr"><sic>ܟܕ ܐܬܟ݁ܢܫܘ ܟܢܫ̣̈ܐ ܕܕܝܪ̈ܝܐ ܩܕܝ̈ܫܐ: ܠܘ ܒܠܚܘܕ ܗ̇ܢܘܢ ܕܐܝܬ ܒܡܕܝ̈ܢܬܐ̇. ܐܠܐ ܘܗ̇ܢܘܢ ܕܐܝܬ ܠܘܬܗ̇ ܒܗܿܘ ܕܡܬܩ̣ܪܐ ܐܢܛܘܢ. ܘܒܐܩܛܩܕܩܛܘܢ ܘܒܐܝܩܣܛܘܢ ܘܒܫܪܟܐ ܕܕܝܪ̈ܬܐ ܩܕܝܫ̈ܬܐ</sic></quote>.<persName ref="">Severus of <placeName ref="">Antioch</placeName></persName>, when residing at <placeName ref="">Alexandria</placeName>, lived <foreign xml:lang="grc">εἰς τὸ ἔννατον</foreign> (see <bibl>Cave, Hist. Lit., ed. 1740, t. i. p. 499</bibl>),
                       and here was the <placeName ref="">monastery of S. Antony</placeName> (see <bibl>Assemani, Bibl. Orient., t. i. p. 41, t. ii. p. 93</bibl>; and <bibl>Bernstein, de Hharklensi N. Test. Translatione Syriaca Comment., p. 5, with the erroneous note 10</bibl>)</p>
                   </item>
-                  <item n="6" xml:id="p2addition6"><locus from="122b" to="122b"/>
+                  <item n="6" xml:id="p2addition6" syriaca-tags="scribal-colophon ownership-inscription">
+                    <locus from="122b" to="122b"/>
                     <p>On fol. 122 b there is a note, in the handwriting of the scribe, but in a more cursive character, stating that this manuscript belonged to the <placeName ref="">convent of Mār Cyriacus</placeName> at <placeName ref="">Tellā Hăphīkhā</placeName> (see <bibl>Add. 17,103<pter target="http://syriaca.org/manuscript/730"/></bibl>): </p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܩ[ܘܪܝܩ]ܘܣ ܨܝܕ ܬܠܬ ܗܦܝܟܐ. ܟܠ ܕܝܢ ܕܫܩܠ ܠܗ ܠܟܬܒܐ ܗܢܐ ܕܢܩܪܐ ܒܗ. ܐܘ ܕܢܟܬܘܒ ܡܢܗ. ܐܘ ܕܢܦܚܡ ܡܢܗ. ܘ܏ܫ.</quote></p></item>
                   <item n="7" xml:id="p2addition7"><locus from="122b" to="122b"/>
@@ -583,6 +588,8 @@
     <revisionDesc>
       <change when="2013-07-19" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-08-28" who="http://syriaca.org/editors.xml#thannah">Initial edit: general standardization; separated Part 3 from Part 2</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon in Part2.</change>
+      <change when="2014-05-07" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
     </revisionDesc>
   </teiHeader>

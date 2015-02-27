@@ -85,12 +85,13 @@
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="143">Foll. 1-143</locus>
                 <title ref="http://syriaca.org/work/159" type="supplied">The Epistles of S. Paul, according to the Peshitta version</title>
+                <colophon><ref target="#addition3"></ref></colophon>
                 <msItem n="2" xml:id="b1" defective="unknown">
                   <locus from="1b" to="27b">Foll. 1b-27b</locus>
                   <title ref="http://syriaca.org/work/77" type="supplied">The Epistle of Romans</title>
                   <note>The more recent portions are: ch. i. 1—9 and xii. 8—xiii. 7.</note>
                 </msItem>
-                <msItem n="3" xml:id="b2" defective="true">
+                  <msItem n="3" xml:id="b2" defective="true">
                   <locus from="27b" to="54">Foll. 27b-54</locus>
                   <title ref="http://syriaca.org/work/78" type="supplied">The Epistle of 1 Corinthians</title>
                   <note>Missing portions: ch. xv. 48 xvi. 6 and xvi. 22—24.</note>
@@ -391,6 +392,7 @@
     <revisionDesc>
       <change when="2013-10-03" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2014-02-14" who="http://syriaca.org/editors.xml#thannah">Initial edit: correcting material encoding, added link to additions from condition, added @defective notation to msItems</change>
+      <change when="2014-03-26" who="http://syriaca.org/editors.xml#jarnwine">Edits to reflect colophon.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>

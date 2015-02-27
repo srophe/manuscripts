@@ -81,6 +81,8 @@
                             <locus from="1a" to="376b">ff. 1a-376b</locus>
                             <author key=""/>
                             <title ref="http://syriaca.org/work/69" type="supplied">The whole of the Scriptures of the Old Testament, according to the Peshitta version, with the Apocrypha.</title>
+                            <note>To several of the books short notes are prefixed, giving some account of the writer, date, etc. As in the Bodleian and Vatican MSS. mentioned in <bibl>Dr. Payne Smith's Catalogue of the Syriac MSS. in the Bodleian Library (Oxford, 1864), nos. 1 and 2</bibl>; and also <bibl>Assemani, Manuscriptorum Codd. Bibl. Apost. Vat. Catalogus (Rom. 1756-58), t. ii. p. 14, no. vii.</bibl>
+                                <!-- Need to work out where to put the refs and URIs --></note>
                             <msItem n="2" xml:id="b1">
                                 <locus from="2a" to="77">ff. 2a-77</locus>
                                 <author key=""/>
@@ -444,9 +446,7 @@
                         </handDesc>
                         <decoDesc/>
                         <additions>
-                            <p xml:id="addition8">To several of the books short notes are prefixed, giving some account of the writer, date, etc. As in the Bodleian and Vatican MSS. mentioned in <bibl>Dr. Payne Smith's Catalogue of the Syriac MSS. in the
-                                Bodleian Library (Oxford, 1864), nos. <msIdentifier><idno>1</idno></msIdentifier> and <msIdentifier><idno>2</idno></msIdentifier></bibl>; and also <bibl>Assemani, Manuscriptorum Codd. Bibl. Apost. Vat. Catalogus (Rom. 1756-58), t. ii. p. 14, no. <msIdentifier><idno>vii</idno></msIdentifier>.</bibl></p>
-                            <!-- Need to work out where to put the URIs -->
+                            <p>
                             <list>
                                 <item n="1" xml:id="addition1">
                                     <label/>
@@ -567,6 +567,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2013-01-17" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
+            <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Cleaned up additions.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

@@ -169,7 +169,7 @@
               <decoDesc/>
               <additions>
                 <list>
-                  <item n="1" xml:id="addition1">
+                  <item n="1" xml:id="addition1" syriaca-tags="ownership-inscription colophon-incertus">
                     <locus from="1a" to="1a"/>
                      <p>On fol. 1 a there is a note stating that this volume belonged to <placeName ref="">the convent of S. Mary Deipara</placeName>.</p>
                      <p><quote xml:lang="syr">ܟܬܒܐ ܕܢ̈ܫܐ ܕܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ. ܐܠܐ ܟܠ ܡܢ ܕܫܩܠ ܠܗ ܠܐ ܫܠܝܛ ܠܗ ܡܢ ܐܠܗܐ ܕܢܗܘܐ ܠܘܬܗ. ܐܠܐ ܫܬܐ ܝܪ̈ܚܝܢ. ܘܐܢ ܡܡܪܚ ܘܠܐ ܡܗܦܟ. ܬܚܝܬ ܚܪܡܐ ܐܝܬܘܗܝ.</quote></p>
@@ -310,6 +310,7 @@
     <revisionDesc>
       <change when="2013-10-17" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-12-31" who="http://syriaca.org/editors.xml#thannah">Initial edit: no updates required at this time</change>
+      <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Marked up addition with syriaca-tags</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -156,7 +156,6 @@
                 </msItem>  
                 <finalRubric xml:lang="syr">ܫܠܡ: ܠܡܟܬܒ: ܐܓܪ̈ܬܐ:  ; ܐܪ̈ܒܥܣܪܐ: ܕܦܘܠܘܣ: ܫܠܝܚܐ: ܛܘܒܢܐ<locus from="91" to="91"/></finalRubric>
                 <note>Followed by the usual doxology.</note>
-                <note>Of the lessons, some are rubricated in the text.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -344,6 +343,7 @@
     <revisionDesc>
       <change when="2013-10-02" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-12-26" who="http://syriaca.org/editors.xml#thannah">Initial edit: formatting loci, final rubric, and additions</change>
+      <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -99,11 +99,8 @@
                   <locus
                   from="46b" to="46b"/>
                 </finalRubric>
-                <note>The text exhibits the critical marks of the <bibl>Hexapla<ptr target="http://syriaca.org/work/143"/></bibl> of <persName ref="">Origen</persName>; </note>
-                  <note>and the margins contain the various readings of <bibl><choice><expan>Aquila </expan><abbr>(<foreign xml:lang="syr">ܐ</foreign>)</abbr></choice><ptr target="http://syriaca.org/work/144"/></bibl>, <bibl><choice><expan>Symmachus </expan><abbr>(<foreign xml:lang="syr">ܣ</foreign>)</abbr></choice><ptr target="http://syriaca.org/work/145"/></bibl>, and 
-                  <bibl><choice><expan>Theodotion </expan><abbr>(<foreign xml:lang="syr">ܬ</foreign>)</abbr></choice><ptr target="http://syriaca.org/work/146"/></bibl>;</note>
-                  <note>glosses upon some words (e. g. foll. <locus>24a</locus>, <locus>25a</locus>, <locus>27b</locus>, <locus>29a</locus>, <locus>30a</locus>, etc.);</note>
-                  <note>and a good many Greek vocables, written in not inelegant characters. The tetragrammaton is expressed by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.
+                <note>The text exhibits the critical marks of the <bibl>Hexapla<ptr target="http://syriaca.org/work/143"/></bibl> of <persName ref="">Origen</persName>; and the margins contain the various readings of <bibl><choice><expan>Aquila </expan><abbr>(<foreign xml:lang="syr">ܐ</foreign>)</abbr></choice><ptr target="http://syriaca.org/work/144"/></bibl>, <bibl><choice><expan>Symmachus </expan><abbr>(<foreign xml:lang="syr">ܣ</foreign>)</abbr></choice><ptr target="http://syriaca.org/work/145"/></bibl>, and 
+                  <bibl><choice><expan>Theodotion </expan><abbr>(<foreign xml:lang="syr">ܬ</foreign>)</abbr></choice><ptr target="http://syriaca.org/work/146"/></bibl>; glosses upon some words (e. g. foll. <locus>24a</locus>, <locus>25a</locus>, <locus>27b</locus>, <locus>29a</locus>, <locus>30a</locus>, etc.); and a good many Greek vocables, written in not inelegant characters. The tetragrammaton is expressed by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.
                   </note>
                   <note>
                   On this text see <bibl>Monumenta Sacra et Profana opera Collegii Doctorum Bibl. Ambros., tom. i. fasc. i. Prolegomena in editionem versionis Syriacae ex textu LXX., p. iii. “Paulus Episcopus Monophysita Telae Mauslath, aliorum fortasse opera adjutus, jussu Athanasii Patriarchae Monophysitae Antiocheni vertit LXX. In Syriacum annis 616-7 Chr., fortasse etiam sequentibus, in urbe Alexandriae.”</bibl> Most of the books of this version have already been edited by <bibl>Norberg</bibl>, <bibl>Bugati</bibl>, <bibl>Middledorpf</bibl>, and <bibl>Rördam</bibl>; and an edition of the whole is now being printed by Dr. Ceriani of Milan in the work cited above. He has given a minute description of this manuscript of the book of genesis in <bibl>tom. ii. fasc. ii. p. xvii., etc.</bibl>See also his memoir, <bibl>Le Edizioni e i Maoscritti etc., p. 19.</bibl></note>
@@ -296,7 +293,7 @@
                     <p>A few Greek vowels have been added by a later hand on fol. 48b and 49a.</p>
       <!-- Add Greek Vowels -->
                   </item>
-                  <item n="2" xml:id="p2addition2"><locus from="48a" to="48a"/><ref
+                  <item n="2" xml:id="p2addition2" syriaca-tags="ownership-inscription">><locus from="48a" to="48a"/><ref
                       target="#p2handNote4"/>
                     <p>On fol. 48a there is a note, recording that this book belonged to the brothers <persName ref="">Matthew</persName>, <persName ref="">Abraham</persName> and <persName ref="">Theodore</persName>
                       of <placeName ref="">Tagrīt</placeName>:</p><p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܡܬܝ ܘܐܒܪܗܡ ܘܬܐܕܪܘܣ ܐܚ̈ܐ ܬܓܪ̈ܝܬܢܝܐ. ܙܒܢܘܗܝ ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܚܝܝ̈ܗܘܢ ܘܟܠ ܕܦܓܥ ܒܗ. ܟܠ ܕܝܢ ܕܠܚܐ ܠܥܘܕܢܗ̈ܘܢ (sic)
@@ -446,6 +443,7 @@
     <revisionDesc>
       <change when="2013-07-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
       <change when="2013-08-30" who="http://syriaca.org/editors.xml#thannah">Initial edit: adjusted msItems for Part 1, marked up additions</change>
+      <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Marked up addition with syriaca-tags attribute.</change>
       <change type="planned" subtype="missing">Add in missing Greek characters</change>
     </revisionDesc>
   </teiHeader>

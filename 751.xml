@@ -146,7 +146,6 @@
                         <locus from="129" to="129"/>
                      </explicit>
                      <note>Ending with ch. xiii. 21.</note>
-                     <colophon><ref target="#addition3">See additions.</ref></colophon>
                   </msItem>
                   <note>The lessons are rubricated in the text.</note>
                </msItem>
@@ -372,6 +371,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-09" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
+      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Deleted extraneous colophon.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://tei.oucs.ox.ac.uk/ENRICH/ODD/RomaResults/enrich.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Catalogue of the Syriac Manuscripts in the British Museum</title>
+      <principal>Wright, William</principal>
+      <!-- How do we indicate the original print source or the modern transcriber of the print into TEI? -->
+    </titleStmt>
+    <publicationStmt>
+      <date calendar="Gregorian">2011-08-01</date>
+      <distributor>E-Corpus</distributor>
+      <idno>[E-Corpus Id Number]</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc xml:id="MSSSyriaques" xml:lang="en">
+        <msIdentifier>
+          <country>United Kingdom</country>
+          <settlement>London</settlement>
+          <repository>British Library</repository>
+          <collection>Christian Middle East Section</collection>
+          <idno>BL MS Add. 14,663</idno>
+          <altIdentifier type="internal">
+            <collection>Wright</collection>
+            <idno>DCCLI</idno>
+            <!-- How do we mark up these internal identifiers? -->
+          </altIdentifier>
+        </msIdentifier>
+        <msContents>
+          <summary>
+            Theology: Collected Authors
+            <!-- How do we mark up these classifications? -->
+          </summary>
+          <textLang mainLang="syr">Syriac</textLang>
+          <msItem n="1" xml:id="a1">
+            <locus from="1a">fol. 1 a</locus>
+            <author key="n89656970" ref="http://viaf.org/viaf/89656970">
+              <persName xml:lang="en" type="standard">Cyril of Alexandria</persName></author>
+            <title xml:lang="en">The "Explanatio duodecim capitum" of Cyril of Alexandria, from the seventh anathema</title>
+            <listBibl><bibl>Opera, t. vi., p. 153 A</bibl></listBibl>
+          </msItem>
+          <msItem n="2" xml:id="a2" defective="true">
+            <locus from="2b">fol. 2 b</locus>
+            <title xml:lang="en">A letter written by the orthodox bishops (<persName>Sergius</persName>, <persName>Marion</persName>, ܡܪܝܘܢ, <persName>Nonnus</persName>, ܢܘܢܐ, <persName>Thomas</persName>, and <persName>John</persName>) to the monks of Amid</title>
+            <!-- how to do multiple authors?-->
+            <title xml:lang="syr" type="main"><locus from="2b"></locus>ܐܓܪܬܐ ܕܐܬܟ̣ܬܒܬ ܡܢ ܚ̈ܣܝܐ ܐ̈ܦܣܩܘܦܐ ܕܐܪ̈ܬܕܘܟܣܐ܆ ܠܕܝܪ̈ܝܐ ܕܒܟܢܘܫܝܐ ܕܐܡܕ̈ܝܐ ܘܕܟܠܗ ܫܘܠܛܢܗܘܢ.</title>
+            <incipit xml:lang="syr"><locus from="3a">fol. 3 a</locus>ܐܠܗܐ ܪܒܐ ܘܦܪܘܩܢ ܝܫܘܥ ܡܫܝܚܐ܆ ܒܡܠܦܢܘܬܗ ܐܠܗܝܬܐ ܘܝܗܒܬ ܠܚܝ̈ܐ ܕܠܐ ܡܬ̇ܚܒܠܢܘܬܐܠܟܢ̈ܫܐ ܡ̇ܠܦ ܗܘܐ ܟܕ ܐܡ̇ܪ܆ ܕܟܠ ܡ̇ܢ ܕܫܡ̇ܝ ܡ̈ܠܝ ܗܠܝܢ ܘܥܒ̇ܕ ܠܗܝܢ܆ ܢܬܕܡ̇ܐ̣ ܠܓܒܪܐ ܗܟܝܡܐ. ܗ̇ܘ ܕܒܢ̣ܐ ܒܝܬܗ ܢܬܕܡ̇ܐ݂ ܠܓܒܪܐ ܗܟܝܡܐ. ܗ̇ܘ ܕܒܢ̣ܐ ܕܒܢ݂ܐ ܒܝܬܗ ܥܠ ܫܘܥܐ. ܏ܘܫ</incipit>
+            <note>The portion extant is directed against the heresy of <persName>Julian of Halicarnassus</persName>, the phantasiast, and supports the opinion of <persName>Severus of Antioch.</persName></note>
+          </msItem>
+          <msItem n="3" xml:id="a3" defective="true">
+            <locus from="5" to="14">foll. 5-14</locus>
+            <title>Fragments</title>
+            <!-- for lack of a better title. I think with our CSS you would need a standard for no title manuscripts here -->
+            <note>The following leaves, foll. 5—14, being nearly all disconnected, it is difficult to say whether they are rightly arranged, or not. They not improbably belong to several treatises on the same subject.</note>
+            <msItem n="3a" xml:id="a3a">
+              <locus from="5">fol. 5</locus>
+              <title xml:lang="en">Against the Diphysites and the council of Chalcedon</title>
+              <!-- Do you want these as titles? or notes? I marked them as titles to keep track of where I was. I see no other options but mark them as titles or notes -->
+              <note>a small fragment</note>
+            </msItem>
+            <msItem n="3b" xml:id="a3b">
+              <locus from="6a">fol. 6 a</locus>
+              <title xml:lang="en">Directions regarding the reception of those who have been in communion with heretics (such as the Diphysites and others)</title>
+            </msItem>
+            <msItem n="3c" xml:id="a3c">
+              <locus from="6b">fol. 6 b</locus>
+              <title xml:lang="en">The creed of Felix, bishop of Rome</title>
+              <!-- what to do when we cannot disambiguate based on Wright? Is this Felix I , II or III? -->
+              <title xml:lang="syr" type="main">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ ܕܩܕܝܫܐ ܦܝܠܟܣ ܪܝܫܐ ܕ[ܐ̈ܦܝܣܩܦܐ ܕܪܗܘܡܐ].</title>
+              <filiation>The commencement coincides with the fragment given in Gallandii Bibl. Patr., t. iii., p. 542.</filiation>
+            </msItem>
+            <msItem n="3d" xml:id="a3d">
+              <locus from="6b">fol. 6 b</locus>
+              <title xml:lang="en">Chapters drawn up by the monks of the western convents</title>
+              <title xml:lang="syr">̈ܩ̈ܦܠܐܐ ܕܐܫܬܕܪܘ ܡܢ ܥܘܡܪ̈ܐ</title>
+              <incipit xml:lang="syr">ܐܢܚܢܢ ܥܘܡܪ̈ܐ ܕܡܥܪܒܐ ܕܒܝܬ ܡܪܝ ܐܝܣܚܩ ܘܕܒܝܬ ܡܪܝ ܒܣ. ܘܕܕܝܪܐ ܪܒܬܐ ܕܬܠܥܕܐ ܘܕܕܝܪܐ ܕܢܦܫ̈ܬܐ: ܘܕܒܝܬ ܡܪܝ ܚܢܝܢܐ ܘܕܒܝܬ ܡܪܝ ܥܩܝܒܐ: ܘܕܠܓܝ̈ܢܐ ܘܕܒܝܬ ܡܪܝ ܩܘܪܩܐ ܕܬܘܪܥܝ ܘܕܒܝܬ ܡܪܝ ܝܘܣܦ ܕܟܦܪܐ ܕܒܪܬܐ: ܥܡ ܫܪܟܐ ܕܟܠܗܘܢ ܥܘܡܪ̈ܐ ܕܡܥܪ̈ܒܝ ܢܗܪܐ܆ ܫܠܡ̇ܝܢܢ ܗܟܢܐ. ܏ܘܫ</incipit>
+              <note>Very imperfect.</note>
+            </msItem>
+            <msItem n="3e" xml:id="a3e">
+              <locus from="7">fol. 7</locus>
+              <title xml:lang="en">Against Nestorius comparing his overthrow with that of the older heretics, <persName>Simon Magus</persName>,<persName xml:lang="syr">ܣܝܡܘܢ ܗ̇ܘ ܚ̇ܪܫܐ</persName>, <persName>Ebion</persName>, <persName xml:lang="syr">ܐܒܝܘܢ</persName>, <persName>Bar-shūmā the magus</persName>, <persName xml:lang="syr">ܒܪܫܘܡܐ ܚ̇ܪܫܐ</persName>, <persName>Arius</persName>, <persName>Paul of Samosata</persName>, <persName>Marcion</persName>,<persName>Valentinus</persName>, <persName>Sabellius</persName>, <persName>Eustathius</persName>, <persName>Photinus</persName>, <persName>Porphyrius</persName>, and <persName>Eunomius</persName></title>
+            </msItem>
+            <msItem n="3f" xml:id="a3f">
+              <locus from="8">fol. 8</locus>
+              <title xml:lang="en">Against the Council of Chalcedon</title>
+              <title xml:lang="syr" type="main">ܣܘܢܗܕܣ ܕܣܛܢܐ</title>
+              <title xml:lang="syr" type="main">ܗܟܢܐ ܝܕܝܥܐ ܘܓܠܝܐ ܥܠ ܗܝ ܕܒܟܠܩܕܘܢܐ܆ ܕܟܕ ܡܠܠܬܗ ܠܗ̇ܘ ܪܘܫܥܐ܆ ܣܛܢܐ ܒܗ̇ ܒܗ̇ܝ ܡܕܝܢܬܐ ܐܬܚܙܝ ܒܕܡܘܬ ܓܒܪܐ ܡܘܣܪܝܐ܆ ܟܕ ܡ̇ܪܩܕ ܒܫ̈ܘܩܐ ܓܠܝܐܝܬ݂ ܟܕ ܟܠ ܐܢܫ ܚ̇ܙܐ ܠܗ. ܏ܘܫ</title>
+              <note>This may be two fragments.</note>
+            </msItem>
+            <msItem n="3g" xml:id="a3g">
+              <locus from="9a" to="10b">foll. 9 a- 10 b</locus>
+              <author key="n33" ref="http://viaf.org/hosted/syriac/33/">
+                <persName xml:lang="en" type="standard">Philoxenos of Mabbug</persName></author>
+              <title xml:lang="en">Extracts from discourses of Philoxenus of Mabūg, regarding the Incarnation and Passion of our Lord</title>
+              <!-- Here begins a deeper nesting, and I have no clue if I did this correctly-->  
+              <msItem n="3ga" xml:id="a3ga">
+                <locus from="9a">Fol. 9 a</locus>
+                <title xml:lang="en">Acephalus</title>
+                <incipit defective="true"/>
+                <note>Imperfect at the beginning.</note>
+              </msItem>
+              <msItem n="3gb" xml:id="a3gb">
+                <locus from="9a">Fol. 9 a</locus>
+                <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܐܪ̈ܒܥܐ</rubric>
+              </msItem>
+              <msItem n="3gc" xml:id="a3gc">
+                <locus from="9a">Fol. 9 a</locus>
+                <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܬܪ̈ܢ</rubric>
+              </msItem>
+              <msItem n="3gd" xml:id="a3gd">
+                <locus from="9b">Fol. 9 b</locus>
+                <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܬܘܒ ܕܐܪ̈ܒܥܐ</rubric>
+              </msItem>
+              <msItem n="3ge" xml:id="a3ge">
+                <locus from="10a">Fol. 10 a</locus>
+                <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܬܫܥܐ</rubric>
+              </msItem>
+              <msItem n="3gf" xml:id="a3gf">
+                <locus from="10b">Fol. 10 b</locus>
+                <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܡܪܝ ܐܟܣܢܝܐ܆ ܡܢ ܡܐܡܪܐ ܕܟ݂ܬܒ ܠܕܝܪܐ ܕܬܠܥܕܐ.</rubric>
+                <note>From a discourse addressed to the monks of Teleda</note>
+                <listBibl><bibl>Assemani, Bibl. Or., t. ii., p. 37, no. 13</bibl></listBibl>
+              </msItem>
+            </msItem>
+            <msItem n="3h" xml:id="a3h">
+              <locus from="11a">fol. 11 a</locus>
+              <title xml:lang="en">Against the Council Chalcedon especially regarding the restoration of Theodoret and Ibas, from whose writings some passages are quoted</title>
+            </msItem>
+            <msItem n="3i" xml:id="a3i">
+              <locus from="13">Fol. 13</locus>
+              <title xml:lang="en">Against the Council Chalcedon</title>
+            </msItem>
+            <msItem n="3j" xml:id="a3j">
+              <locus from="14">Fol. 14</locus>
+              <title xml:lang="en">Against Nestorius</title>
+            </msItem>
+          </msItem>
+          <msItem n="4" xml:id="a4" defective="true">
+            <locus from="15" to="21a">foll. 15-21 a</locus>
+            <title xml:lang="en"> Fragments of several homilies of John Chrysostom</title>
+            <msItem n="4a" xml:id="a4a">
+              <locus from="15">fol. 15</locus>
+              <title xml:lang="en">From the homily "Daemones non gubernare mundum,"</title>
+              <listBibl><bibl>Opera, t. ii., p. 290.</bibl></listBibl>
+            </msItem>
+            <msItem n="4b" xml:id="a4b">
+              <locus from="16">fol. 16</locus>
+              <title xml:lang="en">From the homily on the impotent man, S. John, ch. v.</title>
+              <listBibl><bibl>Opera, t. i., p. 669</bibl></listBibl>
+            </msItem> 
+            <msItem n="4c" xml:id="a4c">
+              <locus from="17a">fol. 17 a</locus>
+              <title xml:lang="en">From the homily on S. John, ch. v. 17</title>
+              <listBibl><bibl>Opera, t. xii., p. 527</bibl></listBibl>
+            </msItem>  
+            <msItem n="4d" xml:id="a4d">
+              <locus from="18a">fol. 18 a</locus>
+              <title xml:lang="en">Part of the homily "de prophetiarum obscuritate,"</title>
+              <listBibl><bibl>Opera, t. vi., p. 193</bibl></listBibl>
+            </msItem>
+            <msItem n="4e" xml:id="a4e">
+              <locus from="21a">fol. 21 a</locus>
+              <title xml:lang="en">Part of the homily on Gen. i. 1, and on Lent.</title>
+              <listBibl><bibl>Opera, t. iv., p. 717</bibl></listBibl>
+            </msItem>
+          </msItem>
+          <msItem n="5" xml:id="a5" defective="true">
+            <locus from="23a">fol. 23 a, (fly-leaf)</locus>
+            <author key="n31142837" ref="http://viaf.org/viaf/31142837">
+              <persName xml:lang="en" type="standard">Severus of Antioch</persName></author>
+            <title xml:lang="en">Two short extracts from the writings of Severus of Antioch</title>
+            <note>Whether the fly-leaf, fol. 23, which is much stained and torn, really belongs to this manuscript, is doubtful. </note>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="perg">
+              <!-- The @material attribute on supportDesc describes the material of the object as:
+                'chart' (paper), 'mixed', 'perg' (parchment), or 'unknown'.
+              -->
+              <support><material>Vellum</material></support>
+              <!--probably not worth the time, but each of the folia above could be marked as "locus"-->
+              <extent>23
+                <dimensions type="leaf" unit="in">
+                  <height>6 3/4</height>
+                  <width>10 1/4 </width>
+                </dimensions>
+                <!--There does not seem to be a TEI tag for margins, but this could be easily added-->
+              </extent>
+              <condition>
+                <p>consisting of 23 leaves, some of which are much stained and torn, especially foll. 1, 4—6, 12—15, 17—21, and 23.</p>
+                <gap reason="lacuna">
+                  <desc>As at present bound, there are lacunae after foll. 4, 5, 6, 7, 8, 10, 12, 13, 14, 15, 16, 18, and 22.</desc>
+                </gap>
+                <!--are we doing lacunae correctly?-->
+                <signatures>
+                  The quires are signed with letters, and were originally at least 22 in number (fol 7 a, ܛ; fol. 21 a, ܟܒ); but not a single one is now perfect.
+                  <!--TEI would also allow individual listed items for the collation but this is not necessary perhaps-->
+                </signatures>
+                
+                <!--it would be good to have Lacuna  and restorations be separate tags, perhaps-->
+              </condition>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="0 2" writtenLines="34 38">
+                <locus from="1" to="22"></locus>
+                <p> Each page is divided into two columns, of from 34 to 38 lines</p>
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <handDesc>
+            <handNote scope="major" script="not specified" medium="not specified">
+              <!--not sure how to do multiple inks here-->
+              <desc>This volume is written in a good, current hand of the vith or viith cent.</desc>
+            </handNote>
+          </handDesc>
+          <additions>
+            <list>
+              <item>
+                <label>Marginalia</label>
+                <p>Whether the <locus from="23b">fly-leaf, fol. 23,</locus> which is much stained and torn, really belongs to this manuscript, is doubtful. On the recto, there are three entries of deaths, all of which have been purposely effaced. The first is that of a bishop. In the third, the words <quote>ܘܡܬܝܢ ܕܛܝܝ̈ܐ</quote> are still legible, showing that these entries belong to the third cent, of the <date>Hijra, A.D. 815—912.</date></p>
+              </item>
+            </list>
+          </additions>    
+        </physDesc>
+        <history>
+          <summary/>
+          <origin><date calendar="Gregorian" when="0500">6-7th centuries</date></origin>
+          <!-- Can we use TEMPER time encoding here? How do we do a date range? -->
+          <provenance/>
+        </history>       
+        <additional>
+          <adminInfo>
+            <recordHist>
+              <source>"Manuscript description based on W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, 3 vols. (London, 1870-72), abbreviated by the Syriac Reference Portal project team.</source>
+            </recordHist>
+          </adminInfo>
+          <listBibl>
+            <bibl>W. Wright, Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838, (London, 1870-72), II: 691.</bibl>
+          </listBibl>
+        </additional>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <classDecl>
+      <taxonomy>
+        <!-- in this section it would be possible to include references to genre or library classifications-->
+      </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  
+  <profileDesc>
+    <textClass>
+      <!-- in this section it would be possible to include references to genre or library classifications-->
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2011-08-04">
+      <persName>David Michelson</persName>, <persName>Elizabeth Walston</persName>, and <persName>Robert Aydin</persName></change>
+  </revisionDesc>
+</teiHeader>

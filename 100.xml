@@ -327,7 +327,6 @@
                 <locus from="53" to="101">Foll. 53-101</locus>
                 <title type="supplied" ref="http://syriaca.org/work/7">The book of Judges, according to the Peshitta version</title>
                 <rubric xml:lang="syr">ܣܦܪ ܕܝ̈ܢܐ ܕܒܢ̈ܝ ܐܝܣܪܐܝܠ ܕܡܬܩܪܐ ܥܒܪܐܝܬ ܫ̈ܦܛܐ<locus from="52" to="52"/></rubric>
-                <colophon><ref target="#p3addition1"/>See additions.</colophon>
               </msItem>
             </msContents>
             <physDesc>
@@ -534,6 +533,7 @@
       <change when="2013-07-02" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-10-07" who="http://syriaca.org/editors.xml#thannah">Updated decoNote type</change>
       <change when="2013-11-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: Separated fly leaves as distinct part, re-coded additions and hand notes.</change>
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Removed colophon tag for clean-up.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>

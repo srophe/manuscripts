@@ -84,6 +84,7 @@
                <msItem n="1" xml:id="a1" defective="true">
                   <locus from="1a" to="157b">Foll. 1a-157b</locus>
                   <title ref="http://syriaca.org/work/71" type="supplied">The four Gospels according to the Peshitta version</title>
+                 <colophon><ref target="#addition5 #addition6">See additions.</ref></colophon>
                   <msItem n="2" xml:id="b1" defective="true">
                      <locus from="1a" to="44">Foll. 1a-44</locus>
                      <title ref="http://syriaca.org/work/72" type="supplied">Matthew</title>
@@ -104,8 +105,7 @@
                   </msItem>
                  <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ ܛܛܪܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܕܡܠܠܘܗܝ ܘܣܒܪܘܗ ܝ ܐܪ̈ܒܥܐ ܐܘ̈ܢܓܠܣܛܐ ܢܨܝ̈ܚܐ ܡܬܝ ܡܪܩܘܣ ܠܘܩܐ ܝܘܚܢܢ.<locus from="157b" to="157b"/></finalRubric>
                   <colophon><ref target="#addition5 #addition6">See additions.</ref></colophon>
-                  <note>The Ammonian sections and Eusebian canons are marked in the usual way, and there is a harmony of the Gospels at the foot of each page.</note>
-                 <note>The lessons are rubricated in the text</note>
+                  <note>The Ammonian sections and Eusebian canons are marked in the usual way, and there is a harmony of the Gospels at the foot of each page. The lessons are rubricated in the text</note>
                </msItem>
             </msContents>
             <physDesc>
@@ -178,12 +178,12 @@
                    <item n="4" xml:id="addition4">
                       <p>Foll. <locus from="154b" to="154b">154 b</locus> and <locus from="156a" to="156a">156 a</locus> have been retouched at a later date, and one half of <locus from="155" to="155">fol. 155</locus> has been supplied on <material>paper</material> about the end of the <date notBefore="1000" notAfter="1100">11th century</date>.</p>
                    </item>
-                   <item n="5" xml:id="addition5">
+                   <item n="5" xml:id="addition5" syriaca-tags="scribal-colophon">
                       <locus from="157b" to="157b"/>
                       <p>On fol. 157 b there is a note, in the handwriting of the scribe, stating that this book was collated by <persName ref="">Kashīsh</persName>, the Arab, priest of the district called <placeName ref="">Nahrā dě-Kastra</placeName>, along with his syncelli <persName ref="syr">John bar Daniel</persName>, the Arab, and <persName ref="">John</persName>, the deacon, of <placeName ref="" xml:lang="syr">ܐܘܢܡܪܐ</placeName>, who was also of Arab race. </p>
                       <p><quote xml:lang="syr">ܢܥܒܕ ܡܪܢ ܪ̈ܚܡܐ ܘܚܢܢܐ ܒܝܘܡܐ ܪܒܐ ܕܡܐܬܝܬܗ܆ ܥܠ ܟܠ ܡܢ ܕܦܚܡ ܟܬܒܐ ܗܢܐ ܘܗ̣ܘܐ ܠܗ ܫܩ̣ܠ ܛܥܢܐ ܡܛܠ ܦܘܚܡܗ ܕܡܢ ܛܥܘ̈ܢܐ. ܦܚܡܘܗܝ ܕܝܢ ܒܫܩ̣ܠ ܛܥܢܐ ܣܓܝܐܐ̣. ܡܪܝ ܩܫܝܫ ܛܝܝܐ ܩܫܝܫܐ ܕܢܗܪܐ ܕܩܣܛܪܐ̣. ܥܡ ܒ̈ܢܝ ܩܠܝܬܗ ܕܝܨܦܘ ܥܡܗ. ܡܪܝ ܝܘܚܢܢ ܛܝܝܐ ܒܪ ܕܢܝܐܝܠ̣. ܘܡܪܝ ܝܘܚܢܢ ܫܡܫܐ ܕܡܢ ܐܘܢܡܪܐ̇. ܥܪܒܝܐ ܕܝܢ ܐܝܘܘܗܝ ܒܓܢܣܗ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܝܨܦܘ ܡܛܠ ܦܘܚܡܗ ܕܟܬܒܐ ܗܢܐ̣. ܗ̣ܘ ܢܬܠ ܠܗܘܢ ܦܘܪܥܢܐ ܛܒ̇ܐ̣ ܘ܏ܫ</quote></p>
                    </item>
-                   <item n="6" xml:id="addition6">
+                  <item n="6" xml:id="addition6" syriaca-tags="scribal-colophon">
                       <locus from="157b" to="157b"/>
                       <p>The name of the scribe appears to have been <persName ref="">David</persName>, for under <ref target="#addition5">the above note</ref> we read:</p>
                       <p><quote xml:lang="syr">ܒܡܪܢ ܣܒܪܢ ܟܠ ܡܢ ܕܩ̇ܪܐ ܢܨܠܐ [ܥܠ add] ܕܘܝܕ ܚܛܝܐ. . ܕܥܠ ܛܘܢܢܐ  ܕܟܬܒܐ ܗܢܐ. ܘ. </quote></p>
@@ -325,6 +325,9 @@
       <change when="2013-07-22" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2013-11-12" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
       <change when="2013-11-16" who="http://syriaca.org/editors.xml#thannah">Initial edit: adjusted additions and updated their coding, changed one addition into a final rubric</change>
+      <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to XML where GitHub inserted problematic text</change>
+      <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Moved colophon under a-level.</change>
+      <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
