@@ -102,20 +102,6 @@
                 </finalRubric>
                 <note>Beginning at ch. viii. 31.</note>
               </msItem>
-<<<<<<< HEAD
-                <msItem n="3" xml:id="b2">
-                  <locus from="44b" to="85">Foll. 44b-85</locus>
-                  <title ref="http://syriaca.org/work/163" type="supplied">The Gospel of S. Mark</title>
-                  <finalRubric xml:lang="syr"> <sic>ܫ̣ܠܡ ܐܘܢܓܠܝܘܢ ܕܡܪܩܘܣ܇ ܕܡ̇ܠܠ ܪܘܗܡܐܝܬ ܒܪܘܡܐ ܡܕܝܢܬܐ. ܕܐܝܬ ܒܗ ܩ̈ܦܠܐܐ ܐܪ̈ܒܥܝ̣ܢ ܘܬܡ̈ܢܝܐ. ܘܡ̈ܢܝܢܐ ܡܐܬܝܢ ܘܐܪ̈ܒܥܝܢ. ܐܬܘ̈ܬܐ ܥܣܪ̈ܝܢ ܘܬܪ̈ܬܝܢ. ܦܠܐ̈ܬܐ ܫ̈ܬ: ܣܗ̈ܕܘܬܐ ܫܒܥܣܪ̈ܐ܀ ܀ ܀</sic>
-                    <locus from="85" to="85"/>
-                  </finalRubric>
-                </msItem>
-                <msItem n="4" xml:id="b3">
-                  <locus from="85b" to="154">Foll. 85b-154</locus>
-                  <title ref="http://syriaca.org/work/164" type="supplied">The Gospel of S. Luke</title>
-                  <finalRubric xml:lang="syr"><sic>ܫ̣ܠܡ ܐܘܢܓܠܐܠܝܘܢ ܕܠܘܩܐ ܕܡܠܠܗ ܝܘܢܐܝܬ. ܕܐܝܬ ܒܗ ܩ̈ܦܠܐܐ ܬܡܢܐܝܢ ܘܬܠܬܐ. ܘܡ̈ܢܝܢܐ ܬܠܬܡ̈ܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܡܢܝܐ. ܘܬܘ̈ܬܐ ܥܣܪ̈ܝܢ ܘܬܪ̈ܬܝܢ. ܘܦܠܐ̈ܬܐ ܥܣܪ̈ܝܢ ܘܫܒܥ. ܘܣܗ̈ܕܘܬܐ ܫܬܬܥܣܪ̈ܐ܀ ܀ ܀</sic> 
-                    <locus from="154" to="154"/>
-=======
                 <msItem n="4" xml:id="b3">
                   <locus from="44a">Foll. 44a</locus>
                   <title ref="" type="supplied">An index of the chapters</title>
@@ -136,7 +122,6 @@
                   <title ref="http://syriaca.org/work/164" type="supplied">The Gospel of S. Luke, according to the Harklensian version</title>
                   <finalRubric xml:lang="syr">ܫ̣ܠܡ ܐܘܢܓܠܐܠܝܘܢ (sic) ܕܠܘܩܐ ܕܡܠܠܗ ܝܘܢܐܝܬ. ܕܐܝܬ ܒܗ ܩ̈ܦܠܐܐ ܬܡܢܐܝܢ ܘܬܠܬܐ. ܘܡ̈ܢܝܢܐ ܬܠܬܡ̈ܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܡܢܝܐ. ܘܬܘ̈ܬܐ (sic) ܥܣܪ̈ܝܢ ܘܬܪ̈ܬܝܢ. ܘܦܠܐ̈ܬܐ ܥܣܪ̈ܝܢ ܘܫܒܥ. ܘܣܗ̈ܕܘܬܐ ܫܬܬܥܣܪ̈ܐ܀ ܀ ܀ 
                     <locus from="153" to="153"/>
->>>>>>> Justin-editing-february
                   </finalRubric>
                 </msItem>
                 <msItem n="8" xml:id="b7">
@@ -147,15 +132,8 @@
                   <locus from="154a" to="205">Foll. 154a-205</locus>
                   <title ref="http://syriaca.org/work/157" type="supplied">The Gospel of S. John</title>
                   <finalRubric xml:lang="syr"> <sic>ܫܠܡ ܠܡܟܬܒ ܐܘܢܓܐܠܝܘܢ ܩܕܝܫܐ ܕܝܘܚܢܢ. ܕܐܝܬ ܒܗ ܩ̈ܦܠܐ̣ܐ ܬܫܬܥܣܪ̈. ܡ̈ܢܝܢܐ̣ ܡܐܬܝܢ ܘܬܠܬܝܢ ܘܬܪ̈ܝܢ ܕܩ̈ܢܘܢܐ. ܐܬܘ̈ܬܐ̣ ܬܡ̈ܢܐ. ܦ̈ܠܐܬܐ̣ ܚ̈ܡܫ. ܣ̈ܗܕܘܬܐ̣ ܚܡܫܥܣܪ̈ܐ. ܡ̇ܠܠ ܕܝܢ ܘܟ̇ܬܒ ܝܘܢܐܝܬ ܒܐܦܐܣܣ.</sic>
-                    <locus from="205" to="205"/>
-<<<<<<< HEAD
-                  </finalRubric>
-                  <colophon>
-                    <ref target="#addition1">See below.</ref>
-                  </colophon>                  
-=======
+                    <locus from="205" to="205"/>                 
                   </finalRubric>                  
->>>>>>> Justin-editing-february
                 </msItem>
              </msItem>
             </msContents>
@@ -198,27 +176,13 @@
               </objectDesc>
               <handDesc hands="2">
                 <handNote xml:id="handNote1" scope="major" script="syr-Syrj" medium="unknown">
-<<<<<<< HEAD
-                  <desc>This volume is written in a large, very angular Estrangela, with occasional Greek vowels, and dated <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate>, <origDate when="0936" calendar="Gregorian">A.D. 936</origDate>. <ref target="#addition1 #addition2">See additions.</ref></desc>
-=======
                   <desc>This volume is written in a large, very angular Estrangela, with occasional Greek vowels, and dated <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate>, <origDate when="0936" calendar="Gregorian">A.D. 936</origDate>.<ref target="#addition1 #addition2">See additions.</ref></desc>
->>>>>>> Justin-editing-february
                 </handNote>
                 <handNote xml:id="handNote2" scope="major" script="syr" medium="green-paint">
                   <desc><ref target="#addition3">See additions.</ref></desc></handNote>
               </handDesc>
               <additions>
                 <list>
-<<<<<<< HEAD
-                  <item n="1" xml:id="addition1"><locus from="205" to="205"/>
-                    <p>At the end of <ref target="#b4">the Gospel of S. John</ref>, after the subscription, stands the following doxology:</p>
-                    <p><quote xml:lang="syr"><sic>ܫܘܒܐ  ܠܐܒܐ: ܕܥܕܪ ; ܘܠܒܪܐ: ܕܣܝ̇ܥ ܘܠܪܘܚܐ. ܩܕܝܫܐ. ܕܫ̇ܡܠ̣ܝ</sic></quote></p>
-                    <p>which is followed by the words:</p>
-                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܕܝܢ. ܟܬܒܐ. ܗܢܐ. ܕܐܪ̈ܒܥܐ ܐܘܢ̈ܓܠܣܛܐ ܩ̈ܕܝܫܐ. ܕܐܬܦܫܩܘ. ܡܢ. ܠܫܢܐ ܝܘܢܝܐ. ܠܣܘܪܝܝܐ. ܒܚܬܝܬܘܬܐ. ܣܓܝܐܬܐ. ܘܒܫܩܠ ܛܥܢܐ. ܪܒܐ.</quote></p>
-                  </item>
-                  <item n="2" xml:id="addition2"><locus from="205" to="205"/>
-                    <p>Below, in the same handwriting, there is a note, informing us that this volume was written in the <placeName ref="">desert of Scete</placeName>, <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate> (<origDate when="0936" calendar="Gregorian">A.D. 936</origDate>), by a priest named <persName ref="">John</persName>, for the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>.</p>
-=======
                   <item n="1" xml:id="addition1" syriaca-tags="doxology">
                     <locus from="205" to="205"/>
                     <p>At the end of the <ref target="#b8">Gospel of S. John</ref>, after the subscription, stands the following doxology:</p>
@@ -229,7 +193,6 @@
                     <item n="2" xml:id="addition2" syriaca-tags="scribal-colophon">
                       <locus from="205"/>
                     <p>Below <ref target="#addition1">this</ref>, in the same handwriting, there is a note, informing us that this volume was written in the <placeName>desert of Scete</placeName>, <origDate when-custom="1247" datingMethod="Seleucid">A. Gr. 1247</origDate> (<origDate when="0936" calendar="Gregorian">A.D. 936</origDate>), by a priest named <persName>John</persName>, for the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>.</p>
->>>>>>> Justin-editing-february
                     <quote xml:lang="syr">ܫܩ̣ܠ ܕܝܢ ܫ̇ܘܠܡܐ ܟܬܒܐ ܗܢܐ ܫ̣ܢܬ ܐܠܦܐ ܘܡ̈ܐܬܝܢ ܘܐܪ̈ܒܥܝܢ ܘܫܒܥ ܒܕܝܘ̈ܢܝܐ ܐܬܟܬܒ ܕܝܢ ܒܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܒܡܕܒܪܐ ܕܐܣܩܝܛܐ ܟܬܒܗ ܕܝܢ ܝܘܚܢܢ ܐܟܣܢܝܐ ܘܒܫܡܐ ܕܝܪܝܐ ܘܒܕܪܓܐ ܬܘܒ ܩܫܝܫܐ ܟܕ ܫ̇ܘܐ ܟܬܒܗ ܕܝܢ ܠܡܘܫܐ ܪܝܫܕܝܪܐ ܕܝܠܗ̇ ܕܕܘܟܬܐ ܕܡܬܝܕܥ ܢܨܝܒܝܢܐ܇ ܟܠ ܕܝܢ ܕܩ̇ܪܐ ܒܗ ܒܟܬܒܐ ܗܢܐ ܕܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܕܣܪܛ ܕܢܬܚܢܢ ܗ̣ܘ ܘܥܢ̈ܝܕܘܗܝ ܘܟܠܗ ܝܠ̣ܕܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܐܝܟ ܓܝ̇ܣܐ ܕܡܢ ܝܡܝܢ ܘܟܠ ܕܝܢ ܕܗܘ̣ܐ ܠܗ ܒܗ ܫܘܬܦܘܬܐ ܐܢ ܒܡܠܬܐ ܘܐܢ ܒܥ̇ܒܕܐ ܐܘ ܒܥܠ̣ܬܐ ܐ̇ܝܕܐ ܕܗܝ ܐܝܢ ܘܐܡܝܢ܀</quote></item>
                   <item n="3" xml:id="addition3">
                   <p>The lessons are sometimes indicated in the text, but more usually by later hands on the margins. For this purpose green paint has occasionally been employed.</p>
@@ -360,14 +323,11 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-09-12" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
-<<<<<<< HEAD
       <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: small changes to formatting of additions and quotes</change>
-=======
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric "doxology"</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to additions and handNotes. Edits to reflect colophon.</change>
       <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to the msItems, additions, and handNotes.</change>
       <change when="2014-04-20" who="http://syriaca.org/editors.xml#jarnwine">Added syriaca-tags to additions.</change>
->>>>>>> Justin-editing-february
        </revisionDesc>
   </teiHeader>
   <facsimile>
