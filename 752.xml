@@ -141,13 +141,9 @@
                   <locus from="69b" to="82b">Foll. 69b-82b</locus>
                   <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
                 </msItem>  
-<<<<<<< HEAD
                 <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬ݂ܒ ܐܪܒܥܣܪ̈ܐ ܐܓܪ̈ܬܐ ܕܛܘܒܢܐ ܦܘܠܘܣ ܫܠܝܚܐ ܘܐܝܙܓܕܐ ܘܣܗܕܐ ܕܚܠܦ ܥܡܐ ܘܥܡ̈ܡܐ ܨܠܘ̈ܬܗ ܥܠ ܟܠܗ̇ ܡܪܥܝܬܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܩܬܘ̈ܠܝܩܐ ܘܚܢܢ ܢܬܥܕܪ ܒܨܠܘ̈ܬܗ ܐܡܝܢ܀
                   <locus from="82b" to="82b"/>
                 </finalRubric>
-=======
-                <finalRubric xml:lang="syr"> ܫܠܡ ܠܡܟܬ݂ܒ ܐܪܒܥܣܪ̈ܐ ܐܓܪ̈ܬܐ ܕܛܘܒܢܐ ܦܘܠܘܣ ܫܠܝܚܐ ܘܐܝܙܓܕܐ ܘܣܗܕܐ ܕܚܠܦ ܥܡܐ ܘܥܡ̈ܡܐ ܨܠܘ̈ܬܗ ܥܠ ܟܠܗ̇ ܡܪܥܝܬܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܩܬܘ̈ܠܝܩܐ ܘܚܢܢ ܢܬܥܕܪ ܒܨܠܘ̈ܬܗ ܐܡܝܢ܀<locus from="82b"/></finalRubric>
->>>>>>> Justin-editing-february
                 <note>Only a very few lessons are marked in the text, e.g. fol. <locus from="23a">23a</locus>, <foreign xml:lang="syr">ܩܪܝ ܕܫ̈ܠܝܚܐ ܘܕܣܗ̈ܕܐ</foreign>.</note>
               </msItem>
             </msContents>
@@ -316,11 +312,7 @@
       </profileDesc>
     <revisionDesc>
       <change when="2013-10-11" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
-<<<<<<< HEAD
       <change when="2013-12-30" who="http://syriaca.org/editors.xml#thannah">Initial edit: retagging final rubric, formatting msItems, dates</change>
-=======
-      <change when="2014-01-07" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
->>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>
