@@ -109,10 +109,7 @@
                   <msItem n="7" xml:id="c4">
                      <locus from="78a" to="104a">Foll. 78a-104a</locus>
                      <title ref="http://syriaca.org/work/75" type="supplied">John</title>
-<<<<<<< HEAD
-=======
                     <finalRubric type="doxology">At the end of the subscription to the last Gospel, fol. 104 a, we have the doxology: <quote xml:lang="syr">ܫܘܒܚܐ ܡܢ ܟܠ ܥܠ ܟܠ ܠܡܪܝܐ ܟܠ ܡܫܡܠܐ ܟܠ ܒܫܘܡܠܝܗ ܐܡܝܢ.</quote><locus from="104a" to="104a"/></finalRubric>
->>>>>>> Justin-editing-february
                   </msItem>
                  <colophon><ref target="#addition3">See additions.</ref></colophon>
                   <note>The larger sections are marked on the margins.</note>
@@ -328,16 +325,12 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-<<<<<<< HEAD
       <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
       <change when="2014-01-02" who="http://syriaca.org/editors.xml#thannah">Initial edit: retagged some Syriac quotes, moved doxology to more appropriate place in msItems</change>
-=======
-      <change when="2013-07-26" who="http://syriaca.org/editors.xml#thannah">CREATED: file</change>
       <change when="2013-12-02" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to finalRubric</change>
       <change when="2014-03-31" who="http://syriaca.org/editors.xml#jarnwine">Edits to handNotes and additions. Edits to reflect colophon.</change>
       <change when="2014-04-03" who="http://syriaca.org/editors.xml#jarnwine">Changes to msItems.</change>
       <change when="2014-05-05" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags</change>
->>>>>>> Justin-editing-february
     </revisionDesc>
   </teiHeader>
   <facsimile>
