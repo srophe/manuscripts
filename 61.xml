@@ -14,9 +14,14 @@
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#sulim">Sung Uk Lim</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+        </respStmt>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#sulim">Sung Uk Lim</name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
@@ -431,63 +436,73 @@
             <msContents>
               <summary></summary>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p4a1">
-                <locus from="" to=""></locus>
-                <author ref=""></author>
-                <title ref="" type="supplied"></title>
-              </msItem>
-              <msItem n="2" xml:id="p4a2">
-                <locus from="" to=""></locus>
-                <author ref=""></author>
-                <title ref="" type="supplied"></title>
+              <msItem n="1" xml:id="p4a1" defective="true">
+                <locus from="55" to="64">Foll. 55-64</locus>
+                <author ref="http://syriaca.org/person/80">The Priest Simon</author>
+                <title ref="" type="supplied">A discourse of Simeon, <foreign xml:lang="grc">νοσοκόμος</foreign> of the great <foreign xml:lang="grc">ξενοδοχεῖον</foreign> of Edessa on the Return of the Jews from the Captivity at Babylon, and on the Seventy Weeks of the prophet Daniel</title>
+                <rubric xml:lang="syr"><locus from="55b" to="55b"/>ܡܐܡܪܐ ܕܥܠ ܦܘܢܝܐ [ܕܫܒܝܬܐ ܕܡܢ] ܒܒܠ̣. ܘܥܠ ܫܒ̈ܘܥܐ ܕܕܢܝܐܝܠ. [ܕܥܒܝܕ] ܠܩܫܝܫܐ ܡܪܝ ܫܡܥܘܢ ܢܘܣܩ[ـܘܡܘܣ] ܕܟܣܢܕܟܝܢ ܪܒܬܐ ܕܐܘܪܗܝ.
+                </rubric>
+                <incipit>ܢܐܡܪ ܡܢ ܗܫܐ ܥܠ ܦܘܢܝܐ ܕܫܒܝܬܐ̇ ܕܡܢ ܒܒܠ܇ ܘܥܠ ܒܢܝܢܗ ܕܗܝܟܠܐ ܗ̇ܘ ܕܗܘ̣ܐ ܒܫܢܬ ܬܪ̈ܬܝܢ ܕܕܪܝܘܫ ܡܢ ܙܘܪܒܒܠ. ܘܝܫܘܥ ܒܪ ܝܘܙܕܩ̇. ܘܥܠ ܫܒ̈ܘܥܐ ܗܠܝܢ ܕܕܢܝܐܝܠ܇ ܐܝܟ ܕܐܘܕܥܗ ܡܠܐܟܐ. ܘܡܢܗܘܢ ܢܚܘܐ ܢܗܝܪܐܝܬ݂ ܕܫܠ̣ܡ ܠܗ ܥܠܝܗܘܢ ܙܒܢܐ<sic> ܕܡܕܒܪܢܘܗܘܢ̣</sic>.  
+                  ܒܚܘܪܒܐ ܗ̇ܘ <choice><sic>ܕܐܕܥ</sic><corr resp="http://syriaca.org/editors.xml#wwright">ܕܐܘܕܥ</corr></choice> ܥܠܝܗܘܢ ܕܢܝܐܝܠ ܢܒܝܐ. ܘܕܐܝܠܝܢ ܩܪ̈ܒܐ ܗܘܘ ܥܠܝܗܘܢ̣. ܘܟܡܐ ܒܝ̈ܫ̣ܬܐ ܣܒܠܘ ܡܢ ܡܫܬܒܩܢܘܬܐ ܕܐܠܗܐ ܕܗ̣ܘܬ݁ ܠܘܬܗܘܢ܇ ܡܛܠ ܥܘܼ̈ܠܐ ܘܒܝ̈ܫ̣ܬܐ ܕܡ̈ܠܟܝܗܘܢ ܘܕܟܠܗ ܥܡܐ ܕܝܗ̈ܘܕܝܐ̇. ܗܠܝܢ ܕܒܫܪܒܐ ܕܡܢ ܩܕܡ ܗܢܐ ܚܘܝܢ̣ܢ. ܏ܘܫ
+                  <locus from="55b" to="55b"/>
+                </incipit>
+                <note>The author is perhaps the same Simeon who was, against his own wish, elected bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>,<date when="0761" calendar="Gregorian">A.D. 761</date>, </note>
+                <listBibl>
+                  <bibl>Assemani, Bibl. Or., t. i., p. 428; t. ii., p. 111</bibl>
+                </listBibl>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material></material></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""></measure>
+                    <measure type="composition" unit="leaf" quantity="10">10 ff.</measure>
                     <dimensions type="leaf" unit="in">
-                      <height><measure type="height" quantity="" unit="in"></measure></height>
-                      <width><measure type="width" quantity="" unit="in"></measure></width>
+                      <height>
+                        <measure type="height" quantity="9.5" unit="in">9 1/2</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="6.125" unit="in">6 1/8</measure>
+                      </width>
                     </dimensions>
                   </extent>
                   <foliation/>
-                  <collation>
-                    <p></p>
-                  </collation>
+                  <collation/>
                   <condition>
-                    <p></p>
+                    <list>
+                      <item>
+                        <p><locus from="55">Fol. 55</locus> and <locus from="64">fol. 64</locus> are much torn.</p> 
+                      </item>
+                      <item><p>It is imperfect at the end and in three other places, leaves being missing after foll. <locus from="55">55</locus>, <locus from="59">59</locus>, and <locus from="63">63</locus>.</p></item>
+                    </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <p/>
+                  <layout columns="1" writtenLines="26 30">
+                    <p>Each page has from 26 to 30 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p4handNote1" scope="major" script="" medium="unknown">
-                  <desc></desc>
+              <handDesc hands="1">
+                <handNote xml:id="p4handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>The writing is partly Estrangela, partly cursive, of the <origDate notBefore-custom="0800" notAfter-custom="0900" calendar="Gregorian">ixth</origDate> cent.</desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
-              <additions>
-                <p/>
-              </additions>
+              <additions/>
               <bindingDesc/>
               <sealDesc/>
               <accMat/>
             </physDesc>
             <history>
-              <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""></origDate>
+                <origDate notBefore="0800" notAfter="0900" calendar="Gregorian">ixth cent.</origDate>
+                <origPlace/>
               </origin>
-              <provenance>
-                <p/>
-              </provenance>
+              <provenance/>
               <acquisition/>
             </history>
             <additional>
@@ -1070,7 +1085,7 @@
           </item>
           <item>
             <ref target="#Part4"/> 
-            <ref target=""/>       
+            <ref target="#theology"/>       
           </item>
           <item>
             <ref target="#Part5"/> 
@@ -1097,6 +1112,8 @@
       <change when="2013-11-09" who="http://syriaca.org/editors.xml#thannah">Initial edit: Updated much of the coding, split former Part 6 into new Part 6 and 7</change>
       <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Moved colophon to its respective a-level item.</change>
       <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to colophon incertus in p7addition1.</change>
+      <change when="2014-08-06" who="http://syriaca.org/editors.xml#sulim">Created: <ref target="#Part4">part 4</ref></change>
+      <change when="2014-09-22" who="http://syriaca.org/editors.xml#jarnwine">Proofread and general edits to <ref target="#Part4">part 4</ref>.</change>
     </revisionDesc>
 </teiHeader>
   <facsimile>
