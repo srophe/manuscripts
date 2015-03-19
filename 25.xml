@@ -82,13 +82,17 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1">
+              <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1" to="255">Foll. 1-255</locus>
                 <colophon><ref target="#addition1">See additions.</ref></colophon>
-                <msItem n="2" xml:id="b1">
-                  <locus></locus>
-                  <author></author>
-                  <title></title>
+                <msItem n="2" xml:id="b1" defective="true">
+                  <locus from="1b" to="72">Foll. 1b-72</locus>
+                  <author ref="">Clement of Rome</author>
+                  <title ref="" type="supplied">The Recognitions of Clement of Rome, the disciple of <persName ref="">S. Peter</persName></title>
+                  <rubric xml:lang="syr"><fw type="header">ܩܠܡܣ</fw></rubric>
+                  <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܡܡܠܠܐ ܕܩܠܡܣ<locus from="72"/></finalRubric>
+                  <note>The title has been cut away. In <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/347">Add. 14,609, fol. 123a</idno></msIdentifier></bibl>, the title is <quote xml:lang="syr">ܬܫܥܝܬܐ ܕܩܠܝܡܝܣ ܐܝܢܐ ܕܢܩܝܦ ܗܘܐ ܠܫܡܥܘܢ ܟܐܦܐ</quote>, <quote>the history of <persName ref="">Clement</persName>, who was attached to <persName ref="">Simon Peter</persName>.</quote> </note>
+                  
                 </msItem>
                 <msItem n="" xml:id="b2">
                   <locus></locus>
@@ -165,17 +169,17 @@
                 </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
               </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <p/>
                 <list>
                   <item n="1" xml:id="addition1" syriaca-tags="scribal-colophon doxology">
                     <locus from="254a"/>
                     <p>On fol. 254a, 3rd col., we read the colophon, written with green paint (see also fol. <locus from="227b">227b</locus>):</p>
-                    <p><quote xml:lang="syr">$[ܐܫ]ܬܠܡܘ ܒܦܢܩܝܬܐ ܗܕܐ ܟ̈ܬܒܐ ܬ̈ܠܬܐ ܛܛܘܣ ܘܩܠܡܣ ܘܩܣܪܝܐ</quote></p>
-                    <p><quote>there are completed in this volume three books, <persName>Titus</persName>, and <persName>Clemens</persName>, and the <persName>Caesarean</persName>.</quote></p>
-                    <p>This is followed by the doxologv (written with yellow paint, see also fol. <locus from="229b">229b</locus>), and by the note:</p>
-                    <p><quote xml:lang="syr">$ܐܫܬܠܡܬ ܦܢܩܝܕܬܐ$ ܗܕܐ ܒܝܪܚ ܬܫܪܝ ܫܢܬ ܫܒ[ܥܡـ]ܐܐ [ܘܥ]ܣܪܝܢ ܘܬܠܬ ܒ[ܐ]ܘܪܗܝ [ܡܕܝܢܬܐ ܕ]ܒܝܬ [ܢܗ]ܪܝܢ . . .</quote></p>
-                    <note>$ܦܢܩܝܬܐ is the oldest form of the word, from <foreign xml:lang="grc">πινακίδὶον</foreign>. It usually becomes, by assimiliation, $ܦܢܩܝܬܐ; and is sometimes corrupted into $ܦܢܩܝܢܬܐ, according to the analogy of $ܡܕܝܢܬܐ  ,ܣܦܝܢܬܐ, etc.</note>
-                    <p><quote>this volume was finished in the month of the latter Teshrī, in the year <origDate datingMethod="Seleucid" when-custom="0723">723</origDate> (<origDate calendar="Gregorian" when="0412">A.D. 412</origDate>), at <origPlace><choice><orig>Urhāi</orig><corr resp="http://syriaca.org/editors.xml#wwright">Edessa</corr></choice></origPlace>, a city of <placeName><choice><orig>Beth-Nahrīn</orig><corr resp="http://syriaca.org/editors.xml#wwright">Mesopotamia</corr></choice></placeName>……….</quote></p>                    
+                    <p><quote xml:lang="syr">[ܐܫ]ܬܠܡܘ ܒܦܢܩܝܬܐ ܗܕܐ ܟ̈ܬܒܐ ܬ̈ܠܬܐ ܛܛܘܣ ܘܩܠܡܣ ܘܩܣܪܝܐ</quote></p>
+                    <p><quote>There are completed in this volume three books, <persName>Titus</persName>, and <persName>Clemens</persName>, and the <persName>Caesarean</persName>.</quote></p>
+                    <p>This is followed by the doxology (written with yellow paint, see also fol. <locus from="229b">229b</locus>), and by the note:</p>
+                    <p><quote xml:lang="syr">ܐܫܬܠܡܬ ܦܢܩܝܕܬܐ$ ܗܕܐ ܒܝܪܚ ܬܫܪܝ ܫܢܬ ܫܒ[ܥܡـ]ܐܐ [ܘܥ]ܣܪܝܢ ܘܬܠܬ ܒ[ܐ]ܘܪܗܝ [ܡܕܝܢܬܐ ܕ]ܒܝܬ [ܢܗ]ܪܝܢ . . .</quote>
+                    <note>ܦܢܩܝܬܐ is the oldest form of the word, from <foreign xml:lang="grc">πινακίδὶον</foreign>. It usually becomes, by assimiliation, ܦܢܩܝܬܐ; and is sometimes corrupted into ܦܢܩܝܢܬܐ, according to the analogy of ܡܕܝܢܬܐ  ,ܣܦܝܢܬܐ, etc.</note></p>
+                    <p><quote>This volume was finished in the month of the latter Teshrī, in the year <origDate datingMethod="Seleucid" when-custom="0723">723</origDate> (<origDate calendar="Gregorian" when="0412">A.D. 412</origDate>), at <origPlace><placeName ref="http://syriaca.org/place/78">Urhāi (Edessa)</placeName></origPlace>, a city of <placeName ref="http://syriaca.org/place/1452">Beth-Nahrīn (Mesopotamia)</placeName>……….</quote></p>                    
                   </item>
                   <item n="2" xml:id="addition2">
                     <locus from="" to=""/>
@@ -202,8 +206,8 @@
               <origin>
                 <origDate datingMethod="Seleucid" when-custom="0723">A. Gr. 723</origDate>
                 <origDate calendar="Gregorian" when="0412">A.D. 412</origDate>
-                <note>This manuscript is consequently believed to be the oldest dated volume extant; and yet the vellum is in many places as white, and the ink as black, as if it were only a few years old. The next dated book in point of antiquity seems to be the MS. of the <title>Ecclesiastical History</title> of <persName>Eusebius</persName> in the <placeName>Imperial Public Library at <placeName>St. Petersburg</placeName></placeName>, written <date calendar="Gregorian" when="0462">A.D. 462</date>; and the third, in the <placeName>British Museum</placeName>, <ref target="http://syriaca.org/manuscript/81">Add.14,425</ref>, <date calendar="Gregorian" when="0464">A.D. 464</date> (see <bibl>Wright, p. 3, no. III</bibl>).</note>
-                <origPlace>Edessa</origPlace>
+                <note>This manuscript is consequently believed to be the oldest dated volume extant; and yet the vellum is in many places as white, and the ink as black, as if it were only a few years old. The next dated book in point of antiquity seems to be the MS. of the <title>Ecclesiastical History</title> of <persName>Eusebius</persName> in the <placeName>Imperial Public Library at <placeName>St. Petersburg</placeName></placeName>, written <date calendar="Gregorian" when="0462">A.D. 462</date>; and the third, in the <placeName>British Museum</placeName>, <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/81">Add.14,425</idno></msIdentifier></bibl>, <date calendar="Gregorian" when="0464">A.D. 464</date> (see <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/81">Wright, p. 3, no. III</idno></msIdentifier></bibl>).</note>
+                <origPlace><placeName ref="http://syriaca.org/place/78">Edessa</placeName></origPlace>
               </origin>
               <provenance>
                 <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
@@ -333,7 +337,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-05-08" who="http://syriaca.org/editors.xml#jarnwine">Created: file; Structure established for later stage. Colophon encoded.</change>      
+      <change when="2014-05-08" who="http://syriaca.org/editors.xml#jarnwine">Created: file; Structure established for later stage. Colophon encoded.</change>    
+      <change when="2015-03-18" who="http://syriaca.org/editors.xml#jarnwine">Continued: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
