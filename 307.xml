@@ -595,128 +595,127 @@
               </listBibl>
             </additional>
           </msPart>
-          <msPart n="3" xml:id="Part3"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+          <msPart n="3" xml:id="Part3">
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/310</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 14574 foll. 34-40</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">640</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">DCXL</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p3a1" defective="true">
+                <locus from="34" to="40">Foll. 34-40</locus>
+                <author ref="http://syriaca.org/person/42">Jacob of Batnae or Serug</author>
+                <title ref="" type="supplied">66 metrical discourses of Jacob of Batnae</title>
+                <colophon><ref target="#p3addition1">See additions.</ref></colophon>
+                <note>These leaves are all that remain of a large volume, comprising no less than 66 metrical discourses of Jacob of Batnae, of which a list is given on <locus from="40b">fol. 40b</locus>. There are now left only the manuscript items which follow below.</note>
+                <msItem n="2" xml:id="p3b1">
+                  <locus from="34a" to="34b">Fol. 34</locus>
+                  <author ref="http://syriaca.org/person/42"/>
+                  <title ref="" type="supplied">A single leaf in which our Lord's observance of the Sabbath is contrasted with that of the Jews</title>
+                  <note>This item is perhaps from the discourse entitled <foreign xml:lang="syr">ܕܡܪܢ ܘܝܥܩܘܒ</foreign>, <quote>on our Lord and Jacob</quote>, <bibl>Assemani, Bibl. Or., t. i., p. 308, no. 5</bibl>.</note>
+                </msItem>
+                <msItem n="3" xml:id="p3b2">
+                  <locus from="35a" to="36b">Foll. 35a-36b</locus>
+                  <author ref="http://syriaca.org/person/42"/>
+                  <title ref="" type="supplied">Part of the fifth discourse on Daniel</title>
+                  <finalRubric xml:lang="syr">ܫܠܡܘ ܡܐܡܪ̈ܐ ܚܡܫܐ ܕܥܠ ܕܢܝܐܝܠ ܕܣܝܡܝܢ ܠܛܘܒܢܐ ܡܪܝ ܝܥܩܘܒ.<locus from="36b"/></finalRubric>
+                </msItem>
+                <msItem n="4" xml:id="p3b3">
+                  <locus from="36b" to="40">Foll. 36b-40</locus>
+                  <author ref="http://syriaca.org/person/42"/>
+                  <title ref="" type="supplied">The discourse on David and Uriah the Hittite</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܠ ܕܘܝܕ ܘܐܘܪܝܐ ܚܬܝܐ<locus from="36b"/></rubric>
+                  <incipit xml:lang="syr">ܡܪܐ ܕܪ̈ܚܡܐ ܬܘܒ ܫܐ̇ܠ ܐܢܐ ܪ̈ܚܡ̣ܐ ܡܢܟ.<locus from="36b"/></incipit>
+                </msItem>
+                <msItem n="5" xml:id="p3b4">
+                  <locus from="40b">Fol. 40b</locus>
+                  <title ref="" type="supplied">An index to the original contents of the volume</title>
+                  <quote xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܒܦܢܩܝܬܐ ܗܕܐ ܡܐܡܪ̈ܐ ܡ̈ܓܒܝܐ ܕܛܘܒܢܐ ܡܪܝ ܝܥܩܘܒ ܕܐܝܬܝܗܘܢ̣ ܗܠܝܢ܀ ܡܐܡܪܐ ܩܕܡܝܐ ܕܥܠ ܝܘܢܢ. ܕܬܪ̈ܝܢ ܕܥܠ ܐܝܘܒ. ܐܪ̈ܒܥܐ ܥܠ ܐܠܝܐ. ܚܡܫܐ ܕܥܠ ܐܠܝܫܥ. ܬܫܥܐ ܕܥܠ ܝܘܣܦ. ܐܪ̈ܒܥܐ̣ ܕܥܠ ܩܐܝܢ. ܚܕ ܕܥܠ ܟܗܢܘܬܐ. ܚܕ ܕܥܠ ܩܒܘܬܗ ܕܐܠܗܐ ܟܕ ܐܬܕܒ̣ܪܬ. ܚܕ ܕܬܘܪܬܐ ܣܘܡܩܬܐ. ܚܕܼ ܕܩܒܘܪܬܗ ܕܡܘܫܐ. ܚܕ ܕܪܓܠܬܐ ܕܚܙܩܝܐܝܠ. ܚܕ ܕܥܘܙܝܐ ܡܠܟܐ. ܚܕ ܕܥܠ ܟܐܦܐ ܕܡ̈ܝܐ. ܚܕ ܕܥܠ  ܦܝܢܚܣ. ܚܕ ܕܥܠ ܫܡܫܘܿܢ ܚܕ ܕܥܠ ܬܡܪ .. ܚܕ ܕܥܠ ܡܠܟܝܙܕܩ. ܚܕ ܕܥܠ ܬܪ̈ܬܝܢ ܨܦܪ̈ܝܢ. ܚܕ ܕܥܠ ܐܝܠܝܢ ܕܐܡ̇ܪܝܢ ܕܡܠܐ̈ܟܐ ܐܬܢܩܦܘ ܠܒܢ̈ܬ ܐܢܫܐ܀ ܚܕ ܕܥܠ ܗܘܫܥ. ܚܕ ܕܥܠ ܡܚܬܬܗ ܕܪܡܐ ܥܠ ܛܘܪ ܣܝܢܝ. ܚܕ ܕܥܠ ܫܘܫܦܐ. ܚܕ ܕܥܠ ܦܫܛ ܐܝ̈ܕܘܗܝ ܕܡܘܫܐ. ܚܕ ܕܥܠ ܗ̇ܝ ܕܚܘܢܝ ܫܘܒܚܟ ܘܐܕܥܟ. ܚܕ ܕܒܢܝܢܐ ܕܡܓܕܠܐ. ܚܕ ܕܦܘܪܫ ܡܐ̈ܟܠܬܐ. ܚܕ ܕܥܙܙܐܝܠ܀ ܚܕ ܕܒܠܥܡ ܩܨܘܡܐ. ܚܕ ܕܡܟܝܪܘܬܗ̇ ܕܪܦܩܐ. ܚܕ ܕܒܘܪ̈ܟܬܗ ܕܝܥܩܘܒ. ܚܕ ܕܓܠܝܢܗ ܕܝܥܩܘܒ. ܚܕ ܕܡܪܢ ܘܝܥܩܘܒ. ܕܥܠ ܣܕܘܡ ܐܪ̈ܒܥܐ. ܕܥܠ ܣܢܚܝܪܝܒ̣ ܚܡܫܐ. ܕܥܠ ܕܢܝܐܝܠ̣ ܚܡܫܐ. ܚܕ ܕܐܘܪܝܐ. ܕܗ̈ܘܝܢ ܒܡܢܝܢܐ ܐܫܬܝܢ ܘܐܫܬܐ. ܕܣܝܡܝܢ [ܠܛܘܒܢܐ ܡܪܝ ܝܥܩܘܒ.] .<locus from="40b"/></quote>
+                </msItem>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="7">7 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="12.25" unit="in">12 1/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="8.125" unit="in">8 1/8</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
+                  <foliation/>
+                  <collation/>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>Several of the leaves are much stained and torn </p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="3" writtenLines="46 52">
+                    <p>Each page is divided into 3 columns, of from 46 to 52 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc></desc>
+              <handDesc hands="3">
+                <handNote xml:id="p3handNote1" scope="major" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a neat Estrangělā of the <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate> <ref target="#p3addition1">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="p3handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#p3addition2">See additions.</ref></desc>
+                </handNote>
+                <handNote xml:id="p3handNote3" scope="minor" script="syr" medium="unknown">
+                  <desc><ref target="#p3addition3">See additions.</ref></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc></desc>
-                </decoNote>
-              </decoDesc>
+              <decoDesc/>
               <additions>
                 <p/>
                 <list>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
+                  <item n="1" xml:id="p3addition1" syriaca-tags="scribal-colophon">
+                    <locus from="40b"/>
+                    <p>The <ref target="#p3b4">index</ref> is followed by the doxology, after which the scribe has recorded his name, <persName ref=""><choice><reg>Paphnūt</reg><reg>Paphnutius</reg></choice></persName>:</p>
+                    <p><quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠ ܚܛܝܐ ܦܦܢܘܛ ܕܟܬ݂ܒ ܕܢܬܚܢܢ ܒܝܘܡ ܕܝܢ̣ܐ̣ ܐܡܝܢ.܀ </quote></p>
+                  </item>
+                  <item n="2" xml:id="p3addition2">
+                    <locus from="40b"/>
+                    <p>A note on the same page (written over an erasure) informs us that this volume was brought to <placeName ref="http://syriaca.org/place/360">the convent of S. Mary Deipara</placeName> by the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>, <date when="0932" calendar="Gregorian">A.D. 932</date>, having been presented to him by <persName ref="">Lazarus</persName>, a priest of "the new church of the <orgName>Jacobites</orgName> at <placeName ref="http://syriaca.org/place/78">Edessa</placeName>."</p>
+                    <p><quote xml:lang="syr">ܫܟܢ ܦܢܩـ[ـܝܬܐ ܗܕܐ ܕܡܐܡܪ̈ܐ ܕܛܘܒܢܐ ܡܪܝ ܝܥܩܘܒ] ܡܠܦܢܐ: ܠܥܘܡܪܐ [ܩܕܝܫܐ ܕܒܝܬ] ܝܠܕܬ ܐܠܗܐ ܕܒܡܕܒܪܐ ܕܡܨܪܝܢ ܗ̇ܘ ܕܣܘܪ̈ܝܝܐ̣. ܩܫܝܫܐ ܢܟܦܐ ܡܪܝ ܠܥܙܪ ܡܕܒܪܢܐ ܕܒܝܬ ܨ̈ܠܡܐ ܕܥܕܬܐ ܚ̇ܕܬܐ ܕܝܥܩ̈ܘܒܝܐ ܕܐܘܪܗܝ ܥܠ ܐܝ̈ܕܝܐ ܕܡܪܝ ܡܘܫܐ ܪܝܫܕܝܪܐ ܕܝܠܗ ܕܥܘܡܪܐ ܕܣܘܪ̈ܝܝܐ ܕܐܡܝܪ. ܐܠܐ ܟܠ ܕܫ̇ܩܠ ܏ܘܫ.</quote></p>
+                  </item>
+                  <item n="3" xml:id="p3addition3">
+                    <locus from="40b"/>
+                    <p>Between the first and second columns of the same page, a reader named <persName ref="">John</persName> has written the words:</p>
+                    <p><quote xml:lang="syr"><sic>ܐܢܐ ܝܘܚܢܢ ܚ̇ܛܝܐ ܕܫܐ̇ܠ ܐܢܐ ܨ̈ܠܘܬܟܘܢ ܐܚ̈ܝ ܕܖ.</sic></quote></p>
+                  </item>
                 </list>
               </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace></origPlace>
+                <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -724,25 +723,21 @@
             <additional>
               <adminInfo>
                 <recordHist>
-                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart3">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart2"><!-- In this manuscript part the references and the xml:id reflect that a different cited range of Wright is of concern than in Part 1 -->
+                <bibl xml:id="Wrightpart3">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                  <citedRange unit="entry">DCXL</citedRange>
+                  <citedRange unit="pp">II:508-509</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -845,12 +840,17 @@
             <ref target="#Part2"/>  
             <ref target="#theology"/>       
           </item>
+          <item>
+            <ref target="#Part3"/>
+            <ref target="#theology"/>
+          </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
       <change when="2014-01-23" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2015-03-22" who="http://syriaca.org/editors.xml#jarnwine">Completed: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
     </revisionDesc>
