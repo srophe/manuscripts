@@ -12,14 +12,16 @@
         <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#jnquiroz">Julia Nations-Quiroz</editor>
         <respStmt>
-          <resp>Created by</resp>
+          <resp>Part 1 created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#jnquiroz">Julia Nations-Quiroz</name>
+        </respStmt>
+        <respStmt>
+          <resp>Parts 2-6 created by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
@@ -211,119 +213,76 @@
               </listBibl>
             </additional>
           </msPart>
-          <msPart n="2" xml:id="Part2"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+          <msPart n="2" xml:id="Part2">
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/799</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 17160 foll. 19-23</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">604</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">DCIV</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p2a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
+              <msItem n="1" xml:id="p2a1" defective="true">
+                <locus from="19a" to="23">Foll. 19a-23</locus>
+                <author ref="http://syriaca.org/person/619">Mark the Monk</author>
+                <title ref="" type="supplied">Portions of the discourse of Marcus the monk on the Spiritual Law.</title>
                 <listBibl>
-                  <bibl/>
-                </listBibl>
-              </msItem>
-              <msItem n="2" xml:id="p2a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
+                  <bibl>Assemani, Bibl. Or., t. iii., pars 1, p. 45</bibl>
+                  <bibl>Gallandii Bibl. Vett. Patrum, t. viii., p. 1</bibl>
+                  <bibl>Migne, Patrol. Gr., t. lxv., col. 905</bibl>
                 </listBibl>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="5">5 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="8.625" unit="in">8 5/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="5.375" unit="in">5 3/8</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
+                  <foliation/>
+                  <collation/>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>All of the leaves are more or less stained and the last much mutilated.</p>
+                        <p>There are lacunae after foll. <locus from="19">19</locus> and <locus from="21">21</locus>.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="2" writtenLines="29 30">
+                    <p>Each page is divided into two columns of 29 or 30 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p2handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc></desc>
+              <handDesc hands="1">
+                <handNote xml:id="p2handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a good, regular Estrangělā of the <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p2decoNote1" type="" medium="">
-                  <desc></desc>
-                </decoNote>
-              </decoDesc>
-              <additions>
-                <p/>
-                <list>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                </list>
-              </additions>
-              <bindingDesc>
-                <binding xml:id="p2binding1" contemporary=""/>
-                <decoNote xml:id="p2bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p2seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
               <accMat>
                 <p/>
               </accMat>
@@ -331,8 +290,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace></origPlace>
+                <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -343,148 +301,97 @@
                   <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart2"><!-- In this manuscript part the references and the xml:id reflect that a different cited range of Wright is of concern than in Part 1 -->
+                <bibl xml:id="Wrightpart2">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                  <citedRange unit="entry">DCIV</citedRange>
+                  <citedRange unit="pp">II:481-482</citedRange>
                 </bibl>
               </listBibl>
             </additional>
           </msPart>
           <msPart n="3" xml:id="Part3"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/800</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 17160 foll. 24-26</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">869</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">DCCCLXIX</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p3a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p3a1">
+                <locus from="24a" to="25">Foll. 24a-25</locus>
+                <author/>
+                <title ref="" type="supplied">Part of a discourse on S. John the Baptist (S. Matthew, ch. iii.)</title>
               </msItem>
-              <msItem n="2" xml:id="p3a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref="" type="supplied"/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="2" xml:id="p3a2">
+                <locus from="26">Fol. 26</locus>
+                <author/>
+                <title ref="" type="supplied">Part of a discourse on the Resurrection of our Lord</title>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="3">3 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="8.625" unit="in">8 5/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="5.25" unit="in">5 1/4</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
-                  <collation>
-                    <p/>
-                  </collation>
+                  <foliation/>
+                  <collation/>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>The <locus from="25">second</locus> and <locus from="26">third</locus> of the leaves are much torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="2" writtenLines="28 36">
+                    <p>Each page is divided into two columns, of from 28 to 36 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p3handNote1" scope="" script="" medium=""><!-- Note that @xml:id reflects part 2 -->
-                  <desc></desc>
+              <handDesc hands="1">
+                <handNote xml:id="p3handNote1" scope="sole" script="syr" medium="unknown">
+                  <desc>The writing is good and regular, of <origDate notBefore="0650" notAfter="0850" calendar="Gregorian">about the viiith cent.</origDate></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p3decoNote1" type="" medium="">
-                  <desc></desc>
-                </decoNote>
-              </decoDesc>
-              <additions>
-                <p/>
-                <list>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                </list>
-              </additions>
-              <bindingDesc>
-                <binding xml:id="p3binding1" contemporary=""/>
-                <decoNote xml:id="p3bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p3seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace></origPlace>
+                <origDate notBefore="0650" notAfter="0850" calendar="Gregorian">about the viiith cent.</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -495,11 +402,7 @@
                   <source>Manuscript description based on <bibl><ref target="#Wrightpart3">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
@@ -509,8 +412,323 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                  <citedRange unit="entry">DCCCLXIX</citedRange>
+                  <citedRange unit="pp">II:1018</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="4" xml:id="Part4">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/801</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 17160 fol. 27</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">889<!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DCCCLXXXIX</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p4a1">
+                <locus from="27">Fol. 27</locus>
+                <author/>
+                <title ref="" type="supplied">Extracts from a commentary, or homilies, on the Gospel of S. Matthew, relating to chapters xvi. 13—17, xvi. 27, and xvii. 5</title>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material/></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="" unit="in"/>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="" unit="in"/>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>A vellum leaf, much stained and mutilated.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2" writtenLines="37 39">
+                    <p>The page is divided into two columns, of from 37 to 39 lines.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p4handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a neat, regular Estrangělā of the <origDate notBefore="0600" notAfter="0700" calendar="Gregorian">viith cent.</origDate></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0600" notAfter="0700" calendar="Gregorian">viith cent.</origDate>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart4">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart4">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCCCLXXXIX</citedRange>
+                  <citedRange unit="pp">II:1025</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="5" xml:id="Part5">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/802</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 17160 fol. 28</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">883</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DCCCLXXXIII</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p5a1">
+                <locus from="28">Fol. 28</locus>
+                <author/>
+                <title ref="" type="supplied">Part of a discourse of on the Female Sinner and the Pharisee (S. Luke, ch. vii. 30—50)</title>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="8.5" unit="in">8 1/2</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="5.25" unit="in">5 1/4</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>The folio is slightly stained and torn.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2" writtenLines="31 33">
+                    <p>Each page is divided into two columns, of from 31 to 33 lines.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p5handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a neat Estrangělā of the <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart5">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart5">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCCCLXXXIII</citedRange>
+                  <citedRange unit="pp">II:1024</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="6" xml:id="Part6">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/803</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 17160 foll. 29-30</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">303</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">CCCIII</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p6a1">
+                <locus from="29a" to="30">Foll. 29a-30</locus>
+                <author/>
+                <colophon><ref target="#p6addition1"/>See additions.</colophon>
+                <msItem n="2" xml:id="p6b1">
+                  <locus from="29a" to="30">Foll. 29a-30</locus>
+                  <author/>
+                  <title ref="" type="supplied">Part of the Order of the Consecration of a bishop, etc.</title>
+                </msItem>
+                <msItem n="3" xml:id="p6b2">
+                  <locus from="30a">Fol. 30a</locus>
+                  <author/>
+                  <title ref="" type="supplied">Forms of benediction</title>
+                </msItem>
+                <msItem n="4" xml:id="p6b3">
+                  <locus from="30a">Fol. 30a</locus>
+                  <author/>
+                  <title ref="" type="supplied">Prayers to be used at the consecration of a bishop</title>
+                  <quote xml:lang="syr"> . . [ܐ]ܩܘܠܘܬܝܐ ܕܨ̈ܠܘܬܐ . . . ܐܦܝܣܩܘܦܐ ܟܠ . . . ܛܟܣܗ ܕܩܕܝܫܐ . . . ـܢܘܣ ܐܦܝܣܩܘܦܐ  . . ܡܢ ܛܟ̈ܣܐ . . . ܥܕ̈ܬܢܝܐ ܡܛܠ . . . ܣـ ܕܐܦܝ̈ܣܩܘܦܐ<locus from="30a"/></quote>
+                </msItem>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="2">2 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="8.125" unit="in">8 1/8</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="5.25" unit="in">5 1/4</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Two vellum leaves slightly soiled and mutilated.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2" writtenLines="26 34">
+                    <p>Each page is divided into two columns, of from 26 to 34 lines.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p6handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing varies from a fine, regular Estrangela to a more cursive character. <ref target="#p6addition1">See additions.</ref></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions>
+                <p/>
+                <list>
+                  <item n="1" xml:id="p6addition1" syriaca-tags="scribal-colophon">
+                    <locus from="30a"/>
+                    <p>The colophon, fol. 30a, which is mutilated, gives the date and the name of the scribe, <persName ref=""><choice><reg>Habīb</reg><reg>Agapêtos</reg></choice></persName>.</p>
+                    <p><quote xml:lang="syr">. . . ܬܒ ܦܢܩܝܬܐ ܕܩܫܝܫܐ ܡܫܡܠܝܬܐ ܚܬܝܬܐܝܬ . . . ܕܐܦܝܣܩܘܦܐ ܟܠܗ: ܫܘܒܚܐ ܠܐܒܐ ܘܠܒܪܐ ܏ܘܫ. [ܐܫܬܠܡـ]ܬ݁ ܦܢܩܝܬܐ ܗܕܐ ܫܢܬ ܐܠܦܐ ܘܡܐܐ [ܕܐܠܟܣܢـ]ܕܪܘܣ: ܒܝܘܡ ܫܒܬܐ: ܒܐܝܪܚ ܚܙܝܪܢ: ܒܬܠܬ ܫ̈ܥܝܢ. [ܟܠ ܕܩ̇ܪܐ] ܒܟܬܒܐ ܗܢܐ̣. ܢܨ̇ܠܐ ܥܠ ܚܒܝܒ ܟܬܘܒܐ ܒܪ . . . [ܘ]ܐܠܝܫܒܥ. ܕܟܬܒܗ ܗ̣ܘ ܒܐܝ̈ܕܘܗܝ ܠܢܦܫܗ: [ܘܠܝܘܬܪܢܐ] ܕܟܠ  ܕܩ̇ܪܐ ܒܗ: ܘܠܥܘܗܕܢܐ ܕܝܠܗ ܘܕܥ̈ܢܝܕܘܗܝ.</quote></p>
+                    <p><quote xml:lang="grc"> ΕΓΩΑΓΑΠΙΤΟⲤΓΡΑΜΑΤΕΥⲤΕΙΓΡΑ[ΨΑ]</quote></p>
+                  </item>
+                </list>
+              </additions>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate when-custom="1100" datingMethod="Seleucid">A. Gr. 1100</origDate>
+                <origDate when="0789" calendar="Gregorian">A.D. 789</origDate>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart6">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart6">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">CCCIII</citedRange>
+                  <citedRange unit="pp">I:235-236</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -611,11 +829,23 @@
           </item>
           <item>
             <ref target="#Part2"/>  
-            <ref target=""/>       
+            <ref target="#theology"/>       
           </item>
           <item>
             <ref target="#Part3"/>  
-            <ref target=""/>       
+            <ref target="#theo-anonymous"/>       
+          </item>
+          <item>
+            <ref target="#Part4"/>  
+            <ref target="#theo-anonymous"/>       
+          </item>
+          <item>
+            <ref target="#Part5"/>  
+            <ref target="#theo-anonymous"/>       
+          </item>
+          <item>
+            <ref target="#Part6"/>  
+            <ref target="#sacerdotals"/>       
           </item>
         </list>
         </keywords>
@@ -626,18 +856,8 @@
       <change when="2014-10-12" who="http://syriaca.org/editors.xml#jnquiroz">Created: <ref target="#Part1">part 1</ref></change>
       <change when="2014-12-18" who="http://syriaca.org/editors.xml#jnquiroz">Edited <ref target="#Part1">part 1</ref></change>
       <change when="2015-03-10" who="http://syriaca.org/editors.xml#jarnwine">Edited <ref target="#Part1">part 1</ref></change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
+      <change when="2015-03-26" who="http://syriaca.org/editors.xml#jarnwine">Created: remaining parts</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
   <facsimile>
