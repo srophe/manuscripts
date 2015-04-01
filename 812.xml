@@ -102,7 +102,7 @@
                         </rubric>
                         <note>Was in 74 (<foreign xml:lang="syr">ܥܕ</foreign>) sections.</note>
                         <listBibl>
-                            <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Compare Add. 14,578, no. 2</idno></msIdentifier></bibl>
+                            <bibl>Compare <msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 2</idno></altIdentifier></msIdentifier></bibl>
                         </listBibl>
                     </msItem>
                         <msItem n="3" xml:id="p1b2" defective="true">
@@ -113,7 +113,7 @@
                             </rubric>
                             <note>This section was left unfinished by the later scribe (notwithstanding the word <foreign xml:lang="syr">ܫܠ̣ܡ</foreign>)</note>
                             <listBibl>
-                                <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 6</idno></msIdentifier></bibl>
+                                <bibl>Compare <msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 6</idno></altIdentifier></msIdentifier></bibl>
                             </listBibl>
                         </msItem>
                     </msItem>
@@ -224,7 +224,7 @@
                             <locus from="15a" to="15a"/>
                         </rubric>
                         <listBibl>
-                            <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 9</idno></msIdentifier></bibl>
+                            <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 9</idno></altIdentifier></msIdentifier></bibl>
                         </listBibl>
                     </msItem>
                         <msItem n="3" xml:id="p2b3">
@@ -234,7 +234,7 @@
                                 <locus from="22b" to="22b"/>
                             </rubric>
                             <listBibl>
-                                <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 43</idno></msIdentifier></bibl>
+                                <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 43</idno></altIdentifier></msIdentifier></bibl>
                             </listBibl>
                         </msItem>
                     <msItem n="4" xml:id="p2b4" defective="true">

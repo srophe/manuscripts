@@ -349,7 +349,7 @@
                 <title ref="" type="supplied">A section from the Commentary of Philoxenus of Mabug on the Gospel of S. Luke</title>
                 <quote xml:lang="syr">ܡܢ ܦܘܫܩܐ ܕܪ̈ܝܫܐ ܕܐܘܢܓܠܝܘܢ ܕܠܘܩܐ. ܕܒܗܘܢ ܡܬܬܩܠܝܢ ܢܣܛܘܪ̈ܝܢܘ. ܕܥܒܝܕ ܠܦܝܠܠܘܟܣܢܘܣ ܐܦܝ܏ܣ ܕܒܡܘܓ. ܠ̇ܚܡ ܕܝܢ ܕܢܬܩܪܐ ܒܥܐܕܐ ܕܐܦܢܛܐܣܝܣ ܐܘ̇ ܟܝܬ ܕܡܥܠܬܐ . <locus from="20a"/></quote>
                 <listBibl>
-                  <bibl>See <msIdentifier><idno ref="http://syriaca.org/manuscript/622">Add. 14,727, fol. 120a</idno></msIdentifier>.</bibl>
+                  <bibl>See <msIdentifier><idno type="URI">http://syriaca.org/manuscript/622</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,727, fol. 120a</idno></altIdentifier></msIdentifier>.</bibl>
                 </listBibl>
               </msItem>
             </msContents>
@@ -552,7 +552,7 @@
                   <title ref="" type="supplied">A discourse of Gregory Thaumaturgus on the Annunciation of the Virgin</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕ܏ܩܕ ܓܪܝܓܘܪܝܘܣ ܥ̇ܒܕ ܬܕܡܪ̈ܬܐ: ܕܥܠ ܣܘܒܪܗ̇ ܕܝ̇ܠܕܬ ܐܠܗܐ<locus from="34b"/></rubric>
                   <listBibl>
-                    <bibl>See <msIdentifier><idno ref="http://syriaca.org/manuscript/614">Add. 14,725, fol. 4b</idno></msIdentifier></bibl>
+                    <bibl>See <msIdentifier><idno type="URI">http://syriaca.org/manuscript/614</idno> <altIdentifier><idno type="BL-Shelfmark">Add. 14,725, fol. 4b</idno></altIdentifier></msIdentifier>.</bibl>
                   </listBibl>
                 </msItem>
                 <msItem n="4" xml:id="p5b3">
@@ -645,7 +645,7 @@
                   </item>
                   <item n="2" xml:id="p5addition2">
                     <locus from="34a"/>
-                    <p>On the lower margin of fol. 34a there is the following note, in the handwriting of <persName ref="">John of <placeName ref="">Beth-Cudida</placeName></persName> (see <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/1079">Add. 17,263, foll. 65a and 148a</idno></msIdentifier></bibl>):</p>
+                    <p>On the lower margin of fol. 34a there is the following note, in the handwriting of <persName ref="">John of <placeName ref="">Beth-Cudida</placeName></persName> (see <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/1079</idno> <altIdentifier><idno type="BL-Shelfmark">Add. 17,263, foll. 65a and 148a</idno></altIdentifier></msIdentifier></bibl>):</p>
                     <p><quote xml:lang="syr">ܡܢܝ ܫܬܥܣܪ ܘܪ̈ܩܐ ܘܡܫܟܚ ܐܢܬ ܡܢ ܬܫܥܝܬܐ ܕܩܕܝܫܐ ܡܪܝ ܒܗܢܡ ܣܗܕܐ ܛ̇ܪܕ <choice><orig>ܫ̈ܝܕܐ</orig><corr>ܫ̈ܐܕܐ</corr></choice></quote></p>
                     <p>This remark does not apply to the manuscript in its present condition.</p>
                   </item>
@@ -710,14 +710,14 @@
                   <locus from="50a" to="53">Foll. 50a-53</locus>
                   <author ref=""/>
                     <title ref="" type="supplied">The martyrdom of <persName ref="">Leontius</persName> and <persName ref=""><choice><reg>Publius</reg><reg>Popillius</reg></choice></persName></title>
-                    <note>See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/70">Add. 12,174, no. 72</idno></msIdentifier></bibl>.</note>
+                    <note>See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/70</idno><altIdentifier><idno type="BL-Shelfmark">Add. 12,174, no. 72</idno></altIdentifier></msIdentifier></bibl>.</note>
                 </msItem>
                 <msItem n="3" xml:id="p6b2" defective="true">
                   <locus from="53b" to="61a">Foll. 53b-61a</locus>
                   <author ref=""/>
                   <title ref="" type="supplied">The history of <persName ref=""><choice><reg>’Abda</reg><reg>'Abdu</reg></choice> ‘I-Masih</persName>, by birth a <orgName ref="">Jew</orgName> named <persName ref="">Asher ben Levi</persName>.</title>
                   <finalRubric xml:lang="syr">ܫܠܡܬ ܬܫܥܝܬܐ ܕܡܪܝ ܥ̣ܒܕܐ ܣܗܕܐ ܢܨܝܚ̣ܐ ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ.<locus from="61a"/></finalRubric>
-                  <note>See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/70">Add. 12,174, no. 54</idno></msIdentifier></bibl>.</note>
+                  <note>See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/70</idno><altIdentifier><idno type="BL-Shelfmark">Add. 12,174, no. 54</idno></altIdentifier></msIdentifier></bibl>.</note>
                 </msItem>
                 <msItem n="4" xml:id="p6b3">
                   <locus from="61a" to="75a">Foll. 61a-75a</locus>
@@ -725,7 +725,7 @@
                   <title ref="" type="supplied">The history of <persName ref="">Behnam</persName></title>
                   <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܕܢܨܝܚ̣ ܫ̈ܘܦܪܐ ܘܣܗܕܐ ܓܒܝܐ ܡܪܝ ܒ܏ܗܢܡ ܛܪܕ ܫܐܕ̈ܐ<locus from="61a"/></rubric>
                   <finalRubric xml:lang="syr">ܫܠܡܬ ܬܫܥܝܬܗ ܕܢܨܝܚ̣ܐ ܡܪܝ ܒܗܢܡ ܐܝܟ ܦܘܩܕܢܟܘܢ ܐܒܘܢ ܏ܩܕ ܒܨ̈ܠܘܬܗ ܕܡܪܝ ܒܗܢܡ ܢܬܚܢܢ ܗ̇ܘ ܕܣ̣ܪܛ ܘܐܢܬ ܬܬܩܝܡ ܐܢܘܢ ܘܟܘܪܣܝܟ ܬܥܫܢ ܐܡܝܢ܀<locus from="75a"/></finalRubric>
-                  <note>See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/70">Add. 12,174, no. 70</idno></msIdentifier></bibl>.</note>
+                  <note>See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/70</idno><altIdentifier><idno type="BL-Shelfmark">Add. 12,174, no. 70</idno></altIdentifier></msIdentifier></bibl>.</note>
                 </msItem>                 
               </msItem>
             </msContents>

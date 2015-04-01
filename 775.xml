@@ -85,7 +85,7 @@
                            <locus from="1a" to="124b">Foll. 1a-124b</locus>
                 <author ref="http://syriaca.org/person/511">Gregory of Nazianen</author>
                 <title ref="" type="supplied">Discourses of Gregory of Nazianen, in a translation different from that of the abbat <persName ref="">Paul</persName></title>
-                <note>Judging by nos. 3, 4, 5, and 17, this manuscript is identical with that contained in <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/1123">Add. 18,815</idno></msIdentifier></bibl>. There is, however, nothing distinctively <orgName ref="">Nestorian</orgName> in the appearance of the volume.</note>
+                <note>Judging by nos. 3, 4, 5, and 17, this manuscript is identical with that contained in <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/1123</idno><altIdentifier><idno type="BL-Shelfmark">Add. 18,815</idno></altIdentifier></msIdentifier></bibl>. There is, however, nothing distinctively <orgName ref="">Nestorian</orgName> in the appearance of the volume.</note>
               <msItem n="2" xml:id="b1" defective="true">
                 <locus from="1a" to="3b">Foll. 1a-3b</locus>
                 <author ref="http://syriaca.org/person/511"/>

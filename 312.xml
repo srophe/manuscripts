@@ -96,7 +96,8 @@
                   <listBibl>
                     <bibl>
                       <msIdentifier>
-                        <idno ref="http://syriaca.org/manuscript/311">Add. 14,575, no. 6</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/311</idno> 
+                        <altIdentifier><idno type="BL-Shelfmark">Add. 14,575, no. 6</idno></altIdentifier>
                       </msIdentifier>
                     </bibl>
                   </listBibl>
@@ -109,7 +110,8 @@
                   <listBibl>
                     <bibl>
                       <msIdentifier>
-                        <idno ref="http://syriaca.org/manuscript/311">Add. 14,575, no. 7</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/311</idno> 
+                        <altIdentifier><idno type="BL-Shelfmark">Add. 14,575, no. 7</idno></altIdentifier>
                       </msIdentifier>
                     </bibl>
                   </listBibl>
@@ -206,7 +208,8 @@
                   <listBibl>
                     <bibl>
                       <msIdentifier>
-                        <idno ref="http://syriaca.org/manuscript/311">Add. 14,575, no. 25</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/311</idno> 
+                        <altIdentifier><idno type="BL-Shelfmark">Add. 14,575, no. 25</idno></altIdentifier>
                       </msIdentifier>
                   </bibl>
                   </listBibl>
@@ -224,7 +227,8 @@
                   <listBibl>
                     <bibl>
                       <msIdentifier>
-                        <idno ref="http://syriaca.org/manuscript/311">Add. 14,575, no. 27</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/311</idno> 
+                        <altIdentifier><idno type="BL-Shelfmark">Add. 14,575, no. 27</idno></altIdentifier>
                       </msIdentifier>
                     </bibl>
                   </listBibl>
@@ -237,7 +241,8 @@
                   <listBibl>
                     <bibl>
                       <msIdentifier>
-                        <idno ref="http://syriaca.org/manuscript/55">Add. 12,170, fol. 133a</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/55</idno> 
+                        <altIdentifier><idno type="BL-Shelfmark">Add. 12,170, fol. 133a</idno></altIdentifier>
                       </msIdentifier>
                     </bibl>
                   </listBibl>

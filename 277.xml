@@ -141,7 +141,7 @@
                     <title ref="" type="supplied">On Virginity and Repentance</title>
                     <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܪܝ ܝܘܗܢܝܣ ܐܦܣܩܘܦܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ ܕܐܡܝܪ ܠܗ ܥܠ ܒܬܘܠܘܬܐ ܘܬܝܒܘܬܐ̣ ܘܡܪܬܝܢܘܬܐ.<locus from="55b"/></rubric>
                     <listBibl>
-                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/40">Add. 12,163, fol. 128b</idno></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/40</idno><altIdentifier><idno type="BL-Shelfmark">Add. 12,163, fol. 128b</idno></altIdentifier></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                 </msItem>

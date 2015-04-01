@@ -102,7 +102,7 @@
                   <rubric xml:lang="syr">ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܫܕܪ ܡܪܝ ܝܘܚܢܢ ܐܝܚܝܕܝܐ ܠܐܘܛܪܦܝܣ ܘܐܘܣܒܝܣ ܐܢܫܐ ܝܚܝ̈ܕܝܐ ܪ̈ܚܡܝ ܝܘܠܦܢܐ ܕܒܥܘ ܡܢܗ ܕܢܟܬܘܒ ܠܗܘܢ ܕܒܐܝܠܝܢ ܡܫܬܘܝܢ ܐܢܚܢܢ ܕܢܗܘܐ ܒܕܘܒܪܐ ܪܘܚܢܐ. 
                     <locus from="1b" to="1b"/>
                   </rubric>
-                  <note>See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/819">Add. 17,169</idno></msIdentifier>, no 2.</bibl></note>
+                  <note>See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/819</idno><altIdentifier><idno type="BL-Shelfmark">Add. 17,169, no 2</idno></altIdentifier></msIdentifier></bibl>.</note>
                 </msItem>
                 <msItem n="3" xml:id="p1b2" defective="true">
                   <locus from="10a" to="16">foll. 10a-16</locus>
@@ -112,7 +112,7 @@
                     <note>Imperfect at the beginning and end</note>
                     <locus from="10a" to="10a"/>
                   </rubric>
-                  <note>See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578</idno></msIdentifier>, no 3.</bibl></note>
+                  <note>See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no 3</idno></altIdentifier></msIdentifier></bibl>.</note>
                 </msItem>
               </msItem>
             </msContents>
