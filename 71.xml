@@ -123,14 +123,7 @@
                     <locus from="35a" to="35a"/>
                   </rubric>
                   <listBibl>
-                    <bibl>
-                      <msIdentifier>
-                      <idno type="URI">http://syriaca.org/manuscript/69</idno>
-                      <altIdentifier>
-                        <idno type="BL-Shelfmark">See Add. 12,173, fol. 180a.</idno>
-                      </altIdentifier>
-                    </msIdentifier>
-                    </bibl>
+                    <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/69">See Add. 12,173, fol. 180a.</idno></msIdentifier></bibl>
                   </listBibl>
                 </msItem>
                 <msItem n="5" xml:id="p1b4">
@@ -142,14 +135,7 @@
                   </rubric>
                   <note>After a short introduction, we read as follows, <locus from="37b">fol. 37 b</locus>: <quote xml:lang="syr">ܗܘ̣ܐ ܐܢܫ ܡܫܢܝܢܐ ܒܩܘܪܝܬ ܡܕܝܢܐ ܕܡܬܩܪܝܐ ܗܘܬ<persName ref=""><choice><orig>ܦܪܦܘܪܐܘܢ</orig><reg resp="http://syriaca.org/editors.xml#wwright">Porphyreon in Phoenicia</reg></choice></persName>. ܕܫܡܗ ܗܘܐ ܝܥܩܘܒ. ܗܢܐ ܟܕ ܦܪܫ ܢܦܫܗ ܡܢ ܣܕܝܩܘܬܗ ܕܥܠܡܐ ܗܢܐ. ܥܡ̣ܪ ܒܡܥܪܬܐ ܚܕܐ ܚܡܫܥܣܪܐ ܫ̈ܢܝܢ. ܗܢܐ ܟܠܗ ܒܡܝܬܪܘܬܐ ܘܒܥܢܘܝܘܬܐ ܐܬܪܒܝ. ܐܝܟܢܐ ܕܡܝܩܪܐ ܘܡܝܬܪܐ ܢܬܚܘܐ ܠܐܠܗܐ. ܘܢܫܬܘܐ ܠܡܘܗܒܬܐ ܕܥܠ ܫܐ̈ܕܐ. ܘܕܐܣ̈ܘܬܐ ܐܚܪ̈ܢܝܬܐ ܣܓ̈ܝܐܬܐ. ܒܫܡܗ ܕܦܪܘܩܢ ܡܫܝܚܐ ܢܫܡܠܐ. ܟܠܢܫ ܗܟܝܠ ܟܕ ܡܬܕܡܪ ܗܘܐ ܒܕܘܒܪܗ ܕܓܒܪܐ ܠܘܬܗ ܪܗܛܝܢ ܗܘܘ. ܕܣܘܓܐܗܘܢ ܡܢ ܕܚܠܬܐ ܕܫܡܪ̈ܝܐ ܪ̈ܫܝܥܐ ܐܝܬܝܗܘܢ ܗܘܘ. ܏ܘܫ.</quote></note>
                   <listBibl>
-                    <bibl>
-                      <msIdentifier>
-                        <idno type="URI">http://syriaca.org/manuscript/69</idno>
-                        <altIdentifier>
-                          <idno type="BL-Shelfmark">See Add. 12,173, fol. 180a.</idno>
-                        </altIdentifier>
-                      </msIdentifier>
-                    </bibl>
+                    <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/69">See Add. 12,173, fol. 180a.</idno></msIdentifier></bibl>
                   </listBibl>
                 </msItem>
               </msItem>
@@ -213,7 +199,7 @@
                   </item>
                   <item n="2" xml:id="p1addition2" syriaca-tags="ownership-inscription">
                     <locus from="2a" to="2a"/>
-                    <p>On fol. 2a there is a note (perhaps applying to the whole volume, <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/71</idno><altIdentifier><idno type="BL-Shelfmark">Add. 12,175</idno></altIdentifier></msIdentifier></bibl>), which states that the manuscript belonged to the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>, having been purchased for it by <persName ref="">Matthew</persName>, <persName ref="">Abraham</persName>, <persName ref="">Theodore</persName>, and <persName ref="">Joseph</persName>, of <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>:</p>
+                    <p>On fol. 2a there is a note (perhaps applying to the whole volume, <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/71">Add. 12,175</idno></msIdentifier></bibl>), which states that the manuscript belonged to the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>, having been purchased for it by <persName ref="">Matthew</persName>, <persName ref="">Abraham</persName>, <persName ref="">Theodore</persName>, and <persName ref="">Joseph</persName>, of <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>:</p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣܩ̈ܛܐ. ܕܩܢܘܗܝ ܡܢ ܡܕܡ ܕܙܢܬ ܐܢܘܢ ܛܝܒܘܬܐ ܕܐܠܗܐ. ܡܬܝ ܘܐܒܪܗܡ ܘܬܐܝܕܪܐ ܘܝܘܣܦ ܬܓܪ̈ܝܬܢܝܐ. ܟܠ ܕܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ ܡܛܠ ܡܪܢ. ܘܟܠܡܢ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ. ܢܬܠ̣ܚܐ ܫܡܗ ܡܢ ܣܦܪܐ ܕܚ̈ܝܐ. ܏ܘܫ..</quote></p>
                   </item>
                   <item n="3" xml:id="p1addition3">
@@ -308,8 +294,7 @@
                       <locus from="62a" to="62a"/>
                     </incipit>
                     <listBibl>
-                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 17</idno></altIdentifier></msIdentifier>
-                       </bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 17</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                   <msItem n="5" xml:id="p2c2">
@@ -331,8 +316,7 @@
                       <locus from="62a" to="62a"/>
                     </incipit>
                     <listBibl>
-                      <bibl>
-                        <msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 9</idno></altIdentifier></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 9</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                   <msItem n="7" xml:id="p2c4">
@@ -343,7 +327,7 @@
                       <locus from="64a" to="64a"/>
                     </incipit>
                     <listBibl>
-                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 29</idno></altIdentifier></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 29</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                   <msItem n="8" xml:id="p2c5">
@@ -354,7 +338,7 @@
                       <locus from="64b" to="64b"/>
                     </incipit>
                     <listBibl>
-                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 30</idno></altIdentifier></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 30</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                   <msItem n="9" xml:id="p2c6">
@@ -373,7 +357,7 @@
                       <locus from="65a" to="65a"/>
                     </incipit>
                     <listBibl>
-                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 22</idno></altIdentifier></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 22</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                   <msItem n="11" xml:id="p2c8" >
@@ -384,7 +368,7 @@
                       <locus from="65b" to="65b"/>
                     </incipit>
                     <listBibl>
-                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 20</idno></altIdentifier></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 20</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                   <msItem n="12" xml:id="p2c9" >
@@ -407,7 +391,7 @@
                     </rubric>
                     <note>62 in number</note>
                     <listBibl>
-                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 44</idno></altIdentifier></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 44</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>
                 </msItem>
@@ -544,7 +528,7 @@
                   <locus from="96b" to="96b"/>
                 </finalRubric>
                 <listBibl>
-                  <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, no. 31</idno></altIdentifier></msIdentifier></bibl>
+                  <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, no. 31</idno></msIdentifier></bibl>
                 </listBibl>
               </msItem>
                 <msItem n="3" xml:id="p3c2">
@@ -568,7 +552,7 @@
                       <rubric xml:lang="syr">ܟܬܒܐ ܐܣܩܝܛܝܩܘܢ ܕܝܠܗ ܕܡܪܝ ܐܘܓܪܝܣ ܛܘܒܢܐ
                           <locus from="101a" to="101a"/>
                       </rubric>
-                    <note>The introduction, <locus from="101a">fol. 101 a</locus>, is identical with that prefixed to the <quote><title xml:lang="la" ref="" type="supplied">Capita practica</title></quote> in <bibl>Gallandii Bibl. Vett. Patrum, t. vii., p. 553</bibl>; but the treatise is that which, in <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,578, (no. 4, fol. 34 b)</idno></altIdentifier></msIdentifier></bibl>, is entitled<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܡܐܡܪܐ ܕܐܘܓܪܝܣ ܕܥܠ ܬܡܢܝܐ ܚ̈ܘܫܒܝܢ</orig><reg resp="http://syriaca.org/editors.xml#wwright">discourse on the eight evil thoughts</reg></choice></title></quote>. Here the title is, <locus from="101b">fol. 101b, 2nd col.</locus>,<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܦܘܢܝ ܦܬܓܡܐ ܡܢ ܟ̈ܬܒܝ ܩܘܕܫܐ. ܠܘܩܒܠ ܕܝ̈ܘܐ ܕܡܢܣܝܢ ܠܢ.</orig><reg resp="http://syriaca.org/editors.xml#wwright">answers from the Holy Scriptures to the demons that tempt us</reg></choice></title></quote>.</note>
+                    <note>The introduction, <locus from="101a">fol. 101 a</locus>, is identical with that prefixed to the <quote><title xml:lang="la" ref="" type="supplied">Capita practica</title></quote> in <bibl>Gallandii Bibl. Vett. Patrum, t. vii., p. 553</bibl>; but the treatise is that which, in <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, (no. 4, fol. 34 b)</idno></msIdentifier></bibl>, is entitled<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܡܐܡܪܐ ܕܐܘܓܪܝܣ ܕܥܠ ܬܡܢܝܐ ܚ̈ܘܫܒܝܢ</orig><reg resp="http://syriaca.org/editors.xml#wwright">discourse on the eight evil thoughts</reg></choice></title></quote>. Here the title is, <locus from="101b">fol. 101b, 2nd col.</locus>,<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܦܘܢܝ ܦܬܓܡܐ ܡܢ ܟ̈ܬܒܝ ܩܘܕܫܐ. ܠܘܩܒܠ ܕܝ̈ܘܐ ܕܡܢܣܝܢ ܠܢ.</orig><reg resp="http://syriaca.org/editors.xml#wwright">answers from the Holy Scriptures to the demons that tempt us</reg></choice></title></quote>.</note>
                   </msItem>
                   <msItem n="5" xml:id="p3c4">
                       <locus from="122b" to="123b">Foll. 122b-123b</locus>
@@ -589,7 +573,7 @@
                       <rubric xml:lang="syr"> ܥܠ ܚܘܫ̈ܒܐ ܕܟܠ ܦܘܪܫܢ
                           <locus from="123b" to="123b"/>
                       </rubric>
-                    <note>It corresponds with the treatise <quote><title ref="" type="supplied" xml:lang="la">de diversis malignis cogitationibus</title></quote> in <bibl>Nili Opera, ed. Suaresius, p. 512</bibl>. <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 14,578, no. 6</idno></altIdentifier></msIdentifier></bibl>.                       
+                    <note>It corresponds with the treatise <quote><title ref="" type="supplied" xml:lang="la">de diversis malignis cogitationibus</title></quote> in <bibl>Nili Opera, ed. Suaresius, p. 512</bibl>. <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 6</idno></msIdentifier></bibl>.                       
                       </note>
                   </msItem>
                   <msItem n="7" xml:id="p3c6">
@@ -599,7 +583,7 @@
                           <locus from="128b" to="128b"/>
                       </rubric>
                       <listBibl>
-                        <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 14,578, no. 7</idno></altIdentifier></msIdentifier></bibl>
+                        <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 7.</idno></msIdentifier></bibl>
                       </listBibl>
                   </msItem>
                   <msItem n="8" xml:id="p3c7">
@@ -609,7 +593,7 @@
                           <locus from="129b" to="129b"/>
                       </rubric>
                       <listBibl>
-                        <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 14,578, no. 8</idno></altIdentifier></msIdentifier></bibl>
+                        <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 8.</idno></msIdentifier></bibl>
                       </listBibl>
                   </msItem>
                   <msItem n="9" xml:id="p3c8">
@@ -619,7 +603,7 @@
                           <locus from="129b" to="129b"/>
                       </rubric>
                       <listBibl>
-                        <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 14,578, no. 34</idno></altIdentifier></msIdentifier></bibl>
+                        <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 34.</idno></msIdentifier></bibl>
                       </listBibl>
                   </msItem>
                   <msItem n="10" xml:id="p3c9">
@@ -629,7 +613,7 @@
                           <locus from="129b" to="129b"/>
                       </rubric>
                       <listBibl>
-                        <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 14,578, no. 35</idno></altIdentifier></msIdentifier></bibl>
+                        <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 35.</idno></msIdentifier></bibl>
                       </listBibl>
                   </msItem>
                   <msItem n="11" xml:id="p3c10">
@@ -638,7 +622,7 @@
                       <rubric xml:lang="syr">ܐܓܪܬܐ ܕܡܪܬܝܢܘܬܐ
                           <locus from="132a" to="132a"/>
                       </rubric>
-                    <note>It corresponds with the <quote><title ref="" type="supplied" xml:lang="la">Rerum monachalium rationes </title></quote> in <bibl>Gallandii Bibl. Vett. Patrum, t.vii.,p. 566</bibl>. <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 14,578, no. 10</idno></altIdentifier></msIdentifier></bibl></note>
+                    <note>It corresponds with the <quote><title ref="" type="supplied" xml:lang="la">Rerum monachalium rationes </title></quote> in <bibl>Gallandii Bibl. Vett. Patrum, t.vii.,p. 566</bibl>. <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 10.</idno></msIdentifier></bibl></note>
                   </msItem>
                   <msItem n="12" xml:id="p3c11">
                       <locus from="134a" to="142">Foll. 134a-142</locus>
@@ -646,7 +630,7 @@
                       <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܪܬܝܢܘܬܐ
                           <locus from="134a" to="134a"/>
                       </rubric>
-                    <note>It is the <quote><title ref="" type="supplied" xml:lang="la">Tractatus ad Eulogium</title></quote> in <bibl>Nili Opera, ed. Suaresius, p. 408</bibl>. <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/314</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 14,578, no. 3</idno></altIdentifier></msIdentifier></bibl></note>
+                    <note>It is the <quote><title ref="" type="supplied" xml:lang="la">Tractatus ad Eulogium</title></quote> in <bibl>Nili Opera, ed. Suaresius, p. 408</bibl>. <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">See Add. 14,578, no. 3.</idno></msIdentifier></bibl></note>
                   </msItem>
                   <msItem n="13" xml:id="p3c12">
                       <locus from="142b" to="145">Foll. 142b-145</locus>
@@ -688,7 +672,7 @@
                       <locus from="155b" to="155b"/>
                     </rubric>
                     <listBibl>
-                      <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/69</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 12,173, no. 1, a.</idno></altIdentifier></msIdentifier></bibl>
+                      <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/69">See Add. 12,173, no. 1, a.</idno></msIdentifier></bibl>
                     </listBibl>
                   </msItem>                
                 <msItem n="19" xml:id="p3c16">
@@ -823,7 +807,7 @@
                     <locus from="200b" to="200b"/>
                   </rubric>
                   <listBibl>
-                    <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/69</idno><altIdentifier><idno type="BL-Shelfmark">See Add. 12,173, no. 1, b.</idno></altIdentifier></msIdentifier></bibl>
+                    <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/69">See Add. 12,173, no. 1, b.</idno></msIdentifier></bibl>
                   </listBibl>
                 </msItem>
                 </msItem>

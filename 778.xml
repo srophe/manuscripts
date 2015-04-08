@@ -148,7 +148,7 @@
                     ܣܟܠܣܛܝܩܐ ܒܘܨܪܐ. ܕܟܬܒܗ̣̇ ܟܕ ܐܝܬܘܗܝ ܒܐܪܕܘܦܝܐ. 
                     <locus from="72b" to="72b"/>
                   </rubric>
-                  <note>See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/336</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,600, fol. 119b</idno></altIdentifier></msIdentifier></bibl>; but this is a different translation</note>
+                  <note>See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/336">Add. 14,600</idno></msIdentifier>, <locus from= "119b" to= "119b">fol. 119b</locus></bibl>; but this is a different translation</note>
                 </msItem>            
                </msItem>
                 <msItem n="8" xml:id="b3">

@@ -94,7 +94,7 @@
                   </rubric>
                   <finalRubric xml:lang="syr">ܫܠܡ ܥܣܪܐ ܡܕܪ̈ܫܝܢ ܕܥܠ ܨܘܡܐ ܕܐܪ̈ܒܥܝܢ.<locus from="7a"/>
                   </finalRubric>
-                  <note>Originally 10 in number, of which only the last two are complete. See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/304</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,571, no. 2</idno></altIdentifier></msIdentifier></bibl>.</note>
+                  <note>Originally 10 in number, of which only the last two are complete. See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/304">Add. 14,571, no. 2</idno></msIdentifier></bibl>.</note>
                 </msItem>
                 <msItem n="3" xml:id="b2" defective="true">
                   <locus from="7a" to="17b">Foll. 7a-17b</locus>                 
@@ -104,7 +104,7 @@
                   </rubric>
                   <finalRubric xml:lang="syr">ܫܠܡ ܥܣܪ̈ܝܢ ܘܚܕ ܡܕܪ̈ܫܝܢ ܕܥܠ ܦܛܝܪ̈ܐ ܕܛܘܒܢܐ ܡܪܝ ܐܦܪܝܡ.<locus from="17b"/>
                   </finalRubric>
-                  <note>Originally 21 in number. The first two are the same as in <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/304</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,571, no. 3</idno></altIdentifier></msIdentifier></bibl>. The hymns between the sixth and the thirteenth are imperfect at the commencement. One of them, which is likewise imperfect, begins, <foreign xml:lang="syr">ܒܝܪܚ ܗܒ̈ܒܐ ܝܒܒܘ ܩ̈ܠܘܗܝ ܕܦܠܓܗ̇ ܕܡܪܝܡ ܠܘܩܒܠ ܥܡܐ</foreign>.</note>
+                  <note>Originally 21 in number. The first two are the same as in <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/304">Add. 14,571, no. 3</idno></msIdentifier></bibl>. The hymns between the sixth and the thirteenth are imperfect at the commencement. One of them, which is likewise imperfect, begins, <foreign xml:lang="syr">ܒܝܪܚ ܗܒ̈ܒܐ ܝܒܒܘ ܩ̈ܠܘܗܝ ܕܦܠܓܗ̇ ܕܡܪܝܡ ܠܘܩܒܠ ܥܡܐ</foreign>.</note>
                   <msItem n="4" xml:id="c1">
                     <author ref="http://syriaca.org/person/13"/>
                     <title ref="" type="supplied">Third madrāshā</title>

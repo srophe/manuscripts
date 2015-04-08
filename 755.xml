@@ -97,7 +97,7 @@
                   <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
                   <title ref="" type="supplied">Commentary on the Gospel of S. Luke</title>
                   <note>Foll. 3-38 belong to the Commentary on the Gospel of S. Luke (from the beginning to ch. iii. 22).</note>
-                  <note>Wright notes that <locus from="11" to="13">foll. 11-13</locus> may belong to the missing portion of <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/261</idno><altIdentifier><idno type="BL-Shelfmark">Add. 14,534</idno></altIdentifier></msIdentifier></bibl>.</note>                  
+                  <note>Wright notes that <locus from="11" to="13">foll. 11-13</locus> may belong to the missing portion of <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/261">Add. 14,534</idno></msIdentifier></bibl>.</note>                  
                 </msItem>
                 <finalRubric xml:lang="syr">ܐܝܬ ܒܟܬܒܐ ܗܢܐ ܦܘܫܩܐ ܕܪ̈ܫܐ ܚܡܫܐ ܕܢܣܝܒܝܢ ܡܢ ܠܘܩܐ ܐܘܢܓܠܣܛܐ..
                     <locus from="38b" to="38b"/>
