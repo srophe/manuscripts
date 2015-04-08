@@ -170,10 +170,7 @@
                   <listBibl>
                     <bibl>
                       <msIdentifier>
-                        <idno type="URI">http://syriaca.org/manuscript/409</idno>
-                    <altIdentifier>
-                      <idno type="BL-Shelfmark">Add. 14,645, no. 3</idno>
-                    </altIdentifier>
+                        <idno ref="http://syriaca.org/manuscript/409">Add. 14,645, no. 3</idno>
                       </msIdentifier>
                     </bibl>
                   </listBibl>

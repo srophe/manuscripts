@@ -121,7 +121,7 @@
                   <locus from="9a" to="11">Foll. 9a-11</locus>
                   <rubric ref="" xml:lang="syr">ܡܛܠ ܐܝܠܝܢ ܕܫ̣ܡܥ ܘܚ̣ܙܐ ܨܝܕ ܣ̈ܒܐ<locus from="9a" to="9a"/></rubric>
                 </msItem>
-              <note>See <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/311 </idno><altIdentifier><idno>Add. 14,575, </idno></altIdentifier></msIdentifier><citedRange>items 1—6</citedRange></bibl>.</note></msItem>
+                <note>See <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/311 ">Add. 14,575, </idno></msIdentifier><citedRange>items 1—6</citedRange></bibl>.</note></msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">

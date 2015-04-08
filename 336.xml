@@ -86,7 +86,7 @@
                 <locus from="1" to="148">Foll. 1-148</locus>
                 <author ref="">Severus of Antioch</author>
                 <title ref="" type="supplied">The sixth book of the select epistles of Severus of Antioch</title>
-                <filiation>The sixth book of the select epistles of Severus of Antioch, in the same translation as <bibl><msIdentifier><idno type="URI">http://syriaca.org/manuscript/80</idno><altIdentifier><idno>Add. 12,181</idno></altIdentifier></msIdentifier></bibl>.</filiation>
+                <filiation>The sixth book of the select epistles of Severus of Antioch, in the same translation as <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/80">Add. 12,181</idno></msIdentifier></bibl>.</filiation>
                 <note>The Index of the eleven <foreign xml:lang="grc">τίτλοι</foreign>, or heads, under which the epistles are arranged, is lost.</note>
                 <msItem n="2" xml:id="b1" defective="true">
                   <locus from="1" to="64b">Foll. 1-64b</locus>
