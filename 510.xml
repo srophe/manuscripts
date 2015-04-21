@@ -908,72 +908,67 @@
           </msPart>
           <msPart n="9" xml:id="Part9">
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/519</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 14670 foll. 30-35</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">642</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">DCXLII</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p9a1" defective="">
+              <msItem n="1" xml:id="p9a1" defective="true">
+                <locus from="30a" to="35">Foll. 30a-35</locus>
+                <author ref="http://syriaca.org/person/42">Jacob of Serug</author>
+                <title ref="" type="supplied">Fragments of a discourse of Jacob of Batnae <quote>on the Nativity of our Lord and on the Star that appeared to the Magi</quote></title>
+                <rubric xml:lang="syr"><fw type="header">ܡܐܡܪܐ ܕܥܠ ܝܠܕܗ ܕܡܪܢ ܘܥܠ ܟܘܟܒܐ ܕܐܬܚܙܝ ܠܡ̈ܓܘܫܐ</fw><locus from="31b"/></rubric>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="6">6 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="9.75" unit="in">9 3/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="6.375" unit="in">6 3/8</measure>
                       </width>
                     </dimensions>
                   </extent>
                   <foliation/>
-                  <collation>
-                    <p/>
-                  </collation>
+                  <collation/>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>All of the leaves are much torn.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="2" writtenLines="33 36">
+                    <p>Each page is divided into two columns, of from 33 to 36 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p9handNote1" scope="" script="" medium="">
-                  <desc></desc>
+              <handDesc hands="1">
+                <handNote xml:id="p9handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>The writing is a fine, regular Estrangělā of the <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate></desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
-              <additions>
-                <p/>
-                <list>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                  <item n="" xml:id=""><locus from="" to=""/><p/><p><quote/></p></item>
-                </list>
-              </additions>
+              <additions/>
               <bindingDesc/>
               <sealDesc/>
               <accMat/>
@@ -981,8 +976,8 @@
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace></origPlace>
+                <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate>
+                <origPlace/>
               </origin>
               <provenance/>
               <acquisition/>
@@ -993,22 +988,295 @@
                   <source>Manuscript description based on <bibl><ref target="#Wrightpart9">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wrightpart9"><!-- In this manuscript part the references and the xml:id reflect that a different cited range of Wright is of concern than in Part 1 -->
+                <bibl xml:id="Wrightpart9">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                  <citedRange unit="entry">DCXLII</citedRange>
+                  <citedRange unit="pp">II:510</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="10" xml:id="Part10">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/520</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14670 foll. 36-37</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">644</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DCXLIV</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p10a1" defective="true">
+                <locus from="36" to="37">Foll. 36-37</locus>
+                <author ref="http://syriaca.org/person/42">Jacob of Serug</author>
+                <title ref="" type="supplied">Fragments of a metrical discourse of Jacob of Batnae</title>
+                <note>These leaves perhaps belonged to <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/320">Add. 14,584</idno></msIdentifier></bibl>.</note>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="2">2 ff.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="" unit="in"/>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="" unit="in"/>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition/>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2">
+                    <p>These leaves are written in double columns.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p10handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>These leaves are written in a small, neat Estrangela of the <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0500" notAfter="0700" calendar="Gregorian">vith or viith cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance>These leaves perhaps belonged to <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/320">Add. 14,584</idno></msIdentifier></bibl>.</provenance>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart10">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart10">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCXLIV</citedRange>
+                  <citedRange unit="pp">II:511</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="11" xml:id="Part11">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/521</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14670 fol. 38</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">DCXLIX</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">649</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p11a1" defective="true">
+                <locus from="38">Fol. 38</locus>
+                <author ref="http://syriaca.org/person/42">Jacob of Serug</author>
+                <title ref="" type="supplied">Part of a discourse of Jacob of Batnae on the Antichrist</title>
+                <rubric xml:lang="syr"><fw type="header">ܕܥܠ ܐܢܛܝܟܪܝܣܛܘܣ</fw><locus from="38b"/></rubric>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material/></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="9.875" unit="in">9 7/8</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="6.375" unit="in">6 3/8</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition/>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2" writtenLines="33 34">
+                    <p>This leaf is written in double columns, of 33 or 34 lines.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p11handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>This leaf is written in a good, regular Estrangela of the <origDate notBefore="0600" notAfter="0700" calendar="Gregorian">viith cent.</origDate></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0600" notAfter="0700" calendar="Gregorian">viith cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart11">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart11">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCXLIX</citedRange>
+                  <citedRange unit="pp">II:512</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+          <msPart n="12" xml:id="Part12">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/522</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14670 fol. 39</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">647</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DCXLVII</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p12a1" defective="true">
+                <locus from="39">Fol. 39</locus>
+                <author ref="http://syriaca.org/person/42">Jacob of Serug</author>
+                <title ref="" type="supplied">Part of a discourse of Jacob of Batnae on the Ascension of our Lord</title>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support><material>Vellum</material></support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
+                    <dimensions type="leaf" unit="in">
+                      <height>
+                        <measure type="height" quantity="" unit="in"/>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="" unit="in"/>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>This leaf is much torn.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc/>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p12handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>This leaf is written in a fine, regular Estrangela of the <origDate notBefore="0600" notAfter="0700" calendar="Gregorian">viith cent.</origDate></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="0600" notAfter="0700" calendar="Gregorian">viith cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart12">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart12">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCXLVII</citedRange>
+                  <citedRange unit="pp">II:512</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -1137,7 +1405,19 @@
           </item>
           <item>
             <ref target="#Part9"/>
-            <ref target=""/>
+            <ref target="theo-single"/>
+          </item>
+          <item>
+            <ref target="#Part10"/>
+            <ref target="theo-single"/>
+          </item>
+          <item>
+            <ref target="#Part11"/>
+            <ref target="theo-single"/>
+          </item>
+          <item>
+            <ref target="#Part12"/>
+            <ref target="theo-single"/>
           </item>
         </list>
         </keywords>
@@ -1146,17 +1426,9 @@
     <revisionDesc>
       <change when="2015-04-16" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
       <change when="2015-04-19" who="http://syriaca.org/editors.xml#jarnwine">Edited: file</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
+      <change when="2015-04-20" who="http://syriaca.org/editors.xml#jarnwine">Completed: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
+      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript. <ref target="#Part10"/></change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
