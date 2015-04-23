@@ -13,11 +13,16 @@
         <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#adoenges">Aaron H. Doenges</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
-          <resp>Created by</resp>
+          <resp>Parts 1 through 3 created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Part 4 created by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#adoenges">Aaron H. Doenges</name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
@@ -395,128 +400,193 @@
               </listBibl>
             </additional>
           </msPart>
-          <msPart n="4" xml:id="Part4"><!-- Note here that Part 2 begins and will likely have all new information from the msItems in Part 1-->
+          <msPart n="4" xml:id="Part4">
             <msIdentifier>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the msPart's Syriaca.org URI number here for this part, number should be  a sequential number assigned in the Wright decoder --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/147</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS <!-- Add MS + the name of manuscript and the folia of part 1 (e.g., Add MS 14444 foll. 25-38) (note: do not use commas and do be consistent about " foll. x-x" folia numbers. Do not put a period at the end.)--></idno>
+                <idno type="BL-Shelfmark">Add MS 14466 foll. 43-59</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Arabic"><!-- Enter the Arabic numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Arabic">820</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                <idno type="Wright-BL-Roman"><!-- Enter the Roman numeral Wright number here for this <msPart>.--></idno>
+                <idno type="Wright-BL-Roman">DCCCXX</idno>
               </altIdentifier>
             </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="p4a1" defective=""><!-- Notice how the msItem's @xml:id reflects that this item is in Part 2. @n has restarted for the new msPart. @xml:id shows the first a-level <msItem> in part 2. -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric><!-- Remember that <rubric>, <incipit>, <quote>, <explicit>, <finalRubric>, <colophon>, <note>, and <listBibl> should be deleted if they are not used -->
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="1" xml:id="p4a1" defective="true">
+                <locus from="43a" to="46">Foll. 43a-46</locus>
+                <title ref="http://syriaca.org/work/210" type="supplied">Extracts from the Apostolic Epistles</title>
+                <msItem n="2" xml:id="p4b1" defective = "unknown">
+                  <title ref="http://syriaca.org/work/88" type="supplied">Titus (ch. iii. 2)</title>
+                </msItem>
+                <msItem n="3" xml:id="p4b2" defective = "unknown">
+                  <title ref="http://syriaca.org/work/90" type="supplied">Hebrews</title>
+                </msItem>
+                <msItem n="4" xml:id="p4b3" defective = "unknown">
+                  <title ref="http://syriaca.org/work/91" type="supplied">James</title>
+                </msItem>
+                <msItem n="5" xml:id="p4b4" defective = "unknown">
+                  <title ref="http://syriaca.org/work/92" type="supplied">1 Peter</title>
+                </msItem>
+                <msItem n="6" xml:id="p4b5" defective = "unknown">
+                  <title ref="http://syriaca.org/work/94" type="supplied">1 John</title>
+                </msItem>
               </msItem>
-              <msItem n="2" xml:id="p4a2" defective=""><!-- Repeat and subordinate additional msItems as necessary -->
-                <locus from="" to=""/>
-                <author ref=""/>
-                <title ref=""/>
-                <rubric xml:lang="syr"><locus from="" to=""/></rubric>
-                <incipit xml:lang="syr"><locus from="" to=""/></incipit>
-                <quote xml:lang="syr"><locus from="" to=""/></quote>
-                <explicit xml:lang="syr"><locus from="" to=""/></explicit>
-                <finalRubric xml:lang="syr"><locus from="" to=""/></finalRubric>
-                <colophon><ref target=""/>See below.</colophon>
-                <note/>
-                <listBibl>
-                  <bibl/>
-                </listBibl>
+              <msItem n="7" xml:id="p4a2">
+                <locus from="46a" to="59b">Foll. 46a-59b</locus>
+                <title ref="" type="supplied">Selections from the writings of several Fathers</title>
+                <rubric xml:lang="syr">ܬܘܒ ܡܪܬܝܢ܏ܘ ܕܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ
+                  <locus from="46a" to="46a"/>
+                </rubric>
+                <finalRubric xml:lang="syr">ܫܠܡ. ܒܥܘܕܪܢ ܡܪܢ ܏ܫܘ ܠܐܒܐ ܘܠܒܪܐ ܏ܘܫ
+                  <locus from="59b" to="59"/>
+                </finalRubric>
+                <msItem n="8" xml:id="p4b6">
+                  <locus from="46a" to="49">Foll. 46a-49</locus>
+                  <author ref="http://syriaca.org/person/483">Evagrius</author>
+                  <title ref="" type="supplied">Extracts from Evagrius</title>
+                  <rubric xml:lang="syr">ܕܐܒܐ ܐܘܓܪܣ<locus from="46a"/></rubric>
+                  <msItem n="9" xml:id="p4c1">
+                    <locus from="46a" to="47">Foll. 46a-47</locus>
+                    <title ref="" type="supplied">The tract entitled in some manuscripts <quote>of the passions</quote></title>
+                    <rubric xml:lang="syr">ܕܥܠ ܚ̈ܫܐ, 
+                      <locus from="46a" to="46a"/>
+                    </rubric>
+                    <incipit xml:lang="syr">ܐܝܠܝܢ ܕܒܕܘ̈ܒܪܐ ܫܦܝܪ̈ܐ ܕܢܐܚܘܢ ܒܥܘܕܪܢܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܨ̇ܒܝ̣ܢ. ܗܠܝܢ ܢܛ̣ܪܘܢ̇ ܏ܘܫ
+                      <locus from="46a" to="46a"/>
+                    </incipit>
+                  </msItem>
+                  <msItem n="10" xml:id="p4c2">
+                    <locus from="47b" to="48">Foll. 47b-48</locus>
+                    <title ref="" type="supplied">On the eight evil thoughts</title>
+                    <incipit xml:lang="syr">ܬܡ̈ܢܝܐ ܓܢ̈ܣܐ ܕܚܘ̈ܫܒܐ ܐܝܬܝܗܘܢ̇. ܕܒܗܘܢ ܡܬܚܫܒ ܟܠ ܚܘܫܒܐ ܕܚ̈ܫܐ. ܏ܘܫ
+                      <locus from="47b" to="47b"/>
+                    </incipit>
+                  </msItem>
+                  <msItem n="11" xml:id="p4c3">
+                    <locus from="48b" to="49">Foll. 48b-49</locus>
+                    <title ref="" type="supplied">Other short extracts, including several from the tract commencing: <quote xml:lang="syr">ܐܝܟ ܦܪܚܬܐ ܕܒ̇ܙܥܐ ܐܐܪ</quote></title>
+                  </msItem>
+                </msItem>
+                <msItem n="12" xml:id="p4b7">
+                  <locus from="49b" to="55">Foll. 49b-55</locus>
+                  <author ref="http://syriaca.org/person/548">Isaiah of Scete</author>
+                  <title ref="" type="supplied">Extracts from Isaiah of Scete</title>
+                  <rubric xml:lang="syr">ܕܩܕܝܫܐ ܐܒܐ ܐܫܥܝܐ<locus from="49b"/></rubric>
+                  <msItem n="13" xml:id="p4c4">
+                    <locus from="49b" to="50">Foll. 49b-50</locus>
+                    <title ref="" type="supplied">Extracts from a discourse</title>
+                    <incipit xml:lang="syr">ܠܘܩܕܡ ܠܡܗܝܡܢܘ ܙܕܩ ܡܫܪܪܐܝܬ ܒܡܪܝܐ
+                      <locus from="49b" to="49b"/>
+                    </incipit>
+                  </msItem>
+                  <msItem n="14" xml:id="p4c5">
+                    <locus from="50b" to="51">Foll. 50b-51</locus>
+                    <title ref="" type="supplied">The short passage on humility</title>
+                    <incipit xml:lang="syr">ܠܘܩܕܡ ܠܡܗܝܡܢܘ ܙܕܩ ܡܫܪܪܐܝܬ ܒܡܪܝܐ
+                      <locus from="50b" to="50b"/>
+                    </incipit>
+                  </msItem>
+                  <msItem n="15" xml:id="p4c6">
+                    <locus from="51a" to="52">Foll. 51a-52</locus>
+                    <rubric xml:lang="syr">ܦܘܩ̈ܕܢܐ ܠܗ̇ܢܘܢ ܕܡܬܪܚܩܝܢ ܡܢ ܥܠܡܐ. 
+                      <locus from="51a" to="51a"/>
+                    </rubric>                    
+                  </msItem>
+                  <msItem n="16" xml:id="p4c7">
+                    <locus from="52b" to="55">Foll. 52b-55</locus>
+                    <title ref="" type="supplied">Other short extracts</title>
+                  </msItem>
+                </msItem>
+                <msItem n="17" xml:id="p4b8">
+                  <locus from="55a" to="58">Foll. 55a-58</locus>
+                  <author ref="http://syriaca.org/person/619">Marcus the monk</author>
+                  <title ref="" type="supplied">Extracts from Marcus the Monk</title>
+                  <rubric xml:lang="syr">ܕܡܪܩܘܣ ܝܚܝܕܝܐ<locus from="55a"/></rubric>
+                  <msItem n="18" xml:id="p4c8">
+                    <locus from="55a" to="57">Foll. 55a-57</locus>
+                    <title ref="" type="supplied">Extracts from the first discourse on the spiritual law</title>
+                    <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܏ܩܕ
+                      <locus from="55a" to="55a"/>
+                    </rubric>
+                  </msItem>
+                  <msItem n="19" xml:id="p4c9">
+                    <locus from="57b" to="58">Foll. 57b-58</locus>
+                    <title ref="" type="supplied">Extracts from the second discourse</title>
+                    <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܏ܕܒ
+                      <locus from="57b" to="57b"/>
+                    </rubric>
+                  </msItem>
+                </msItem>
+                <msItem n="20" xml:id="p4b9">
+                  <locus from="58b" to="59b">Foll. 58b-59b</locus>
+                  <author ref="http://syriaca.org/person/668">Palladius</author>
+                  <title ref="" type="supplied">Extracts from Palladius' Lives of the Egyptian Fathers</title>
+                  <rubric xml:lang="syr">ܕܐܒ̈ܘܬܐ ܡܨܪ̈ܝܐ
+                    <locus from="58b" to="58b"/>
+                  </rubric>
+                </msItem>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="">
-                <supportDesc material="">
-                  <support><material/></support>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity=""/>
-                    <dimensions type="" unit="in">
+                    <measure type="composition" unit="leaf" quantity="17">17 ff.</measure>
+                    <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="" unit="in"/>
+                        <measure type="height" quantity="7.125" unit="in">7 1/8</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="" unit="in"/>
+                        <measure type="width" quantity="5" unit="in">5</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient">
-                    <locus/>
-                    <p/>
-                  </foliation>
+                  <foliation/>
                   <collation>
-                    <p/>
+                    <p>The quires are signed with letters (<foreign xml:lang="syr">ܟܒ</foreign> and <foreign xml:lang="syr">ܟܓ</foreign>).</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p/>
+                        <p>Some of the leaves are much stained and torn.</p>
+                      </item>
+                      <item>
+                        <p>Leaves are wanting at the <locus from="43">beginning</locus> and after foll. <locus from="43">43</locus> and <locus from="44">44</locus>.</p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="" writtenLines="">
-                    <locus from="" to=""/>
-                    <p/>
+                  <layout columns="1" writtenLines="19 23">
+                    <p>Each page has from 19 to 23 lines.</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="">
-                <handNote xml:id="p4handNote1" scope="" script="" medium="">
-                  <desc></desc>
+              <handDesc hands="1">
+                <handNote xml:id="p4handNote1" scope="sole" script="syr" medium="unknown">
+                  <desc>This manuscript is written in a tolerably regular hand of the <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate></desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="p4decoNote1" type="" medium="">
-                  <desc></desc>
-                </decoNote>
-              </decoDesc>
-              <additions>
-                <p/>
-                <list>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                  <item n="" xml:id=""><locus from="" to=""/><ref target=""/><quote/></item>
-                </list>
-              </additions>
-              <bindingDesc>
-                <binding xml:id="p4binding1" contemporary=""/>
-                <decoNote xml:id="p4bindingdeco1"/>
-                <condition/>
-              </bindingDesc>
-              <sealDesc>
-                <seal xml:id="p4seal1" contemporary="">
-                  <p/>
-                </seal>
-              </sealDesc>
-              <accMat>
-                <p/>
-              </accMat>
+              <decoDesc/>
+              <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
             </physDesc>
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="" notAfter=""/>
-                <origPlace></origPlace>
+                <origDate notBefore="0900" notAfter="1000">xth or xith cent.</origDate>
+                <origPlace/>
               </origin>
               <provenance/>
               <acquisition/>
@@ -527,11 +597,7 @@
                   <source>Manuscript description based on <bibl><ref target="#Wrightpart4">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent>
-                </custodialHist>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
@@ -541,8 +607,8 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry"><!-- Include Wright's entry number for this manuscript part here (e.g., X) --></citedRange>
-                  <citedRange unit="pp"><!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:8) --></citedRange>
+                  <citedRange unit="entry">DCCCXX</citedRange>
+                  <citedRange unit="pp">II:836-837</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -651,16 +717,18 @@
           </item>
           <item>
             <ref target="#Part4"/>
-            <ref target="#"/>       
+            <ref target="#bible-nt #theo-collected"/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file</change>
+      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file <ref target="#Part1 #Part2 #Part3">Parts 1 through 3</ref></change>
       <change when="2013-12-12" who="http://syriaca.org/editors.xml#thannah">Initial edit: Cleaned up loci and additions in first three msParts.</change>
-      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted mislabeled colophon on the basis that addition1 is to uncertain to be classified.</change>
+      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted mislabeled colophon on the basis that addition1 is too uncertain to be classified.</change>
+      <change when="2015-03-29" who="http://syriaca.org/editors.xml#adoenges">Created: file <ref target="#Part4">Part 4</ref></change>
+      <change when="2014-04-23" who="http://syriaca.org/editors.xml#jarnwine">Edited: file <ref target="#Part4">Part 4</ref> and incorporated into main file for Box transfer to GitHub</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
