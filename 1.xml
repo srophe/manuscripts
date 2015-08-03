@@ -61,7 +61,7 @@
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <collection>Oriental Manuscripts</collection>
-                        <idno type="URI">http://syriaca.org/manuscript/1/source</idno>
+                        <idno type="URI">http://syriaca.org/manuscript/1</idno>
                         <altIdentifier>
                             <idno type="BL-Shelfmark">Add MS 12133</idno>
                         </altIdentifier>
