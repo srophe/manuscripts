@@ -9,39 +9,39 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -244,18 +244,18 @@
                 <msItem n="18" xml:id="b15">
                   <locus from="60a" to="65">Foll. 60a-65</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">De suis sermonibus, et ad Julianum tributorum exaequatorem <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright" xml:lang="grc">ἐξισωτής</supplied></title>
+                  <title ref="" type="supplied" xml:lang="la">De suis sermonibus, et ad Julianum tributorum exaequatorem <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright" xml:lang="grc">ἐξισωτής</supplied></title>
                   <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܥܠ ܡ̈ܠܐ ܘܥܠ ܝܘܠܝܢܐ ܐܟܣܝܣܘܛܝܣ. ܕܒܪ ܐܣ̈ܟܠܘܗܝ ܗܘܐ. ܡܐܡܪܐ ܕܬܠܬܥܣܪ̈<locus from="60a"/></rubric>
                   <listBibl>
                     <bibl>Opp., t. i., p. 364</bibl>
                     <bibl>Migne, t. xxxv., col. 1044</bibl>
                   </listBibl>
-                  <note>At the beginning of the discourse, we read the following note:<foreign xml:lang="syr">ܦܪܐܓܪܦܐ <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright" xml:lang="grc">παραγραφή</supplied> ܕܦܛܪܝܪܟܐ ܡܫܝܢܢܐ ܕܬܠܬܐ ܥܠ ܐܡܦܝܠܟܝܣ <sic>ܐܦܝܦܩܘܦܐ</sic>. ܡܦܠܓ ܫܘܝܐܝܬ</foreign>, which refers to <ref target="#b14">no. 13</ref>.</note>
+                  <note>At the beginning of the discourse, we read the following note:<foreign xml:lang="syr">ܦܪܐܓܪܦܐ <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright" xml:lang="grc">παραγραφή</supplied> ܕܦܛܪܝܪܟܐ ܡܫܝܢܢܐ ܕܬܠܬܐ ܥܠ ܐܡܦܝܠܟܝܣ <sic>ܐܦܝܦܩܘܦܐ</sic>. ܡܦܠܓ ܫܘܝܐܝܬ</foreign>, which refers to <ref target="#b14">no. 13</ref>.</note>
                 </msItem>
                 <msItem n="19" xml:id="b16">
                   <locus from="65b" to="70">Foll. 65b-70</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">Ad cives <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright" xml:lang="grc">πολιτευόμενοι</supplied> Nazianzenos, gravi timore perculsos, et praefectum irascentem</title>
+                  <title ref="" type="supplied" xml:lang="la">Ad cives <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright" xml:lang="grc">πολιτευόμενοι</supplied> Nazianzenos, gravi timore perculsos, et praefectum irascentem</title>
                   <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܥܠ ܦܘ̈ܠܝܛܐ ܐܘ̈ܡܢܘ ܕܐܢܙܝܢܙܘ ܕܐܝ̈ܬܝܗܘܢ ܗܘܘ ܒܩܢܛܐ̣. ܘܥܠ ܪܝܫܢܐ ܕܪܓܝܙ ܗܘܐ ܡܐܡܪܐ ܕܐܪ̈ܒܬܥܣܪ̈<locus from="65b"/></rubric>
                   <listBibl>
                     <bibl>Opp., t, i., p. 317</bibl>
@@ -305,7 +305,7 @@
                 <msItem n="24" xml:id="b21">
                   <locus from="107b" to="110">Foll. 107b-110</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">In sancta Lumina <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">τὰ φῶτα</supplied></title>
+                  <title ref="" type="supplied" xml:lang="la">In sancta Lumina <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">τὰ φῶτα</supplied></title>
                   <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܓܪܝܓܘܪܝܘܣ̣ ܕܥܠ ܢܘܗܪ̈ܐ ܡܐܡܪܐ ܕܬܫܬܥܣܪ<locus from="107b"/></rubric>
                   <listBibl>
                     <bibl>Opp., t. i., p. 677</bibl>
@@ -412,7 +412,7 @@
                   <locus from="181a" to="188">Foll. 181a-188</locus>
                   <author ref="http://syriaca.org/person/511"/>
                   <title ref="" type="supplied" xml:lang="la">In laudem Heronis philosophi</title>
-                  <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܥܠ ܗܪܘܢ ܦܝܠܘܣܘܦܐ ܐܠܟܣܢܕܪܝܐ܇ ܕܦ̣ܢܐ ܡܢ ܐܟܣܘܪܝܐ <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ἐξορία</supplied>: ܡܐܡܪܐ ܕܥܣܪ̈ܝܢ ܘܬܡ̈ܢܝܐ<locus from="181a"/></rubric>
+                  <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܥܠ ܗܪܘܢ ܦܝܠܘܣܘܦܐ ܐܠܟܣܢܕܪܝܐ܇ ܕܦ̣ܢܐ ܡܢ ܐܟܣܘܪܝܐ <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">ἐξορία</supplied>: ܡܐܡܪܐ ܕܥܣܪ̈ܝܢ ܘܬܡ̈ܢܝܐ<locus from="181a"/></rubric>
                   <listBibl>
                     <bibl>Opp., t. i., p. 454</bibl>
                     <bibl>Migne, t. xxxv., col. 1198</bibl>
@@ -660,9 +660,9 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-03-13" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
-      <change when="2014-04-10" who="http://syriaca.org/editors.xml#jarnwine">Wrapped Caesaria in persName</change>
-      <change when="2014-05-06" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
+      <change when="2014-03-13" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-04-10" who="http://syriaca.org/documentation/editors.xml#jarnwine">Wrapped Caesaria in persName</change>
+      <change when="2014-05-06" who="http://syriaca.org/documentation/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="arabic"><ref target="#addition1">Add missing Arabic text.</ref></change>
       <change type="planned" subtype="arithmetical"><ref target="collation">Enter arithmetical figures.</ref></change>
       <change type="planned" subtype="coptic"><ref target="collation">Add in missing Coptic characters.</ref></change>

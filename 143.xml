@@ -9,44 +9,44 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#adoenges">Aaron H. Doenges</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#adoenges">Aaron H. Doenges</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Parts 1 through 3 created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</name>
         </respStmt>
         <respStmt>
           <resp>Part 4 created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#adoenges">Aaron H. Doenges</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#adoenges">Aaron H. Doenges</name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -724,11 +724,11 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2013-08-05" who="http://syriaca.org/editors.xml#dgreeson">Created: file <ref target="#Part1 #Part2 #Part3">Parts 1 through 3</ref></change>
-      <change when="2013-12-12" who="http://syriaca.org/editors.xml#thannah">Initial edit: Cleaned up loci and additions in first three msParts.</change>
-      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Deleted mislabeled colophon on the basis that addition1 is too uncertain to be classified.</change>
-      <change when="2015-03-29" who="http://syriaca.org/editors.xml#adoenges">Created: file <ref target="#Part4">Part 4</ref></change>
-      <change when="2014-04-23" who="http://syriaca.org/editors.xml#jarnwine">Edited: file <ref target="#Part4">Part 4</ref> and incorporated into main file for Box transfer to GitHub</change>
+      <change when="2013-08-05" who="http://syriaca.org/documentation/editors.xml#dgreeson">Created: file <ref target="#Part1 #Part2 #Part3">Parts 1 through 3</ref></change>
+      <change when="2013-12-12" who="http://syriaca.org/documentation/editors.xml#thannah">Initial edit: Cleaned up loci and additions in first three msParts.</change>
+      <change when="2014-04-07" who="http://syriaca.org/documentation/editors.xml#jarnwine">Deleted mislabeled colophon on the basis that addition1 is too uncertain to be classified.</change>
+      <change when="2015-03-29" who="http://syriaca.org/documentation/editors.xml#adoenges">Created: file <ref target="#Part4">Part 4</ref></change>
+      <change when="2014-04-23" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edited: file <ref target="#Part4">Part 4</ref> and incorporated into main file for Box transfer to GitHub</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

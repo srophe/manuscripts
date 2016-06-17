@@ -9,50 +9,50 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#kkotewall">Kayla Kotewall</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jnquiroz">Julia Nations-Quiroz</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#kkotewall">Kayla Kotewall</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jnquiroz">Julia Nations-Quiroz</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#kkotewall">Kayla Kotewall</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#kkotewall">Kayla Kotewall</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jnquiroz">Julia Nations-Quiroz</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jnquiroz">Julia Nations-Quiroz</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -394,7 +394,7 @@
                 <msItem n="32" xml:id="p1b3">
                   <locus from="134b" to="135a">Fol. 134b-135a</locus>
                   <author ref="http://syriaca.org/person/668">Palladius</author>
-                  <title ref="" type="supplied">Sayings of <persName ref=""><choice><reg resp="http://syriaca.org/editors.xml#wwright">Abbā Bessarion</reg><orig xml:lang="syr"> ܣܒܐ ܒܣܝܪܝܘܢ</orig></choice></persName> and other ascetics, extracted from the work of Palladius</title>
+                  <title ref="" type="supplied">Sayings of <persName ref=""><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Abbā Bessarion</reg><orig xml:lang="syr"> ܣܒܐ ܒܣܝܪܝܘܢ</orig></choice></persName> and other ascetics, extracted from the work of Palladius</title>
                   <finalRubric xml:lang="syr">ܩܪܝ ܐܘ ܐܚܘܢ ܕܥ̇ܒܕ. ܘܠܐ ܬܗܘܐ ܐܝܟ ܗ̇ܘ ܕܚ̣ܙܐ ܢܦܫܗ ܒܡܚܙܝܬܐ ܘܥܒ̣ܪ. ܀ ܢܬ݂ܚܢܢ ܗ̇ܘ ܕܟܬ݂ܒ ܀.<locus from="135a"/></finalRubric>
                 </msItem>
               </msItem>              
@@ -1340,10 +1340,10 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2015-01-27" who="http://syriaca.org/editors.xml#jarnwine">Created: file <ref target="#Part1">part 1</ref></change>
-      <change when="2014-02-28" who="http://syriaca.org/editors.xml#kkotewall">Created: file <ref target="#Part2">part 2</ref></change>
-      <change when="2015-01-27" who="http://syriaca.org/editors.xml#jnquiroz">Created: file <ref target="#Part3">part 3</ref></change>
-      <change when="2015-03-11" who="http://syriaca.org/editors.xml#jarnwine">Minor edits to <ref target="#Part2">part 2</ref></change>
+      <change when="2015-01-27" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file <ref target="#Part1">part 1</ref></change>
+      <change when="2014-02-28" who="http://syriaca.org/documentation/editors.xml#kkotewall">Created: file <ref target="#Part2">part 2</ref></change>
+      <change when="2015-01-27" who="http://syriaca.org/documentation/editors.xml#jnquiroz">Created: file <ref target="#Part3">part 3</ref></change>
+      <change when="2015-03-11" who="http://syriaca.org/documentation/editors.xml#jarnwine">Minor edits to <ref target="#Part2">part 2</ref></change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>

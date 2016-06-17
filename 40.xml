@@ -9,44 +9,44 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#kkotewall">Kayla Kotewall</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#kkotewall">Kayla Kotewall</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#kkotewall">Kayla Kotewall</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#kkotewall">Kayla Kotewall</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -345,7 +345,7 @@
                 </msItem>
                 <msItem n="3" xml:id="p2Ab2">
                   <locus from="151b" to="224b">Foll. 151b-224b</locus>
-                  <author ref="http://syriaca.org/person/619"><choice><reg resp="http://syriaca.org/editors.xml#wwright">Marcus the Monk</reg><orig xml:lang="syr">ܡܪܩܘܣ ܐܝܚܝܕܝܐ</orig></choice></author>
+                  <author ref="http://syriaca.org/person/619"><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Marcus the Monk</reg><orig xml:lang="syr">ܡܪܩܘܣ ܐܝܚܝܕܝܐ</orig></choice></author>
                   <msItem n="" xml:id="p2Ac1">
                     <locus from="151b" to="163">Foll. 151b-163</locus>
                     <author ref="http://syriaca.org/person/619"/>
@@ -555,7 +555,7 @@
                   <msItem n="9" xml:id="p2Bc4">
                     <locus from="240b" to="241">Foll. 240b-241</locus>
                     <author ref=""/>
-                    <rubric xml:lang="syr"><choice><orig>ܩܛܣܛܣܝܣ</orig><reg xml:lang="grc" resp="http://syriaca.org/editors.xml#wwright">κατάστασις</reg></choice> ܕܠܘܬ ܐܚ̈ܐ<locus from="240b"/></rubric>
+                    <rubric xml:lang="syr"><choice><orig>ܩܛܣܛܣܝܣ</orig><reg xml:lang="grc" resp="http://syriaca.org/documentation/editors.xml#wwright">κατάστασις</reg></choice> ܕܠܘܬ ܐܚ̈ܐ<locus from="240b"/></rubric>
                     <incipit xml:lang="syr">ܓܘܢܐܝܬ ܩܢ̣ܝܢ ܠܗ̇ ܕܝܪ̈ܝܐ ܠܗܕܐ: ܕܢܗܘܘܢ ܡܝܩܪܝܢ ܠܐܣܟܝܡܐ ܕܛܥܝܢܝܢ. ܏ܘܫ.<locus from="240b"/></incipit>
                   </msItem>
                   <msItem n="10" xml:id="p2Bc5">
@@ -1052,9 +1052,9 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2015-01-18" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
-      <change when="2015-01-21" who="http://syriaca.org/editors.xml#kkotewall">Created: file</change>
-      <change when="2015-02-10" who="http://syriaca.org/editors.xml#jarnwine">Finished: file</change>
+      <change when="2015-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
+      <change when="2015-01-21" who="http://syriaca.org/documentation/editors.xml#kkotewall">Created: file</change>
+      <change when="2015-02-10" who="http://syriaca.org/documentation/editors.xml#jarnwine">Finished: file</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

@@ -10,27 +10,27 @@
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A.
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A.
           Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jclemons">J.T. Clemons</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A.
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jclemons">J.T. Clemons</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A.
           Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#emjohnson">Erin Minta
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#emjohnson">Erin Minta
           Johnson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin Arnwine</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#adrury">Alex Drury</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#adrury">Alex Drury</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"
             ><!-- Creator's first initial and surname follow "#" (e.g., "...#dmichelson") --><!-- Creator's full name here as it should appear in publication --></name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jclemons">J.T. Clemons</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jclemons">J.T. Clemons</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"
             ><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
       </titleStmt>
@@ -343,7 +343,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="" who="http://syriaca.org/editors.xml#?">Created: file</change>
+      <change when="" who="http://syriaca.org/documentation/editors.xml#?">Created: file</change>
       <!-- @when takes entries in the form "YYYY-MM-DD" -->
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>

@@ -9,55 +9,55 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker Hannah</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jnquiroz">Julia Nations-Quiroz</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jnquiroz">Julia Nations-Quiroz</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#kkotewall">Kayla Kotewall</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#kkotewall">Kayla Kotewall</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -713,10 +713,10 @@
                   <title ref="" type="supplied">Martyrdom of <persName ref="">Christopher</persName> and others, in <date when="0251" calendar="Gregorian">the third year of the reign of <persName ref="">Decius</persName></date></title><!-- Is this an accurate assumption for the third year of the reign of Decius? -->
                   <rubric xml:lang="syr">ܬܫܥܝܬܐ ܐܘܟܝܬ ܣܗܕܘܬܐ ܏ܕܩܕ ܡܪܝ ܟܪܝܣܛܘܦܘܪܘܣ ܒܪܒܪܝܐ. ܘܕܣܗ̈ܕܐ ܩ̈ܕܝܫܐ ܕܥܡܗ.<locus from="306a"/></rubric>
                   <note>
-                    <p>His name was originally <persName ref=""><choice><orig xml:lang="syr">ܕܦܪܒܘܣ</orig><corr xml:lang="syr" resp="http://syriaca.org/editors.xml#wwright">ܪܦܪܒܘܣ</corr></choice></persName>, and he was of barbarian origin, fol. <locus from="306a">306a</locus>:</p>
-                    <p><quote xml:lang="syr">ܒܩܪ̈ܒܐ ܕܝܢ ܕܒܗ̇ܘ ܙ̇ܒ̣ܢܐ ܩܘܡܘܣ ܚܕ ܐܝܬ ܗܘܐ̣. ܕܗ̣ܘ ܗܢܐ ܠܕܦܪܒܘܣ ܛܘܒܢܐ ܐܚ̣ܝܕ ܗܘܐ. ܘܐܦܠ̣ܚܗ ܒܥܘܡܪܢ ܕܡܬܐ̣ܡܪ ܕܡܪܡܪܢܛܐ. ܓܒܪܐ ܗܢܐ̣ ܛ̇ܒ ܚ̇ܟ̣ܝܡ ܗܘܐ. ܫܪܒܬܗ ܕܝܢ ܐܝܬܝܗ̇ ܗܘܬ݂. ܕܒܪܒܪ̈ܝܐ ܐ̈ܟܠܝ ܒܢ̈ܝܢܫܐ. ܘܚܙܬܐ ܡܫܟܪܬܐ ܐܝܬ ܗܘܐ ܠܗ܆ ܒܗ̇ܝ ܕܪܝܫܗ ܕܟܠܒܐ ܗܘܐ. ܡܬܐ̣ܡܪ ܕܝܢ ܝܘܢܐܝܬ݂ <choice><orig xml:lang="syr">ܩܘܢܐܩܠܦܘܣ</orig><corr xml:lang="syr" resp="http://syriaca.org/editors.xml#wwright">ܩܘܢܐܩܦܠܘܣ</corr></choice> </quote></p>
+                    <p>His name was originally <persName ref=""><choice><orig xml:lang="syr">ܕܦܪܒܘܣ</orig><corr xml:lang="syr" resp="http://syriaca.org/documentation/editors.xml#wwright">ܪܦܪܒܘܣ</corr></choice></persName>, and he was of barbarian origin, fol. <locus from="306a">306a</locus>:</p>
+                    <p><quote xml:lang="syr">ܒܩܪ̈ܒܐ ܕܝܢ ܕܒܗ̇ܘ ܙ̇ܒ̣ܢܐ ܩܘܡܘܣ ܚܕ ܐܝܬ ܗܘܐ̣. ܕܗ̣ܘ ܗܢܐ ܠܕܦܪܒܘܣ ܛܘܒܢܐ ܐܚ̣ܝܕ ܗܘܐ. ܘܐܦܠ̣ܚܗ ܒܥܘܡܪܢ ܕܡܬܐ̣ܡܪ ܕܡܪܡܪܢܛܐ. ܓܒܪܐ ܗܢܐ̣ ܛ̇ܒ ܚ̇ܟ̣ܝܡ ܗܘܐ. ܫܪܒܬܗ ܕܝܢ ܐܝܬܝܗ̇ ܗܘܬ݂. ܕܒܪܒܪ̈ܝܐ ܐ̈ܟܠܝ ܒܢ̈ܝܢܫܐ. ܘܚܙܬܐ ܡܫܟܪܬܐ ܐܝܬ ܗܘܐ ܠܗ܆ ܒܗ̇ܝ ܕܪܝܫܗ ܕܟܠܒܐ ܗܘܐ. ܡܬܐ̣ܡܪ ܕܝܢ ܝܘܢܐܝܬ݂ <choice><orig xml:lang="syr">ܩܘܢܐܩܠܦܘܣ</orig><corr xml:lang="syr" resp="http://syriaca.org/documentation/editors.xml#wwright">ܩܘܢܐܩܦܠܘܣ</corr></choice> </quote></p>
                     <p>He took the name of <persName ref="">Christopher</persName>, i.e. <foreign xml:lang="syr">ܠܒ̣ܝܫ ܠܡܫܝܚܐ</foreign>, at the time of his baptism, fol. <locus from="307b">307b</locus>. The total number of those who suffered with him is thus stated, fol. <locus from="311a">311a</locus>:</p>
-                    <p><quote xml:lang="syr">ܐܣܗ̣ܕܘ ܕܝܢ ܒܥ̣ܠܬܗ ܕܩ܏ܕ ܟܪܝܣܛܘܦܘܪܘܣ ܢ̈ܫ̣ܐ ܬܪ̈ܬܝܢ. ܕܐܝܬܝܗܘܢ ܫܡ̈ܗܝܗܝܢ ܐܡ̣ܢܝܐ̣ ܘܐܡܢܝܕܐ. ܘܪ̈ܘܡܝܐ ܒܡ̣ܢܝܢܐ̣ ܡ̈ܐܬܝܢ ܘ̈ܬܠܬܐ̣. ܥܡ ܐܪ̈ܒܥ ܪ̈ܒܘ̣ܢ. ܟܠܗܘܢ ܕܝܢ ܗ̇ܘܝܢ ܒܡ̣ܢܝܢܐ̣. ܪ̈ܒ̣ܘܬܐ ܐܪ̈ܒܥ ܘܡ̈ܐܬܝܢ ܘܬܠܬܐ̣. ܥܡ <choice><orig xml:lang="syr">ܐܣܦܘܩܠܛܪܐ</orig><reg xml:lang="grc" resp="http://syriaca.org/editors.xml#wwright">σπεκουλάτωρ</reg></choice> ܚܕ ܗܠܝܢ ܕܝܢ ܐܣ̣ܗܕܘ̣ ܒܝܪܚ ܢܝܣܢ܇ ܒܬܫܥ̈ܐ ܒܗ̣ ܒܝܘܡ ܚܕܒܫܒܐ. ܗ̣ܘ ܕܝܢ ܩܕܝܫܐ ܠܒܝ̣ܫ ܠܡܫܝܚܐ ܥܡ ܐܣܦܘܩܠܛܪܐ ܗ̇ܘܼ. ܐܫܬ̇ܡܠܝܘ ܒܝܪܚ ܢܝܣܢ܇ ܒܥܣܪ̈ܝܢ ܘܫܒ̈ܥܐ ܒܗ. </quote></p>
+                    <p><quote xml:lang="syr">ܐܣܗ̣ܕܘ ܕܝܢ ܒܥ̣ܠܬܗ ܕܩ܏ܕ ܟܪܝܣܛܘܦܘܪܘܣ ܢ̈ܫ̣ܐ ܬܪ̈ܬܝܢ. ܕܐܝܬܝܗܘܢ ܫܡ̈ܗܝܗܝܢ ܐܡ̣ܢܝܐ̣ ܘܐܡܢܝܕܐ. ܘܪ̈ܘܡܝܐ ܒܡ̣ܢܝܢܐ̣ ܡ̈ܐܬܝܢ ܘ̈ܬܠܬܐ̣. ܥܡ ܐܪ̈ܒܥ ܪ̈ܒܘ̣ܢ. ܟܠܗܘܢ ܕܝܢ ܗ̇ܘܝܢ ܒܡ̣ܢܝܢܐ̣. ܪ̈ܒ̣ܘܬܐ ܐܪ̈ܒܥ ܘܡ̈ܐܬܝܢ ܘܬܠܬܐ̣. ܥܡ <choice><orig xml:lang="syr">ܐܣܦܘܩܠܛܪܐ</orig><reg xml:lang="grc" resp="http://syriaca.org/documentation/editors.xml#wwright">σπεκουλάτωρ</reg></choice> ܚܕ ܗܠܝܢ ܕܝܢ ܐܣ̣ܗܕܘ̣ ܒܝܪܚ ܢܝܣܢ܇ ܒܬܫܥ̈ܐ ܒܗ̣ ܒܝܘܡ ܚܕܒܫܒܐ. ܗ̣ܘ ܕܝܢ ܩܕܝܫܐ ܠܒܝ̣ܫ ܠܡܫܝܚܐ ܥܡ ܐܣܦܘܩܠܛܪܐ ܗ̇ܘܼ. ܐܫܬ̇ܡܠܝܘ ܒܝܪܚ ܢܝܣܢ܇ ܒܥܣܪ̈ܝܢ ܘܫܒ̈ܥܐ ܒܗ. </quote></p>
                     <p>Compare <bibl>the Acta Sanctorum for July, t. yi., pp. 125, seqq., especially pp. 139, 140</bibl>.</p>
                   </note>
                 </msItem>
@@ -725,7 +725,7 @@
                   <author ref=""/>
                   <title ref="" type="supplied">Martyrdom of <persName ref="">Placidas</persName>, with his wife and children, in the reign of <persName ref="">Adrian</persName></title>
                   <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܐܘܟܝܬ ܣܗܕܘܬܐ ܕܛܘܒܢܐ ܦܠܩܝܕܐ̇. ܗ̇ܘ ܕܐܬܟ݁ܢܝ ܐܘܣܛܬܐܝܘܣ. ܘܕܐܢܬܬܗ̣ ܘܕܒ̈܏ܢܘ. ܨܠܘܬܗܘܢ ܥܡܢ ܐܡܝܢ.<locus from="311b"/></rubric>
-                  <note>He was baptized by the name of <persName ref="">Eustathius</persName>, his wife being at the same time named <persName><choice><reg resp="http://syriaca.org/editors.xml#wwright">Basilissa</reg><orig xml:lang="syr">ܒܣܠܘܣ</orig></choice></persName>, and his children <persName><choice><reg resp="http://syriaca.org/editors.xml#wwright">Agape</reg><orig xml:lang="syr">ܐܓܐܦܝ</orig></choice></persName> and <persName><choice><reg resp="http://syriaca.org/editors.xml#wwright">Theophytus</reg><orig xml:lang="syr">ܬܐܘܦܝܛܘܣ</orig></choice></persName>. See <bibl>the Acta Sanctorum for September, t. vi., p. 123</bibl>.</note>
+                  <note>He was baptized by the name of <persName ref="">Eustathius</persName>, his wife being at the same time named <persName><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Basilissa</reg><orig xml:lang="syr">ܒܣܠܘܣ</orig></choice></persName>, and his children <persName><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Agape</reg><orig xml:lang="syr">ܐܓܐܦܝ</orig></choice></persName> and <persName><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Theophytus</reg><orig xml:lang="syr">ܬܐܘܦܝܛܘܣ</orig></choice></persName>. See <bibl>the Acta Sanctorum for September, t. vi., p. 123</bibl>.</note>
                 </msItem>
                 <msItem n="58" xml:id="b54">
                   <locus from="316a" to="322">Fol. 316a-322</locus>
@@ -739,7 +739,7 @@
                   <title ref="" type="supplied">Martyrdom of <persName ref="">Theodore</persName></title>
                   <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܐܘܟܝܬ ܣܗܕܘܬܐ ܕܢܨ̇ܝܚܐ ܡܪܝ ܬܐܘܕܘܪܘܣ. ܕܐܣ̣ܗܕ ܒܐܦܟܝܐܝܛܐ ܡܕܝܢܬܐ<locus from="322a"/></rubric>
                   <note>
-                    <p>He was of an Isaurian family, but born at Byzantium. During the reign of <persName><choice><reg resp="http://syriaca.org/editors.xml#wwright">Constans</reg><orig xml:lang="syr">ܩܘܣܛܘܣ</orig></choice></persName>, he destroyed the temple and slew the dragon at <placeName ref="">Euchaita</placeName> (<foreign xml:lang="syr">ܐܦܟܝܐܝܛܐ</foreign>, but fol. <locus from="324a">324a</locus>, <foreign xml:lang="syr">ܐܶܘܟܰܝܐܻܝܛܰܐ</foreign>), fol. <locus from="326b">326b</locus>:</p>
+                    <p>He was of an Isaurian family, but born at Byzantium. During the reign of <persName><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Constans</reg><orig xml:lang="syr">ܩܘܣܛܘܣ</orig></choice></persName>, he destroyed the temple and slew the dragon at <placeName ref="">Euchaita</placeName> (<foreign xml:lang="syr">ܐܦܟܝܐܝܛܐ</foreign>, but fol. <locus from="324a">324a</locus>, <foreign xml:lang="syr">ܐܶܘܟܰܝܐܻܝܛܰܐ</foreign>), fol. <locus from="326b">326b</locus>:</p>
                     <p><quote xml:lang="syr">ܥܠ ܟܠ ܕܝܢ ܚ̇ܢܘܬܐ ܕܐܦܟܐܝܛܐ ܗܟܢ ܣܠ̣ܩ ܠܗ ܝܘܩܢܐ ܠ܏ܩܕ ܬܐܘܕܪܘܣ̣. ܐܝܟ ܕܩ̇ܛ̣ܠܗ ܠܬܢܝܢܐ. ܘܥܕܡܐ ܠܝܘܡܢܐ̣ ܗܟܢܐ ܡܬܬ̣ܨܝܪ.܀ ܒܒܘܙܢܛܝܐ ܕܝܢ ܡܬ̣ܬܨܝܪ܆ ܟܕ ܕܰܪܝܟ ܥܠ ܝ̇ܥ̣ܢܘܬܐ̣ ܘܙܟ̇ܐ ܠܗ ܠܕܗܒܐ. ܘܒܦܟܝܛܐ̣ ܟܕ ܕܰܪܝܟ ܥܠ ܬܢܝܢܐ. ܘܨܘܪܬܗ ܒܫܡܝܐ̣ ܟܕ ܕܰܪܝܟ ܥܠ ܣܛܢܐ ܒܥܩܒܗ̣ ܘܣܝ̣ܡ ܠܗ ܟܠܝܠܐ ܕܙܟܘܬܐ.</quote></p>
                     <p>In that city he suffered martyrdom in the reign of <persName ref="">Julian</persName>. Compare <bibl>Acta Sanctorum for Febr., t. ii., p. 28</bibl>.</p>
                   </note>
@@ -768,8 +768,8 @@
                 <msItem n="63" xml:id="b59">
                   <locus from="347b" to="356">Fol. 347b-356</locus>
                   <author ref="">Gabriel of <foreign xml:lang="syr">ܣܢܪܙܘ</foreign></author>
-                  <title ref="" type="supplied">History of the martyrs of <placeName ref=""><choice><reg resp="http://syriaca.org/editors.xml#wwright">Tur-Berain</reg><orig xml:lang="syr">ܛܘܪܒܪܐܝܢ</orig><orig xml:lang="syr">ܛܘܪܒܪܐܢ</orig></choice></placeName>, who suffered in the ninth year of the reign of <persName ref="">Sapor</persName>, king of <placeName ref="http://syriaca.org/place/526">Persia</placeName></title>
-                  <rubric xml:lang="syr">ܬܘܒ ܒܝܕ ܣܘܝ̇ܥܐ ܘܥܘܕܪܢܐ ܕܝܠܗ̇ ܕܒܛܝ̣ܠܘܬܐ ܐܠܗܝܬܐ̣. ܘܡܥ̇ܕܪܢܐ ܕܚ̈ܛܝܐ̣. ܟ݁ܬܒܝܢܢ ܬܫ̈ܥܝܬܐ ܫ̈ܦܝܪܬܐ̣ ܕܣܗ̈ܕܐ ܩ̈ܕܝܫܐ̣ ܕܐܣܗܕܘ ܒܛܘܪ ܒܪܐܝܢ܆ ܒܝ̈ܘܡܝ ܫܒܘܪ ܡ̇ܠ̣ܟܐ. ܕܫܡ̈ܗܝܗܘܢ ܗܠܝܢ. ܐܕܘܪܦܪܘܐ.<choice> <orig>ܘܡܝܗܪܟܪܣܐ</orig> <corr resp="http://syriaca.org/editors.xml#wwright">ܘܡܝܗܪܢܪܣܐ</corr></choice> . ܘܡܗܕܘܟܬܝ ܚܬܗܘܢ. ܕܥܒ̣ܝܕܐ ܠܡܪܝ ܓܒܪܐܝܠ̣ ܡܢ ܐܬܪܐ ܕܣܢܪܙܘ.  <locus from="347b"/></rubric>
+                  <title ref="" type="supplied">History of the martyrs of <placeName ref=""><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Tur-Berain</reg><orig xml:lang="syr">ܛܘܪܒܪܐܝܢ</orig><orig xml:lang="syr">ܛܘܪܒܪܐܢ</orig></choice></placeName>, who suffered in the ninth year of the reign of <persName ref="">Sapor</persName>, king of <placeName ref="http://syriaca.org/place/526">Persia</placeName></title>
+                  <rubric xml:lang="syr">ܬܘܒ ܒܝܕ ܣܘܝ̇ܥܐ ܘܥܘܕܪܢܐ ܕܝܠܗ̇ ܕܒܛܝ̣ܠܘܬܐ ܐܠܗܝܬܐ̣. ܘܡܥ̇ܕܪܢܐ ܕܚ̈ܛܝܐ̣. ܟ݁ܬܒܝܢܢ ܬܫ̈ܥܝܬܐ ܫ̈ܦܝܪܬܐ̣ ܕܣܗ̈ܕܐ ܩ̈ܕܝܫܐ̣ ܕܐܣܗܕܘ ܒܛܘܪ ܒܪܐܝܢ܆ ܒܝ̈ܘܡܝ ܫܒܘܪ ܡ̇ܠ̣ܟܐ. ܕܫܡ̈ܗܝܗܘܢ ܗܠܝܢ. ܐܕܘܪܦܪܘܐ.<choice> <orig>ܘܡܝܗܪܟܪܣܐ</orig> <corr resp="http://syriaca.org/documentation/editors.xml#wwright">ܘܡܝܗܪܢܪܣܐ</corr></choice> . ܘܡܗܕܘܟܬܝ ܚܬܗܘܢ. ܕܥܒ̣ܝܕܐ ܠܡܪܝ ܓܒܪܐܝܠ̣ ܡܢ ܐܬܪܐ ܕܣܢܪܙܘ.  <locus from="347b"/></rubric>
                   <note>The author is Gabriel, surnamed Tauretha, <foreign xml:lang="syr">ܬܰܘܪܬܳܐ</foreign>, of <placeName xml:lang="syr" ref="">ܣܝܪܙܘܪ</placeName>, as he is called by <bibl>Assemani, Bibl. Or., t. iii., pars i., p. 456</bibl>.</note>
                 </msItem>
                 <msItem n="64" xml:id="b60">
@@ -1160,12 +1160,12 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-11-11" who="http://syriaca.org/editors.xml#jnquiroz">Created: file items b16-b30</change>
-      <change when="2014-11-11" who="http://syriaca.org/editors.xml#thannah">Created: file items b1-b15</change>
-      <change when="2014-11-11" who="http://syriaca.org/editors.xml#kkotewall">Created: file items b31-b45</change>
-      <change when="2014-11-11" who="http://syriaca.org/editors.xml#dmichelson">Created: file items b61-b78</change>
-      <change when="2014-11-11" who="http://syriaca.org/editors.xml#jarnwine">Created: file items b46-b60</change>
-      <change when="2015-02-19" who="http://syriaca.org/editors.xml#jarnwine">All items incorporated into document</change>
+      <change when="2014-11-11" who="http://syriaca.org/documentation/editors.xml#jnquiroz">Created: file items b16-b30</change>
+      <change when="2014-11-11" who="http://syriaca.org/documentation/editors.xml#thannah">Created: file items b1-b15</change>
+      <change when="2014-11-11" who="http://syriaca.org/documentation/editors.xml#kkotewall">Created: file items b31-b45</change>
+      <change when="2014-11-11" who="http://syriaca.org/documentation/editors.xml#dmichelson">Created: file items b61-b78</change>
+      <change when="2014-11-11" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file items b46-b60</change>
+      <change when="2015-02-19" who="http://syriaca.org/documentation/editors.xml#jarnwine">All items incorporated into document</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
       <change type="planned" subtype="file">Needs physDesc, etc.</change>
     </revisionDesc>

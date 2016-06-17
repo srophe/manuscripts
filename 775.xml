@@ -9,38 +9,38 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#smorris">Susannah M. Morris</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#smorris">Susannah M. Morris</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#smorris">Susannah M. Morris</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#smorris">Susannah M. Morris</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -195,7 +195,7 @@
                 <msItem n="15" xml:id="b14">
                   <locus from="111a" to="113b">Foll. 111a-113b</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la"><choice><orig>Adversus <orgName xml:lang="la" ref="">Eunomianos</orgName> Praevia Dissertatio</orig><reg resp="http://syriaca.org/editors.xml#wwright">Theologica Prima</reg></choice></title>
+                  <title ref="" type="supplied" xml:lang="la"><choice><orig>Adversus <orgName xml:lang="la" ref="">Eunomianos</orgName> Praevia Dissertatio</orig><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Theologica Prima</reg></choice></title>
                   <rubric xml:lang="syr">ܩܕܝܡܘܬ ܡܡܠܠܐ ܕܠܘܬ ܐܘ̈ܢܘܡܝܢܘ ܕܐܝܬܘܗܝ ܕܥܣܪ̈ܝܢ ܘܚܕ
                     <locus from="111q" to="111a"/>
                   </rubric>
@@ -410,8 +410,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-07-30" who="http://syriaca.org/editors.xml#smorris">Created: file</change>
-      <change when="2014-10-02" who="http://syriaca.org/editors.xml#jarnwine">Edited: file</change>
+      <change when="2014-07-30" who="http://syriaca.org/documentation/editors.xml#smorris">Created: file</change>
+      <change when="2014-10-02" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edited: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>      
     </revisionDesc>
   </teiHeader>

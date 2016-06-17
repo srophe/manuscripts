@@ -9,38 +9,38 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jnquiroz">Julia Nations-Quiroz</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jnquiroz">Julia Nations-Quiroz</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jnquiroz">Julia Nations-Quiroz</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jnquiroz">Julia Nations-Quiroz</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -133,7 +133,7 @@
                   <rubric xml:lang="syr">ܕܘܒܪܐ ܕܝܥܩܘܒ ܕܝܪܝܐ.  
                     <locus from="37a" to="37a"/>
                   </rubric>
-                  <note>After a short introduction, we read as follows, <locus from="37b">fol. 37 b</locus>: <quote xml:lang="syr">ܗܘ̣ܐ ܐܢܫ ܡܫܢܝܢܐ ܒܩܘܪܝܬ ܡܕܝܢܐ ܕܡܬܩܪܝܐ ܗܘܬ<persName ref=""><choice><orig>ܦܪܦܘܪܐܘܢ</orig><reg resp="http://syriaca.org/editors.xml#wwright">Porphyreon in Phoenicia</reg></choice></persName>. ܕܫܡܗ ܗܘܐ ܝܥܩܘܒ. ܗܢܐ ܟܕ ܦܪܫ ܢܦܫܗ ܡܢ ܣܕܝܩܘܬܗ ܕܥܠܡܐ ܗܢܐ. ܥܡ̣ܪ ܒܡܥܪܬܐ ܚܕܐ ܚܡܫܥܣܪܐ ܫ̈ܢܝܢ. ܗܢܐ ܟܠܗ ܒܡܝܬܪܘܬܐ ܘܒܥܢܘܝܘܬܐ ܐܬܪܒܝ. ܐܝܟܢܐ ܕܡܝܩܪܐ ܘܡܝܬܪܐ ܢܬܚܘܐ ܠܐܠܗܐ. ܘܢܫܬܘܐ ܠܡܘܗܒܬܐ ܕܥܠ ܫܐ̈ܕܐ. ܘܕܐܣ̈ܘܬܐ ܐܚܪ̈ܢܝܬܐ ܣܓ̈ܝܐܬܐ. ܒܫܡܗ ܕܦܪܘܩܢ ܡܫܝܚܐ ܢܫܡܠܐ. ܟܠܢܫ ܗܟܝܠ ܟܕ ܡܬܕܡܪ ܗܘܐ ܒܕܘܒܪܗ ܕܓܒܪܐ ܠܘܬܗ ܪܗܛܝܢ ܗܘܘ. ܕܣܘܓܐܗܘܢ ܡܢ ܕܚܠܬܐ ܕܫܡܪ̈ܝܐ ܪ̈ܫܝܥܐ ܐܝܬܝܗܘܢ ܗܘܘ. ܏ܘܫ.</quote></note>
+                  <note>After a short introduction, we read as follows, <locus from="37b">fol. 37 b</locus>: <quote xml:lang="syr">ܗܘ̣ܐ ܐܢܫ ܡܫܢܝܢܐ ܒܩܘܪܝܬ ܡܕܝܢܐ ܕܡܬܩܪܝܐ ܗܘܬ<persName ref=""><choice><orig>ܦܪܦܘܪܐܘܢ</orig><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Porphyreon in Phoenicia</reg></choice></persName>. ܕܫܡܗ ܗܘܐ ܝܥܩܘܒ. ܗܢܐ ܟܕ ܦܪܫ ܢܦܫܗ ܡܢ ܣܕܝܩܘܬܗ ܕܥܠܡܐ ܗܢܐ. ܥܡ̣ܪ ܒܡܥܪܬܐ ܚܕܐ ܚܡܫܥܣܪܐ ܫ̈ܢܝܢ. ܗܢܐ ܟܠܗ ܒܡܝܬܪܘܬܐ ܘܒܥܢܘܝܘܬܐ ܐܬܪܒܝ. ܐܝܟܢܐ ܕܡܝܩܪܐ ܘܡܝܬܪܐ ܢܬܚܘܐ ܠܐܠܗܐ. ܘܢܫܬܘܐ ܠܡܘܗܒܬܐ ܕܥܠ ܫܐ̈ܕܐ. ܘܕܐܣ̈ܘܬܐ ܐܚܪ̈ܢܝܬܐ ܣܓ̈ܝܐܬܐ. ܒܫܡܗ ܕܦܪܘܩܢ ܡܫܝܚܐ ܢܫܡܠܐ. ܟܠܢܫ ܗܟܝܠ ܟܕ ܡܬܕܡܪ ܗܘܐ ܒܕܘܒܪܗ ܕܓܒܪܐ ܠܘܬܗ ܪܗܛܝܢ ܗܘܘ. ܕܣܘܓܐܗܘܢ ܡܢ ܕܚܠܬܐ ܕܫܡܪ̈ܝܐ ܪ̈ܫܝܥܐ ܐܝܬܝܗܘܢ ܗܘܘ. ܏ܘܫ.</quote></note>
                   <listBibl>
                     <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/69">See Add. 12,173, fol. 180a.</idno></msIdentifier></bibl>
                   </listBibl>
@@ -552,7 +552,7 @@
                       <rubric xml:lang="syr">ܟܬܒܐ ܐܣܩܝܛܝܩܘܢ ܕܝܠܗ ܕܡܪܝ ܐܘܓܪܝܣ ܛܘܒܢܐ
                           <locus from="101a" to="101a"/>
                       </rubric>
-                    <note>The introduction, <locus from="101a">fol. 101 a</locus>, is identical with that prefixed to the <quote><title xml:lang="la" ref="" type="supplied">Capita practica</title></quote> in <bibl>Gallandii Bibl. Vett. Patrum, t. vii., p. 553</bibl>; but the treatise is that which, in <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, (no. 4, fol. 34 b)</idno></msIdentifier></bibl>, is entitled<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܡܐܡܪܐ ܕܐܘܓܪܝܣ ܕܥܠ ܬܡܢܝܐ ܚ̈ܘܫܒܝܢ</orig><reg resp="http://syriaca.org/editors.xml#wwright">discourse on the eight evil thoughts</reg></choice></title></quote>. Here the title is, <locus from="101b">fol. 101b, 2nd col.</locus>,<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܦܘܢܝ ܦܬܓܡܐ ܡܢ ܟ̈ܬܒܝ ܩܘܕܫܐ. ܠܘܩܒܠ ܕܝ̈ܘܐ ܕܡܢܣܝܢ ܠܢ.</orig><reg resp="http://syriaca.org/editors.xml#wwright">answers from the Holy Scriptures to the demons that tempt us</reg></choice></title></quote>.</note>
+                    <note>The introduction, <locus from="101a">fol. 101 a</locus>, is identical with that prefixed to the <quote><title xml:lang="la" ref="" type="supplied">Capita practica</title></quote> in <bibl>Gallandii Bibl. Vett. Patrum, t. vii., p. 553</bibl>; but the treatise is that which, in <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/314">Add. 14,578, (no. 4, fol. 34 b)</idno></msIdentifier></bibl>, is entitled<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܡܐܡܪܐ ܕܐܘܓܪܝܣ ܕܥܠ ܬܡܢܝܐ ܚ̈ܘܫܒܝܢ</orig><reg resp="http://syriaca.org/documentation/editors.xml#wwright">discourse on the eight evil thoughts</reg></choice></title></quote>. Here the title is, <locus from="101b">fol. 101b, 2nd col.</locus>,<quote><title ref="" type="supplied"><choice><orig xml:lang="syr"> ܦܘܢܝ ܦܬܓܡܐ ܡܢ ܟ̈ܬܒܝ ܩܘܕܫܐ. ܠܘܩܒܠ ܕܝ̈ܘܐ ܕܡܢܣܝܢ ܠܢ.</orig><reg resp="http://syriaca.org/documentation/editors.xml#wwright">answers from the Holy Scriptures to the demons that tempt us</reg></choice></title></quote>.</note>
                   </msItem>
                   <msItem n="5" xml:id="p3c4">
                       <locus from="122b" to="123b">Foll. 122b-123b</locus>
@@ -1030,7 +1030,7 @@
                 </msItem>
                 <msItem n="63" xml:id="p3b6">
                   <locus from="232a" to="251">Foll. 232a-251</locus>
-                  <title ref="http://syriaca.org/work/23" type="supplied">The book of the <persName ref=""><choice><orig xml:lang="syr">ܢܒܝܘܬܗ ܕܐܫܥܝܐ</orig><reg resp="http://syriaca.org/editors.xml#wwright">prophet Isaiah</reg></choice></persName>, according to the Pěshīttā version.</title>
+                  <title ref="http://syriaca.org/work/23" type="supplied">The book of the <persName ref=""><choice><orig xml:lang="syr">ܢܒܝܘܬܗ ܕܐܫܥܝܐ</orig><reg resp="http://syriaca.org/documentation/editors.xml#wwright">prophet Isaiah</reg></choice></persName>, according to the Pěshīttā version.</title>
                   <note>The lessons are sometimes indicated by rubrics in the text, e.g. foll. <locus from="245a">245a</locus>, <locus from="246a">246a</locus>.</note>
                 </msItem>
                   <msItem n="64" xml:id="p3b7">
@@ -1296,14 +1296,14 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-12-18" who="http://syriaca.org/editors.xml#jnquiroz">Created: file <ref target="#Part2">Part 2</ref></change>
-      <change when="2015-01-20" who="http://syriaca.org/editors.xml#jarnwine">Edited: file <ref target="#Part2">Part 2</ref></change>
-      <change when="2015-02-11" who="http://syriaca.org/editors.xml#jnquiroz">Created: file <ref target="#Part3">Part 3</ref></change>
-      <change when="2015-02-26" who="http://syriaca.org/editors.xml#jarnwine">Began editing: file <ref target="#Part3">Part 3</ref></change>
-      <change when="2015-03-10" who="http://syriaca.org/editors.xml#jarnwine">Finished editing: file <ref target="#Part3">Part 3</ref></change>
-      <change when="2015-03-12" who="http://syriaca.org/editors.xml#jnquiroz">Created: file <ref target="#Part1">Part 1</ref></change>
-      <change when="2015-03-17" who="http://syriaca.org/editors.xml#jarnwine">Edited: file <ref target="#Part1">Part 1</ref></change>
-      <change when="2015-03-17" who="http://syriaca.org/editors.xml#jarnwine">Incorporated all parts into one file 71.xml</change>
+      <change when="2014-12-18" who="http://syriaca.org/documentation/editors.xml#jnquiroz">Created: file <ref target="#Part2">Part 2</ref></change>
+      <change when="2015-01-20" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edited: file <ref target="#Part2">Part 2</ref></change>
+      <change when="2015-02-11" who="http://syriaca.org/documentation/editors.xml#jnquiroz">Created: file <ref target="#Part3">Part 3</ref></change>
+      <change when="2015-02-26" who="http://syriaca.org/documentation/editors.xml#jarnwine">Began editing: file <ref target="#Part3">Part 3</ref></change>
+      <change when="2015-03-10" who="http://syriaca.org/documentation/editors.xml#jarnwine">Finished editing: file <ref target="#Part3">Part 3</ref></change>
+      <change when="2015-03-12" who="http://syriaca.org/documentation/editors.xml#jnquiroz">Created: file <ref target="#Part1">Part 1</ref></change>
+      <change when="2015-03-17" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edited: file <ref target="#Part1">Part 1</ref></change>
+      <change when="2015-03-17" who="http://syriaca.org/documentation/editors.xml#jarnwine">Incorporated all parts into one file 71.xml</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

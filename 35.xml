@@ -9,40 +9,40 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -176,7 +176,7 @@
                     <p><quote xml:lang="syr">ܥܠ ܬܐܘܡܐ ܫܡܫܐ ܐܘܪܗܝܐ ܕܟܬ̣ܒ ܦܢܩܝܬܐ ܗܕܐ ܕܐܠܗܐ ܢܚ̇ܢܝ̣ܘܗܝ ܏ܘܫ.</quote></p>
                   </item>
                   <item n="2" xml:id="p1addition2" syriacatags="scribal-colophon ownership-inscription">
-                    <p>Another note informs us that the book was written in the year <origDate when-custom="0895" datingMethod="Seleucid">895</origDate>, <origDate when="0584" calendar="Gregorian">A.D. 584</origDate>, in the convent of <choice><reg resp="http://syriaca.org/editors.xml#wwright">Gubbā Barrāyā</reg><orig xml:lang="syr">ܓܘܒܐ ܒܪܝܐ</orig></choice>. See <bibl>Assemani, Bibl. Or., t. ii., Dissert. De Monoph. Art. Ix.</bibl>, for the use of the abbat, <persName ref="">Thomas</persName> and the rest of the brotherhood. </p>
+                    <p>Another note informs us that the book was written in the year <origDate when-custom="0895" datingMethod="Seleucid">895</origDate>, <origDate when="0584" calendar="Gregorian">A.D. 584</origDate>, in the convent of <choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Gubbā Barrāyā</reg><orig xml:lang="syr">ܓܘܒܐ ܒܪܝܐ</orig></choice>. See <bibl>Assemani, Bibl. Or., t. ii., Dissert. De Monoph. Art. Ix.</bibl>, for the use of the abbat, <persName ref="">Thomas</persName> and the rest of the brotherhood. </p>
                     <p><quote xml:lang="syr">ܐܫܬܠܡܬ ܦܢܩܝܬܐ ܗܕܐ ܒܐܝܪܚ ܬܡܘܙ ܒܥܣܪܝܢ ܘܬܫܥܐ ܒܗ ܕܫܢܬ ܬܡܢܡܐܐ ܘܬܫܥܝܢ ܘܚܡܫ ܒܥܘܡܪܐ ܩܕܝܫܐ ܕܓܘܒܐ ܒܪܝܐ. ܐܬܚܦܛ ܕܝܢ ܘܣܡ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ܆ ܠܩܪܝܢܐ ܘܠܝܘܬܪܢܐ ܕܓܘܐ ܟܠܗ ܕܡܗ̈ܝܡܢܐ̣. ܡܝܬܪܐ ܘܪܚܡ ܐܠܗܐ. ܘܐܚܝܕ ܐܚܘܬܐ ܒܪܚܡܬ ܡܪܗ. ܬܐܘܡܐ ܪܝܫܕܝܪܐ ܕܝܠܗ ܕܥܘܡܪܐ. ܥܡ ܫܪܟܐ ܕܩܫܝ̈ܫܢܐ ܘܡܫ̈ܡܫܢܐ ܘܐܚܘܬܐ ܟܠܗ̇ ܕܥܡܗ. ܗܠܝܢ ܕܡܛܠ ܚܘܒܗ ܕܡܫܝܚܐ: ܘܡܛܠ ܡܘܠܟܢܐ ܕܡ̣ܠܟ܆ ܫܒܩܘ ܐܒ̈ܗܝܗܘܢ ܘܐܚ̈ܝܗܘܢ̣. ܘܐܚܒܘ ܨܘܡܐ ܢܓܝܪܐ ܘܫܗܪܐ ܘܟܠܗܝܢ ܐܢܢ̈ܩܣ ܕܦܓܪܐ. ܕܐܠܗܐ ܏ܘܫ. ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ̇ ܠܦܢܩܝܬܐ ܗܕܐ ܕܢܩܪܐ ܐܘ ܕܢܦܚܡ ܐܘ ܕܢܟܬܘܒ ܡܢܗ̇ ܘܟܐܡ̇ ܥܠܝܗ ܐܘ ܦܣܩ ܡܢܗ̇ ܡܕܡ܆ ܗܘܐ ܝܕܥ̇ ܕܩܕܡ ܒܝܡ ܕܚܝܠܬܐ ܕܐܠܗܐ ܝ̇ܗܒ ܦܬܓܡܐ ܐܝܟ ܡܚܠܨ ܒܝܬ ܡܩܕܫܐ܀ </quote></p>
                   </item>
                   <item n="3" xml:id="p1addition3" syriacatags="ownership-inscription">
@@ -185,7 +185,7 @@
                     <p><quote xml:lang="syr">ܒܫܦܝܪܘܬ ܨܒܝܢܐ ܛ̇ܒܐ: ܘܒܚܘܝܚܘܬ ܬܪܥܝܬܐ ܪܚܡ̇ܬ ܠܐܠܗܐ܇ ܡܛܠ ܝܘܬܪܢܐ ܕܢܦܫܗܘܢ ܏ܘܫ ܝ̣ܨܦܘ ܘܩܢ̣ܘ̇ ܣܡܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ̇. ܏ܘܫ ܐܚ̈ܐ ܢܟ̈ܦܐ ܘܕܝܪ̈ܝܐ ܟܢܝ̈ܟܐ: ܡܐܪܩܘܣ ܘܡܪܘܬܐ ܘܐܬܢܣ. ܕܡܢ ܪܝܫܥܝܢܐ ܡܕܝܢܬܐ. ܕܐܠܗܐ ܕܡܛܠ ܫܡܗ܇ ܏ܘܫ. ܐܬܪܫ̣ܡ ܥܘܗܕܢܐ ܗܢܐ. ܫܢܬ ܐܠܦܐ ܘ܏ܩܦܐ ܒܡܕܒܪܐ ܩܕܝܫܐ ܕܐܣܩܝܛܐ.܀.</quote></p>
                   </item>
                   <item n="4" xml:id="p1addition4">
-                    <p>It seems, however, to have been subsequently taken away from the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>, to which it was restored by <persName ref="">Paul bar Yāyē of Tagrit</persName>, <date when-custom="1243" datingMethod="Seleucid">A. Gr. 1243</date>, <date when="0932" calendar="Gregorian">A.D. 932</date>. See <bibl>Assemani, Bibl. Orient., t. ii., p. 78</bibl>. The name may, however, be read <persName ref=""><choice><orig xml:lang="syr">ܢܐܢܐ</orig><reg resp="http://syriaca.org/editors.xml#wwright">Nonnus</reg></choice></persName>.</p>
+                    <p>It seems, however, to have been subsequently taken away from the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>, to which it was restored by <persName ref="">Paul bar Yāyē of Tagrit</persName>, <date when-custom="1243" datingMethod="Seleucid">A. Gr. 1243</date>, <date when="0932" calendar="Gregorian">A.D. 932</date>. See <bibl>Assemani, Bibl. Orient., t. ii., p. 78</bibl>. The name may, however, be read <persName ref=""><choice><orig xml:lang="syr">ܢܐܢܐ</orig><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Nonnus</reg></choice></persName>.</p>
                     <p><quote xml:lang="syr">ܘܥܠ ܦܘܠܘܣ ܒܪ ܝܐܝܐ ܬܓܪܬܢܝܐ ܪܚ̈ܡܐ ܕܐܠܗܐ ܢܗܘܢ ܥܠܘܗܝ ܕܗܘ ܥܒܕ ܝܨܝܦܘܬܐ ܘܐܥܛܦܗ ܠܟܬܒܐ ܗܢܐ ܩܕܝܫܐ ܠܕܝܪܐ ܕܐܣܩܛܐ ܩܕܝܫܐ. ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܣܘܪܝܝܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܒܡܕܒܪܐ ܕܣ̈ܩܛܐ ܕܐܒܐ ܒܝܫܘܝ ܐܠܐ ܟܠ ܕܫܩܠ ܠܗ ܐܘ ܡܦܩ ܠܗ ܡܢ ܗܕܐ ܕܝܪܐ ܕܐܡܝܪܐ ܢܗܘܐ ܚܪܡ ܏ܘܫ..</quote></p>
                   </item>
                   <item n="5" xml:id="p1addition5">
@@ -266,7 +266,7 @@
                 <msItem n="2" xml:id="p2b1" defective="true">
                   <locus from="109a" to="117">Foll. 109a-117</locus>
                   <author ref="http://syriaca.org/person/13">Ephraim</author>
-                  <title ref="" type="supplied">The life of <persName ref=""><choice><reg resp="http://syriaca.org/editors.xml#wwright">Abraham Kidunaya</reg><orig xml:lang="syr">ܡܪܝ ܐܒܪܗܡ ܩܝܕܘܢܝܐ</orig></choice></persName></title>
+                  <title ref="" type="supplied">The life of <persName ref=""><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Abraham Kidunaya</reg><orig xml:lang="syr">ܡܪܝ ܐܒܪܗܡ ܩܝܕܘܢܝܐ</orig></choice></persName></title>
                   <listBibl>
                     <bibl>Assemani, Bibl. Orient., t. i., pp. 38, 396</bibl>
                     <bibl>Ephraem Syri Opera, ed. Rom., t. ii., p. 1</bibl>
@@ -278,13 +278,13 @@
                   <author ref="http://syriaca.org/person/781">Theodoret of Cyrrhus</author>
                   <title ref="" type="supplied">The life of <persName ref="">Julian Saba, or the Aged</persName></title>
                   <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܢܨ̈ܚܢܘܗܝ ܕܛܘܒܢܐ ܝܘܠܝܢܐ<locus from="117a"/></rubric>
-                  <note>It is also ascribed to <persName ref="http://syriaca.org/person/13">Ephraim</persName> (see <bibl>Assemani, Bibl. Orient., t. i., pp. 33, 154, 397</bibl>), but is in reality by <persName ref="http://syriaca.org/person/781">Theodoret</persName> (see <bibl>Opera, ed. Schulze, t. iii., p. 1119</bibl>; <bibl>Acta Sanctt. for October, t. viii., p. 353</bibl>; and <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/350">Add. 14,612, fol. 179a</idno></msIdentifier></bibl>, where this and <title ref="" type="supplied">the life of <persName ref="">Jacob of Nisibis</persName></title> are expressly said to be taken from the <title ref="" type="supplied"><choice><reg resp="http://syriaca.org/editors.xml#wwright">Philotheus</reg> <orig xml:lang="syr">ܦܝܠܬܐܘܣ</orig></choice></title>).</note>
+                  <note>It is also ascribed to <persName ref="http://syriaca.org/person/13">Ephraim</persName> (see <bibl>Assemani, Bibl. Orient., t. i., pp. 33, 154, 397</bibl>), but is in reality by <persName ref="http://syriaca.org/person/781">Theodoret</persName> (see <bibl>Opera, ed. Schulze, t. iii., p. 1119</bibl>; <bibl>Acta Sanctt. for October, t. viii., p. 353</bibl>; and <bibl><msIdentifier><idno ref="http://syriaca.org/manuscript/350">Add. 14,612, fol. 179a</idno></msIdentifier></bibl>, where this and <title ref="" type="supplied">the life of <persName ref="">Jacob of Nisibis</persName></title> are expressly said to be taken from the <title ref="" type="supplied"><choice><reg resp="http://syriaca.org/documentation/editors.xml#wwright">Philotheus</reg> <orig xml:lang="syr">ܦܝܠܬܐܘܣ</orig></choice></title>).</note>
                 </msItem>
                 <msItem n="4" xml:id="p2b3">
                   <locus from="128b" to="134">Foll. 128b-134</locus>
                   <title ref="" type="supplied">The history of the <persName ref="http://syriaca.org/person/607">Man of God</persName> from the city of <placeName ref="http://syriaca.org/place/641">Rome</placeName> who lived in the time of <persName ref="http://syriaca.org/person/26">Rabulas, bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName></persName></title>
                   <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܓܒܪܐ ܕܐܠܗܐ ܕܡܢ ܪܗܘܡܐ ܡܕܝܢܬܐ̣. ܕܐܬܢܨܚ ܘܐܬܟܠܠ ܒܡܣܪܩܘܬܐ ܘܒܥܡܠܐ ܕܡܛܠ ܡܫܝܚܐ̇. ܒܝ̈ܘܡܝ ܩܕܝܫܐ ܡܪܝ ܪܒܘܠܐ ܐܦܣܩܦܐ ܕܐܘܪܗܝ.. <locus from="128b"/></rubric>
-                  <note><persName ref="http://syriaca.org/editors.xml#wwright">Wright</persName> refers to the Man of God as <persName ref="http://syriaca.org/person/607">Alexius Romanus</persName>.</note>
+                  <note><persName ref="http://syriaca.org/documentation/editors.xml#wwright">Wright</persName> refers to the Man of God as <persName ref="http://syriaca.org/person/607">Alexius Romanus</persName>.</note>
                   <listBibl>
                     <bibl>Assemani, Bibl. Orient., t. i., p. 401, t. ii., pp. 19, 285</bibl>
                   </listBibl>
@@ -618,8 +618,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2015-02-19" who="http://syriaca.org/editors.xml#jarnwine">Created: file; Finished: Part1</change>
-      <change when="2015-02-24" who="http://syriaca.org/editors.xml#jarnwine">Finished: Part2 and Part3</change>
+      <change when="2015-02-19" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file; Finished: Part1</change>
+      <change when="2015-02-24" who="http://syriaca.org/documentation/editors.xml#jarnwine">Finished: Part2 and Part3</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>

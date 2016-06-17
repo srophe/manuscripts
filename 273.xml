@@ -9,39 +9,39 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -168,8 +168,8 @@
                   </item>
                   <item n="3" xml:id="addition3" syriaca-tags="scribal-colophon">
                     <locus from="94a"/>
-                    <p>Another note on the same page, in minute cursive characters (see <bibl>Land, Anecd. Syr., t. i. tab. v., no. 11</bibl>), states that the name of the scribe was <persName>Jacob of Amid</persName> (?), and offers up prayers for <persName>Malchus</persName>, <persName>Leontius</persName>, from a place called <foreign xml:lang="syr">ܚܖܬܐ</foreign> (?) on Mount Lebanon, and <choice><corr resp="http://syriaca.org/editors.xml#wwright"><persName>Alphaeus</persName></corr> <orig><persName><foreign xml:lang="syr">ܚܠܦܝ</foreign></persName></orig></choice>, also from Mount Lebanon. In this note the diacritical points of the letters <foreign xml:lang="syr">ܕ</foreign> and <foreign xml:lang="syr">ܪ</foreign> are usually omitted, and the letter <foreign xml:lang="syr">ܡ</foreign> so often takes the form <!-- Need missing character here! -->, which  is not uncommon in manuscripts of various ages.</p> 
-                    <p><quote xml:lang="syr">ܐܢܐ ܝܥܩܒܘܒ<choice><orig> ܐܡܪܝ</orig><!-- Original word needs a character changed to match the text in the catalogue. --> <corr resp="http://syriaca.org/editors.xml#wwright">ܐܡܕܝܐ</corr></choice>ܐ  ܟܬܒܬ ܟܬܒܐ ܗܢܐ ܟܠ ܡܢ ܕܩܪܐ ܢܨܠܐ ܥܠܝ ܕܡܖܢ ܢܚܘܣ ܥܠ ܡܚܝܠܘܬ ܚܘܫ̈ܒܝ ܘܥܠ ܒܨܝܖܘܬ ܥܒܕܝ ܨܠܘܬܝ ܥܠ ـܢ ܪܟܬܒ ܐ ܝܢ ܕܟܝܪ̈ܝܢ ܟܠܗܘܢ ܐܚ̈ܝܢ ܕܐܝܬܝܗܘܢ ܒܫܝܢܐ ܘܒܚܘܖܒܐ ܘܨܠܘܬܗܘܢ ܥܠ ܒܨܝܖܐ ܘܣܢܝܩܐ ܝܥܩܘܒ ܐ ܖܝܐ ܕܐܠܐ ܒܖܚܡܘܗܝ ܖܡܫܝܚܐ ܠܐ ܫܘܐ ܗܘܝܬ ܕܫܡ ܚܛܝܘܬܝ ܢܗܘܐ ܨܝܪ ܒ ܠܐ ܚܝ̈ܬܐ ܕܟܬܒܝ ܩܘܖܫܐ ܕܟܝܖ ܡܖܝ ܡܠܟܐ ܘܡܫܝܚܐ ܡܚܝܢܢ ܢܚܢܝܘܗܝ ܒܝܘܡ ܕܝܢܐ. ܐܡܝܢ ܘܢܬܠ ܠܗ ܡܫܝܚܐ ܡܢܬܐ ܥܡ ܩܕܝ̈ܫܐ ܕܫܦܪܘ ܠܨܒܝܢܗ ܖܟܝܪ ܠܐܢܛܝ ܖ ـܢ ܚܖܬܐ (؟) ܕܠܒܢܢ ܖܒܝܬ ܐܝ̈ܕܘܗܝ ܐܬܐ ܗܢܐ ܣܘܥܪܢܐ ܘܩܪܬ ܥܠܬܐ ܘܟܬܒܬ ܟܬܒܐ ܗܢܐ ܕܟܝܪ ـܪܝ ܚܠܦܝ ـܣܪܩܐ ܕܐܝܬ ܒܠܒܢܢ ܘܨܠܘܬܗ ܫܘܪܐ ܒܝܘܡ ܕܝܢܐ ܬܗܘܐ ܠ ـܢ ܕܟܬܒ ܐ ـܝܢ ܐܝܢ ܘܐ ـܝܢ.
+                    <p>Another note on the same page, in minute cursive characters (see <bibl>Land, Anecd. Syr., t. i. tab. v., no. 11</bibl>), states that the name of the scribe was <persName>Jacob of Amid</persName> (?), and offers up prayers for <persName>Malchus</persName>, <persName>Leontius</persName>, from a place called <foreign xml:lang="syr">ܚܖܬܐ</foreign> (?) on Mount Lebanon, and <choice><corr resp="http://syriaca.org/documentation/editors.xml#wwright"><persName>Alphaeus</persName></corr> <orig><persName><foreign xml:lang="syr">ܚܠܦܝ</foreign></persName></orig></choice>, also from Mount Lebanon. In this note the diacritical points of the letters <foreign xml:lang="syr">ܕ</foreign> and <foreign xml:lang="syr">ܪ</foreign> are usually omitted, and the letter <foreign xml:lang="syr">ܡ</foreign> so often takes the form <!-- Need missing character here! -->, which  is not uncommon in manuscripts of various ages.</p> 
+                    <p><quote xml:lang="syr">ܐܢܐ ܝܥܩܒܘܒ<choice><orig> ܐܡܪܝ</orig><!-- Original word needs a character changed to match the text in the catalogue. --> <corr resp="http://syriaca.org/documentation/editors.xml#wwright">ܐܡܕܝܐ</corr></choice>ܐ  ܟܬܒܬ ܟܬܒܐ ܗܢܐ ܟܠ ܡܢ ܕܩܪܐ ܢܨܠܐ ܥܠܝ ܕܡܖܢ ܢܚܘܣ ܥܠ ܡܚܝܠܘܬ ܚܘܫ̈ܒܝ ܘܥܠ ܒܨܝܖܘܬ ܥܒܕܝ ܨܠܘܬܝ ܥܠ ـܢ ܪܟܬܒ ܐ ܝܢ ܕܟܝܪ̈ܝܢ ܟܠܗܘܢ ܐܚ̈ܝܢ ܕܐܝܬܝܗܘܢ ܒܫܝܢܐ ܘܒܚܘܖܒܐ ܘܨܠܘܬܗܘܢ ܥܠ ܒܨܝܖܐ ܘܣܢܝܩܐ ܝܥܩܘܒ ܐ ܖܝܐ ܕܐܠܐ ܒܖܚܡܘܗܝ ܖܡܫܝܚܐ ܠܐ ܫܘܐ ܗܘܝܬ ܕܫܡ ܚܛܝܘܬܝ ܢܗܘܐ ܨܝܪ ܒ ܠܐ ܚܝ̈ܬܐ ܕܟܬܒܝ ܩܘܖܫܐ ܕܟܝܖ ܡܖܝ ܡܠܟܐ ܘܡܫܝܚܐ ܡܚܝܢܢ ܢܚܢܝܘܗܝ ܒܝܘܡ ܕܝܢܐ. ܐܡܝܢ ܘܢܬܠ ܠܗ ܡܫܝܚܐ ܡܢܬܐ ܥܡ ܩܕܝ̈ܫܐ ܕܫܦܪܘ ܠܨܒܝܢܗ ܖܟܝܪ ܠܐܢܛܝ ܖ ـܢ ܚܖܬܐ (؟) ܕܠܒܢܢ ܖܒܝܬ ܐܝ̈ܕܘܗܝ ܐܬܐ ܗܢܐ ܣܘܥܪܢܐ ܘܩܪܬ ܥܠܬܐ ܘܟܬܒܬ ܟܬܒܐ ܗܢܐ ܕܟܝܪ ـܪܝ ܚܠܦܝ ـܣܪܩܐ ܕܐܝܬ ܒܠܒܢܢ ܘܨܠܘܬܗ ܫܘܪܐ ܒܝܘܡ ܕܝܢܐ ܬܗܘܐ ܠ ـܢ ܕܟܬܒ ܐ ـܝܢ ܐܝܢ ܘܐ ـܝܢ.
                       ܫܘܒܚܐ. ܠܐܒܐ. ܘܠܒܪܐ. ܘܠܪܘܚܐ. ܕܩܘܕܫܐ. ܠܥܠܡ. ܥܠܡܝܢ. ܐܡܝܢ.  
                     </quote></p> <!-- Several words which have a unique character in the catalogue have been changed in the Word document. The unique character has been changed to a mīm throughout the quote. Also, what to do when Wright puts a question mark within the quote? -->
                   </item>
@@ -330,8 +330,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-02-13" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
-      <change when="2014-05-06" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags. General edits.</change>
+      <change when="2014-02-13" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-05-06" who="http://syriaca.org/documentation/editors.xml#jarnwine">Added @syriaca-tags. General edits.</change>
       <change type="planned" subtype="missing">Missing unique character in <ref target="#addition3">addition 3</ref>.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

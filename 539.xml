@@ -9,39 +9,39 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#sulim">Sung Uk Lim</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#sulim">Sung Uk Lim</name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -142,7 +142,7 @@
                 <incipit xml:lang="syr">ܡܛܠ ܕܝܢ ܕܙܕܩ̇ ܗܘ ܠܡܫ̈ܡܫܢܐ ܕܫܪܪܐ ܕܢܬܥܬܕܘܢ ܒܟܠܗܝܢ ܕܥܗܢܢ ܠܫܪܪܐ̣. ܐܬܒܛܠ ܠܝ ܕܐܦ ܥܠ ܗܕܐ ܐܚ̈ܝ ܘܚ̈ܒܝܒܝ̣. ܕܒܦܣܝܩܬܐ ܡܢ ܟܬܒ̈ܐ ܩ̈ܕܝܫܐ ܢܟܢܫ ܐܝܠܝܢ ܕܥܗܢܢ ܘܢ̇ܒܢܐ. ܚܦܝܛܘܬܟܘܢ. ܐܝܟܢܐ ܕܒ̈ܬܚܘܝܬܐ ܙܥܘܪ̈ܝܬܐ ܢܫܬܟܚ ܠܘܬܢ ܫܪܪܐ ܕܐܝܠܝܢ ܕܐܠܨܐܝܬ ܡܬ݀ܒܥܝܢ. ܘܢܒܛܠ ܚܪܝܢܐ ܕܡܬܝܠܕ ܡܢ ܠܐ ܝܕܥܬܐ ܘܡܥܡܛ ܠܡܕܥܐ ܕܩܢܝ̈ܘܗܝ. ܕܚܢܢ ܐܝܠܝܢ ܕܒܪܚܡܬ݀ ܫܪܪܐ ܨܒܝܢܢ ܠܡܕܥܗ ܠܫܪܪܐ̣. ܢܕܥ ܦܘܠܓܐ [ܕ]ܥ̈ܡܡܐ ܘܫܪ̈ܒܬܐ ܕܐܒܗ̈ܬܐ. ܘܐܘ . . . ܐ ܕܬܘܬܒܘܬ. ܘܕܡܕܒܪܢܘܬܐ. ܕܕ̈ܝ̇ܢܐ. ܘܙ̈ܒܢܐ ܕܡ̈ܠܟܐ ܘܕܢ̈ܒܝܐ. ܘܐܝܠܝܢ ܗܘܘ ܒܝ̈ܘܡܝ ܐܝܠܝܢ ܡ̈ܠܟܐ. ܘܫ̈ܒܝܐ ܕܗܘܘ ܠܥܡܐ̣. ܒܝ̈ܘܡܝ ܐܝܠܝܢ ܡ̈ܠܟܐ ܘܕܝ̈ܢ̇ܐ ܘܐܝܠܝܢ ܟܗ̈ܢܐ. ܘܐܝܟܢܐ ܡܬܝܒܠ ܙܪܥܐ ܕܐܒ̈ܗܬܐ ܘܡܫܬܠܡ ܒܡܫܝܚܐ. ܘܟܡܐ ܫ̈ܢܝܢ ܡܬܡܢܝܢ ܡܢ ܬܪ̈ܡܝܬܗ ܕܥܠܡܐ ܘܥܕܡܐ ܠܝܘܡܢܐ. ܟܠܗܝܢ ܗܟܝܠ ܐܝܟ ܕܒܦܣܝܩܬܐ ܢܚܘܐ̣. ܠܘ ܒܐܘܡܢܘܬܐ ܕܢܦܫܢ̇ ܐܠܐ ܒܣܗܕܘܬܐ ܕܡܢ ܟ̈ܬܒܐ
                   <locus from="93a" to="93a"/>
                 </incipit>
-                <note>The compiler brings down the narrative to the accession of the <name>'Abbaside</name> caliph <persName ref="">Mohammed el Mahdi</persName>, <date when-custom="1085" datingMethod="Seleucid">A. Gr. 1085</date>, <date when="0774" calendar="Gregorian">A.D. 774</date> fol. <locus from="101b">101b</locus>: <quote xml:lang="syr">ܘܒܫܢܬ ܐܠܦܐ ܘܬܡܢܝܢ <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܘܚܡܫ</supplied> ܒܬܫܥܐ ܒܐܝܪܚ ܬܫܪܝ ܚܪܝ ܐܡܠܟ ܡܚܡܛ <sic>ܐܠܡܗܝ</sic> ܒܪܗ.</quote></note>
+                <note>The compiler brings down the narrative to the accession of the <name>'Abbaside</name> caliph <persName ref="">Mohammed el Mahdi</persName>, <date when-custom="1085" datingMethod="Seleucid">A. Gr. 1085</date>, <date when="0774" calendar="Gregorian">A.D. 774</date> fol. <locus from="101b">101b</locus>: <quote xml:lang="syr">ܘܒܫܢܬ ܐܠܦܐ ܘܬܡܢܝܢ <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">ܘܚܡܫ</supplied> ܒܬܫܥܐ ܒܐܝܪܚ ܬܫܪܝ ܚܪܝ ܐܡܠܟ ܡܚܡܛ <sic>ܐܠܡܗܝ</sic> ܒܪܗ.</quote></note>
             </msItem>
             </msContents>
             <physDesc>
@@ -486,9 +486,9 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-08-14" who="http://syriaca.org/editors.xml#sulim">Created: file</change>
-      <change when="2014-09-29" who="http://syriaca.org/editors.xml#jarnwine">Edited and proofread: file</change>
-      <change when="2014-10-01" who="http://syriaca.org/editors.xml#jarnwine">Edited and proofread: file</change>
+      <change when="2014-08-14" who="http://syriaca.org/documentation/editors.xml#sulim">Created: file</change>
+      <change when="2014-09-29" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edited and proofread: file</change>
+      <change when="2014-10-01" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edited and proofread: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="missing">Missing various unspecified things.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>

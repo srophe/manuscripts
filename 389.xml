@@ -9,38 +9,38 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -497,13 +497,13 @@
                     <locus from="18a"/>
                     <ref target="#p3handNote3"/>
                     <p>The third column of the same page contains two notes, the first of which records the presentation of the book to the convent of — by the priest —, of the <placeName>convent of Naphshāthā</placeName>, in the time of the <persName>abbat Thomas</persName>.</p>
-                    <p><quote xml:lang="syr">ܐܫܬܟܢ ܘܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܝܘܡܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ . . . ܕܐܫܬܟܢ ܡܢ ܡܢܚ ܢܦܫܐ ܩܫܝܫܐ . . . ܕܕܝܪܐ ܕܢܦܫ̈ܬܐ ܒܝ̈ܘܡܘܗܝ ܕܪܚܡ ܐܠܗܐ ܩܫܝܫܐ <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܪܝܫ</supplied> ܕܝܪܐ ܡܪܝ ܬܐܘܡܐ ܕܝܠܗ ܕܕܝܪܐ. ܏ܘܫ.</quote></p>
+                    <p><quote xml:lang="syr">ܐܫܬܟܢ ܘܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܝܘܡܢܐ ܕܥܘܡܪܐ ܩܕܝܫܐ . . . ܕܐܫܬܟܢ ܡܢ ܡܢܚ ܢܦܫܐ ܩܫܝܫܐ . . . ܕܕܝܪܐ ܕܢܦܫ̈ܬܐ ܒܝ̈ܘܡܘܗܝ ܕܪܚܡ ܐܠܗܐ ܩܫܝܫܐ <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">ܪܝܫ</supplied> ܕܝܪܐ ܡܪܝ ܬܐܘܡܐ ܕܝܠܗ ܕܕܝܪܐ. ܏ܘܫ.</quote></p>
                   </item>
                   <item n="4" xml:id="p3addition4">
                     <locus from="18a"/>
                     <ref target="#p3handNote4"/>
                     <p>The other note is not quite so legible, but it shows that the book belonged to the <placeName>convent of S. Mary Deipara</placeName> in the time of the <persName>abbat Salībā</persName>, when <choice><choice>Abraham</choice><choice>Ephraim</choice></choice> was patriarch of <placeName>Alexandria</placeName> (i.e. A.D. <date from="0977" to="0981" calendar="Gregorian">977 —981</date>; see <bibl>Renaudot, Hist. patr. Jacob. Alexandr., p. 366</bibl>, and <bibl>Le Quien, Or. Christ., t. ii. col. 476</bibl>).</p>
-                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܕܡܕܪ̈ܫܐ ܕܩܕ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܝܫܐ</supplied> ܡܪܝ ܐܦܪܝܡ ܡܠܦܢܐ . . . ܐܒ̇݅ܪܗܡ<sic> ܦܛܝܪܟܝ</sic>ܣ ܒܝܘ̈ܡܝ ܨܠܝܒܐ ܪܝܫܕܝܪܐ ܕܒܡܕܒܪܐ ܕܣܩܝܛܐ. ܟܠ ܕܡܦܩ ܠܗ ܡܢ ܡܕܒܪܐ <sic>ܬܚܬ</sic> ܚܪܡܐ ܐܝܬܘܗܝ ܐܡܝܢ.</quote></p>
+                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܕܡܕܪ̈ܫܐ ܕܩܕ<supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">ܝܫܐ</supplied> ܡܪܝ ܐܦܪܝܡ ܡܠܦܢܐ . . . ܐܒ̇݅ܪܗܡ<sic> ܦܛܝܪܟܝ</sic>ܣ ܒܝܘ̈ܡܝ ܨܠܝܒܐ ܪܝܫܕܝܪܐ ܕܒܡܕܒܪܐ ܕܣܩܝܛܐ. ܟܠ ܕܡܦܩ ܠܗ ܡܢ ܡܕܒܪܐ <sic>ܬܚܬ</sic> ܚܪܡܐ ܐܝܬܘܗܝ ܐܡܝܢ.</quote></p>
                   </item>
                 </list>
               </additions>
@@ -883,8 +883,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-02-06" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
-      <change when="2015-04-20" who="http://syriaca.org/editors.xml#jarnwine">Completed: file</change>
+      <change when="2014-02-06" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
+      <change when="2015-04-20" who="http://syriaca.org/documentation/editors.xml#jarnwine">Completed: file</change>
       <change type="planned" subtype="coptic">Add in missing Coptic characters. <ref target="#p2addition2"/></change>
       <change type="planned" subtype="missing">Missing a cross shape in <ref target="#p2addition1">Part 2, addition 2</ref>.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>

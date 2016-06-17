@@ -9,34 +9,34 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -163,7 +163,7 @@
                     <p><locus from="1a">Here</locus> there is a note of more recent date, stating that the volume was the property of <placeName ref="">the convent of Moses</placeName>, on the hill called <quote>the Great Head</quote>, east of (?) <placeName ref="">Nātphā</placeName> (?), in the province of <placeName ref="http://syriaca.org/place/2294">Damascus</placeName>, having been procured for it at the expense of the abbat <persName ref="">George, bishop of <placeName ref="http://syriaca.org/place/153">Tadmor</placeName></persName>.</p>
                     <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܡܘܫܐ ܕܝܬܒܐ ܒܛܘܪܐ ܕܡܬܩܪܐ ܪܝܫܐ ܪܒܐ <sic>ܡܢܚܝܗ</sic> <sic>ܕܢܦܛܐ</sic> ܩܪܝܬܐ ܒܫܘܠܛܢܐ ܕܕܪܡܣܘܩ ܡܕܝܢܬܐ ܐܬܚܦܛ ܕܝܢ ܘܥܒܕܗ ܐܒܣ ܡܪܝ ܓܝܘܪܓܝ ܐܦܣܩܘܦܐ ܕܬܕܡܘܪ ܡܕܝܢܬܐ. ܐܠܐ ܟܠ ܕܫܩܠ ܠܗ ܘܠܐ ܡܦܢܐ ܠܗ ܠܥܘܡܪܐ ܕܐܡܝܪ ܡܢ ܠܥܠ ܢܗܘܐ ܢܘܟܪܐ.</quote></p>
                     <p>The same information is repeated in a somewhat different form on the <locus from="1b">verso</locus>.</p>
-                    <p><quote xml:lang="syr">ܐܬܚܦܛ ܘܣܡ ܦܢܩܝܬܐ ܗܕܐ ܡܪܝ ܓܐܘܪܓܝ ܐܦܣܩܘܦܐ ܕܬܘܕܡܪ: ܕܡܢ ܕܝܪܐ ܕܡܪܝ ܡܘܫܐ ܕܝܬܒܐ ܒܛܘܪܐ ܕܡܬܩܪܐ ܪܝܫܐ ܪܒܐ <sic>ܡܢܝܚ</sic> <sic>ܢܦܟܐ</sic> ܩܪܝܬܐ. ܫܘܠܛܢܐ ܕܕܪܡܣܘܩ ܡܛܪܐܦܘܠܝܣ: ܟܠ ܕܫܩܠ ܠܗ ܕܢܩܪܐ ܒܗ: ܘܟܐܝܡ ܥܠܘܗܝ. ܘܠܐ ܡܦܢܐ ܠܗ ܠܡܪ̈ܘܗܝ ܕܐܡܝܪܝܢ: ܢܗܘܐ ܝܕܥ ܕܩܕܡ ܒܝܡ ܕܚܝܠܬܐ ܝܗ̇ܒ ܦܬܓܡܐ: ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠ ܚܛܝܐ ܕܟܬܒ: ܘܡܢ <choice><reg xml:lang="syr" resp="http://syriaca.org/editors.xml#wwright">ܓܐܘܪܓܝ</reg><orig xml:lang="syr">ܝ ܓ ܪ ܘ ܐ ܓ</orig></choice> ܢܗܘܐ ܫܡܗ ܕܡܪܝܐ ܡܒܪܟ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ܀</quote></p>                    
+                    <p><quote xml:lang="syr">ܐܬܚܦܛ ܘܣܡ ܦܢܩܝܬܐ ܗܕܐ ܡܪܝ ܓܐܘܪܓܝ ܐܦܣܩܘܦܐ ܕܬܘܕܡܪ: ܕܡܢ ܕܝܪܐ ܕܡܪܝ ܡܘܫܐ ܕܝܬܒܐ ܒܛܘܪܐ ܕܡܬܩܪܐ ܪܝܫܐ ܪܒܐ <sic>ܡܢܝܚ</sic> <sic>ܢܦܟܐ</sic> ܩܪܝܬܐ. ܫܘܠܛܢܐ ܕܕܪܡܣܘܩ ܡܛܪܐܦܘܠܝܣ: ܟܠ ܕܫܩܠ ܠܗ ܕܢܩܪܐ ܒܗ: ܘܟܐܝܡ ܥܠܘܗܝ. ܘܠܐ ܡܦܢܐ ܠܗ ܠܡܪ̈ܘܗܝ ܕܐܡܝܪܝܢ: ܢܗܘܐ ܝܕܥ ܕܩܕܡ ܒܝܡ ܕܚܝܠܬܐ ܝܗ̇ܒ ܦܬܓܡܐ: ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠ ܚܛܝܐ ܕܟܬܒ: ܘܡܢ <choice><reg xml:lang="syr" resp="http://syriaca.org/documentation/editors.xml#wwright">ܓܐܘܪܓܝ</reg><orig xml:lang="syr">ܝ ܓ ܪ ܘ ܐ ܓ</orig></choice> ܢܗܘܐ ܫܡܗ ܕܡܪܝܐ ܡܒܪܟ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ܀</quote></p>                    
                   </item>
                   <item n="4" xml:id="addition4">
                     <locus from="1a"/>
@@ -306,7 +306,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2015-04-09" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2015-04-09" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed. <ref target="#addition2"></ref></change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

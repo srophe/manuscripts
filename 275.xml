@@ -9,39 +9,39 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -89,7 +89,7 @@
                 <title ref="" type="supplied"><quote><foreign xml:lang="la">Regulae Monasticae</foreign></quote> of Basil</title>
                 <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܕܐ̈ܚܐ<locus from="1"/></rubric>
                 <finalRubric xml:lang="syr">ܫܠܡܘ. ܫ̈ܘܐܠܐ. ܕܡܪܝ .. ܒܣܝܠܣ. ܐܦܣܩܘܦܐ. ܕܫܐܠܘܗܝ. ܒܕܝܪ̈ܬܗܘܢ̇ .. ܟܕ. ܡܬܟܪܟ. ܘܣܥܪ. ܠܗܘܢ. ܒܕܘܟ̈ܝܬܗܘܢ̇ ܀ ܗܘܐ. ܕܝܢ ܣܟܗܘܢ̇ ܝܬܝܪ .. ܚܣܝܪ. ܬܠܬܡܐܐ. ܘܫܬܝܢ. ܘܬܡܢܝܐ. ܘ ܘ<locus from="113a"/></finalRubric>
-                <note>The final rubric is succeeded by the usual doxology, after which there is a line of half-effaced arithmetical figures, <!-- Need arithmetical figures here! --> , i.e.<foreign xml:lang="syr"> ܢܘܢܐ ܚܛ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܝܐ</supplied></foreign>, <quote>the sinner <persName>Nonnus</persName>.</quote> The Syriac translation follows a different recension of the text.</note>
+                <note>The final rubric is succeeded by the usual doxology, after which there is a line of half-effaced arithmetical figures, <!-- Need arithmetical figures here! --> , i.e.<foreign xml:lang="syr"> ܢܘܢܐ ܚܛ<supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">ܝܐ</supplied></foreign>, <quote>the sinner <persName>Nonnus</persName>.</quote> The Syriac translation follows a different recension of the text.</note>
                 <listBibl>
                   <bibl>Opera (Paris, 1830), t. ii. p. 457</bibl>
                   <bibl>Migne, t. xxxi., col. 889</bibl>
@@ -297,7 +297,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-02-19" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-02-19" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.<ref target="#a1"/></change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

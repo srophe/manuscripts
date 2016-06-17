@@ -9,39 +9,39 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -199,7 +199,7 @@
                 <msItem n="13" xml:id="b12">
                   <locus from="104a" to="108b">Foll. 104a-108b</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">De Theologia <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica secunda</supplied></title>
+                  <title ref="" type="supplied" xml:lang="la">De Theologia <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">theologica secunda</supplied></title>
                   <rubric xml:lang="syr">ܕܡܛܠ ܬܐܘܠܘܓܝܐ<locus from="104a"/></rubric>
                   <note>It ends on fol <locus from="108b">108b</locus> with the words (<bibl>p. 507, C</bibl>) <foreign xml:lang="grc">καὶ τοῦτο τοῦ πονηροῦ τὸ σόφισμα τῷ καλῷ καταχρησαμένου πρὸς τὸ κακὸν, οἶα τὰ πολλὰ τῶν ἐκείνου κακουργημάτων</foreign>.</note>
                   <listBibl>
@@ -276,11 +276,11 @@
                   </item>
                   <item n="2" xml:id="addition2">
                     <locus from="1a"/>
-                    <p>Fol. 1a exhibits a list <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright"><foreign xml:lang="syr">ܫܘܕܥܐ</foreign></supplied> of the above discourses, underneath which are the letters <abbr xml:lang="grc">Ο ΡΡ</abbr>.</p>
+                    <p>Fol. 1a exhibits a list <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright"><foreign xml:lang="syr">ܫܘܕܥܐ</foreign></supplied> of the above discourses, underneath which are the letters <abbr xml:lang="grc">Ο ΡΡ</abbr>.</p>
                   </item>
                   <item n="3" xml:id="addition3">
                     <locus from="10a"/>
-                    <p>On the margin of fol. 10a, there is a note stating that the deacon <persName>Severus</persName> sent this volume to <persName>Michael</persName> the patriarch <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">of <placeName>Antioch</placeName></supplied>, probably the first of the name. Consequently the date of the present lies between A.D. <date notBefore="1167" notAfter="1200" calendar="Gregorian">1167 and 1200</date>.</p>
+                    <p>On the margin of fol. 10a, there is a note stating that the deacon <persName>Severus</persName> sent this volume to <persName>Michael</persName> the patriarch <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">of <placeName>Antioch</placeName></supplied>, probably the first of the name. Consequently the date of the present lies between A.D. <date notBefore="1167" notAfter="1200" calendar="Gregorian">1167 and 1200</date>.</p>
                     <p><quote xml:lang="syr"> ܫܕܪ ܟܬܒܐ ܗܢܐ. ܣܐܘܪ̈ܐ ܡ܏ܫܡ. ܠܩܕܝܫܐ ܡܪܝ ܡܝܟܐܝܠ ܦܐܛܪܝܪܟܐ. ܦܩܘ݂ܕ ܡܪܝ ܐܝܟ ܪ̈ܚܡ̣ܝܟ݂. ܘܨܲܠܐ ܥܠܘܗܝ̣. ܕܢܬܚ̇ܣܐ ܒܨ̈ܠܘܬܟ ܐܡܝܢ  </quote></p> <!-- A shape after word ܐܡܝܢ is missing. -->
                   </item>
                 </list>
@@ -416,7 +416,7 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-03-24" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-03-24" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="question"><ref target="#addition3">Question in Word Doc to be Addressed.</ref></change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

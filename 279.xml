@@ -9,39 +9,39 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dgreeson">Daniel J. Greeson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin A. Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -210,22 +210,22 @@
                 <msItem n="25" xml:id="b22">
                   <locus from="126a" to="129">Foll. 126a-129</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">Adversus <name>Eunomianos</name> <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica prima</supplied></title>
+                  <title ref="" type="supplied" xml:lang="la">Adversus <name>Eunomianos</name> <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">theologica prima</supplied></title>
                 </msItem>
                 <msItem n="26" xml:id="b23">
                   <locus from="129b" to="137">Foll. 129b-137</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">De Filio <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica tertia</supplied></title>
+                  <title ref="" type="supplied" xml:lang="la">De Filio <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">theologica tertia</supplied></title>
                 </msItem>
                 <msItem n="27" xml:id="b24">
                   <locus from="137b" to="145">Foll. 137b-145</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">De Filio <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica quarta</supplied></title>
+                  <title ref="" type="supplied" xml:lang="la">De Filio <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">theologica quarta</supplied></title>
                 </msItem>
                 <msItem n="28" xml:id="b25">
                   <locus from="145b" to="154">Foll. 145b-154</locus>
                   <author ref="http://syriaca.org/person/511"/>
-                  <title ref="" type="supplied" xml:lang="la">De Spiritu Sancto <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">theologica quinta</supplied></title>
+                  <title ref="" type="supplied" xml:lang="la">De Spiritu Sancto <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">theologica quinta</supplied></title>
                 </msItem>
                 <msItem n="29" xml:id="b26">
                   <locus from="154a" to="158">Foll. 154a-158</locus>
@@ -327,7 +327,7 @@
                   <item n="3" xml:id="addition3">
                     <locus from="187b"/>
                     <p>On the margin, opposite lines 3—5 of the <ref target="#addition2">above note</ref>, there are some words, in a different hand, now partially effaced, apparently the names of later owners.</p>
-                    <p><quote xml:lang="syr">. . . ܡܪܝܐ ܬܐܘܡܐ . . . <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ܕܘ</supplied>ܡܝܛܝܘܣ</quote></p> 
+                    <p><quote xml:lang="syr">. . . ܡܪܝܐ ܬܐܘܡܐ . . . <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">ܕܘ</supplied>ܡܝܛܝܘܣ</quote></p> 
                     <p><quote xml:lang="syr">. . . ܩܠܝܬܐ ܕܐܘܣܒ . . . ܦܝܠܠܓܪܝܘܣ  </quote></p>
                   </item>
                   <item n="4" xml:id="addition4">
@@ -337,18 +337,18 @@
                   <item n="5" xml:id="addition5">
                     <locus from="2a"/>
                     <p>On fol. 2a there are some words in the handwriting of one George, a bishop,—apparently a mere trial of the pen:</p>
-                    <p><quote xml:lang="syr"> ܥܠ ܚܝܠܗ ܕܡܪܢ ܘܦܪܘܩـ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">ـܢ ܝܫܘܥ</supplied>  ܡܫܝܚܐ ܡܫܪܝܢܢ ܠܡܟܬܒ ܦܠܓܘܬܐ ܐܚܪܝܬܐ ܕܩܕܝܫܐ   ܓܪܝܘܓܘܪܝܘܣ ܟܬܒ ܓܘܪܓܝܣ ܚܛܝܐ ܒܗܝܡܢ </quote></p> 
+                    <p><quote xml:lang="syr"> ܥܠ ܚܝܠܗ ܕܡܪܢ ܘܦܪܘܩـ<supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">ـܢ ܝܫܘܥ</supplied>  ܡܫܝܚܐ ܡܫܪܝܢܢ ܠܡܟܬܒ ܦܠܓܘܬܐ ܐܚܪܝܬܐ ܕܩܕܝܫܐ   ܓܪܝܘܓܘܪܝܘܣ ܟܬܒ ܓܘܪܓܝܣ ܚܛܝܐ ܒܗܝܡܢ </quote></p> 
                     <p>To which another hand has added:</p>
                     <p><quote xml:lang="syr">ܓܘܪܓܝܣ <sic>ܐܦܝܣܘܦܐ</sic>ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܒܗܝܡܢ. </quote></p>
                   </item>
                   <item n="6" xml:id="addition6">
                     <locus from="2a"/>
-                    <p>Here too is recorded the name of <persName>Rabban Mĕkīm of Edessa</persName>, who possessed the book by inheritance from his <supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">spiritual</supplied> father <persName>Rabban Bar-had-bĕ-shabbā</persName>, the disciple of <persName>Mār Yūhannan <foreign xml:lang="syr">ܢܩ̇ܪ</foreign></persName>.</p>
-                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܪܒܢ ܡܩܝܡ ܕܛܘܪܐ ܕܐܘܪܗܝ ܡܕܝܢܬܐ ܕܐܬܬܓܥܠ ܡܢ ܝܪܬܘܬܐ <choice><corr  resp="http://syriaca.org/editors.xml#wwright">ܕܐܒܘܗܝ</corr><orig>ܕܐܒ̈ܗ݅ܘ݅ܝ</orig></choice>ܪܒܢ ܒܪܚܕܒܫܒܐ ܬܠܡܝܕܐ ܕܡܪܝ ܝܘܚܢܢ ܢܩ̇ܪ ܨ̣ܠܘܬܗ ܬܥܕܪ ܠܢ.</quote></p>
+                    <p>Here too is recorded the name of <persName>Rabban Mĕkīm of Edessa</persName>, who possessed the book by inheritance from his <supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">spiritual</supplied> father <persName>Rabban Bar-had-bĕ-shabbā</persName>, the disciple of <persName>Mār Yūhannan <foreign xml:lang="syr">ܢܩ̇ܪ</foreign></persName>.</p>
+                    <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܪܒܢ ܡܩܝܡ ܕܛܘܪܐ ܕܐܘܪܗܝ ܡܕܝܢܬܐ ܕܐܬܬܓܥܠ ܡܢ ܝܪܬܘܬܐ <choice><corr  resp="http://syriaca.org/documentation/editors.xml#wwright">ܕܐܒܘܗܝ</corr><orig>ܕܐܒ̈ܗ݅ܘ݅ܝ</orig></choice>ܪܒܢ ܒܪܚܕܒܫܒܐ ܬܠܡܝܕܐ ܕܡܪܝ ܝܘܚܢܢ ܢܩ̇ܪ ܨ̣ܠܘܬܗ ܬܥܕܪ ܠܢ.</quote></p>
                   </item>
                   <item n="7" xml:id="addition7">
                     <locus from="1a" to="1b"/>
-                    <p>On fol. 1a there is a note, in the usual form, stating that this was one of the 250 volumes, brought to the <placeName>convent of S. Mary Deipara</placeName> by the abbat <persName>Moses of <placeName>Nisibis</placeName></persName>, A. Gr. <date when-custom="1243" datingMethod="Seleucid">1243</date>, A.D. <date when="0932" calendar="Gregorian">932</date>. On the verso of the same leaf is written the name of <persName xml:lang="grc">ⲤΤΕΦΑΝΟⲤ</persName>, and the word <foreign xml:lang="la">Theologus</foreign>, once in Greek, <foreign xml:lang="grc">ΘΕΩΛΩΓΟ<supplied reason="unknown" resp="http://syriaca.org/editors.xml#wwright">Ⲥ</supplied></foreign>, and twice in Syriac.</p>
+                    <p>On fol. 1a there is a note, in the usual form, stating that this was one of the 250 volumes, brought to the <placeName>convent of S. Mary Deipara</placeName> by the abbat <persName>Moses of <placeName>Nisibis</placeName></persName>, A. Gr. <date when-custom="1243" datingMethod="Seleucid">1243</date>, A.D. <date when="0932" calendar="Gregorian">932</date>. On the verso of the same leaf is written the name of <persName xml:lang="grc">ⲤΤΕΦΑΝΟⲤ</persName>, and the word <foreign xml:lang="la">Theologus</foreign>, once in Greek, <foreign xml:lang="grc">ΘΕΩΛΩΓΟ<supplied reason="unknown" resp="http://syriaca.org/documentation/editors.xml#wwright">Ⲥ</supplied></foreign>, and twice in Syriac.</p>
                   </item>
                   </list>
               </additions>
@@ -484,8 +484,8 @@
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2014-03-24" who="http://syriaca.org/editors.xml#jarnwine">Created: file</change>
-      <change when="2014-05-06" who="http://syriaca.org/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
+      <change when="2014-03-24" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
+      <change when="2014-05-06" who="http://syriaca.org/documentation/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>
       <change type="planned" subtype="missing">Missing @supplied in <ref target="#addition2">addition 2</ref></change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

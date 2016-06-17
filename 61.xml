@@ -9,43 +9,43 @@
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#sulim">Sung Uk Lim</editor>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#sulim">Sung Uk Lim</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#sulim">Sung Uk Lim</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#sulim">Sung Uk Lim</name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#wwright">William Wright</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#thannah">Tucker D. Hannah</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
         </respStmt>
         <respStmt>
           <resp>Greek and coptic text entry and proofreading by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#rstitt">Ryan Stitt</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
-          <name type="org" ref="http://syriaca.org/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -443,7 +443,7 @@
                 <rubric xml:lang="syr"><locus from="55b" to="55b"/>ܡܐܡܪܐ ܕܥܠ ܦܘܢܝܐ [ܕܫܒܝܬܐ ܕܡܢ] ܒܒܠ̣. ܘܥܠ ܫܒ̈ܘܥܐ ܕܕܢܝܐܝܠ. [ܕܥܒܝܕ] ܠܩܫܝܫܐ ܡܪܝ ܫܡܥܘܢ ܢܘܣܩ[ـܘܡܘܣ] ܕܟܣܢܕܟܝܢ ܪܒܬܐ ܕܐܘܪܗܝ.
                 </rubric>
                 <incipit>ܢܐܡܪ ܡܢ ܗܫܐ ܥܠ ܦܘܢܝܐ ܕܫܒܝܬܐ̇ ܕܡܢ ܒܒܠ܇ ܘܥܠ ܒܢܝܢܗ ܕܗܝܟܠܐ ܗ̇ܘ ܕܗܘ̣ܐ ܒܫܢܬ ܬܪ̈ܬܝܢ ܕܕܪܝܘܫ ܡܢ ܙܘܪܒܒܠ. ܘܝܫܘܥ ܒܪ ܝܘܙܕܩ̇. ܘܥܠ ܫܒ̈ܘܥܐ ܗܠܝܢ ܕܕܢܝܐܝܠ܇ ܐܝܟ ܕܐܘܕܥܗ ܡܠܐܟܐ. ܘܡܢܗܘܢ ܢܚܘܐ ܢܗܝܪܐܝܬ݂ ܕܫܠ̣ܡ ܠܗ ܥܠܝܗܘܢ ܙܒܢܐ<sic> ܕܡܕܒܪܢܘܗܘܢ̣</sic>.  
-                  ܒܚܘܪܒܐ ܗ̇ܘ <choice><sic>ܕܐܕܥ</sic><corr resp="http://syriaca.org/editors.xml#wwright">ܕܐܘܕܥ</corr></choice> ܥܠܝܗܘܢ ܕܢܝܐܝܠ ܢܒܝܐ. ܘܕܐܝܠܝܢ ܩܪ̈ܒܐ ܗܘܘ ܥܠܝܗܘܢ̣. ܘܟܡܐ ܒܝ̈ܫ̣ܬܐ ܣܒܠܘ ܡܢ ܡܫܬܒܩܢܘܬܐ ܕܐܠܗܐ ܕܗ̣ܘܬ݁ ܠܘܬܗܘܢ܇ ܡܛܠ ܥܘܼ̈ܠܐ ܘܒܝ̈ܫ̣ܬܐ ܕܡ̈ܠܟܝܗܘܢ ܘܕܟܠܗ ܥܡܐ ܕܝܗ̈ܘܕܝܐ̇. ܗܠܝܢ ܕܒܫܪܒܐ ܕܡܢ ܩܕܡ ܗܢܐ ܚܘܝܢ̣ܢ. ܏ܘܫ
+                  ܒܚܘܪܒܐ ܗ̇ܘ <choice><sic>ܕܐܕܥ</sic><corr resp="http://syriaca.org/documentation/editors.xml#wwright">ܕܐܘܕܥ</corr></choice> ܥܠܝܗܘܢ ܕܢܝܐܝܠ ܢܒܝܐ. ܘܕܐܝܠܝܢ ܩܪ̈ܒܐ ܗܘܘ ܥܠܝܗܘܢ̣. ܘܟܡܐ ܒܝ̈ܫ̣ܬܐ ܣܒܠܘ ܡܢ ܡܫܬܒܩܢܘܬܐ ܕܐܠܗܐ ܕܗ̣ܘܬ݁ ܠܘܬܗܘܢ܇ ܡܛܠ ܥܘܼ̈ܠܐ ܘܒܝ̈ܫ̣ܬܐ ܕܡ̈ܠܟܝܗܘܢ ܘܕܟܠܗ ܥܡܐ ܕܝܗ̈ܘܕܝܐ̇. ܗܠܝܢ ܕܒܫܪܒܐ ܕܡܢ ܩܕܡ ܗܢܐ ܚܘܝܢ̣ܢ. ܏ܘܫ
                   <locus from="55b" to="55b"/>
                 </incipit>
                 <note>The author is perhaps the same Simeon who was, against his own wish, elected bishop of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>,<date when="0761" calendar="Gregorian">A.D. 761</date>, </note>
@@ -1108,12 +1108,12 @@
     </textClass>
   </profileDesc>
     <revisionDesc>
-      <change when="2012-11-13" who="http://syriaca.org/editors.xml#thannah">Created: file</change>
-      <change when="2013-11-09" who="http://syriaca.org/editors.xml#thannah">Initial edit: Updated much of the coding, split former Part 6 into new Part 6 and 7</change>
-      <change when="2014-04-07" who="http://syriaca.org/editors.xml#jarnwine">Moved colophon to its respective a-level item.</change>
-      <change when="2014-04-08" who="http://syriaca.org/editors.xml#jarnwine">Changed colophon to colophon incertus in p7addition1.</change>
-      <change when="2014-08-06" who="http://syriaca.org/editors.xml#sulim">Created: <ref target="#Part4">part 4</ref></change>
-      <change when="2014-09-22" who="http://syriaca.org/editors.xml#jarnwine">Proofread and general edits to <ref target="#Part4">part 4</ref>.</change>
+      <change when="2012-11-13" who="http://syriaca.org/documentation/editors.xml#thannah">Created: file</change>
+      <change when="2013-11-09" who="http://syriaca.org/documentation/editors.xml#thannah">Initial edit: Updated much of the coding, split former Part 6 into new Part 6 and 7</change>
+      <change when="2014-04-07" who="http://syriaca.org/documentation/editors.xml#jarnwine">Moved colophon to its respective a-level item.</change>
+      <change when="2014-04-08" who="http://syriaca.org/documentation/editors.xml#jarnwine">Changed colophon to colophon incertus in p7addition1.</change>
+      <change when="2014-08-06" who="http://syriaca.org/documentation/editors.xml#sulim">Created: <ref target="#Part4">part 4</ref></change>
+      <change when="2014-09-22" who="http://syriaca.org/documentation/editors.xml#jarnwine">Proofread and general edits to <ref target="#Part4">part 4</ref>.</change>
     </revisionDesc>
 </teiHeader>
   <facsimile>
