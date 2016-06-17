@@ -1339,7 +1339,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-01-27" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file <ref target="#Part1">part 1</ref></change>
       <change when="2014-02-28" who="http://syriaca.org/documentation/editors.xml#kkotewall">Created: file <ref target="#Part2">part 2</ref></change>
       <change when="2015-01-27" who="http://syriaca.org/documentation/editors.xml#jnquiroz">Created: file <ref target="#Part3">part 3</ref></change>

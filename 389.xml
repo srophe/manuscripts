@@ -882,7 +882,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2014-02-06" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change when="2015-04-20" who="http://syriaca.org/documentation/editors.xml#jarnwine">Completed: file</change>
       <change type="planned" subtype="coptic">Add in missing Coptic characters. <ref target="#p2addition2"/></change>

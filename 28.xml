@@ -659,7 +659,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2014-03-13" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change when="2014-04-10" who="http://syriaca.org/documentation/editors.xml#jarnwine">Wrapped Caesaria in persName</change>
       <change when="2014-05-06" who="http://syriaca.org/documentation/editors.xml#jarnwine">Added @syriaca-tags to describe colophon.</change>

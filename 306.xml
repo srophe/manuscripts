@@ -358,7 +358,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2014-02-05" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

@@ -993,7 +993,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-03-30" who="http://syriaca.org/documentation/editors.xml#pgmiller">Created: file <ref target="#Part4 #Part5">Part 4 and Part 5</ref></change>
       <change when="2015-04-08" who="http://syriaca.org/documentation/editors.xml#jnquiroz">Edited: file <ref target="#Part4 #Part5">Part 4 and Part 5</ref></change>
       <change when="2015-04-21" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created shell for Peter's files</change>

@@ -257,7 +257,7 @@
       <!-- in this section it would be possible to include references to genre or library classifications-->
     </textClass>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc status="draft">
     <change when="2011-08-04">
       <persName>David Michelson</persName>, <persName>Elizabeth Walston</persName>, and <persName>Robert Aydin</persName></change>
   </revisionDesc>

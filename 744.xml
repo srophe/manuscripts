@@ -300,7 +300,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2013-08-05" who="http://syriaca.org/documentation/editors.xml#dgreeson">Created: file</change>
       <change when="2013-12-27" who="http://syriaca.org/documentation/editors.xml#thannah">Initial edit: rearranged msItems, condition, and handNotes</change>
     </revisionDesc>

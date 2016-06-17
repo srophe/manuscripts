@@ -476,7 +476,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-04-14" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures <ref target="#Part1">under collation in Part 1</ref>.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>

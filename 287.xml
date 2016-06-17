@@ -282,7 +282,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-04-07" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>

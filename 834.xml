@@ -768,7 +768,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2014-01-09" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created: file</change>
       <change when="2014-04-08" who="http://syriaca.org/documentation/editors.xml#jarnwine">Deleted extraneous items in additions and msItems. Checked that colophon is reflected in the ref.</change>
       <change when="2014-05-07" who="http://syriaca.org/documentation/editors.xml#jarnwine">Added @syriaca-tags to describe colophon</change>

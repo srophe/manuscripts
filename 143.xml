@@ -723,7 +723,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2013-08-05" who="http://syriaca.org/documentation/editors.xml#dgreeson">Created: file <ref target="#Part1 #Part2 #Part3">Parts 1 through 3</ref></change>
       <change when="2013-12-12" who="http://syriaca.org/documentation/editors.xml#thannah">Initial edit: Cleaned up loci and additions in first three msParts.</change>
       <change when="2014-04-07" who="http://syriaca.org/documentation/editors.xml#jarnwine">Deleted mislabeled colophon on the basis that addition1 is too uncertain to be classified.</change>
