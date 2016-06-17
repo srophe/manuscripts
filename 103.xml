@@ -46,7 +46,7 @@
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
         <idno type="URI"
-          >http://syriaca.org/manuscript/103/source</idno>
+          >http://syriaca.org/manuscript/103/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">

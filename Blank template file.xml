@@ -51,7 +51,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript in this spot. Use the URI for the whole -->/source</idno>
+        <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript in this spot. Use the URI for the whole -->/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
