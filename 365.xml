@@ -4,23 +4,28 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14427</title>
-        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <title xml:lang="en">BL ADD MS 14625 </title>
+                <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
         <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#pgmiller">Peter G. Miller</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#kgoins">Kimberly Goins</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#pgmiller">Peter G. Miller</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#kgoins">Kimberly Goins</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#pgmiller">Peter G. Miller</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -45,7 +50,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/83/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/365/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -55,111 +60,152 @@
         <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-83" xml:lang="en">
+        <msDesc xml:id="manuscript-365" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/83</idno>
+            <idno type="URI">http://syriaca.org/manuscript/365</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14427</idno>
+              <idno type="BL-Shelfmark">Add MS 14625 </idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">4</idno>
+              <idno type="Wright-BL-Arabic">681</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">IV</idno>
+              <idno type="Wright-BL-Roman">DCLXXXI</idno>
             </altIdentifier>
           </msIdentifier>
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
-                <locus from="1" to="95">foll. 1-95</locus>
-                <title ref="http://syriaca.org/work/68" type="supplied">Part of the Pentateuch, according to the Peshitta version</title>
-              <msItem n="2" xml:id="b1" defective="true">
-                <locus from="1a" to="28">1a-28</locus>
-                <title ref="http://syriaca.org/work/3" type="supplied">Leviticus</title>
-                <finalRubric xml:lang="syr"> ܫܠܡ . ܕܟܗ̈ܢܐ . ܣܦܪܐ . ܕܬܠܬܐ . ܕܐܘܪܝܬܐ . 
-                  <locus from="28" to="28"/>
-                </finalRubric>
-              </msItem>
-                <msItem n="3" xml:id="b2" defective="false">
-                  <locus from="28b" to="67">foll. 28b-67</locus>
-                  <title ref="http://syriaca.org/work/4" type="supplied">Numbers</title>
-                  <rubric xml:lang="syr">ܡܢܝܢܐ . ܣܦܪܐ . ܕܐܪ̈ܒܥܐ . ܕܐܘܪܝܬܐ 
-                    <locus from="28b" to="28b"/>
-                  </rubric>
-                  <finalRubric xml:lang="syr">ܫܠܡ . ܡܢܝܢܐ . ܣܦܪܐ . ܕܐܪܒܥܐ . ܕܐܘܪܝܬܐ.
-                    <locus from="67" to="67"/>
-                  </finalRubric>
+                 <locus from="1" to="144">foll. 1-144 </locus>
+                <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                <title type="supplied">The Discourses of Philoxenus of Mabug on Christian Life and Character</title>
+               <msItem n="2" xml:id="b1" defective="true">
+                <locus from="1" to="2">Foll.1-2</locus>
+                  <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                <title type="supplied">A single leaf from disc 2</title>
+               </msItem>               
+              <msItem n="3" xml:id="b2" defective="true">
+                  <locus from="2a" to="8a">foll. 2a-8a</locus>
+                  <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                  <title type="supplied">Disc 4</title>
+                  <note>Imperfect at the beginning</note>
+               </msItem>
+               <msItem n="4" xml:id="b3" defective="true">
+                      <locus from="8b" to="21">foll. 8b-21</locus>
+                      <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                        <title type="supplied">Disc 5</title>
+                      <note>Imperfect at the end</note>
+               </msItem>
+               <msItem n="5" xml:id="b4" defective="true">
+                          <locus from="21a" to="32">foll. 21a-32</locus>
+                          <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                            <title type="supplied">Disc 6</title>
+                          <note>Imperfect at the beginning</note>
+               </msItem>   
+               <msItem n="6" xml:id="b5" defective="true">
+                                <locus from="32a" to="43">foll. 32a-43</locus>
+                                <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                                <title type="supplied">Disc 7</title>
                 </msItem>
-            <msItem n="4" xml:id="b3" defective="true">
-                 <locus from="67b" to="95">foll. 67b-95</locus>
-                 <title ref="http://syriaca.org/work/5" type="supplied">Deuteronomy</title>
-                 <rubric xml:lang="syr"> ܬܢܝܢܐ . ܕܢܡܘܣܐ . ܣܦܪܐ . ܕܚܡܫܐ . ܕܐܘܪܝܬܐ.
-                      <locus from="67b" to="67b"/>
-                </rubric>  
-                </msItem>
-              </msItem>
+                <msItem n="7" xml:id="b6" defective="true">
+                            <locus from="43a" to="54a">foll. 43a-54a</locus>
+                            <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                            <title type="supplied">Disc 8</title>
+                 </msItem>
+                 <msItem n="8" xml:id="b7" defective="true">
+                       <locus from="54b" to="75a">foll. 54b-75a</locus>
+                       <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                       <title type="supplied">Disc 9</title>
+                       <note>imperfect</note>
+                 </msItem>
+                 <msItem n="9" xml:id="b8" defective="true">
+                       <locus from="75b" to="98">foll 75b-98</locus>
+                       <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                       <title type="supplied">Disc 10</title>
+                    </msItem>
+                     <msItem n="10" xml:id="b9" defective="true">
+                          <locus from="98a" to="122a">foll. 98a-122a</locus>
+                          <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                          <title type="supplied">Disc 11</title>
+                    </msItem>
+                  <msItem n="11" xml:id="b10" defective="true">
+                         <locus from="122b" to="135">foll. 122b-135</locus>
+                         <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                         <title type="supplied">Disc 12</title>
+                         <note>Imperfect at the end</note>
+                  </msItem>
+                  <msItem n="12" xml:id="b11" defective="true">
+                        <locus from="135a" to="144">foll. 135a-144</locus>
+                        <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                        <title type="supplied">Disc 13</title>
+                        <note>imperfect at the beginning and elsewhere</note>
+                   </msItem>
+              </msItem>     
             </msContents>
             <physDesc>
-              <objectDesc form="codex">
+              <objectDesc form="other">
                 <supportDesc material="perg">
                   <support>
                     <material>Vellum</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="95">95 ff.</measure>
+                    <measure type="composition" unit="leaf" quantity="144">144 ff. </measure>
                     <dimensions type="leaf" unit="in">
                       <height>
-                        <measure type="height" quantity="13.875" unit="in">13 7/8 in.</measure>
+                        <measure type="height" quantity="11.75" unit="in">11 3/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="10.25" unit="in">10 1/4 in.</measure>
+                        <measure type="width" quantity="9" unit="in">9</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"></foliation>
+                  <foliation type="ancient">From the commencement as far as <locus to="121">fol. 121</locus>, the pages are numbered by the hand of the scribe, the verso of each leaf being marked with its appropriate letter or letters</foliation>
                   <collation>
-                    <p>The quires are signed with the Syriac arithmetical figures (see <locus>foll. 10, 20</locus>, etc.).</p>
+                    <p>the quires signed with both Greek (Coptic) and Syriac letters were originally 21 in number but of the first three only a single leaf remains</p>
                   </collation>
                   <condition>
                     <list>
                       <item>
-                        <p>No less than nine quires and a leaf are missing at the beginning of the volume; and the last two quires are imperfect, leaves being wanting after <locus>foll. 88, 89, and 95</locus>.</p>
-                      </item>
-                      <item>
-                        <p>The following portions of the text are wanting. At the beginning, besides the books of Genesis and Exodus, Levit. i. 1 — iii. 6; after <locus>fol. 88</locus>, Deut. xxii. 19 —xxvii. 19; after <locus>fol. 89</locus>, Deut. xxviii. 26 —xxix.13; and after <locus>fol. 95</locus>, Deut. xxxiv. 9 to the end.</p>
+                        <p>Of 144 leaves, some are much stained and torn, especially <locus>1, 132-137, and 144</locus>; there are lacunae of greater or less extent after<locus> foll. 20, 60, 131, 134, 135, 137, 143, and 144</locus></p>
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="2" writtenLines="29 33">
-                    <p>Each page is divided into two columns, of from 29 to 33 lines.</p>
+                  <layout columns="2" writtenLines="29 34">
+                        <p>Each page is divided into two columns of from 29 to 34 lines</p>
                   </layout>
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="2">
-                <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The character is a large and beautiful Estrangela of the vith cent. </desc>
-                </handNote>
-                <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>Vowels have been added in a few cases by later hands. </desc>
+              <handDesc hands="1">
+                <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
+                  <desc>This volume is written in a good regular hand of about the xth century</desc>
                 </handNote>
               </handDesc>
-              <decoDesc/>
+              <decoDesc>
+                <decoNote xml:id="decoNote1" type="ornamentation">
+                     <p>This manuscript is remarkable for the ornaments and illuminations at the commencement of each discourse as well as at the top of the first and last leaves of each quire. They are executed in the, Coptic style, so that the manuscript must be of Egyptian origin, and was probably written in the <placeName ref="http://syriaca.org/place/289">Nitrian</placeName> desert</p>
+                </decoNote>
+              </decoDesc>
               <additions/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="0500" notAfter="0600">The character is a large and beautiful Estrangela of the vith cent. </origDate>
+                <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
+                <origPlace><placeName ref="http://syriaca.org/place/289">Nitrian desert</placeName></origPlace>
               </origin>
-              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
+               <provenance/>
+              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -167,8 +213,6 @@
                   <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist/>
-                <note/>
               </adminInfo>
               <listBibl>
                 <bibl xml:id="Wright">
@@ -177,8 +221,8 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry">IV</citedRange>
-                  <citedRange unit="pp">I:5-6</citedRange>
+                  <citedRange unit="entry">DCLXXXI</citedRange>
+                  <citedRange unit="pp">II: 532</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -271,28 +315,16 @@
         </langUsage>
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
-        <list>
+             <list>
           <item>
-            <ref target="bible-ot"/>       
+            <ref target="theo-single"/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc>
-      <change when="2015-09-22" who="http://syriaca.org/documentation/editors.xml#pgmiller">Created: file</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="vocalization">Enter vocalization.</change>
-      <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="table">Table to be revised.</change>
-      <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encodedinto an historical reconstruction of a no longer extant manuscript..</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
+      <change when="2016-02-10" who="http://syriaca.org/documentation/editors.xml#kgoins">Created: file</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
