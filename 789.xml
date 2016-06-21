@@ -397,7 +397,7 @@
         </keywords>
       </textClass>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-05-15" who="http://syriaca.org/documentation/editors.xml#kkotewall">Created: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>

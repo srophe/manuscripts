@@ -340,7 +340,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-03-30" who="http://syriaca.org/documentation/editors.xml#?">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
     </revisionDesc>

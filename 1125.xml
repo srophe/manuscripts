@@ -794,7 +794,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-02-16" who="http://syriaca.org/documentation/editors.xml#?">Created: file</change>
       <change type="planned" subtype="vocalization">Enter vocalization.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>

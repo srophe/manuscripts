@@ -311,7 +311,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-05-06" who="http://syriaca.org/documentation/editors.xml#kgoins">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
           </revisionDesc>
   </teiHeader>

@@ -726,7 +726,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-02-10" who="http://syriaca.org/documentation/editors.xml#pgmiller">Created: file</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
       <!-- Needs a check on Julius of Rome's URI -->

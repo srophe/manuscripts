@@ -711,7 +711,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-10-01" who="http://syriaca.org/documentation/editors.xml#pgmiller">Created: file</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed.</change></revisionDesc>
   </teiHeader>

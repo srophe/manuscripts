@@ -680,7 +680,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-03-03" who="http://syriaca.org/documentation/editors.xml#pbell">Created: file</change>
       <change when="2016-03-03" who="http://syriaca.org/documentation/editors.xml#pgmiller">Edited: file</change>
       <change type="planned" subtype="reconstruction">One or more msParts need to be encoded into an historical reconstruction of a no longer extant manuscript..</change>

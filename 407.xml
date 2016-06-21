@@ -335,7 +335,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-02-08" who="http://syriaca.org/documentation/editors.xml#downins">Created: file</change>
       <change when="2016-03-03" who="http:/.syriaca.org/editors.xml#pgmiller">Edited: files</change>
       <change type="planned" subtype="uri">Needs Addition of work URIs.</change>

@@ -652,7 +652,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-01-04" who="http://syriaca.org/documentation/editors.xml#pgmiller">Created: file</change>
       <change type="planned" subtype="missing">Missing various unspecified things.</change>
     </revisionDesc>

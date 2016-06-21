@@ -425,7 +425,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-10-19" who="http://syriaca.org/documentation/editors.xml#pgmiller">Created: file</change>
       <change type="planned" subtype="reconstruction">One or more msParts need to be encoded into an historical reconstruction of a no longer extant manuscript..</change>
       </revisionDesc>

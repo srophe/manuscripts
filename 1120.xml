@@ -856,7 +856,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2016-02-05" who="http://syriaca.org/documentation/editors.xml#pgmiller">Created: file</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
       <!--Syriac characters need some revision -->

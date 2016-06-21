@@ -520,7 +520,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-12-29" who="http://syriaca.org/documentation/editors.xml#?">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
     </revisionDesc>
   </teiHeader>

@@ -323,7 +323,7 @@
         </keywords>
       </textClass>
       </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2015-11-04" who="http://syriaca.org/documentation/editors.xml#sdowning">Created: file</change>
     </revisionDesc>
   </teiHeader>
