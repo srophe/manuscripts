@@ -1,0 +1,295 @@
+<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">BL Add 17213</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#emjohnson">Erin Minta Johnson</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#emjohnson">Erin Minta Johnson</name>
+        </respStmt>
+        <respStmt>
+        <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+        </respStmt>
+        <respStmt>
+          <resp>Syriac text entered by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project management by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
+        </respStmt>
+        <respStmt>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+      </editionStmt>
+      <publicationStmt>
+        <pubPlace/>
+        <authority>Syriaca.org: The Syriac Reference Portal </authority>
+        <idno type="URI">http://syriaca.org/manuscript/<!-- TBD Insert the Syriaca.org URI number for the entire manuscript in this spot. --><!--not sure what the work URI for this would be. -->/source</idno>
+        <availability>
+          <p/>
+          <licence target="http://creativecommons.org/licenses/by/3.0/">
+            <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+          </licence>
+        </availability>
+        <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-" xml:lang="en">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/<!-- Insert the Syriaca.org URI number here --></idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 17213--></idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">527</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DXXVII</idno>
+            </altIdentifier>
+          </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="a1" defective="true">
+                <locus from="4" to="5">Foll. 4-5</locus>
+                <author ref="http://syriaca.org/person/480" type="uniform">Eusebius of Caesarea</author>
+                <title ref="" type="supplied">Part of the Epistle of <listPerson><person ref="http://syriaca.org/person/480"><persName>Eusebius of Caesarea</persName></person></listPerson> to <persName>Carpianus</persName></title>
+                <rubric xml:lang="syr">
+                  <locus from="" to=""/>
+                </rubric>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr"/>
+                <explicit xml:lang="syr"/>
+                <finalRubric xml:lang="syr-Syre">ܫܠ̣ܡܬ ܐܓܪܬܐ ܕܟܬ̣ܒ ܐܘܣܒܝܣ̣ ܠܩܪܦܝܢܘܣ̣. ܥܠ ܦܘܫܩܐ ܕܩ̈ܢܘܢܐ. 
+                  <locus from="" to=""/>
+                </finalRubric>
+                <colophon/>
+                <note></note>
+                <listBibl/>
+              </msItem>
+              <msItem n="2" xml:id="a2" defective="true">
+                <locus from="4" to="5">Foll. 4-5</locus>
+                <author ref="http://syriaca.org/person/480" type="uniform">Eusebius of Caesarea</author>
+                <title ref="http://syriaca.org/work/" & B148" type="supplied">The Eusebian canons</title>
+                <!-- not sure if the "B148" should go before the previous quotation marks -->
+                <rubric xml:lang="syr-syre"/>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr"/>
+                <explicit xml:lang="syr"/>
+                <finalRubric xml:lang="syr"/>
+                <colophon/>
+                <listBibl/>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="leaf">
+                <supportDesc material="perg">
+                  <support>
+                    <material/>
+                  </support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity="2">2 ff.</measure>
+                    <dimensions/>
+                  </extent>
+                  <foliation type="ancient"/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Two vellum leaves, both much mutilated.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="" writtenLines=""/>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="handNote1" scope="sole" script="syr-syre" medium="unknown">
+                  <desc> The writing is a line, regular Estrangela of the <date when="notBefore="0500" notAfter="0600"">vith cent.</date></desc>
+                </handNote>
+              </handDesc>
+              <decoDesc>
+                <decoNote xml:id="decoNote1" type="" medium=""/>
+              <additions>
+                <p/>
+                <list>
+                  <item n="1" xml:id="addition1"/>
+              <bindingDesc/>
+              <sealDesc/>
+              <accMat/>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate "notBefore="0500" notAfter="0600">The writing is a line, regular Estrangela of the VIth century.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <custodialHist/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wright">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DXXVII</citedRange>
+                  <citedRange unit="pp">II:401</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p>Description is based on Wright's Catalogue without consultation of physical
+            manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+            those have been assumed based on beginning folia.</p>
+          <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+            have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+            of the manuscript.</p>
+          <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+            as possible, including tables of contents and indices.</p>
+        </interpretation>
+      </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+              <bibl><ref target="#Wright"/><ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/></bibl>
+            <category xml:id="biblical-manuscripts">
+              <category xml:id="bible-ot"/>
+              <category xml:id="bible-nt"/>
+              <category xml:id="bible-apocrypha"/>
+              <category xml:id="bible-punctuation"/>
+            </category>
+            <category xml:id="service-books">
+              <category xml:id="psalter"/>
+              <category xml:id="lectionaries"/>
+              <category xml:id="missals"/>
+              <category xml:id="sacerdotals"/>
+              <category xml:id="choral"/>
+              <category xml:id="hymns"/>
+              <category xml:id="prayers"/>
+              <category xml:id="funerals"/>
+            </category>
+            <category xml:id="theology">
+              <category xml:id="theo-single"/>
+              <category xml:id="theo-collected"/>
+              <category xml:id="theo-catenae"/>
+              <category xml:id="theo-anonymous"/>
+              <category xml:id="theo-council"/>
+            </category>
+            <category xml:id="wright-history">
+              <category xml:id="history"/>
+            </category>
+            <category xml:id="lives">
+              <category xml:id="lives-collect"/>
+              <category xml:id="lives-single"/>
+            </category>
+            <category xml:id="scientific-lit">
+              <category xml:id="sci-logic"/>
+              <category xml:id="sci-grammar"/>
+              <category xml:id="sci-ethics"/>
+              <category xml:id="sci-medicine"/>
+              <category xml:id="sci-agriculture"/>
+              <category xml:id="sci-chemistry"/>
+              <category xml:id="sci-natural-history"/>
+            </category>
+            <category xml:id="wright-fly-leaves">
+              <category xml:id="fly-leaves"/>
+            </category>
+            <category xml:id="appendices">
+              <category xml:id="appendix-a"/>
+              <category xml:id="appendix-b"/>
+            </category>
+          </taxonomy>
+        </classDecl>
+    </encodingDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="syr">Unvocalized Syriac of any variety or period</language>
+          <language ident="syr-Syre">Syriac in Estrangela</language>
+          <language ident="syr-Syrj">Vocalized West Syriac</language>
+          <language ident="syr-Syrn">Vocalized East Syriac</language>
+          <language ident="syr-x-syrm">Melkite Syriac</language>
+          <language ident="syr-x-syrp">Palestinian Syriac</language>
+          <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+          <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+          <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+          <language ident="en">English</language>
+          <language ident="ar">Arabic</language>
+          <language ident="fr">French</language>
+          <language ident="de">German</language>
+          <language ident="la">Latin</language>
+          <language ident="grc">Ancient Greek</language>
+          <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+        <list>
+          <item>
+            <ref target="#theology"/>       
+          </item>
+        </list>
+        </keywords>
+      </textClass>
+      </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2014-02-02" who="http://syriaca.org/documentation/editors.xml#emjohnson">Created: file</change>
+      <change type="planned" subtype="uri">Needs Addition of work URIs.</change>
+      </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic/>
+    </facsimile>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
+

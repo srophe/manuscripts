@@ -1,0 +1,142 @@
+<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <funder/>
+        <principal/>
+      </titleStmt>
+      <publicationStmt>
+        <pubPlace/>
+        <date calendar="Gregorian"/>
+        <!--Decide on Publication Statement-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriaca.org" xml:lang="en">
+          <msIdentifier>
+            <country>Turkey</country>
+            <settlement>Mardin</settlement>
+            <institution>Fourty Martyrs Church of Mardin</institution>
+            <repository>Library of the Church of the Fourty Martyrs</repository>
+            <collection>12/1</collection>
+            <idno>CFMM 00012</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Biblical Manuscripts: Old Testament</summary>
+            <textLang mainLang="syr" otherLangs="ara">Syriac and Arabic Diglot</textLang>
+            <msItem n="1" xml:id="a1">
+              <locus from="2a" to="135b">foll. 2a-135b</locus>
+              <title key=""  type="supplied">The Book of Psalms with Arabic Translation</title>
+              <title key=""  type="supplied" xml:lang="syr">ܟܬܒܐ ܕܕܘܝܕ</title>
+              <!-- Need our URI key and ref tags here -->
+              <listBibl>
+                <bibl>
+                  <ref/>
+                </bibl>
+              </listBibl>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+                <support><material>Paper</material></support>
+                <extent>ff. 136<dimensions type="leaf" unit="cm">
+                  <height>22 cm</height>
+                  <width>16 cm</width>
+                  <depth>2 cm</depth>
+                </dimensions>
+                  <dimensions type="written" unit="cm">
+                    <height/>
+                    <width/>
+                  </dimensions>
+                </extent>
+                <foliation xml:id="ancient">
+                  <locus from="1" to="136">1-136</locus>
+                  <p/>
+                </foliation>
+                <foliation xml:id="modern">
+                   <locus/>
+                  <p/>
+                </foliation>
+                <collation>
+                  <p/>
+                  <seg n="1" type="gathering">
+                    <locus from="1" to="136">Foll. 1-136</locus>
+                    <formula/>
+                  </seg>
+                </collation>
+                <condition>
+                  <list>
+                    <item>
+                      <p>A few original folios are missing at the beginning and end
+                      </p>
+                    </item>
+                    <item>
+                      <p> Begins with Ps. 48 and ends with Ps. 149</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="2">
+                  <p>One column is in Syriac (Serto), and the other is in Arabic</p>
+                  <locus from="1a" to="136b">ff. 1a-136b</locus>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handnote1" scope="major" script="mixed" medium="unknown">
+                <p>Serto, Arabic</p>
+              </handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <summary/>
+            <origin>
+              <origDate>Unknown</origDate>
+            </origin>
+            <provenance/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>Manuscript description based on Hill Museum and Manuscript Library's OLIVER project</source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy> </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <!--Alisdair's addition of categories-->
+    <profileDesc>
+      <textClass> </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change>
+        <persName/>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- facsimile information about the manuscript -->
+    <graphic/>
+    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
+      elements to give coordinates for any special areas of interest -->
+  </facsimile>
+  <text>
+    <body>
+      <!-- If you had a transcription of the manuscript you would put it here -->
+      <p/>
+    </body>
+  </text>
+</TEI>

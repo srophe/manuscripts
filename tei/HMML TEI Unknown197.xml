@@ -1,0 +1,242 @@
+<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt/>
+      <sourceDesc>
+        <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+          <msIdentifier>
+            <country>United States of America</country>
+            <settlement>Collegeville, Minnesota</settlement>
+            <institution>HMML</institution>
+            <repository>Hill Museum Manuscript Library</repository>
+            <collection>Kacmarcik Ms. 11</collection>
+            <idno>Unknown 197?</idno>
+          </msIdentifier>
+          <msPart n="1" xml:id="Part1">
+            <altIdentifier type="internal">
+              <collection>Kacmarcik Ms. 11</collection>
+              <idno/>
+            </altIdentifier>
+            <msContents>
+              <textLang mainLang="la" otherLangs="">Latin</textLang>
+              <msItem n="1" xml:id="part1a1">
+                <locus>i+61ff</locus>
+                <author ref="http://viaf.org/viaf/88125532">Albertus Magnus, St., bp of Ratisbon
+                  (1193-1280)</author>
+                <title type="supplied" xml:lang="la">Liber de apprehensione.</title>
+                <incipit xml:lang="la">De apprehensione ac apprehensionis modis seu
+                  diversitatibus</incipit>
+                <explicit xml:lang="la">...vir ingenio acutus moribus gravis et vita
+                  bonus.</explicit>
+                <note>The text is followed by Tabula dialogi.</note>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="chart">
+                  <support>
+                    <material>Paper</material>
+                  </support>
+                  <extent> 1+61 ff. <dimensions>12 x 8 inches; 33 cm</dimensions>
+                  </extent>
+                </supportDesc>
+                <layoutDesc>
+                  <layout>
+                    <p>Printed work, 2 cols, 32 lines each. Copiously annotated.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origPlace>Leipzig</origPlace>
+                <origDate>16th century</origDate>
+                <origDate>August 1511</origDate>
+              </origin>
+            </history>
+            <additional>
+              <adminInfo>
+                <note>Printer: Wolfgang Monacensis, Leipzig (1511). A pencilled note inside the
+                  front cover gives the date 1505. Owner, ir:</note>
+              </adminInfo>
+            </additional>
+          </msPart>
+          <msPart n="2" xml:id="Part2">
+            <altIdentifier type="internal">
+              <collection>Kacmarcik Ms. 11</collection>
+              <idno/>
+            </altIdentifier>
+            <msContents>
+              <textLang mainLang="la">Latin</textLang>
+              <msItem n="1" xml:id="part2a1">
+                <locus>i+125ff</locus>
+                <author>Pelbartus de Temesvar, OFM (ca. 1430-1504)</author>
+                <title type="supplied" xml:lang="la">Stellarium coronae benedictae Mariae virginis
+                  in laudem eius pro singulis praedicationibus elegantissime coaptatum</title>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="chart">
+                  <support>
+                    <material>Paper</material>
+                  </support>
+                  <extent> i+125 ff. 
+                    <dimensions>12 x 8 inches; 33 cm</dimensions>
+                  </extent>
+                </supportDesc>
+                <layoutDesc>
+                  <layout>
+                    <p>Printed work. 2 cols, 67 lines each. Glosses and marginal notes.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origPlace>Augsburg</origPlace>
+                <origDate>16th century</origDate>
+                <origDate>1502</origDate>
+              </origin>
+            </history>
+            <additional>
+              <adminInfo>
+                <note>Printer: Johannes Schönsperger. Verso, title page: Liber magistri Petri
+                  Meyers emptus Herbipoli anno 1503 In die sancte Kathrine octo solidis
+                  herbii.</note>
+              </adminInfo>
+            </additional>
+          </msPart>
+          <msPart n="3" xml:id="Part3">
+            <altIdentifier type="internal">
+              <collection>Kacmarcik Ms. 11</collection>
+              <idno/>
+            </altIdentifier>
+            <msContents>
+              <summary>Latin Theological Text by Albertu Magnus, St., bp of Ratisbon (attributed)
+                and Poem</summary>
+              <textLang mainLang="la" otherLangs="de">Latin and German</textLang>
+              <msItem n="1" xml:id="part3a1">
+                <locus from="1a" to="21b">1-21 ff.</locus>
+                <author>Albertu Magnus, St., bp of Ratisbon</author>
+                <author>Anonymous</author>
+                <title key="" type="supplied" xml:lang="">De sensu et sensato, with prologue by
+                  unidentified author</title>
+                <title key="" type="supplied" xml:lang="la">De sensu et sensato</title>
+              </msItem>
+              <msItem n="2" xml:id="part3a2">
+                <locus from="21b" to="21b">f. 21b</locus>
+                <title key="" type="supplied" xml:lang="">Poem</title>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="chart">
+                  <support>
+                    <material>Paper</material>
+                  </support>
+                  <extent> 21 ff. <dimensions type="leaf" unit="in">
+                      <height>12 in.</height>
+                      <width>8 in.</width>
+                    </dimensions>
+                  </extent>
+                  <foliation xml:id="ancient">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <foliation xml:id="modern">
+                    <locus/>
+                    <p/>
+                  </foliation>
+                  <collation>
+                    <p/>
+                    <seg n="1" type="gathering">
+                      <locus from="" to=""/>
+                      <formula/>
+                    </seg>
+                  </collation>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Unnumerated. Copious marginal and interlinear notes.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="1" writtenLines="32">
+                    <locus from="" to=""/>
+                    <p>1 col., 23 lines each.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="2">
+                <handNote xml:id="handnote1" scope="major" script="unknown" medium="unknown">
+                  <p>Latin</p>
+                </handNote>
+                <handNote xml:id="handnote2" scope="major" script="unknown" medium="unknown">
+                  <p>Latin and German</p>
+                </handNote>
+              </handDesc>
+              <additions>
+                <list>
+                  <item>
+                    <p>ff. 2-15: blue and red ink used for chapter headings and first words of
+                      paragraphs. Following f. 15b chapter headings, text, notes, and art work were
+                      left unfinished.</p>
+                  </item>
+                </list>
+              </additions>
+            </physDesc>
+            <history>
+              <summary/>
+              <origin>
+                <origDate notBefore="1600" notAfter="1700">16th century</origDate>
+              </origin>
+              <provenance> </provenance>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on Hill Museum and Manuscript Library's
+                    OLIVER project</source>
+                </recordHist>
+              </adminInfo>
+              <listBibl>
+                <bibl/>
+              </listBibl>
+            </additional>
+          </msPart>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy> </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <!--Alisdair's addition of categories-->
+    <profileDesc>
+      <textClass> </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change>
+        <persName/>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- facsimile information about the manuscript -->
+    <graphic/>
+    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
+      elements to give coordinates for any special areas of interest -->
+  </facsimile>
+  <text>
+    <body>
+      <!-- If you had a transcription of the manuscript you would put it here -->
+      <p/>
+    </body>
+  </text>
+</TEI>
