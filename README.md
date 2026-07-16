@@ -1,3 +1,5 @@
+2026-07-16: Archiving this repository as no longer needed. British Library manuscripts data may be found in the [srophe/britishLibrary-data](https://github.com/srophe/britishLibrary-data/) repository.
+
 manuscripts
 ===========
 
